@@ -1,0 +1,10 @@
+venvmngr/__init__.py,sha256=o1uRJYcsw0OxiD7ebRu0asZiNpGEAkrp7HKkCErf0S8,434
+venvmngr/__main__.py,sha256=l3NHftD-w-s-qjfVAV10CFX4p2MeG0cZB9hLEb8_deo,2884
+venvmngr/_base.py,sha256=AFCqZk8hwJEPAzijy59PyW_jMM_-r6iDlgrElFXv2_k,8243
+venvmngr/_pypi.py,sha256=nXwIVO5W-8be0xCCoOVvzSk8pO-TcSV20PWc4lrHkno,7194
+venvmngr/_uv.py,sha256=kMAFXmjUq7tvwX9KBQepwHMPob_IQEFvBHMHF9VFyYY,5393
+venvmngr/_venv.py,sha256=3kwtM9BiGlTqQNsStHSQMrBvgCo_gXm24-lR42vawiY,9553
+venvmngr/utils.py,sha256=zMELJ8YvXSLCmt0Wh5RzTSgZKUR97PSdo_Am5yBQanw,2179
+venvmngr-0.1.9.dist-info/METADATA,sha256=sVfHCPKqMTE3VhOfpjoI9Drhgmi4Ui0bq-I_1PRtrHo,733
+venvmngr-0.1.9.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+venvmngr-0.1.9.dist-info/RECORD,,
