@@ -1,0 +1,12 @@
+context_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+context_generator/cli.py,sha256=WicEHhI-num-pW3MUjwEYqtF0oYff1aPTNC03F8wKhs,5931
+context_generator/core.py,sha256=Yq-ZfTBdC7f4IHGJ86-N5tfn642Q7d-OVqEx1kEaPg0,6322
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=SEsr_7nT29DDFe8SWsLrvzm5MjEkz9lji22mmOczt38,7166
+tests/test_core.py,sha256=cJiVrpGpNHr4x9ff0B14X4tLIJapSLkAA04FButLIvc,3440
+context_generator-0.1.0.dist-info/LICENCE,sha256=weo5PjX_KeUNWhcXaw3KckpfQK99K4T_Bl5oF4SCUEM,504
+context_generator-0.1.0.dist-info/METADATA,sha256=N32aB_nis7vBDRWuBScA6VnRRJdeZzP1ZT4SqEwCCZM,5800
+context_generator-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+context_generator-0.1.0.dist-info/entry_points.txt,sha256=ZAXtgebYeFzEx9n8EfvUPsTg9ozrp6VLIPz9xEa8NGA,64
+context_generator-0.1.0.dist-info/top_level.txt,sha256=kVj8PKifkEwy0sFof-_CCVQHURIvnQV8AciiybL7yPs,24
+context_generator-0.1.0.dist-info/RECORD,,
