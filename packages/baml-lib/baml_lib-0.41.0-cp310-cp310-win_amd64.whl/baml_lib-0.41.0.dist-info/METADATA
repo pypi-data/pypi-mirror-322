@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: baml_lib
+Version: 0.41.0
+Summary: BAML Library for Python
+Author: Boundary <contact@boundaryml.com>
+Author-email: Boundary <contact@boundaryml.com>
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# LMNR BAML
+
+This is a hard fork of BoundaryML's [BAML](https://github.com/BoundaryML/baml).
+
+This is a very stripped down version that does only:
+- Schema validation
+- LLM prompting (for structured output)
+- LLM output parsing (validation against schema)
+
+The only required types from BAML AST for this are:
+- Enum
+- Class
+
+and their dependencies.
+
+Laminar's use cases are limited to that, so the rest of the library was removed.
+
+However, we need to interface those functions with Python, so this library exposes
+a few more interfaces through Pyo3.
+
