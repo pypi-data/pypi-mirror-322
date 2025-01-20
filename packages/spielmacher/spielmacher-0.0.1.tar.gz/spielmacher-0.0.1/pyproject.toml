@@ -1,0 +1,26 @@
+[project]
+name = "spielmacher"
+version = "0.0.1"
+authors = [
+  { name="Milan Ferus-Comelo", email="51026229+mferuscomelo@users.noreply.github.com" },
+]
+maintainers = [
+  { name="Milan Ferus-Comelo", email="51026229+mferuscomelo@users.noreply.github.com" },
+]
+description = "A package for simulating the Prisoner's Dilemma game."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/mferuscomelo/spielmacher"
+Issues = "https://github.com/mferuscomelo/spielmacher/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
