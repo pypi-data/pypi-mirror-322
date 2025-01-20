@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Topsis-Raj-102217077"
+version = "0.1.1"
+description = "A package to implement TOPSIS method"
+authors = [
+    { name = "Raj", email = "jagarwadrajmeena@gmail.com" }
+]
+readme = "README.md"
+dependencies = []
