@@ -1,0 +1,2 @@
+[console_scripts]
+rev-tun = rev_tun.cli:app
