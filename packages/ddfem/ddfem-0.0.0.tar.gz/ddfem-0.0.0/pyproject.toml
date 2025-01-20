@@ -1,0 +1,8 @@
+[project]
+name = "ddfem"
+authors = [
+    {name = "Luke Benfield", email = "luke.benfield@warwick.ac.uk"},
+    {name = "Andreas Dedner", email = "a.s.dedner@warwick.ac.uk"},
+]
+version = "0.0.0"
+description = "Coming soon"
