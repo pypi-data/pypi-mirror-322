@@ -1,0 +1,6 @@
+setup.py
+pymoskey.egg-info/PKG-INFO
+pymoskey.egg-info/SOURCES.txt
+pymoskey.egg-info/dependency_links.txt
+pymoskey.egg-info/requires.txt
+pymoskey.egg-info/top_level.txt
