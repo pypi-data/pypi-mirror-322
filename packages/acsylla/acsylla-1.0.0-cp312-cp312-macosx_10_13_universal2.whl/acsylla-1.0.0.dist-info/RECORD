@@ -1,0 +1,10 @@
+acsylla/__init__.py,sha256=InzoY4NVaQHP6o3BRrion2bOKq3ulqcxCNb00RYVRH8,2273
+acsylla/base.py,sha256=E8MpHlRy3S_szjoHJTG8yYYD-PZlHUl0t-hmrf9SfJg,79051
+acsylla/errors.py,sha256=T1_VuMkREypn95JeC3uxcDzoPa4ZkwbfCDP40Ey023Q,7391
+acsylla/factories.py,sha256=B_rLuoy6BME7VL2WMOWBr7eYDatqSMSLBvOQAcD0PP4,33127
+acsylla/version.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+acsylla/_cython/cyacsylla.cpython-312-darwin.so,sha256=q3zPtrHSL6MFShipSxzwsh4M7tWhlLQWu9CDkUQs8IY,15499648
+acsylla-1.0.0.dist-info/METADATA,sha256=IliWqT4j5Jih6FGhQzKvGMmyDikZxOLpeEbM8Zyc06E,54373
+acsylla-1.0.0.dist-info/WHEEL,sha256=iDXcyuxg-66TzzqHGH-kgw_HJdaJE_1RHznrvPNCSNs,115
+acsylla-1.0.0.dist-info/top_level.txt,sha256=OtzMFwAnAuF3SyydBU59D9a0iRzAkwoJhc-RuTU2LLY,8
+acsylla-1.0.0.dist-info/RECORD,,
