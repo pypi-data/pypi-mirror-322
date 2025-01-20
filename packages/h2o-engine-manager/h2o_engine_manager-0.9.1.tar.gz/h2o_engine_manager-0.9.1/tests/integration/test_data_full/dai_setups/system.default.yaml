@@ -1,0 +1,29 @@
+apiVersion: engine.h2o.ai/v1alpha1
+kind: DriverlessAISetup
+metadata:
+  name: system.default
+spec:
+  cpuConstraint:
+    min: 1
+    default: 1
+    max: null
+  gpuConstraint:
+    min: 0
+    default: 0
+    max: null
+  memoryBytesConstraint:
+    min: 1073741824 # 1 GiB
+    max: 17179869184 # 16 GiB
+    default: 1073741824 # 1 GiB
+  storageBytesConstraint:
+    min: 1073741824 # 1 GiB
+    max: 34359738368 # 32 GiB
+    default: 1073741824 # 1 GiB
+  maxIdleDurationConstraint:
+    min: "5m"
+    max: "200h"
+    default: "4h"
+  maxRunningDurationConstraint:
+    min: "5m"
+    max: "200h"
+    default: "4h"

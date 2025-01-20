@@ -1,0 +1,24 @@
+apiVersion: engine.h2o.ai/v1alpha1
+kind: DriverlessAISetup
+metadata:
+  # Name of this object corresponds to the workspaceID of DAIEngine resource.
+  name: e0c4b720-e3df-4a4d-a317-f288273cefce
+spec:
+  cpuConstraint:
+    min: 1
+    default: 1
+  gpuConstraint:
+    min: 0
+    default: 0
+  memoryBytesConstraint:
+    min: 1
+    default: 1
+  storageBytesConstraint:
+    min: 1
+    default: 1
+  maxIdleDurationConstraint:
+    min: "0s"
+    default: "2h"
+  maxRunningDurationConstraint:
+    min: "0s"
+    default: "2h"
