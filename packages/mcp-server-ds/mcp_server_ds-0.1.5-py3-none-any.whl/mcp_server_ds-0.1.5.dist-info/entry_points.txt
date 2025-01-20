@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-ds = mcp_server_ds:main
