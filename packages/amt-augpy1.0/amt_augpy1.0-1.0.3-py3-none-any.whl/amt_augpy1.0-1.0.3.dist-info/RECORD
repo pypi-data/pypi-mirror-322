@@ -1,0 +1,15 @@
+amt_augpy/__init__.py,sha256=Wd_51YAZIdSdtVfuTTafTr3AjuQSRvsE-wC0hcTQAzA,44
+amt_augpy/add_pauses.py,sha256=9Ms8iswUPhinCBvRBQ2LROHum22UWHMimPjiLWn1zyc,4643
+amt_augpy/convertfiles.py,sha256=iJNwWFbFObbdV3Dx_w-bJMXmoZtjz2MttuOQBfkUS4M,2467
+amt_augpy/create_maestro_csv.py,sha256=scIZBFlXQl_znYbkSOWF7_YbHxC8f-aVW0sCgjfFEJQ,6143
+amt_augpy/distortionchorus.py,sha256=93jXXQxuG3XOUgH3WQAZRJ3LHDO-bDAzbQ5xp3VY2Jk,2877
+amt_augpy/main.py,sha256=Jd1zfJVdKcCue2cAQtk31qXRJbSobGmS1qdOaAfwBMk,10664
+amt_augpy/pitch_shift.py,sha256=ezS_kCNMmm1PEYixruXBA3NFbS5i5ItjuU5kZa8ToCQ,2340
+amt_augpy/reverbfilter.py,sha256=KyJMyEnCS-C1JRQtRlDK6qGLjmygzPPbxxISbo0gECM,3177
+amt_augpy/time_stretch.py,sha256=PQRoGpMVKeDUvPYDi3z1sn5WAKrhefju8TvZ5XaqCy8,4084
+amt_augpy/validate_split.py,sha256=MTYy4p2HdtVWJKWbYtJuqLFXcQEI7cPixn3-_Pp3pNI,3901
+amt_augpy1.0-1.0.3.dist-info/LICENSE,sha256=9mY7q34W5w8rlvDk12sVJWJn0TtxNMyjvKkRNNVVYZ8,1077
+amt_augpy1.0-1.0.3.dist-info/METADATA,sha256=sL-Qc0opJ8lYGdTp1tov9wmWFMq2EHRikjVeZqabwFc,6455
+amt_augpy1.0-1.0.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+amt_augpy1.0-1.0.3.dist-info/top_level.txt,sha256=s2ApGZsH_1iK5ZGbOtIPH-SbuP6RASlweUf0yYFPDo4,10
+amt_augpy1.0-1.0.3.dist-info/RECORD,,
