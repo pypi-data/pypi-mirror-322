@@ -1,0 +1,233 @@
+[project]
+name = "pytest_time"
+dynamic = ["version", "readme"]
+dependencies = [
+    "pytest",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Framework :: Pytest",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Testing :: Unit",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Documentation = "https://pytest-time.readthedocs.io"
+Repository = "https://github.com/lengau/pytest-time"
+Issues = "https://github.com/lengau/pytest-time/issues"
+
+[project.entry-points.pytest11]
+pytest_time = "pytest_time"
+
+
+[tool.uv]
+dev-dependencies = [
+    "coverage>=7.3.1",
+    "hypothesis>=6.78",
+    "pytest>=8.0.0",
+    "pytest-check>=2.0",
+    "pytest-cov>=4.1.0",
+    "pytest-mock>=3.11.1",
+]
+
+constraint-dependencies = [
+    # These constraints were placed here to allow lowest resolution to work.
+    # Some packages don't declare version requirements so we need this.
+    "docutils>=0.15.0",
+    "lxml>=5.0.0",
+    "pygments>=2.0.0",
+    "pyyaml>=6",
+    "sphinx>=7",
+]
+
+[build-system]
+requires = [
+    "setuptools>=67.7.2",
+    "setuptools_scm[toml]>=7.1"
+]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+lint = [
+    "codespell[toml]>=2.2.4,<3",
+    "docstrfmt>=1.9.0",
+    "mypy[reports]~=1.14.1",
+    "pyright==1.1.392.post0",
+    "rstcheck[sphinx,toml]>=6.0.0,<7",
+
+    "types-pillow>=10.2.0.20240822",
+    "types-pygments>=2.18.0.20240506",
+    "types-colorama>=0.4.15.20240311",
+    "types-docutils>=0.21.0.20240724",
+    "types-pytz>=2024.1.0.20240417",
+    "types-setuptools>=73.0.0.20240822",
+]
+docs = [
+    "sphinx>=7.1.2",
+    "sphinx-autobuild>=2021.3.14",
+
+    "furo>=2024.8.6",
+
+]
+
+[tool.rstcheck]
+ignore_roles = ["external+python:doc"]
+ignore_directives = ["autofunction"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.dynamic]
+readme = {file = "README.rst"}
+
+[tool.setuptools_scm]
+write_to = "src/pytest_time/_version.py"
+
+[tool.black]
+target-version = ["py38"]
+
+[tool.codespell]
+skip = ".tox,.git,build,.*_cache,__pycache__,./docs/_build,.direnv,.venv,venv"
+quiet-level = 3
+check-filenames = true
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = "tests"
+xfail_strict = true
+pytester_example_dir = "pytester"
+
+[tool.coverage.run]
+branch = true
+parallel = true
+omit = ["tests/**"]
+
+[tool.coverage.report]
+skip_empty = true
+
+[tool.pyright]
+strict = ["pytest_time"]
+pythonVersion = "3.8"
+pythonPlatform = "Linux"
+
+[tool.mypy]
+python_version = "3.8"
+packages = ["pytest_time", "tests"]
+warn_unused_configs = true
+warn_redundant_casts = true
+strict_equality = true
+strict_concatenate = true
+warn_return_any = true
+disallow_subclassing_any = true
+disallow_untyped_decorators = true
+disallow_any_generics = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+
+[[tool.mypy.overrides]]
+module = "pytest_check"
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
+src = ["src", "tests"]
+extend-exclude = [
+    "docs",
+    "__pycache__",
+]
+
+[tool.ruff.lint]
+extend-select = [
+    "F",  # The rules built into Flake8
+    "E", "W",  # pycodestyle errors and warnings
+    "C90", # mccabe
+    "I",  # isort checking
+    "N",  # PEP8 naming
+    "D",  # Implement pydocstyle checking as well.
+    "UP",  # Pyupgrade - note that some of are excluded below due to Python versions
+    "YTT",  # flake8-2020: Misuse of `sys.version` and `sys.version_info`
+    "ANN",  # Type annotations.
+    "ASYNC", # Asynchronous stuff
+    "S", # flake8-bandit
+    "BLE",  # Do not catch blind exceptions
+    "FBT",  # Disallow boolean positional arguments (make them keyword-only)
+    "B",  # Bugbears
+    "A",  # Shadowing built-ins.
+    "C4", # Encourage comprehensions, which tend to be faster than alternatives.
+    "COM",  # Commas
+    "DTZ",  # Datetime
+    "T10",  # Don't call the debugger in production code
+    "EM",   # Error messages
+    "FA",   # Future Annotations
+    "ISC",  # Implicit string concatenation that can cause subtle issues
+    "ICN",  # Only use common conventions for import aliases.
+    "LOG",  # Logging
+    "G",    # Logging format
+    "INP",  # Implicit namespace packages
+    "PIE",  # Mmm pie
+    "T20",  # No printing
+    "PYI",  # Linting for type stubs.
+    "PT",  # Pytest
+    "Q",  # Consistent quotations
+    "RSE",  # Errors on pytest raises.
+    "RET",  # Simpler logic after return, raise, continue or break
+    "SLF",  # Private member access
+    "SLOT", # __slots__
+    "SIM",  # Code simplification
+    "TID",  # Tidy imports
+    "TCH",  # Guard imports only used for type checking behind a type-checkning block.
+    "INT",  # gettext
+    "ARG",  # Unused arguments
+    "PTH",  # Migrate to pathlib
+    "TD",   # TODOs
+    "FIX",  # FIXMEs
+    "ERA",  # Don't check in commented out code
+    "PGH",  # Pygrep hooks
+    "PL",  # Pylint
+    "TRY",  # Cleaner try/except,
+    "DOC",  # Pydoclint
+    "RUF001", "RUF002", "RUF003",  # Ambiguous unicode characters
+    "RUF005",  # Encourages unpacking rather than concatenation
+    "RUF008",  # Do not use mutable default values for dataclass attributes
+    "RUF100",  # #noqa directive that doesn't flag anything
+]
+ignore = [
+    "COM812", "ISC001",  # Conflicts with the formatter.
+    "ANN10",  # Type annotations for `self` and `cls`
+    "D105",  # Missing docstring in magic method (reason: magic methods already have definitions)
+    "D107",  # Missing docstring in __init__ (reason: documented in class docstring)
+    "D203",  # 1 blank line required before class docstring (reason: pep257 default)
+    "D213",  # Multi-line docstring summary should start at the second line (reason: pep257 default)
+    "D215",  # Section underline is over-indented (reason: pep257 default)
+    "A003",  # Class attribute shadowing built-in (reason: Class attributes don't often get bare references)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"test_*.py" = [  # Some things we want for the moin project are unnecessary in tests.
+    "D",  # Ignore docstring rules in tests
+    "ANN", # Ignore type annotations in tests
+    "S101",  # Allow assertions in tests
+    "S103", # Allow `os.chmod` setting a permissive mask `0o555` on file or directory
+    "S108", # Allow Probable insecure usage of temporary file or directory
+    "PLR0913",  # Allow many arguments for test functions
+    "PLR2004",  # Allow magic values in tests
+    "SLF001",  # Allow accessing private members from tests
+]
+# isort leaves init files alone by default, this makes ruff ignore them too.
+"__init__.py" = ["I001"]

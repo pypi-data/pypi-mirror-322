@@ -1,0 +1,24 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":rebaseStalePrs",
+    ":semanticCommits",
+    ":semanticCommitScope(deps)"
+  ],
+  "automergeType": "pr",
+  "packageRules": [
+    {
+      "groupName": "python packages",
+      "matchManagers": ["pep621"],
+      "automerge": true,
+      "schedule": ["at any time"]
+    }
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+  },
+  "pre-commit": {
+    "enabled": true
+  }
+}
