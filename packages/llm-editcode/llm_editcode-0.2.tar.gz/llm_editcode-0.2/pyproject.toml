@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llm-editcode"
+version = "0.2"
+description = "Use LLM to edit source files"
+readme = "README.md"
+authors = [{name = "Ilia Choly"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "llm",
+    "prompt_toolkit>=3.0.43",
+]
+
+[project.urls]
+Homepage = "https://github.com/icholy/llm-editcode"
+Issues = "https://github.com/icholy/llm-editcode/issues"
+CI = "https://github.com/icholy/llm-editcode/actions"
+
+[project.entry-points.llm]
+editcode = "llm_editcode"
+
+[project.optional-dependencies]
+test = ["pytest"]
