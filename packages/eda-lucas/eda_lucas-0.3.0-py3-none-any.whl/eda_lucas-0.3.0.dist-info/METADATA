@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: eda-lucas
+Version: 0.3.0
+Summary: Default template for PDM package
+Author-Email: lucas_hub12 <hyeonggyunbae@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: president-speech>=0.9.1
+Description-Content-Type: text/markdown
+
+# eda-lucas
+![LGTM](https://media4.giphy.com/media/kbVzENVNlE60MQR1HY/giphy.gif?cid=47028fa8js3o7vs2eja2vjbghebfxxf88a23c5oxy5yyh3ux&ep=v1_gifs&rid=giphy.gif&ct=g)
+
+### DEV
+```bah
+$ source .venv/bin/activate
+$ pdm add pandas
+$ pdm add -dG eda jupyterlab
+
+```
+
+### EDA
+- run jupyterlab 
+```
+$ jupyter lab
+
+``` 
+
+### ReF
+- [install jupyterlab](https://jupyter.org/install)
+- [install president-speech](https://pypi.org/project/president-speech/)

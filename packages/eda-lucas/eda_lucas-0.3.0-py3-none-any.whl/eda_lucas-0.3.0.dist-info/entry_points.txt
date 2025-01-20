@@ -1,0 +1,5 @@
+[console_scripts]
+eda-lucas = eda_lucas.cli:group_by_count
+
+[gui_scripts]
+
