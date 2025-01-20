@@ -1,0 +1,8 @@
+passagemath_kissat-10.5.21.dist-info/RECORD,,
+passagemath_kissat-10.5.21.dist-info/WHEEL,sha256=5wQCZMk7biS_5XE2U2B3cCqdSfsaDfWaSPpGErIlybE,110
+passagemath_kissat-10.5.21.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_kissat-10.5.21.dist-info/METADATA,sha256=aWKg-TUlQaREGr1p-Qe-luO0ki1h3mIZ0MXBh12h8gU,3675
+sage_wheels/bin/kissat,sha256=_j1FpUHAuNS3hNxhA_EESDxWAIdTH9oEBnhc4MRVmik,469768
+sage/all__sagemath_kissat.py,sha256=QmztvVXR-RkIaTRxF9H6VfK2MevkzOdy_LLfi2t_1Yk,88
+sage/libs/all__sagemath_kissat.py,sha256=uHL2QhjQUTkNtAtaBgkPoLs62E9qhmnX1aNz-rv8pJs,45
+sage/libs/kissat.cpython-312-darwin.so,sha256=-dj4XwHlpl7wJCYfZJ2HcR21nHJh91NX-e1iLKhX2-U,55168
