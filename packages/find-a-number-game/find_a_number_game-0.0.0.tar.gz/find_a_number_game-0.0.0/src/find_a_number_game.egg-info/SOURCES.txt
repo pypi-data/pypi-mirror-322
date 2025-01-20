@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/find_a_number/cli.py
+src/find_a_number_game.egg-info/PKG-INFO
+src/find_a_number_game.egg-info/SOURCES.txt
+src/find_a_number_game.egg-info/dependency_links.txt
+src/find_a_number_game.egg-info/entry_points.txt
+src/find_a_number_game.egg-info/requires.txt
+src/find_a_number_game.egg-info/top_level.txt

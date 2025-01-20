@@ -1,0 +1,26 @@
+[project]
+name = "find-a-number-game"
+description = "Game that can be played with friends and family!"
+dynamic = ["version"]
+dependencies = [
+  "click",
+  "reportlab"
+]
+authors = [
+  {name = "Armen Martirosyan", email = "armartirosyan@gmail.com"},
+]
+requires-python = ">= 3.7"
+readme = "README.md"
+keywords = ["game"]
+
+[project.urls]
+Repository = "https://github.com/armartirosyan/find-a-number-game.git"
+Issues = "https://github.com/rmartirosyan/find-a-number-game/issues"
+Changelog = "https://github.com/rmartirosyan/find-a-number-game/blob/master/CHANGELOG.md"
+
+[project.scripts]
+fang = "find_a_number.cli:main"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
