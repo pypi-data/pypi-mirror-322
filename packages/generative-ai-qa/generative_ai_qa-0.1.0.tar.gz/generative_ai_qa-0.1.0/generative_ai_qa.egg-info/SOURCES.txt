@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+generative_ai_qa/__init__.py
+generative_ai_qa/generative_ai_qa.py
+generative_ai_qa.egg-info/PKG-INFO
+generative_ai_qa.egg-info/SOURCES.txt
+generative_ai_qa.egg-info/dependency_links.txt
+generative_ai_qa.egg-info/requires.txt
+generative_ai_qa.egg-info/top_level.txt

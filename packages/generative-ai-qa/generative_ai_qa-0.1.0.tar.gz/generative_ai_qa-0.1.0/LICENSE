@@ -1,0 +1,11 @@
+
+### 6. **Add a License**
+Include a `LICENSE` file, such as the MIT license:
+
+```text
+MIT License
+
+Copyright (c) 2025 Abhinav
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software...
