@@ -1,0 +1,17 @@
+ga4mp
+optuna
+PyGithub>=1.59
+
+[checking]
+pre-commit
+mypy
+ruff
+types-toml
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[test]
+coverage
+pytest
