@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+viperkernel/__init__.py
+viperkernel/_viperkernel.py
+viperkernel.egg-info/PKG-INFO
+viperkernel.egg-info/SOURCES.txt
+viperkernel.egg-info/dependency_links.txt
+viperkernel.egg-info/requires.txt
+viperkernel.egg-info/top_level.txt
