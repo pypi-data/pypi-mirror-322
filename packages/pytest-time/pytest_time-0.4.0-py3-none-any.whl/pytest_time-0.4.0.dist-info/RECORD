@@ -1,0 +1,13 @@
+pytest_time/__init__.py,sha256=jxk1zJn-FNV7pUuz49c46yw_MhX0kRb6PtpsAF0Gieg,1051
+pytest_time/_version.py,sha256=j90u3VVU4UrJf1fgMUhaZarHK_Do2XGYXr-vZvOFzVo,411
+pytest_time/fake_time.py,sha256=GsQ7E8yt3tWiPdUeZLoyVU27ecrQvbCjKs0S2RVTLyE,1894
+pytest_time/instant_sleep.py,sha256=mQLIWhm22H0aBZJzH2ha5_jKKc7wXPI1m7miE-Jboow,1189
+pytest_time/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_time/real_time.py,sha256=_FDvhSeVjISeYnkfIDeqeDzFBXW8Q3WbeD00j6ANTE8,221
+pytest_time/wrap_time.py,sha256=wfmsTa8bYNTkKmjNDAlJGvEJIVz8PnU2tX4IHD_cVck,1083
+pytest_time-0.4.0.dist-info/COPYING,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pytest_time-0.4.0.dist-info/METADATA,sha256=aY7hwI2DdZRAimpQZQpZtvw4yj3eHHrqoNBmqqBfRvM,1529
+pytest_time-0.4.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pytest_time-0.4.0.dist-info/entry_points.txt,sha256=3B0bv58_ttF_A7fwMkihYY5PkA40czTz4ZCZq6x4Q2k,37
+pytest_time-0.4.0.dist-info/top_level.txt,sha256=5KEnEFB00Ybdson60qZvgBnhtrtpxFQ6WD-foum_ryQ,12
+pytest_time-0.4.0.dist-info/RECORD,,
