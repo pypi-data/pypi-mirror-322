@@ -1,0 +1,2 @@
+colorlog==6.8.2
+PyHamcrest==2.1.0
