@@ -1,0 +1,9 @@
+docstring_parser
+pyyaml
+pygments
+
+[test]
+freezegun
+pytest
+pytest-cov
+pytest-mock
