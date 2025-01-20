@@ -1,0 +1,5 @@
+[console_scripts]
+jerreda = jerreda.cli:group_by_count
+
+[gui_scripts]
+
