@@ -1,0 +1,5 @@
+[console_scripts]
+minio-manager = minio_manager.app:main
+
+[gui_scripts]
+
