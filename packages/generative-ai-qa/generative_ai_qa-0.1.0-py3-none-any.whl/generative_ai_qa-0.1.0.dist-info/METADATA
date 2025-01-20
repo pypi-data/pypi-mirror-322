@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: generative_ai_qa
+Version: 0.1.0
+Summary: A Python package for question answering using Google Generative AI.
+Author: Abhinav
+Author-email: abhinav.kumar@savatarr.tech
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-generativeai>=0.1.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Generative AI QA
+
+A Python package for question answering using Google Generative AI.
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install generative_ai_qa
+
+from generative_ai_qa import GenerativeAIQuestionAnswering
+
+api_key = "YOUR_API_KEY"
+model_name = "gemini-1.5-flash"
+file_path = "data1.txt"
+
+ai_qa = GenerativeAIQuestionAnswering(api_key, model_name, file_path)
+ai_qa.load_data_from_file()
+session_id = ai_qa.create_session()
+ai_qa.ask_questions(session_id)
