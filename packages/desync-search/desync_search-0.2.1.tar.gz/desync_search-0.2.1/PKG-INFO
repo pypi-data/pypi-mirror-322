@@ -1,0 +1,162 @@
+Metadata-Version: 2.1
+Name: desync_search
+Version: 0.2.1
+Summary: API for the internet
+Home-page: https://github.com/notyetcreated/desync_search
+Author: Maksymilian Kubicki
+Author-email: maks@desync.ai
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.0
+
+# Desync Search — "API to the Internet"
+
+> **Motto**: The easiest way to scrape and retrieve web data **without** aggressive rate limits or heavy detection.
+
+[![PyPI version](https://img.shields.io/pypi/v/desync_search.svg)](https://pypi.org/project/desync_search/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Key Features
+
+- **No Rate Limiting**: We allow you to scale concurrency without punishing usage. You can open many parallel searches; we’ll only throttle if the underlying cloud providers themselves are saturated.
+- **Extremely Low Detection Rates**: Our “stealth_search” uses advanced methods for a “human-like” page visit. While we cannot guarantee 100% evasion, **most** websites pass under the radar, and CAPTCHAs—when they do appear—are often circumvented by a second pass. 
+- **Competitive, Pay-as-You-Go Pricing**: No forced subscriptions or huge minimum monthly costs. You pick how much you spend. Our per-search cost is typically half of what big competitors charge (who often require \$1,000+ per month). 
+- **First 1,000 Searches Free**: Not convinced? **Try** it yourself, risk-free. We’ll spot you 1,000 searches when you sign up. Check out [desync.ai](https://desync.ai/) for more info.
+
+---
+
+## Installation
+
+Install via [PyPI](https://pypi.org/project/desync_search/) using:
+
+```bash
+pip install desync_search
+```
+
+This library requires Python 3.6+ and the requests package (installed automatically).
+
+---
+
+## Basic Usage
+You’ll need a user API key (e.g. "totallynotarealapikeywithactualtokensonit").
+A best practice is to store that key in an environment variable (e.g. DESYNC_API_KEY), so your code doesn’t contain secrets:
+``` bash
+export DESYNC_API_KEY="FZvvyz8h33pJrXgNLMf7SOFxNOoBGTruQUDTu8GjiDU"
+```
+Then in your Python code, you might do:
+``` python
+import os
+from desync_search.core import DesyncClient
+
+user_api_key = os.environ.get("DESYNC_API_KEY", "")
+client = DesyncClient(user_api_key)
+```
+Here, the client automatically targets our production endpoint:
+``` https
+https://nycv5sx75joaxnzdkgvpx5mcme0butbo.lambda-url.us-east-1.on.aws/
+```
+
+## Searching for Data
+
+### 1) Performing a Search
+By default, `search(...)` does a stealth search (cost: 10 credits). If you want a simpler test (cost: 1 credit), just specify `search_type="test_search"`.
+``` python
+# Stealth Search (default)
+response = client.search("https://www.137ventures.com/portfolio")
+
+# Test Search
+test_response = client.search(
+    "https://www.python.org", 
+    search_type="test_search"
+)
+```
+Both return a dictionary structure if success=True. Example success structure:
+``` python
+{
+  "success": true,
+  "data": {
+    "text_content": "...",
+    "internal_links": [...],
+    "external_links": [...],
+    "latency_ms": 3100,
+    "search_type": "stealth_search",
+    "target_url": "https://www.137ventures.com/portfolio"
+  }
+}
+```
+You can pass scrape_full_html=True to get the entire HTML content, or remove_link_duplicates=False to keep duplicates if desired:
+
+``` python
+stealth_response = client.search(
+    "https://www.137ventures.com/portfolio",
+    scrape_full_html=True,
+    remove_link_duplicates=False
+)
+```
+## Retrieving Past Results
+### 2) Listing Available Results
+Use `list_available()` to see minimal data for each past search:
+``` python
+listing = client.list_available()
+
+# Example output:
+# {
+#   "success": true,
+#   "data": [
+#       {
+#         "id": 10,
+#         "url": "https://example.org",
+#         "domain": "example.org",
+#         "timestamp": 1737203455,
+#         "search_type": "stealth_search",
+#         "latency_ms": 2313,
+#         "complete": true,
+#         "created_at": 1737203456
+#       },
+#       ...
+#   ]
+# }
+
+```
+By design, `list_available()` omits bulky fields like text_content and html_content to save bandwidth.
+
+### 3) Pulling Detailed Data
+If you want all fields (including text, HTML, links, etc.), call `pull_data(...)` (or if you kept the name `pull_by_id` in your library, use that).
+
+``` python
+detailed = client.pull_data(record_id=10)
+# or pass other filters if your library allows them
+```
+Internally, this hits our “pull” endpoint with optional flags. For example, you can also pass a `url` filter if your library method supports it. Only records belonging to your API key are shown.
+
+### 4) Checking Your Credits Balance
+Get your current_credits_balance:
+``` python
+balance_info = client.pull_credits_balance()
+# e.g. { "success": true, "credits_balance": 240 }
+```
+We store the user’s credits on our server, so you can easily see how many searches you can still perform.
+
+---
+
+## Additional Notes
+
+- **Attribution**: This package relies on open-source libraries like requests.
+- **Rate Limits**: We do not impose user-level concurrency throttles, but large-scale usage could be slowed if the underlying cloud environment saturates.
+- **Your First 1,000 Searches**: On new accounts, we credit 1,000 searches automatically. You can do up to 1,000 stealth or test calls with no payment required.
+- For more advanced usage or capabilities (like adding credits, creating new accounts), see our docs at desync.ai or contact support.
+
+
+---
+## License
+This project is licensed under the MIT License.
+
+---
+
+Happy scraping with Desync Search—the next-level “API to the Internet”! We look forward to your feedback and contributions.
+
