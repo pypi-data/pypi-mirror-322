@@ -1,0 +1,2 @@
+include pygdk/assets/*
+include pygdk/assets/icons/*

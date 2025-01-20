@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pygdk/__init__.py
+pygdk.egg-info/PKG-INFO
+pygdk.egg-info/SOURCES.txt
+pygdk.egg-info/dependency_links.txt
+pygdk.egg-info/not-zip-safe
+pygdk.egg-info/requires.txt
+pygdk.egg-info/top_level.txt
+pygdk/assets/icons/pygdk.ico
+pygdk/core/Gk.py
+pygdk/core/GkWidgets.py
+pygdk/core/__init__.py
