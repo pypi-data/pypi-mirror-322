@@ -1,0 +1,11 @@
+__init__.py,sha256=CT1dTpXWUS646WgIYkBDbD2PEuOa7lRuGW2J1p8TJ4s,213
+fitting_toolkit.py,sha256=pO4FJjlUQth1EffCZw5T2wWFkss7t8CShbq3ooS6n4U,11136
+fitting_toolkit/__init__.py,sha256=VOhpaID_CH--FpG7qNEZsRHJrGvBLFM5UHXHiaQjtW4,631
+fitting_toolkit/fit.py,sha256=ANpCwmR8wauMm8FNtqwaa2vsHpy4qGtSNqU_TP9376E,7046
+fitting_toolkit/fitting_toolkit.py,sha256=xJVXLrWyaE56iCP5FfVXs5RILcqNhF-8OrdBeo-k4E4,19191
+fitting_toolkit/utils.py,sha256=Qp_VRxbnHJRRXz8FCVtQV5YEJCdfJ3ne29LgP2B5v8M,3788
+fitting_toolkit-1.1.0.dist-info/LICENSE,sha256=jc4ymUTyv9xP-Dw6RGwJrJAv27fDBAHplzxFCEhYZnQ,1093
+fitting_toolkit-1.1.0.dist-info/METADATA,sha256=FHAXnRnO08Vh8-32A7L5jychFyUgopM0JduWaYGwmwc,5570
+fitting_toolkit-1.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+fitting_toolkit-1.1.0.dist-info/top_level.txt,sha256=pJwYKyTVkoCkasF7UmuI4pcNCOFBgw6bWTUuqeZfs4c,16
+fitting_toolkit-1.1.0.dist-info/RECORD,,
