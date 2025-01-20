@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: eda-nijin
+Version: 0.3.0
+Summary: Default template for PDM package
+Author-Email: heejin131 <journeyjean131@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: president-speech>=0.9.1
+Description-Content-Type: text/markdown
+
+# eda-nijin
+ ![LGTM](https://i.lgtm.fun/2vtu.png)
+
+### DEV
+```bash
+$ source .venv/bin/activate
+$ pdm add pandas
+$ pdm add -dG eda jupyter
+```
+### EDA
+- run jupyterlab
+```
+$ jupyter lab
+```
+### REF
+- [install jupyterlab](https://jupyter.org/install)
