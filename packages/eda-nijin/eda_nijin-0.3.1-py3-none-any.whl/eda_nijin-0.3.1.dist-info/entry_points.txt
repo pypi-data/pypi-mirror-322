@@ -1,0 +1,5 @@
+[console_scripts]
+eda-nijin = eda_nijin.cli:group_by_count
+
+[gui_scripts]
+
