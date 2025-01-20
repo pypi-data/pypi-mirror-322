@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+chelo.egg-info/PKG-INFO
+chelo.egg-info/SOURCES.txt
+chelo.egg-info/dependency_links.txt
+chelo.egg-info/requires.txt
+chelo.egg-info/top_level.txt
+src/__init__.py
+src/base.py
+src/registry.py
+src/datasets/__init__.py
+src/datasets/wine_quality.py
+src/utils/__init__.py
+src/utils/downloader.py
+tests/test_base.py
