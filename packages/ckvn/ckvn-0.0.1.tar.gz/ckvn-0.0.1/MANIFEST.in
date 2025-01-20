@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include ckvn examples/*.py
+recursive-include ckvn *.py
