@@ -1,0 +1,5 @@
+[console_scripts]
+nuni-eda = nuni_eda.cli:group_by_count
+
+[gui_scripts]
+
