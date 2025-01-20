@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codeca_lambda_utils"  # Replace with your package's name
+version = "1.0.0"  # Replace with your package's version
+description = "Shared lambda utils"
+authors = [
+    {name = "Kyle Hobeck", email = "krhobeck@archdocs.dev"}
+]
+license = {text = "MIT"}
+dependencies = [
+    "PyJWT==2.10.1",
+]
+requires-python = ">=3.10"
+
+[tool.setuptools.packages]
+find = {}
