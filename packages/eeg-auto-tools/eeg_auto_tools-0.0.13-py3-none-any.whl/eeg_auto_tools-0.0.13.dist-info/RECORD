@@ -1,0 +1,17 @@
+eeg_auto_tools/ERSP.py,sha256=LYVY3Rtmakt-CaCn3aOnSBqi7x9o_r3tHtoU8nVu9ZU,840
+eeg_auto_tools/__init__.py,sha256=8U9MzadpKtEdIZ45841OQ3NcRMNG-c380_cuHaSt5Vo,32
+eeg_auto_tools/clean.py,sha256=R_9EYX9Bt96pH0LZEkXXGDkXvbY_8Ap4eu7JxOqyJQg,3602
+eeg_auto_tools/craft_events.py,sha256=KKP8utjOiyjzHZtN6tQqUXj7wJIcDYcWN5wB7G-kBCM,4045
+eeg_auto_tools/developments.py,sha256=9WQ13x_Q2SsNkyG4nJdt5rVTdvD330w1HtzkNUmRfbI,8867
+eeg_auto_tools/metrics.py,sha256=U4C0bGBgphBJe2M4EpiV2x8kq-c7edLzvyYpyzRiStU,12142
+eeg_auto_tools/models.py,sha256=Rm3MS0_L0ZWYTlOO_qMJOAAyoAJAbGRhhEa0hoYxSYI,6590
+eeg_auto_tools/montages.py,sha256=Md_beIAo1xoVe4O1opZtzbmuwS-Mj4HLB1WeeqZE2aY,7885
+eeg_auto_tools/quality_check.py,sha256=aLIN8iEZk2caTuMDaOPZeCpNeQxxPyd4Bu7x6VNYW0M,26189
+eeg_auto_tools/savers.py,sha256=jl5Qqwy4guBvqjbJR08dO-jWGECcHjwPsHE8_3sGGAM,20825
+eeg_auto_tools/scenarious.py,sha256=AMcqVkmhicYJy-Qo3eg9eMJuo_F4WYrKV5czP4llF68,5971
+eeg_auto_tools/transforms.py,sha256=BFKkH_Q2YwKARpyjmG4JuUWBPuhd8tZqk_qqGGoTmZ8,18704
+eeg_auto_tools-0.0.13.dist-info/LICENSE,sha256=f-899Q1Mu7o9kI0SmNMpR_soHZzeKJXP_XNPK4QSDdw,11544
+eeg_auto_tools-0.0.13.dist-info/METADATA,sha256=V9Js7k_qdDaB8BfHSdJCxB22vvtOuFhFr3azRWjBtxY,1757
+eeg_auto_tools-0.0.13.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+eeg_auto_tools-0.0.13.dist-info/top_level.txt,sha256=9w1TPaZYwq4zFTgisH1vdZqRoHahlEYO201c6ipL7QM,15
+eeg_auto_tools-0.0.13.dist-info/RECORD,,
