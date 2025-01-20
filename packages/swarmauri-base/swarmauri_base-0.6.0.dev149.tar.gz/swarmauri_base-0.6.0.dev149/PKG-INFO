@@ -1,0 +1,45 @@
+Metadata-Version: 2.3
+Name: swarmauri-base
+Version: 0.6.0.dev149
+Summary: This repository includes base classes and mixins for the Swarmauri framework.
+License: Apache-2.0
+Author: Jacob Stewart
+Author-email: jacob@swarmauri.com
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.0,<3.0)
+Requires-Dist: swarmauri_core (>=0.6.0.dev149,<0.7.0)
+Project-URL: Repository, http://github.com/swarmauri/swarmauri-sdk
+Description-Content-Type: text/markdown
+
+# Swarmauri Base Classes
+
+## Getting Started
+
+To start developing with the Core Library, include it as a module in your Python project. Ensure you have Python 3.6 or later installed.
+
+```python
+# Example of using the base class
+from swarmauri_base.llms.LLMBase import LLMBase
+
+class MyConcreteClass(LLMBase):
+    
+    pass
+```
+
+## Documentation
+
+For more detailed documentation on each interface and available abstract classes, refer to the [Docs](/docs) directory within the library.
+
+## Contributing
+
+Contributions are welcome! If you'd like to add a new feature, fix a bug, or improve documentation, please submit a pull request.
+
+## License
+
+See `LICENSE` for more information.
+
