@@ -1,0 +1,3 @@
+[console_scripts]
+fang=find_a_number_game.cli:main
+
