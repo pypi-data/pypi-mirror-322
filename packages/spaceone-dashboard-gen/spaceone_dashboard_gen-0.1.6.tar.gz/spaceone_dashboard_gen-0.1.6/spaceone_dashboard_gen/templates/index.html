@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대시보드 생성기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #b39ddb; /* 연보라색 */
+            --secondary-color: #9575cd; /* 더 진한 연보라 */
+            --danger-color: #d32f2f; /* 진한 빨강 */
+            --danger-hover-color: #c62828; /* 진한 빨강 */
+            --background-color: #f3e5f5; /* 밝은 연보라 배경 */
+            --container-color: #ffffff;
+            --text-color: #212121;
+            --border-color: #d1c4e9; /* 연보라 경계 */
+            --label-bg-color: #e1bee7; /* 연보라 라벨 배경 */
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: var(--container-color);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 800px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: var(--text-color);
+            margin: 0;
+            text-align: center;
+            flex: 1;
+            font-size: 2em;
+        }
+        .env-switcher {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .env-switcher select {
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            background-color: var(--container-color);
+            color: var(--text-color);
+        }
+        h2 {
+            color: var(--text-color);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 20px;
+            font-weight: 500;
+            color: #424242;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+            background-color: var(--container-color);
+            color: var(--text-color);
+        }
+        input[type="text"]:focus, select:focus {
+            border-color: var(--primary-color);
+            outline: none;
+        }
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+        .add-button {
+            flex: 1;
+            margin-right: 10px;
+        }
+        .create-button {
+            flex: 2;
+            font-weight: bold;
+        }
+        .dashboard-entry {
+            margin-top: 15px;
+            position: relative;
+        }
+        .dashboard-entry button {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            background-color: var(--danger-color);
+            padding: 5px 10px;
+        }
+        .dashboard-entry button:hover {
+            background-color: var(--danger-hover-color);
+        }
+        .labels-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .label {
+            background-color: var(--label-bg-color);
+            padding: 5px 10px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            position: relative;
+            padding-right: 20px;
+        }
+        .label button {
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: red;
+            cursor: pointer;
+            font-size: 0.8em;
+            padding: 0;
+            line-height: 1;
+        }
+        .ace-editor {
+            height: 200px;
+            width: 100%;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        #popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid var(--border-color);
+            background-color: var(--container-color);
+            padding: 20px;
+            z-index: 1000;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            width: 80%;
+            max-width: 500px;
+        }
+        #popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+        #summary {
+            color: var(--text-color);
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+        #confirmButton {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            font-size: 1em;
+        }
+        #confirmButton:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .template-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        .template-table th, .template-table td {
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            text-align: left;
+        }
+        .template-table th {
+            background-color: var(--primary-color);
+            color: white;
+            font-size: 1em;
+        }
+        .template-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .template-table tr:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <script>
+        async function fetchEnvironmentFiles() {
+            const response = await fetch('/environment-files');
+            const data = await response.json();
+            const select = document.getElementById('environmentSelect');
+            select.innerHTML = ''; // 기존 옵션 제거
+            data.files.forEach(file => {
+                const option = document.createElement('option');
+                option.value = file;
+                option.textContent = file;
+                select.appendChild(option);
+            });
+        }
+
+        function switchEnvironment() {
+            const selectedEnv = document.getElementById('environmentSelect').value;
+            alert(`환경이 ${selectedEnv}(으)로 변경되었습니다.`);
+            // 실제 환경 변경 로직을 여기에 추가하세요.
+        }
+
+        function addLabel(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                const labelInput = document.getElementById('labelInput');
+                const labelValue = labelInput.value.trim();
+                if (labelValue) {
+                    const labelsContainer = document.getElementById('labelsContainer');
+                    const label = document.createElement('div');
+                    label.className = 'label';
+                    label.textContent = labelValue;
+
+                    // 삭제 버튼 추가
+                    const deleteButton = document.createElement('button');
+                    deleteButton.textContent = 'x';
+                    deleteButton.style.cssText = `
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                        background: none;
+                        border: none;
+                        color: red;
+                        cursor: pointer;
+                        font-size: 0.8em;
+                        padding: 0;
+                        line-height: 1;
+                    `;
+                    deleteButton.onclick = function() {
+                        labelsContainer.removeChild(label);
+                    };
+                    label.style.position = 'relative'; // 라벨을 상대 위치로 설정
+                    label.style.paddingRight = '15px'; // 버튼 공간 확보
+                    label.appendChild(deleteButton);
+
+                    labelsContainer.appendChild(label);
+                    labelInput.value = '';
+                }
+            }
+        }
+
+        function handleComposition(event) {
+            if (event.type === 'compositionend') {
+                addLabel({ key: 'Enter' });
+            }
+        }
+
+        function addDashboardField() {
+            const container = document.getElementById('dashboardsContainer');
+            const dashboardDiv = document.createElement('div');
+            dashboardDiv.className = 'dashboard-entry';
+            dashboardDiv.innerHTML = `
+                <div class="ace-editor" id="editor${container.children.length}"></div>
+                <button type="button" onclick="removeDashboardField(this)">삭제</button>
+            `;
+            container.appendChild(dashboardDiv);
+            const editor = ace.edit(`editor${container.children.length - 1}`);
+            editor.setTheme("ace/theme/github");
+            editor.session.setMode("ace/mode/json");
+            editor.session.on('change', function(delta) {
+                try {
+                    JSON.parse(editor.getValue());
+                    editor.session.clearAnnotations();
+                } catch (e) {
+                    editor.session.setAnnotations([{
+                        row: delta.start.row,
+                        column: delta.start.column,
+                        text: "JSON 오류: " + e.message,
+                        type: "error"
+                    }]);
+                }
+            });
+        }
+
+        function removeDashboardField(button) {
+            const container = document.getElementById('dashboardsContainer');
+            container.removeChild(button.parentElement);
+        }
+
+        async function createDashboard() {
+            const name = document.getElementById('name').value;
+            const templateId = document.getElementById('templateId').value;
+
+            const dashboardElements = document.getElementsByClassName('ace-editor');
+            const dashboards = [];
+            for (let editorDiv of dashboardElements) {
+                const editor = ace.edit(editorDiv.id);
+                try {
+                    const dashboard = JSON.parse(editor.getValue());
+                    dashboards.push(dashboard);
+                } catch (error) {
+                    alert("대시보드 입력이 유효한 JSON 객체가 아닙니다.");
+                    return;
+                }
+            }
+
+            // template_type 결정
+            const templateType = dashboards.length === 1 ? 'SINGLE' : 'MULTI';
+
+            // 중복 라벨 제거
+            const uniqueLabels = [...new Set(labels)];
+
+            const response = await fetch('/dashboard-generator', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ name, template_id: templateId, labels: uniqueLabels, template_type: templateType, dashboards })
+            });
+
+            const result = await response.json();
+            alert(result.message || result.error);
+        }
+
+        async function fetchTemplateList() {
+            try {
+                const response = await fetch('/list-dashboard-templates-by-subprocess');
+                const data = await response.json();
+                const templateList = document.getElementById('templateList');
+                templateList.innerHTML = ''; // 기존 목록 제거
+
+                if (data.error) {
+                    templateList.innerHTML = `<tr><td colspan="5">${data.error}</td></tr>`;
+                    return;
+                }
+
+                data.templates.results.forEach(template => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${template.template_id}</td>
+                        <td>${template.name}</td>
+                        <td>${template.state}</td>
+                        <td>${template.template_type}</td>
+                        <td><button onclick="deleteTemplate('${template.template_id}')">삭제</button></td>
+                    `;
+                    templateList.appendChild(row);
+                });
+            } catch (error) {
+                console.error('Error fetching template list:', error);
+            }
+        }
+
+        async function deleteTemplate(templateId) {
+            try {
+                const response = await fetch(`/delete-dashboard-template?template_id=${templateId}`, {
+                    method: 'GET'
+                });
+                const result = await response.json();
+                if (result.error) {
+                    alert(`삭제 실패: ${result.error}`);
+                } else {
+                    alert('템플릿이 성공적으로 삭제되었습니다.');
+                    fetchTemplateList(); // 목록 갱신
+                }
+            } catch (error) {
+                console.error('Error deleting template:', error);
+            }
+        }
+
+        // 페이지 로드 시 이벤트 설정
+        window.onload = function() {
+            fetchEnvironmentFiles();
+            fetchTemplateList(); // 템플릿 목록 가져오기
+            // Initialize the first editor
+            const editor0 = ace.edit("editor0");
+            editor0.setTheme("ace/theme/github");
+            editor0.session.setMode("ace/mode/json");
+            editor0.session.on('change', function(delta) {
+                try {
+                    JSON.parse(editor0.getValue());
+                    editor0.session.clearAnnotations();
+                } catch (e) {
+                    editor0.session.setAnnotations([{
+                        row: delta.start.row,
+                        column: delta.start.column,
+                        text: "JSON 오류: " + e.message,
+                        type: "error"
+                    }]);
+                }
+            });
+
+            // generateButton 클릭 이벤트 설정
+            document.getElementById('generateButton').onclick = function() {
+                const labelInput = document.getElementById('labelInput').value.trim();
+                const name = document.getElementById('name').value.trim();
+                const templateId = document.getElementById('templateId').value.trim();
+                const selectedEnv = document.getElementById('environmentSelect').value;
+                const labelsContainer = document.getElementById('labelsContainer');
+                const labels = Array.from(labelsContainer.children).map(label => label.textContent.replace('x', '').trim());
+                const summary = document.getElementById('summary');
+
+                // 요약 정보 생성
+                summary.innerHTML = `
+                    <strong>대시보드 요약:</strong><br>
+                    이름: ${name}<br>
+                    템플릿 ID: ${templateId}<br>
+                    라벨: ${labels.join(', ')}<br>
+                    선택한 환경: ${selectedEnv}
+                `;
+
+                // 팝업 표시
+                document.getElementById('popup-overlay').style.display = 'block';
+                document.getElementById('popup').style.display = 'block';
+            };
+
+            // confirmButton 클릭 이벤트 설정
+            document.getElementById('confirmButton').onclick = async function() {
+                const name = document.getElementById('name').value.trim();
+                const templateId = document.getElementById('templateId').value.trim();
+                const selectedEnv = document.getElementById('environmentSelect').value;
+                const labelsContainer = document.getElementById('labelsContainer');
+                const labels = Array.from(labelsContainer.children).map(label => label.textContent.replace('x', '').trim());
+
+                // 대시보드 데이터 수집
+                const dashboardElements = document.getElementsByClassName('ace-editor');
+                const dashboards = [];
+                for (let editorDiv of dashboardElements) {
+                    const editor = ace.edit(editorDiv.id);
+                    try {
+                        const dashboard = JSON.parse(editor.getValue());
+                        dashboards.push(dashboard);
+                    } catch (error) {
+                        alert("대시보드 입력이 유효한 JSON 객체가 아닙니다.");
+                        return;
+                    }
+                }
+
+                // template_type 결정
+                const templateType = dashboards.length === 1 ? 'SINGLE' : 'MULTI';
+
+                // run_create_template_by_subprocess API 호출
+                try {
+                    const response = await fetch('/run-create-template-by-subprocess', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            environment: selectedEnv,
+                            dashboard: {
+                                name: name,
+                                template_id: templateId,
+                                labels: labels,
+                                template_type: templateType,
+                                dashboards: dashboards
+                            }
+                        })
+                    });
+
+                    const result = await response.json();
+                    console.log(result.message);
+                } catch (error) {
+                    console.error('Error calling run-create-template-by-subprocess:', error);
+                }
+
+                // 팝업 숨기기
+                document.getElementById('popup-overlay').style.display = 'none';
+                document.getElementById('popup').style.display = 'none';
+            };
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>대시보드 생성기</h1>
+            <div class="env-switcher">
+                <select id="environmentSelect" onchange="switchEnvironment()"></select>
+            </div>
+        </div>
+        <div class="section">
+            <h2>대시보드 생성</h2>
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="templateId">템플릿 ID:</label>
+            <input type="text" id="templateId" name="templateId"><br>
+            <label for="labels">라벨:</label>
+            <input type="text" id="labelInput" onkeydown="addLabel(event)" oncompositionend="handleComposition(event)" placeholder="라벨 입력 후 엔터"><br>
+            <div id="labelsContainer" class="labels-container"></div>
+            <div id="dashboardsContainer">
+                <h3>대시보드 입력</h3>
+                <div class="dashboard-entry">
+                    <div class="ace-editor" id="editor0"></div>
+                    <button type="button" onclick="removeDashboardField(this)">삭제</button>
+                </div>
+            </div>
+            <div class="button-group">
+                <button type="button" class="add-button" onclick="addDashboardField()">대시보드 추가</button>
+                <button id="generateButton" class="create-button" >생성</button>
+            </div>
+        </div>
+        <!-- 대시보드 템플릿 목록 섹션 -->
+        <div class="section">
+            <h2>생성된 대시보드 템플릿 목록</h2>
+            <button type="button" onclick="fetchTemplateList()">새로고침</button>
+            <table id="templateTable" class="template-table">
+                <thead>
+                    <tr>
+                        <th>템플릿 ID</th>
+                        <th>이름</th>
+                        <th>상태</th>
+                        <th>템플릿 유형</th>
+                        <th>작업</th>
+                    </tr>
+                </thead>
+                <tbody id="templateList">
+                    <!-- 템플릿 데이터가 여기에 추가됩니다 -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- 팝업 요소 -->
+    <div id="popup-overlay"></div>
+    <div id="popup">
+        <div id="summary"></div>
+        <button id="confirmButton">생성</button>
+    </div>
+</body>
+</html>
