@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: 102203404-topsis
+Version: 1.0.5
+Summary: A Python package to implement the TOPSIS decision-making method.
+Home-page: https://github.com/Aryanz01/topsis-python-package
+Author: Aryan Sabharwal
+Author-email: asabharwal_be22@thapar.edu
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary
+
+# This is my simple project
+This is a python package assignment
