@@ -1,0 +1,278 @@
+from requests_toolbelt.multipart.encoder import MultipartEncoder
+from langchain_core.documents import Document as lcDocument
+from langchain_text_splitters import CharacterTextSplitter
+from llama_index.core.schema import Document
+from pydantic import BaseModel
+from typing import List, Dict
+from typing import Callable
+import pandas as pd
+import requests
+import os
+
+
+class Response:
+
+    def __init__(self, code: int | None = None, msg: str | None = None,
+                 data: List | None | Dict | str | pd.DataFrame = None):
+        self.code = code
+        self.msg = msg
+        self.data = data
+
+
+# class Response(BaseModel):
+#     code: int | None = None
+#     msg: str | None = None
+#     data: List | None | Dict | str | pd.DataFrame = None
+
+
+class UnDatasIO:
+
+    def __init__(self, token: str, task_name: str = ""):
+        self.token = token
+        self.task_name = task_name
+        self.base_url = 'https://backend.undatas.io/api/api'
+
+    def upload(self, file_dir_path: str) -> Response:
+        """
+        :param file_dir_path: Upload specified folder
+        :return:
+        """
+        files = []
+        for file_path in os.listdir(file_dir_path):
+            file_read_path = os.path.join(file_dir_path, file_path)
+            if file_path.endswith(".pdf") and os.path.isfile(file_read_path):
+                files.append(file_path)
+                with open(file_read_path, "rb") as file:
+                    fields = {
+                        "user_id": self.token,
+                        "task_name": self.task_name,
+                        "file": (file_path, file, "application/octet-stream"),
+                    }
+                    m = MultipartEncoder(fields=fields)
+
+                    # 发送 POST 请求
+                    headers = {"Content-Type": m.content_type}
+                    response = requests.post(
+                        f"{self.base_url}/upload", data=m, headers=headers
+                    )
+                    if response.status_code == 200:
+                        Base_response = Response(**response.json())
+                        return Base_response
+                    else:
+                        return Response(code=403, msg='response status code is not 200')
+        return Response(code=200, msg="upload success", data=files)
+
+    # def parser(self, file_name_list: List) -> Response:
+    #     """
+    #     :param file_name_list: List of parsed file names
+    #     :return:
+    #     """
+    #     API_ENDPOINT = f"{self.base_url}/task_return_list"
+    #     data = {
+    #         "user_id": self.token,
+    #         "task_name": self.task_name,
+    #         "fileName": file_name_list,  # 根据你的接口定义，文件名参数应该是 fileName
+    #     }
+    #
+    #     try:
+    #         response = requests.post(API_ENDPOINT, data=data)
+    #         if response.status_code == 200:
+    #             Base_response = Response(**response.json())
+    #             return Base_response
+    #         else:
+    #             return Response(code=403, msg='response status code is not 200')
+    #     except requests.exceptions.RequestException as e:
+    #         return Response(code=403, msg=e)
+
+    def parser(self, lang: str, parameter: str, file_name_list: List) -> Response:
+        """
+        :param lang: The abbreviation for input parsing language[en, ch, korean, japan, chinese_cht]
+        :param parameter: Fill in the parsing parameters
+        :param file_name_list: List of parsed file names
+        :return:
+        """
+        API_ENDPOINT = f"{self.base_url}/task_return_list"
+        data = {
+            "user_id": self.token,
+            "task_name": self.task_name,
+            "fileName": file_name_list,
+            "parameter": parameter,
+            "lang": lang,
+        }
+
+        try:
+            response = requests.post(API_ENDPOINT, data=data)
+            if response.status_code == 200:
+                Base_response = Response(**response.json())
+                return Base_response
+            else:
+                return Response(code=403, msg='response status code is not 200')
+        except requests.exceptions.RequestException as e:
+            return Response(code=403, msg=e)
+
+    def download(self, version: str) -> Response:
+        """
+        :param version: Download the specified version
+        :return:
+        """
+        API_ENDPOINT = f"{self.base_url}/download"
+        data = {
+            "user_id": self.token,
+            "task_name": self.task_name,
+            "version": version,
+        }
+
+        try:
+            response = requests.post(API_ENDPOINT, data=data)
+            if response.status_code == 200:
+                Base_response = Response(**response.json())
+                return Base_response
+            else:
+                return Response(code=403, msg='response status code is not 200')
+        except requests.exceptions.RequestException as e:
+            return Response(code=403, msg=e)
+
+    def show_version(self) -> Response:
+        """
+        :return:
+        """
+        API_ENDPOINT = f"{self.base_url}/version_info"
+        data = {"user_id": self.token, "task_name": self.task_name}
+
+        try:
+            response = requests.post(API_ENDPOINT, data=data)
+            if response.status_code == 200:
+                Base_response = Response(**response.json())
+                if Base_response.code != 200:
+                    return Base_response
+                else:
+                    Base_response.data = pd.DataFrame.from_records(Base_response.data)
+                    return Base_response
+            else:
+                return Response(code=403, msg='response status code is not 200')
+        except requests.exceptions.RequestException as e:
+            return Response(code=403, msg=e)
+
+    def show_upload(self) -> Response:
+        """
+        :return:
+        """
+        API_ENDPOINT = f"{self.base_url}/view_upload_file"
+        data = {"user_id": self.token, "task_name": self.task_name}
+
+        try:
+            response = requests.post(API_ENDPOINT, data=data)
+            if response.status_code == 200:
+                Base_response = Response(**response.json())
+                return Base_response
+            else:
+                return Response(code=403, msg='response status code is not 200')
+        except requests.exceptions.RequestException as e:
+            return Response(code=403, msg=e)
+
+    def get_result_type(
+            self, type_info: List, file_name: str, version: str
+    ):
+        """
+        :param type_info: Please select from title, table, text, image, interline_equation
+        :param file_name: file name
+        :param version: version
+        :return:
+        """
+        API_ENDPOINT = f"{self.base_url}/get_type_info"
+        data = {
+            "user_id": self.token,
+            "type_info": type_info,
+            "file_name": file_name,
+            "version": version,
+            "task_name": self.task_name,
+        }
+        try:
+            response = requests.post(API_ENDPOINT, data=data)
+            if response.status_code == 200:
+                Base_response = Response(**response.json())
+                return Base_response
+            else:
+                return Response(code=403, msg='response status code is not 200')
+        except requests.exceptions.RequestException as e:
+            return Response(code=403, msg=e)
+
+    def get_result_to_files(
+            self, file_name_list: List, version: str
+    ) -> Response:
+        """
+        :param file_name_list: file names
+        :param version: version
+        :return: List[str]
+        """
+        API_ENDPOINT = f"{self.base_url}/md_url"
+        data = {
+            "user_id": self.token,
+            "file_name_list": file_name_list,
+            "version": version,
+            "task_name": self.task_name,
+        }
+        try:
+            response = requests.post(API_ENDPOINT, data=data)
+            if response.status_code == 200:
+                Base_response = Response(**response.json())
+                return Base_response
+            else:
+                return Response(code=403, msg='response status code is not 200')
+        except requests.exceptions.RequestException as e:
+            return Response(code=403, msg=e)
+
+    def get_result_to_langchain_document(
+            self, type_info: List, file_name: str, version: str
+    ) -> lcDocument:
+        """
+        :param type_info: Please select from title, table, text, image, interline_equation
+        :param file_name: file name
+        :param version: version
+        :return: langchain_core.Document
+        """
+        result = self.get_result_type(type_info, file_name, version).data
+        return lcDocument(
+            page_content=result,
+            metadata={
+                "source": f"{self.task_name}_{version}_{file_name}_[{','.join(type_info)}]"
+            },
+        )
+
+    def get_result_to_llama_index_document(
+            self, type_info: List, file_name: str, version: str
+    ) -> Document:
+        """
+        :param type_info: Please select from title, table, text, image, interline_equation
+        :param file_name: file name
+        :param version: version
+        :return: langchain_core.Document
+        """
+        result = self.get_result_type(type_info, file_name, version).data
+        return Document(
+            text=result,
+            metadata={
+                "source": f"{self.task_name}_{version}_{file_name}_[{','.join(type_info)}]"
+            },
+        )
+
+    def complex_table_parse(self, file_path):
+        """
+        :param file_path: file local path
+        :return
+        """
+        url = 'http://3.19.69.227:8001/upload_parser'
+        files = {
+            "token": self.token,
+            "file": open(file_path, 'rb')
+        }
+        try:
+            response = requests.post(url, files=files)
+            print(response.text)
+            if response.status_code == 200:
+                Base_response = Response(**response.json())
+                return Base_response
+            else:
+                return Response(code=403, msg='response status code is not 200')
+        except requests.exceptions.RequestException as e:
+            return Response(code=403, msg=str(e))

@@ -1,0 +1,16 @@
+undatasio/__init__.py,sha256=IMOmDJcoWC_xaezNHIkIwpzwJZL43rDj9k4biyZfDjA,50
+undatasio/undatasio.py,sha256=WeYrFhGL-ub_p8avJX3QR_wKxcXP9KiYKu-fdCv-09Q,10238
+undatasio/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+undatasio/core/agents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+undatasio/core/agents/structured_output.py,sha256=0lKN1mATTNmCkplR4tVwa9spHrCdGocd5Flj6-Zfwag,2173
+undatasio/core/llms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+undatasio/core/llms/huggingface.py,sha256=za1jSPJwM5I1Hy-XMT6ro7fC52e9fjzkh6xKrP-FEs4,478
+undatasio/core/storge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+undatasio/core/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+undatasio/core/utils/fields.py,sha256=vebDBBpKgECNniFJf6bJihcduknUjtTkcOb6X7Nc7hU,394
+undatasio/core/utils/prompt.py,sha256=_OPpqHDQxXD_0gMOk_7Y-ILS5crWg28m-SxX54SKSO0,4494
+undatasio-0.1.8.0.dist-info/LICENSE,sha256=kqhsx6a31Bp1tW3joYOfRWExygV79k3ayerHxP5aE4k,1062
+undatasio-0.1.8.0.dist-info/METADATA,sha256=VDtavYxrPv51LIl_zqNOmCGRxddFDEo4pNAexr5HF60,6698
+undatasio-0.1.8.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+undatasio-0.1.8.0.dist-info/top_level.txt,sha256=MApumOGusQQKIMLQvNsC7RLCwq5dN7MctwpMkDnvqJA,10
+undatasio-0.1.8.0.dist-info/RECORD,,
