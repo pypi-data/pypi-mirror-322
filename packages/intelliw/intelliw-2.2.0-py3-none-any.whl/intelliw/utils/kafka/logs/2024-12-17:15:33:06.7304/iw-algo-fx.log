@@ -1,0 +1,3 @@
+[0] [PID86289] -root- 2024-12-17 15:33:06,731 | INFO | logger.py:188: root logger init, level:INFO
+[0] [PID86289] -Framework Log- 2024-12-17 15:33:06,732 | INFO | client.py:46: Kafka Client initialized with brokers: 172.20.32.80:9092,172.20.32.82:9092,172.20.32.83:9092, producer_config: {}, consumer_config: {'auto.offset.reset': 'earliest', 'max.poll.interval.ms': 10000, 'heartbeat.interval.ms': 3000, 'session.timeout.ms': 10000}
+[0] [PID86289] -Framework Log- 2024-12-17 15:33:30,237 | ERROR | client.py:171: Kafka error: KafkaError{code=_MAX_POLL_EXCEEDED,val=-147,str="Application maximum poll interval (10000ms) exceeded by 403ms"}

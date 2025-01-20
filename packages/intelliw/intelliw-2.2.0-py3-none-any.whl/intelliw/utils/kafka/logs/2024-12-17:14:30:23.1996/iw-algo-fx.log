@@ -1,0 +1,5 @@
+[0] [PID80001] -root- 2024-12-17 14:30:23,200 | INFO | logger.py:188: root logger init, level:INFO
+[0] [PID80001] -Framework Log- 2024-12-17 14:30:23,202 | INFO | client.py:46: Kafka Client initialized with brokers: 172.20.32.80:9092,172.20.32.82:9092,172.20.32.83:9092, producer_config: {}, consumer_config: {'auto.offset.reset': 'earliest', 'max.poll.interval.ms': 3000, 'heartbeat.interval.ms': 3000, 'session.timeout.ms': 3000}
+[0] [PID80001] -Framework Log- 2024-12-17 14:30:23,390 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID80001] -Framework Log- 2024-12-17 14:30:26,262 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID80001] -Framework Log- 2024-12-17 14:30:28,278 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}

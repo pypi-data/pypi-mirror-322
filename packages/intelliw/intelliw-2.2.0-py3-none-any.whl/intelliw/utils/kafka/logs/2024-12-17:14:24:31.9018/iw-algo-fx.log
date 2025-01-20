@@ -1,0 +1,19 @@
+[0] [PID79330] -root- 2024-12-17 14:24:31,904 | INFO | logger.py:188: root logger init, level:INFO
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:31,908 | INFO | client.py:46: Kafka Client initialized with brokers: 172.20.32.80:9092,172.20.32.82:9092,172.20.32.83:9092, producer_config: {}, consumer_config: {'auto.offset.reset': 'earliest', 'max.poll.interval.ms': 1000, 'heartbeat.interval.ms': 3000, 'session.timeout.ms': 300}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:36,598 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:39,561 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:41,571 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:43,578 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:45,591 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:47,599 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:49,613 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:51,611 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:53,691 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:55,655 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:57,636 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:24:59,654 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:25:01,647 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:25:03,659 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:25:05,753 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:25:07,672 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}
+[0] [PID79330] -Framework Log- 2024-12-17 14:25:09,681 | ERROR | client.py:171: Kafka error: KafkaError{code=INVALID_SESSION_TIMEOUT,val=26,str="JoinGroup failed: Broker: Invalid session timeout"}

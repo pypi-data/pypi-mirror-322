@@ -1,0 +1,8 @@
+[0] [32m[PID85534] -Framework Log- 2024-12-17 15:26:32 | INFO | client.py:46: Kafka Client initialized with brokers: 172.20.32.80:9092,172.20.32.82:9092,172.20.32.83:9092, producer_config: {}, consumer_config: {'auto.offset.reset': 'earliest', 'max.poll.interval.ms': 10000, 'heartbeat.interval.ms': 3000, 'session.timeout.ms': 10000}[0m
+[0] [31m[PID85534] -Framework Log- 2024-12-17 15:26:49 | ERROR | client.py:189: Error consuming messages: 'data', Traceback (most recent call last):
+  File "/Users/hexer/Documents/workspace/code/iuapaipaas/iw-algo-fx/intelliw/utils/kafka/client.py", line 180, in consume_messages
+    if return_by_func and return_by_func(msg.key(), msg.value()) is True:
+  File "/Users/hexer/Documents/workspace/code/iuapaipaas/iw-algo-fx/intelliw/utils/kafka/test.py", line 50, in return_func
+    id = data['data'][0]['id']
+KeyError: 'data'
+[0m

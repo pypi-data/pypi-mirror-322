@@ -1,0 +1,8 @@
+[0] [32m[PID21094] -Framework Log- 2025-01-13 13:44:46 | INFO | client.py:46: Kafka Client initialized with brokers: 172.20.32.80:9092,172.20.32.82:9092,172.20.32.83:9092, producer_config: {}, consumer_config: {'auto.offset.reset': 'earliest', 'max.poll.interval.ms': 8000000, 'heartbeat.interval.ms': 3000, 'session.timeout.ms': 30000}[0m
+[0] [31m[PID21094] -Framework Log- 2025-01-13 13:44:46 | ERROR | client.py:189: Error consuming messages: 11111, Traceback (most recent call last):
+  File "/Users/hexer/Documents/workspace/code/iuapaipaas/iw-algo-fx/intelliw/utils/kafka/client.py", line 173, in consume_messages
+    handle_func(msg.key(), msg.value())  # 处理消息
+  File "/Users/hexer/Documents/workspace/code/iuapaipaas/iw-algo-fx/intelliw/utils/kafka/test.py", line 60, in handle_message
+    raise ValueError("11111")
+ValueError: 11111
+[0m

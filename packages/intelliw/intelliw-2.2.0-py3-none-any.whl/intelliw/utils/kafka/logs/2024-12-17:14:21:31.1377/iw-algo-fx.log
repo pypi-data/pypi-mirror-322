@@ -1,0 +1,2 @@
+[0] [PID79017] -root- 2024-12-17 14:21:31,140 | INFO | logger.py:188: root logger init, level:INFO
+[0] [PID79017] -Framework Log- 2024-12-17 14:21:31,142 | INFO | client.py:46: Kafka Client initialized with brokers: 172.20.32.80:9092,172.20.32.82:9092,172.20.32.83:9092, producer_config: {}, consumer_config: {'auto.offset.reset': 'earliest', 'max.poll.interval.ms': 1, 'heartbeat.interval.ms': 3000, 'session.timeout.ms': 30000}
