@@ -1,0 +1,10 @@
+README.md
+setup.py
+syncverse/__init__.py
+syncverse/gdrive_sync.py
+syncverse/local_sync.py
+syncverse.egg-info/PKG-INFO
+syncverse.egg-info/SOURCES.txt
+syncverse.egg-info/dependency_links.txt
+syncverse.egg-info/requires.txt
+syncverse.egg-info/top_level.txt
