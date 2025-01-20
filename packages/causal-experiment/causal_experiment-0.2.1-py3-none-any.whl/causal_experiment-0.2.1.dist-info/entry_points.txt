@@ -1,0 +1,2 @@
+[console_scripts]
+causal-experiment = causal_experiment:main
