@@ -1,0 +1,12 @@
+paprika_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paprika_api/exceptions.py,sha256=1Jp8Xa2oQbAGSXar8LbmORKTAaf4GiqMz-22_h4h52k,126
+paprika_api/groceries.py,sha256=31c8lJ2mHoX8Q5MXcOSsRRio3x-5XW8mFEPgdQlb1s0,4479
+paprika_api/notify.py,sha256=cDdedPoCSwwyQO31POtoQqG-AEDByjFMkvky4mhhxVw,435
+paprika_api/pantry.py,sha256=o4klwweXtchpe24bgbAa4M18-nYuXexyRjltYdYo5Og,1359
+paprika_api/paprika.py,sha256=X2OwHW6m7TNeRJOLvLxluClxMC05bGQbUgqEqnWRsVg,1488
+paprika_api/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paprika_api/sync.py,sha256=ZMCNEX7S9nwX_SsVCa1DIkWQZe9H3oq29HSUmsjhjhQ,1096
+paprika_api-0.1.1.dist-info/METADATA,sha256=0qEzhtvGNlnNOgcN9q1jHBVux2WSQ0L_hnky_I9iPoU,1338
+paprika_api-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+paprika_api-0.1.1.dist-info/licenses/LICENSE,sha256=YOWq1Qc3bi8rb4FbBSQ8KBSVdm_BaIScqs5NK2RP67M,1072
+paprika_api-0.1.1.dist-info/RECORD,,
