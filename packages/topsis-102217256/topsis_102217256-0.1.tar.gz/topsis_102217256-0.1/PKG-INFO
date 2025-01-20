@@ -1,0 +1,30 @@
+Metadata-Version: 2.2
+Name: topsis_102217256
+Version: 0.1
+Summary: A Python library for performing TOPSIS analysis for Multi-Criteria Decision Making(MCDM)
+Home-page: https://github.com/YChaudhary1357/TOPSIS_102217256
+Author: Yajur Chaudhary
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+# TOPSIS Package
+
+This package provides a function to perform TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) analysis.
+
+## Installation
+
+```bash
+pip install topsis_package
+```
