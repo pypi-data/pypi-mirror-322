@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: PyModelTrainer
+Version: 0.0.1
+Summary: Train multiple regression models and return the best one.
+Author: Nchiket
+Requires-Python: >=3.7

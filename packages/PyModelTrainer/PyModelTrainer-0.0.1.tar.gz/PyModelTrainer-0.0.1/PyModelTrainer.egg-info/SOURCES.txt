@@ -1,0 +1,9 @@
+setup.py
+PyModelTrainer/__init__.py
+PyModelTrainer/trainer.py
+PyModelTrainer/utils.py
+PyModelTrainer.egg-info/PKG-INFO
+PyModelTrainer.egg-info/SOURCES.txt
+PyModelTrainer.egg-info/dependency_links.txt
+PyModelTrainer.egg-info/requires.txt
+PyModelTrainer.egg-info/top_level.txt
