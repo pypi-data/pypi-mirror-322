@@ -1,0 +1,13 @@
+LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+p115updatedb/__init__.py,sha256=XJ_ri-_QtAW_vlgOovK3eg8covk8mbSw6dzVP4q2-Rg,216
+p115updatedb/__main__.py,sha256=NXYgbeAl3JOjrGhlviSUmOasLM6KqwheahHPtBUSkCc,3760
+p115updatedb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p115updatedb/query.py,sha256=7iR5zi0JgIJGClhLuVO2nyTKb7gAi0y9_IhE8bxGIA4,28088
+p115updatedb/updatedb.py,sha256=4TPFd9ae95O2uETfdzgYLDgXhboh7YeWUsLfCBOFOrQ,47329
+p115updatedb/util.py,sha256=DNKFDo9HH1hWRz0ydR8u1c3ziGRwZQJJ0ziXjhhFfjI,1547
+p115updatedb-0.0.10.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+p115updatedb-0.0.10.dist-info/LICENSE_zh,sha256=q-myI00wQhoEr6FKz3tNdaQSXmUpfKM8we90pvvVGJM,28917
+p115updatedb-0.0.10.dist-info/METADATA,sha256=By8dpnLfzzIZQoEelF1UHeddcSupxBm2_JE5u1kJqs8,4004
+p115updatedb-0.0.10.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+p115updatedb-0.0.10.dist-info/entry_points.txt,sha256=JQdkGqVnJmmglUsy8HgDDrOcddoy9rKhwEd_AjJEZng,59
+p115updatedb-0.0.10.dist-info/RECORD,,
