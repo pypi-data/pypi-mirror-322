@@ -1,0 +1,85 @@
+Metadata-Version: 2.2
+Name: hashicorp_vault_django
+Version: 0.0.6
+Summary: A Django app to manage the application secrets using hashicorp.
+Home-page: https://github.com/icedreamer-praveen/hashicorp-vault
+Author: icedreamer-praveen
+Author-email: prabinchy1234@gmail.com
+License: MIT License
+Keywords: vault,vault-django,hashicorp,hashicorp-vault-django,hashicorp_vault_django,hashicorp-vault,vault-secrets,vault-django,secrets-management,hashicorp-vault-integration,vault-configuration,vault-authentication,vault-python-client,vault-credentials,django-secrets,django-vault,django-config,django-auth,django-app,django-integration,django-security,django-secrets-management,django-settings,django-configuration,python-secrets,python-vault,python-authentication,python-security,python-secrets-management,python-configuration,python-integration,python-django,python-configuration-management,python-client,security,authentication,authorization,token-management,secure-secrets,password-management,token-authentication,access-management,infrastructure-secrets,gcp-secrets,django-library,django-tool,django-package,secrets-infrastructure,secrets-django-app,vault-kv-engine,vault-auth-backends,vault-python,vault-policy,vault-secrets-backend,vault-ssl,vault-token-authentication,vault-api
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: django>=3.2
+Requires-Dist: hvac>=0.11.2
+Provides-Extra: dev
+Requires-Dist: twine>=4.0.2; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Hashicorp-vault-python
+=========================
+
+Hashicorp vault is a Python-Django app for the improvement application security leveraging secrets
+
+Installation
+------------
+
+    * pip install hashicorp-vault-django
+    * Add ``hashicorp_vault`` to your ``INSTALLED_APPS``
+
+::
+
+Setup in settings
+-----------------
+
+    * make config directory at project root level and create application.yml file inside config directory 
+    * application.yml sample for vault configuration
+        * vault:
+              host: vault url  # https
+              secret_engine: mount path  # secrests-config
+              application: application path # secrets-ai
+              username: username
+              password: password
+    * if your secrets stored in `/vault/secrets/secrets-config/kv/secrets-ai/` then use secrets-config as secret_engine and secrets-ai as application in vault configuration
+    * consume vault secrets in your settings.py file 
+          from hashicorp_vault.vault import get_vault_secrets
+
+          vault_secrets = get_vault_secrets(BASE_DIR)
+
+          DATABASES = {
+            "default": {
+                "ENGINE": config["datasource"]["DATABASE_ENGINE"],
+                "NAME": vault_secrets.get("db_database"),
+                "USER": vault_secrets.get("db_user"),
+                "PASSWORD": vault_secrets.get("db_password"),
+                "HOST": vault_secrets.get("host"),
+                "PORT": vault_secrets.get("db_port"),
+                "OPTIONS": {"charset": "utf8mb4"},
+            },
+        }
+    * Use secret keys to access to secret values from vault
+::
+
+
+Compatibility
+-------------
+{py3.8, py3.10}-django{4.* above}
