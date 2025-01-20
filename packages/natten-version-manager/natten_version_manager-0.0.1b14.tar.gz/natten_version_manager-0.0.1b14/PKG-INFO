@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: natten-version-manager
+Version: 0.0.1b14
+Author-email: Caewinix <Caewinix@yeah.net>
+Project-URL: Homepage, https://github.com/Caewinix/natten-version-manager
+Project-URL: Bug Tracker, https://github.com/Caewinix/natten-version-manager/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: psutil
+Requires-Dist: pip

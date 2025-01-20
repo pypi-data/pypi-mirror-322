@@ -1,0 +1,16 @@
+.DS_Store
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/natten_version_manager/__init__.py
+src/natten_version_manager/natten_installer.py
+src/natten_version_manager.egg-info/PKG-INFO
+src/natten_version_manager.egg-info/SOURCES.txt
+src/natten_version_manager.egg-info/dependency_links.txt
+src/natten_version_manager.egg-info/requires.txt
+src/natten_version_manager.egg-info/top_level.txt
+src/natten_version_manager/pypi/__init__.py
+src/natten_version_manager/pypi/core.py
+src/natten_version_manager/running/__init__.py
+src/natten_version_manager/running/core.py
