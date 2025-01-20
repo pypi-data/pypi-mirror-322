@@ -1,0 +1,247 @@
+# yoloproc
+
+A Python package for processing YOLO datasets.
+
+
+## Features
+
+`yoloproc` provides a collection of tools to manage and preprocess YOLO-formatted datasets. The main features include:
+
+1. **Extracting Datasets from Archives**: Supports extraction of `.zip` and `.7z` archives.
+
+2. **Merging YOLO Data**: Merges images and labels from multiple subdirectories into unified `images` and `labels` folders.
+
+3. **Removing Irrelevant Data**: Cleans datasets by removing images without labels and vice versa.
+
+4. **Extracting Ordered Frames**: Extracts frames from image sequences at a specified interval.
+
+5. **Generating Empty Annotations**: Creates empty label files for images without corresponding annotations.
+
+6. **Analyzing Label Information**: Counts the number of instances for each class in label files.
+
+7. **Organizing Labels**: Organizes labels and images into class-specific directories.
+
+8. **Visualizing Labeled Images**: Draws bounding boxes on images according to YOLO annotations.
+
+9. **Rewriting Labels**: Rewrites label files based on a new class mapping.
+
+10. **Cropping Dataset Images and Labels**: Crops images and adjusts labels accordingly.
+
+11. **Converting YOLO to COCO Format**: Converts a YOLO-formatted dataset to COCO format.
+
+## Installation
+git clone https://github.com/yourusername/yoloproc.git
+cd yoloproc
+pip install .
+
+## Usage
+
+### 1. Extracting Datasets from Archives
+
+Extract all supported archives in a directory to a specified output directory.
+
+```python
+from yoloproc.archive_extractor import ArchiveExtractor
+
+extractor = ArchiveExtractor()
+extractor.extract_all(
+    source_dir='/path/to/archives',
+    output_dir='/path/to/output'
+)
+```
+
+### 2. Merging YOLO Data
+
+Merge images and labels scattered across subdirectories into unified `images` and `labels` folders.
+
+```python
+from yoloproc.script import merge_yolo_data
+
+merge_yolo_data(
+    root_path='/path/to/dataset',
+    output_path='/path/to/output',
+    is_move=False  # Set to True to move files instead of copying
+)
+```
+
+### 3. Removing Irrelevant Data
+
+Remove files without corresponding pairs (e.g., images without labels).
+
+```python
+from yoloproc.script import remove_irrelevant_data
+
+# Remove label files (*.txt) without corresponding images
+remove_irrelevant_data(
+    root_path='/path/to/dataset',
+    remove_type='*.txt'
+)
+
+# Remove image files (*.jpg) without corresponding labels
+remove_irrelevant_data(
+    root_path='/path/to/dataset',
+    remove_type='*.jpg'
+)
+```
+
+### 4. Extracting Ordered Frames
+
+Extract frames from a sequence of images at a specified interval.
+
+```python
+from yoloproc.script import extract_ordered_frames
+
+extract_ordered_frames(
+    image_dir='/path/to/images',
+    output_dir='/path/to/output',
+    frame_interval=10,  # Extract every 10th frame
+    label_dir='/path/to/labels'  # Optional: handle corresponding labels
+)
+```
+
+### 5. Generating Empty Annotations
+
+Create empty label files for images without annotations.
+
+```python
+from yoloproc.script import generate_empty_annotations
+
+generate_empty_annotations(
+    image_dir='/path/to/images',
+    label_dir='/path/to/labels'
+)
+```
+
+### 6. Analyzing Label Information
+
+Count instances of each class in label files.
+
+```python
+from yoloproc.script import labels_info
+
+labels_info(
+    labels_path='/path/to/labels',
+    class_path='/path/to/classes.txt'  # Optional
+)
+```
+
+### 7. Organizing Labels
+
+Organize labels and images into class-specific directories.
+
+```python
+from yoloproc.yolo_visual_cls import LabelOrganizer
+
+organizer = LabelOrganizer(
+    dataset_root='/path/to/dataset',
+    class_file='/path/to/classes.txt'  # Optional
+)
+organizer.organize_labels(
+    is_move=False  # Set to True to move files instead of copying
+)
+```
+
+### 8. Visualizing Labeled Images
+
+Draw bounding boxes on images based on YOLO annotations.
+
+```python
+from yoloproc.yolo_im_visual import create_visualizer
+
+create_visualizer(
+    labels_path='/path/to/labels',
+    images_path='/path/to/images',       # Optional
+    visuals_path='/path/to/visuals',     # Optional
+    class_path='/path/to/classes.txt',   # Optional
+    interval=1,                          # Process every image
+    backend='yolo'                       # 'yolo' or 'mpl' for different visualization styles
+)
+```
+
+### 9. Rewriting Labels
+
+Rewrite label files with a new class mapping.
+
+```python
+from yoloproc.label_rewrite import rewrite_yolo_labels
+
+# Define a new class mapping
+class_filter = {
+    0: 0,  # Old class 0 mapped to new class 0
+    1: 1,  # Old class 1 mapped to new class 1
+    2: 2   # Old class 2 mapped to new class 2
+}
+
+rewrite_yolo_labels(
+    labels_path='/path/to/labels',
+    class_filter=class_filter,
+    output_dir='labels2',
+    remove_empty=False,
+    custom_output_path='/path/to/output/labels'  # Optional
+)
+```
+
+### 10. Cropping Dataset Images and Labels
+
+Crop images and adjust corresponding labels.
+
+```python
+from yoloproc.dataset_crop import DatasetCropGestures
+
+crop_origin = (480, 284, 1440, 796)  # Define crop coordinates
+dataset_path = '/path/to/dataset'
+output_path = '/path/to/output'
+
+dataset_crop = DatasetCropGestures(
+    dataset_path=dataset_path,
+    output_path=output_path,
+    crop_origin_xyxy=crop_origin
+)
+dataset_crop.crop_all_thread()
+```
+
+### 11. Converting YOLO to COCO Format
+
+Convert a YOLO-formatted dataset to the COCO annotation format.
+
+```python
+from yoloproc.yolo2coco import convert_yolo_to_coco
+
+convert_yolo_to_coco(
+    image_dir='/path/to/dataset',
+    yolo_class_txt='/path/to/classes.txt'  # Optional
+)
+```
+
+## Dependencies
+
+- Python 3.9 or higher
+- [tqdm](https://tqdm.github.io/) for progress bars
+- [opencv-python](https://pypi.org/project/opencv-python/) for image processing
+- [numpy](https://numpy.org/) for numerical operations
+- [Pillow](https://python-pillow.org/) for image handling
+- [matplotlib](https://matplotlib.org/) for visualization (optional)
+- [rich](https://rich.readthedocs.io/) for enhanced terminal output (optional)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- **wm** - *Initial work* - [Email](mailto:3508312371@qq.com)
+
+## Acknowledgments
+
+- Thanks to all contributors and open-source projects that have provided inspiration and code examples.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request on GitHub.
+
+## TODO
+
+- Add support for additional archive formats.
+- Improve error handling and logging.
+- Expand test coverage and add more examples.
+- Add dataset splitting functionality (train/val/test)
