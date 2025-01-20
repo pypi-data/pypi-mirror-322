@@ -1,0 +1,9 @@
+README.md
+setup.py
+.github/workflows/workflows.yml
+nsi/__init__.py
+nsi/structures.py
+nsi.egg-info/PKG-INFO
+nsi.egg-info/SOURCES.txt
+nsi.egg-info/dependency_links.txt
+nsi.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+README.md
+setup.py
+nsi.egg-info/PKG-INFO
+nsi.egg-info/SOURCES.txt
+nsi.egg-info/dependency_links.txt
+nsi.egg-info/top_level.txt
+nsinfo/__init__.py
+nsinfo/structures.py
+nsinfo.egg-info/PKG-INFO
+nsinfo.egg-info/SOURCES.txt
+nsinfo.egg-info/dependency_links.txt
+nsinfo.egg-info/top_level.txt
