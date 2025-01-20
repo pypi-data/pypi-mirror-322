@@ -1,0 +1,101 @@
+Metadata-Version: 2.2
+Name: neo4j-viz
+Version: 0.2.0
+Summary: A simple graph visualization tool
+Author-email: Neo4j <team-gds@neo4j.org>
+Project-URL: Homepage, https://neo4j.com/
+Keywords: graph,visualization,neo4j
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: ipython<9,>=8
+Requires-Dist: pydantic<3,>=2
+Requires-Dist: pydantic-extra-types<3,>=2
+Provides-Extra: dev
+Requires-Dist: ruff==0.9.0; extra == "dev"
+Requires-Dist: mypy==1.14.1; extra == "dev"
+Requires-Dist: pytest==8.3.4; extra == "dev"
+Requires-Dist: selenium==4.27.1; extra == "dev"
+Requires-Dist: palettable==3.3.3; extra == "dev"
+Requires-Dist: pytest-mock==3.14.0; extra == "dev"
+Requires-Dist: nbconvert==7.16.5; extra == "dev"
+Requires-Dist: streamlit==1.41.1; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx==8.1.3; extra == "docs"
+Requires-Dist: autodoc_pydantic; extra == "docs"
+Requires-Dist: enum-tools[sphinx]; extra == "docs"
+Provides-Extra: pandas
+Requires-Dist: pandas<3,>=2; extra == "pandas"
+Requires-Dist: pandas-stubs<3,>=2; extra == "pandas"
+Provides-Extra: gds
+Requires-Dist: graphdatascience<2,>=1; extra == "gds"
+Provides-Extra: notebook
+Requires-Dist: ipykernel==6.29.5; extra == "notebook"
+Requires-Dist: pykernel==0.1.6; extra == "notebook"
+Requires-Dist: neo4j>=5.26.0; extra == "notebook"
+Requires-Dist: ipywidgets>=8.0.0; extra == "notebook"
+Requires-Dist: palettable==3.3.3; extra == "notebook"
+
+# Graph Visualization for Python by Neo4j
+
+[![Latest version](https://img.shields.io/pypi/v/neo4j-viz)](https://pypi.org/project/neo4j-viz/)
+[![PyPI downloads month](https://img.shields.io/pypi/dm/neo4j-viz)](https://pypi.org/project/neo4j-viz/)
+![Python versions](https://img.shields.io/pypi/pyversions/neo4j-viz)
+
+`neo4j-viz` is a Python package for creating interactive graph visualizations.
+The package wraps the [Neo4j Visualization JavaScript library (NVL)](https://neo4j.com/docs/nvl/current/).
+
+Proper documentation is forthcoming.
+
+**WARNING:**
+This package is still in development and the API is subject to change.
+
+
+## Some notable features
+
+* Easy to import graphs represented as:
+  * projections in the Neo4j Graph Data Science (GDS) library
+  * pandas DataFrames
+* Node features:
+  * Sizing
+  * Colors
+  * Captions
+  * Pinning
+* Relationship features:
+  * Colors
+  * Captions
+* Graph features:
+  * Zooming
+  * Panning
+  * Moving nodes
+  * Using different layouts
+* Additional convenience functionality for:
+  * Resizing nodes, optionally including scale normalization
+  * Coloring nodes based on a property
+  * Toggle whether nodes should be pinned or not
+
+Please note that this list is by no means exhaustive.
+
+
+## Installation
+
+```
+pip install neo4j-viz
+```
