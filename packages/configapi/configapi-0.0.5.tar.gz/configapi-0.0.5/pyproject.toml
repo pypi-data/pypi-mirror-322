@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "configapi"
+authors = [
+  {name = "Patrick Schaffner", email = "patrick.schaffner@protonmail.ch"},
+]
+maintainers = [
+  {name = "Patrick Schaffner", email = "patrick.schaffner@protonmail.ch"},
+]
+description = "A dict-style API for TOML-based config files."
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["configs", "platformdirs", "toml", "dict"]
+requires-python = ">=3.8"
+dependencies = [
+    "tomli",
+    "tomli_w",
+    "packaging",
+]
+optional-dependencies.test = [
+    "pytest",
+    "pytest-cov",
+    "pyfakefs",
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "configapi.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["configapi"]
+namespaces = false
+
+[tool.pytest.ini_options]
+addopts = "--cov=configapi --junitxml=junit.xml --cov-report=xml --cov-report=html"
+testpaths = ["tests"]
