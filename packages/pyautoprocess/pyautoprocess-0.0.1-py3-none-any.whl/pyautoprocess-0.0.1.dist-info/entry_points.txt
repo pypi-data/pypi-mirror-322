@@ -1,0 +1,5 @@
+[console_scripts]
+autoprocess = pyautoprocess.autoprocess:main
+batch_reprocess = pyautoprocess.batch_reprocess:main
+mrc2tif = pyautoprocess.mrc2tif:main
+ser2tif = pyautoprocess.ser2tif:main

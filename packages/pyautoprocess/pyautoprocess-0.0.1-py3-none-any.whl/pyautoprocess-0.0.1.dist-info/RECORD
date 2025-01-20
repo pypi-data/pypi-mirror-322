@@ -1,0 +1,9 @@
+pyautoprocess/autoprocess.py,sha256=deHaYhMnA5WaNYbgZbbZF22Yumc2rNIQj8UMW7xURW8,35824
+pyautoprocess/batch_reprocess.py,sha256=irqfIU9TKkHNJoDlwQ4dv3yh8PJSxh0bkFXd553KRb4,14816
+pyautoprocess/mrc2tif.py,sha256=gKZVP2P6yvSHy02p603UbVeHRv7nLBp7GRVsMrsqplI,13468
+pyautoprocess/ser2tif.py,sha256=JkX2Ej6yRexC8iB0v1Qw0aRllHhp6YoqZnpH5p2p9KE,13010
+pyautoprocess-0.0.1.dist-info/METADATA,sha256=oqxnT1OiH8BZezSyiN28k65FyfC_UgbVtK0j40YDIuo,5966
+pyautoprocess-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pyautoprocess-0.0.1.dist-info/entry_points.txt,sha256=q08GUIOXf2mS_P6WaH5kuLRBhmRk_DxkeKxToAUN958,190
+pyautoprocess-0.0.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyautoprocess-0.0.1.dist-info/RECORD,,
