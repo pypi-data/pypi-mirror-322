@@ -1,0 +1,41 @@
+[project]
+name = "eda-bam"
+version = "0.3.0"
+description = "Navigating data from one thing to another."
+authors = [
+    { name = "ppabam", email = "tom@diginori.com" },
+]
+dependencies = [
+    "pandas>=2.2.3",
+    "president-speech>=0.9.1",
+    "typer>=0.15.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+eda-bam = "eda_bam.cli:entry_point"
+
+[project.urls]
+Homepage = "https://github.com/ppabam/eda-bam"
+Issues = "https://github.com/ppabam/eda-bam/issues"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[dependency-groups]
+eda = [
+    "jupyterlab>=4.3.4",
+]
+test = [
+    "pytest>=8.3.4",
+]
