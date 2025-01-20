@@ -1,0 +1,6 @@
+setup.py
+jaraco.comm.egg-info/PKG-INFO
+jaraco.comm.egg-info/SOURCES.txt
+jaraco.comm.egg-info/dependency_links.txt
+jaraco.comm.egg-info/requires.txt
+jaraco.comm.egg-info/top_level.txt
