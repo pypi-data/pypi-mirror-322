@@ -1,0 +1,7 @@
+django_include_htmx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_include_htmx/static/js/htmx/htmx.js,sha256=ywqZv5HDa9054MnUZ3xXnoIC-aWNtfDFnJAIXqDkEnU,165563
+django_include_htmx/static/js/htmx/htmx.min.js,sha256=4gndpcgjVHnzFm3vx3UOHbzVpcGAi3eS_C5nM3aPtEc,50917
+django_include_htmx-0.1.0.dist-info/METADATA,sha256=dHNsMZMabGFCP4O4Ne_LNYpY_NVFjCgNMJaUwQzeKGg,189
+django_include_htmx-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+django_include_htmx-0.1.0.dist-info/top_level.txt,sha256=HzumH_5RNlrHTRdLL4zyvgs3ZCKw9SMuzCZoeIpTMoM,20
+django_include_htmx-0.1.0.dist-info/RECORD,,
