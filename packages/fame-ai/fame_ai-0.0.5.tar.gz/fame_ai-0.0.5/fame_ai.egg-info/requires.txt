@@ -1,0 +1,13 @@
+tweepy>=4.12.0
+replicate>=0.8.0
+langchain>=0.1.0
+langchain-openai>=0.0.2
+APScheduler>=3.10.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+[dev]
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0

@@ -1,0 +1,38 @@
+[project]
+name = "fame-ai"
+version = "0.0.5"
+description = "FAME Framework (also known as Full AI Meta Engine) is an AI agent framework designed to simulate human-like interactions and content creation on social media platforms, specifically Twitter. It can generate content including images, text, and videos that reflect the agent's personality, knowledge, and current mood. 🎨📝"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Fame AI", email = "dev@getfame.ai"}
+]
+keywords = ["ai agent", "ai framework", "x", "twitter", "integration"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+dependencies = [
+    "tweepy>=4.12.0",
+    "replicate>=0.8.0",
+    "langchain>=0.1.0",
+    "langchain-openai>=0.0.2",
+    "APScheduler>=3.10.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0"
+]
