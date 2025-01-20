@@ -1,0 +1,12 @@
+boto3
+click
+cookiecutter
+requests
+tqdm
+python-dotenv
+pyyaml
+pydantic
+pyjwt
+
+[all]
+ray[all]
