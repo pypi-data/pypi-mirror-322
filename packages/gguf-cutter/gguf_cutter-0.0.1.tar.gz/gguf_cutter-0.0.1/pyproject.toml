@@ -1,0 +1,20 @@
+[build-system]
+requires = ["flit_core"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "gguf-cutter"
+authors = [{name = "calcuis", email = "info@calcu.io"}]
+description = "cutter/quantizor for gguf (bf/f16)"
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version"]
+dependencies = ["tqdm"]
+
+[project.urls]
+Download = "https://github.com/calcuis/gguf-quantizor/releases"
+GitHub = "https://github.com/calcuis/gguf-quantizor"
+Issues = "https://github.com/calcuis/ggufquantizor/issues"
+Homepage = "https://gguf.org"
+reddit = "https://www.reddit.com/r/gguf"
