@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+toscinterface/__init__.py
+toscinterface/oscinterface.py
+toscinterface.egg-info/PKG-INFO
+toscinterface.egg-info/SOURCES.txt
+toscinterface.egg-info/dependency_links.txt
+toscinterface.egg-info/top_level.txt
