@@ -1,0 +1,14 @@
+flask
+htmlfn
+hyputils>=0.0.9
+idlib>=0.0.1.dev22
+Markdown
+pyontutils>=0.1.26
+pysercomb>=0.0.13
+
+[dev]
+pytest-cov
+wheel
+
+[test]
+pytest
