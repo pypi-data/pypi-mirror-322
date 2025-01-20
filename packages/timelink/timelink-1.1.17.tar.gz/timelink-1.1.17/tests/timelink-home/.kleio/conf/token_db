@@ -1,0 +1,3 @@
+created(1737333659.713993).
+assert(user_token('869a331ca81c298784c8591005e89688dcc41f10',limited_user,[created(1737333659.708286),comment('An user that has no privileges, used to test authorization errors'),api([]),structures('projects/test-project/structures'),sources('projects/test-project/sources')])).
+assert(user_token(d18baeef93cad1e3896ee244268722f5361a920f,normal_user,[created(1737333659.9212153),comment('An user able to translate, upload and delete files, and also create and remove directories, in specific sub-directories in kleio-home'),api([sources,kleioset,files,structures,translations,upload,delete,mkdir,rmdir]),structures('projects/test-project/structures'),sources('projects/test-project/sources')])).
