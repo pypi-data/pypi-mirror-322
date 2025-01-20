@@ -1,0 +1,16 @@
+barkr/__init__.py,sha256=feN9jAtsyiErYWoFCWjNrX-N3M-IFtwncZxtcIkfius,354
+barkr/connections/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+barkr/connections/base.py,sha256=efbUucai5cwvYas-ilUU89ENqKK-MFhgYPBJAG5MA8w,2963
+barkr/connections/mastodon.py,sha256=k7893DdJoeRIWxG90N72nO-KJJpcrTOd1ywrvq54wRI,3745
+barkr/connections/telegram.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+barkr/connections/twitter.py,sha256=p0OjX3oBk4xWGdiYZ-68HgcszcQS-929yZCcj6mAIYU,3200
+barkr/main.py,sha256=gVk2LIJm79_bSCbcjfPrNl7cEPJ689-tFX0ioHApfIY,3729
+barkr/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+barkr/models/message.py,sha256=1Sx1h4wG81IE667EsnKbmG4Ik57t0pOwSWKnx8m4TGE,624
+barkr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+barkr/utils.py,sha256=Z92v_ZdM_B92eDejMdzANWpgif1oAuydI9sn1MFiwn8,631
+barkr/yop.py,sha256=nreEkrIPEaYcA05wokjs2gdDdoTgueBjBp3yea3Gzoc,651
+barkr-0.4.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+barkr-0.4.0.dist-info/METADATA,sha256=S5l63doDsGZmvc5e7uT9t8CRsV4jWF9lN5aUpPGEsgs,5181
+barkr-0.4.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+barkr-0.4.0.dist-info/RECORD,,
