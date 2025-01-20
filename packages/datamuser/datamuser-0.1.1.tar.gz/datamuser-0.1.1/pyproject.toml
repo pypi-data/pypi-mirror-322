@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "datamuser"
+version = "0.1.1"
+description = "Command line interface for the Datamuse API"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+keywords = ["datamuse", "cli", "words", "thesaurus", "rhyming", "synonyms", "antonyms"]
+authors = [
+    { name = "Hrothgar", email = "hrothgarrrr@gmail.com" }
+]
+dependencies = [
+    "requests>=2.25.0"
+]
+
+[project.scripts]
+datamuse = "datamuse_cli.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["datamuse_cli"]
