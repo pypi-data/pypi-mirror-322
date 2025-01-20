@@ -1,0 +1,2 @@
+[console_scripts]
+passportmcp = passportmcp.cli:cli
