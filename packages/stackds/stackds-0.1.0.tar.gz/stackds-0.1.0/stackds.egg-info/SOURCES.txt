@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+stackds/__init__.py
+stackds/stack.py
+stackds.egg-info/PKG-INFO
+stackds.egg-info/SOURCES.txt
+stackds.egg-info/dependency_links.txt
+stackds.egg-info/top_level.txt
