@@ -1,0 +1,66 @@
+import json
+import setuptools
+
+kwargs = json.loads(
+    """
+{
+    "name": "gammarers.aws-resource-naming",
+    "version": "0.2.1",
+    "description": "@gammarers/aws-sns-slack-message-lambda-subscription",
+    "license": "Apache-2.0",
+    "url": "https://github.com/gammarers/aws-sns-slack-message-lambda-subscription.git",
+    "long_description_content_type": "text/markdown",
+    "author": "yicr<yicr@users.noreply.github.com>",
+    "bdist_wheel": {
+        "universal": true
+    },
+    "project_urls": {
+        "Source": "https://github.com/gammarers/aws-sns-slack-message-lambda-subscription.git"
+    },
+    "package_dir": {
+        "": "src"
+    },
+    "packages": [
+        "gammarers.aws_resource_naming",
+        "gammarers.aws_resource_naming._jsii"
+    ],
+    "package_data": {
+        "gammarers.aws_resource_naming._jsii": [
+            "aws-sns-slack-message-lambda-subscription@0.2.1.jsii.tgz"
+        ],
+        "gammarers.aws_resource_naming": [
+            "py.typed"
+        ]
+    },
+    "python_requires": "~=3.8",
+    "install_requires": [
+        "aws-cdk-lib>=2.120.0, <3.0.0",
+        "constructs>=10.0.5, <11.0.0",
+        "gammarers.aws-resource-naming>=0.10.1, <0.11.0",
+        "jsii>=1.106.0, <2.0.0",
+        "publication>=0.0.3",
+        "typeguard>=2.13.3,<4.3.0"
+    ],
+    "classifiers": [
+        "Intended Audience :: Developers",
+        "Operating System :: OS Independent",
+        "Programming Language :: JavaScript",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Typing :: Typed",
+        "Development Status :: 5 - Production/Stable",
+        "License :: OSI Approved"
+    ],
+    "scripts": []
+}
+"""
+)
+
+with open("README.md", encoding="utf8") as fp:
+    kwargs["long_description"] = fp.read()
+
+
+setuptools.setup(**kwargs)
