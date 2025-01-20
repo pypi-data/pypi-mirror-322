@@ -1,0 +1,8 @@
+numpy
+toml
+tqdm
+pandas
+python-igraph
+cxrandomwalk
+networkx
+fastnode2vec
