@@ -1,0 +1,16 @@
+OpenGL_accelerate/latebind.cpython-37m-i386-linux-gnu.so,sha256=mloOHl_q6QDvLRi3SLII0Atuf3xDjy3Y8D7jD_VGk_4,364188
+OpenGL_accelerate/numpy_formathandler.cpython-37m-i386-linux-gnu.so,sha256=qV67414ReHNtR0DYnrkMwFdBscWAIogWAIjyBgygMnM,493324
+OpenGL_accelerate/nones_formathandler.cpython-37m-i386-linux-gnu.so,sha256=HkaKq47ltLxlbkXNTmoleWmAigvlweBsIg_8dL18ZPs,267856
+OpenGL_accelerate/formathandler.pxd,sha256=IdW0c3DT0jFkrHUdsIeD5tENaLQNUQIdwelrzHqR39o,615
+OpenGL_accelerate/formathandler.cpython-37m-i386-linux-gnu.so,sha256=UoPOupmcFdWDX8tAM-GTDDvdX4ZJDGaP9dRO462oYQo,444256
+OpenGL_accelerate/vbo.cpython-37m-i386-linux-gnu.so,sha256=TTjQuXPyMc6C55QoTq45h7yaptKYbkuN3yCWHAEDkG0,876284
+OpenGL_accelerate/__init__.py,sha256=-eFgdp-IUG9Rr4bDDKTJVfa9rGAAjnVJNs9Z_rMPJ1o,382
+OpenGL_accelerate/arraydatatype.cpython-37m-i386-linux-gnu.so,sha256=mpdrywo1wjX0GGguDRQ7NbkcVyn5Ny-WVCDNak2CbdE,1416156
+OpenGL_accelerate/errorchecker.cpython-37m-i386-linux-gnu.so,sha256=hC91-0AL6hwaL_ULb2NQ7VmH6gTYKL66DVuQa5tNinE,392408
+OpenGL_accelerate/buffers_formathandler.cpython-37m-i386-linux-gnu.so,sha256=7ZCwtST6fgHmILTwrKrLIZSys5I876lNucAGqkG5cg0,377296
+OpenGL_accelerate/wrapper.pxd,sha256=MhZztqh46KhwzfuLA3F6ce20MquC9Bilfz16r2ZsjIo,486
+OpenGL_accelerate/wrapper.cpython-37m-i386-linux-gnu.so,sha256=6lpSEu02j5tzAqCxrYsKOj-L4xpPt1gbF6mIvUlnkaU,1696948
+PyOpenGL_accelerate-3.1.9.dist-info/METADATA,sha256=fU8ZWEHJLq3p8QRxYa0dJVdRY623JFs5x7tipJ-oNd0,3844
+PyOpenGL_accelerate-3.1.9.dist-info/RECORD,,
+PyOpenGL_accelerate-3.1.9.dist-info/top_level.txt,sha256=9o0RHjJ27rL4yafmZevzZL2UGWVjawgxkrWN9pZsRFQ,18
+PyOpenGL_accelerate-3.1.9.dist-info/WHEEL,sha256=bTN0H5rGWfLYEqq__tlMIOScigdE3-gHgpM17ZMu9E8,110
