@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: openai-finetuner
+Version: 0.2.2
+Summary: Default template for PDM package
+Author-Email: Daniel Tan <dtch1997@users.noreply.github.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: numpy>=2.2.1
+Requires-Dist: tiktoken>=0.8.0
+Requires-Dist: openai>=1.59.7
+Provides-Extra: examples
+Requires-Dist: python-dotenv>=1.0.1; extra == "examples"
+Requires-Dist: ipykernel>=6.29.5; extra == "examples"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.4; extra == "dev"
+Description-Content-Type: text/markdown
+
+# OpenAI Finetuner
+
+A lightweight wrapper around OpenAI's fine-tuning API for launching, managing, and tracking experiments.
+
+## Installation
+
+```bash
+pip install openai-finetuner
+```
+
+## Quickstart
+
+See [examples/demo/main.py](examples/demo/main.py) for usage
