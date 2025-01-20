@@ -1,0 +1,2 @@
+[console_scripts]
+neuromeka-hri-install = neuromeka_hri.neuromeka_hri_install:main
