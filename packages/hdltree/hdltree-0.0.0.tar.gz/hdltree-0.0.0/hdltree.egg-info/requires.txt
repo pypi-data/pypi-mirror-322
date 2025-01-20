@@ -1,0 +1,8 @@
+lark>=1.0.0
+lark-ambig-tools>=1.0.0
+rich>=13.0.0
+pydot>=3.0.0
+
+[symbolator]
+pygobject
+pycairo
