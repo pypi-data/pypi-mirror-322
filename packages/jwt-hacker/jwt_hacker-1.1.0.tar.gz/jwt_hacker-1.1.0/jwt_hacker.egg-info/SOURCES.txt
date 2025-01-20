@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+jwt_hacker/__init__.py
+jwt_hacker/decoder.py
+jwt_hacker/gui.py
+jwt_hacker.egg-info/PKG-INFO
+jwt_hacker.egg-info/SOURCES.txt
+jwt_hacker.egg-info/dependency_links.txt
+jwt_hacker.egg-info/entry_points.txt
+jwt_hacker.egg-info/not-zip-safe
+jwt_hacker.egg-info/requires.txt
+jwt_hacker.egg-info/top_level.txt
+tests/__init__.py
+tests/test_decoder.py
+tests/test_integration.py
