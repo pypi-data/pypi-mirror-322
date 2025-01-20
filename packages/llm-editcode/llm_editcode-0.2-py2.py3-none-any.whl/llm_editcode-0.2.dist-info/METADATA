@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: llm-editcode
+Version: 0.2
+Summary: Use LLM to edit source files
+Project-URL: Homepage, https://github.com/icholy/llm-editcode
+Project-URL: Issues, https://github.com/icholy/llm-editcode/issues
+Project-URL: CI, https://github.com/icholy/llm-editcode/actions
+Author: Ilia Choly
+License: Apache-2.0
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: llm
+Requires-Dist: prompt-toolkit>=3.0.43
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+# LLM-EDITCODE
+
+> An [llm](https://llm.datasette.io/en/stable/) plugin for editing code files.
+
+## Install:
+
+```
+llm install llm-editcode
+```
+
+## Usage:
+
+```
+llm editcode -f README.md "improve the formatting"
+```
