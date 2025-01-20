@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/CBBpy.egg-info/PKG-INFO
+src/CBBpy.egg-info/SOURCES.txt
+src/CBBpy.egg-info/dependency_links.txt
+src/CBBpy.egg-info/requires.txt
+src/CBBpy.egg-info/top_level.txt
+src/cbbpy/__init__.py
+src/cbbpy/mens_scraper.py
+src/cbbpy/womens_scraper.py
+src/cbbpy/utils/__init__.py
+src/cbbpy/utils/cbbpy_utils.py
+src/cbbpy/utils/mens_team_map.csv
+src/cbbpy/utils/womens_team_map.csv
+tests/test_scraper.py
