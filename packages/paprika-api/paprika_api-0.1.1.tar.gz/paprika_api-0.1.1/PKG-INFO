@@ -1,0 +1,48 @@
+Metadata-Version: 2.4
+Name: paprika-api
+Version: 0.1.1
+Summary: Unofficial SDK for Paprika API
+Project-URL: Repository, https://github.com/smartflutist661/paprika.git
+Project-URL: Issues, https://github.com/smartflutist661/paprika/issues
+Project-URL: Changelog, https://github.com/smartflutist661/paprika/blob/main/CHANGELOG.md
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Requires-Dist: requests~=2.32
+Description-Content-Type: text/markdown
+
+# UNOFFICIAL SDK for Paprika Recipe Manager
+
+An unofficial SDK for the Paprika Recipe Manager API.
+Currently handles Groceries and Pantry sections.
+
+## Usage
+
+Log in with the `PaprikaClient`:
+ 
+```python
+client = PaprikaClient(email=<your-email>, password=<your-password>)
+```
+
+The Paprika API currently rejects login requests from "unrecognized clients".
+The client therefore currently uses an iOS user agent, though this is not required
+after an API token has been acquired.
+
+## TODO
+
+The routes below are polled on a forced sync, but not currently available in this SDK.
+There may be additional routes not noted below.
+
+* Bookmarks
+* Categories
+* Recipes
+* Meals
+  * Mealtypes
+  * Meals
+* Menus
+  * Menus
+  * Menuitems
+* Photos
