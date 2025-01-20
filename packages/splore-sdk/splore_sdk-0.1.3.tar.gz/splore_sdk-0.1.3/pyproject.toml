@@ -1,0 +1,34 @@
+[project]
+name = "splore-sdk"
+version = "0.1.3"
+description = "splore sdk to intract with splore services"
+authors = [
+    { name = "DilipCoder", email = "dilips.ven@splore.com" },
+]
+dependencies = [
+    "requests>=2.32.3",
+    "pydantic>=2.9.2",
+    "tuspy>=1.1.0",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+examples = [
+    "boto3",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+exclude = [
+    "examples",
+]
+distribution = true
