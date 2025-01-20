@@ -1,0 +1,7 @@
+README.md
+setup.py
+autochartpy.egg-info/PKG-INFO
+autochartpy.egg-info/SOURCES.txt
+autochartpy.egg-info/dependency_links.txt
+autochartpy.egg-info/requires.txt
+autochartpy.egg-info/top_level.txt
