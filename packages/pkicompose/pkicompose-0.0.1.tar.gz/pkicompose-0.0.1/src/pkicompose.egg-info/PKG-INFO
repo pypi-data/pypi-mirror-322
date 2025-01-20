@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: pkicompose
+Version: 0.0.1
+Summary: A simple command line tool like docker-compose but for PKI structure.
+Author-email: Michael Kelly <instipod@instipod.com>
+License: GPL-3.0-only
+Project-URL: Homepage, https://github.com/instipod/pkicompose
+Project-URL: Issues, https://github.com/instipod/pkicompose/issues
+Classifier: Topic :: Security
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: pycertauthority
+Requires-Dist: pyyaml
+Requires-Dist: loguru
+Requires-Dist: typer
+
+# pkicompose
+
+### Purpose
+
+A simple command line tool like docker-compose but for PKI structure.
+
+The idea is you can create a complex PKI structure in YAML and this tool will build it with a single command.
+
+### Examples
+
+See the [example pkicompose.yaml](pkicompose.yaml) file for the basics.
