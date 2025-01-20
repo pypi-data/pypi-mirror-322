@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: spielmacher
+Version: 0.0.1
+Summary: A package for simulating the Prisoner's Dilemma game.
+Project-URL: Homepage, https://github.com/mferuscomelo/spielmacher
+Project-URL: Issues, https://github.com/mferuscomelo/spielmacher/issues
+Author-email: Milan Ferus-Comelo <51026229+mferuscomelo@users.noreply.github.com>
+Maintainer-email: Milan Ferus-Comelo <51026229+mferuscomelo@users.noreply.github.com>
+License-Expression: GPL-3.0-or-later
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# spielmacher

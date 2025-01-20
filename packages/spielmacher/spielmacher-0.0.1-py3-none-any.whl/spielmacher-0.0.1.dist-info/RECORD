@@ -1,0 +1,8 @@
+spielmacher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spielmacher/game.py,sha256=3FdugfId3-CBR359UXuqFetulPpPdFBUkWwLygjZGsw,4091
+spielmacher/player.py,sha256=d6Kyy6d2FeMs6S-kVMLLq657_luhmV6Y6pArSBIGMjI,7435
+spielmacher/tournament.py,sha256=JR08d3ET20eN6wqeTBmZZtdQRZnQUDzds9KecoIbidA,840
+spielmacher-0.0.1.dist-info/METADATA,sha256=jrlGax3xKBG-njTLs_jYz0tgzfc0kFq-0mF-f04Hctg,657
+spielmacher-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+spielmacher-0.0.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+spielmacher-0.0.1.dist-info/RECORD,,
