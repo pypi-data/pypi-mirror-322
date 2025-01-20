@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: toothedsword
+Version: 0.2.7
+Summary: nothing
+Requires-Python: >=3.6
+Requires-Dist: numpy>=1.12.0
+Requires-Dist: pyproj>=1.0.6
+Requires-Dist: matplotlib>=1.0.0
+Requires-Dist: opencv-python>=3.0.0
+Requires-Dist: rioxarray>=0.0.1
+Requires-Dist: geopandas>=0.1.0
