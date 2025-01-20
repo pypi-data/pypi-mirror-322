@@ -1,0 +1,11 @@
+wowipy/__init__.py,sha256=lEiW9zyvUYZdC6DFFtCjmXEfZbK63xBsZq5zjsjbQdc,144
+wowipy/exceptions.py,sha256=DFr2Ll7Sy_KaDTYvYH2KMkvpIfvze-kwS-gbE1YF-UU,43
+wowipy/models.py,sha256=RD6-30WUjhqlzi_7xUgXVlaerBHJZKzvipv4M58KEB4,96492
+wowipy/rest_adapter.py,sha256=JuyPyNfg8TerVniIAGOEcotklzBLDrlFLQybdPxpYeg,5700
+wowipy/wowipy.py,sha256=s-v2-R7Ve1QXjkhbTUPD8NlG8ahObqzcJbOhWuUSLn8,76136
+wowipy-1.1.55.dist-info/COPYING,sha256=sfiIGRYbc24AytOm8PLvv5RablDbflXUFf8fnpd_Azs,35143
+wowipy-1.1.55.dist-info/LICENSE,sha256=sfiIGRYbc24AytOm8PLvv5RablDbflXUFf8fnpd_Azs,35143
+wowipy-1.1.55.dist-info/METADATA,sha256=db1qt1HRdYQ_0dnCNdm7LbmLbSvtajJ453vWts0z1KA,1224
+wowipy-1.1.55.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+wowipy-1.1.55.dist-info/top_level.txt,sha256=YT5ON7PBomqG3Ji0eoendAH9FnWmatX25vUnq1T8HFo,7
+wowipy-1.1.55.dist-info/RECORD,,
