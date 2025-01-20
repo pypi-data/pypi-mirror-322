@@ -1,0 +1,6 @@
+[ansys.scade.registry]
+srg=ansys.scade.wux:srg
+
+[console_scripts]
+register_ansys_scade_wux=ansys.scade.wux.register:main
+
