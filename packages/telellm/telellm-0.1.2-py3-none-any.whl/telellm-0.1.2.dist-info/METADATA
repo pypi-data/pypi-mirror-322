@@ -1,0 +1,270 @@
+Metadata-Version: 2.1
+Name: telellm
+Version: 0.1.2
+Summary: A high-throughput and memory-efficient inference and serving engine for LLMs
+Home-page: https://gitee.com/modelers/telellm
+Author: State Cloud Intelligent Computing Team
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: psutil
+Requires-Dist: sentencepiece
+Requires-Dist: numpy<2.0.0
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: py-cpuinfo
+Requires-Dist: tokenizers>=0.19.1
+Requires-Dist: protobuf
+Requires-Dist: fastapi
+Requires-Dist: aiohttp
+Requires-Dist: openai>=1.0
+Requires-Dist: uvicorn[standard]
+Requires-Dist: pydantic>=2.8
+Requires-Dist: pillow
+Requires-Dist: prometheus-client>=0.18.0
+Requires-Dist: tiktoken>=0.6.0
+Requires-Dist: outlines<0.1,>=0.0.43
+Requires-Dist: typing-extensions>=4.10
+Requires-Dist: filelock>=3.10.4
+Requires-Dist: pyzmq
+Requires-Dist: msgspec
+Requires-Dist: librosa
+Requires-Dist: soundfile
+Requires-Dist: gguf==0.9.1
+Requires-Dist: importlib-metadata
+Requires-Dist: ray>=2.9
+Requires-Dist: sse-starlette
+Requires-Dist: cmake>=3.26
+Requires-Dist: Click>=8.0.4
+Requires-Dist: rsa==4.9
+Requires-Dist: requests==2.31.0
+Requires-Dist: Jinja2==3.1.4
+Requires-Dist: numpy==1.26.0
+Requires-Dist: thefuzz==0.22.1
+Requires-Dist: pandas==2.2.2
+Requires-Dist: tqdm==4.66.4
+Requires-Dist: easydict==1.13
+Requires-Dist: pytest
+Requires-Dist: transformers==4.43.2
+Requires-Dist: torch==2.1.0
+Requires-Dist: torchvision==0.16.0
+Requires-Dist: torch-npu==2.1.0.post8.dev20241015
+Provides-Extra: tensorizer
+Requires-Dist: tensorizer>=2.9.0; extra == "tensorizer"
+
+<div align="center">
+    <img src="images/TeleLLM.png" alt="TeleLLM-logo">
+</div>
+
+<div style="text-align: center;">
+    <a href="./README_CN.md">中文</a>  ｜  English
+</div>
+
+
+> **⭐️ Star the project to get the latest updates of TeleLLM in time~**
+
+---
+
+## 📣 Latest Updates
+
+- **\[2024.11.28\]** Add the `ADD_DEFAULT_SYSTEM_ROLE` environment variable (default: `True`) and sync `torch_dtype` with the model file if mismatched. Added support for Telechat quantized model, Telechat2, Moss-Moon-003-SFT, and BELLE-7B-2M、Ziya-LLaMA-13B-v1 on NVIDIA, add new test cases for verification.🚩🚩🚩
+- **\[2024.11.18\]** Adapted and upgraded for MindIE RC3, adding support for Llama3.1-8B, 70B, Telechat-1B, 7B, and 12B models.🚩🚩🚩
+- **\[2024.10.12\]** Added support for Huawei Ascend, inference service now supports custom user parameters input, default parameters updated, context length increased to 8k, output 2k, feel free to try it! 🚩🚩🚩
+  (Continuously updated...)
+
+---
+
+# Introduction
+
+TeleLLM, developed by State Cloud Intelligent Computing Team, is a large model inference project generation scaffold, covering a full set of lightweight LLM task deployment and service solutions. Its main features include:
+
+- Supports Nvidia and Ascend LLM inference.
+- Supports automatic generation of interface documentation, functional test documentation, and performance test documentation.
+- Supports inference for MindIEServer.
+- Supports large model dataset evaluation.
+- Aligned with OpenAI interfaces, supports multi-modal model inference for image-to-text, text-to-image, and image-to-image.
+- Supports automatic generation of deployment documentation.
+- Supports large model quantization, LMDeploy vision model inference, and function calls.
+- (Continuously updated...)
+
+# Quick Start
+
+## 🛠️ Installation Guide
+
+If you are installing TeleLLM with CUDA, you can refer to this installation guide: [CUDA Installation](docs/Installation-cuda.md)
+
+If you are installing TeleLLM with NPU, you can refer to this installation guide: [NPU Installation](docs/Installation-npu.md)
+
+## 📂 Data Preparation
+
+### Offline Download in Advance
+
+TeleLLM supports using local datasets for evaluation. You can download the datasets using the following command:
+
+**To be updated on whether offline dataset packages are provided...**
+
+### Use ModelScope for Automatic Download
+
+You can also use [ModelScope](www.modelscope.cn) to load datasets:
+
+Environment setup:
+
+```bash
+pip install modelscope
+export DATASET_SOURCE=ModelScope
+```
+
+# 💡 Basic Usage
+
+## 1. Service Invocation
+
+After entering the container where TeleLLM is deployed, you can execute the following command to start the service:
+
+```bash
+telellm serve --model /model --model_name Qwen2-7B-Instruct -p 8899
+```
+
+Currently, `telellm serve` supports passing 15 parameters, such as `--model`, `--tensor_parallel_size`, etc. For detailed usage, refer to the service parameters documentation: [Serve-args](docs/Serve-args.md).
+
+
+## 2. Model Functionality & Performance Testing
+
+> After the service is deployed, you can run `telellm test` to test the service. The test reports (functional and performance reports) will be generated in the `current directory`.
+
+- Help:
+
+```bash
+telellm test --help
+```
+
+- Parameter description:
+
+| Parameter      | Abbr | Type  | Default Value        | Description                                                                                                                                                  |
+| -------------- | ---- | ----- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --test_type    | -tt  | str   | both                 | Test type. <br> 1. functional <br> 2. performance <br> 3. both                                                                                         |
+| --service_host | -sh  | str   | localhost            | Service host                                                                                                                                                 |
+| --service_port | -sp  | int   | 8899                 | Service port                                                                                                                                                 |
+| --service_name | -sn  | str   | llmservice           | Service name                                                                                                                                                 |
+| --model_name   | -mn  | str   | ——                   | Model name                                                                                                                                                   |
+| --concurrency  | -c   | [int] | [1]                  | Concurrency (for **performance testing** only)                                                                                                               |
+| --seq_len      | -s   | [int] | [25, 100, 400, 800]  | Test text length (for **performance testing** only) <br> 25 length > 32 tokens <br> 100 length > 128 tokens <br> 400 length > 512 tokens <br> 800 length > 1024 tokens |
+---
+
+- Example:
+
+```bash
+telellm test -tt both -sh localhost -sp 8899 -sn nvidia-qwen-infer-svc -mn Qwen-7B-Chat -c 1 -c 2 -c 4
+```
+
+- `-tt both` generates both functional and performance test reports; `-tt functional` generates only the functional test; `-tt performance` generates only the performance test.
+- `-c 1 -c 2 -c 4` represents concurrency numbers [1, 2, 4], which can be adjusted.
+- `-s 25 -s 100 -s 400 -s 800` represents text lengths [25, 100, 400, 800], which can be adjusted.
+
+
+## 3. Model Accuracy Evaluation
+
+Run `telellm eval` to evaluate the model. It will generate an evaluation result folder named `eval_chat_outs` and an evaluation report file in the `current directory`.
+
+- Help:
+
+```bash
+telellm eval --help
+```
+
+| Parameter            | Abbr | Type  | Default Value | Description                                                                                                    |
+| -------------------- | ---- | ----- | ------------- | -------------------------------------------------------------------------------------------------------------- |
+| --service_host       | -sh  | str   | localhost     | Service host                                                                                                   |
+| --service_port       | -sp  | int   | 8899          | Service port                                                                                                   |
+| --model_name         | -mn  | str   | ——            | Model name                                                                                                     |
+| --dataset            | -ds  | str   | mmlu          | The dataset to be evaluated <br>1. mmlu <br> 2. ceval <br> 3. humaneval <br> 4. gsm8k                   |
+| --type               | -t   | str   | val           | Dataset type <br> 1. val <br> 2. test                                                                      |
+| --overwrite          | -o   |       | False         | Whether to overwrite existing results                                                                           |
+| --num_threads        | -nt  | int   | 5             | The maximum number of threads to use                                                                             |
+| --temperature        | -tt  | float | 1.0           | Request parameter `temperature`                                                                                |
+| --top_p              | -tp  | float | 0.001         | Request parameter `top_p`                                                                                      |
+| --top_k              | -tk  | int   | 1             | Request parameter `top_k`                                                                                      |
+| --repetition_penalty | -rp  | float | 1.0           | Request parameter `repetition_penalty`                                                                         |
+| --enable_rp          | -erp |       | False         | Whether to use the `repetition_penalty` parameter (temporary)                                                   |
+---
+
+- Examples:
+
+```bash
+# Use existing results
+telellm eval -sh localhost -sp 8899 -mn llama2-7b-chat -ds mmlu -t val -nt 5
+# Overwrite existing results
+telellm eval -sh localhost -sp 8899 -mn llama2-7b-chat -ds mmlu -t val -nt 5 -o
+```
+
+- `-ds mmlu` represents using the MMLU dataset for evaluation. Alternatives include `ceval`/`humaneval`/`gsm8k`.
+- `-t val` represents using the validation set (`val`) of the dataset for evaluation (some datasets like `humaneval`/`gsm8k` do not have a `val` set and thus don't need this option). The alternative is the test set.
+- `-nt 5` specifies the maximum number of threads to use for evaluation.
+- `-o` means overwriting existing intermediate results and performing a fresh evaluation. If not specified, it will continue from the last intermediate result.
+- `-erp` enables the `repetition_penalty` parameter (temporary support for new and old versions).
+
+
+> Note:
+>
+> 1. (**Optional**, the evaluation request already applies limits for top_k/temperature/top_p/repetition_penalty) For model evaluation, greedy decoding (do_sample=False) needs to be enabled.
+> 2. The results of the c-eval test set need to be submitted to the website for scoring: [https://cevalbenchmark.com/static/user_interface.html](https://cevalbenchmark.com/static/user_interface.html)
+
+
+Dataset Introduction:
+
+### Dataset Introduction:
+
+|      | mmlu                                                         | c-eval                                                                        | human-eval                                                    | gsm8k                                                                    |
+| ---- | ------------------------------------------------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Type | General-domain English dataset                                | General-domain Chinese dataset                                                 | Programming tasks                                               | Mathematics                                                              |
+| Description | Covers 57 tasks including basic math, American history, computer science, law, etc. | Involves 4 major subject areas and 52 subcategories, with four difficulty levels (middle school, high school, university, and professional) | Contains 164 carefully designed programming tasks, each with four key components | A dataset containing high-quality, diverse language elementary school math application problems, all created by human writers |
+| Classification | 1. val validation set: 1540 questions <br> 2. test test set: 14079 questions | 1. val validation set: 1346 questions <br> 2. test test set: 12342 questions | test test set: 164 programming tasks                            | test test set: 1319 elementary school math problems                      |
+---
+
+### Category Introduction:
+
+- **STEM/Science, Technology, Engineering, and Mathematics**: Includes subjects like computer science, electrical engineering, chemistry, mathematics, physics, etc.
+- **Social Science**: Includes subjects like political science, geography, education, economics, business management, etc.
+- **Humanities**: Includes subjects like law, arts, logic, language, history, etc.
+- **Other**: A collection of other subjects, including environmental science, fire safety, taxation, sports, medicine, etc.
+
+---
+
+### 4. Quantization
+
+Before starting the quantization process, we need to provide some initial quantization parameters: [Quant-args](docs/Quant-args.md)
+
+The quantization configuration supports both configuration files and command-line input parameters. The recommended approach is to use the configuration file.
+
+If using a configuration file, you can use the following command to automatically generate the configuration file (`quant_config.json`) and the default calibration dataset (`calib.jsonl`):
+
+
+```shell
+telellm quant_config
+```
+
+Alternatively, you can use command-line input parameters (not recommended):
+
+```shell
+telellm quant -mp /model_in -sd /model_out -pf true -acc false
+```
+
+After quantization, a quantization report (`quant_result.json`) will be generated in the current directory.
+
+
+# 🏛 License
+
+This framework is licensed under the [Apache License (Version 2.0)](LICENSE). For models and datasets, please refer to the original resource page and follow the corresponding License.
+
+
+# ☁️ Supported Models
+
+TeleLLM supports a variety of large language models and multimodal models. Below is a list of models currently supported by TeleLLM: [Supported_models](docs/Supported_models.md)

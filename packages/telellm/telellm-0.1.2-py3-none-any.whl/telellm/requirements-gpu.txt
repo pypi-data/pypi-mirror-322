@@ -1,0 +1,9 @@
+easydict==1.9
+sse-starlette==2.0.0
+
+# checker
+pydantic==2.8.2
+
+# xverse
+#accelerate==0.29.3
+#transformers==4.39.1

@@ -1,0 +1,2 @@
+[console_scripts]
+telellm = telellm_tool.telellm:cli
