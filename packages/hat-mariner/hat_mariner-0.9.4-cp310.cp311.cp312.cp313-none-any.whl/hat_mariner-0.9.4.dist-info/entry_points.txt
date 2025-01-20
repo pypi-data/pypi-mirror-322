@@ -1,0 +1,2 @@
+[console_scripts]
+hat-mariner-server = hat.mariner.server.main:main
