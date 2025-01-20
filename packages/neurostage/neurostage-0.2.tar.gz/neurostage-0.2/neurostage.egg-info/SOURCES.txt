@@ -1,0 +1,15 @@
+LICENCE.md
+README.md
+__main__.py
+main.py
+setup.py
+neurostage.egg-info/PKG-INFO
+neurostage.egg-info/SOURCES.txt
+neurostage.egg-info/dependency_links.txt
+neurostage.egg-info/entry_points.txt
+neurostage.egg-info/requires.txt
+neurostage.egg-info/top_level.txt
+templates/__init__.py
+templates/functions.py
+templates/imports.py
+templates/utils.py
