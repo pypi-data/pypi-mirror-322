@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: language-processing-tool
+Version: 0.1.0
+Summary: A tool to detect languages in PDF documents
+Home-page: UNKNOWN
+Author: Harish Kumar
+Author-email: harishkumar56278@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
