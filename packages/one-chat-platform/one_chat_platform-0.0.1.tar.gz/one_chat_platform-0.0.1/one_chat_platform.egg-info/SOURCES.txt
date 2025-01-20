@@ -1,0 +1,9 @@
+setup.py
+one_chat/__init__.py
+one_chat/message_sender.py
+one_chat/one_chat.py
+one_chat_platform.egg-info/PKG-INFO
+one_chat_platform.egg-info/SOURCES.txt
+one_chat_platform.egg-info/dependency_links.txt
+one_chat_platform.egg-info/requires.txt
+one_chat_platform.egg-info/top_level.txt
