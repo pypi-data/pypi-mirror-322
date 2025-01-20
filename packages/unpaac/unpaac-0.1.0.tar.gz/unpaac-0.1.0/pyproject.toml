@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "unpaac"
+version = "0.1.0"
+description = "Pandas DataFrame and Series accessors to handle quantities with uncertainties."
+authors = ["Christian Schreinemachers (Cs137)"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pint = "^0.24.4"
+pint-pandas = "^0.7.1"
+uncertainties = "^3.2.2"
+uncertainties-pandas = "^0.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
