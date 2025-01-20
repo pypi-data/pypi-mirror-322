@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+tqdm
+joblib
+holidays
+scikit-learn
+scipy
+utilsforecast
+statsmodels
