@@ -1,0 +1,2 @@
+[console_scripts]
+the-experiment = the_experiment:main
