@@ -1,0 +1,11 @@
+MANIFEST.in
+readme.md
+setup.py
+HashiCorpVault/HashiCorp.py
+HashiCorpVault/__init__.py
+HashiCorpVault/config_loader.py
+hashicorp_vault_django.egg-info/PKG-INFO
+hashicorp_vault_django.egg-info/SOURCES.txt
+hashicorp_vault_django.egg-info/dependency_links.txt
+hashicorp_vault_django.egg-info/requires.txt
+hashicorp_vault_django.egg-info/top_level.txt
