@@ -1,0 +1,12 @@
+cbbpy/__init__.py,sha256=UiuBcRXPtXxPUBDdp0ZDvWl0U9Db1kMNfT3oAfhxqLg,22
+cbbpy/mens_scraper.py,sha256=Y1vhp9tJ-TkgFWC_mG3P9Vd1432BqeyjpL844Fhzut4,10091
+cbbpy/womens_scraper.py,sha256=K1h2T_bGqyKBnzSKDGHYzEoVv4uWFzg_pnz2HiyYQUs,10119
+cbbpy/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cbbpy/utils/cbbpy_utils.py,sha256=BRQrwzFjMnZwA55U2pw-nUZF9d73uwGMcVXULoq-RpI,53959
+cbbpy/utils/mens_team_map.csv,sha256=44v_TxEeE6SHYB_AuA2N880VEAjylRmpkvAnKKVF2qg,551564
+cbbpy/utils/womens_team_map.csv,sha256=3apUX2FDk6A2NOSyWhsHXfnflF-PjDKfZVt1_MpV9oA,388908
+CBBpy-2.1.2.dist-info/LICENSE,sha256=vMlmLS3A81gkyqZ3Ro5s66Rdno5d4gjsEY3T6cqouto,10495
+CBBpy-2.1.2.dist-info/METADATA,sha256=bp6kVLJlk-tqb_5EvN0gMqy2S0pfcux5OgRRR4xk8Z4,17354
+CBBpy-2.1.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+CBBpy-2.1.2.dist-info/top_level.txt,sha256=B75XmVHH2g9tVTm7-KXdiUc91cCICxEvVHWGtm9lJGw,6
+CBBpy-2.1.2.dist-info/RECORD,,
