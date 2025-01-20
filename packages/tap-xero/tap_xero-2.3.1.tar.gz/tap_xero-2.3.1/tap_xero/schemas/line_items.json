@@ -1,0 +1,127 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "Description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Quantity": {
+      "type": [
+        "null",
+        "number"
+      ],
+      "minimum": -1e+33,
+      "maximum": 1e+33,
+      "multipleOf": 1e-05,
+      "exclusiveMinimum": true,
+      "exclusiveMaximum": true
+    },
+    "UnitAmount": {
+      "type": [
+        "null",
+        "number"
+      ],
+      "minimum": -1e+33,
+      "maximum": 1e+33,
+      "multipleOf": 1e-05,
+      "exclusiveMinimum": true,
+      "exclusiveMaximum": true
+    },
+    "AccountCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ItemCode": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LineItemID": {
+      "type": [
+        "string"
+      ]
+    },
+    "TaxType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LineAmount": {
+      "type": [
+        "null",
+        "number"
+      ],
+      "minimum": -1e+33,
+      "maximum": 1e+33,
+      "multipleOf": 1e-05,
+      "exclusiveMinimum": true,
+      "exclusiveMaximum": true
+    },
+    "Taxability": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TaxBreakdown": {
+      "items": {
+        "$ref": "tax_breakdown_component"
+      },
+      "type": [
+        "null",
+        "array"
+      ]
+    },
+    "SalesTaxCodeId": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "TaxAmount": {
+      "type": [
+        "null",
+        "number"
+      ],
+      "minimum": -1e+33,
+      "maximum": 1e+33,
+      "multipleOf": 1e-05,
+      "exclusiveMinimum": true,
+      "exclusiveMaximum": true
+    },
+    "DiscountRate": {
+      "type": [
+        "null",
+        "number"
+      ],
+      "minimum": -1e+33,
+      "maximum": 1e+33,
+      "multipleOf": 1e-05,
+      "exclusiveMinimum": true,
+      "exclusiveMaximum": true
+    },
+    "Tracking": {
+      "items": {
+        "$ref": "tracking_categories"
+      },
+      "type": [
+        "null",
+        "array"
+      ]
+    }
+  },
+  "tap_schema_dependencies": [
+    "tracking_categories",
+    "tax_breakdown_component"
+  ],
+  "additionalProperties": false
+}
