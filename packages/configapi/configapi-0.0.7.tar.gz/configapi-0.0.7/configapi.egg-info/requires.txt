@@ -1,0 +1,8 @@
+tomli
+tomli_w
+packaging
+
+[test]
+pytest
+pytest-cov
+pyfakefs
