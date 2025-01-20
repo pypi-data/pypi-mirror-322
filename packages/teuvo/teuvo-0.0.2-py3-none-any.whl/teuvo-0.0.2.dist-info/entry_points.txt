@@ -1,0 +1,2 @@
+[nbdev]
+teuvo = teuvo._modidx:d
