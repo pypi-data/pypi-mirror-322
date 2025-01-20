@@ -1,0 +1,3 @@
+include myvenv.bat
+include LICENSE
+include README.md

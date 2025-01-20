@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+myvenv.bat
+setup.py
+myvenv/__init__.py
+myvenv.egg-info/PKG-INFO
+myvenv.egg-info/SOURCES.txt
+myvenv.egg-info/dependency_links.txt
+myvenv.egg-info/top_level.txt
