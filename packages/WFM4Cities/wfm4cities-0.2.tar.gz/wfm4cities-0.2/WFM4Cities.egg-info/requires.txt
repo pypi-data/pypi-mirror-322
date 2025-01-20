@@ -1,0 +1,8 @@
+scipy>=1.5.0
+sklearn>=0.24
+matplotlib>=3.3
+tkinter
+geopandas>=0.9.0
+shapely>=1.7.1
+pysal>=2.0
+numpy>=1.19
