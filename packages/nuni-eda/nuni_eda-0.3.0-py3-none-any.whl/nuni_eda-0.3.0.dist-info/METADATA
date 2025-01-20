@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nuni-eda
+Version: 0.3.0
+Summary: Default template for PDM package
+Author-Email: nunininu <sgcho0907@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: president-speech>=0.9.1
+Requires-Dist: pandas>=2.2.3
+Description-Content-Type: text/markdown
+
+# nuni-eda
+
+### EDA
+```bash
+$ jupyter lab
+```
