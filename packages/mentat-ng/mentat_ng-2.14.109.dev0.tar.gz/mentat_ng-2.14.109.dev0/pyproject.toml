@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools >= 64.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.mypy]
+plugins = "sqlalchemy.ext.mypy.plugin"
+
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+strict_equality = true
+extra_checks = true
+disallow_untyped_decorators = true
+disallow_incomplete_defs = true
+no_implicit_reexport = true
+warn_return_any = true
+
+[[tool.mypy.overrides]]  # Submodules with strict type checking
+module = [
+    "hawat.charts.*"
+]
+check_untyped_defs = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+
+[[tool.mypy.overrides]]  # Turn off strict type checking for tests
+module = "*.test.*"
+check_untyped_defs = false
+disallow_subclassing_any = false
+disallow_untyped_calls = false
+disallow_untyped_defs = false
+no_implicit_reexport = false
+
+[[tool.mypy.overrides]]  # Libraries without available stubs
+module = [
+    "ipranges.*",
+    "pyzenkit.*",
+    "idea.*",
+    "typedcols.*",
+    "pydgets.*",
+    "pynspect.*",
+    "wtforms.*",
+    "flask_wtf.*",
+    "flask_babel.*",
+    "flask_sqlalchemy.*",
+    "flask_login.*",
+    "flask_principal.*",
+    "flask_debugtoolbar.*",
+    "plotly.*",
+    "rrdtool.*"
+]
+ignore_missing_imports = true
