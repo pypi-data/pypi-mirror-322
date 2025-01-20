@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: httplite
+Version: 0.0.1
+Summary: A lightweight http client based on urllib3
+Home-page: https://github.com/kejun91/httplite
+Author: Jun Ke
+Author-email: kejun91@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3
+Requires-Dist: certifi
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# httplite

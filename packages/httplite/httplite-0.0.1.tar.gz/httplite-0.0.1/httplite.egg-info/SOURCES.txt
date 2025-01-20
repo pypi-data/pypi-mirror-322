@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+httplite/__init__.py
+httplite/http_client.py
+httplite.egg-info/PKG-INFO
+httplite.egg-info/SOURCES.txt
+httplite.egg-info/dependency_links.txt
+httplite.egg-info/requires.txt
+httplite.egg-info/top_level.txt
