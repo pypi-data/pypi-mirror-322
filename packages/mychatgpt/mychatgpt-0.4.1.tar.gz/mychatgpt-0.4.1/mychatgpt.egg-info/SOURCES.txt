@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+mychatgpt/__init__.py
+mychatgpt/assistants.py
+mychatgpt/main.py
+mychatgpt/sentiment_analyzer.py
+mychatgpt/utils.py
+mychatgpt.egg-info/PKG-INFO
+mychatgpt.egg-info/SOURCES.txt
+mychatgpt.egg-info/dependency_links.txt
+mychatgpt.egg-info/requires.txt
+mychatgpt.egg-info/top_level.txt
+tests/test.py
