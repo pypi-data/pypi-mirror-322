@@ -1,0 +1,3 @@
+[console_scripts]
+qubes-fzf = qubes_prompt.fzf:main
+qubes-rofi = qubes_prompt.rofi:main

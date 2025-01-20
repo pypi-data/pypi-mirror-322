@@ -1,0 +1,377 @@
+[
+  {
+    "name": "Qubes Manager",
+    "command": "qubes-manager",
+    "options": "",
+    "description": "Graphical VM Manager",
+    "url": "contents#qubes-manager",
+    "validation": false
+  },
+  {
+    "name": "QVM Block",
+    "command": "qvm-block",
+    "options": "-l [options], -a [options] <device> <vm-name>, -d [options] <device>, -d [options] <vm-name>, -A <path>",
+    "description": "Lists/attaches VM PCI devices",
+    "url": "contents#qvm-block",
+    "validation": false
+  },
+  {
+    "name": "QVM Clone",
+    "command": "qvm-clone",
+    "options": "[options] <existing-vm-name> <new-clone-vm-name>",
+    "description": "Clones an existing VM by copying all its disk files",
+    "url": "contents#qvm-clone",
+    "validation": false
+  },
+  {
+    "name": "QVM Firewall",
+    "command": "qvm-firewall",
+    "options": "-l [-n] <vm-name>",
+    "description": "Manage VM firewall rules",
+    "url": "contents#qvm-firewall",
+    "validation": false
+  },
+  {
+    "name": "QVM List",
+    "command": "qvm-ls",
+    "options": "[options] <vm-name>, -n, -d",
+    "description": "Lists VMs and various information about their state",
+    "url": "contents#qvm-ls",
+    "validation": false
+  },
+  {
+    "name": "QVM Preferences",
+    "command": "qvm-prefs",
+    "options": "-l [options] <vm-name>, -s [options] <vm-name> <property> [...]",
+    "description": "List/set various per-VM properties",
+    "url": "contents#qvm-prefs",
+    "validation": false
+  },
+  {
+    "name": "QVM Run",
+    "command": "qvm-run",
+    "options": "[options] [<vm-name>] [<cmd>], --pass-io, --nogui",
+    "description": "Runs a specific command on a vm",
+    "url": "contents#qvm-run",
+    "validation": false
+  },
+  {
+    "name": "QVM Start",
+    "command": "qvm-start",
+    "options": "[options] <vm-name>, --cdrom <path>",
+    "description": "Starts a vm",
+    "url": "contents#qvm-start",
+    "validation": false
+  },
+  {
+    "name": "QVM Shutdown",
+    "command": "qvm-shutdown",
+    "options": "[options] <vm-name>, --all, --wait",
+    "description": "Stops a vm",
+    "url": "contents#qvm-shutdown",
+    "validation": false
+  },
+  {
+    "name": "QVM Kill",
+    "command": "qvm-kill",
+    "options": "[options] <vm-name>",
+    "description": "Kills a VM - same as pulling out the power cord - immediate shutdown",
+    "url": "contents#qvm-kill",
+    "validation": false
+  },
+  {
+    "name": "QVM Trim Template",
+    "command": "qvm-trim-template",
+    "options": "<template-name>",
+    "description": "Trims the disk space of a template",
+    "url": "contents#qvm-trim-template",
+    "validation": false
+  },
+  {
+    "name": "QVM Sync Appmenus",
+    "command": "qvm-sync-appmenus",
+    "options": "[options] <vm-name>",
+    "description": "Updates desktop file templates for given StandaloneVM or TemplateVM",
+    "url": "contents#qvm-sync-appmenus",
+    "validation": false
+  },
+  {
+    "name": "Qubes Dom0 Update",
+    "command": "qubes-dom0-update",
+    "options": "[--enablerepo][--disablerepo][--clean][--check-only][--gui][--action=*][<pkg list>]",
+    "description": "Updates or installs software in dom0",
+    "url": "contents#qubes-dom0-update",
+    "validation": false
+  },
+  {
+    "name": "Qubes HCL Report",
+    "command": "qubes-hcl-report",
+    "options": "[-s] [<vm-name>]",
+    "description": "Generates a report about the system hardware information",
+    "url": "contents#qubes-hcl-report",
+    "validation": false
+  },
+  {
+    "name": "QVM Copy to VM",
+    "command": "qvm-copy-to-vm",
+    "options": "vm-name> <file> [<file+>]",
+    "description": "Copy file from one VM to another VM",
+    "url": "contents#qvm-copy-to-vm",
+    "validation": false
+  },
+  {
+    "name": "QVM Open in VM",
+    "command": "qvm-open-in-vm",
+    "options": "<vm-name> <file>",
+    "description": "Opens file in another VM",
+    "url": "contents#qvm-open-in-vm",
+    "validation": false
+  },
+  {
+    "name": "QVM Move to VM",
+    "command": "qvm-move-to-vm",
+    "options": "<vm-name> <file> [<file+>]",
+    "description": "Move file from Dom0 to another VM",
+    "url": "contents#qvm-move-to-vm",
+    "validation": false
+  },
+  {
+    "name": "QVM Grow Disk",
+    "command": "qvm-grow-private",
+    "options": "<vm-name> <size>",
+    "description": "Increase private storage capacity of specified VM*",
+    "url": "contents#qvm-grow-private",
+    "validation": false
+  },
+  {
+    "name": "QVM List PCI",
+    "command": "qvm-pci",
+    "options": "-l -a <domain-vm> <device>",
+    "description": "List all attached devices",
+    "url": "contents#qvm-pci",
+    "validation": false
+  },
+  {
+    "name": "QVM USB",
+    "command": "qvm-usb",
+    "options": "list, attach <AppVM> <sys-usb:>",
+    "description": "List and Attach USB devices",
+    "url": "contents#qvm-usb",
+    "validation":"false"
+  },
+  {
+    "name": "Install Template",
+    "command": "qubes-dom0-update qubes-template-*",
+    "options": "<template name>",
+    "description": "Install Template via Update",
+    "url": "contents#install-template",
+    "validation": false
+  },
+  {
+    "name": "Enlarge AppVMs TMPFS",
+    "command": "sudo mount -o remount,size=1024M /tmp",
+    "options": "",
+    "description": "Enlarge tmpfs to 1024Mb",
+    "url": "contents#enlarge-appvms-tmpfs",
+    "validation": false
+  },
+  {
+    "name": "Virtual Shell",
+    "command": "virsh",
+    "options": "-c xen:/// <command> [<vm-name>]",
+    "description": "Management user tool for libvirt (hypervisor abstraction)",
+    "url": "contents#virsh",
+    "validation": false
+  },
+  {
+    "name": "apt-get",
+    "command": "apt-get",
+    "options": "install <package-name>, update, dist-upgrade",
+    "description": "Debian package manager (install, update, dist-upgrade)",
+    "url": "contents#apt-get",
+    "validation": false
+  },
+  {
+    "name": "apt-cache",
+    "command": "apt-cache",
+    "options": "search <package-or-word>",
+    "description": "Debian package manager (search)",
+    "url": "contents#apt-cache",
+    "validation": false
+  },
+  {
+    "name": "dnf",
+    "command": "dnf",
+    "options": "install <package-name>, search <package-or-word>, update",
+    "description": "Fedora package manager (install, search, update)",
+    "url": "contents#dnf",
+    "validation": false
+  },
+  {
+    "name": "pacman",
+    "command": "pacman",
+    "options": "-S <package-name>, -Ss <package-or-word>, -Syyu",
+    "description": "Archlinux package manager (install, search, update)",
+    "url": "contents#pacman",
+    "validation": false
+  },
+  {
+    "name": "rpm",
+    "command": "rpm",
+    "options": "-qa *qubes-*",
+    "description": "List installed Qubes OS packages (Fedora)",
+    "url": "contents#rpm",
+    "validation": false
+  },
+  {
+    "name": "yum",
+    "command": "yum",
+    "options": "install <package-name>, search <package-or-word>, update",
+    "description": "Fedora package manager (install, search, update)",
+    "url": "contents#yum",
+    "validation": false
+  },
+  {  "name": "qemu-img",
+    "command": "qemu-img",
+    "options": "convert <input-image> -O raw <output-image>",
+    "description": "Convert disk images",
+    "url": "contents#qemu-img",
+    "validation": false
+  },
+  {
+    "name": "lsusb",
+    "command": "lsusb",
+    "options": "",
+    "description": "List USB devices",
+    "url": "contents#lsusb",
+    "validation": false
+  },
+  {
+    "name": "readurl",
+    "command": "readurl",
+    "options": "/sys/bus/usb/devices/<bus>",
+    "description": "Read symbolic url",
+    "url": "contents#readurl",
+    "validation": false
+  },
+  {
+    "name": "iptables",
+    "command": "iptables",
+    "options": "-I FORWARD 2 -s <IP address of A> -d <IP address of B> -j ACCEPT",
+    "description": "Configure iptables firewall rules",
+    "url": "contents#iptables",
+    "validation": false
+  },
+  {
+    "name": "bcdedit",
+    "command": "bcdedit",
+    "options": "/set testsigning on",
+    "description": "Windows boot configuration tool",
+    "url": "contents#bcdedit",
+    "validation": false
+  },
+  {
+    "name": "resize2fs",
+    "command": "resize2fs",
+    "options": "/dev/xvdb",
+    "description": "Resize ext2/ext3/ext4 filesystem",
+    "url": "contents#resize2fs",
+    "validation": false
+  },
+  {
+    "name": "mount",
+    "command": "mount",
+    "options": "-o remount,size=1024M /tmp",
+    "description": "Remount tmpfs with increased size",
+    "url": "contents#mount",
+    "validation": false
+  },
+  {
+    "name": "cat",
+    "command": "cat",
+    "options": "/etc/qubes-release",
+    "description": "Prints Qubes release in human readable form",
+    "url": "contents#cat",
+    "validation": false
+  },
+  {
+    "name": "echo",
+    "command": "echo",
+    "options": "<text> >> <file>",
+    "description": "Append text to file",
+    "url": "contents#echo",
+    "validation": false
+  },
+  {
+    "name": "chmod",
+    "command": "chmod",
+    "options": "+x <file>",
+    "description": "Change file permissions",
+    "url": "contents#chmod",
+    "validation": false
+  },
+  {
+    "name": "ping",
+    "command": "ping",
+    "options": "<ip-address>",
+    "description": "Check network connectivity",
+    "url": "contents#ping",
+    "validation": false
+  },
+  {
+    "name": "sudo",
+    "command": "sudo",
+    "options": "",
+    "description": "Execute command as root",
+    "url": "contents#sudo",
+    "validation": false
+  },
+  {
+    "name": "less",
+    "command": "less",
+    "options": "",
+    "description": "View file contents",
+    "url": "contents#less",
+    "validation": false
+  },
+  {
+    "name": "tail",
+    "command": "tail",
+    "options": "",
+    "description": "View end of file",
+    "url": "contents#tail",
+    "validation": false
+  },
+  {
+    "name": "head",
+    "command": "head",
+    "options": "",
+    "description": "View beginning of file",
+    "url": "contents#head",
+    "validation": false
+  },
+  {
+    "name": "dmesg",
+    "command": "dmesg",
+    "options": "",
+    "description": "Display kernel ring buffer",
+    "url": "contents#dmesg",
+    "validation": false
+  },
+  {
+    "name": "xl",
+    "command": "xl",
+    "options": "<subcommand> [<args>]",
+    "description": "Xen management tool, based on LibXenlight",
+    "url": "contents#xl",
+    "validation": false
+  },
+  {
+    "name": "xl",
+    "command": "xl",
+    "options": "dmesg",
+    "description": "Display Xen's kernel ring buffer",
+    "url": "contents#xl",
+    "validation": false
+  }
+]

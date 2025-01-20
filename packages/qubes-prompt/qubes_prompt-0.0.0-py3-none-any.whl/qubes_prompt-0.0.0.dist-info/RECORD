@@ -1,0 +1,10 @@
+qubes_prompt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qubes_prompt/fzf.py,sha256=zdGE8pI0Q_-hN6f3kSuYcvfdxk67pSnWpzBZczBifzg,3945
+qubes_prompt/rofi.py,sha256=4hY6S0iXP0LOBS_mtcMwsp_gwz8jhLaqY_RMuxEONIw,4167
+qubes_prompt/db/commands.json,sha256=ofNStEFlztOSHQuks88M3vBm2G3hm90O3Puw4VSFWoM,10325
+qubes_prompt-0.0.0.dist-info/LICENSE,sha256=FunFpN5w8nQYQnaV_kYf5_sVAwmZf_7yVoORYmvjHjg,1066
+qubes_prompt-0.0.0.dist-info/METADATA,sha256=NpffDrO1Q6q9lkelKKrae0yTh2NSXsaG4AGXLOV6AFY,3635
+qubes_prompt-0.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+qubes_prompt-0.0.0.dist-info/entry_points.txt,sha256=4EiHJ5r4GbeVIlKdfvNezV0LBvnNpSE7APE6O9HLFdI,88
+qubes_prompt-0.0.0.dist-info/top_level.txt,sha256=rwtTAqaNtg34yzDrq00o_Qate3KkSLvtiW9Sc9U7-ak,13
+qubes_prompt-0.0.0.dist-info/RECORD,,
