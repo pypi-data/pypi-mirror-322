@@ -1,0 +1,36 @@
+Metadata-Version: 2.2
+Name: pytest_time
+Version: 0.4.0
+Project-URL: Documentation, https://pytest-time.readthedocs.io
+Project-URL: Repository, https://github.com/lengau/pytest-time
+Project-URL: Issues, https://github.com/lengau/pytest-time/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Framework :: Pytest
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Unit
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: COPYING
+Requires-Dist: pytest
+
+pytest-time
+===========
+
+The pytest-time plugin extends pytest to control ``time`` — the built-in Python module,
+not the concept within the universe.
+
+.. image:: https://github.com/lengau/pytest-time/actions/workflows/tests.yaml/badge.svg
+    :target: https://github.com/lengau/pytest-time/actions/workflows/tests.yaml
+
+.. image:: https://readthedocs.org/projects/pytest-time/badge/?version=latest
+    :target: https://app.readthedocs.org/projects/pytest-time/
