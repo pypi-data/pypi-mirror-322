@@ -1,0 +1,9 @@
+huggingface_nas/__init__.py,sha256=afctrs5K_7macys79vHIVAYHmSYJr08asO7J_7-kKvk,139
+huggingface_nas/hf_to_nas.py,sha256=iuRTklgEyFy1UCSQi99onj5dTw72n21XkcVf-Vlfn0s,5638
+huggingface_nas/load.py,sha256=rYOl6OP_fHVHjJCOI7Z6haN8PnTGwO3ejSLbioKBMYc,3049
+huggingface_nas/webapi.py,sha256=ZtjMOGkcIEUrKfjnPkNEF3RS4OZKEDrr2muTU-iwvvQ,4774
+huggingface_nas-0.1.0.post2.dist-info/LICENSE,sha256=zs9ppKH5CcFGOPbf_xnDg0mbs3xARV90LEMioUU46-o,11405
+huggingface_nas-0.1.0.post2.dist-info/METADATA,sha256=wUR2iU0nV4diR2m92GghF8X9rjZZPUO1ZKSKeXVj1V8,3411
+huggingface_nas-0.1.0.post2.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+huggingface_nas-0.1.0.post2.dist-info/top_level.txt,sha256=4GaIehIUbixnmIZdu5_2hqJmSTk2ekzChvRwo1nGd-4,16
+huggingface_nas-0.1.0.post2.dist-info/RECORD,,
