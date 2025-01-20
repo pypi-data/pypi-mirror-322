@@ -1,0 +1,10 @@
+boto3
+click
+cookiecutter
+requests
+tqdm
+pyyaml
+pydantic
+pyjwt
+python-dotenv
+ray[all]>=2.38.0
