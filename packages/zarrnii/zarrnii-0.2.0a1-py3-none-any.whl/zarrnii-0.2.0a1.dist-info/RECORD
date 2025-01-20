@@ -1,0 +1,7 @@
+zarrnii/__init__.py,sha256=pPjZiUa2EeaoLo6GjpSmKR6sHn4OUXVauelAYW-1IjY,250
+zarrnii/core.py,sha256=08itlaiS_PABvmtZJVaz0Rfq7Sybv1HNE3APXs8vYqI,53224
+zarrnii/enums.py,sha256=NUGt4pxBDD4c9Di6II3RqYrlt-fMs0ij2CRfVbC7PxM,216
+zarrnii/transform.py,sha256=UYAWaHbDUHKAAczaXwRuMiVAzXVwb89xVWyJ7uCDXho,6107
+zarrnii-0.2.0a1.dist-info/METADATA,sha256=0Bz3xieZ16_YZ1yiJuXO6Tehf4utHMaPfQtUfnORAlc,1011
+zarrnii-0.2.0a1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+zarrnii-0.2.0a1.dist-info/RECORD,,
