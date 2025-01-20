@@ -1,0 +1,11 @@
+configapi/__init__.py,sha256=tW43nixO-cy1zlznkHnPkIUehoE4HKUq0AK0lbAzKnU,162
+configapi/configs.py,sha256=g6Jqz58NymHBenANocXRVAgm3r51CXrHgMASrjlW7Zk,2895
+configapi/patcher.py,sha256=pwmyobxviohEO6_QmaQwWSJLWes1H8gamiT4t2iIcSg,1797
+configapi/scope.py,sha256=4rIc6ugDchGGFPRSqM3_ckZM56Fngs3JvEngMq7xdZs,3096
+configapi/sources.py,sha256=GcbRXflEseXRgPUEk4Wj-lZ-x9oNJWFNXZTDIYvdTrw,3306
+configapi/toml.py,sha256=HrBeiF-rtoIC-uLok-3INzHgBkdGODa43bhih2uzNr0,1819
+configapi/types.py,sha256=C3MEAb-QtthgZydzO7n5qwOe3fZFUDH3ZHhP0SDAVXQ,361
+configapi-0.0.7.dist-info/METADATA,sha256=JluYCrcKyu8VNpWAqDqBNCp1bmPid3rxi1ZZVGg7xRQ,3265
+configapi-0.0.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+configapi-0.0.7.dist-info/top_level.txt,sha256=-X0A2CbCd_kVlhOZ4w3HbGvSGTh3-kfs2WdmwUAmwkM,10
+configapi-0.0.7.dist-info/RECORD,,
