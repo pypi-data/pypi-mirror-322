@@ -1,0 +1,7 @@
+sage/all__sagemath_lrslib.py,sha256=Z9TXsdDthYrVcegr2qSk0Gegd5akHQrOO8DY7RtGXUg,89
+sage/libs/all__sagemath_lrslib.py,sha256=fKY-tQ-YTmUyE7Y7aQ491M_qa4yAUblJYW6vwVRLUCQ,45
+sage/libs/lrslib.cpython-310-i386-linux-gnu.so,sha256=oWvFfU3-qSMy56vVCzI5A19l1HaA7fHrTsTystZXu4Y,56892
+passagemath_lrslib-10.5.21.dist-info/METADATA,sha256=uJ3TrI-TyjVfyoGRC4TC8OxhNFj8xTQO7XG6H-euMp8,4017
+passagemath_lrslib-10.5.21.dist-info/WHEEL,sha256=s59Ahp8cWRUA5Ovk-CMAn28LPoIpJSf8JKZA-2Q_1eA,110
+passagemath_lrslib-10.5.21.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_lrslib-10.5.21.dist-info/RECORD,,
