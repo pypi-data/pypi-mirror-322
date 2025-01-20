@@ -1,0 +1,7 @@
+README.md
+setup.py
+hhsqllib.egg-info/PKG-INFO
+hhsqllib.egg-info/SOURCES.txt
+hhsqllib.egg-info/dependency_links.txt
+hhsqllib.egg-info/requires.txt
+hhsqllib.egg-info/top_level.txt
