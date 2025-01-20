@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: Topsis-Raj-102217077
+Version: 0.1.1
+Summary: A package to implement TOPSIS method
+Author-email: Raj <jagarwadrajmeena@gmail.com>
+License-File: LICENSE
+Description-Content-Type: text/markdown
+
+ # Topsis Implementation
+
+It is A Python package to implement the Technique for Order of Preference by Similarity to Ideal Solution (Topsis) method.
+
+## Installation
+
+```python
+pip install Topsis-Raj-102217077
