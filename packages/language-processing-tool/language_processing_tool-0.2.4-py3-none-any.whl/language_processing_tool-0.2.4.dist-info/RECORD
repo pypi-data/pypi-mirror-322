@@ -1,0 +1,9 @@
+language_processing_tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+language_processing_tool/process_pdfs.py,sha256=SBxi7rHxhJm6pTsnxECvKz40oUYF3MRSUzM7E9j8Upk,7127
+language_processing_tool/sourcecode.py,sha256=ypBJLoGN7RXscI66ablcQKP8Xs55qRPJXf9DYlLE1sA,7127
+language_processing_tool-0.2.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+language_processing_tool-0.2.4.dist-info/METADATA,sha256=zfluTtdomFg90xvDnHWSDkdSzJ7fc0_ZptPuDmArUsA,1032
+language_processing_tool-0.2.4.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+language_processing_tool-0.2.4.dist-info/entry_points.txt,sha256=DHalshBsnj54abFGEo8yMvGoovxATJgcDywfAHNsErA,77
+language_processing_tool-0.2.4.dist-info/top_level.txt,sha256=vSskcl80s36KjUHZDE6jJq0Rpr0bdzzDiwuldznXf1c,25
+language_processing_tool-0.2.4.dist-info/RECORD,,
