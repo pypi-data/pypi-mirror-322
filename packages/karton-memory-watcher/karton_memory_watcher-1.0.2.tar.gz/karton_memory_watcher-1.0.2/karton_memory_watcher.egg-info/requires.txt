@@ -1,0 +1,2 @@
+karton-core>=5.0.0
+psutil>=5.9.0

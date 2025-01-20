@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+karton/memory_watcher/__init__.py
+karton/memory_watcher/watcher.py
+karton_memory_watcher.egg-info/PKG-INFO
+karton_memory_watcher.egg-info/SOURCES.txt
+karton_memory_watcher.egg-info/dependency_links.txt
+karton_memory_watcher.egg-info/requires.txt
+karton_memory_watcher.egg-info/top_level.txt
+tests/tests.py
