@@ -1,0 +1,3 @@
+[console_scripts]
+my-package = my_package.sourcecode:main
+
