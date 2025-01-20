@@ -1,0 +1,5 @@
+[console_scripts]
+kang-eda = kang_eda.cli:group_by_count
+
+[gui_scripts]
+
