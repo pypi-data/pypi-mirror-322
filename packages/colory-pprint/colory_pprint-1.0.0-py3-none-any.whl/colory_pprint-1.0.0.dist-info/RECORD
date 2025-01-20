@@ -1,0 +1,9 @@
+colory_pprint/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+colory_pprint/colory_pprint.py,sha256=sMXyEJ2V5GWgOVc1a-I6L98R64hnV4BYStvAVyQCekU,3279
+tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/test_colory_pprint.py,sha256=p6_T_dlPUyUzhv1UYKSVpuKCkoFuFjMRxed7TU3W7nQ,450
+colory_pprint-1.0.0.dist-info/LICENSE,sha256=iSVyQuaIk6agdO8fmaJlDDRzj-tCRNN-aPRZ2uIhfys,1076
+colory_pprint-1.0.0.dist-info/METADATA,sha256=kgpPlWGtedPETHgIMSMO10R_y-ort_wBimg7vwjO6zg,3430
+colory_pprint-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+colory_pprint-1.0.0.dist-info/top_level.txt,sha256=0ed8GbQkrsdBgA3qg_W_r89DQoD8FtOkUI8E8383mvc,20
+colory_pprint-1.0.0.dist-info/RECORD,,
