@@ -1,0 +1,4 @@
+mstrio-py==11.4.6.101
+langchain
+openai
+flashtext>=2.7
