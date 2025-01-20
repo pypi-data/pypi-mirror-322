@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: swarmauri-community
+Version: 0.6.0.dev148
+Summary: This repository includes Swarmauri community components.
+License: Apache-2.0
+Author: Jacob Stewart
+Author-email: jacob@swarmauri.com
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: cloud-integration
+Provides-Extra: document-processing
+Provides-Extra: full
+Provides-Extra: ml-toolkits
+Provides-Extra: model-clients
+Provides-Extra: nlp
+Provides-Extra: storage
+Provides-Extra: tiktoken
+Provides-Extra: visualization
+Requires-Dist: PyMuPDF (>=1.24.12,<2.0.0) ; extra == "document-processing" or extra == "full"
+Requires-Dist: captcha (>=0.6.0,<0.7.0)
+Requires-Dist: neo4j (>=5.25.0,<6.0.0) ; extra == "storage" or extra == "full"
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: pypdf (>=5.0.1,<6.0.0) ; extra == "document-processing" or extra == "full"
+Requires-Dist: pypdftk (>=0.5,<0.6) ; extra == "document-processing" or extra == "full"
+Requires-Dist: qrcode (>=8.0,<9.0) ; extra == "cloud-integration" or extra == "full"
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: swarmauri_base (>=0.6.0.dev148,<0.7.0)
+Requires-Dist: swarmauri_core (>=0.6.0.dev148,<0.7.0)
+Requires-Dist: textstat (>=0.7.4,<0.8.0) ; extra == "nlp" or extra == "full"
+Requires-Dist: transformers (>=4.45.0) ; extra == "ml-toolkits" or extra == "full"
+Requires-Dist: typing_extensions (>=4.12.2,<5.0.0)
+Requires-Dist: weaviate-client (>=4.9.2,<5.0.0) ; extra == "storage" or extra == "full"
+Project-URL: Repository, http://github.com/swarmauri/swarmauri-sdk
+Description-Content-Type: text/markdown
+
+# Swarmauri Community
