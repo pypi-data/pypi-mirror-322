@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bookmark-tk"
+version = "0.3.0"
+description = "Bookmark Toolkit. Helps manage, analyze, and visualize bookmarks"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Alex Towell", email = "lex@metafunctor.com"}
+]
+dependencies = [
+    "bs4",
+    "requests",
+    "colorama",
+    "rich",
+    "networkx",
+    "matplotlib",
+    "pyvis",
+    "tqdm",
+    "jmespath"
+]
+
+[project.scripts]
+btk = "btk.cli:main"  # CLI entry point
+
+[tool.setuptools]
+packages = ["btk"]  # Ensure it finds your package
