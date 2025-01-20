@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tap-square
+Version: 2.3.0
+Summary: Singer.io tap for extracting data from the Square API
+Home-page: http://singer.io
+Author: Stitch
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+Requires-Dist: singer-python==5.10.0
+Requires-Dist: squareup==28.0.0.20230608
+Requires-Dist: backoff==1.8.0
+Requires-Dist: methodtools==0.4.2
+Provides-Extra: dev
+Requires-Dist: ipdb; extra == "dev"
+Requires-Dist: pylint==2.5.3; extra == "dev"
