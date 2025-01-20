@@ -1,0 +1,181 @@
+# Documentation de `nsinfo`
+
+## Introduction
+`nsinfo` est une bibliothèque Python conçue pour implémenter des structures de données courantes (piles, files, graphes, listes chaînées) et des algorithmes classiques (tri, recherche, Fibonacci, etc.). Elle est idéale pour l'utilisation dans le cadre des cours de NSI.
+
+---
+
+## Structures de données
+
+### Pile
+Une pile (LIFO : Last In, First Out) est une structure de données où le dernier élément ajouté est le premier à être retiré.
+
+#### Méthodes
+- `est_vide()`: Vérifie si la pile est vide.
+- `empiler(element)`: Ajoute un élément au sommet de la pile.
+- `depiler()`: Retire et renvoie l'élément au sommet de la pile.
+- `sommet()`: Renvoie l'élément au sommet de la pile sans le retirer.
+
+#### Exemple d'utilisation
+```python
+pile = Pile()
+pile.empiler(1)
+pile.empiler(2)
+print(pile.depiler())  # 2
+print(pile.sommet())  # 1
+```
+
+---
+
+### File
+Une file (FIFO : First In, First Out) est une structure de données où le premier élément ajouté est le premier à être retiré.
+
+#### Méthodes
+- `est_vide()`: Vérifie si la file est vide.
+- `enfiler(element)`: Ajoute un élément à la fin de la file.
+- `defiler()`: Retire et renvoie le premier élément de la file.
+
+#### Exemple d'utilisation
+```python
+file = File()
+file.enfiler(1)
+file.enfiler(2)
+print(file.defiler())  # 1
+print(file.defiler())  # 2
+```
+
+---
+
+### Graphe
+Un graphe est une structure de données composée de sommets et d'arêtes qui relient ces sommets.
+
+#### Méthodes
+- `ajouter_sommet(sommet)`: Ajoute un sommet au graphe.
+- `ajouter_arete(sommet1, sommet2)`: Ajoute une arête entre deux sommets.
+- `voisins(sommet)`: Renvoie la liste des sommets voisins d'un sommet donné.
+
+#### Exemple d'utilisation
+```python
+graphe = Graphe()
+graphe.ajouter_arete("A", "B")
+graphe.ajouter_arete("A", "C")
+print(graphe.voisins("A"))  # ['B', 'C']
+```
+
+---
+
+### Liste chaînée
+Une liste chaînée est une structure de données où chaque élément (ou nœud) contient une valeur et une référence vers l'élément suivant.
+
+#### Méthodes
+- `est_vide()`: Vérifie si la liste est vide.
+- `ajouter(valeur)`: Ajoute un élément au début de la liste.
+- `car()`: Renvoie la valeur du premier élément de la liste.
+- `cdn()`: Renvoie le reste de la liste après le premier élément.
+- `afficher()`: Retourne une liste Python avec les valeurs de la liste chaînée.
+
+#### Exemple d'utilisation
+```python
+liste = ListeChainee()
+liste.ajouter(3)
+liste.ajouter(2)
+liste.ajouter(1)
+print(liste.afficher())  # [1, 2, 3]
+print(liste.car())  # 1
+reste = liste.cdn()
+print(reste.afficher())  # [2, 3]
+```
+
+---
+
+## Fonctions
+
+### `sous_tableau(tableau, debut, fin)`
+Renvoie une portion d'un tableau entre les indices `debut` (inclus) et `fin` (exclu).
+
+#### Exemple d'utilisation
+```python
+tableau = [1, 2, 3, 4, 5]
+print(sous_tableau(tableau, 1, 4))  # [2, 3, 4]
+```
+
+---
+
+### `tri_insertion(tableau)`
+Trie un tableau en utilisant l'algorithme de tri par insertion.
+
+#### Exemple d'utilisation
+```python
+tableau = [5, 3, 2, 4, 1]
+print(tri_insertion(tableau))  # [1, 2, 3, 4, 5]
+```
+
+---
+
+### `recherche_dichotomique(tableau, valeur)`
+Recherche une valeur dans un tableau trié en utilisant la méthode dichotomique.
+
+#### Exemple d'utilisation
+```python
+tableau = [1, 2, 3, 4, 5]
+print(recherche_dichotomique(tableau, 3))  # 2
+```
+
+---
+
+### `fibonacci(n)`
+Calcule le n-ième terme de la suite de Fibonacci (récursivement).
+
+#### Exemple d'utilisation
+```python
+print(fibonacci(5))  # 5
+```
+
+---
+
+### `factorielle(n)`
+Calcule la factorielle de `n` récursivement.
+
+#### Exemple d'utilisation
+```python
+print(factorielle(5))  # 120
+```
+
+---
+
+### `parcours_profondeur(graphe, sommet)`
+Effectue un parcours en profondeur sur un graphe à partir d'un sommet donné.
+
+#### Exemple d'utilisation
+```python
+graphe = Graphe()
+graphe.ajouter_arete("A", "B")
+graphe.ajouter_arete("A", "C")
+graphe.ajouter_arete("B", "D")
+print(parcours_profondeur(graphe, "A"))  # {'A', 'B', 'C', 'D'}
+```
+
+---
+
+### `parcours_largeur(graphe, sommet)`
+Effectue un parcours en largeur sur un graphe à partir d'un sommet donné.
+
+#### Exemple d'utilisation
+```python
+graphe = Graphe()
+graphe.ajouter_arete("A", "B")
+graphe.ajouter_arete("A", "C")
+graphe.ajouter_arete("B", "D")
+print(parcours_largeur(graphe, "A"))  # {'A', 'B', 'C', 'D'}
+```
+
+---
+
+## Contribution
+Les contributions sont les bienvenues. Créez une issue ou un pull request sur le [dépôt GitHub](https://github.com/TataneSan/nsinfo).
+
+---
+
+## Licence
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus d'informations.
+
