@@ -1,0 +1,51 @@
+Metadata-Version: 2.2
+Name: bukmacherska
+Version: 0.1
+Summary: Biblioteka do obliczeń bukmacherskich
+Home-page: https://github.com/twoje_konto/bukmacherska
+Author: Twoje Imię
+Author-email: twojemail@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Bukmacherska
+
+Biblioteka do obliczeĹ„ bukmacherskich.
+
+## Instalacja
+
+```bash
+pip install bukmacherska
+
+import bukmacherska as bk
+
+# PrzykĹ‚adowe uĹĽycie funkcji obliczeniowych
+srednia1_zdobytych, liczba_goli1 = bk.oblicz_wynik_druzyny(10, 5, 3)
+print(f"DruĹĽyna 1 - Ĺšrednia zdobytych goli: {srednia1_zdobytych}, Liczba zdobytych goli: {liczba_goli1}")
+
+srednia2_zdobytych, liczba_goli2 = bk.oblicz_wynik_druzyny2(8, 6, 3)
+print(f"DruĹĽyna 2 - Ĺšrednia zdobytych goli: {srednia2_zdobytych}, Liczba zdobytych goli: {liczba_goli2}")
+
+typ_meczu = bk.okresl_typ_meczu(srednia1_zdobytych, srednia2_zdobytych)
+print(f"Typ meczu: {typ_meczu}")
+
+# PrzykĹ‚adowe uĹĽycie funkcji rysujÄ…cych wykresy
+bk.rysuj_wykresy(srednia1_zdobytych, liczba_goli1, srednia2_zdobytych, liczba_goli2)
+
+
+
