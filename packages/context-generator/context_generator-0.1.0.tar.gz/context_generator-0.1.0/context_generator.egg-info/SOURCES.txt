@@ -1,0 +1,17 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+context_generator/__init__.py
+context_generator/cli.py
+context_generator/core.py
+context_generator.egg-info/PKG-INFO
+context_generator.egg-info/SOURCES.txt
+context_generator.egg-info/dependency_links.txt
+context_generator.egg-info/entry_points.txt
+context_generator.egg-info/requires.txt
+context_generator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cli.py
+tests/test_core.py
