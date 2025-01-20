@@ -1,0 +1,43 @@
+Metadata-Version: 2.2
+Name: dimsync
+Version: 0.1.23
+Summary: An easy-to-use docker image management tool
+Home-page: https://github.com/eptr/dimsync
+Author: HSIAOLIN
+Author-email: sjzshmh@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docker
+Requires-Dist: tqdm
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# docker-image-sync
+
+An easy-to-use docker image management tool.
+
+## usage
+
+```shell
+# fetch update from docker.io
+dimsync fetch
+# sync images to local registry
+dimsync sync
+```

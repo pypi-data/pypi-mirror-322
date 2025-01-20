@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+dimsync/__init__.py
+dimsync/main.py
+dimsync.egg-info/PKG-INFO
+dimsync.egg-info/SOURCES.txt
+dimsync.egg-info/dependency_links.txt
+dimsync.egg-info/entry_points.txt
+dimsync.egg-info/requires.txt
+dimsync.egg-info/top_level.txt
