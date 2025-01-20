@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: syncverse
+Version: 0.1.2
+Summary: A Python package to sync files with Google Drive and locally.
+Home-page: https://github.com/vishnu55510/syncverse
+Author: Maha Vishnu
+Author-email: mahavishnu55510@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: watchdog
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+
