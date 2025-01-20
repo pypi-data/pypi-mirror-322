@@ -1,0 +1,13 @@
+conda_spawn/__init__.py,sha256=IDUnBjb5QUI9AbVx778oCqTwSQ0lp3gl2W6eh0AZNHs,109
+conda_spawn/_version.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+conda_spawn/activate.py,sha256=CVcKj0zVGasLTFXULEuNl1TbXKXs2u32Y-qsCcxdQIQ,41579
+conda_spawn/cli.py,sha256=YC221HfUnk1LudfcEZrDIT2pyJ3hB_aE_WqiyrXsD_I,3504
+conda_spawn/exceptions.py,sha256=uf69w1jM-PM1jVo-qcWNzQUUtwDO2zHppBtOmHQ7vJQ,408
+conda_spawn/main.py,sha256=fBpJFF43vesd0KPmOy0_AHXFYBzJ2URE74T4ELkhKas,1783
+conda_spawn/plugin.py,sha256=6689pkuEzty4z8lmdoFP8REAtW4ZcNSqm_7b8-xokV8,335
+conda_spawn/shell.py,sha256=kfQeOh5S1JMPkTNHbHsVGTo9CB9NWzlWsotwpiKZM2E,8075
+conda_spawn-0.0.4.dist-info/METADATA,sha256=rBAM-4WRa6T6raoOWNbh4ZSIBXZ3mBbx_BtISHZtIzI,3073
+conda_spawn-0.0.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+conda_spawn-0.0.4.dist-info/entry_points.txt,sha256=JROg7ZzEMNhwgjxPVvtxsXONy4ZatYbCxlUr_ey39nY,41
+conda_spawn-0.0.4.dist-info/licenses/LICENSE,sha256=CHBm8UV-yUpakZvCRXbqmfY3icT9G8ZROh8pQpWlEok,1080
+conda_spawn-0.0.4.dist-info/RECORD,,
