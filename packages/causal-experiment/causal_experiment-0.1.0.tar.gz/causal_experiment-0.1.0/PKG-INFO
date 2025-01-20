@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: causal-experiment
+Version: 0.1.0
+Summary: Add your description here
+Author-email: pyros-sd-models <pyros.sd.models@gmail.com>
+License-File: LICENSE
+Requires-Python: >=3.12
+Requires-Dist: datasets>=3.2.0
+Requires-Dist: devtools>=0.12.2
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: numpy>=2.2.1
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: plotly>=5.24.1
+Requires-Dist: scikit-learn>=1.6.1
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: streamlit>=1.41.1
+Requires-Dist: torch>=2.5.1
+Requires-Dist: torchvision>=0.20.1
+Requires-Dist: transformers[torch]>=4.48.0
+Description-Content-Type: text/markdown
+
+# the_experiment
+a small experiment with LLMs
