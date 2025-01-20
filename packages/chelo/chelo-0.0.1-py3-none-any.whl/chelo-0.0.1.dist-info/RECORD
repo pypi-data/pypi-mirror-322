@@ -1,0 +1,12 @@
+chelo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chelo/base.py,sha256=YG_DbnS3A7jio961jtu32NPjh4xcdKf2BowdyGmUCpw,5753
+chelo/registry.py,sha256=Z0y3y_bGqzAxeCMZ7j5ERHB8ah3774cDn1TLQypTY2M,1433
+chelo/datasets/__init__.py,sha256=PcAI5kWsDlFva3IzUQ9jg-13LCKgwiQGJk8-u_IUcps,663
+chelo/datasets/wine_quality.py,sha256=C4IitjJFl57KnUCgcZeLyU3cg7LhcA1ln4DfPvBWG8w,2723
+chelo/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chelo/utils/downloader.py,sha256=hE-lisTIi-NihYBcLbXdEtqgTfM5FnpZEfMQPYWxFvk,4538
+chelo-0.0.1.dist-info/LICENSE,sha256=f2rpq1hqG_M0Od7ltW0S3Tm3rC3bWc8Jban94YB_sb8,1095
+chelo-0.0.1.dist-info/METADATA,sha256=Y1ePh4RnMlFA9iKnrTSDllIc8PStxaL6haWima1tZ-E,7987
+chelo-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+chelo-0.0.1.dist-info/top_level.txt,sha256=i0Dq_A4tPf3hkXo_y_SwYtajnMXmrptcUybV0K3EFcw,6
+chelo-0.0.1.dist-info/RECORD,,
