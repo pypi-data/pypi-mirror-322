@@ -1,0 +1,8 @@
+[console_scripts]
+ids = idscheck.idscheck:cmd
+idsgpu = idscheck.idscheck:gpu
+idsnotify = idscheck.idscheck:notify
+idsquery = idscheck.idscheck:query
+idsrestart = idscheck.idscheck:restart
+idstop = idscheck.idscheck:top
+idstopall = idscheck.idscheck:topall

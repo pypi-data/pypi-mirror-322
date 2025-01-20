@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+idscheck/__init__.py
+idscheck/idscheck.py
+idscheck.egg-info/PKG-INFO
+idscheck.egg-info/SOURCES.txt
+idscheck.egg-info/dependency_links.txt
+idscheck.egg-info/entry_points.txt
+idscheck.egg-info/top_level.txt
