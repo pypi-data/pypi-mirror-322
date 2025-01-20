@@ -1,0 +1,13 @@
+pycryptodome>=3.11.0
+pyjwt>=2.4.0
+cryptography>=39.0.0
+requests>=2.20.0
+tkintertable
+pytest>=7.0.0
+json
+datetime
+
+[dev]
+pytest
+black
+flake8
