@@ -1,0 +1,2 @@
+[console_scripts]
+kunyu = kunyu.console:main
