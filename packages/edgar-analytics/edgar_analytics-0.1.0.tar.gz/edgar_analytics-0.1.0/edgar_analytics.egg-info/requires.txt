@@ -1,0 +1,10 @@
+pandas
+numpy
+statsmodels
+edgartools
+click
+
+[test]
+pytest
+pytz
+pytest-xdist
