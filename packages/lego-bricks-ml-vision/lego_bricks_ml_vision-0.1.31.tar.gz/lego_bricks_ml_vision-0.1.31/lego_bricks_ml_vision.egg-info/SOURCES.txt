@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+lego_bricks_ml_vision.egg-info/PKG-INFO
+lego_bricks_ml_vision.egg-info/SOURCES.txt
+lego_bricks_ml_vision.egg-info/dependency_links.txt
+lego_bricks_ml_vision.egg-info/entry_points.txt
+lego_bricks_ml_vision.egg-info/requires.txt
+lego_bricks_ml_vision.egg-info/top_level.txt
+scripts/__init__.py
+scripts/pipeline.py
+scripts/visualize_presentation.py
