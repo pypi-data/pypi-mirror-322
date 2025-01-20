@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: CellScope-RNA
+Version: 0.1.0
+Summary: A package for analyzing and visualizing gene expression data
+Author: Tianhao Ni
+Author-email: thni@zju.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7, <3.11
+Requires-Dist: numpy<2.2,>=1.24
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: umap-learn
+Requires-Dist: joblib
+Requires-Dist: requests
+Requires-Dist: anndata
+Requires-Dist: plotly
