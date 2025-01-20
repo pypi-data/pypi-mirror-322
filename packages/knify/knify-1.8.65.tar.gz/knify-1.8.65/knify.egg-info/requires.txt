@@ -1,0 +1,3 @@
+loguru
+urllib3
+openpyxl
