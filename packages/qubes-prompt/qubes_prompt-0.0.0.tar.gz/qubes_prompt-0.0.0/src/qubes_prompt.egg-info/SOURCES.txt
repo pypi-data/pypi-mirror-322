@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/qubes_prompt/__init__.py
+src/qubes_prompt/fzf.py
+src/qubes_prompt/rofi.py
+src/qubes_prompt.egg-info/PKG-INFO
+src/qubes_prompt.egg-info/SOURCES.txt
+src/qubes_prompt.egg-info/dependency_links.txt
+src/qubes_prompt.egg-info/entry_points.txt
+src/qubes_prompt.egg-info/requires.txt
+src/qubes_prompt.egg-info/top_level.txt
+src/qubes_prompt/db/commands.json
