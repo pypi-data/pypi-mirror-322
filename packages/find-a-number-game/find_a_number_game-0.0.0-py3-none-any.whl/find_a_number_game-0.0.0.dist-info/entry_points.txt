@@ -1,0 +1,2 @@
+[console_scripts]
+fang = find_a_number.cli:main
