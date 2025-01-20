@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/fitting_toolkit/__init__.py
+src/fitting_toolkit/fit.py
+src/fitting_toolkit/fitting_toolkit.py
+src/fitting_toolkit/utils.py
+src/fitting_toolkit.egg-info/PKG-INFO
+src/fitting_toolkit.egg-info/SOURCES.txt
+src/fitting_toolkit.egg-info/dependency_links.txt
+src/fitting_toolkit.egg-info/requires.txt
+src/fitting_toolkit.egg-info/top_level.txt
+tests/test_confidence_interval.py
+tests/test_functions.py
+tests/test_utils.py
