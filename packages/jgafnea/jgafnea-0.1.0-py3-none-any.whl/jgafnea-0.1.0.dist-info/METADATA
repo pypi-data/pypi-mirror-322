@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: jgafnea
+Version: 0.1.0
+Summary: 
+Author: jgafnea
+Author-email: 84107636+jgafnea@users.noreply.github.com
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Description-Content-Type: text/markdown
+
+# card
+
