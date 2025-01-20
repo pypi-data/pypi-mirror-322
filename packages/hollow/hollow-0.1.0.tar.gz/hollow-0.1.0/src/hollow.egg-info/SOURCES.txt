@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+src/hollow/__init__.py
+src/hollow/cli.py
+src/hollow/logics.py
+src/hollow.egg-info/PKG-INFO
+src/hollow.egg-info/SOURCES.txt
+src/hollow.egg-info/dependency_links.txt
+src/hollow.egg-info/entry_points.txt
+src/hollow.egg-info/requires.txt
+src/hollow.egg-info/top_level.txt
