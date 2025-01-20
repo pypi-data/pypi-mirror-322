@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: viperkernel
+Version: 1.0.0
+Summary: A package to perform VIPER-based velocity in Python
+Home-page: https://github.com/alexanderlewis99/VIPERKernel/
+Author: Alexander L.E. Wang
+Author-email: aw3436@cumc.columbia.edu
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cellrank
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+This Cellrank-compatible package provides the ability to use VIPER protein activity to create a kernel and infer transformation of cell states..
