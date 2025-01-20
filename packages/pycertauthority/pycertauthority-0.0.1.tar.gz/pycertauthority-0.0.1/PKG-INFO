@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: pycertauthority
+Version: 0.0.1
+Summary: A simple wrapper around the cryptography library that provides an easier interface to create and manage certificates and certificate authorities using Python 3.
+Author-email: Michael Kelly <instipod@instipod.com>
+License: GPL-3.0-only
+Project-URL: Homepage, https://github.com/instipod/pycertauthority
+Project-URL: Issues, https://github.com/instipod/pycertauthority/issues
+Classifier: Topic :: Security
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: pytz
+
+# pycertauthority
+
+### Purpose
+
+A simple wrapper around the cryptography library that provides an easier interface to create and manage certificates and certificate authorities using Python 3.
+
+### Examples
+
+See the [examples/](examples/) folder for examples on how to use.
