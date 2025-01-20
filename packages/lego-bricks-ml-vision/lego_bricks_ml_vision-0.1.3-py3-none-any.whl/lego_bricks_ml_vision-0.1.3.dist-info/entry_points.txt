@@ -1,0 +1,3 @@
+[console_scripts]
+run-pipeline = scripts.pipeline:main
+run-visualize = scripts.visualize_presentation:main
