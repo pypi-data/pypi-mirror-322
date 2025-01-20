@@ -1,0 +1,16 @@
+syntax = "proto3";
+package alvenir_grpc_contracts.types.v1;
+
+// The response status of an API call.
+// UNSPECIFIED: Default value, if something unexepcted happened.
+// OK: The API call was successful.
+// ERROR: The API call was not successful.
+// Typically a message is included in the same message as the ResponseStatus
+enum ResponseStatus {
+    // Default value, if something unexepcted happened.
+    RESPONSE_STATUS_UNSPECIFIED = 0;
+    // The API call was successful.
+    RESPONSE_STATUS_OK = 1;
+    // The API call was not successful.
+    RESPONSE_STATUS_ERROR = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+package alvenir_grpc_contracts.types.v1;
+
+message PingRequest {
+    int32 wait_time = 1;
+}
+
+message PingResponse {
+    int32 request_received_utc = 1;
+    int32 response_sent_utc = 2;
+}

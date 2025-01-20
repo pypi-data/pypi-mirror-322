@@ -1,0 +1,77 @@
+syntax = "proto3";
+
+package alvenir_grpc_contracts.guidance.v1;
+
+
+message LlmPromptAnswer {
+  string prompt = 1;
+  string meta = 2;
+  string answer = 3;
+  float score = 4;
+}
+
+message LlmData {
+  LlmPromptAnswer introduction = 1;
+  LlmPromptAnswer client_satisfaction = 2;
+  LlmPromptAnswer answer_quality = 3;
+  LlmPromptAnswer empathy = 4;
+  LlmPromptAnswer language = 5;
+  LlmPromptAnswer voice = 6;
+  LlmPromptAnswer speaker_efficiency = 7;
+  LlmPromptAnswer upselling = 8;
+  LlmPromptAnswer general_feedback = 9;
+  LlmPromptAnswer subjects = 10;
+}
+
+message CallMeta {
+  string time_of_call = 1;
+  float length = 2;
+  float answer_time = 3;
+}
+
+message TranscriptionMeta {
+  string n_words = 1;
+  string n_fill_words = 2;
+}
+
+// for timeline chart
+// Formats of start and end are h:mm:ss:ms aka "0:04:483"
+message TimeInterval {
+  string start = 1;
+  string end = 2;
+}
+
+message TimeLineData {
+  string speaker = 1;
+  repeated TimeInterval interval_data = 2;
+}
+
+message TimeLineConcat {
+  TimeLineData caller_data = 1;
+  TimeLineData advisor_data = 2;
+}
+
+// for sentiment chart
+message SentimentCoordinates {
+  float x = 1;
+  float y = 2;
+}
+
+message SentimentData{
+  string speaker = 1;
+  repeated SentimentCoordinates data_points = 2;
+}
+
+message SentimentConcat {
+  SentimentData caller_data = 1;
+  SentimentData advisor_data = 2;
+}
+
+message GuidanceEvent {
+  LlmData llm_data = 1;
+  TimeLineConcat audio_segments = 2;
+  SentimentConcat sentiment_data = 3;
+  CallMeta audio_meta = 4;
+  TranscriptionMeta transcription_meta = 5;
+  string processing_id = 6;
+}

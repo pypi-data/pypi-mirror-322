@@ -1,0 +1,51 @@
+syntax = "proto3";
+package alvenir_grpc_contracts.asr.v1;
+
+import "alvenir_grpc_contracts/types/v1/format.proto";
+import "alvenir_grpc_contracts/types/v1/status.proto";
+
+// The ASRService provides methods for streaming audio and getting transcriptions.
+// The service can be used in 2 ways:
+// 1. StreamAudio until end of stream, then ask for transcription. This is done with StreamAudio and GetTranscription.
+// 2. Stream and receive partial transcriptions in real-time. This is done with BidiStreamAudio.
+service ASRService {
+    // StreamAudio streams audio data to the ASR service. The audio data is sent in chunks.
+    rpc StreamAudio(stream StreamAudioRequest) returns (StreamAudioResponse);
+    // GetTranscription gets the transcription of the audio data that was streamed to the ASR service.
+    rpc GetTranscription(GetTranscriptionRequest) returns (GetTranscriptionResponse);
+    // BidiStreamAudio streams audio data to the ASR service and receives partial transcriptions in real-time.
+    rpc BidiStreamAudio(stream BidiStreamAudioRequest) returns (stream BidiStreamAudioResponse);
+}
+
+// BidiStreamAudioRequest is the request message for BidiStreamAudio. It contains either audio metadata or audio data.
+message BidiStreamAudioRequest {
+    alvenir_grpc_contracts.types.v1.AudioMetaData metadata = 1;
+    alvenir_grpc_contracts.types.v1.AudioChunk audio_data = 2;
+}
+
+// StreamAudioRequest is the request message for StreamAudio. It contains either audio metadata or audio data.
+message StreamAudioRequest {
+    alvenir_grpc_contracts.types.v1.AudioMetaData metadata = 1;
+    alvenir_grpc_contracts.types.v1.AudioChunk audio_data = 2;
+}
+
+// StreamAudioResponse is the response message for StreamAudio.
+message StreamAudioResponse {
+    string call_id = 1;
+    alvenir_grpc_contracts.types.v1.ResponseStatus status = 2;
+}
+
+// GetTranscriptionRequest is the request message for GetTranscription.
+message GetTranscriptionRequest {
+    string call_id = 1;
+}
+
+// GetTranscriptionResponse is the response message for GetTranscription.
+message GetTranscriptionResponse {
+    string transcript = 1;
+}
+
+// BidiStreamAudioResponse is the response message for BidiStreamAudio.
+message BidiStreamAudioResponse {
+    string partial_transcript = 1;
+}

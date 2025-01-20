@@ -1,0 +1,43 @@
+syntax = "proto3";
+package alvenir_grpc_contracts.types.v1;
+
+// Metadata for audio format
+// sample_rate: The number of samples per second
+// channels: The number of audio channels
+// sample_width: The number of bytes per sample
+// example: 16-bit PCM audio with a sample rate of 44100 Hz and 2 channels
+// sample_rate = 44100
+// channels = 2
+// sample_width = 2
+message PCM{
+  int32 sample_rate = 1;
+  int32 channels = 2;
+  int32 sample_width = 3;
+}
+
+// Metadata for audio data
+// advisor_id: The ID of the advisor
+// caller_id: The ID of the caller
+// chunk_size: The size of the audio chunk
+// pcm_format: The format of the audio data, see PCM
+// example: A client is sending a requst with Advisor ID 1234 and the caller with ID 5678 are sending wav formatted data with chunk size 1024
+// advisor_id = "1234"
+// caller_id = "5678"
+// chunk_size = 1024
+// pcm_format = PCM(sample_rate = 44100, channels = 2, sample_width = 2)
+message AudioMetaData {
+  string advisor_id = 1;
+  string caller_id = 2;
+  int32 chunk_size = 3;
+  PCM pcm_format = 4;
+  string processing_id = 5;
+}
+
+// Audio chunk
+// audio_advisor: The audio data from the advisor
+// audio_caller: The audio data from the caller
+// Format needs to be specified before AudioChunk is sent
+message AudioChunk {
+  bytes audio_advisor = 1;
+  bytes audio_caller = 2;
+}

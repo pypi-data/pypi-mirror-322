@@ -1,0 +1,67 @@
+syntax = "proto3";
+package alvenir_grpc_contracts.summary.v1;
+
+import "alvenir_grpc_contracts/types/v1/format.proto";
+import "alvenir_grpc_contracts/types/v1/status.proto";
+import "alvenir_grpc_contracts/types/v1/ping.proto";
+
+// The summary service provides a way to turn streamed audio into a transcription, and then summarize the transcription.
+// The service is designed to stream in real time, and afterwards ask for a response.
+// If realtime transcription is wanted look at the module alvenir.asr.v1
+service SummaryService {
+    // StreamAudio streams audio data to the server. The server will respond with a call_id that can be used to get the summary with the GetSummary method.
+    rpc StreamAudio(stream StreamAudioRequest) returns (StreamAudioResponse) {}
+    // GetSummary gets the summary of the audio data that was streamed to the server. The call_id is used to identify the audio data.
+    rpc GetSummary(GetSummaryRequest) returns (GetSummaryResponse) {}
+    // Stream audio and get summary directly back
+    rpc StreamAndGetSummary(stream StreamAndGetSummaryRequest) returns (StreamAndGetSummaryResponse) {}
+    // Send a ping request with a wait time defined. Server should respons after waiting the defined time.
+    rpc Ping(alvenir_grpc_contracts.types.v1.PingRequest) returns (alvenir_grpc_contracts.types.v1.PingResponse) {}
+}
+
+// StreamAudioRequest is the request message for the StreamAudio method.
+message StreamAudioRequest {
+    alvenir_grpc_contracts.types.v1.AudioMetaData metadata = 1;
+    alvenir_grpc_contracts.types.v1.AudioChunk audio_data = 2;
+}
+
+
+// StreamAudioResponse is the response message for the StreamAudio method.
+message StreamAudioResponse {
+  alvenir_grpc_contracts.types.v1.ResponseStatus status = 1;
+  string message = 2;
+  string call_id = 3;
+}
+
+// StreamAndGetSummaryRequest is the request message for the StreamAndGetSummary method.
+message StreamAndGetSummaryRequest {
+    alvenir_grpc_contracts.types.v1.AudioMetaData metadata = 1;
+    alvenir_grpc_contracts.types.v1.AudioChunk audio_data = 2;
+}
+
+// StreamAndGetSummaryResponse is the response message for the StreamAndGetSummary method.
+message StreamAndGetSummaryResponse {
+  alvenir_grpc_contracts.types.v1.ResponseStatus status = 1;
+  string message = 2;
+  optional AggregatedResults results = 3;
+  string call_id = 4;
+}
+
+// GetSummaryRequest is the request message for the GetSummary method.
+message GetSummaryRequest {
+    string call_id = 1;
+}
+
+// GetSummaryResponse is the response message for the GetSummary method.
+message GetSummaryResponse {
+  alvenir_grpc_contracts.types.v1.ResponseStatus status = 1;
+  string message = 2;
+  optional AggregatedResults results = 3;
+}
+
+// AggregatedResults is the message that contains the results of the summary.
+message AggregatedResults {
+  string transcription = 1;
+  string main_points = 2;
+  string journal_note = 3;
+}

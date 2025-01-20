@@ -1,0 +1,26 @@
+syntax = "proto3";
+package alvenir_grpc_contracts.assistance.v1;
+
+// Is currently used for whether the event should be collapsed
+enum Importance {
+  IMPORTANCE_UNSPECIFIED = 0;
+  IMPORTANCE_LOW = 1;
+  IMPORTANCE_HIGH = 2;
+}
+
+// The action suggested by the model
+message Action {
+  string text = 1;
+  string url = 2;
+}
+
+// AssistanceEvent is the content sent from the Live Assistance app
+message AssistanceEvent {
+  string title = 1;
+  string body = 2;
+  // action might often be null if the event does not give a action
+  Action action = 3;
+  Importance importance = 4;
+  string key = 5;
+  string processing_id = 6;
+}
