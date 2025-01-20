@@ -1,0 +1,3 @@
+[console_scripts]
+bzfs = bzfs.bzfs:main
+bzfs-test = bzfs_tests.test_bzfs:main

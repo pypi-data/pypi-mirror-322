@@ -1,0 +1,14 @@
+bzfs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bzfs/bzfs.py,sha256=LL5tTqZXlcpDoubu4jEqeOMfPzZRoR_YVlVzWubave8,329320
+bzfs_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bzfs_tests/prune_bookmarks.py,sha256=SfscHtUbaGcVanPOeu7NJkCysj_gN7MAjfBaCts9qiE,3460
+bzfs_tests/test_bzfs.py,sha256=SSaIExIZIyJjIqxHNcNH6PefbL76GQjvFZ8F2qypI7Y,1250
+bzfs_tests/test_integrations.py,sha256=LUNTIwBYEO8qh9_tjgTq8cfoafxJFblJXOXi-rG4nEE,200834
+bzfs_tests/test_units.py,sha256=A5wjQKQaYykXQlHMCvC2JiLJtrphue757EcTzAIn0ik,127671
+bzfs_tests/zfs_util.py,sha256=Y82PNQBhz17A8s68JNOHG82pU_WmZcYtr3WUmJof7GQ,10448
+bzfs-1.9.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bzfs-1.9.0.dist-info/METADATA,sha256=NT5BNZJ1pj8_EhRLx5-2pR6xsfZKwr0pbFHF2V8oKII,94013
+bzfs-1.9.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+bzfs-1.9.0.dist-info/entry_points.txt,sha256=E0r6y5qTmDtdCRcu6SHx5Wi9mYCqf6aVSVMzvJtWlyY,78
+bzfs-1.9.0.dist-info/top_level.txt,sha256=s7iCSuVOWc_Tgy76c-_s5FmuWVTnUcPdwUu9L7mBa2E,16
+bzfs-1.9.0.dist-info/RECORD,,
