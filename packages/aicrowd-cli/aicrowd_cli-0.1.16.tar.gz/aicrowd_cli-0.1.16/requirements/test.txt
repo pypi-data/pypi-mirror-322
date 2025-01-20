@@ -1,0 +1,9 @@
+-r build.txt
+pytest
+pytest-cov
+pytest-pythonpath
+pytest-black
+pytest-mock
+pytest-pylint
+tox
+requests-mock

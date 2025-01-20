@@ -1,0 +1,10 @@
+click
+GitPython
+requests
+requests-toolbelt
+rich
+toml
+tqdm
+pyzmq
+python-slugify
+semver
