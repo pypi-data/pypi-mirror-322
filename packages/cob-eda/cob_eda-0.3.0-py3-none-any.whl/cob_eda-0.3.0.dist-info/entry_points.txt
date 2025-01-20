@@ -1,0 +1,5 @@
+[console_scripts]
+cob-eda = cob_eda.cli:group_by_count
+
+[gui_scripts]
+

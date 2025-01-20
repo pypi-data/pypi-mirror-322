@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: cob-eda
+Version: 0.3.0
+Summary: COB-EDA is a Python package designed to simplify exploratory data analysis with intuitive tools for statistics, visualizations, and insights discovery..
+Author-Email: jacob-53 <jacob8753@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: president-speech>=0.9.1
+Description-Content-Type: text/markdown
+
+# cob-eda
+
+## "올림픽" 발언 횟수 출
+
+```bash력
+$ from cob_eda import group_by_count
+$ group_by_count()
+```
+
+
+## Dev
+``bash
+$ source .venv/bin/activate
+$ pdm add pandas
+$ pdm add -dG eda jupyterlab
+```
+
+## EDA
+- run jupyterlab
+
+
+## Ref
+- [install jupyterlab](https://jupyter.org/install)
+- [president-speech](https://pypi.org/project/president-speech/)
+
