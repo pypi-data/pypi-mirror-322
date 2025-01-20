@@ -1,0 +1,16 @@
+superconf/__init__.py,sha256=A8XKI4rRtuYPavhBBIEB1I7mbkWp_hmKeGJIWbYWDrM,47
+superconf/anchors.py,sha256=853icGPlCBcaQLSgf7DGWZLH29KoDur3fwvGwBx5-rE,10156
+superconf/casts.py,sha256=gVylysCM7KE5Yu5B95wyg0a8ychHuECHeV0IivCrqO0,8811
+superconf/common.py,sha256=3md8JBTlwWNgVjAG4zcksfK0QdvJeHgFL-UhdRRuA7I,963
+superconf/common_beta.py,sha256=9_kp7A9OFBp3OYiA_OqikHHnAfN_AW_7k_FIiLMTdoE,4592
+superconf/configuration.py,sha256=swOVGGsAN4rIUCQWwk8q5p4rTvqO5Xb6utr9RSgj7u4,25415
+superconf/exceptions.py,sha256=_VKuq01-ClRm5ScYiKD71LVUcmarzYnC3cfQxxq2amQ,989
+superconf/fields.py,sha256=fXdG-TtDTPoAkqKDZ8bO6nFh5uHh5kVWaL-pECPmSGc,13291
+superconf/loaders.py,sha256=CRkzuqE0Z-Iv-Lk1JnJlkcZ4H7OXUEBBf_KqyQx3LMY,23239
+superconf/parsers.py,sha256=1GdLt5MV4fBL1rZJpUJoSpoDTzLE0tQyXJK6dP5ziKo,5434
+superconf/wrapper.py,sha256=BTefQb0aWzLHgfCrHk5xj6trChj28gOXn9BQxF3vlKY,273
+superconf-0.1.3.dist-info/LICENSE.txt,sha256=AvGyYtJx4HWTa3-alToczwDh_jNyZPJR3U42MlNf5jM,35182
+superconf-0.1.3.dist-info/METADATA,sha256=e62QT9tgWucPIcernm-88-ZEtRNOr7vbjZiHWhrPyc4,5890
+superconf-0.1.3.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+superconf-0.1.3.dist-info/entry_points.txt,sha256=mOs-fZVkPEgySw4Hva5zrHPxL7DPcryjhxVCbMwxlTY,50
+superconf-0.1.3.dist-info/RECORD,,
