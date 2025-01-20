@@ -1,0 +1,20 @@
+[project]
+name = "jgafnea"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "jgafnea",email = "84107636+jgafnea@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+# packages = [{ include = "src" }]
+
+[tool.poetry.scripts]
+jgafnea = "jgafnea:main"
+
+[tool.poetry.dependencies]
+rich = "^13.7.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
