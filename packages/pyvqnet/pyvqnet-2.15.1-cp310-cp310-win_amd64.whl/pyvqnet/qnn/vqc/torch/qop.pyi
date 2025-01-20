@@ -1,0 +1,36 @@
+from ....dtype import C_DTYPE as C_DTYPE, D_DTYPE as D_DTYPE, kcomplex64 as kcomplex64
+from ....nn.parameter import Parameter as Parameter
+from ....nn.torch import TorchModule as TorchModule
+from ....tensor import QTensor as QTensor, tensor as tensor
+from ....torch import float_to_complex_param as float_to_complex_param
+from ....torch.utils import get_vqnet_device as get_vqnet_device, get_vqnet_dtype as get_vqnet_dtype
+from ..qop import DiagonalOperation as NDiagonalOperation, Observable as NObservable, Operation as NOperation, Operator as NOperator, QMachine as NQMachine, QModule as NQModule, StateEncoder as NStateEncoder
+from .utils import complex_dtype_to_float_dtype as complex_dtype_to_float_dtype, float_dtype_to_complex_dtype as float_dtype_to_complex_dtype
+from _typeshed import Incomplete
+
+class QModule(TorchModule, NQModule):
+    def __init__(self, name: str = '') -> None: ...
+
+class Encoder(TorchModule):
+    def __init__(self) -> None: ...
+
+class StateEncoder(Encoder, NStateEncoder):
+    def __init__(self) -> None: ...
+    def forward(self, x, q_machine) -> None: ...
+
+class Operation(QModule, NOperation):
+    def __init__(self, has_params: bool = False, trainable: bool = False, init_params: Incomplete | None = None, wires: Incomplete | None = None, dtype=..., use_dagger: bool = False, **kwargs) -> None: ...
+    def reset_params(self, init_params: Incomplete | None = None) -> None: ...
+
+class Operator(Operation, NOperator):
+    def __init__(self, has_params: bool = False, trainable: bool = False, init_params: Incomplete | None = None, wires: Incomplete | None = None, dtype=..., use_dagger: bool = False, **kwargs) -> None: ...
+
+class Observable(Operator, NObservable):
+    def __init__(self, has_params: bool = False, trainable: bool = False, init_params: Incomplete | None = None, wires: Incomplete | None = None, dtype=..., use_dagger: bool = False) -> None: ...
+
+class DiagonalOperation(Operation, NDiagonalOperation):
+    def __init__(self, has_params: bool = False, trainable: bool = False, init_params: Incomplete | None = None, wires: Incomplete | None = None, dtype=..., use_dagger: bool = False) -> None: ...
+
+class QMachine(TorchModule, NQMachine):
+    def __init__(self, num_wires, dtype=..., grad_mode: str = '', save_ir: bool = False) -> None: ...
+    def add_params_infos(self, params) -> None: ...
