@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDISC cdiscRoot="ODM" dataReader="pyodm.core.xml.reader.data.xml_v2_data_reader.XMLV2DataReader">
+    <AbsoluteTimingConstraint modulePath="pyodm.model.cdisc.classv2.element.AbsoluteTimingConstraint"
+                              clazz="AbsoluteTimingConstraint"/>
+    <Address modulePath="pyodm.model.cdisc.classv2.element.Address" clazz="Address"/>
+    <AdminData modulePath="pyodm.model.cdisc.classv2.element.AdminData" clazz="AdminData"/>
+    <Alias modulePath="pyodm.model.cdisc.classv2.element.Alias" clazz="Alias"/>
+    <AnnotatedCRF modulePath="pyodm.model.cdisc.classv2.element.AnnotatedCRF" clazz="AnnotatedCRF"/>
+    <Annotation modulePath="pyodm.model.cdisc.classv2.element.Annotation" clazz="Annotation"/>
+    <Arm modulePath="pyodm.model.cdisc.classv2.element.Arm" clazz="Arm"/>
+    <Association modulePath="pyodm.model.cdisc.classv2.element.Association" clazz="Association"/>
+    <AuditRecord modulePath="pyodm.model.cdisc.classv2.element.AuditRecord" clazz="AuditRecord"/>
+    <Branching modulePath="pyodm.model.cdisc.classv2.element.Branching" clazz="Branching"/>
+    <CDISCNotes modulePath="pyodm.model.cdisc.classv2.element.CDISCNotes" clazz="CDISCNotes"/>
+    <CheckValue modulePath="pyodm.model.cdisc.classv2.element.CheckValue" clazz="CheckValue"/>
+    <City modulePath="pyodm.model.cdisc.classv2.element.City" clazz="City"/>
+    <Class modulePath="pyodm.model.cdisc.classv2.element.Class" clazz="Class"/>
+    <ClinicalData modulePath="pyodm.model.cdisc.classv2.element.ClinicalData" clazz="ClinicalData"/>
+    <Code modulePath="pyodm.model.cdisc.classv2.element.Code" clazz="Code"/>
+    <CodeList modulePath="pyodm.model.cdisc.classv2.element.CodeList" clazz="CodeList"/>
+    <CodeListItem modulePath="pyodm.model.cdisc.classv2.element.CodeListItem" clazz="CodeListItem"/>
+    <CodeListRef modulePath="pyodm.model.cdisc.classv2.element.CodeListRef" clazz="CodeListRef"/>
+    <Coding modulePath="pyodm.model.cdisc.classv2.element.Coding" clazz="Coding"/>
+    <Comment modulePath="pyodm.model.cdisc.classv2.element.Comment" clazz="Comment"/>
+    <CommentDef modulePath="pyodm.model.cdisc.classv2.element.CommentDef" clazz="CommentDef"/>
+    <ConditionDef modulePath="pyodm.model.cdisc.classv2.element.ConditionDef" clazz="ConditionDef"/>
+    <Country modulePath="pyodm.model.cdisc.classv2.element.Country" clazz="Country"/>
+    <CRFCompletionInstructions modulePath="pyodm.model.cdisc.classv2.element.CRFCompletionInstructions"
+                               clazz="CRFCompletionInstructions"/>
+    <Criterion modulePath="pyodm.model.cdisc.classv2.element.Criterion" clazz="Criterion"/>
+    <DateTimeStamp modulePath="pyodm.model.cdisc.classv2.element.DateTimeStamp" clazz="DateTimeStamp"/>
+    <Decode modulePath="pyodm.model.cdisc.classv2.element.Decode" clazz="Decode"/>
+    <DefaultTransition modulePath="pyodm.model.cdisc.classv2.element.DefaultTransition" clazz="DefaultTransition"/>
+    <Definition modulePath="pyodm.model.cdisc.classv2.element.Definition" clazz="Definition"/>
+    <Description modulePath="pyodm.model.cdisc.classv2.element.Description" clazz="Description"/>
+    <DocumentRef modulePath="pyodm.model.cdisc.classv2.element.DocumentRef" clazz="DocumentRef"/>
+    <DurationTimingConstraint modulePath="pyodm.model.cdisc.classv2.element.DurationTimingConstraint"
+                              clazz="DurationTimingConstraint"/>
+    <Epoch modulePath="pyodm.model.cdisc.classv2.element.Epoch" clazz="Epoch"/>
+    <ErrorMessage modulePath="pyodm.model.cdisc.classv2.element.ErrorMessage" clazz="ErrorMessage"/>
+    <ExclusionCriteria modulePath="pyodm.model.cdisc.classv2.element.ExclusionCriteria" clazz="ExclusionCriteria"/>
+    <ExternalCodeLib modulePath="pyodm.model.cdisc.classv2.element.ExternalCodeLib" clazz="ExternalCodeLib"/>
+    <FamilyName modulePath="pyodm.model.cdisc.classv2.element.FamilyName" clazz="FamilyName"/>
+    <Flag modulePath="pyodm.model.cdisc.classv2.element.Flag" clazz="Flag"/>
+    <FlagType modulePath="pyodm.model.cdisc.classv2.element.FlagType" clazz="FlagType"/>
+    <FlagValue modulePath="pyodm.model.cdisc.classv2.element.FlagValue" clazz="FlagValue"/>
+    <FormalExpression modulePath="pyodm.model.cdisc.classv2.element.FormalExpression" clazz="FormalExpression"/>
+    <FullName modulePath="pyodm.model.cdisc.classv2.element.FullName" clazz="FullName"/>
+    <GeoPosition modulePath="pyodm.model.cdisc.classv2.element.GeoPosition" clazz="GeoPosition"/>
+    <GivenName modulePath="pyodm.model.cdisc.classv2.element.GivenName" clazz="GivenName"/>
+    <HouseNumber modulePath="pyodm.model.cdisc.classv2.element.HouseNumber" clazz="HouseNumber"/>
+    <Image modulePath="pyodm.model.cdisc.classv2.element.Image" clazz="Image"/>
+    <ImplementationNotes modulePath="pyodm.model.cdisc.classv2.element.ImplementationNotes" clazz="ImplementationNotes"/>
+    <Include modulePath="pyodm.model.cdisc.classv2.element.Include" clazz="Include"/>
+    <InclusionCriteria modulePath="pyodm.model.cdisc.classv2.element.InclusionCriteria" clazz="InclusionCriteria"/>
+    <InclusionExclusionCriteria modulePath="pyodm.model.cdisc.classv2.element.InclusionExclusionCriteria"
+                                clazz="InclusionExclusionCriteria"/>
+    <IntercurrentEvent modulePath="pyodm.model.cdisc.classv2.element.IntercurrentEvent" clazz="IntercurrentEvent"/>
+    <InvestigatorRef modulePath="pyodm.model.cdisc.classv2.element.InvestigatorRef" clazz="InvestigatorRef"/>
+    <ItemData modulePath="pyodm.model.cdisc.classv2.element.ItemData" clazz="ItemData"/>
+    <ItemDef modulePath="pyodm.model.cdisc.classv2.element.ItemDef" clazz="ItemDef"/>
+    <ItemGroupData modulePath="pyodm.model.cdisc.classv2.element.ItemGroupData" clazz="ItemGroupData"/>
+    <ItemGroupDef modulePath="pyodm.model.cdisc.classv2.element.ItemGroupDef" clazz="ItemGroupDef"/>
+    <ItemGroupRef modulePath="pyodm.model.cdisc.classv2.element.ItemGroupRef" clazz="ItemGroupRef"/>
+    <ItemRef modulePath="pyodm.model.cdisc.classv2.element.ItemRef" clazz="ItemRef"/>
+    <KeySet modulePath="pyodm.model.cdisc.classv2.element.KeySet" clazz="KeySet"/>
+    <Leaf modulePath="pyodm.model.cdisc.classv2.element.Leaf" clazz="Leaf"/>
+    <LegalReason modulePath="pyodm.model.cdisc.classv2.element.LegalReason" clazz="LegalReason"/>
+    <Location modulePath="pyodm.model.cdisc.classv2.element.Location" clazz="Location"/>
+    <LocationRef modulePath="pyodm.model.cdisc.classv2.element.LocationRef" clazz="LocationRef"/>
+    <Meaning modulePath="pyodm.model.cdisc.classv2.element.Meaning" clazz="Meaning"/>
+    <MetaDataVersion modulePath="pyodm.model.cdisc.classv2.element.MetaDataVersion" clazz="MetaDataVersion"/>
+    <MetaDataVersionRef modulePath="pyodm.model.cdisc.classv2.element.MetaDataVersionRef" clazz="MetaDataVersionRef"/>
+    <MethodDef modulePath="pyodm.model.cdisc.classv2.element.MethodDef" clazz="MethodDef"/>
+    <MethodSignature modulePath="pyodm.model.cdisc.classv2.element.MethodSignature" clazz="MethodSignature"/>
+    <ODM modulePath="pyodm.model.cdisc.classv2.element.ODM" clazz="ODM"/>
+    <Organization modulePath="pyodm.model.cdisc.classv2.element.Organization" clazz="Organization"/>
+    <Origin modulePath="pyodm.model.cdisc.classv2.element.Origin" clazz="Origin"/>
+    <OtherText modulePath="pyodm.model.cdisc.classv2.element.OtherText" clazz="OtherText"/>
+    <Parameter modulePath="pyodm.model.cdisc.classv2.element.Parameter" clazz="Parameter"/>
+    <ParameterValue modulePath="pyodm.model.cdisc.classv2.element.ParameterValue" clazz="ParameterValue"/>
+    <PDFPageRef modulePath="pyodm.model.cdisc.classv2.element.PDFPageRef" clazz="PDFPageRef"/>
+    <PostalCode modulePath="pyodm.model.cdisc.classv2.element.PostalCode" clazz="PostalCode"/>
+    <Prefix modulePath="pyodm.model.cdisc.classv2.element.Prefix" clazz="Prefix"/>
+    <Prompt modulePath="pyodm.model.cdisc.classv2.element.Prompt" clazz="Prompt"/>
+    <Protocol modulePath="pyodm.model.cdisc.classv2.element.Protocol" clazz="Protocol"/>
+    <Query modulePath="pyodm.model.cdisc.classv2.element.Query" clazz="Query"/>
+    <Question modulePath="pyodm.model.cdisc.classv2.element.Question" clazz="Question"/>
+    <RangeCheck modulePath="pyodm.model.cdisc.classv2.element.RangeCheck" clazz="RangeCheck"/>
+    <ReasonForChange modulePath="pyodm.model.cdisc.classv2.element.ReasonForChange" clazz="ReasonForChange"/>
+    <ReferenceData modulePath="pyodm.model.cdisc.classv2.element.ReferenceData" clazz="ReferenceData"/>
+    <RelativeTimingConstraint modulePath="pyodm.model.cdisc.classv2.element.RelativeTimingConstraint"
+                              clazz="RelativeTimingConstraint"/>
+    <Resource modulePath="pyodm.model.cdisc.classv2.element.Resource" clazz="Resource"/>
+    <ReturnValue modulePath="pyodm.model.cdisc.classv2.element.ReturnValue" clazz="ReturnValue"/>
+    <Selection modulePath="pyodm.model.cdisc.classv2.element.Selection" clazz="Selection"/>
+    <Signature modulePath="pyodm.model.cdisc.classv2.element.Signature" clazz="Signature"/>
+    <SignatureDef modulePath="pyodm.model.cdisc.classv2.element.SignatureDef" clazz="SignatureDef"/>
+    <SignatureRef modulePath="pyodm.model.cdisc.classv2.element.SignatureRef" clazz="SignatureRef"/>
+    <SiteRef modulePath="pyodm.model.cdisc.classv2.element.SiteRef" clazz="SiteRef"/>
+    <SourceID modulePath="pyodm.model.cdisc.classv2.element.SourceID" clazz="SourceID"/>
+    <SourceItem modulePath="pyodm.model.cdisc.classv2.element.SourceItem" clazz="SourceItem"/>
+    <SourceItems modulePath="pyodm.model.cdisc.classv2.element.SourceItems" clazz="SourceItems"/>
+    <Standard modulePath="pyodm.model.cdisc.classv2.element.Standard" clazz="Standard"/>
+    <Standards modulePath="pyodm.model.cdisc.classv2.element.Standards" clazz="Standards"/>
+    <StateProv modulePath="pyodm.model.cdisc.classv2.element.StateProv" clazz="StateProv"/>
+    <StreetName modulePath="pyodm.model.cdisc.classv2.element.StreetName" clazz="StreetName"/>
+    <Study modulePath="pyodm.model.cdisc.classv2.element.Study" clazz="Study"/>
+    <StudyEndPoint modulePath="pyodm.model.cdisc.classv2.element.StudyEndPoint" clazz="StudyEndPoint"/>
+    <StudyEndPointRef modulePath="pyodm.model.cdisc.classv2.element.StudyEndPointRef" clazz="StudyEndPointRef"/>
+    <StudyEndPoints modulePath="pyodm.model.cdisc.classv2.element.StudyEndPoints" clazz="StudyEndPoints"/>
+    <StudyEstimand modulePath="pyodm.model.cdisc.classv2.element.StudyEstimand" clazz="StudyEstimand"/>
+    <StudyEstimands modulePath="pyodm.model.cdisc.classv2.element.StudyEstimands" clazz="StudyEstimands"/>
+    <StudyEventData modulePath="pyodm.model.cdisc.classv2.element.StudyEventData" clazz="StudyEventData"/>
+    <StudyEventDef modulePath="pyodm.model.cdisc.classv2.element.StudyEventDef" clazz="StudyEventDef"/>
+    <StudyEventGroupDef modulePath="pyodm.model.cdisc.classv2.element.StudyEventGroupDef" clazz="StudyEventGroupDef"/>
+    <StudyEventGroupRef modulePath="pyodm.model.cdisc.classv2.element.StudyEventGroupRef" clazz="StudyEventGroupRef"/>
+    <StudyEventRef modulePath="pyodm.model.cdisc.classv2.element.StudyEventRef" clazz="StudyEventRef"/>
+    <StudyIndication modulePath="pyodm.model.cdisc.classv2.element.StudyIndication" clazz="StudyIndication"/>
+    <StudyIndications modulePath="pyodm.model.cdisc.classv2.element.StudyIndications" clazz="StudyIndications"/>
+    <StudyIntervention modulePath="pyodm.model.cdisc.classv2.element.StudyIntervention" clazz="StudyIntervention"/>
+    <StudyInterventionRef modulePath="pyodm.model.cdisc.classv2.element.StudyInterventionRef" clazz="StudyInterventionRef"/>
+    <StudyInterventions modulePath="pyodm.model.cdisc.classv2.element.StudyInterventions" clazz="StudyInterventions"/>
+    <StudyObjective modulePath="pyodm.model.cdisc.classv2.element.StudyObjective" clazz="StudyObjective"/>
+    <StudyObjectives modulePath="pyodm.model.cdisc.classv2.element.StudyObjectives" clazz="StudyObjectives"/>
+    <StudyParameter modulePath="pyodm.model.cdisc.classv2.element.StudyParameter" clazz="StudyParameter"/>
+    <StudyStructure modulePath="pyodm.model.cdisc.classv2.element.StudyStructure" clazz="StudyStructure"/>
+    <StudySummary modulePath="pyodm.model.cdisc.classv2.element.StudySummary" clazz="StudySummary"/>
+    <StudyTargetPopulation modulePath="pyodm.model.cdisc.classv2.element.StudyTargetPopulation" clazz="StudyTargetPopulation"/>
+    <StudyTargetPopulationRef modulePath="pyodm.model.cdisc.classv2.element.StudyTargetPopulationRef"
+                              clazz="StudyTargetPopulationRef"/>
+    <StudyTiming modulePath="pyodm.model.cdisc.classv2.element.StudyTiming" clazz="StudyTiming"/>
+    <StudyTimings modulePath="pyodm.model.cdisc.classv2.element.StudyTimings" clazz="StudyTimings"/>
+    <SubClass modulePath="pyodm.model.cdisc.classv2.element.SubClass" clazz="SubClass"/>
+    <SubjectData modulePath="pyodm.model.cdisc.classv2.element.SubjectData" clazz="SubjectData"/>
+    <Suffix modulePath="pyodm.model.cdisc.classv2.element.Suffix" clazz="Suffix"/>
+    <SummaryMeasure modulePath="pyodm.model.cdisc.classv2.element.SummaryMeasure" clazz="SummaryMeasure"/>
+    <SupplementalDoc modulePath="pyodm.model.cdisc.classv2.element.SupplementalDoc" clazz="SupplementalDoc"/>
+    <TargetTransition modulePath="pyodm.model.cdisc.classv2.element.TargetTransition" clazz="TargetTransition"/>
+    <Telecom modulePath="pyodm.model.cdisc.classv2.element.Telecom" clazz="Telecom"/>
+    <Title modulePath="pyodm.model.cdisc.classv2.element.Title" clazz="Title"/>
+    <Transition modulePath="pyodm.model.cdisc.classv2.element.Transition" clazz="Transition"/>
+    <TransitionTimingConstraint modulePath="pyodm.model.cdisc.classv2.element.TransitionTimingConstraint"
+                                clazz="TransitionTimingConstraint"/>
+    <TranslatedText modulePath="pyodm.model.cdisc.classv2.element.TranslatedText" clazz="TranslatedText"/>
+    <TrialPhase modulePath="pyodm.model.cdisc.classv2.element.TrialPhase" clazz="TrialPhase"/>
+    <User modulePath="pyodm.model.cdisc.classv2.element.User" clazz="User"/>
+    <UserName modulePath="pyodm.model.cdisc.classv2.element.UserName" clazz="UserName"/>
+    <UserRef modulePath="pyodm.model.cdisc.classv2.element.UserRef" clazz="UserRef"/>
+    <Value modulePath="pyodm.model.cdisc.classv2.element.Value" clazz="Value"/>
+    <ValueListDef modulePath="pyodm.model.cdisc.classv2.element.ValueListDef" clazz="ValueListDef"/>
+    <ValueListRef modulePath="pyodm.model.cdisc.classv2.element.ValueListRef" clazz="ValueListRef"/>
+    <WhereClauseDef modulePath="pyodm.model.cdisc.classv2.element.WhereClauseDef" clazz="WhereClauseDef"/>
+    <WhereClauseRef modulePath="pyodm.model.cdisc.classv2.element.WhereClauseRef" clazz="WhereClauseRef"/>
+    <WorkflowDef modulePath="pyodm.model.cdisc.classv2.element.WorkflowDef" clazz="WorkflowDef"/>
+    <WorkflowEnd modulePath="pyodm.model.cdisc.classv2.element.WorkflowEnd" clazz="WorkflowEnd"/>
+    <WorkflowRef modulePath="pyodm.model.cdisc.classv2.element.WorkflowRef" clazz="WorkflowRef"/>
+    <WorkflowStart modulePath="pyodm.model.cdisc.classv2.element.WorkflowStart" clazz="WorkflowStart"/>
+</CDISC>
