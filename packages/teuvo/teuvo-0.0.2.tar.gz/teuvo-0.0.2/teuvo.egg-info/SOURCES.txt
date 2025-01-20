@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+teuvo/__init__.py
+teuvo/_modidx.py
+teuvo/core.py
+teuvo.egg-info/PKG-INFO
+teuvo.egg-info/SOURCES.txt
+teuvo.egg-info/dependency_links.txt
+teuvo.egg-info/entry_points.txt
+teuvo.egg-info/not-zip-safe
+teuvo.egg-info/requires.txt
+teuvo.egg-info/top_level.txt
