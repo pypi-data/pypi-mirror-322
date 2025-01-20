@@ -1,0 +1,11 @@
+scmidas/__init__.py,sha256=HouwjMMtvmgzW0nwC0nGIH0IznFBgHGIRT8FtrwQBqk,124
+scmidas/config.py,sha256=Rvk7MJOez5eddUJ8nWjSLOs0rRkpzFWYL-eXPlfJobM,4027
+scmidas/data.py,sha256=jxCxbZkl5lVCFJPEvbgJ9kut_3MBrvBu7kBNmAE04lY,18762
+scmidas/model.py,sha256=t-0WnyoLc7L8JOFCn8-9MdavwNUsQC7zDYCDQUD7x7E,66345
+scmidas/nn.py,sha256=BqgLsTFLaLpJq2K42e6qfF0WqdYjpIvN9pfJJ9_U950,17876
+scmidas/utils.py,sha256=XI2qGiz9qu6DUBK5klsJ7VnCOjlGPOGJYd3VJBt4DF8,19367
+scmidas-0.1.6.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+scmidas-0.1.6.dist-info/METADATA,sha256=76LKXqXK7SMRf3aAEWKDle-vA201nmYXbbP3u8oLREg,3010
+scmidas-0.1.6.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+scmidas-0.1.6.dist-info/top_level.txt,sha256=FzTzTkcE3UuxehD9XN_3HwmExJ1CyGt-a8XGwiJT7zo,8
+scmidas-0.1.6.dist-info/RECORD,,
