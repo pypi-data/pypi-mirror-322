@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: commons-lang-util
+Version: 0.1.1
+Summary: A utility package for OS operations
+Home-page: https://github.com/gaojiabao1991/ops_util
+Author: JiaBao Gao
+Author-email: gaojiabao1991@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# common_util
+
+A utility package for common operations.
+
+## Installation
+```
+pip install common_util
+```
+
+## sub modules
+
+- escape_util
+- file_util
+- http_util
+- json_util
+- list_util
+- os_util
+- string_util
+
+
+
+
