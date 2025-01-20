@@ -1,0 +1,2 @@
+[console_scripts]
+illyrian = illyrian.run:run
