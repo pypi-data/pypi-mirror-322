@@ -1,0 +1,9 @@
+csdfgen.cpython-39-darwin.so,sha256=3JKmI6R9jdmrOmrg3CojFe2jDSm2npwp95yEqbE4DSY,747664
+libcsdfgen.dylib,sha256=3JKmI6R9jdmrOmrg3CojFe2jDSm2npwp95yEqbE4DSY,747664
+sdfgen/__init__.py,sha256=_d7GGV8GhadIAEYP8uiJlez0yKtXnHMHdRkRzVMKS3c,143
+sdfgen/module.py,sha256=M82XY6ABNSavdzoZL96TXvvZYcmmeNEBLweDZejFiZ4,33035
+sdfgen/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdfgen-0.14.0.dist-info/METADATA,sha256=s3ZRMQh-FZEvqtR5GV9j4863_w8E6UmYCK430lh1dRs,6727
+sdfgen-0.14.0.dist-info/WHEEL,sha256=qunz9sw_Sj_qUmhefgl7DsymeMLSrLPGiTm3YSd2wdo,107
+sdfgen-0.14.0.dist-info/top_level.txt,sha256=M3gUW9vTMij10peQKgv1Qs0jZkdsk_PG0REFxuv6jNY,15
+sdfgen-0.14.0.dist-info/RECORD,,
