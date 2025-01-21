@@ -1,0 +1,3 @@
+[console_scripts]
+piconfig = pytrain.cli.piconfig:main
+pytrain = pytrain:main
