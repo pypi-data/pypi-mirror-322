@@ -1,0 +1,16 @@
+demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demo/demo1-verify-basics.py,sha256=M_-gOmymdzvNmrAIUZJZyIzNTqJ9WO-RI-NuGkHafKs,1761
+demo/demo2-verify-output-to-file.py,sha256=uCk0kTcJf7V-_xtn8DZuaNpsmjnpoA8axs8Jh3jdXcQ,1036
+demo/demo3-verify-filename.py,sha256=-5ns6HmQQ4DyFoZZic58mneo1zmIpE3KRw1cd1Vvb2g,1180
+demo/demo4-verify-to-gitignore.py,sha256=At2ATLXV_L-rdk8shA-2RHYdSqpx5HE46u2lqWKhuI4,1172
+demo/demo5-add-new-detected-words.py,sha256=n13nOzmTgE5ReGuAqgUzHHXjJepY1uagHkoXV0nmzTw,2011
+src/__init__.py,sha256=WAcQOaK0vy3VpiX7aIPzpIuCtwoE_5nGujbyItlwhiI,101
+src/dev_sec.py,sha256=OsotugAWutsvZm-gkOosaJSCOzC5pGIcFRulbXmcLL0,9343
+src/sec_names.py,sha256=YW8FgGvB-j30dsuBKoDi67b1U-KCoP3uTduNc3YWxvA,5912
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main_functions.py,sha256=iijdCiI0OVK4JpCCVSOR3MX1Q-3EFNnK1Vk8t_Ivm3w,2880
+tests/test_sec_names.py,sha256=WU8H3mDKKLmBh6_YqPOYscOQVcQKCfdySs64Dmfg53s,650
+ndevsecuritychecker-0.1.0.dist-info/METADATA,sha256=UeiE8ej_uoAmdsdTq8f8FQAcnxcuJGvkx2BP1wBPcU0,6598
+ndevsecuritychecker-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ndevsecuritychecker-0.1.0.dist-info/top_level.txt,sha256=rfzSqCpbuWxKB3lutWp2RPXGMcupBrJIYJXV4gZfbWs,15
+ndevsecuritychecker-0.1.0.dist-info/RECORD,,
