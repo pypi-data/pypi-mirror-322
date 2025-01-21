@@ -1,0 +1,2 @@
+[console_scripts]
+quickdrop = quickdrop.cli:cli
