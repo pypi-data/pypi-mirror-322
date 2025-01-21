@@ -1,0 +1,15 @@
+helisol/__init__.py,sha256=qxBDyBv-12HwqR1WptlG81Fid30mb9cIDiYFtU3qoWE,1454
+helisol/__main__.py,sha256=4WJhakA7x02W3YzG7k3h4kC29LWckwMPI35IFgqEXTI,1294
+helisol/config.py,sha256=hGDaGxhOVnF90laTqiuJCUJTGeHTTTIc95uWJrQRP_k,924
+helisol/earth.py,sha256=PrA0tMeBaa3ng4Y3NXCj5OzBZxwp6clHyBsT8MxK_VM,9102
+helisol/general.py,sha256=BDXUBENSSrUKOAkxQRbp2WUmFzISJDsR7ZIXIgIbSuM,18131
+helisol/locations.py,sha256=gTds0LSbbXeey1dzxfu0W4GHlQ3V93qtx9uDyOvHrcY,4147
+helisol/sun.py,sha256=OO_WcJlh_aPiAPm6eX8KA8CL5HeWAxqFM4Iv8FNmOXw,14695
+helisol/tables.py,sha256=iSvTuwdYnHWa3wMylWOKETUfRWxAKE77juCX66Wr9mA,6734
+locations/global.json,sha256=s05-l2o0-OA4FiPRfHzjz2tUuwK00CQ6_xRAdR8pQNQ,458
+tests/test_helisol.py,sha256=B8M32dWsGx-xdK32yiPFQmbu6pBmtzcbPcOvm0OOQ9c,7360
+helisol-0.5.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+helisol-0.5.2.dist-info/METADATA,sha256=BpY_8HFVBlsAVPolUV8nQ3v8Vk-VBaN5bpRv1YMn9ho,9340
+helisol-0.5.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+helisol-0.5.2.dist-info/top_level.txt,sha256=ADvS-_y2WcvZMWLZzrwB_a0RzrutxdIyYWC3n3mhOg4,24
+helisol-0.5.2.dist-info/RECORD,,
