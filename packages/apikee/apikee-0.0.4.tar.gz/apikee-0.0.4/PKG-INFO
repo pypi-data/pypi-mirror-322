@@ -1,0 +1,187 @@
+Metadata-Version: 2.1
+Name: apikee
+Version: 0.0.4
+Summary: ApiKee - A lightweight API key validation library for FastAPI
+Home-page: https://github.com/apikee-dev/apikee-python
+Author: usmhic
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Apikee Python SDK
+
+## Table of Contents
+
+1. [Introduction](#introduction)  
+2. [Features](#features)  
+3. [Installation](#installation)  
+4. [Configuration](#configuration)  
+5. [Usage](#usage)  
+6. [Error Handling](#error-handling)  
+7. [Contributing](#contributing)  
+8. [License](#license)  
+
+---
+
+## Introduction
+
+`apikee` is a Python package that provides a simple API key creation and validation solution. It supports **local validation** of API keys.
+
+- **Local Validation:** Verifies the API key against a pre-configured value.
+
+This package provides an easy-to-use API for generating and validating API keys in Python applications, suitable for frameworks like **Flask**, **FastAPI**, and **Django**.
+
+---
+
+## Features
+
+- Simple configuration and integration.  
+- Local API key validation.
+- Easy-to-use functions for API key creation and validation.
+- Extensible and open-source.
+
+---
+
+## Installation
+
+Install `apikee` using pip:
+
+```bash
+pip install apikee
+```
+
+---
+
+## Configuration
+
+To configure `apikee`, you can either use environment variables or set the configuration manually in your code.
+
+### Using Environment Variables:
+
+Set the following environment variables:
+- `APIKEE_SECRET`: Your master secret key for encryption (Required).
+- `APIKEE_HOST`: The host for your API (Optional).
+- `APIKEE_TOKEN`: API token (Optional).
+- `APIKEE_PROJECT`: The project identifier (Optional).
+
+You can set these variables in a `.env` file or export them directly in your shell.
+
+Example `.env` file:
+
+```env
+APIKEE_SECRET=your-secret-key
+APIKEE_HOST=your-api-host
+APIKEE_TOKEN=your-api-token
+APIKEE_PROJECT=your-project-id
+```
+
+### Manually Setting Configuration:
+
+If you prefer, you can configure the settings directly in your code:
+
+```python
+from apikee.config import Config
+
+# Set configuration manually
+Config.SECRET = 'your-secret-key'  # Required for local validation
+Config.HOST = 'your-api-host'      # Optional
+Config.TOKEN = 'your-api-token'    # Optional
+Config.PROJECT = 'your-project-id' # Optional
+```
+
+---
+
+## Usage
+
+### 1. Generate an API Key
+
+Generate an API key using the `generate_api_key` function. The function takes a **name** for the key and returns the **API key** and **key ID**.
+
+```python
+from apikee.middleware import generate_api_key
+
+# Generate a local API key
+response = generate_api_key("myKeyName")
+print(response["apiKey"])  # The generated API Key
+print(response["keyId"])   # The encrypted Key ID for validation
+```
+
+### 2. Validate an API Key
+
+Validate an API key using the `validate_api_key` function. The function supports local validation by comparing the provided API key with the stored key.
+
+```python
+from apikee.middleware import validate_api_key
+
+# Validate the API key locally
+is_valid = validate_api_key("your-api-key", keyId="your-key-id")
+
+if is_valid:
+    print("API Key is valid!")
+else:
+    print("Invalid API Key!")
+```
+
+For **managed keys** associated with specific endpoints, use the endpoint ID:
+
+```python
+# Validate API key with endpoint ID (for future server-side validation)
+is_server_valid = validate_api_key("your-api-key", endpointId="your-endpoint-id")
+
+if is_server_valid:
+    print("API Key is valid!")
+else:
+    print("Invalid API Key!")
+```
+
+### Example Usage
+
+```python
+from apikee.middleware import generate_api_key, validate_api_key
+
+# Set up your configuration (either manually or via environment variables)
+# For manual configuration:
+from apikee.config import Config
+Config.SECRET = 'your-secret-key'
+
+# Generate an API key
+response = generate_api_key("myKeyName")
+api_key = response["apiKey"]
+key_id = response["keyId"]
+
+# Validate the generated API key
+is_valid = validate_api_key(api_key, keyId=key_id)
+print(is_valid)  # Should print `True` if the API key is valid
+
+# Server validation (future feature)
+is_server_valid = validate_api_key(api_key, endpointId="some-endpoint-id")
+print(is_server_valid)  # Dependent on server-side validation when implemented
+```
+
+---
+
+## Error Handling
+
+The package includes robust error handling. Errors are thrown for missing or invalid API keys and are returned with appropriate messages.
+
+| Error Type                  | Status Code | Message                                |
+|-----------------------------|-------------|----------------------------------------|
+| `ApiKeyMissingException`    | 401         | Missing API key. Please include it.    |
+| `ApiKeyInvalidException`    | 401         | Invalid API key. Access denied.        |
+
+---
+
+## Contributing
+
+Contributions are welcome! To contribute, please follow these steps:
+
+1. Fork the repository.  
+2. Create a new branch.  
+3. Make your changes and commit them.  
+4. Open a pull request.  
+
+---
+
+## License
+
+This project is licensed under the MIT License.
