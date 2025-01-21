@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: check_execution_time_of_program
+Version: 1.1.2
+Summary: A simple package to calculate the execution time of a program
+Author: white_hat25
+Author-email: devmarcel30@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.TXT
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: summary
+
+# Check Execution Time 
+
+You can check your execution time by putting the function <b>run_time()</b> to your script.
+
