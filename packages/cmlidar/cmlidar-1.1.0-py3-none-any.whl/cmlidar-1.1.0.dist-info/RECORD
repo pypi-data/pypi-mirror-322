@@ -1,0 +1,14 @@
+cmlidar/__init__.py,sha256=6ToPsZALcuWMmSHsrNRHtFY5SP_j4nL183UtD5OkNf8,135
+cmlidar/cm.py,sha256=ly1sdMavUaSN_b4iOtMo6R1IfFPCBzPqF8GNbGChWCA,3639
+cmlidar/rgb/backscatter-rgb.csv,sha256=pfQE5-m9TDRobvkWOyuc6AUO8GKaR_aS9EQKwi93a34,3584
+cmlidar/rgb/backscatter_continuous-rgb.csv,sha256=crQXE8gFxyLztggOWWmspzBfTV2NReIsOrdJUwEfuzA,3388
+cmlidar/rgb/backscatter_discrete-rgb.csv,sha256=RLEuYGpxIVB0h21GOx6e6kWrG7pUZ5CuKqkRjn0lqj4,252
+cmlidar/rgb/colorratio-rgb.csv,sha256=GIcnwAsJaX43QxzhjJ83Kcr_qvzPLM_K3PpvLS6Bbus,3584
+cmlidar/rgb/colorratio_discrete-rgb.csv,sha256=-jS-ymsneTvZB-h72zt6BK_eH6oQqvnjL4lO2iZbxGo,126
+cmlidar/rgb/depolarization-rgb.csv,sha256=nihAoPz0Q3opidtWUcUtfdJUPDasWMh-suQZQy4OP-Q,3583
+cmlidar/rgb/depolarization_discrete-rgb.csv,sha256=1V6mwGopcItJ1MLWIKgQ1MqGJR5cb98H_B93wltoUPo,112
+cmlidar-1.1.0.dist-info/LICENSE.txt,sha256=kfu22XvB3nmTPSjjC2A8pYrLmTy3UcJLuxow8f44sFM,1084
+cmlidar-1.1.0.dist-info/METADATA,sha256=Vzck-1S4DpRarKOIxlfkMoYPBrYKRMXzhVpDqf3viv8,147
+cmlidar-1.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+cmlidar-1.1.0.dist-info/top_level.txt,sha256=-0hM9W3cCnZ1xP0TWS2FVJV2fJo7N4v4rA9qeOXIjTk,8
+cmlidar-1.1.0.dist-info/RECORD,,
