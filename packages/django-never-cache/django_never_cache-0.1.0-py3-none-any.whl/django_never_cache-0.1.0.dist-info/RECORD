@@ -1,0 +1,9 @@
+django_never_cache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_never_cache/apps.py,sha256=WaqLF1Rt6dVu-7d90XuypKFXBiF9v181T3KgLy0CdZA,109
+django_never_cache/decorators.py,sha256=SOVhOwkxSP5qBY7HhbYA1TupReb2S5-T47tmW0-o5uc,1369
+django_never_cache/middelwares.py,sha256=7TV4d1d_1MdnkYuo2B-1dtTWnF36zbzH07r_4_EkVzk,371
+django_never_cache/mixins.py,sha256=Xf8tm1Tm-DzywK0JdXAoK40XN4s4pUyIv-yK39Jlr-U,548
+django_never_cache-0.1.0.dist-info/METADATA,sha256=fH7se4A5JDiCLYKCOE2Ys-97qancQxbjG-XNd61lJHM,4694
+django_never_cache-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+django_never_cache-0.1.0.dist-info/licenses/LICENSE,sha256=PPBXyPJ1MKiE8e1iRn_pY22VmFPQ5kP6BEqCJksMwm8,1070
+django_never_cache-0.1.0.dist-info/RECORD,,
