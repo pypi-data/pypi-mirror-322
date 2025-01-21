@@ -1,0 +1,21 @@
+[project]
+name = "lossy-image"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Illia Kalchenko", email = "kalchenko.illia@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pillow>=11.0.0",
+    "piq>=0.8.0",
+    "scikit-image>=0.25.0",
+]
+
+[project.scripts]
+lossy-image = "lossy_image:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
