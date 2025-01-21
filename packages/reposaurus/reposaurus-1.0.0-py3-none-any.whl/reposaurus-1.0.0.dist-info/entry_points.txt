@@ -1,0 +1,2 @@
+[console_scripts]
+reposaurus = reposaurus.cli.main:main
