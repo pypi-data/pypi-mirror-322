@@ -1,0 +1,3 @@
+[console_scripts]
+itop_cli=itop_cli.cli:main_itop
+
