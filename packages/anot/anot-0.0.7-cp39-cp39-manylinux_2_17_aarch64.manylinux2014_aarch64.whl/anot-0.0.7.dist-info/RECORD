@@ -1,0 +1,9 @@
+anot-0.0.7.dist-info/METADATA,sha256=dsVu7KdowkaxGpsaqAIv3xGN8DvXecDlab-M_X-nZzE,1961
+anot-0.0.7.dist-info/WHEEL,sha256=pTHryuTVCCidsL1x_m3-eX6q9gAE-k5DmuxFupC_huY,129
+anot-0.0.7.dist-info/entry_points.txt,sha256=mPWtQta64rfTTLVR2QTtFW5wrpI7NiIGXVM5iRRBfN4,42
+anot-0.0.7.dist-info/licenses/LICENSE,sha256=4D2nzrtS-eVgo2u4a_1FtAW5ZR03wSoCRRjDLhs45_w,1067
+anot/__init__.py,sha256=x8GiUNmA2g-xjluvl8dixs0h8LdajMDJ72D7eGYQuJs,330
+anot/_anot.pyi,sha256=RdumOMDOd5LPiKQrJi2cnESWvL5J1UjDOCSQuEgBMXo,1085
+anot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anot/_anot.cpython-39-aarch64-linux-gnu.so,sha256=CETComGbqG4SiLNCO7RYs16UlSjn5vciMThpml7Eav8,6397928
+anot-0.0.7.dist-info/RECORD,,
