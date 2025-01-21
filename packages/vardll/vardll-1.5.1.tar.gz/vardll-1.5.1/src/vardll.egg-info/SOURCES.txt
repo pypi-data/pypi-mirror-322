@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/vardll/__init__.py
+src/vardll/dllvariable.py
+src/vardll/loader.py
+src/vardll.egg-info/PKG-INFO
+src/vardll.egg-info/SOURCES.txt
+src/vardll.egg-info/dependency_links.txt
+src/vardll.egg-info/top_level.txt
