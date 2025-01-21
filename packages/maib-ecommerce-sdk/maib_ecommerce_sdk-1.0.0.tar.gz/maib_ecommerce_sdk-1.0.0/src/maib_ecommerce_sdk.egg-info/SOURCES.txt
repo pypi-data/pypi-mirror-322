@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/maib_ecommerce_sdk/__init__.py
+src/maib_ecommerce_sdk/maibapi.py
+src/maib_ecommerce_sdk/maibauth.py
+src/maib_ecommerce_sdk/maibsdk.py
+src/maib_ecommerce_sdk.egg-info/PKG-INFO
+src/maib_ecommerce_sdk.egg-info/SOURCES.txt
+src/maib_ecommerce_sdk.egg-info/dependency_links.txt
+src/maib_ecommerce_sdk.egg-info/top_level.txt
