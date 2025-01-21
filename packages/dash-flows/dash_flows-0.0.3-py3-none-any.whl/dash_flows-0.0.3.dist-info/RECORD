@@ -1,0 +1,16 @@
+dash_flows/AnimatedCircleNode.py,sha256=F9NSiHSjuzaODlKl6h2mA4YhwYGIyYbm4qB1LblalGY,1166
+dash_flows/AnimatedNodeEdge.py,sha256=jdbSpvqy0wiBkB1Ge1QwJDp29S044CT4JvccWrG1gAE,2031
+dash_flows/DashFlows.py,sha256=pGvZfNld8LJETxMcChOXOjm8j5_b2foqBRBllYWW9Jw,3265
+dash_flows/DevTools.py,sha256=J3NNVBYmrWLctRrfe6Me2xZikW-9l-Wqj_jMTHjWlJ8,1547
+dash_flows/ResizableNode.py,sha256=jSRiWLEn6C-3oO_Q672jGyunKbHjYdGzss0F_gpQiZE,1236
+dash_flows/__init__.py,sha256=GLc6DyS1a8pWFYrEJVgw67K_XdbrZxMM42b3B7yW5CQ,2249
+dash_flows/_imports_.py,sha256=udLlifeXDfNTp2tQF34kIzmQQvq_p0UN5c6jf5xNL2U,320
+dash_flows/dash_flows.min.js,sha256=XSRSzT9bMKP5Eted9xEUMqBAwRp5wuYoNhtYpV7CcQ8,1623638
+dash_flows/dash_flows.min.js.map,sha256=g56cI_kpjGdu677tFjriuFDlzYWhHG_B4jPEjWa4_SM,4918115
+dash_flows/metadata.json,sha256=W-nlME2xc3yzsiFWrRepcer6WBD2TV3AJMfiz_QufD4,5402
+dash_flows/package-info.json,sha256=UMPWBBATf1oqoHPOFj7tkLNdytobnHAGDTH5VYaLbkg,2196
+dash_flows-0.0.3.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dash_flows-0.0.3.dist-info/METADATA,sha256=ncbiX0SPzY6Ujie6JD3B5QgPDyHpzE-eC7wBqTRch5s,3945
+dash_flows-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dash_flows-0.0.3.dist-info/top_level.txt,sha256=-9bIhbHd8_bgXvvKxyd0a4qUK8lArOX8fAgXOV5Jh5E,11
+dash_flows-0.0.3.dist-info/RECORD,,
