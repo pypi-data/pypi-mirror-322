@@ -1,0 +1,9 @@
+astropy
+numpy
+scipy
+
+[docs]
+sphinx-astropy
+
+[test]
+pytest-astropy

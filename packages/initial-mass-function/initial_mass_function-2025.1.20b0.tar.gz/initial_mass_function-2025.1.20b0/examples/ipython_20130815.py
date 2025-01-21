@@ -1,0 +1,115 @@
+
+########################################################
+# # Started Logging At: 2013-08-15 10:37:22
+########################################################
+from pylab import *;import numpy,scipy,matplotlib,pyfits;
+get_ipython().magic(u'run dendro.py')
+get_ipython().magic(u'run ~/agpy/agpy/survey_plot.py')
+reload(blackbody)
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+reload(blackbody)
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+reload(blackbody)
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+reload(blackbody)
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+wbb
+figure()
+plot(wbb
+)
+plot(fbb)
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+figure(8)
+plot(fgb)
+plot(wgb)
+clf()
+plot(wgb)
+plot(fgb)
+reload(blackbody)
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+import matplotlib as mpl
+get_ipython().magic(u'pinfo mpl.patches.Rectangle')
+get_ipython().magic(u'pinfo fill_between')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'pinfo annotate')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+reload(blackbody)
+reload(blackbody)
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+reload(blackbody)
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+wmax
+wmax
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+wgb[wmax]
+blackbody.modified_blackbody_wavelength(wav_cm,10,wavelength_units='cm')
+blackbody.modified_blackbody_wavelength(wav_cm,10,wavelength_units='cm').max()
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+wmax
+wgb[wmax]
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+fmax
+bgpsf.mean()
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'pwd ')
+get_ipython().system(u'ls -F ')
+get_ipython().system(u'open BolocamIRASGPA_*pdf')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+3e10/500
+3e10/500e9
+3e10/500e9 * 1e4
+3e10/600e9 * 1e4
+3e10/6000e9 * 1e4
+3e10/5000e9 * 1e4
+3e10/4000e9 * 1e4
+3e10/4500e9 * 1e4
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().system(u'open BolocamIRASGPA_*pdf')
+get_ipython().system(u'open BolocamIRASGPA_*pdf')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
+get_ipython().magic(u'run -i ~/agpy/agpy/survey_plot.py')
