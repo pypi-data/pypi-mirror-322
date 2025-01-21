@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/kraken_exchange/__init__.py
+src/kraken_exchange/kraken_exchange.py
+src/kraken_exchange.egg-info/PKG-INFO
+src/kraken_exchange.egg-info/SOURCES.txt
+src/kraken_exchange.egg-info/dependency_links.txt
+src/kraken_exchange.egg-info/requires.txt
+src/kraken_exchange.egg-info/top_level.txt
+tests/test.py
