@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ColorfulEngine"
+version = "1.0.2"
+authors = [
+  { name="Albert Huang", email="albertoyucheng@gmail.com" },
+]
+description = "Beginner-friendly library for colored terminal outputs."
+readme = "README.md"
+requires-python = ">=3.0"
+dependencies = [
+    "colorama>=0.4.6"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Natural Language :: Chinese (Traditional)",
+    "Natural Language :: Chinese (Simplified)",
+    "Natural Language :: English",
+    "Natural Language :: Greek",
+    "Natural Language :: Japanese",
+    "Natural Language :: Russian",
+    "Natural Language :: Ukrainian",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Education",
+    "Topic :: Education :: Testing",
+    "Topic :: Software Development :: Testing",
+    "Topic :: System :: Console Fonts",
+    "Topic :: Terminals",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+[project.urls]
+Homepage = "https://github.com/Albair581/ColorfulEngine"
+Issues = "https://github.com/Albair581/ColorfulEngine/issues"
