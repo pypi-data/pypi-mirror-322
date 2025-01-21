@@ -1,0 +1,11 @@
+include i2dgraph/i2dgraph.min.js
+include i2dgraph/i2dgraph.min.js.map
+include i2dgraph/async-*.js
+include i2dgraph/async-*.js.map
+include i2dgraph/*-shared.js
+include i2dgraph/*-shared.js.map
+include i2dgraph/metadata.json
+include i2dgraph/package-info.json
+include README.md
+include LICENSE
+include package.json
