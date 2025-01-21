@@ -1,0 +1,12 @@
+audio_scribe/__init__.py,sha256=zctCLubb6rhGLrH6UECTi8Sif3S9kc0lAUbk_EiSg_c,544
+audio_scribe/auth.py,sha256=XR26nTvhof9yvkNgKESy5oWjZRS8mmGuZ-MJ7UysTHE,4355
+audio_scribe/config.py,sha256=lKiBamkPf7YEx04P6zQX9uJydRkids8h2kWmuxMJWYM,938
+audio_scribe/models.py,sha256=4N2MoLL9ZeU5ojp2JJq0tD54-yxNcgLp2-CAFwzg2w0,8423
+audio_scribe/transcriber.py,sha256=Du8V9q9YhXXFZjKyd-Brs-8mH2FQtpjxGWyzXAkuJnw,4064
+audio_scribe/utils.py,sha256=LYoTqFBwYMgYs0-BtE4Aq_271vWYhRyjhlKB26SzIOI,3386
+audio_scribe-0.1.5.dist-info/LICENSE,sha256=TiyEjWfqvme6M3rcTYz949_eYuikTXC6RWry7vcCiCQ,11343
+audio_scribe-0.1.5.dist-info/METADATA,sha256=TKRaavXN69-Ntx3Wn4VV9PSfEhzNJm0KXUdDs4pCri0,12296
+audio_scribe-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+audio_scribe-0.1.5.dist-info/entry_points.txt,sha256=Bj7Co8Er22Ux59Vs2_S63ds2bnwDURvhHYNXVviZdPM,63
+audio_scribe-0.1.5.dist-info/top_level.txt,sha256=L1mltKt-5HrbTXPpAXwht8SXQCgcCceoqpCq4OCZRsk,13
+audio_scribe-0.1.5.dist-info/RECORD,,
