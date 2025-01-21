@@ -1,0 +1,15 @@
+EASTR/junction_extractor,sha256=6bYaXbuciO0HlkpvWypjtKgIBIl43_NPmCurNOCXiIg,1595568
+EASTR/vacuum,sha256=NoCsRJ7N5QhGhQ7VtqxJhI049-o9BJdaGin52cXvZ5E,1428104
+EASTR/output_utils.py,sha256=O7OCzfEMRtN7XHK_ZmTKw3_ofxHrDqv3TyMccRuqfP4,12053
+EASTR/alignment_utils.py,sha256=68IbQkkMc-9jBZ-PdsMRyyYNGVfInx5xiqH8cYsnOD4,4387
+EASTR/__init__.py,sha256=KT8zwOT6ELpxKz9H8_Q5spQpRZFx6clDLn9zD6xfE1E,223
+EASTR/extract_junctions.py,sha256=sHOQ_zawuhfqlF9CvNpOXNC2B4IfJ4HISZqhMRAR0HE,5854
+EASTR/utils.py,sha256=liCBYWhnXCuNTLURCw6xoYGZAI32fHizj6c1GZsf3A0,687
+EASTR/get_spurious_introns.py,sha256=0JtmjzFZoaaMlu0K9rsFf5BiVKEsrPGyUF3HtQs7Zl0,8789
+EASTR/run_eastr.py,sha256=kjls74FwUTu6VCfHx5fGWkMidSJ1u80f-mejX4-If4Q,9705
+eastr-1.1.0.dist-info/RECORD,,
+eastr-1.1.0.dist-info/LICENSE,sha256=jTLRgDZJRQ65_zOT29g6H43kWHtHbztEqDw3UqQygbo,1073
+eastr-1.1.0.dist-info/WHEEL,sha256=zEwrEM3mH_qOUQ9uk3aZI5DMOaUao9_e1G94mKtHrTY,109
+eastr-1.1.0.dist-info/entry_points.txt,sha256=Ldg2R8_3CCl0MBftgemcl1eryLcot3etrr8_7PSXwvA,47
+eastr-1.1.0.dist-info/top_level.txt,sha256=GWhSSwQmPEbn29Ket1ZmM0pixblMhiH2tycXeXHEYX4,12
+eastr-1.1.0.dist-info/METADATA,sha256=8ztypl8H_vdF9UWN8rfz7hkaQtwwP3vtjsXWppHUR0U,8108
