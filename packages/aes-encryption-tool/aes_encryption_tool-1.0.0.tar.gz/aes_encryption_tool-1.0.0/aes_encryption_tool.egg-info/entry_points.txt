@@ -1,0 +1,2 @@
+[console_scripts]
+aes-tool = something:main
