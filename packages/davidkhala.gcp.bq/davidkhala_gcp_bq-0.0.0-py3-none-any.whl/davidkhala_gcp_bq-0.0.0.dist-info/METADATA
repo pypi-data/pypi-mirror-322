@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: davidkhala.gcp.bq
+Version: 0.0.0
+Summary: 
+Author: David Liu
+Author-email: david-khala@hotmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: migration
+Provides-Extra: stream
+Requires-Dist: davidkhala-gcp
+Requires-Dist: davidkhala-utils ; extra == "migration"
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: google-cloud-bigquery-migration ; extra == "migration"
+Requires-Dist: google-cloud-bigquery-storage[fastavro,pandas,pyarrow] ; extra == "stream"
+Description-Content-Type: text/markdown
+
+# BigQuery Python Client
+
+## pyproject.toml
+using extras pass through syntax https://github.com/davidkhala/python-utils/blob/main/poetry/pyproject.toml.md
+
+## extras `migrate`
+ref
+- https://cloud.google.com/bigquery/docs/reference/migration
+- https://github.com/googleapis/python-bigquery-migration/blob/HEAD/samples/snippets/create_migration_workflow.py
+
+
