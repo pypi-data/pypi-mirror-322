@@ -1,0 +1,8 @@
+gitlab_version_bumper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitlab_version_bumper/cli.py,sha256=qTjqifO4mpDVzNsPBkiw4_kvPzjjxL0ruZHUwTlL2uU,2559
+gitlab_version_bumper-0.2.0.dist-info/LICENSE,sha256=DbTfGkBpFzxBuAusSE0A3B6tLTvwn-BOVO1KcwtvptI,1089
+gitlab_version_bumper-0.2.0.dist-info/METADATA,sha256=Te6JpUHvhlcV-NeYsWZNvqtOQctiqxXPhBXhBaYtBIk,1469
+gitlab_version_bumper-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+gitlab_version_bumper-0.2.0.dist-info/entry_points.txt,sha256=2wx45E19pFzSXJQvbtJSBhSov_q0mx3kP3VgsRChZ_0,73
+gitlab_version_bumper-0.2.0.dist-info/top_level.txt,sha256=n4vDcMntw3xTFwGAsIuGtFa6piAe24WMZ1IBN88FuD8,22
+gitlab_version_bumper-0.2.0.dist-info/RECORD,,

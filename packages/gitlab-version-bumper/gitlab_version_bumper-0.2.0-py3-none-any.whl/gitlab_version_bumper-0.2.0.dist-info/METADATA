@@ -1,0 +1,56 @@
+Metadata-Version: 2.2
+Name: gitlab-version-bumper
+Version: 0.2.0
+Summary: Python CLI tool to determine current version in GitLab pipelines.
+Author-email: Elias Rosch <eliasrosch@googlemail.com>
+License: MIT
+Project-URL: Homepage, https://gitlab.com/EvilEli/gitlab-version-bumper
+Project-URL: Documentation, https://gitlab.com/EvilEli/gitlab-version-bumper
+Project-URL: Repository, https://gitlab.com/EvilEli/gitlab-version-bumper.git
+Project-URL: Changelog, https://gitlab.com/EvilEli/gitlab-version-bumper
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: semver
+Requires-Dist: click
+
+# gitlab-version-bumper
+`gitlab-version-bumper` is a CLI python tool which parses GitLab environment variables and previous git tags, determines and prints the current semver version.
+
+## Installation
+### Release
+The latest release is available in the public PyPi repo. 
+Install via pip:
+```
+pip install gitlab-version-bumper
+```
+
+### From git repo
+You can also install directly from the git repo.
+
+1. Clone the repository
+
+```
+git clone <git-url> <destination>
+```
+
+2. Change into the clone directory
+```
+cd <destination>
+```
+
+3. Install via pip
+```
+pip install .
+```
+
+## Usage
+```
+usage: gitlab-version-bumper [-h]
+
+options:
+  -h, --help            show this help message and exit
+```
