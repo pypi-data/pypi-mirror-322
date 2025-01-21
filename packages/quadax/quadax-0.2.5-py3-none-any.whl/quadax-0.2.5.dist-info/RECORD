@@ -1,0 +1,15 @@
+quadax/__init__.py,sha256=G6XR-k64ymYtYSE_eaDFab37B8eYIEBFygXaZ-YuXGs,525
+quadax/_version.py,sha256=n6KzOpFFrEqki33kS4EpgW7fJfqJGNI0YZSbi3ivAC8,497
+quadax/adaptive.py,sha256=uMsg3bLvfol7kAzfW_Rp8Gxhyv8GsmTrzvry0KVrZuY,22248
+quadax/fixed_order.py,sha256=ZGIGr5Zv6sbGK0tyWJ5nNOKm0P6GowuJX89KBpj_hlw,14571
+quadax/quad_weights.py,sha256=Ng_GKsdJuu7M-pGl5MWkPtAJ7BpQoOkfrHhOayFqB-c,36518
+quadax/romberg.py,sha256=iijlwZIjmG9fatRcrma-zxpeRIhbrMUyfGOP9j0ms48,8070
+quadax/sampled.py,sha256=ufSxPCTUuIhngv3DMfY9hD-ntvDkhy40eCeBD0aeF6M,18931
+quadax/utils.py,sha256=NFfwplskvULIVnuyhVL_DTbmis-I3BvXR8jenT7CPu0,9112
+quadax-0.2.5.data/data/*/requirements-dev.txt,sha256=f5QMec-IahYECs4OvocQWWqO2IXiwWKKNbsD7V6yoTk,556
+quadax-0.2.5.data/data/*/requirements.txt,sha256=l4H4ACI11gQsGwguQ2h45GLLxTODDgyu4YbHP9_KUcE,79
+quadax-0.2.5.dist-info/LICENSE,sha256=u8zG5rmka2aMfxf-_6XAJ6_XDH9MvBQWTcIbFRL60sc,1111
+quadax-0.2.5.dist-info/METADATA,sha256=yrH9fVar8BB5hS5qCyNuRRcTMND_6vX9gyMTXjPhAX4,4274
+quadax-0.2.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+quadax-0.2.5.dist-info/top_level.txt,sha256=wQiys5pCa4rANRzhYOR8BuEfqQbWs-2320nNLrXymkE,7
+quadax-0.2.5.dist-info/RECORD,,
