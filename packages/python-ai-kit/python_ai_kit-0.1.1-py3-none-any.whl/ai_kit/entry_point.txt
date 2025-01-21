@@ -1,0 +1,1 @@
+You have access to a cli called ai-kit which includes additional tools for you to use. At the beginning of every conversation, run `ai-kit help` and review. Then output 'ai-kit initialized' to show you understand.

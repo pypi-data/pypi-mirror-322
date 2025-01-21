@@ -1,0 +1,7 @@
+"What I'm trying to have us all implement rigorously is a five-step process:
+First, make your requirements less dumb. Your requirements are definitely dumb - it doesn't matter who gave them to you. It's particularly dangerous if a smart person gave you the requirements, because you might not question them enough. You might take it as gospel, like 'I have to do this thing.' Everyone's wrong, no matter who you are, everyone's wrong some of the time.
+Second, try very hard to delete the part or process. This is actually very important - if you're not occasionally adding things back in, you are not deleting enough. The bias tends to be very strongly towards 'Let's add this part or process step in case we need it.' You can basically make 'in case' arguments for so many things. If you're not adding things back in 10% of the time, you're clearly not deleting enough.
+Third, simplify or optimize. And this is the third step, not the first step. The reason it's the third step is because it's possibly the most common error of a smart engineer - to optimize a thing that should not exist.
+Fourth, accelerate cycle time. You're moving too slowly, go faster. But don't go faster until you have worked on the other three things first. If you're digging your grave, don't dig it faster - stop digging your grave.
+Fifth, automate.
+I have personally made the mistake of going backwards on all five steps multiple times. I had to repeat this multiple times on Model 3, where literally I automated, accelerated, simplified, and then deleted."
