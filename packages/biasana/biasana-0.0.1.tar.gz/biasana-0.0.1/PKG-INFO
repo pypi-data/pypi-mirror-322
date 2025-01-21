@@ -1,0 +1,24 @@
+Metadata-Version: 2.2
+Name: biasana
+Version: 0.0.1
+Summary: A package for analyzing bias in textual data.
+Home-page: https://github.com/MostHumble/biasana/
+Author-email: sifal klioui <sifalklioui@yahoo.com>
+License: Apache 2.0
+Project-URL: Homepage, https://github.com/MostHumble/biasana/
+Project-URL: Issues, https://github.com/MostHumble/biasana/issues
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: typing
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: spacy
+Dynamic: home-page
+
+# biasana
+A package that aims to provide bias anaylsis tools, for now the focus will be on the textual modality
