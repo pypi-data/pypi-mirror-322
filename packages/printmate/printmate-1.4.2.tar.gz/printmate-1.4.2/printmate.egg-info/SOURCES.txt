@@ -1,0 +1,9 @@
+README.md
+license
+pyproject.toml
+setup.cfg
+printmate.egg-info/PKG-INFO
+printmate.egg-info/SOURCES.txt
+printmate.egg-info/dependency_links.txt
+printmate.egg-info/requires.txt
+printmate.egg-info/top_level.txt
