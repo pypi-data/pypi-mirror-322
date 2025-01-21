@@ -1,0 +1,13 @@
+appdirs
+Click
+findimports
+requests
+semver
+toml
+update_checker
+
+[optional]
+pytest
+pytest-cov
+pytest-faulthandler
+pytest-random-order
