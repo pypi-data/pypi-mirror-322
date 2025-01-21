@@ -1,0 +1,2 @@
+[console_scripts]
+slidge = slidgram:main
