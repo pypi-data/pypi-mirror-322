@@ -1,0 +1,2 @@
+[console_scripts]
+condensing = condensing:is_homogeneous
