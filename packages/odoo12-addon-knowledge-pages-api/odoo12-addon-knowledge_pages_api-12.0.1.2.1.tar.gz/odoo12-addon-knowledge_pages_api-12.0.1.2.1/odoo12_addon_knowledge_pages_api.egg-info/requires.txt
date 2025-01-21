@@ -1,0 +1,8 @@
+odoo12-addon-api_common_base
+odoo12-addon-auth_api_key
+odoo12-addon-base_rest
+odoo12-addon-document_page
+odoo12-addon-document_page_tag
+odoo12-addon-knowledge
+odoo12-addon-knowledge_translatable_pages
+odoo<12.1dev,>=12.0a
