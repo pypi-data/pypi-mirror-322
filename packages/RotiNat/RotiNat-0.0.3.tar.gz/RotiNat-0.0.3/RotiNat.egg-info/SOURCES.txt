@@ -1,0 +1,10 @@
+License.txt
+README.md
+setup.py
+RotiNat/RotiNat.py
+RotiNat/__init__.py
+RotiNat.egg-info/PKG-INFO
+RotiNat.egg-info/SOURCES.txt
+RotiNat.egg-info/dependency_links.txt
+RotiNat.egg-info/requires.txt
+RotiNat.egg-info/top_level.txt
