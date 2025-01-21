@@ -1,0 +1,10 @@
+{
+    "services": {
+        "power_on": {
+            "name": "Power on"
+        },
+        "select_device": {
+            "description": "Select HDMI device."
+        }
+    }
+}

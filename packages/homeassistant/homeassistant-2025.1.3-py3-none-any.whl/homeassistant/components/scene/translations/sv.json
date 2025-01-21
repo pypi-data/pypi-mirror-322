@@ -1,0 +1,52 @@
+{
+    "exceptions": {
+        "entity_not_dynamically_created": {
+            "message": "Scenen {entity_id} \u00e4r inte skapad med tj\u00e4nsten `scene.create`."
+        }
+    },
+    "services": {
+        "apply": {
+            "description": "Aktiverar en scen med konfiguration.",
+            "fields": {
+                "entities": {
+                    "description": "Lista \u00f6ver entiteter och deras m\u00e5ltillst\u00e5nd.",
+                    "name": "Tillst\u00e5nd f\u00f6r entiteter"
+                },
+                "transition": {
+                    "description": "Den tid det tar f\u00f6r enheterna att \u00f6verg\u00e5 till de tillst\u00e5nd som definieras i scenen.",
+                    "name": "\u00d6verg\u00e5ngstid"
+                }
+            },
+            "name": "Till\u00e4mpa"
+        },
+        "create": {
+            "description": "Skapar en ny scen.",
+            "fields": {
+                "scene_id": {
+                    "description": "Den nya scenens entitets-ID.",
+                    "name": "Entitets-ID f\u00f6r scen"
+                }
+            },
+            "name": "Skapa"
+        },
+        "delete": {
+            "description": "Raderar en dynamiskt skapad scen.",
+            "name": "Radera"
+        },
+        "reload": {
+            "description": "Laddar om scener fr\u00e5n YAML-konfigurationen.",
+            "name": "Ladda om"
+        },
+        "turn_on": {
+            "description": "Aktivera en scen",
+            "fields": {
+                "transition": {
+                    "description": "Den tid det tar f\u00f6r enheterna att \u00f6verg\u00e5 till de tillst\u00e5nd som definieras i scenen.",
+                    "name": "\u00d6verg\u00e5ngstid"
+                }
+            },
+            "name": "Aktivera"
+        }
+    },
+    "title": "Scen"
+}
