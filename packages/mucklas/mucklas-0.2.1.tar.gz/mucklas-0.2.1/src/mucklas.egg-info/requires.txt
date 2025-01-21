@@ -1,0 +1,14 @@
+pydantic
+sphinx
+
+[:python_version < "3.11"]
+backports.strenum
+
+[dev]
+pre-commit
+tox
+
+[testing]
+setuptools
+pytest
+pytest-cov
