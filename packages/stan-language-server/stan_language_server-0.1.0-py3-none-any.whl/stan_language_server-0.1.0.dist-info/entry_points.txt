@@ -1,0 +1,3 @@
+[console_scripts]
+stan-language-server=stan_language_server.cli:cli
+
