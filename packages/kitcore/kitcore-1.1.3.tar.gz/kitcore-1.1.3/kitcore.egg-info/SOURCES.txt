@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+kitcore/__init__.py
+kitcore/decision_tree.py
+kitcore/knn.py
+kitcore/linear_regression.py
+kitcore/logistic_regression.py
+kitcore/multivariate_regression.py
+kitcore/randomforest.py
+kitcore.egg-info/PKG-INFO
+kitcore.egg-info/SOURCES.txt
+kitcore.egg-info/dependency_links.txt
+kitcore.egg-info/top_level.txt
