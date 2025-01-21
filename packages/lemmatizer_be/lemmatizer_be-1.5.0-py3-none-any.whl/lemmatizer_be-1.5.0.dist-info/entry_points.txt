@@ -1,0 +1,2 @@
+[console_scripts]
+lemmatizer_be_server = uvicorn lemmatizer_be.server.main:app

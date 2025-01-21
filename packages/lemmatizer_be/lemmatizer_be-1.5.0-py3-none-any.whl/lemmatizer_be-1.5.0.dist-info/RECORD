@@ -1,0 +1,13 @@
+lemmatizer_be/__about__.py,sha256=TJdX3kZk_MYc3dWRgST-ZjHyS_SdJ3N_VqRvVAVCkc4,23
+lemmatizer_be/__init__.py,sha256=TnPMY_7fsoOW3yWFmsxea_jesxPFXZx4dDOy5efMlLs,112
+lemmatizer_be/_utils.py,sha256=Lbga6O502RKNVUV81bJHCyYV8Hqi70KXTvVB1RZx8To,1111
+lemmatizer_be/generate.py,sha256=YhjqT7diA5Xm_K-gaEhg3Eqk5zWdYT_Enl9OwVpIosQ,3105
+lemmatizer_be/lemmatizer.py,sha256=Mgh17BiTBBdwe8gHZn7zDb4ttyeRoHHQ3HqkyhB4Ahw,3158
+lemmatizer_be/server/__init__.py,sha256=H9qO70gwLic6Q2K3cHlbDX9JqoCy0n7POo6OZsr7aqo,41
+lemmatizer_be/server/main.py,sha256=hGdoFPUgXik27_oimr8x9npSRvGIfQ3z_GmDzxRP7oU,721
+lemmatizer_be/server/wsgi.py,sha256=ebK2Yk7nVJxBqOFiJy-nJwwlqx0YS2yYTMUjjMXuilo,193
+lemmatizer_be-1.5.0.dist-info/METADATA,sha256=dgT68HNMf2TMRK8F4rY_6kI3AlBcUX1-eFZxPA2h_VY,2068
+lemmatizer_be-1.5.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+lemmatizer_be-1.5.0.dist-info/entry_points.txt,sha256=b1OaDDQXw6THb9DA4pFBeiEupZ10ggTbAz4bOAI9mTI,79
+lemmatizer_be-1.5.0.dist-info/licenses/LICENSE,sha256=y7HSi1FaOcKUlj1L_CQHfmaaSD_F67qbhKcnr9QYdCY,1067
+lemmatizer_be-1.5.0.dist-info/RECORD,,
