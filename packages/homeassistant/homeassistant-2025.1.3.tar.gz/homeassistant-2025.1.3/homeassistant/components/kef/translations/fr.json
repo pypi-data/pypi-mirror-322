@@ -1,0 +1,12 @@
+{
+    "services": {
+        "set_mode": {
+            "fields": {
+                "desk_mode": {
+                    "description": "Mode bureau.",
+                    "name": "Mode bureau"
+                }
+            }
+        }
+    }
+}
