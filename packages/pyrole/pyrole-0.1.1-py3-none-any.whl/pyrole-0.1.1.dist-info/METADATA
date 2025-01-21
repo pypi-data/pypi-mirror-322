@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: pyrole
+Version: 0.1.1
+Summary: 这个模块可以让你的代码变得更简单
+Home-page: https://stevena.rth10.com/pyrole
+Author: StevenA
+Author-email: stevena_star@qq.com
+Project-URL: Documentation, https://b23.tv/vHelxyv
+Project-URL: Bug Tracker, https://b23.tv/vHelxyv
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow >=8.4.0
+
+---
+
+# pyrole 模块
+
+## 简介
+
+`pyrole`模块是一个用于简化基于Python的游戏或动画创建的工具。它利用`tkinter`作为GUI框架，并结合`PIL`来处理图像，提供了一套易于使用的API来创建角色、背景、事件处理等功能。
+
+## 特性
+
+- **角色管理**：创建、移动、旋转角色。
+- **物理模拟**：简单的物理引擎，支持重力、弹性碰撞。
+- **事件处理**：支持键盘输入、鼠标点击等事件。
+- **图形界面**：利用`tkinter`创建图形界面。
+- **图像处理**：加载、缩放、旋转图像。
+
+## 导入模块
+
+推荐的导入方式如下：
+
+```python
+from pyrole import *
+```
+
+这将导入`pyrole`模块中的所有公共成员，使得代码更简洁。
+
+## 快速开始
+
+### 创建角色
+
+`pyrole`模块已经预设了一些天体的图像，例如地球、火星等。你可以直接使用这些预设的图像来创建角色。
+
+```python
+# 创建一个地球角色
+earth = Role(0, 0, 0, 500, im=[earth])
+
+# 创建一个G型恒星角色
+gstar_role = Role(0, 0, 0, 500, im=[gstar])
+```
+
+### 绑定事件
+
+```python
+def handle_event():
+    # 处理事件逻辑
+    pass
+
+earth.bind_event(handle_event, 'True')  # 当条件为真时触发handle_event
+```
+
+### 运行游戏循环
+
+```python
+play()  # 启动游戏主循环
+```
+
+## 示例代码
+
+下面是一个完整的示例，展示如何使用`pyrole`创建一个简单的动画。
+
+```python
+from pyrole import Role, play
+
+# 创建一个地球角色
+earth = Role(0, 0, 0, 500, im=[earth])
+
+def animate():
+    earth.rotate(1)
+    earth.move(1)
+
+earth.bind_event(animate, 'True')
+animate()
+play()
+```
+
+此示例创建了一个地球角色，并设置其在一个无限循环中旋转并移动。
+
+## 已定义的图像
+
+模块中已定义了多个天体和恒星的图像，可以直接用于创建角色：
+
+- **行星**：`mercury`, `venus`, `earth`, `mars`, `jupiter`, `saturn`, `uranus`, `neptune`
+- **恒星**：`ostar`, `bstar`, `astar`, `fstar`, `gstar`, `kstar`, `mstar`
+
+## 下载模块
+
+为了安装`pyrole`模块，请按照以下步骤操作：
+
+1. 访问网站 https://stevena.rth1.xyz/
+2. 点击 "pyrole" 按钮
+3. 点击 "pyrole下载"
+4. 下载完成后保存文件全路径
+5. 输入命令 `pip install 文件全路径`
+
+注意：由于目前无法从网站下载文件，建议确认网站是否正常工作或联系网站管理员获取正确的下载链接。
+
+---
+本次更新：
+修复了使用next_look和previous_look切换造型失败的bug。
+---
