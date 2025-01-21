@@ -1,0 +1,9 @@
+[statick_tool.plugins.discovery]
+markdown = statick_tool.plugins.discovery.markdown:MarkdownDiscoveryPlugin
+rst = statick_tool.plugins.discovery.rst:RstDiscoveryPlugin
+
+[statick_tool.plugins.tool]
+markdownlint = statick_tool.plugins.tool.markdownlint:MarkdownlintToolPlugin
+rstcheck = statick_tool.plugins.tool.rstcheck:RstcheckToolPlugin
+rstlint = statick_tool.plugins.tool.rstlint:RstlintToolPlugin
+writegood = statick_tool.plugins.tool.writegood:WriteGoodToolPlugin
