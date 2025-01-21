@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mt5proxy
+Version: 1.1.24
+Summary: Mt5 http proxy for python.
+Home-page: https://github.com/qicongsheng/mt5proxy
+Author: qicongsheng
+Author-email: qicongsheng@outlook.com
+License: MIT License
+Keywords: mt5proxy
+Platform: any
+License-File: LICENSE
+
+UNKNOWN
+
