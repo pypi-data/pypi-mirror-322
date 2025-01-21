@@ -1,0 +1,10 @@
+README.md
+setup.py
+compression_distance/__init__.py
+compression_distance/compression_distance.py
+compression_distance.egg-info/PKG-INFO
+compression_distance.egg-info/SOURCES.txt
+compression_distance.egg-info/dependency_links.txt
+compression_distance.egg-info/requires.txt
+compression_distance.egg-info/top_level.txt
+tests/test_compression_distance.py
