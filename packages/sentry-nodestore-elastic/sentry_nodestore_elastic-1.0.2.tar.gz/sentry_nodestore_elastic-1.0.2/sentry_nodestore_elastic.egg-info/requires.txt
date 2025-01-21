@@ -1,0 +1,2 @@
+sentry==25.*
+elasticsearch==8.*
