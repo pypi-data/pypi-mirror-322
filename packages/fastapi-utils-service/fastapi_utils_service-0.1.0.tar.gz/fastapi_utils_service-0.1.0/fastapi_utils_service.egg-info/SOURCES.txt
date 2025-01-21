@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+fastapi_utils_service.egg-info/PKG-INFO
+fastapi_utils_service.egg-info/SOURCES.txt
+fastapi_utils_service.egg-info/dependency_links.txt
+fastapi_utils_service.egg-info/requires.txt
+fastapi_utils_service.egg-info/top_level.txt
