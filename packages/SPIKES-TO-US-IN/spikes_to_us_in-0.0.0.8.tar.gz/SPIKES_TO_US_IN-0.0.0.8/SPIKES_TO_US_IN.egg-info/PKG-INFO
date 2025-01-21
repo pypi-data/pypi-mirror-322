@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: SPIKES-TO-US-IN
+Version: 0.0.0.8
+Summary: SKKU ISRI Pose Estimation
+Home-page: 
+Download-URL: 
+Author: sjhyeon1222
+Author-email: sjhyeon1222@gmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: numpy==1.23.0
+Requires-Dist: ipykernel==6.20.1
+Requires-Dist: open3d==0.16.0
+Requires-Dist: scipy==1.10.0
+Requires-Dist: torch==1.12.1
+Requires-Dist: torchaudio==0.12.1
+Requires-Dist: torchvision==0.13.1
+Requires-Dist: tqdm==4.64.1
+Requires-Dist: pytorch-lightning==1.1.7
+Requires-Dist: torch-optimizer==0.3.0
+Requires-Dist: pyod==1.1.3

@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with https://bit.ly/cffinit
+
+cff-version: 1.2.0
+title: AI-Vision3D
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: SUKHAN
+    family-names: LEE
+    affiliation: Sungkyunkwan University,Suwon 16419, South Korea
+    e-mail: 'lsh1@skku.edu'
+  - given-names: WENCAN 
+    family-names: CHENG
+    affiliation: Sungkyunkwan University,Suwon 16419, South Korea
+    e-mail: ''
+  - given-names: YONGJUN
+    family-names: YANG
+    affiliation: Sungkyunkwan University,Suwon 16419, South Korea
+    e-mail: 'yongjun823@skku.edu'
+repository-code: ''
+url: ''
+license: AGPL-3.0
+version: 0.0.0.8
+date-released: '2025-01-21'
+reference: 
+  Lee, S., Cheng, W., & Yang, Y. (2022). Bias-Induced Point Auto-Encoder and Comparative Analysis of Point Encoder-Decoder Combinations. IEEE Access, 10, 61617-61630.
+  Lee, S., Lee, S., & Yang, Y. (2024). Occlusion-Robust and Efficient 6D Pose Estimation with Scene-Level Segmentation Refinement and 3D Partial-to-6D Full Point Cloud Transformation. Proceedings Copyright, 763, 771.
+
