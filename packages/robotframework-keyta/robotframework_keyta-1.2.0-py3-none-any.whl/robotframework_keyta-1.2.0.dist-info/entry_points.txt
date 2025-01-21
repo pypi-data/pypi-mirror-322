@@ -1,0 +1,4 @@
+[console_scripts]
+keyta=keyta.app:keyta
+keyta-de=keyta.app:keyta_de
+
