@@ -1,0 +1,7 @@
+[statick_tool.plugins.discovery]
+dockerfile = statick_tool.plugins.discovery.dockerfile:DockerfileDiscoveryPlugin
+
+[statick_tool.plugins.tool]
+dockerfile-lint = statick_tool.plugins.tool.dockerfile_lint:DockerfileULintToolPlugin
+dockerfilelint = statick_tool.plugins.tool.dockerfilelint:DockerfileLintToolPlugin
+hadolint = statick_tool.plugins.tool.hadolint:HadolintToolPlugin
