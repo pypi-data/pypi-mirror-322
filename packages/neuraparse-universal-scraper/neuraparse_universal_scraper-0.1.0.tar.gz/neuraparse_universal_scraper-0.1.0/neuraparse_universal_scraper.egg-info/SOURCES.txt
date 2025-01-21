@@ -1,0 +1,12 @@
+README.md
+setup.py
+neuraparse/__init__.py
+neuraparse/universal_scraper/__init__.py
+neuraparse/universal_scraper/scraper.py
+neuraparse_universal_scraper.egg-info/PKG-INFO
+neuraparse_universal_scraper.egg-info/SOURCES.txt
+neuraparse_universal_scraper.egg-info/dependency_links.txt
+neuraparse_universal_scraper.egg-info/entry_points.txt
+neuraparse_universal_scraper.egg-info/namespace_packages.txt
+neuraparse_universal_scraper.egg-info/requires.txt
+neuraparse_universal_scraper.egg-info/top_level.txt
