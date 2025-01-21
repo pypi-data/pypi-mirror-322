@@ -1,0 +1,2 @@
+[console_scripts]
+image-downloader-ml = downloader.ImageDownloader:main
