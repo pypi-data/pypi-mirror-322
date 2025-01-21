@@ -1,0 +1,45 @@
+[project]
+name = "pyAdguard"
+description = "Python Wrapper for the Adguard Home API"
+dynamic = ["version"]
+authors = [
+  {name = "Lars Jelschen", email = "mail@lars-jelschen.de"},
+]
+maintainers = [
+  {name = "Lars Jelschen", email = "mail@lars-jelschen.de"}
+]
+dependencies = [
+  "python-dotenv",
+  "requests"
+]
+requires-python = ">= 3.8"
+readme = "README.md"
+license ={ file = "LICENSE.txt" }
+keywords = ["adguard home", "adguard", "api", "wrapper", "client"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+homepage = "https://github.com/ljelschen/pyadguard"
+repository = "https://github.com/ljelschen/pyadguard"
+documentation = "https://github.com/ljelschen/pyadguard"
+
+
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/pyadguard/_version.py"
+local_scheme = "no-local-version"
+"version_scheme" = "post-release"
+
+[tool.setuptools.package-dir]
+mypackage = "src/pyadguard"
