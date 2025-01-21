@@ -1,0 +1,10 @@
+README.txt
+setup.py
+condensing/__init__.py
+condensing/condensing.py
+condensing.egg-info/PKG-INFO
+condensing.egg-info/SOURCES.txt
+condensing.egg-info/dependency_links.txt
+condensing.egg-info/entry_points.txt
+condensing.egg-info/requires.txt
+condensing.egg-info/top_level.txt
