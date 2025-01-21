@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: starco-fastbot
+Version: 1.0.0
+Summary: Starco fast bots package
+Author-email: Mojtaba Tahmasbi <m.tahmasbi0111@yahoo.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: starco-utility
