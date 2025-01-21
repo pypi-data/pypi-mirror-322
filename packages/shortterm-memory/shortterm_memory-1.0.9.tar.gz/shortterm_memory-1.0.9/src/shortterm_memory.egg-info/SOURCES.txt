@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/shortterm_memory/ChatbotMemory.py
+src/shortterm_memory/__init__.py
+src/shortterm_memory.egg-info/PKG-INFO
+src/shortterm_memory.egg-info/SOURCES.txt
+src/shortterm_memory.egg-info/dependency_links.txt
+src/shortterm_memory.egg-info/requires.txt
+src/shortterm_memory.egg-info/top_level.txt
