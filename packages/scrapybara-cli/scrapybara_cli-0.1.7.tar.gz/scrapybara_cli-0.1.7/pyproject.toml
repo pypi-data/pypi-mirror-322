@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scrapybara-cli"
+version = "0.1.7"
+description = "CLI tool for controlling virtual machines with Claude"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+dependencies = [
+    "typer>=0.9.0",
+    "anthropic>=0.18.1",
+    "python-dotenv>=1.0.0",
+    "rich>=13.7.0",
+    "scrapybara>=0.1.0",
+]
+
+[project.scripts]
+scrapybara-cli = "scrapybara_cli.main:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["scrapybara_cli"]
+
+[build-system.sdist]
+include = [
+    "/scrapybara_cli",
+    "README.md",
+    "LICENSE",
+]
+
+[build-system.wheel]
+packages = ["scrapybara_cli"]
