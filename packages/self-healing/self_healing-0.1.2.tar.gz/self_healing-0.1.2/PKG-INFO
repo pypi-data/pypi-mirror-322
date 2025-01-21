@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: self_healing
+Version: 0.1.2
+Summary: The Self-Healing Library is a Python tool that dynamically runs and patches code to recover from runtime errors using installed data.
+Home-page: https://github.com/pythonAndCplusplus/self_healing
+Author: Arsam
+Author-email: ashouriarsamold@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: prompt_toolkit
+
+# Self-Healing Library
+
+The Self-Healing Library is a Python tool that dynamically runs and patches code to recover from runtime errors using installed data.
+
+## Features
+- Execute arbitrary Python code safely
+- Catch and analyze runtime errors
+- Automatically find solution for errors
+
+## Installation
+```bash
+pip install self_healing
+```
+
+## Usage
+```python
+from self_healing import check_code()
+
+sample_code = """
+def divide(a, b):
+    return a / b
+
+result = divide(10, 0)
+print(result)
+"""
+
+check_code(code=sample_code)
+```
+
+## Roadmap
+```
+- AI-powered code fixes
+- AST-based code patching
+- Interactive debugging prompts
+```
