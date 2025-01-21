@@ -1,0 +1,377 @@
+[project]
+name = "continuous-timeseries"
+version = "0.4.2"
+description = "Representation of continuous timeseries."
+authors = [
+    { name = "Zebedee Nicholls", email = "zebedee.nicholls@climate-energy-college.org" },
+]
+requires-python = ">=3.9"
+dependencies = [
+    "attrs>=22.1.0",
+    "numpy>=1.25.0",
+    "pint>=0.22.0",
+]
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Typing :: Typed",
+]
+
+[project.license]
+text = "3-Clause BSD License"
+
+[project.urls]
+Homepage = "https://continuous-timeseries.readthedocs.io"
+Documentation = "https://continuous-timeseries.readthedocs.io"
+Changelog = "https://continuous-timeseries.readthedocs.io/en/stable/changelog"
+Repository = "https://github.com/openscm/continuous-timeseries"
+Issues = "https://github.com/openscm/continuous-timeseries/issues"
+
+[project.optional-dependencies]
+pandas = [
+    "pandas>=2.0.0",
+]
+plots = [
+    "matplotlib>=3.7.1",
+]
+progress = [
+    "tqdm>=4.1.0",
+]
+scipy = [
+    "scipy>=1.11.1",
+]
+full = [
+    "continuous-timeseries[pandas]",
+    "continuous-timeseries[plots]",
+    "continuous-timeseries[progress]",
+    "continuous-timeseries[scipy]",
+]
+locked = [
+    "attrs==24.3.0",
+    "flexcache==0.3",
+    "flexparser==0.4",
+    "numpy==2.0.2 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "numpy==2.2.2 ; python_version >= \"3.10\"",
+    "pint==0.24.4",
+    "platformdirs==4.3.6",
+    "typing-extensions==4.12.2",
+]
+pandas-locked = [
+    "numpy==2.0.2 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "numpy==2.2.2 ; python_version >= \"3.10\"",
+    "pandas==2.2.3",
+    "python-dateutil==2.9.0.post0",
+    "pytz==2024.2",
+    "six==1.17.0",
+    "tzdata==2024.2",
+]
+plots-locked = [
+    "contourpy==1.3.0 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "contourpy==1.3.1 ; python_version >= \"3.10\"",
+    "cycler==0.12.1",
+    "fonttools==4.55.3",
+    "importlib-resources==6.5.2 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "kiwisolver==1.4.7 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "kiwisolver==1.4.8 ; python_version >= \"3.10\"",
+    "matplotlib==3.9.4 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "matplotlib==3.10.0 ; python_version >= \"3.10\"",
+    "numpy==2.0.2 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "numpy==2.2.2 ; python_version >= \"3.10\"",
+    "packaging==24.2",
+    "pillow==11.1.0",
+    "pyparsing==3.2.1",
+    "python-dateutil==2.9.0.post0",
+    "six==1.17.0",
+    "zipp==3.21.0 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+]
+progress-locked = [
+    "colorama==0.4.6",
+    "tqdm==4.67.1",
+]
+scipy-locked = [
+    "numpy==2.0.2 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "numpy==2.2.2 ; python_version >= \"3.10\"",
+    "scipy==1.13.1 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "scipy==1.15.1 ; python_version >= \"3.10\"",
+]
+full-locked = [
+    "colorama==0.4.6",
+    "contourpy==1.3.0 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "contourpy==1.3.1 ; python_version >= \"3.10\"",
+    "cycler==0.12.1",
+    "fonttools==4.55.3",
+    "importlib-resources==6.5.2 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "kiwisolver==1.4.7 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "kiwisolver==1.4.8 ; python_version >= \"3.10\"",
+    "matplotlib==3.9.4 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "matplotlib==3.10.0 ; python_version >= \"3.10\"",
+    "numpy==2.0.2 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "numpy==2.2.2 ; python_version >= \"3.10\"",
+    "packaging==24.2",
+    "pandas==2.2.3",
+    "pillow==11.1.0",
+    "pyparsing==3.2.1",
+    "python-dateutil==2.9.0.post0",
+    "pytz==2024.2",
+    "scipy==1.13.1 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+    "scipy==1.15.1 ; python_version >= \"3.10\"",
+    "six==1.17.0",
+    "tqdm==4.67.1",
+    "tzdata==2024.2",
+    "zipp==3.21.0 ; python_version < \"3.10\" and python_version >= \"3.9\"",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=8.18.1",
+    "liccheck==0.9.2",
+    "mypy==1.14.0",
+    "pandas-stubs>=2.2.2.240807",
+    "pip==24.3.1",
+    "pre-commit==4.0.1",
+    "scipy-stubs>=1.14.1.6 ; python_full_version >= '3.10'",
+    "setuptools==75.6.0",
+    "towncrier==24.8.0",
+]
+docs = [
+    "attrs==24.3.0",
+    "mkdocs-autorefs==1.2.0",
+    "mkdocs-gen-files==0.5.0",
+    "mkdocs-literate-nav==0.6.1",
+    "mkdocs-material==9.5.49",
+    "mkdocs-section-index==0.3.9",
+    "mkdocs==1.6.1",
+    "mkdocstrings-python-accessors>=0.1.1",
+    "mkdocstrings-python-xref==1.6.2",
+    "mkdocstrings-python==1.13.0",
+    "openscm-units>=0.6.3",
+    "pymdown-extensions==10.13",
+    "ruff==0.8.6",
+    "scipy>=1.13.1",
+    "ipywidgets>=8.1.5",
+    "jupyterlab==4.3.4",
+    "jupytext==1.16.6",
+    "mkdocs-jupyter==0.25.1",
+    "seaborn>=0.13.2",
+]
+tests-min = [
+    "packaging>=24.2",
+    "pytest==8.3.4",
+    "pytest-regressions>=2.6.0",
+]
+tests-full = [
+    "ipython>=8.18.1",
+    "openscm-units>=0.6.3",
+    "pandas>=2.0.0",
+    "pytest-cov==6.0.0",
+    "scipy>=1.13.1",
+]
+tests = [
+    { include-group = "tests-min" },
+    { include-group = "tests-full" },
+]
+all-dev = [
+    { include-group = "dev" },
+    { include-group = "docs" },
+    { include-group = "tests" },
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+    "pdm-build-locked",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.build]
+locked = true
+includes = [
+    "src/continuous_timeseries",
+    "LICENCE",
+]
+
+[tool.coverage.run]
+source = [
+    "src",
+]
+branch = true
+
+[tool.coverage.report]
+fail_under = 90
+skip_empty = true
+show_missing = true
+exclude_also = [
+    "if TYPE_CHECKING",
+    "@overload",
+    "\\.\\.\\.",
+]
+
+[tool.mypy]
+strict = true
+disallow_any_unimported = true
+show_error_codes = true
+show_error_context = true
+warn_unreachable = true
+follow_imports = "normal"
+
+[tool.jupytext]
+formats = "ipynb,py:percent"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[tool.ruff]
+src = [
+    "src",
+]
+target-version = "py39"
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "W",
+    "F",
+    "I",
+    "D",
+    "PL",
+    "TRY",
+    "NPY",
+    "RUF",
+    "UP",
+    "S",
+]
+unfixable = [
+    "PD002",
+]
+ignore = [
+    "D200",
+    "D400",
+    "UP007",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"test*.py" = [
+    "D",
+    "S101",
+    "PLR2004",
+]
+"docs/*" = [
+    "D100",
+    "E402",
+    "S101",
+]
+"scripts/*" = [
+    "S101",
+]
+"stubs/*" = [
+    "PLR0913",
+]
+"docs/further-background/discrete_to_continuous_conversions.py" = [
+    "E501",
+]
+"docs/further-background/why-this-api.py" = [
+    "E501",
+]
+"docs/how-to-guides/how-to-make-a-step-forcing.py" = [
+    "E501",
+]
+"docs/tutorials/budget_compatible_pathways.py" = [
+    "E501",
+]
+"docs/tutorials/continuous_timeseries_tutorial.py" = [
+    "E501",
+]
+"docs/tutorials/higher_order_interpolation.py" = [
+    "E501",
+]
+"docs/tutorials/timeseries_tutorial.py" = [
+    "E501",
+]
+
+[tool.ruff.lint.isort]
+known-first-party = [
+    "src",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.towncrier]
+package = "continuous_timeseries"
+package_dir = "src"
+filename = "docs/changelog.md"
+directory = "changelog/"
+title_format = "## Continuous Timeseries {version} ({project_date})"
+underlines = [
+    "",
+    "",
+    "",
+]
+issue_format = "[#{issue}](https://github.com/openscm/continuous-timeseries/pull/{issue})"
+type = [
+    { directory = "breaking", name = "⚠️ Breaking Changes", showcontent = true },
+    { directory = "deprecation", name = "🗑️ Deprecations", showcontent = true },
+    { directory = "feature", name = "🆕 Features", showcontent = true },
+    { directory = "improvement", name = "🎉 Improvements", showcontent = true },
+    { directory = "fix", name = "🐛 Bug Fixes", showcontent = true },
+    { directory = "docs", name = "📚 Improved Documentation", showcontent = true },
+    { directory = "trivial", name = "🔧 Trivial/Internal Changes", showcontent = false },
+]
+
+[tool.liccheck]
+authorized_licenses = [
+    "bsd",
+    "bsd license",
+    "BSD 3-Clause",
+    "CC0",
+    "apache",
+    "apache 2.0",
+    "apache software",
+    "apache software license",
+    "Apache License, Version 2.0",
+    "CMU License (MIT-CMU)",
+    "Historical Permission Notice and Disclaimer (HPND)",
+    "isc",
+    "isc license",
+    "isc license (iscl)",
+    "gnu lgpl",
+    "lgpl with exceptions or zpl",
+    "LGPLv2+",
+    "GNU Lesser General Public License v2 (LGPLv2)",
+    "GNU Lesser General Public License v2 or later (LGPLv2+)",
+    "mit",
+    "mit license",
+    "Mozilla Public License 2.0 (MPL 2.0)",
+    "python software foundation",
+    "python software foundation license",
+    "The Unlicense (Unlicense)",
+    "zpl 2.1",
+]
+unauthorized_licenses = [
+    "agpl",
+    "gnu agpl",
+    "gpl v3",
+    "gplv3",
+    "gpl v2",
+    "gplv2",
+    "gpl v1",
+    "gplv1",
+]
