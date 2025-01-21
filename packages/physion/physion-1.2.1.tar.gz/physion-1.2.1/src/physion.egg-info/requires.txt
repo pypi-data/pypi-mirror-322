@@ -1,0 +1,16 @@
+numpy
+numba
+scipy
+matplotlib
+scikit-image
+natsort
+pynwb
+pandas>=1.4.4
+pyqt5.sip
+pyqtgraph
+pyqtdarktheme
+opencv-python
+opencv-contrib-python
+ffmpeg-python
+pyqt5
+openpyxl
