@@ -1,0 +1,34 @@
+{% extends 'lara_django_base/lara_base.html' %}
+
+
+{% block toolbar %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <h1 class="h2"> {{ section_title }} </h1>
+  <div class="btn-toolbar mb-2 mb-md-0">
+    <div class="btn-group me-2">
+      <!--a href="{# % url delete_selected link % #}" class="btn btn-danger" role="button">Edit Item</a-->
+
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<form method="post">
+  <div>
+    {% csrf_token %}
+    {# check, if selected rows exists, then iterate over it and display the name #}
+    {% if object.selected_rows %}
+    {% for row in object.selected_rows %}
+    <p>{{ row }}</p>
+    {% endfor %}
+    {% endif %}
+    <p>Are you sure you want to delete all selected objects "?</p>
+    <input type="submit" value="Confirm" />
+  </div>
+</form>
+
+{% endblock %}

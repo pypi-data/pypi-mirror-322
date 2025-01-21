@@ -1,0 +1,234 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "lara_django_people"
+dynamic = ["version"]
+readme = "README.md"
+authors = [{ name = "mark doerr", email = "mark.doerr@uni-greifswald.de" }]
+description = "The lara_people application can be used to organise people and institutions in the LARA database."
+license = { text = "GPLv3+" }
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Science/Research',
+    'Intended Audience :: Education',
+    'Operating System :: OS Independent',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Topic :: Scientific/Engineering',
+    'Topic :: Scientific/Engineering :: Information Analysis',
+    'Topic :: Scientific/Engineering :: Visualization',
+    'Topic :: Scientific/Engineering :: Bio-Informatics',
+    'Topic :: Scientific/Engineering :: Chemistry',
+]
+requires-python = ">=3.12"
+
+#dependencies = ["lara_django_people_grpc @ https://gitlab.com/LARAsuite/lara-django-people/-/package_files/86864449/download"]
+#packages = [
+#    { include = "lara_django_people" },
+#]
+
+# uncomment to enable commandline access of the module via its name
+#[project.scripts]
+#lara_django_people = "lara_django_people.__main__:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+    "pytest-cov>=2.12",
+    "pytest-xdist>=3.3",
+    "coverage>=7.6",
+    "ruff>=0.9",
+]
+
+[tool.hatch.version]
+# add src layout
+#path = "src/lara_django_people/__init__.py"
+path = "lara_django_people/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    #"src/lara_django_people",
+    "lara_django_people",
+]
+
+[project.urls]
+Documentation = "https://larasuite.gitlab.io/lara-django-people/"
+Source = "https://gitlab.com/larasuite/lara-django-people"
+
+
+[tool.bumpversion]
+current_version = "0.2.102"
+parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
+serialize = ["{major}.{minor}.{patch}"]
+search = "{current_version}"
+replace = "{new_version}"
+regex = false
+ignore_missing_version = false
+ignore_missing_files = false
+tag = true
+sign_tags = false
+tag_name = "v{new_version}"
+tag_message = "Bump version: {current_version} → {new_version}"
+allow_dirty = false
+commit = true
+message = "Bump version: {current_version} → {new_version}"
+commit_args = ""
+setup_hooks = []
+pre_commit_hooks = []
+post_commit_hooks = []
+
+[[tool.bumpversion.files]]
+filename = "VERSION"
+
+[[tool.bumpversion.files]]
+filename = "lara_django_people/__init__.py"
+
+[[tool.bumpversion.files]]
+filename = "api/grpc/python/lara_django_people_grpc/__init__.py"
+
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+filterwarnings = "ignore::DeprecationWarning"
+addopts = [
+    "-v",
+    #"-n=auto",
+]
+asyncio_default_fixture_loop_scope = "session"
+
+[tool.ruff]
+target-version = "py312"
+# Allow lines to be as long as 120.
+line-length = 120
+# Exclude a variety of commonly ignored directories.
+extend-exclude = [
+    "*/migrations/*.py",
+    "*/models.py",
+    "tests/*.py",
+    #"staticfiles/*",
+    #"lara_django_vue3/lara_vue3_projects1/grpc/*.py",
+    #"api/grpc/python/lara_vue3_projects1_grpc/v1/*",
+    "jupyter/*.ipynb",
+]
+
+[tool.ruff.lint]
+select = [
+    "F",
+    "E",
+    "W",
+    "C90",
+    "I",
+    "N",
+    "UP",
+    "YTT",
+    # "ANN", # flake8-annotations: we should support this in the future but 100+ errors atm
+    "ASYNC",
+    "S",
+    "BLE",
+    "FBT",
+    "B",
+    "A",
+    "COM",
+    "C4",
+    "DTZ",
+    "T10",
+    "DJ",
+    "EM",
+    "EXE",
+    "FA",
+    'ISC',
+    "ICN",
+    "G",
+    'INP',
+    'PIE',
+    "T20",
+    'PYI',
+    'PT',
+    "Q",
+    "RSE",
+    "RET",
+    "SLF",
+    "SLOT",
+    "SIM",
+    "TID",
+    "TCH",
+    "INT",
+    # "ARG", # Unused function argument
+    "PTH",
+    "ERA",
+    "PD",
+    "PGH",
+    "PL",
+    "TRY",
+    "FLY",
+    # "NPY",
+    # "AIR",
+    "PERF",
+    # "FURB",
+    # "LOG",
+    "RUF",
+]
+ignore = [
+    "S101",   # Use of assert detected https://docs.astral.sh/ruff/rules/assert/
+    "RUF012", # Mutable class attributes should be annotated with `typing.ClassVar`
+    "SIM102", # sometimes it's better to nest
+    "UP038",  # Checks for uses of isinstance/issubclass that take a tuple
+    # of types for comparison.
+    # Deactivated because it can make the code slow:
+    # https://github.com/astral-sh/ruff/issues/7871
+    "COM812", # Missing docstring in public method
+    "ISC001", # Class should have a docstring
+    "ERA001",
+]
+# The fixes in extend-unsafe-fixes will require
+# provide the `--unsafe-fixes` flag when fixing.
+extend-unsafe-fixes = ["UP038"]
+
+[tool.ruff.lint.isort]
+force-single-line = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "if __name__ == .__main__.:",
+    "@abstractmethod",
+    "@abc.abstractmethod",
+    "def __repr__(self):",
+    # re-enable the standard pragma
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if TYPE_CHECKING",
+]
+skip_empty = true
+omit = [
+    # auto-generated by grpcio_tools.protoc
+    "*_pb2.py",
+    # will be copied to the server, so this source code is never executed
+]
+precision = 2
+# end setuptools
+
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+skips = ["B101"]
+# end setuptools
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple/"
+publish-url = "https://upload.pypi.org/legacy/"
+
+
+# [[tool.uv.index]]
+# name = "testpypi"
+# url = "https://test.pypi.org/simple/"
+# publish-url = "https://test.pypi.org/legacy/"

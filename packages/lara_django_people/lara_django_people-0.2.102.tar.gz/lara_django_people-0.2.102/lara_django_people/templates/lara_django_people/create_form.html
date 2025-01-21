@@ -1,0 +1,25 @@
+{% extends 'lara_django_base/lara_base.html' %}
+
+{% block toolbar %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2"> {{ section_title }} </h1>
+</div>
+{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+    <div class="bg-white shadow overflow-hidden sm:rounded-lg">
+        <div class="px-4 py-5 sm:px-6">
+            <h3 class="text-lg leading-6 font-medium text-gray-900">{{ section_title }}</h3>
+        </div>
+        <div class="border-t border-gray-200 bg-gray-50 px-4 py-5  sm:gap-4 sm:px-6">
+            <form method="post" class="space-y-6">
+                {% csrf_token %}
+                {% crispy form %}
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

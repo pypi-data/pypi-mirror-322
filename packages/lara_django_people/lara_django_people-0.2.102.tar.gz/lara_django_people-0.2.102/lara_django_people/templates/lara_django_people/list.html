@@ -1,0 +1,140 @@
+{% extends 'lara_django_base/lara_base.html' %} 
+
+{% load django_tables2 %}
+{% load crispy_forms_tags %} 
+
+{% block searchbar %}
+
+<form
+    class="d-flex"
+    role="search"
+    action="{% url 'lara_django_people:search-post' %}"
+    method="POST"
+>
+    {% csrf_token %}
+    <input
+        class="form-control me-2"
+        type="search"
+        name="search_query"
+        placeholder="Search"
+        aria-label="Search"
+    />
+    <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+
+{% endblock searchbar %} 
+
+{% block toolbar %}
+
+<div
+    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom"
+>
+    <h1 class="h2">{{ section_title }}</h1>
+    {% if filter %}
+    <form
+        action=""
+        method="get"
+        class="form form-inline d-flex flex-wrap mb-2 mb-md-0 col-sm-1 align-items-center flex-md-nowrap"
+    >
+        {% csrf_token %}
+
+        <!-- bootstrap_form filter.form layout='inline' %}
+        {% bootstrap_button 'filter' layout='inline'  -->
+    </form>
+    {% endif %}
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group me-2">
+            <a
+                href="{% url create_link %}"
+                class="btn btn-warning btn-sm btn-outline-secondary"
+                role="button"
+                >Add</a
+            >
+            {% if view.export_formats %} 
+                {% for format in view.export_formats %}
+                <button type="button" class="btn btn-sm btn-outline-secondary">
+                    <a href="{% export_url format %}">
+                        download <code>.{{ format }}</code>
+                    </a>
+                </button>
+                {% endfor %} 
+            {% endif %}
+            <a
+                href="{% url delete_selected_link %}"
+                id="delete-selected"
+                class="btn btn-danger btn-sm btn-outline-secondary"
+                role="button"
+                >Delete</a
+            >
+        </div>
+        <button
+            type="button"
+            class="btn btn-sm btn-outline-secondary dropdown-toggle"
+        >
+            <span data-feather="sync"></span>
+            Sync
+        </button>
+    </div>
+
+    <!--form class="" action="" method="post">
+            {% csrf_token %}
+            {{form|crispy}}
+        </form-->
+</div>
+{% endblock toolbar %} 
+
+{% block content %}
+
+
+<div class="bg-white shadow overflow-hidden sm:rounded-lg">
+    <div class="col-span-3 md:col-span-1 text-left md:text-right mt-2 md:mt-0">
+        <a href="{% url 'lara_django_people:entity-create' %}" class="btn bg-green-500 text-white">
+            Add
+        </a>
+</div>
+
+{% load render_table from django_tables2 %}
+
+<div class="flex justify-center">
+    <form action="{% url delete_selected_link %}" method="get" id="delete-form">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Delete Selected</button>
+        <div class="overflow-x-auto">{% render_table table %}</div>
+    </form>
+</div>
+
+{% endblock %} {% block scripts %}
+
+<script>
+    /*
+    document.addEventListener("DOMContentLoaded", function() {
+        var table = document.querySelector("#entity-table");
+        var dataTable = new simpleDatatables.DataTable(table);
+
+        // Select/Deselect all checkboxes
+        var checkAllCheckbox = document.querySelector("#check-all");
+        var checkboxes = table.querySelectorAll("tbody input[type=checkbox]");
+
+        checkAllCheckbox.addEventListener("change", function() {
+            checkboxes.forEach(function(checkbox) {
+                checkbox.checked = checkAllCheckbox.checked;
+            });
+        });
+
+        // Delete selected rows
+        
+        var deleteSelectedButton = document.querySelector("#delete-selected");
+        deleteSelectedButton.addEventListener("click", function() {
+            var selectedRows = Array.from(checkboxes).filter(function(checkbox) {
+                return checkbox.checked;
+            }).map(function(checkbox) {
+                return checkbox.closest("tr");
+            });
+
+            /*selectedRows.forEach(function(row) {
+                dataTable.row(row).remove().draw(false); 
+            });
+        });*/
+</script>
+
+{% endblock %}

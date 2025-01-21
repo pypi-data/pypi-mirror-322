@@ -1,0 +1,141 @@
+[ {
+  "model": "lara_django_people.entityrole",
+  "fields": {
+    "name": "user",
+    "description": "User Role: User of the research activity."
+  }
+ },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "reviewer",
+      "description": "Reviewer Role: Conducting peer review, evaluation, and validation of the research activity."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "contributor",
+      "description": "Contributor Role: Contributing to the research activity."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "designer",
+      "description": "Project or Experiment designer Role: Designing and planning the research activity."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "manager",
+      "description": "Manager Role"
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "advisor",
+      "description": "Advisor Role"
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "conceptualiser",
+      "description": "Conceptualiser Role: Ideas; formulation or evolution of overarching research goals and aims."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "methodology-developer",
+      "description": "Methodology developer or designer Role: Development or design of methodology; creation of models."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "software-developer",
+      "description": "Software developer Role: Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of the software."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "validator",
+      "description": "Validator Role: Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "data-analyst",
+      "description": "Data analyst Role: Responsible for the data analysis, processing, and data curation."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "investigator",
+      "description": "Investigator Role: Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "project-administrator",
+      "description": "Project administrator Role: Management and coordination responsibility for the research activity planning and execution."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "funding-acquisition",
+      "description": "Funding acquisition Role: Acquisition of the financial support for the project leading to this publication."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "resources-provider",
+      "description": "Resources Provider Role: Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "supervisor",
+      "description": "Supervisor Role: Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "writer-original-draft",
+      "description": "Writer - Original Draft Role: Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "writing-reviewer-editor",
+      "description": "Writing - Reviewer & Editor Role: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "writing-reviewer",
+      "description": "Writing - Reviewer Role: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages."
+    }
+  },
+  {
+    "model": "lara_django_people.entityrole",
+    "fields": {
+      "name": "student",
+      "description": "Student Role: Student in the research activity." 
+    }
+  }
+]
