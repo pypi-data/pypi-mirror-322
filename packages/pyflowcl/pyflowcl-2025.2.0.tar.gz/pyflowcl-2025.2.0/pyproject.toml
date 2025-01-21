@@ -1,0 +1,86 @@
+[project]
+name = "pyflowcl"
+version = "2025.2.0"
+description = "Cliente para comunicacion con API de flow.cl"
+authors = [{ name = "Mario Hernandez", email = "mariofix@proton.me" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.9, <4.0"
+dependencies = ["requests[security] (>=2.32.3,<3.0.0)"]
+keywords = [
+    "pagos",
+    "pagar",
+    "cobrar",
+    "ecommerce",
+    "tarjetas",
+    "credito",
+    "debito",
+    "flow",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Repository = "https://github.com/mariofix/pyflowcl"
+Homepage = "https://www.flow.cl/docs/api.html"
+Documentation = "https://mariofix.github.io/pyflowcl"
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit (>=4.1.0,<5.0.0)",
+    "black (>=24.10.0,<25.0.0)",
+    "coverage (>=7.6.10,<8.0.0)",
+    "pytest (>=8.3.4,<9.0.0)",
+    "mkdocs-material[git,imaging,recomended] (>=9.5.50,<10.0.0)",
+    "mkdocstrings[python] (>=0.27.0,<0.28.0)",
+    "mkdocs-git-authors-plugin (>=0.9.2,<0.10.0)",
+    "pytest-cov (>=6.0.0,<7.0.0)",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-vra"
+testpaths = ["tests"]
+python_files = ["test*.py"]
+
+[tool.black]
+line-length = 119
+target-version = ['py39']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+py_version = 39
+
+
+[tool.coverage.run]
+source = ["pyflowcl"]
+omit = ["*/tests/*"]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "pass",
+    "raise ImportError",
+]
+show_missing = true
+fail_under = 0
+
+[tool.poetry]
+packages = [{ include = "pyflowcl" }]
