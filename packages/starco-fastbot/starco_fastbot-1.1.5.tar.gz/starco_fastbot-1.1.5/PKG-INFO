@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: starco-fastbot
+Version: 1.1.5
+Summary: Starco fast bots package
+Author-email: Mojtaba Tahmasbi <m.tahmasbi0111@yahoo.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: starco-utility
+Requires-Dist: python-telegram-bot==13.14
+Requires-Dist: Telethon==1.33.1
+Requires-Dist: phonenumbers
+Requires-Dist: pycountry
+Requires-Dist: python-socks==2.4.3
+Requires-Dist: nest-asyncio==1.5.8
