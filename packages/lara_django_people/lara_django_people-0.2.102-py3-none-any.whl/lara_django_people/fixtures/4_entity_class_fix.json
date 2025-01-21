@@ -1,0 +1,72 @@
+[
+  {
+    "model": "lara_django_people.entityclass",
+    "fields": {
+      "name": "person",
+      "description": "human, real person"
+    }
+  },
+  {
+    "model": "lara_django_people.entityclass",
+    "fields": {
+      "name": "university",
+      "description": "internationally accepted university"
+    }
+  },
+  {
+    "model": "lara_django_people.entityclass",
+    "fields": {
+      "name": "institute",
+      "description": "institute, like university-, state-, independent institution"
+    }
+  },
+  {
+    "model": "lara_django_people.entityclass",
+    "fields": {
+      "name": "organisation",
+      "description": "organisation, like non-governmental organisation, non-profit-organisation"
+    }
+  },
+  {
+    "model": "lara_django_people.entityclass",
+    "fields": {
+      "name": "department",
+      "description": "department of an institute or company"
+    }
+  },
+  {
+    "model": "lara_django_people.entityclass",
+    "fields": {
+      "name": "workgroup",
+      "description": "e.g. scientific workgroup"
+    }
+  },
+  {
+    "model": "lara_django_people.entityclass",
+    "fields": {
+      "name": "faculty",
+      "description": "faculty of an university, e.g. faculty of science and mathematics"
+    }
+  },
+  {
+    "model": "lara_django_people.entityclass",
+    "fields": {
+      "name": "company",
+      "description": "company or firm"
+    }
+  },
+  {
+    "model": "lara_django_people.entityclass",
+    "fields": {
+      "name": "school",
+      "description": "school, highschool,"
+    }
+  },
+  {
+    "model": "lara_django_people.entityclass",
+    "fields": {
+      "name": "foundation",
+      "description": "foundation"
+    }
+  }
+]

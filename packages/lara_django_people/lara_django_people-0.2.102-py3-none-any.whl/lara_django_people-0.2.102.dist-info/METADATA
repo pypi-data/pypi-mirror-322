@@ -1,0 +1,129 @@
+Metadata-Version: 2.4
+Name: lara_django_people
+Version: 0.2.102
+Summary: The lara_people application can be used to organise people and institutions in the LARA database.
+Project-URL: Documentation, https://larasuite.gitlab.io/lara-django-people/
+Project-URL: Source, https://gitlab.com/larasuite/lara-django-people
+Author-email: mark doerr <mark.doerr@uni-greifswald.de>
+License: GPLv3+
+License-File: AUTHORS.md
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.12
+Provides-Extra: dev
+Requires-Dist: coverage>=7.6; extra == 'dev'
+Requires-Dist: pytest-cov>=2.12; extra == 'dev'
+Requires-Dist: pytest-xdist>=3.3; extra == 'dev'
+Requires-Dist: pytest>=8.3; extra == 'dev'
+Requires-Dist: ruff>=0.9; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# LARA-django People
+
+The lara_people application can be used to organise people and institutions in the LARA database.
+
+## Installation
+
+In the active LARA-django environment, install
+
+    cd  lara_django_people
+    pip install .
+
+
+Add "my_new_app" to your INSTALLED_APPS setting like this:
+
+    INSTALLED_APPS = [
+        ...
+        ' lara_django_people',
+    ]
+
+Include the lara-django-app URLconf in your project urls.py like
+this:
+
+    path(' lara_django_people', include('my_new_app.urls')),
+
+Run 
+
+    python manage.py makemigrations  lara_django_people
+    python manage.py migrate 
+    
+to create the my_new_app database models.
+
+
+In case you like to test the app, please load the demo data:
+
+Start the development server 
+
+    lara-django-dev runserver
+
+and visit
+
+http://127.0.0.1:8000/admin/ 
+
+to create some entries (you'll need the Admin app enabled).
+
+
+## Environment variables
+
+for development, please set
+
+    export DJANGO_ALLOWED_HOSTS=localhost
+    export DJANGO_SETTINGS_MODULE=lara_django.settings.devel
+
+for production, please set 
+
+    export DJANGO_SETTINGS_MODULE=lara_django.settings.production
+
+if your media does not reside in the default media folder, please set
+environment variable to 
+
+    export DJANGO_MEDIA_PATH='path/to/my/media'
+
+to use user defined fixtures, please set: :: export
+    
+    DJANGO_FIXTURE_PATH='path/to/user/fixtures'
+
+
+Testing all applications
+
+## Basic Commands
+
+### Type checks
+
+Running type checks with mypy:
+
+    $ mypy lara_django_people
+
+### Test coverage
+
+To run the tests, check your test coverage, and generate an HTML coverage report:
+
+    $ coverage run -m pytest
+    $ coverage html
+    $ open htmlcov/index.html
+
+#### Running tests with pytest
+
+    $ pytest
+
+
+[![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/cookiecutter/cookiecutter-django/)
+[![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
+License: GPLv3
+

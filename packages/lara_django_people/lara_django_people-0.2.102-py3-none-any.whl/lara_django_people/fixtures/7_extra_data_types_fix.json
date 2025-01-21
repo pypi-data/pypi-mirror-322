@@ -1,0 +1,72 @@
+[
+  {
+    "model": "lara_people.extradatatype",
+    "fields": {
+      "name": "email-work2",
+      "description": "2nd e-mail address @ work"
+    }
+  },
+  {
+    "model": "lara_people.extradatatype",
+    "fields": {
+      "name": "ResearcherID",
+      "description": "Web-of-Science Researcher ID, s.\r\nhttps://www.researcherid.com/#rid-for-researchers"
+    }
+  },
+  {
+    "model": "lara_people.extradatatype",
+    "fields": {
+      "name": "Scophus-Author-ID",
+      "description": "https://www.scopus.com/freelookup/form/author.uri"
+    }
+  },
+  {
+    "model": "lara_people.extradatatype",
+    "fields": {
+      "name": "ResearchGateURL",
+      "description": "URL on Research Gate"
+    }
+  },
+  {
+    "model": "lara_people.extradatatype",
+    "fields": {
+      "name": "LinkedInURL",
+      "description": "URL to LinkedIn"
+    }
+  },
+  {
+    "model": "lara_people.extradatatype",
+    "fields": {
+      "name": "XingURL",
+      "description": "URL to Xing"
+    }
+  },
+  {
+    "model": "lara_people.extradatatype",
+    "fields": {
+      "name": "GitLabURL",
+      "description": "URL to GitLab"
+    }
+  },
+  {
+    "model": "lara_people.extradatatype",
+    "fields": {
+      "name": "GitHubURL",
+      "description": "URL to GitHub"
+    }
+  },
+  {
+    "model": "lara_people.extradatatype",
+    "fields": {
+      "name": "SlackURL",
+      "description": "URL to Slack messenger platform"
+    }
+  },
+  {
+    "model": "lara_people.extradatatype",
+    "fields": {
+      "name": "email-google",
+      "description": "google mail account"
+    }
+  }
+]

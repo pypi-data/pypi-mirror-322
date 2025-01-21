@@ -1,0 +1,27 @@
+{% extends 'lara_django_base/lara_base.html' %}
+
+{% block toolbar %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2"> {{ section_title }} </h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group me-2">
+            <a href="{% url update_link  object.pk %}" class="btn btn-warning" role="button">Edit Item</a>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<h1>{{ object.entity.name_full }}</h1>
+
+<ul>
+    <li>
+        first name: {{object.entity.name_first}}
+    </li>
+    <li>
+        last name: {{object.entity.name_last}}
+    </li>
+</ul>
+{% endblock %}

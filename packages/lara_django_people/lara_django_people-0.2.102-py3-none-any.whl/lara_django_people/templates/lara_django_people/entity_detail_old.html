@@ -1,0 +1,108 @@
+{% extends 'lara_django_base/lara_base.html' %}
+
+{% load static %}
+
+
+{% block toolbar %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2"> {{ section_title }} </h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group me-2">
+            <a href="{% url update_link  object.pk %}" class="btn btn-warning" role="button">Edit Item</a>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+
+<div class="container">
+    {% if object.entity_type == 'person' %}
+    {% include 'lara_django_people/person_detail.html' %}
+{% elif object.entity_type == 'organization' %}
+    {% include 'lara_django_people/organization_detail.html' %}
+{% elif object.entity_type == 'project' %}
+    {% include 'lara_django_people/project_detail.html' %}
+{% endif %}
+    <div class="card mb-6">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{% get_media_prefix %}{{ object.image }}" class="card-img-top" alt="card-image">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{% if object.title %}{{ object.title }} {% endif %} {{ object.name_full }}
+                        {% if object.category %}({{ object.category }}) {% endif %}</h5>
+                    <p class="card-text"> {{ object.description }}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p> First Name:
+                            <span style="font-weight: bold;"> {{ object.name_first }} </span>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p>
+                            Last Name:
+                            <span style="font-weight: bold;"> {{ object.name_last }} </span>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p>
+                            Nick Name:
+                            <span style="font-weight: bold;"> {{ object.name_nickname }} </span>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p>
+                            Acronym:
+                            <span style="font-weight: bold;"> {{ object.acronym }} </span>
+                        </p>
+                    </li>
+                </ul>
+                <div class="card-body">
+                    <p style="font-weight: bold;"> ORCID: <a href="{{ object.ORCID }}" class="card-link"> {{ object.ORCID }} </a> </p>   
+                    <p style="font-weight: bold;"> Link: <a href="{{ object.URL }}" class="card-link"> {{ object.URL }} </a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-6">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="true" href="#">Connections</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Links</a>
+
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+            <p>
+                e-mail:
+                <a style="font-weight: bold;" href="mailto: {{ object.email }}"> {{ object.email }} </a>
+            </p>
+            <p>
+                Tel.(office):
+                <span style="font-weight: bold;"> {{ object.phone_number_office }} </span>
+            </p>
+            <p>
+                Tel.(lab):
+                <span style="font-weight: bold;"> {{ object.phone_number_lab }} </span>
+            </p>
+            <p>
+                Tel.(mobile):
+                <span style="font-weight: bold;"> {{ object.phone_number_mobile }} </span>
+            </p>
+        </div>
+    
+    </div>
+</div>
+</div>
+
+{% endblock %}

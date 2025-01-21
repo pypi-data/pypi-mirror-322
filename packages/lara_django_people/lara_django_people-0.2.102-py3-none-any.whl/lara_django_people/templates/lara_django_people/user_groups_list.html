@@ -1,0 +1,22 @@
+{% extends 'lara_django_base/lara_base.html' %}
+
+{% block title %}People-Groups{% endblock %}
+
+{% block top %}
+<h1> LARA Groups</h1>
+<p> </p>
+{% endblock %}
+
+{% block main_content %}
+{% if lara_groups_list %}
+<ul>
+  {% for item in lara_user_list %}
+  <li><a href="{% url 'lara_django_people:lara_group_detail' item.lara_group_id %}" title={{ item.name }}> {{ item.name
+      }} {{ item.description }} </a> </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No Users groups are available.</p>
+{% endif %}
+
+{% endblock %}

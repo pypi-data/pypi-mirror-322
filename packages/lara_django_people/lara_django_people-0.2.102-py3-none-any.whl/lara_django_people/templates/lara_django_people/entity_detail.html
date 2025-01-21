@@ -1,0 +1,170 @@
+{% extends 'lara_django_base/lara_base.html' %}
+
+{% load static %}
+
+
+{% block toolbar %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2"> {{ section_title }} </h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group me-2">
+            <a href="{% url update_link  object.pk %}" class="btn btn-warning" role="button">Edit Item</a>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+
+<div class="container">
+    <div class="card mb-6">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{% get_media_prefix %}{{ object.image }}" class="card-img-top" alt="card-image">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{% if object.title %}{{ object.title }} {% endif %} {{ object.name_full }}
+                        {% if object.category %}({{ object.category }}) {% endif %}</h5>
+                    <p class="card-text"> {{ object.description }}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p> First Name:
+                            <span style="font-weight: bold;"> {{ object.name_first }} </span>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p>
+                            Last Name:
+                            <span style="font-weight: bold;"> {{ object.name_last }} </span>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p>
+                            Nick Name:
+                            <span style="font-weight: bold;"> {{ object.name_nickname }} </span>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p>
+                            Acronym:
+                            <span style="font-weight: bold;"> {{ object.acronym }} </span>
+                        </p>
+                    </li>
+                </ul>
+                <div class="card-body">
+                    <p style="font-weight: bold;"> ORCID: <a href="{{ object.ORCID }}" class="card-link"> {{ object.ORCID }} </a> </p>   
+                    <p style="font-weight: bold;"> Link: <a href="{{ object.URL }}" class="card-link"> {{ object.URL }} </a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-6">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" 
+                        type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" 
+                        type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" 
+                        type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+              </div>
+            </ul>
+        </div>
+        <div class="card-body">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {% for key, value in contact_dict.items %}
+                          <tr>
+                            <th scope="row" style="font-size: larger;">{{ key  }}</th>
+                            <td>{{ value | urlize }}</td>
+                            <td></td>
+                          </tr>
+                          {% endfor %}
+                        </tbody>
+                      </table>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row" style="font-size: larger;">e-mail</th>
+                            <td> urlize - {{ object.email | urlize }} </td> 
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row" style="font-size: larger;">Tel.(office)</th>
+                            <td>{{ object.phone_number_office }}</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row" style="font-size: larger;">Tel.(lab)</th>
+                            <td>{{ object.phone_number_lab }}</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row" style="font-size: larger;"> Tel.(mobile)</th>
+                            <td>{{ object.phone_number_mobile }}</td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row" style="font-size: larger;">e-mail</th>
+                            <td> <a style="font-weight: normal;" href="mailto: {{ object.email }}"> {{ object.email }}</a>  </td> 
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row" style="font-size: larger;">Tel.(office)</th>
+                            <td>{{ object.phone_number_office }}</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row" style="font-size: larger;">Tel.(lab)</th>
+                            <td>{{ object.phone_number_lab }}</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row" style="font-size: larger;"> Tel.(mobile)</th>
+                            <td>{{ object.phone_number_mobile }}</td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+              </div>
+        </div>
+</div>
+
+
+{% endblock %}
