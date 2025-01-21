@@ -1,0 +1,13 @@
+sphinx
+altair
+geopandas
+numpydoc
+pillow
+pydata_sphinx_theme
+shap
+skops
+sphinxcontrib.bibtex
+sphinx-design
+sphinxext-altair
+vega-datasets
+vl-convert-python
