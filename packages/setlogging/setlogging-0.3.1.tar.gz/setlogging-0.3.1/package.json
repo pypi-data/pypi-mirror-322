@@ -1,0 +1,26 @@
+{
+  "name": "setlogging",
+  "version": "0.3.0",
+  "description": "A Python logging utility with JSON support",
+  "main": "index.js",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^9.0.1",
+    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/github": "^8.1.0",
+    "@semantic-release/release-notes-generator": "^10.0.1",
+    "semantic-release": "^22.0.12"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
+  }
+}
