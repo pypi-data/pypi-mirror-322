@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+agentstr/__init__.py
+agentstr/marketplace.py
+agentstr/nostr.py
+agentstr.egg-info/PKG-INFO
+agentstr.egg-info/SOURCES.txt
+agentstr.egg-info/dependency_links.txt
+agentstr.egg-info/requires.txt
+agentstr.egg-info/top_level.txt
+tests/test_core.py
