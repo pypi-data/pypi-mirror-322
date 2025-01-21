@@ -1,0 +1,15 @@
+pyticoop/__init__.py,sha256=9slhgQAf9tkIGcf38U42V1rtbpQSKbFh5ZtyarMfgSY,124
+pyticoop/cli.py,sha256=WYnZMoB0ax4kq5NGRzBuv_upziHcpvYjWkfEwr_hqqk,431
+pyticoop/pyticoop.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+pyticoop/dolibarr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyticoop/dolibarr/base.py,sha256=_qxGpMhwd6ugZ5rnuz_whUmemnL0JD5fSVhv_TiVNVY,1897
+pyticoop/dolibarr/exceptions.py,sha256=1loFED4r4J1eoFPxmHgPp5dfEASRHbeA0DleE0_s1hc,267
+pyticoop/dolibarr/products.py,sha256=i22fhe7a3j7A30QipVAEzTWmYOClmQolt1K4gW5tC4U,1657
+pyticoop/dolibarr/query.py,sha256=cLwm50-Ir71QgIgT-On1Z3aM356EAOwbvRD6HkzLSLk,3184
+pyticoop/dolibarr/stockmovements.py,sha256=kMOq25G8XfdDnRXzfzS1VS6QspGxa8JJIeY2PTeecfA,2415
+pyticoop-1.1.6.dist-info/AUTHORS.rst,sha256=LKHr8VlAg20P_GV9-53zVNFLptVriv8Q1Gp_GMi0iqA,154
+pyticoop-1.1.6.dist-info/LICENSE,sha256=Zf9Qlbhvh8Uf92cUBqJBIJZx49fQm4nnMwXSRdHgBfk,1542
+pyticoop-1.1.6.dist-info/METADATA,sha256=g7DuNye6LLxt1dJKHYJYpkZEIsmnZyv20DrzqqFRMrs,2086
+pyticoop-1.1.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pyticoop-1.1.6.dist-info/top_level.txt,sha256=FFpDCU-BxatzBsbZz3XbUWrGICabhP-0FAcg23L6UHU,9
+pyticoop-1.1.6.dist-info/RECORD,,
