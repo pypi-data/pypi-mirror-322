@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: icamix
+Version: 0.1
+Summary: A package for amplitude mixing
+Home-page: https://github.com/rqfzpy/icamix
+Author: fzpy
+Author-email: 690799557@qq.com
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+
+# icamix
+
+icamix is a Python package for mixing image amplitude.
+
+## Installation
+
+You can install the `icamix` package via pip:
+
+pip install icamix
+
+## Usage
+
+import icamix
+
+# Use functions from icamix
+mixed_image = icamix.mix(x, y, num_class, lamb)
