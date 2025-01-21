@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/pyadguard/__init__.py
+src/pyadguard/pyadguard.py
+src/pyadguard.egg-info/PKG-INFO
+src/pyadguard.egg-info/SOURCES.txt
+src/pyadguard.egg-info/dependency_links.txt
+src/pyadguard.egg-info/top_level.txt
