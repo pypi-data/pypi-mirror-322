@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: cmlidar
+Version: 1.1.0
+License-File: LICENSE.txt
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Dynamic: requires-dist
