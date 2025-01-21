@@ -1,0 +1,10 @@
+numkdoc/__init__.py,sha256=8DG00cs3hyvKDdK7F6oJG1rbp0OtrG4hG2ZqSbJwIQQ,51
+numkdoc/numkdoc.py,sha256=qat6_hoT4wlsVe1RDlGZbwPdkivA2FQT2qEF5Q0A2ZQ,2819
+numkdoc/parser.py,sha256=ULD-CcwfTtkeyIAoSIO_0AhfipOu9yvVLfLSfHjDvOE,6599
+numkdoc/utils.py,sha256=M68sqoFAiIkFckP-tM_XeBFN1-kUmSAUfMf_Pq4RQNA,981
+Numkdoc-0.4.3.dist-info/LICENSE.txt,sha256=j7Rb-P8P8m5dzdrHZ1Mp9mhoirUgm_hzW50jbqncKuw,1066
+Numkdoc-0.4.3.dist-info/METADATA,sha256=c1lvb1-NnElYTpdYK8kNRrHcaz2TcBMkkGZVTuBrfU0,1954
+Numkdoc-0.4.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+Numkdoc-0.4.3.dist-info/entry_points.txt,sha256=tHMlp7cu7D2Bd8ROiVxypT6EhiSBzk8L__X_xJtfmNQ,43
+Numkdoc-0.4.3.dist-info/top_level.txt,sha256=UXyGZydw6PC1gWgyhBlUeNgw4a2njdLcyfQsq6sQdlU,8
+Numkdoc-0.4.3.dist-info/RECORD,,
