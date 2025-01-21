@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: GovGPT_denoise
+Version: 0.1.0
+Summary: A simple and short denoising algorithm to denoise maximum amount of noise from an audio
+Home-page: UNKNOWN
+Author: Soumyajit Sen Sharma
+Author-email: soumyajit94298@gmail.com
+License: UNKNOWN
+Description: ## Usage Example
+        
+        Here's how you can use the `mydenoise` library:
+        
+        ```python
+        from mydenoise.denoise import dnoise
+        
+        # Input and output paths
+        input_audio = "path_to_noisy_audio.wav"
+        output_audio = "denoised_output.wav"
+        
+        # Denoise the audio
+        dnoise(input_audio, output_audio)
+        print(f"Denoised audio saved to {output_audio}")
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
