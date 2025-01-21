@@ -1,0 +1,17 @@
+numpy
+opencv-python-headless
+scikit-image
+scipy
+joblib
+pydantic>=2.0.0
+
+[dev]
+pytest
+pytest-cov
+flake8
+black
+mypy
+
+[docs]
+sphinx
+sphinx-rtd-theme
