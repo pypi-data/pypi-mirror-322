@@ -1,0 +1,12 @@
+UnifiedAI/__init__.py,sha256=zhKejv7zgl_bglXoDgGij-Dp-1cVBuONp3mJ44EEshY,31
+UnifiedAI/api.py,sha256=1jqNK3HuTBcN2OcY_y0KEHIHiefTsLFMzeFw7qk5AcY,1505
+UnifiedAI/claude.py,sha256=i1VUWfD6Pj3RnRWte-fq7jVY78SoI0LKJkR0D_mjSrY,1376
+UnifiedAI/gemini.py,sha256=50S8YMqY2XXU0p63sNBd1g8QU1gYEU7T1XXj-bIuzb8,2097
+UnifiedAI/gpt.py,sha256=pTJOijaYY2ynXJuvE7g0pkJCHiqMhCFmcCJF4YPCL_g,1710
+UnifiedAI/ollama.py,sha256=V61YqMrJ662Fw6ViUEvpt5ttmomIg05ecCctfcLIg_w,1439
+UnifiedAI/unified.py,sha256=4f-eE_nMb_RfCKmWKAByiLjP5QeElsdwJKlBbYVgvPU,1163
+UnifiedAI-1.5.1.dist-info/LICENSE,sha256=FGQ2GwF3f0xDhlHRi9zLBzDoREy8ZVFWL4lD26kf4yA,1061
+UnifiedAI-1.5.1.dist-info/METADATA,sha256=xfnHbvZZtXdo42PyOc6aF671mNEdq1orE3P2WZRlT24,3350
+UnifiedAI-1.5.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+UnifiedAI-1.5.1.dist-info/top_level.txt,sha256=swddwKmOSW3_Q2EPYl73tLSZLl5NV8n8Ge2fcC2Mvgs,10
+UnifiedAI-1.5.1.dist-info/RECORD,,
