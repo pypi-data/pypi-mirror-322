@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+charfield_filters/__init__.py
+charfield_filters/admin.py
+charfield_filters/filters.py
+charfield_filters/tests.py
+charfield_filters/templates/admin/charfield_filters/autocomplete_filter.html
+charfield_filters/templates/admin/charfield_filters/autocomplete_select_filter.html
+charfield_filters/templates/admin/charfield_filters/dropdown_filter.html
+django_charfield_filters.egg-info/PKG-INFO
+django_charfield_filters.egg-info/SOURCES.txt
+django_charfield_filters.egg-info/dependency_links.txt
+django_charfield_filters.egg-info/not-zip-safe
+django_charfield_filters.egg-info/requires.txt
+django_charfield_filters.egg-info/top_level.txt
