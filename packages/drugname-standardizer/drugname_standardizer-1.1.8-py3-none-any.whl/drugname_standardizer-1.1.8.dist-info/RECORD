@@ -1,0 +1,9 @@
+drugname_standardizer/__init__.py,sha256=-lHm7SDdiS_OGHPD6ZH63oWjgrheWiGl_7Il_VRWw1A,585
+drugname_standardizer/standardizer.py,sha256=hqojV7mPZUfkZNn5UrkLNf5WG8G3F7zrYC3GuMiZtyI,16815
+drugname_standardizer/data/UNII_Names.txt,sha256=jV-jsfUTwg88gJUijtbuudiSoLrVqnsXjXgPhOh-sPE,75145898
+drugname_standardizer-1.1.8.dist-info/LICENSE,sha256=QwzpYbZPh9-S5gkyHyp5onn7v6KJvvVh3xvqKXMy3Ss,1077
+drugname_standardizer-1.1.8.dist-info/METADATA,sha256=yIIF8_k3wU37NmXwPXa5C_nN9wjYfwzSkqQMk4ltXIQ,7122
+drugname_standardizer-1.1.8.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+drugname_standardizer-1.1.8.dist-info/entry_points.txt,sha256=zwTW-zLmkJ6dXuAjSA-7ORbOIB_U-OR87_ytSIxF61k,82
+drugname_standardizer-1.1.8.dist-info/top_level.txt,sha256=fHtD9hzaC7bLVVxfY9Rf0DFZ-YzbDB_Zz7nmP4W1wo8,22
+drugname_standardizer-1.1.8.dist-info/RECORD,,
