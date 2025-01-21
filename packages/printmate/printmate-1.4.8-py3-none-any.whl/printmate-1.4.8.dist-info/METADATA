@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: printmate
+Version: 1.4.8
+Summary: A library used to print animated and colored text
+Author-email: Universal CEO <universal.store.panel@gmail.com>
+License: This software is provided by PyGaps under the following terms:
+        
+        1. You may use, modify, and distribute this software for personal or commercial purposes, provided that you do not claim ownership of the original code.
+        
+        2. If you modify or distribute this software, you must include this license notice and acknowledge PyGaps as the original creator of the software.
+        
+        3. Any individual or entity that modifies or distributes this software and claims it as their own creation will be subject to a fee of $200 (USD) per instance. Failure to pay this fee will result in legal action.
+        
+        4. This software is provided "AS IS" without warranty of any kind, express or implied. PyGaps shall not be liable for any damages, including but not limited to direct, indirect, special, incidental, or consequential damages, arising out of the use, modification, or distribution of this software.
+        
+        5. PyGaps is NOT liable for any individual or entity that uses this software for unethical activities or illegal activities!
+        
+        
+        By using this software, you agree to these terms and conditions.
+        
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: license
+
+<----------------------------------------------------------------------->
+
+        Please make sure the library folder is in your project path
+
+<----------------------------------------------------------------------->
+
+
+How to use:
+
+primate.print("Hello world!", speed=21, color=Fore.BLUE)
+
+
+
+
+
+Disclaimer: 
+
+        Make sure you have installed colorama and imported it!
