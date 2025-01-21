@@ -1,0 +1,47 @@
+include:
+  - component: $CI_SERVER_FQDN/devops/ci-cd/build-python/template@0.0.2
+  - component: $CI_SERVER_FQDN/devops/ci-cd/publish-python-package/template@initial-impl
+    inputs:
+      public_python_package_image_tag: 87fa387a0fe221b8a630f7c0e78fbbaf6c23e9a1
+      artifacts_job_name: build_spellbook
+  - component: $CI_SERVER_FQDN/devops/ci-cd/publish-python-package/template@initial-impl
+    inputs:
+      public_python_package_image_tag: 87fa387a0fe221b8a630f7c0e78fbbaf6c23e9a1
+      upload_target: pypi
+      pypi_rules_config:
+        - when: always
+      artifacts_job_name: build_spellbook
+  - project: devops/ci-cd/workflow-skip-duplicate-pipelines
+    file: template.yaml
+  - template: Jobs/Secret-Detection.latest.gitlab-ci.yml
+  - template: Jobs/SAST.latest.gitlab-ci.yml
+  - template: Jobs/Dependency-Scanning.latest.gitlab-ci.yml
+
+stages:
+  - test
+  - build
+  - publish
+
+variables:
+  GITLAB_ADVANCED_SAST_ENABLED: 'true'
+  DS_MAJOR_VERSION: 5.7.0
+
+build_spellbook:
+  needs: []
+
+secret_detection:
+  tags:
+    - small
+
+gitlab-advanced-sast:
+  tags:
+    - small
+
+gemnasium-python-dependency_scanning:
+  tags:
+    - small
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS'
+      when: never
+    - if: '$CI_COMMIT_BRANCH'
