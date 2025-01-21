@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+magic_thumbnail/__init__.py
+magic_thumbnail/creator.py
+magic_thumbnail.egg-info/PKG-INFO
+magic_thumbnail.egg-info/SOURCES.txt
+magic_thumbnail.egg-info/dependency_links.txt
+magic_thumbnail.egg-info/requires.txt
+magic_thumbnail.egg-info/top_level.txt
+tests/__init__.py
+tests/test_creator.py

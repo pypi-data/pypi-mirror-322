@@ -1,0 +1,27 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magic_thumbnail"
+version = "0.1.0"
+description = "A Python library to generate multiple thumbnails from high-resolution images."
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }
+authors = [
+    { name="Atharva Wankhede", email="atharvaw007@gmail.com" }
+]
+dependencies = [
+    "Pillow>=10.0.0",
+    "requests>=2.0.0",
+    "python-dotenv>=0.19.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
