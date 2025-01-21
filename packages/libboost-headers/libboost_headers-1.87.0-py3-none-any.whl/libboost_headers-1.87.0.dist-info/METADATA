@@ -1,0 +1,40 @@
+Metadata-Version: 2.2
+Name: libboost-headers
+Version: 1.87.0
+Summary: Repackaging of libboost-headers distributed via PyPI
+Author-email: Contributors to the Power Grid Model project <powergridmodel@lfenergy.org>
+License: BSL-1.0
+Project-URL: Home-page, http://www.boost.org/
+Project-URL: GitHub, https://github.com/boostorg/boost
+Project-URL: Documentation, https://www.boost.org/doc/
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Topic :: File Formats
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: importlib-resources
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+# Boost PyPI
+
+This repo contains automation for [Boost](https://github.com/boostorg/boost).
+
+It creates, packages and pushes the header-only library `libboost-headers` to PyPI.
+This repo is the equivalent of the [Anaconda libboost-headers](https://anaconda.org/conda-forge/libboost-headers) package.
+
+**NOTE:** Packages created by this repo only contain the raw source code and not a Python package.
+
+Credits go to the maintainers of the [Boost](https://github.com/boostorg/boost) package.
+
+## License
+
+The files in this repository are licensed under the Boost Software License - Version 1.0.
+
+The distributed boost package is a redistribution of [Boost](https://github.com/boostorg/boost) and therefore falls under the [Boost license model](https://github.com/boostorg/boost/blob/master/LICENSE_1_0.txt) as described in the [LICENCE_1_0.txt file in the Boost repository](https://github.com/boostorg/boost/blob/master/LICENSE_1_0.txt).
