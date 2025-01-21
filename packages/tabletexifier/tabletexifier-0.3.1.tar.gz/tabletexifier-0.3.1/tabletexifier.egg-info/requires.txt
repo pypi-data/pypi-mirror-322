@@ -1,0 +1,2 @@
+pytest-assume>=2.4.3
+twine>=6.0.1
