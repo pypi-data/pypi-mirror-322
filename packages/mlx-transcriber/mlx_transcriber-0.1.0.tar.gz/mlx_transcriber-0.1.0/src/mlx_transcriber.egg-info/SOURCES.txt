@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/mlx_transcriber/__init__.py
+src/mlx_transcriber/main.py
+src/mlx_transcriber.egg-info/PKG-INFO
+src/mlx_transcriber.egg-info/SOURCES.txt
+src/mlx_transcriber.egg-info/dependency_links.txt
+src/mlx_transcriber.egg-info/entry_points.txt
+src/mlx_transcriber.egg-info/requires.txt
+src/mlx_transcriber.egg-info/top_level.txt
+src/mlx_transcriber/utils/__init__.py
+src/mlx_transcriber/utils/file_utils.py
+tests/__init__.py
+tests/test_file_utils.py

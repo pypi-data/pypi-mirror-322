@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlx-transcriber"
+version = "0.1.0"
+authors = [
+    { name="Cavit Erginsoy", email="cavit99@gmail.com" },
+]
+description = "A tool for transcribing audio and video files using MLX Whisper"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: MacOS :: MacOS X",
+    "Environment :: MacOS X",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+    "python-ffmpeg>=2.0.12",
+    "mlx-whisper>=0.4.1",
+]
+keywords = ["mlx", "whisper", "transcription", "audio", "video", "apple silicon"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "black>=24.1.0",
+    "isort>=5.13.0",
+    "ruff>=0.2.0",
+    "mypy>=1.8.0",
+    "build>=1.0.3",
+    "twine>=4.0.2",
+]
+
+[project.scripts]
+mlx-transcribe = "mlx_transcriber.main:main"
+
+[project.urls]
+Homepage = "https://github.com/cavit99/mlx-transcriber"
+Issues = "https://github.com/cavit99/mlx-transcriber/issues"
+Repository = "https://github.com/cavit99/mlx-transcriber.git"
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "I"]
+ignore = []
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+check_untyped_defs = true 

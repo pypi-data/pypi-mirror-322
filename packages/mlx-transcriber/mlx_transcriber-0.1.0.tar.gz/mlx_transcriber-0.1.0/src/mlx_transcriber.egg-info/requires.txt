@@ -1,0 +1,12 @@
+python-ffmpeg>=2.0.12
+mlx-whisper>=0.4.1
+
+[dev]
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=24.1.0
+isort>=5.13.0
+ruff>=0.2.0
+mypy>=1.8.0
+build>=1.0.3
+twine>=4.0.2
