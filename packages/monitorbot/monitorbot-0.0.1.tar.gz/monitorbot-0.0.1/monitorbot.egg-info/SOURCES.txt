@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+monitorbot.egg-info/PKG-INFO
+monitorbot.egg-info/SOURCES.txt
+monitorbot.egg-info/dependency_links.txt
+monitorbot.egg-info/top_level.txt
+tests/test_foo.py
