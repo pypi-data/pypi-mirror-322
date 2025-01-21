@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: tkinter-embedded
+Version: 9.0.1
+Summary: tkinter for Tcl/Tk 9.0
+Author-email: Marc Culler <culler@users.noreply.github.com>
+Maintainer-email: Marc Culler <culler@users.noreply.github.com>
+Project-URL: Homepage, https://github.com/culler/embedded-tk
+Project-URL: Bug Tracker, https://github.com/culler/embedded-tk/issues
+Keywords: tkinter,Tk,Tcl
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+
+tkinter-embedded
+================
+
+This is a pip installable module which provides a self-contained replacement for tkinter that uses Tcl/Tk 9.0.
