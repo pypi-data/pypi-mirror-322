@@ -1,0 +1,16 @@
+uglychain-1.1.0.dist-info/METADATA,sha256=bBoIV8dtCakPxu4fL4rEUzjrVAsUpIfrz6k9m5oP6ww,8273
+uglychain-1.1.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+uglychain-1.1.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+uglychain-1.1.0.dist-info/licenses/LICENSE,sha256=YKMZ9h8ezqA65C_DTRBOG-jS19ow-jDMjNm3QX_TV0U,1063
+uglychain/__init__.py,sha256=4vplw7aKXa9PzPqQpDXUhx00_RAvd7Tygrk1KBdy2s8,274
+uglychain/client.py,sha256=KkQgE9173xAv4YQL3JY20UODjaNKzHBlhUpctrE6dlQ,1791
+uglychain/config.py,sha256=-YeZm6uhTEjJl8fR-C7tpE1XqVLKDKqCAAa8Cgfyi00,761
+uglychain/console.py,sha256=f7rWYFeHs-Xu-mPxsTkvuH6mpujesZyFQTbS3k-E0eI,8745
+uglychain/default_tools.py,sha256=x9SYtVwiIE2Gu4Ftj_48dA87KjXfoKdqgj_EhWBHYI4,1570
+uglychain/llm.py,sha256=_A8wZCJMF_inzyz47F4UYBkbR46jRUteY1Lx4-pBEiQ,12367
+uglychain/mcp.py,sha256=AmkLYFX3q3dj3NTojr-_JVlvwDUQE0d1T-bve5xcy94,6131
+uglychain/react.py,sha256=GcRmkIUPDxHrhynGb7JKPGvWqUL03Ct5YfFllxfuWYM,12342
+uglychain/schema.py,sha256=GdUmtu7IAPloiE9hpuei6bdApzsYdmOd3FN27pHyF9o,857
+uglychain/structured.py,sha256=rrI0LTI3VfAaUSJv0_du6Gigppj5IJCjCyyGxiWAycc,7948
+uglychain/tools.py,sha256=Nny3B4-h7EtFStkMzXtyKpFSGqyOdfNCRHd9Fs4Kb5A,8670
+uglychain-1.1.0.dist-info/RECORD,,
