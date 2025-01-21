@@ -1,0 +1,11 @@
+accendino/__init__.py,sha256=hIwS8hMUjoR_B92ol6mvxrw7wVLLTtutKswsZQcyt60,15902
+accendino/builditems.py,sha256=Aa73KafmQahYU-xuWOZIwnpZtfNRSE3peO_FlcTdES4,10999
+accendino/localdeps.py,sha256=ToImEgyxnN0bF43Gb43NxNgErUwUjk-2NLe-QvZRm7g,2976
+accendino/sources.py,sha256=BYy1RO-PkpV2OGueRH_fifBq8hQUGdtVo82au1ONE3Y,1395
+accendino/utils.py,sha256=H9hyvi2KSi5Y3z8d9nVThi0AmADi0DBH6S-a26THqic,2156
+accendino-1.0.0.dist-info/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+accendino-1.0.0.dist-info/METADATA,sha256=4eEUtLzOUgFnGpR3GLTrTmbVtMBTJCWQ000WwYNqvPw,48392
+accendino-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+accendino-1.0.0.dist-info/entry_points.txt,sha256=gB2rpNLriANLnqbZz34o2ijp_VVWxEqAWCGB95HXWBw,55
+accendino-1.0.0.dist-info/top_level.txt,sha256=7faK5MaWqZGY4LjLVGgYcDcbdsuk21SA-TZf9pnpmlE,10
+accendino-1.0.0.dist-info/RECORD,,
