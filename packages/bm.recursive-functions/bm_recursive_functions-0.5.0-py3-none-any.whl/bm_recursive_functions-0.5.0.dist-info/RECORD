@@ -1,0 +1,11 @@
+bm/recursive_functions/__init__.py,sha256=EtWowugueCL0l9hHYqpmyJ56lArceFhVoVDDpRChV5U,1414
+bm/recursive_functions/examples.py,sha256=CKd4ufZuZgGx87nXS0jCdQXeJqaNJwYQ-gkMGKGlbkc,3561
+bm/recursive_functions/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bm/recursive_functions/cli/__init__.py,sha256=6g68D3vwoonYvARW2_3UeGjC8j79T4ypqg4pXpIxiE4,1025
+bm/recursive_functions/cli/ackermann.py,sha256=_JwxKEi3_mGcgm3nO7IpKql9nTQcCffFTwJmNblV37k,1999
+bm/recursive_functions/cli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bm_recursive_functions-0.5.0.dist-info/entry_points.txt,sha256=0pGiMcvZOj2HzilcQew9vqsPmqnLu_2n8eF33GFDBAE,80
+bm_recursive_functions-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bm_recursive_functions-0.5.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+bm_recursive_functions-0.5.0.dist-info/METADATA,sha256=fo_mk2GaMvH0TnCMr1E0xWDn62hIRrssPg505enItIA,3473
+bm_recursive_functions-0.5.0.dist-info/RECORD,,
