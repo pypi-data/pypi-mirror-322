@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+simple_name_parser.py
+simple_name_parser.egg-info/PKG-INFO
+simple_name_parser.egg-info/SOURCES.txt
+simple_name_parser.egg-info/dependency_links.txt
+simple_name_parser.egg-info/top_level.txt
