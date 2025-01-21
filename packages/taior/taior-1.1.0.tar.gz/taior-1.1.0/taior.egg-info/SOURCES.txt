@@ -1,0 +1,13 @@
+README.md
+setup.py
+taior/__init__.py
+taior/client.py
+taior/crypto.py
+taior/network.py
+taior/node.py
+taior/server.py
+taior.egg-info/PKG-INFO
+taior.egg-info/SOURCES.txt
+taior.egg-info/dependency_links.txt
+taior.egg-info/requires.txt
+taior.egg-info/top_level.txt
