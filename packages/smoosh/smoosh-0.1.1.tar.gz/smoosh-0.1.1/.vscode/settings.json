@@ -1,0 +1,86 @@
+{
+    // === Python Language Server ===
+    "python.languageServer": "Pylance", // Pylance offers better performance and features than the default
+    "python.analysis.typeCheckingMode": "basic", // Enable basic type checking (can be "off", "basic", "strict")
+    "python.analysis.diagnosticMode": "workspace", // Run analysis on all files in workspace
+    "python.analysis.autoImportCompletions": true, // Suggest imports when typing
+    // === Code Style and Formatting ===
+    "python.formatting.provider": "black", // Black is the uncompromising code formatter
+    "python.formatting.blackArgs": [
+        "--line-length=100" // Default is 88, but 100 is common in modern projects
+    ],
+    "editor.formatOnSave": true, // Format code on every save
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit" // Run isort on save
+    },
+    // === Linting Configuration ===
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [ // Customize flake8 rules
+        "--max-line-length=100",
+        "--ignore=E203,W503" // Common ignores for compatibility with Black
+    ],
+    "python.linting.pylintArgs": [ // Customize pylint rules
+        "--disable=C0111", // Missing docstring
+        "--disable=C0103" // Invalid name
+    ],
+    // === Testing Configuration ===
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestArgs": [
+        "tests",
+        "-v",
+        "--cov=smoosh" // Enable coverage reporting for the smoosh package
+    ],
+    // === Docstring Generation ===
+    "autoDocstring.docstringFormat": "google", // Use Google-style docstrings
+    "autoDocstring.startOnNewLine": true,
+    "autoDocstring.generateDocstringOnEnter": true,
+    // === Environment Management ===
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python", // Use virtualenv in project
+    "python.terminal.activateEnvironment": true, // Automatically activate virtualenv
+    // === Editor Behavior for Python ===
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            80, // PEP 8 recommendation
+            100 // Modern max-length
+        ],
+        "editor.wordBasedSuggestions": "off", // Better for Python's syntax
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true, // Use spaces instead of tabs (PEP 8)
+        "editor.suggestSelection": "first", // Prioritize exact matches
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        }
+    },
+    // === File Management ===
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/*.pyc": true,
+        ".coverage": true,
+        ".tox": true,
+        "**/.mypy_cache": true
+    },
+    // === Git Integration ===
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    // === Terminal Integration ===
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    // === Project-Specific Settings ===
+    "search.exclude": {
+        "**/venv": true,
+        "**/.venv": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/*.egg-info": true
+    }
+}
