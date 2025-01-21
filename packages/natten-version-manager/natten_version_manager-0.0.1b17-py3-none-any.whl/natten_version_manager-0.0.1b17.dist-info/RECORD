@@ -1,0 +1,15 @@
+natten_version_manager/__init__.py,sha256=6m4pAv5rndZ18qk8X2ZT1cpc-jVoGQVXM4rnxsNPrkI,361
+natten_version_manager/natten_installer.py,sha256=HyCly9oZY9XZAT4KR9rIWuIfPJNpNJvggsieVgZ31TQ,6079
+natten_version_manager/libzip/__init__.py,sha256=soE-CPPMRp5WNECiPvz3RrFs9HejqWTTbacuwQNOQ0g,104
+natten_version_manager/libzip/core.py,sha256=n0yrAl4UHSYvGfXFNE6f1yEs8XuaaI-Y0q1ls2gSTP0,4128
+natten_version_manager/libzip/type.py,sha256=tpypIr0xzYPfhk_2p1_FYfvNkptuG3lSdVeySKta3WA,51
+natten_version_manager/libzip/type.pyi,sha256=J_oB0FuDEL_xJcWkdJPta3PFHCnqTlTA4eRSYndx8xw,15
+natten_version_manager/pypi/__init__.py,sha256=edRgrbfK1QHmFcxElhiDDUIvzB53RavyMBVepXLks8E,172
+natten_version_manager/pypi/core.py,sha256=gFIRnoHg9KHS91yXRG9D6mxNesh1XUJVvodFLVLyv9A,3604
+natten_version_manager/running/__init__.py,sha256=Kg3P8htkcAve4JB8KGXdxcfsa5ukKCWDvuLkTAeLFC4,23
+natten_version_manager/running/core.py,sha256=XWFyfjl27llFxMv2LwDVx839X6zj82ddE2xpT6rYtCY,2099
+natten_version_manager-0.0.1b17.dist-info/LICENSE,sha256=xnrvFoFYFhthj37FxqHydHzaokghgOuUHQwztxU_E7s,1065
+natten_version_manager-0.0.1b17.dist-info/METADATA,sha256=jJ5RkRXIeESOF1dYBxNROp7vRn-HfPZLiAcK2vHGilk,596
+natten_version_manager-0.0.1b17.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+natten_version_manager-0.0.1b17.dist-info/top_level.txt,sha256=fAxI_ETPjB_0tspKn35KdgxmbBqWk0qgD5CxYuT-paw,23
+natten_version_manager-0.0.1b17.dist-info/RECORD,,
