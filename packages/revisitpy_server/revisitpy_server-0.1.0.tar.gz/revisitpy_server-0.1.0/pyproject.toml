@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "revisitpy_server"
+version = "0.1.0"
+dependencies = []
+readme = "README.md"
+
+[tool.hatch.build]
+exclude = ["tests"]
+
+
+[tool.hatch.metadata]
+package-data = { "revisit_server" = ["static/**/*"] }
+include = ["src/revisit_server/static/**/*"]
