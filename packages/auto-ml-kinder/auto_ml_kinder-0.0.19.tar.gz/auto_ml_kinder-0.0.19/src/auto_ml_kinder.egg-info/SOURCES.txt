@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/auto_ml_kinder/__init__.py
+src/auto_ml_kinder/model_feature_selector.py
+src/auto_ml_kinder/model_list_helper.py
+src/auto_ml_kinder/model_training_data_prep.py
+src/auto_ml_kinder/model_training_helper.py
+src/auto_ml_kinder/neural_network_classification.py
+src/auto_ml_kinder/neural_network_regression.py
+src/auto_ml_kinder/pre_processing.py
+src/auto_ml_kinder.egg-info/PKG-INFO
+src/auto_ml_kinder.egg-info/SOURCES.txt
+src/auto_ml_kinder.egg-info/dependency_links.txt
+src/auto_ml_kinder.egg-info/requires.txt
+src/auto_ml_kinder.egg-info/top_level.txt
