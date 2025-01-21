@@ -1,0 +1,100 @@
+Metadata-Version: 2.2
+Name: provinces-and-cities
+Version: 1.0.4
+Summary: Package of countries provinces and cities.
+Home-page: https://github.com/mohammad-prb/provinces-and-cities-pypi
+Author: Mohammad Pourbehzad
+Author-email: Mohammad Pourbehzad <pspipm27@gmail.com>
+License: Copyright (c) 2024 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/mohammad-prb/provinces-and-cities-pypi
+Project-URL: Issues, https://github.com/mohammad-prb/provinces-and-cities-pypi/issues
+Project-URL: Repository, https://github.com/mohammad-prb/provinces-and-cities-pypi.git
+Keywords: provinces,province,cities,city,iran,germany
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# Countries Provinces and Cities
+
+This project provides data for provinces/states and cities of various countries. Currently, the following countries are included:
+
+- **Iran**: Detailed list of provinces and cities.
+- **Germany**: Comprehensive list of federal states (Bundesländer) and their cities.
+
+If you use languages other than Python and need these lists, you can access the **JSON** and **MySQL** Information through this [repository](https://github.com/mohammad-prb/provinces-and-cities).
+
+## Install
+```bash
+pip install provinces-and-cities
+```
+
+## How to Use
+```python
+from provinces_and_cities import Iran
+
+Iran.main    # all provinces and main cities
+Iran.all     # all provinces and all cities
+```
+
+### Examlpe of data
+```python
+Iran.main[7] = {
+    "id": 8,
+    "name": "تهران",
+    "tel_prefix": "021",
+    "cities": [
+        "اسلامشهر",
+        "بومهن",
+        "پاكدشت",
+        "تهران",
+        "چهاردانگه",
+        "دماوند",
+        "رودهن",
+        "ري",
+        "شريف آباد",
+        "شهر رباط كريم",
+        "شهر شهريار",
+        "فشم",
+        "فيروزكوه",
+        "قدس",
+        "كهريزك",
+        "لواسان بزرگ",
+        "ملارد",
+        "ورامين"
+    ]
+}
+```
+
+## Future Plans
+The project is designed to be scalable, and we plan to add data for other countries in the future. If you have suggestions for specific countries, feel free to contribute or create an issue.
+
+## Contributions
+We welcome contributions to expand this project. If you'd like to add data for a new country or improve existing data, please create a pull request.
+
+## Support
+If this project was helpful, please consider giving it a **star**. Your support helps us grow!

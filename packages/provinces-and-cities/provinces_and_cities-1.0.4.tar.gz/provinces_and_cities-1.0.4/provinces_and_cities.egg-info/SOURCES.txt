@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+provinces_and_cities/__init__.py
+provinces_and_cities.egg-info/PKG-INFO
+provinces_and_cities.egg-info/SOURCES.txt
+provinces_and_cities.egg-info/dependency_links.txt
+provinces_and_cities.egg-info/top_level.txt
