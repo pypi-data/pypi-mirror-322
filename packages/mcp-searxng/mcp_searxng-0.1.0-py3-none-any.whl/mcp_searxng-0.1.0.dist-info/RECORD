@@ -1,0 +1,11 @@
+mcp_searxng/__init__.py,sha256=2McGcKdpISyuKBdkVuHuNMtXV4jbNB_Cb4VLQ51NQ3I,91
+mcp_searxng/main.py,sha256=Kwf4YawdBnb8W4Xd5Qsi_g6ZZE45O_MRmvHzIwAT7og,871
+mcp_searxng/prompts.py,sha256=pf8oDS8AuDS-AQBgwJNh5pdE_TJ1pza5SfwZUOet9Is,1222
+mcp_searxng/search.py,sha256=jGRl2FsFl04rJkFIpCsSv_l1p9gWBEngizyY5tq9USI,2108
+mcp_searxng/server.py,sha256=uMK99PnqKuaivVhtTrEwk7G8MLICoEGq07il_PvYjPI,85
+mcp_searxng/tools.py,sha256=v8Xd0bnDSQ5X_NiGKMyqm30bRe7yjKpv8Ig5Te7XvLQ,1533
+mcp_searxng-0.1.0.dist-info/METADATA,sha256=ci54btw1b-i7FmQ5oOrYnjjouj_Zf5E4T6FMG0wEnx8,1685
+mcp_searxng-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_searxng-0.1.0.dist-info/entry_points.txt,sha256=mxiHpCKgMTjf_D3Ojd3KO4OBjW91J7_EIDiPTaLvEww,49
+mcp_searxng-0.1.0.dist-info/licenses/LICENSE,sha256=90GTcYtglRVqmK8GncPT-Nl5UbQFVKjoz0Vb67yezR8,1089
+mcp_searxng-0.1.0.dist-info/RECORD,,
