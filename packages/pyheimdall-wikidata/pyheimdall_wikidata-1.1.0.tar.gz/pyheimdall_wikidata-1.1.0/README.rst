@@ -1,0 +1,84 @@
+#############################
+Heimdall - Wikidata connector
+#############################
+
+.. image:: https://img.shields.io/badge/license-AGPL3.0-informational?logo=gnu&color=success
+   :target: https://www.gnu.org/licenses/agpl-3.0.html
+.. image:: https://www.repostatus.org/badges/latest/inactive.svg
+   :target: https://www.repostatus.org/#project-statuses
+.. image:: https://img.shields.io/pypi/v/pyheimdall-wikidata
+   :target: https://pypi.org/project/pyheimdall-wikidata/
+   :alt: PyPI Version
+.. image:: https://img.shields.io/badge/documentation-api-green
+   :target: https://datasphere.readthedocs.io/projects/heimdall/
+.. image:: https://gitlab.huma-num.fr/datasphere/heimdall/connectors/wikidata/badges/main/pipeline.svg
+   :target: https://gitlab.huma-num.fr/datasphere/heimdall/connectors/wikidata/pipelines/latest
+.. image:: https://gitlab.huma-num.fr/datasphere/heimdall/connectors/wikidata/badges/main/coverage.svg
+   :target: https://datasphere.gitpages.huma-num.fr/heimdall/connectors/wikidata/coverage/index.html
+
+*************
+What is this?
+*************
+
+`pyHeimdall <https://datasphere.readthedocs.io/projects/heimdall/python/>`_ is a tool for converting more easily one or more databases from one format to another.
+It leverages modules called "connectors", responsible for conversion of data between specific databases schemas and the HERA format.
+
+This repository implements a connector to Wikidata.
+The implementation was made without any intervention on pyHeimdall proper.
+
+*****************
+How can I use it?
+*****************
+
+Setup
+=====
+
+This Wikidata pyHeimdall connector is available as a `PyPI package <https://pypi.org/project/pyheimdall-wikidata/>`_ named ``pyheimdall-wikidata``.
+You can install it using the `pip <https://pip.pypa.io/en/stable/>`_ package manager:
+
+.. code-block:: bash
+
+   pip install pyheimdall-wikidata
+
+You can use `pip <https://pip.pypa.io/en/stable/>`_ to either upgrade or uninstall this connector, too:
+
+.. code-block:: bash
+
+   pip install --upgrade pyheimdall-wikidata
+   pip uninstall pyheimdall-wikidata
+
+Usage
+=====
+
+.. code-block:: python
+
+   import heimdall
+
+   HARRY_POTTER = 'https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q216930&format=json&languages=fr|en'
+   tree = heimdall.getDatabase(format='api:wikidata', url=HARRY_POTTER)
+   heimdall.createDatabase(tree, format='hera:xml', url='HARRY_POTTER.xml')
+
+Please note that you don't need to use ``pyheimdall-wikidata`` functions directly.
+As long as the package is installed on your system, pyHeimdall will automatically discover its features and allow you to use them as long as any other `default <https://gitlab.huma-num.fr/datasphere/heimdall/python/-/tree/main/src/heimdall/connectors>`_ or `external <https://gitlab.huma-num.fr/datasphere/heimdall/connectors>`_ connector.
+
+
+*************
+Is it tested?
+*************
+
+Of course!
+Here's `the coverage report <https://datasphere.gitpages.huma-num.fr/heimdall/connectors/wikidata/coverage/index.html>`_.
+
+
+*********************
+How can I contribute?
+*********************
+
+This project welcomes any feedback or proposal.
+Details can be accessed `here <https://gitlab.huma-num.fr/datasphere/heimdall/python/-/blob/main/CONTRIBUTING.rst>`_
+
+*******
+License
+*******
+
+`GNU Affero General Public License version 3.0 or later <https://choosealicense.com/licenses/agpl/>`_
