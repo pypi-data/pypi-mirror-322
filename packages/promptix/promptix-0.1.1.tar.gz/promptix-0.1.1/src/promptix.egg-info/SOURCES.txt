@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/promptix/__init__.py
+src/promptix.egg-info/PKG-INFO
+src/promptix.egg-info/SOURCES.txt
+src/promptix.egg-info/dependency_links.txt
+src/promptix.egg-info/entry_points.txt
+src/promptix.egg-info/requires.txt
+src/promptix.egg-info/top_level.txt
+tests/test_basic.py
+tests/test_complex_usage.py
