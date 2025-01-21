@@ -1,0 +1,3 @@
+[console_scripts]
+proofreading-cli=proofreading_cli.cli:cli
+
