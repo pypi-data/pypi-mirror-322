@@ -1,0 +1,83 @@
+Metadata-Version: 2.4
+Name: daggerml-cli
+Version: 0.0.7
+Project-URL: Documentation, https://github.com/daggerml/daggerml-cli#readme
+Project-URL: Issues, https://github.com/daggerml/daggerml-cli/issues
+Project-URL: Source, https://github.com/daggerml/daggerml-cli
+Author-email: Micha Niskin <micha.niskin@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Requires-Dist: asciidag
+Requires-Dist: boto3
+Requires-Dist: click
+Requires-Dist: dataclasses; python_version < '3.7'
+Requires-Dist: importlib-metadata; python_version < '3.8'
+Requires-Dist: jmespath
+Requires-Dist: lmdb
+Requires-Dist: msgpack
+Requires-Dist: pyyaml
+Requires-Dist: tabulate
+Provides-Extra: test
+Requires-Dist: coverage[toml]>=6.5; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Description-Content-Type: text/markdown
+
+# daggerml-cli [![PyPI - Version](https://img.shields.io/pypi/v/daggerml-cli.svg)](https://pypi.org/project/daggerml-cli) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/daggerml-cli.svg)](https://pypi.org/project/daggerml-cli)
+
+![The Prince of DAGness](img/prince-of-dagness.jpg)
+
+
+## Table of Contents
+
+- [Install](#install)
+- [Usage](#usage)
+- [Test](#test)
+- [Build](#build)
+- [License](#license)
+
+## Install
+
+```sh
+pipx install daggerml-cli
+```
+
+## Usage
+
+```sh
+dml --help
+dml COMMAND --help
+dml COMMAND SUBCOMMAND --help
+```
+
+> [!TIP]
+> Shell completion is available for bash/zsh via [argcomplete](https://github.com/kislyuk/argcomplete).
+
+
+## Test
+
+```sh
+hatch -e test run pytest .
+```
+
+## Build
+
+```sh
+hatch -e test run dml-build pypi
+```
+
+## License
+
+`daggerml-cli` is distributed under the terms of the [MIT](LICENSE.txt) license.
