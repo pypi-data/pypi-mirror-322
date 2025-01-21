@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "adifas"
+version = "0.1.0"
+description = "System Adifas :: AI agent for creating applications autonomously."
+authors = ["adifas@cosmosframework.com"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.scripts]
+adifas = "adifas.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
