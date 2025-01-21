@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Решение заданий из встроенного задачника Исполнителя PYROBBY</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            padding-left: 80px;
+            color: #3c4043;
+            background: #fafafa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #1a73e8;
+            font-weight: 500;
+            margin-top: 1.5em;
+            margin-bottom: 0.8em;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.2em;
+            border-bottom: 2px solid #e8f0fe;
+            padding-bottom: 0.3em;
+        }
+        h2 {
+            font-size: 1.8em;
+            padding-bottom: 0.2em;
+        }
+        h3 {
+            font-size: 1.4em;
+            color: #202124;
+        }
+        .task {
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .task:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .command {
+            background-color: #f8f9fa;
+            padding: 12px 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid #1a73e8;
+            font-family: 'Roboto Mono', monospace;
+        }
+        .solution {
+            position: relative;
+            margin: 20px 0;
+        }
+        .solution code {
+            display: block;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.9em;
+            line-height: 1.5;
+            color: #202124;
+            overflow-x: auto;
+            white-space: pre;
+        }
+        .copy-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 8px 16px;
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .copy-button:hover {
+            background-color: #1557b0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .copy-button.copied {
+            background-color: #34a853;
+        }
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 100vh;
+            background: #ffffff;
+            padding: 20px 15px;
+            border-right: 1px solid #e0e0e0;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 1000;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        .nav:hover {
+            width: 300px;
+        }
+        .nav h3 {
+            color: #1a73e8;
+            font-size: 1.1em;
+            font-weight: 500;
+            margin: 0 0 20px 0;
+            padding: 15px 0 10px 0;
+            border-bottom: 2px solid #1a73e8;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            white-space: nowrap;
+        }
+        .nav:hover h3 {
+            opacity: 1;
+        }
+        .nav a {
+            color: #3c4043;
+            text-decoration: none;
+            display: block;
+            padding: 10px 15px;
+            margin: 2px 0;
+            border-radius: 8px;
+            font-size: 0.9em;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+            opacity: 0;
+        }
+        .nav:hover a {
+            opacity: 1;
+        }
+        .nav a:hover {
+            background: #f1f3f4;
+            color: #1a73e8;
+            transform: translateX(3px);
+        }
+        .nav ul {
+            list-style: none;
+            padding-left: 5px;
+            margin: 0;
+        }
+        .nav ul ul {
+            display: none;
+            padding-left: 20px;
+            margin-top: 5px;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            min-width: 200px;
+            z-index: 1000;
+        }
+        .nav li {
+            position: relative;
+        }
+        .nav li:hover > ul {
+            display: block;
+        }
+        .nav:hover ul ul {
+            opacity: 1;
+        }
+        .nav ul ul a {
+            padding: 8px 15px;
+            font-size: 0.9em;
+            white-space: nowrap;
+            display: block;
+        }
+        .nav ul ul li:first-child {
+            margin-top: 5px;
+        }
+        .nav ul ul li:last-child {
+            margin-bottom: 5px;
+        }
+        .nav::before {
+            content: "≡";
+            font-size: 24px;
+            position: fixed;
+            top: 15px;
+            left: 13px;
+            color: #1a73e8;
+            transition: opacity 0.2s ease;
+            background: #ffffff;
+            padding: 10px;
+            z-index: 1001;
+        }
+        .nav:hover::before {
+            opacity: 0;
+        }
+        /* Стилизация скроллбара */
+        .nav::-webkit-scrollbar {
+            width: 4px;
+        }
+        .nav::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .nav::-webkit-scrollbar-thumb {
+            background: #dadce0;
+            border-radius: 4px;
+        }
+        .nav::-webkit-scrollbar-thumb:hover {
+            background: #1a73e8;
+        }
+        /* Активная ссылка */
+        .nav a.active,
+        .nav a:active,
+        .nav a:focus {
+            background: #e8f0fe;
+            color: #1a73e8;
+        }
+        /* Отступы для основного списка */
+        .nav > ul {
+            margin-top: 60px;
+        }
+        /* Стили для подразделов */
+        .nav ul ul a {
+            font-size: 0.85em;
+            padding: 5px 15px;
+            color: #5f6368;
+        }
+        .nav ul ul li {
+            margin: 2px 0;
+        }
+        /* Анимация появления текста */
+        .nav ul, .nav li {
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+        .nav:hover ul, .nav:hover li {
+            opacity: 1;
+        }
+        /* Добавим стили для мобильных устройств */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            .container {
+                padding: 15px;
+            }
+            .task {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            h3 {
+                font-size: 1.2em;
+            }
+            .nav {
+                display: none; /* Скрываем меню на мобильных */
+            }
+        }
+        /* Добавим стили для вложенных списков в меню */
+        .nav ul ul {
+            margin-left: 15px;
+            font-size: 0.9em;
+        }
+        
+        .nav ul ul li {
+            margin-bottom: 5px;
+        }
+        
+        .nav ul ul a {
+            padding: 3px 8px;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Добавляем отступ сверху для компенсации фиксированного меню */
+        section {
+            scroll-margin-top: 60px;
+        }
+        
+        /* Исправляем отступ для якорей с учетом фиксированного меню */
+        :target {
+            scroll-margin-top: 20px;
+            display: block;
+        }
+        
+        /* Улучшаем видимость активного раздела */
+        .task:target,
+        section:target {
+            border-left: 3px solid #007bff;
+            padding-left: 12px;
+            background-color: #f8f9fa;
+        }
+        
+        .tip-section {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+            border-left: 4px solid #34a853;
+        }
+        
+        .command-group {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+            border-left: 4px solid #1a73e8;
+        }
+        
+        .command-group code {
+            background: #ffffff;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.9em;
+            color: #1a73e8;
+        }
+        
+        .tip-section ul,
+        .command-group ul {
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        
+        .tip-section li,
+        .command-group li {
+            margin: 12px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        .tip-section li:before,
+        .command-group li:before {
+            content: "•";
+            color: #1a73e8;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        /* Улучшенная типографика */
+        p {
+            margin: 1em 0;
+            line-height: 1.7;
+            color: #3c4043;
+        }
+        
+        /* Анимации для интерактивных элементов */
+        .task, .copy-button, .command {
+            transition: all 0.2s ease;
+        }
+        
+        /* Стили для выделенного текста */
+        ::selection {
+            background: #e8f0fe;
+            color: #1a73e8;
+        }
+
+        /* Фиксированный фон под иконкой */
+        .nav::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 50px;
+            background: #ffffff;
+            z-index: 1000;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        /* Добавляем подсветку ключевых слов */
+        .solution code .keyword {
+            color: #1a73e8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h3>Содержание</h3>
+            <ul>
+                <li>
+                    <a href="#algo">Алгоритмические задания</a>
+                    <ul>
+                        <li><a href="#algo_task_1">Задание 1</a></li>
+                        <li><a href="#algo_task_2">Задание 2</a></li>
+                        <li><a href="#algo_task_3">Задание 3</a></li>
+                        <li><a href="#algo_task_4">Задание 4</a></li>
+                        <li><a href="#algo_task_5">Задание 5</a></li>
+                        <li><a href="#algo_task_6">Задание 6</a></li>
+                        <li><a href="#algo_task_7">Задание 7</a></li>
+                        <li><a href="#algo_task_8">Задание 8</a></li>
+                        <li><a href="#algo_task_9">Задание 9</a></li>
+                        <li><a href="#algo_task_10">Задание 10</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#for">Задания на циклы For</a>
+                    <ul>
+                        <li><a href="#for_task_1">Задание 1</a></li>
+                        <li><a href="#for_task_2">Задание 2</a></li>
+                        <li><a href="#for_task_3">Задание 3</a></li>
+                        <li><a href="#for_task_4">Задание 4</a></li>
+                        <li><a href="#for_task_5">Задание 5</a></li>
+                        <li><a href="#for_task_6">Задание 6</a></li>
+                        <li><a href="#for_task_7">Задание 7</a></li>
+                        <li><a href="#for_task_8">Задание 8</a></li>
+                        <li><a href="#for_task_9">Задание 9</a></li>
+                        <li><a href="#for_task_10">Задание 10</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#if">Задания на условия If</a>
+                    <ul>
+                        <li><a href="#if_task_1">Задание 1</a></li>
+                        <li><a href="#if_task_2">Задание 2</a></li>
+                        <li><a href="#if_task_3">Задание 3</a></li>
+                        <li><a href="#if_task_4">Задание 4</a></li>
+                        <li><a href="#if_task_5">Задание 5</a></li>
+                        <li><a href="#if_task_6">Задание 6</a></li>
+                        <li><a href="#if_task_7">Задание 7</a></li>
+                        <li><a href="#if_task_8">Задание 8</a></li>
+                        <li><a href="#if_task_9">Задание 9</a></li>
+                        <li><a href="#if_task_10">Задание 10</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#cif">Задания на сложные условия</a>
+                    <ul>
+                        <li><a href="#cif_task_1">Задание 1</a></li>
+                        <li><a href="#cif_task_2">Задание 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#while">Задания на циклы While</a>
+                    <ul>
+                        <li><a href="#while_task_1">Задание 1</a></li>
+                        <li><a href="#while_task_2">Задание 2</a></li>
+                        <li><a href="#while_task_3">Задание 3</a></li>
+                        <li><a href="#while_task_4">Задание 4</a></li>
+                        <li><a href="#while_task_5">Задание 5</a></li>
+                        <li><a href="#while_task_6">Задание 6</a></li>
+                        <li><a href="#while_task_7">Задание 7</a></li>
+                        <li><a href="#while_task_8">Задание 8</a></li>
+                        <li><a href="#while_task_9">Задание 9</a></li>
+                        <li><a href="#while_task_10">Задание 10</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#combined">Комбинированные задания</a>
+                    <ul>
+                        <li><a href="#combined_task_1">Задание 1</a></li>
+                        <li><a href="#combined_task_2">Задание 2</a></li>
+                        <li><a href="#combined_task_3">Задание 3</a></li>
+                        <li><a href="#combined_task_4">Задание 4</a></li>
+                        <li><a href="#combined_task_5">Задание 5</a></li>
+                        <li><a href="#combined_task_6">Задание 6</a></li>
+                        <li><a href="#combined_task_7">Задание 7</a></li>
+                        <li><a href="#combined_task_8">Задание 8</a></li>
+                        <li><a href="#combined_task_9">Задание 9</a></li>
+                        <li><a href="#combined_task_10">Задание 10</a></li>
+                    </ul>
+                </li>
+                <li><a href="#tips">Полезные советы</a></li>
+                <li><a href="#commands_reference">Справочник команд</a></li>
+            </ul>
+        </div>
+
+        
+
+            <section id="algo">
+                <h2>Алгоритмические задания</h2>
+                
+                <div id="algo_task_1" class="task">
+                    <h3>Задание 1</h3>
+                    <p>Робот находится в клетке (1,1). Необходимо переместить его в клетку (1,2).</p>
+                    <div class="solution">
+                        <code>
+                        right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="algo_task_2" class="task">
+                    <h3>Задание 2</h3>
+                    <p>Робот находится в клетке (3,3). Необходимо переместить его в клетку (3,5).</p>
+                    <div class="solution">
+                        <code>
+                        down
+                        down
+                        </code>
+                    </div>
+                </div>
+
+                <div id="algo_task_3" class="task">
+                    <h3>Задание 3</h3>
+                    <p>Робот находится в клетке (5,5). Необходимо пройти до клетки (3,5), огибая стену.</p>
+                    <div class="solution">
+                        <code>
+                        left
+                        up
+                        up
+                        up
+                        left
+                        down
+                        down
+                        </code>
+                    </div>
+                </div>
+
+                <div id="algo_task_4" class="task">
+                    <h3>Задание 4</h3>
+                    <p>Робот находится в клетке (1,5). Необходимо достичь клетки (3,3) и по пути закрасить клетку (3,2).</p>
+                    <div class="solution">
+                        <code>
+                        up
+                        up
+                        right
+                        paint
+                        right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="algo_task_5" class="task">
+                    <h3>Задание 5</h3>
+                    <p>Робот находится в клетке (3,3). Необходимо достичь клетки (5,1) и закрасить клетки (3,1), (4,1) и (5,1).</p>
+                    <div class="solution">
+                        <code>
+                        left
+                        up
+                        right
+                        paint
+                        right
+                        paint
+                        right
+                        paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="algo_task_6" class="task">
+                    <h3>Задание 6</h3>
+                    <p>Робот находится в клетке (3,3). Необходимо достичь клетки (6,3) и закрасить клетки все ячейки по пути.</p>
+                    <div class="solution">
+                        <code>                     
+                        paint
+                        right
+                        paint
+                        right                        
+                        paint
+                        right
+                        paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="algo_task_7" class="task">
+                    <h3>Задание 7</h3>
+                    <p>Робот находится в клетке (1,1). Необходимо достичь клетки (5,5) и закрасить ячейкидиагонали.</p>
+                    <div class="solution">
+                        <code>
+                        down
+                        right
+                        paint
+                        down
+                        right
+                        paint
+                        down
+                        right
+                        paint
+                        down
+                        right
+                        paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="algo_task_8" class="task">
+                    <h3>Задание 8</h3>
+                    <p>Робот находится в клетке (1,1). Необходимо закрасить поле по контуру и вернуться в исходную позицию.</p>
+                    <div class="solution">
+                        <code>                
+                        right
+                        paint
+                        right
+                        paint
+                        right
+                        paint
+                        down
+                        paint
+                        down
+                        paint
+                        down
+                        paint
+                        left
+                        paint
+                        left
+                        paint
+                        left
+                        paint
+                        left
+                        paint
+                        up
+                        paint
+                        up
+                        paint
+                        up
+                        paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="algo_task_9" class="task">
+                    <h3>Задание 9</h3>
+                    <p>Робот находится в клетке (1,1). Необходимо достичь ячейки (5,5).</p>
+                    <div class="solution">
+                        <code>
+                        right
+                        right
+                        right
+                        right
+                        down
+                        left
+                        left
+                        left
+                        down
+                        right
+                        right
+                        right
+                        right
+                        down
+                        left
+                        left
+                        left
+                        left
+                        down
+                        right
+                        right
+                        right
+                        right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="algo_task_10" class="task">
+                    <h3>Задание 10</h3>
+                    <p>Робот находится в клетке (8,8). Необходимо пройти лабиринт, закрасить ячейку (1,5) и достичь ячейки (1,1).</p>
+                    <div class="solution">
+                        <code>
+                        up
+                        left
+                        up
+                        right
+                        up
+                        up
+                        up
+                        left
+                        down
+                        down
+                        left
+                        left
+                        up
+                        left
+                        left
+                        down
+                        down
+                        down
+                        down
+                        left
+                        left
+                        up
+                        up
+                        up
+                        fillcell
+                        down
+                        down
+                        down
+                        right
+                        up
+                        up
+                        up
+                        up
+                        left
+                        up
+                        up
+                        right
+                        down
+                        right
+                        up
+                        right
+                        up
+                        left
+                        left
+                        left
+                        </code>
+                    </div>
+                </div>
+            </section>
+
+            <section id="for">
+                <h2>Задания на циклы For</h2>
+                
+                <div id="for_task_1" class="task">
+                    <h3>Задание 1</h3>
+                    <p>Робот находится в начале коридора длиной 6 клеток. Необходимо пройти до конца коридора, ограниченного стенами сверху и снизу.</p>
+                    <div class="solution">
+                        <code>
+                        for i in range(6):
+                            right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="for_task_2" class="task">
+                    <h3>Задание 2</h3>
+                    <p>Робот находится в начале коридора длиной 6 клеток. Необходимо пройти до конца коридора, закрашивая все клетки по пути кроме клетки (2,3).</p>
+                    <div class="solution">
+                        <code>
+                        for i in range(6):
+                            right
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="for_task_3" class="task">
+                    <h3>Задание 3</h3>
+                    <p>Робот находится в начале коридора длиной 6 клеток. Необходимо пройти до конца коридора, закрашивая все клетки по пути кроме клетки (8,3).</p>
+                    <div class="solution">
+                        <code>
+                        for i in range(6):
+                            paint
+                            right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="for_task_4" class="task">
+                    <h3>Задание 4</h3>
+                    <p>Робот находится в начале коридора длиной 6 клеток. Необходимо пройти до конца коридора, закрашивая все клетки по пути.</p>
+                    <div class="solution">
+                        <code>
+                        for i in range(6):
+                            paint
+                            right
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="for_task_5" class="task">
+                    <h3>Задание 5</h3>
+                    <p>Робот находится в клетке (1,1). Необходимо закрасить все клетки по диагонали и достичь клетки (7,7).</p>
+                    <div class="solution">
+                        <code>
+                        for i in range(6):
+                            down
+                            right
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="for_task_6" class="task">
+                    <h3>Задание 6</h3>
+                    <p>Робот находится в клетке (1,1). Необходимо закрасить поле по контуру и вернуться в исходную позицию.</p>
+                    <div class="solution">
+                        <code>
+                        for i in range(3):
+                            down
+                            paint
+                        for i in range(3):
+                            right
+                            paint
+                        for i in range(3):
+                            up
+                            paint
+                        for i in range(3):
+                            left
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="for_task_7" class="task">
+                    <h3>Задание 7</h3>
+                    <p>Робот находится в клетке (1,1). Необходимо достичь ячейки (7,7).</p>
+                    <div class="solution">
+                        <code>
+                        for i in range(3):
+                            for j in range(4):
+                                right
+                            down
+                            for j in range(4):
+                                left
+                            down
+                        for j in range(4):
+                                right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="for_task_8" class="task">
+                    <h3>Задание 8</h3>
+                    <p>Робот находится в клетке (1,1) необходимо закрасить поле 7х7 в шахматном порядке и достичь клетки (7,7)/</p>
+                    <div class="solution">
+                        <code>
+                        for i in range(3):
+                            for j in range(3):
+                                paint
+                                down
+                                down
+                                paint
+                            right
+                            for j in range(3):
+                                up 
+                                paint
+                                up
+                            right
+                        for i in range(3):
+                                paint
+                                down
+                                down
+                                paint                            
+
+                        </code>
+                    </div>
+                </div>
+
+                <div id="for_task_9" class="task">
+                    <h3>Задание 9</h3>
+                    <p>Робот находится в клетке (4,2). Необходимо закрасить клетки под ним до клетки (11,11) минуя препятсвия и вернуться обратно.</p>
+                    <div class="solution">
+                        <code>
+                        for i in range(5):
+                            paint
+                            left
+                            down
+                            down
+                            right
+                        right
+                        up 
+                        left
+                        for i in range(5):
+                            paint
+                            right
+                            up
+                            up 
+                            left            
+                        left 
+                        down 
+                        right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="for_task_10" class="task">
+                    <h3>Задание 10</h3>
+                    <p>Робот находится в клетке (2,1). Необходимо закрасить квадрат по контуру и вернуться в исходную позицию.</p>
+                    <div class="solution">
+                        <code>
+                        down
+                        for i in range(5):
+                            paint
+                            right
+                            down
+                            left
+                            paint
+                        right
+                        for i in range(3):
+                            paint
+                            up
+                            right
+                            down
+                            paint
+                        right
+                        for i in range(5):
+                            paint
+                            left
+                            up
+                            right
+                            paint
+                        left
+                        for i in range(3):
+                            paint
+                            down
+                            left
+                            up
+                            paint
+                        left
+                        up
+                        </code>
+                    </div>
+                </div>
+            </section>
+
+            <section id="if">
+                <h2>Задания на условия If</h2>
+                
+                <div id="if_task_1" class="task">
+                    <h3>Задание 1</h3>
+                    <p>Робот находится в клетке (2,2). Если справа есть стена, закрасить текущую клетку.</p>
+                    <div class="solution">
+                        <code>
+                        if wallfromright:
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="if_task_2" class="task">
+                    <h3>Задание 2</h3>
+                    <p>Робот находится в клетке (4,2). Достигнуть клетки (2,2) и, если слева есть стена закрасить её.</p>
+                    <div class="solution">
+                        <code>
+                        left
+                        left
+                        if wallfromleft:
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="if_task_3" class="task">
+                    <h3>Задание 3</h3>
+                    <p>Робот находится в клетке (2,2). Закрасить клетку (2,1), если робот находится между 2 стенами.</p>
+                    <div class="solution">
+                        <code>
+                        if wallfromleft and wallfromright:
+                            up 
+                            paint
+                            down
+                        </code>
+                    </div>
+                </div>
+
+                <div id="if_task_4" class="task">
+                    <h3>Задание 4</h3>
+                    <p>Робот находится в клетке (2,2). Если справа есть стена , то необходимо достигнуть точку (2,1), иначе - точку (3,2).</p>
+                    <div class="solution">
+                        <code>
+                        if wallfromright():
+                            left
+                        else:
+                            right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="if_task_5" class="task">
+                    <h3>Задание 5</h3>
+                    <p>Робот находиться в левом врехнем углу либо в правом верхнем углу поля. Необходимо достигнуть противоположную вершину поля</p>
+                    <div class="solution">
+                        <code>
+                        if wallfromleft:
+                            right
+                        else:
+                            left
+                        down
+                        </code>
+                    </div>
+                </div>
+
+                <div id="if_task_6" class="task">
+                    <h3>Задание 6</h3>
+                    <p>Робот находится в клетке (3,3).Около робота случайным образом появляется стена, необходимо передвинуть робота на 1 клетку в противоположное направление от стены и закрасить эту ячейку.</p>
+                    <div class="solution">
+                        <code>
+                        if wallfromup:
+                            down
+                            paint
+                        elif wallfromright:
+                            left
+                            paint
+                        elif wallfromleft:
+                            right
+                            paint
+                        else:
+                            up 
+                            paint                            
+                        </code>
+                    </div>
+                </div>
+
+                <div id="if_task_7" class="task">
+                    <h3>Задание 7</h3>
+                    <p>Робот находиться в гараже с 1 выходом, который постоянно меняется. Необходимо выйти из гаража и закрасить клетку, в которую оказался робот.</p>
+                    <div class="solution">
+                        <code>
+                        if freefromright:
+                            right
+                            paint
+                        elif freefromleft:
+                            left
+                            paint
+                        elif freefromup:
+                            up
+                            paint
+                        else:
+                            down
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="if_task_8" class="task">
+                    <h3>Задание 8</h3>
+                    <p>Робот находится в вершин квадрата. Достичь клектки противоположной вершины.</p>
+                    <div class="solution">
+                        <code>
+                        if freefromright and freefromup:
+                            right
+                            up 
+                        elif freefromleft and freefromup:
+                            left
+                            up
+                        elif freefromright and freefromdown:
+                            right
+                            down
+                        else:
+                            left
+                            down
+                            
+                        </code>
+                    </div>
+                </div>
+
+                <div id="if_task_9" class="task">
+                    <h3>Задание 9</h3>
+                    <p>Робот находится в клетке (3,3). Необходимо проверить есть ли стены в соседних клетках, если они есть, то закрасить эти клетки, и вернуться в исходную точку и закрасить её.</p>
+                    <div class="solution">
+                        <code>
+                        up
+                        if wallfromup:
+                            paint
+                        down
+                        right
+                        if wallfromright:
+                            paint
+                        left
+                        down
+                        if wallfromdown:
+                            paint
+                        up
+                        left
+                        if  wallfromleft:
+                            paint
+                        right
+                        paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="if_task_10" class="task">
+                    <h3>Задание 10</h3>
+                    <p>Робота находиться в клетке (3,3). Необходимо закрасить ячейки находящиеся по диагонали возле которых есть 2 стены и вернуться назад в клетку (3,3).</p>
+                    <div class="solution">
+                        <code>
+                        up
+                        left
+                        if wallfromleft:
+                            paint
+                        down
+                        down
+                        if wallfromleft:
+                            paint
+                        right
+                        right
+                        if wallfromright:
+                            paint
+                        up
+                        up
+                        if wallfromright:
+                            paint
+                        left
+                        down
+                        </code>
+                    </div>
+                </div>
+            </section>
+
+            <section id="cif">
+                <h2>Задания на сложные условия</h2>
+                
+                <div id="cif_task_1" class="task">
+                    <h3>Задание 1</h3>
+                    <p>Робот должен пройти по коридору случайной длины, закрашивая клетки, над которыми есть стена.</p>
+                    <div class="solution">
+                        <code>
+                        while not wallfromright():
+                            if wallfromup():
+                                paint
+                            right()
+                        if wallfromup():
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="cif_task_2" class="task">
+                    <h3>Задание 2</h3>
+                    <p>Робот должен пройти по коридору, закрашивая клетки, у которых есть стена сверху или снизу (случайное расположение).</p>
+                    <div class="solution">
+                        <code>
+                        while not wallfromright():
+                            if wallfromup() or wallfromdown():
+                                paint
+                            right()
+                        </code>
+                    </div>
+                </div>
+            </section>
+
+            <section id="while">
+                <h2>Задания на циклы While</h2>
+                
+                <div id="while_task_1" class="task">
+                    <h3>Задание 1</h3>
+                    <p>Робот должен пройти по коридору случайной длины. Коридор ограничен стенами сверху и снизу.</p>
+                    <div class="solution">
+                        <code>                    while freefromright:
+                            right                            
+                        </code>
+                    </div>
+                </div>
+
+                <div id="while_task_2" class="task">
+                    <h3>Задание 2</h3>
+                    <p>Робот находится в начале коридора случайной длины. Необходимо пройти до конца коридора, закрашивая все клетки кроме последней. Коридор ограничен стенами сверху и снизу.</p>
+                    <div class="solution">
+                        <code>
+                        while freefromright:
+                            paint
+                            right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="while_task_3" class="task">
+                    <h3>Задание 3</h3>
+                    <p>Робот находится в начале коридора случайной длины. Необходимо пройти до конца коридора, закрашивая все клетки кроме первой. Коридор ограничен стенами сверху и снизу.</p>
+                    <div class="solution">
+                        <code>
+                        while freefromright: 
+                            right
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="while_task_4" class="task">
+                    <h3>Задание 4</h3>
+                    <p>Робот находится в начале коридора случайной длины. Необходимо пройти до конца коридора, закрашивая все клетки. Коридор ограничен стенами сверху и снизу.</p>
+                    <div class="solution">
+                        <code>
+                        while freefromright:
+                            paint
+                            right
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="while_task_5" class="task">
+                    <h3>Задание 5</h3>
+                    <p>Робот находится в клетке (1,1) квадратного поля случайной длины. Необходимо закрасить клетки по диагонали и достигнуть противоположной вершины поля.</p>
+                    <div class="solution">
+                        <code>
+                        while freefromdown:
+                            down
+                            right
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="while_task_6" class="task">
+                    <h3>Задание 6</h3>
+                    <p>Робот находится в клетке (1,1) квадратного поля случайной длины. Необходимо закрасить клетки по контуру поля и вернуться в первоначальное положение.</p>
+                    <div class="solution">
+                        <code>
+                        while freefromdown:
+                            down
+                            paint
+                        while freefromright:
+                            right
+                            paint
+                        while freefromup:
+                            up
+                            paint
+                        while freefromleft:
+                            left
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="while_task_7" class="task">
+                    <h3>Задание 7</h3>
+                    <p>Робот находится в клетке (1,1) случайного поля с лестницей. Необходимо достигнуть в противположную вершину поля.</p>
+                    <div class="solution">
+                        <code>
+                        while freefromright:
+                            while freefromright:
+                                right
+                            while freefromdown:
+                                down
+                                while freefromleft:
+                                    left          
+                                down
+                           
+                        </code>
+                    </div>
+                </div>
+
+                <div id="while_task_8" class="task">
+                    <h3>Задание 8</h3>
+                    <p>Робот находится в произвольной клетке поля. Необходимо закрасить все клетки и достигнуть противоположной вершины поля.</p>
+                    <div class="solution">
+                        <code>
+                        while freefromright:
+                            while freefromdown:
+                                paint
+                                down
+                                paint
+                            while freefromup:
+                                up
+                            right
+                        while freefromdown:
+                                paint
+                                down
+                                paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="while_task_9" class="task">
+                    <h3>Задание 9</h3>
+                    <p>Робот находится в клетке (3,2). Необходимо закрасить все клетки, находящиеся под стеной и прибыть в последнюю из них.</p>
+                    <div class="solution">
+                        <code>
+                        paint   
+                        while wallfromdown:
+                            right
+                            down
+                            left
+                            paint
+                        </code>
+                    </div>
+                </div>
+
+                <div id="while_task_10" class="task">
+                    <h3>Задание 10</h3>
+                    <p>Робот находится в клетке в нижнем левом углу изменяющегося поля. Необходимо добраться до правого нижнего угла поля, минуя и закрашивая все стены на пути.  </p>
+                    <div class="solution">
+                        <code>
+                        while freefromright and freefromup:
+                            while freefromright:
+                                right
+                            while wallfromright and freefromup:
+                                paint
+                                up
+                                paint
+                            while freefromup and freefromleft:
+                                right
+                                paint
+                                down
+                            while wallfromleft and freefromdown:
+                                paint
+                                down
+                                paint
+
+                        </code>
+                    </div>
+                </div>
+            </section>
+
+            <section id="combined">
+                <h2>Задания на применение циклов и условий</h2>
+                
+                <div id="combined_task_1" class="task">
+                    <h3>Задание 1</h3>
+                    <p>Робот находится в начале коридора. Необходимо дойти до конца, закрашивая клетки только там, где есть стена справа.</p>
+                    <div class="solution">
+                        <code>
+                        while freefromright:
+                            if wallfromright:
+                                paint
+                            right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="combined_task_2" class="task">
+                    <h3>Задание 2</h3>
+                    <p>Робот находится в лабиринте. Необходимо дойти до конца, закрашивая клетки в тупиках (где есть стены с трёх сторон).</p>
+                    <div class="solution">
+                        <code>
+                        while not wallfromright:
+                            if wallfromup and wallfromdown and wallfromright:
+                                paint
+                            right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="combined_task_3" class="task">
+                    <h3>Задание 3</h3>
+                    <p>Робот находится в начале поля. Необходимо закрасить все чётные клетки в строке, используя счётчик.</p>
+                    <div class="solution">
+                        <code>
+                        count = 1
+                        while freefromright:
+                            if count % 2 == 0:
+                                paint
+                            right
+                            count += 1
+                        </code>
+                    </div>
+                </div>
+
+                <div id="combined_task_4" class="task">
+                    <h3>Задание 4</h3>
+                    <p>Робот должен подняться по ступенькам, закрашивая каждую третью ступеньку.</p>
+                    <div class="solution">
+                        <code>
+                        step = 0
+                        while freefromup or freefromright:
+                            if step == 2:
+                                paint
+                                step = 0
+                            else:
+                                step += 1
+                            if freefromup:
+                                up
+                            else:
+                                right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="combined_task_5" class="task">
+                    <h3>Задание 5</h3>
+                    <p>Робот должен обойти периметр поля, закрашивая углы.</p>
+                    <div class="solution">
+                        <code>
+                        for i in range(4):
+                            while freefromright:
+                                if wallfromup and wallfromright:
+                                    paint
+                                right
+                            down
+                        </code>
+                    </div>
+                </div>
+
+                <div id="combined_task_6" class="task">
+                    <h3>Задание 6</h3>
+                    <p>Робот должен пройти змейкой по полю, закрашивая клетки, где есть стены и сверху, и снизу.</p>
+                    <div class="solution">
+                        <code>
+                        while not wallfromdown:
+                            while freefromright:
+                                if wallfromup and wallfromdown:
+                                    paint
+                                right
+                            down
+                            while freefromleft:
+                                if wallfromup and wallfromdown:
+                                    paint
+                                left
+                            down
+                        </code>
+                    </div>
+                </div>
+
+                <div id="combined_task_7" class="task">
+                    <h3>Задание 7</h3>
+                    <p>Робот должен подняться по диагонали, закрашивая клетки, если справа и слева есть стены.</p>
+                    <div class="solution">
+                        <code>
+                        while freefromup and freefromright:
+                            if wallfromleft and wallfromright:
+                                paint
+                            up
+                            right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="combined_task_8" class="task">
+                    <h3>Задание 8</h3>
+                    <p>Робот должен пройти по спирали, закрашивая каждую вторую клетку.</p>
+                    <div class="solution">
+                        <code>
+                        count = 0
+                        steps = 4
+                        while steps > 0:
+                            for i in range(steps):
+                                if count % 2 == 0:
+                                    paint
+                                if steps == 4:
+                                    right
+                                elif steps == 3:
+                                    down
+                                elif steps == 2:
+                                    left
+                                else:
+                                    up
+                                count += 1
+                            steps -= 1
+                        </code>
+                    </div>
+                </div>
+
+                <div id="combined_task_9" class="task">
+                    <h3>Задание 9</h3>
+                    <p>Робот должен пройти по лабиринту, закрашивая клетки перед препятствиями.</p>
+                    <div class="solution">
+                        <code>
+                        while not wallfromright:
+                            if wallfromright or wallfromup:
+                                paint
+                            if wallfromright and not wallfromup:
+                                up
+                            elif wallfromup and not wallfromright:
+                                right
+                            else:
+                                right
+                        </code>
+                    </div>
+                </div>
+
+                <div id="combined_task_10" class="task">
+                    <h3>Задание 10</h3>
+                    <p>Робот должен пройти по полю, закрашивая клетки в шахматном порядке, но только там, где нет стен.</p>
+                    <div class="solution">
+                        <code>
+                        row = 0
+                        col = 0
+                        while not wallfromdown:
+                            while freefromright:
+                                if (row + col) % 2 == 0 and not wallfromup:
+                                    paint
+                                right
+                                col += 1
+                            down
+                            row += 1
+                            col = 0
+                            while freefromleft:
+                                if (row + col) % 2 == 0 and not wallfromup:
+                                    paint
+                                left
+                                col += 1
+                            if not wallfromdown:
+                                down
+                                row += 1
+                                col = 0
+                        </code>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tips">
+                <h2>Полезные советы</h2>
+                
+                <div id="debugging" class="tip-section">
+                    <h3>Отладка программ</h3>
+                    <ul>
+                        <li>Проверяйте начальное положение робота</li>
+                        <li>Разбивайте сложные задачи на простые шаги</li>
+                        <li>Используйте комментарии для пометок проблемных мест</li>
+                        <li>Тестируйте программу на разных начальных условиях</li>
+                    </ul>
+                </div>
+
+                <div id="optimization_tips" class="tip-section">
+                    <h3>Оптимизация решений</h3>
+                    <ul>
+                        <li>Используйте циклы вместо повторяющихся команд</li>
+                        <li>Объединяйте похожие проверки условий</li>
+                        <li>Сохраняйте промежуточные результаты в переменные</li>
+                        <li>Избегайте дублирования кода</li>
+                    </ul>
+                </div>
+
+                <div id="practice_tips" class="tip-section">
+                    <h3>Советы по практике</h3>
+                    <ul>
+                        <li>Начинайте с простых задач</li>
+                        <li>Рисуйте схему движения робота</li>
+                        <li>Записывайте алгоритм словами перед написанием кода</li>
+                        <li>Регулярно практикуйтесь в решении новых задач</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="commands_reference">
+                <h2>Справочник команд</h2>
+                
+                <div class="command-group">
+                    <h3>Команды перемещения</h3>
+                    <ul>
+                        <li><code>up()</code> - перемещение вверх на одну клетку</li>
+                        <li><code>down()</code> - перемещение вниз на одну клетку</li>
+                        <li><code>left()</code> - перемещение влево на одну клетку</li>
+                        <li><code>right()</code> - перемещение вправо на одну клетку</li>
+                    </ul>
+                </div>
+
+                <div class="command-group">
+                    <h3>Команды проверки стен</h3>
+                    <ul>
+                        <li><code>wallfromup()</code> - проверка стены сверху</li>
+                        <li><code>wallfromdown()</code> - проверка стены снизу</li>
+                        <li><code>wallfromleft()</code> - проверка стены слева</li>
+                        <li><code>wallfromright()</code> - проверка стены справа</li>
+                    </ul>
+                </div>
+
+                <div class="command-group">
+                    <h3>Команды работы с клетками</h3>
+                    <ul>
+                        <li><code>paint</code> - закрасить текущую клетку</li>
+                        <li><code>cellispainted()</code> - проверка, закрашена ли клетка</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Добавляем JavaScript для функционала копирования -->
+    <script>
+        // Обновляем JavaScript для корректной обработки отступов
+        function addCopyButtons() {
+            const solutions = document.querySelectorAll('.solution');
+            
+            solutions.forEach(solution => {
+                const code = solution.querySelector('code');
+                const button = document.createElement('button');
+                button.className = 'copy-button';
+                button.textContent = 'Скопировать';
+                
+                button.addEventListener('click', async () => {
+                    try {
+                        // Получаем текст и обрабатываем отступы
+                        let codeText = code.textContent;
+                        
+                        // Разбиваем на строки
+                        let lines = codeText.split('\n');
+                        
+                        // Удаляем пустые строки в начале и конце
+                        while (lines[0]?.trim() === '') lines.shift();
+                        while (lines[lines.length - 1]?.trim() === '') lines.pop();
+                        
+                        // Находим минимальный отступ (исключая пустые строки)
+                        const minIndent = Math.min(
+                            ...lines
+                                .filter(line => line.trim())
+                                .map(line => line.match(/^\s*/)[0].length)
+                        );
+                        
+                        // Убираем лишние отступы
+                        lines = lines.map(line => {
+                            if (line.trim()) {
+                                return line.slice(minIndent);
+                            }
+                            return line.trim();
+                        });
+                        
+                        // Собираем текст обратно
+                        const cleanCode = lines.join('\n').trim();
+                        
+                        await navigator.clipboard.writeText(cleanCode);
+                        button.textContent = 'Скопировано!';
+                        button.classList.add('copied');
+                        
+                        setTimeout(() => {
+                            button.textContent = 'Скопировать';
+                            button.classList.remove('copied');
+                        }, 2000);
+                    } catch (err) {
+                        console.error('Ошибка при копировании:', err);
+                        button.textContent = 'Ошибка!';
+                        button.style.backgroundColor = '#dc3545';
+                        
+                        setTimeout(() => {
+                            button.textContent = 'Скопировать';
+                            button.style.backgroundColor = '';
+                        }, 2000);
+                    }
+                });
+                
+                solution.appendChild(button);
+            });
+        }
+
+        // Добавляем JavaScript для подсветки ключевых слов
+        function highlightKeywords() {
+            const keywords = [
+                'up', 'down', 'left', 'right',
+                'fillcell', 'wallfromleft', 'wallfromright', 'wallfromup', 'wallfromdown',
+                'freefromleft', 'freefromright', 'freefromup', 'freefromdown',
+                'cellispainted', 'cellisfree', 'paint', 'if', 'while', 'for', 'foreach', 'else', 'elseif', 'endif'
+            ];
+
+            const codeBlocks = document.querySelectorAll('.solution code');
+            codeBlocks.forEach(block => {
+                let html = block.innerHTML;
+                keywords.forEach(keyword => {
+                    const regex = new RegExp(`\\b${keyword}\\b`, 'g');
+                    html = html.replace(regex, `<span class="keyword">${keyword}</span>`);
+                });
+                block.innerHTML = html;
+            });
+        }
+
+        // Запускаем функцию после загрузки страницы
+        document.addEventListener('DOMContentLoaded', () => {
+            addCopyButtons();
+            highlightKeywords();
+        });
+    </script>
+</body>
+</html>
