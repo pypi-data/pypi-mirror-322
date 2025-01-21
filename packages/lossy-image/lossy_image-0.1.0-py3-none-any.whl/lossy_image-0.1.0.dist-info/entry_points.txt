@@ -1,0 +1,2 @@
+[console_scripts]
+lossy-image = lossy_image:main

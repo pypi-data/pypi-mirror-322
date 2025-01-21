@@ -1,0 +1,17 @@
+lossy_image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lossy_image/compression.py,sha256=boLJM4gjeCmZiy4QveyOijM4E1nsjTZwqBDbNIFHX3M,1475
+lossy_image/evaluation.py,sha256=JDAxthYu3jF3syOUe0nGOi9TsqjPhxKuia1uMWRW9pg,3369
+lossy_image/result.py,sha256=yE43tCLwpdIc_u1F6Xu4u13heWp-36kYw3C4Z4g4Mcs,1984
+lossy_image/algorithm/__init__.py,sha256=WXMZsK-xEYt9P4vj4Kq4Hnr22ctmTkMYigWtZqhmIW0,998
+lossy_image/algorithm/jpeg.py,sha256=tpQs4_2F-J3w5bOdqGJO1s77Sed1jp2wDG7UvW-kbSY,594
+lossy_image/algorithm/jpeg2k.py,sha256=yu1RDmz2rmpSyEQUGoS0FoqNKLY5_2dSSn2NIPptLe8,559
+lossy_image/algorithm/webp.py,sha256=Bej_tmI1Gxd1MT3M0mD_q8eUt9nBUNA39omovXLcrDY,551
+lossy_image/metric/__init__.py,sha256=2BS1wf1SCIaHCE6T_1_X0GaznIvMlq6os1Wb1co399w,622
+lossy_image/metric/fsim.py,sha256=0HizokOfaERW_leeaR9jsdIwQaXSGZeEi2KovnL2Jeg,395
+lossy_image/metric/psnr.py,sha256=e5Xp1mHFrtKhK4sTc2snx3mCv5spUFAVV9E7InijwhQ,358
+lossy_image/metric/size_ratio.py,sha256=aNeAtUTQHGd_R-FXYv79WrhFdrWbHHD3gp2060tS3Xk,263
+lossy_image/metric/ssim.py,sha256=scL10PI5QGl17iIEZpKl8xJG0H02VxpNb_V4aqA7DbI,359
+lossy_image-0.1.0.dist-info/METADATA,sha256=mI4iX0Ra9SaZpHZ34pHgKGAaLgBJuMiH1Hz3E57Z4iM,264
+lossy_image-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+lossy_image-0.1.0.dist-info/entry_points.txt,sha256=ExgTBDRMgktGggxXaWP-mXuaVEU2kL7bXFnrWuVI-5U,49
+lossy_image-0.1.0.dist-info/RECORD,,
