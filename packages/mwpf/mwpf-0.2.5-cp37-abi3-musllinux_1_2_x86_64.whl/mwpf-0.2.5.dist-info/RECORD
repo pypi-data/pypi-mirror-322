@@ -1,0 +1,8 @@
+mwpf-0.2.5.dist-info/METADATA,sha256=3dLzg3cMNY-whYjHACLwyHHAvENcCwp8arNUJ-8H7z8,12829
+mwpf-0.2.5.dist-info/RECORD,,
+mwpf-0.2.5.dist-info/WHEEL,sha256=ghP7GbVDqy-2O-vH7uabQBpF8UuxRi6BOMW8VH5ieH0,106
+mwpf-0.2.5.dist-info/licenses/LICENSE,sha256=rowuL9adVG6oK2714bcCIUnHSDbpVkXH-kD54VH_jGc,1063
+mwpf/__init__.py,sha256=5oucRjT1s47FLWxrLDrdO6rpWH5KPwUK-cBHAkPBvLg,99
+mwpf/mwpf.abi3.so,sha256=8uxjm98oHr1fgbN4UNPKaa5ZhVLGjNBb1hfYuyI2xT4,86999833
+mwpf.libs/libgcc_s-a0b57c20.so.1,sha256=XPAr2giQZFaQKDEig3i_sQM7zfbaGkuhwmZ9ryvu-Vk,148041
+mwpf.libs/libstdc++-0d31ccbe.so.6.0.32,sha256=QyUTnI2umnGgPmNJ-6F_BVIAJnq6-70cNoEWpma6EFQ,3494521
