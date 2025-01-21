@@ -1,0 +1,46 @@
+# llmcode-install
+
+A streamlined installer for the [llmcode AI coding assistant](https://llmcode.khulnasoft.com).
+
+## Quickly install llmcode
+
+```bash
+python -m pip install llmcode-install
+llmcode-install
+```
+
+## Features
+
+- Sets up llmcode and its dependencies in an isolated environment
+- Automatically installs Python 3.12 if not present
+- Uses [uv](https://docs.astral.sh/uv/) for fast, reliable Python package management
+- Zero configuration needed
+- Only 2 packages are installed in the original python environment: uv and llmcode-install.
+No other dependencies pollute your original python environment.
+
+## Requirements
+
+- macOS, Linux, or Windows
+- Python 3.8+ (Python 3.12 will be installed if needed)
+
+## How it works
+
+1. Running `python -m pip install llmcode-install` installs:
+  - The very minimal `llmcode-install` package, which provides the `llmcode-install` command.
+  - The uv python package as its only dependency.
+2. Running `llmcode-install` does this:
+
+```bash
+uv tool install --python python3.12 llmcode-chat
+uv tool update-shell
+```
+
+## Documentation
+
+- [Llmcode documentation](https://llmcode.khulnasoft.com)
+- [uv package manager](https://docs.astral.sh/uv/)
+
+## Support
+
+For issues with the installer, please [open a GitHub issue](https://github.com/KhulnaSoft/llmcode/issues).
+For llmcode usage questions, see the [llmcode documentation](https://llmcode.khulnasoft.com).
