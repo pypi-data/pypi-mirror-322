@@ -1,0 +1,2 @@
+[console_scripts]
+WFM4Cities = WFM4Cities.Water_flooding_Model:main
