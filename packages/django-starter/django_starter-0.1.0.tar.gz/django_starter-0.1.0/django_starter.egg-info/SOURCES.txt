@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+django_starter/__init__.py
+django_starter/cli.py
+django_starter.egg-info/PKG-INFO
+django_starter.egg-info/SOURCES.txt
+django_starter.egg-info/dependency_links.txt
+django_starter.egg-info/entry_points.txt
+django_starter.egg-info/requires.txt
+django_starter.egg-info/top_level.txt
