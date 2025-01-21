@@ -1,0 +1,7 @@
+README.md
+setup.py
+polymertools.egg-info/PKG-INFO
+polymertools.egg-info/SOURCES.txt
+polymertools.egg-info/dependency_links.txt
+polymertools.egg-info/requires.txt
+polymertools.egg-info/top_level.txt
