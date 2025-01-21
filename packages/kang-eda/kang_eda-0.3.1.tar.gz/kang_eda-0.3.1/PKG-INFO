@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: kang-eda
+Version: 0.3.1
+Summary: Default template for PDM package
+Author-Email: khr0106 <kanghr990106@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: president-speech>=0.9.1
+Requires-Dist: typer>=0.15.1
+Description-Content-Type: text/markdown
+
+# kang-eda
+![LGTM](https://i.lgtm.fun/2vrl.png)
+
+### DEV
+```bash
+$ source .venv/bin/activate
+$ pdm add pandas
+$ pdm add -dG eda jupyterlab
+$ pdm add <...>
+
+$ git add .
+$ git commit -m
+$ git push
+$ pdm publish
+```
+
+### EDA
+- run jupyterlab
+
+```
+$ jupyter lab
+```
+
+### How To Use
+```bash
+$ pip install kang-eda or pdm add kang-eda
+$ python
+>>> from kang_eda.cli import group_by_count
+>>> group_by_count()
+```
+
+
+### Ref
+- [install jupyterlab](https://jupyter.org/install)
+- [President](https://pypi.org/project/president-speech/)
