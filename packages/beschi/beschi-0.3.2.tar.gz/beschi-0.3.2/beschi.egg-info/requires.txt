@@ -1,0 +1,8 @@
+
+[dev]
+pytest
+
+[publish]
+build
+twine
+setuptools
