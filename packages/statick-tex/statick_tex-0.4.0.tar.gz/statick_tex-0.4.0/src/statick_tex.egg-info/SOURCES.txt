@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/statick_tex.egg-info/PKG-INFO
+src/statick_tex.egg-info/SOURCES.txt
+src/statick_tex.egg-info/dependency_links.txt
+src/statick_tex.egg-info/entry_points.txt
+src/statick_tex.egg-info/requires.txt
+src/statick_tex.egg-info/top_level.txt
+src/statick_tool/plugins/discovery/tex.py
+src/statick_tool/plugins/tool/chktex.py
+src/statick_tool/plugins/tool/lacheck.py
+src/statick_tool/rsc/tex-config.yaml
+src/statick_tool/rsc/tex-profile.yaml
