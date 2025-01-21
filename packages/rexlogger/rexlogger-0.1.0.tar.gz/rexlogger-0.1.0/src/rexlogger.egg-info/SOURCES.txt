@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/rexlogger/__init__.py
+src/rexlogger/rexlogger.py
+src/rexlogger.egg-info/PKG-INFO
+src/rexlogger.egg-info/SOURCES.txt
+src/rexlogger.egg-info/dependency_links.txt
+src/rexlogger.egg-info/requires.txt
+src/rexlogger.egg-info/top_level.txt
