@@ -1,0 +1,9 @@
+passportmcp/__init__.py,sha256=r55AtxBlMP8O70b2dIY40RKF6YwxI2BGk_pkHcdmeII,119
+passportmcp/cli.py,sha256=mpy2x8d4kQ9V3GOdJmweuJSNKhmtKVRd4jI7i_Og-WM,10132
+passportmcp/client.py,sha256=diy80JCYUouQrm8aZ0pKrMmS9lmKs0mSMmv_U6wLVqY,7013
+passportmcp/native_host.py,sha256=aLqDrmhJkroMDBjiSAaThFIabfsVKBCVHPrubvkQsU0,6866
+passportmcp/passportmcp.py,sha256=8rcqOfIjksXFPTxjSnWkP1rs4stqMtP3yc19KBZDTko,911
+ppmcp-0.1.4.dist-info/METADATA,sha256=g0SZEWR0CWHNG7JUsdCPyaunRTWsNLuE0UiOIfR2Y8c,4047
+ppmcp-0.1.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ppmcp-0.1.4.dist-info/entry_points.txt,sha256=v6NrC24MvZYv3imxVXhOG10_17NViQp4MMakIbwiirM,46
+ppmcp-0.1.4.dist-info/RECORD,,
