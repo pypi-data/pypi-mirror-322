@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+pioreactor_calibration_shrinkage/LEADER_ONLY
+pioreactor_calibration_shrinkage/__init__.py
+pioreactor_calibration_shrinkage.egg-info/PKG-INFO
+pioreactor_calibration_shrinkage.egg-info/SOURCES.txt
+pioreactor_calibration_shrinkage.egg-info/dependency_links.txt
+pioreactor_calibration_shrinkage.egg-info/entry_points.txt
+pioreactor_calibration_shrinkage.egg-info/top_level.txt

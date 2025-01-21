@@ -1,0 +1,2 @@
+[pioreactor.plugins]
+pioreactor_calibration_shrinkage = pioreactor_calibration_shrinkage
