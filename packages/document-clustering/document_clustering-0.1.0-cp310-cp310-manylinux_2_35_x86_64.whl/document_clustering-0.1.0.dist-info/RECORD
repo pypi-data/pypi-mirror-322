@@ -1,0 +1,7 @@
+document_clustering/clustering.py,sha256=f5fVPeKZk2iLV4ca1iz5xcuXr1Lnlk2tfCWx9Br1Dhk,15702
+document_clustering/qkld_sim.cpython-310-x86_64-linux-gnu.so,sha256=1cWdV9puTv6KuHBmGtTZpvvB-66s_BoMiWzaNH7oKy4,1410840
+document_clustering/qkld_sim.pyi,sha256=Fh7-533PyNOSGIZ3JvcXGa3UZpa235zyCy8Tlgjto94,2495
+document_clustering/qkld_sim.pyx,sha256=9b7ZV1SHwBbHqzXY83NX5_l0WEZ3YOF4vo8_8BmWWdQ,9346
+document_clustering-0.1.0.dist-info/METADATA,sha256=Ae8C1eMcOR1qBXRl-vlIrUrW4B0XILoili8OtAcQLS8,2726
+document_clustering-0.1.0.dist-info/WHEEL,sha256=GtC8UQlUHJfECgWLmHEYzq2Bp-zVoA6nGGK7Qeo3mzk,110
+document_clustering-0.1.0.dist-info/RECORD,,
