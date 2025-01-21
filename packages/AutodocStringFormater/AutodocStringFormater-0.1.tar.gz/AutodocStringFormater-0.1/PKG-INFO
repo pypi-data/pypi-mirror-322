@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: AutodocStringFormater
+Version: 0.1
+Summary: A Python library to automatically generate docstrings for Python files.
+Author: Anivesh Nishad
+Author-email: anivesh.nishad76@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: astor
+
+# Auto Docstring
+
+A Python library to automatically generate docstrings for Python files.
+
+## Installation
+
+```bash
+  pip install auto_docstring
+```

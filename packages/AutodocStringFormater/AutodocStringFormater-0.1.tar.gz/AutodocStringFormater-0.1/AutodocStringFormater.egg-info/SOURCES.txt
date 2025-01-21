@@ -1,0 +1,10 @@
+README.md
+setup.py
+AutodocStringFormater.egg-info/PKG-INFO
+AutodocStringFormater.egg-info/SOURCES.txt
+AutodocStringFormater.egg-info/dependency_links.txt
+AutodocStringFormater.egg-info/entry_points.txt
+AutodocStringFormater.egg-info/requires.txt
+AutodocStringFormater.egg-info/top_level.txt
+auto_docString/__init__.py
+auto_docString/core.py
