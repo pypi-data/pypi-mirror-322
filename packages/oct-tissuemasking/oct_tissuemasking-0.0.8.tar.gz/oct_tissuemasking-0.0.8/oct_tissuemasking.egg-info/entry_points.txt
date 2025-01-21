@@ -1,0 +1,2 @@
+[console_scripts]
+oct_tissuemasking = oct_tissuemasking:app
