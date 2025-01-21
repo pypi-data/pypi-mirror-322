@@ -1,0 +1,556 @@
+Metadata-Version: 2.2
+Name: biosynonyms
+Version: 0.1.1
+Summary: Decentralized database of biomedical synonyms
+Author-email: Charles Tapley Hoyt <cthoyt@gmail.com>
+Maintainer-email: Charles Tapley Hoyt <cthoyt@gmail.com>
+License: Creative Commons Legal Code
+        
+        CC0 1.0 Universal
+        
+            CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+            LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+            ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+            INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+            REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+            PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+            THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+            HEREUNDER.
+        
+        Statement of Purpose
+        
+        The laws of most jurisdictions throughout the world automatically confer
+        exclusive Copyright and Related Rights (defined below) upon the creator
+        and subsequent owner(s) (each and all, an "owner") of an original work of
+        authorship and/or a database (each, a "Work").
+        
+        Certain owners wish to permanently relinquish those rights to a Work for
+        the purpose of contributing to a commons of creative, cultural and
+        scientific works ("Commons") that the public can reliably and without fear
+        of later claims of infringement build upon, modify, incorporate in other
+        works, reuse and redistribute as freely as possible in any form whatsoever
+        and for any purposes, including without limitation commercial purposes.
+        These owners may contribute to the Commons to promote the ideal of a free
+        culture and the further production of creative, cultural and scientific
+        works, or to gain reputation or greater distribution for their Work in
+        part through the use and efforts of others.
+        
+        For these and/or other purposes and motivations, and without any
+        expectation of additional consideration or compensation, the person
+        associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+        is an owner of Copyright and Related Rights in the Work, voluntarily
+        elects to apply CC0 to the Work and publicly distribute the Work under its
+        terms, with knowledge of his or her Copyright and Related Rights in the
+        Work and the meaning and intended legal effect of CC0 on those rights.
+        
+        1. Copyright and Related Rights. A Work made available under CC0 may be
+        protected by copyright and related or neighboring rights ("Copyright and
+        Related Rights"). Copyright and Related Rights include, but are not
+        limited to, the following:
+        
+          i. the right to reproduce, adapt, distribute, perform, display,
+             communicate, and translate a Work;
+         ii. moral rights retained by the original author(s) and/or performer(s);
+        iii. publicity and privacy rights pertaining to a person's image or
+             likeness depicted in a Work;
+         iv. rights protecting against unfair competition in regards to a Work,
+             subject to the limitations in paragraph 4(a), below;
+          v. rights protecting the extraction, dissemination, use and reuse of data
+             in a Work;
+         vi. database rights (such as those arising under Directive 96/9/EC of the
+             European Parliament and of the Council of 11 March 1996 on the legal
+             protection of databases, and under any national implementation
+             thereof, including any amended or successor version of such
+             directive); and
+        vii. other similar, equivalent or corresponding rights throughout the
+             world based on applicable law or treaty, and any national
+             implementations thereof.
+        
+        2. Waiver. To the greatest extent permitted by, but not in contravention
+        of, applicable law, Affirmer hereby overtly, fully, permanently,
+        irrevocably and unconditionally waives, abandons, and surrenders all of
+        Affirmer's Copyright and Related Rights and associated claims and causes
+        of action, whether now known or unknown (including existing as well as
+        future claims and causes of action), in the Work (i) in all territories
+        worldwide, (ii) for the maximum duration provided by applicable law or
+        treaty (including future time extensions), (iii) in any current or future
+        medium and for any number of copies, and (iv) for any purpose whatsoever,
+        including without limitation commercial, advertising or promotional
+        purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+        member of the public at large and to the detriment of Affirmer's heirs and
+        successors, fully intending that such Waiver shall not be subject to
+        revocation, rescission, cancellation, termination, or any other legal or
+        equitable action to disrupt the quiet enjoyment of the Work by the public
+        as contemplated by Affirmer's express Statement of Purpose.
+        
+        3. Public License Fallback. Should any part of the Waiver for any reason
+        be judged legally invalid or ineffective under applicable law, then the
+        Waiver shall be preserved to the maximum extent permitted taking into
+        account Affirmer's express Statement of Purpose. In addition, to the
+        extent the Waiver is so judged Affirmer hereby grants to each affected
+        person a royalty-free, non transferable, non sublicensable, non exclusive,
+        irrevocable and unconditional license to exercise Affirmer's Copyright and
+        Related Rights in the Work (i) in all territories worldwide, (ii) for the
+        maximum duration provided by applicable law or treaty (including future
+        time extensions), (iii) in any current or future medium and for any number
+        of copies, and (iv) for any purpose whatsoever, including without
+        limitation commercial, advertising or promotional purposes (the
+        "License"). The License shall be deemed effective as of the date CC0 was
+        applied by Affirmer to the Work. Should any part of the License for any
+        reason be judged legally invalid or ineffective under applicable law, such
+        partial invalidity or ineffectiveness shall not invalidate the remainder
+        of the License, and in such case Affirmer hereby affirms that he or she
+        will not (i) exercise any of his or her remaining Copyright and Related
+        Rights in the Work or (ii) assert any associated claims and causes of
+        action with respect to the Work, in either case contrary to Affirmer's
+        express Statement of Purpose.
+        
+        4. Limitations and Disclaimers.
+        
+         a. No trademark or patent rights held by Affirmer are waived, abandoned,
+            surrendered, licensed or otherwise affected by this document.
+         b. Affirmer offers the Work as-is and makes no representations or
+            warranties of any kind concerning the Work, express, implied,
+            statutory or otherwise, including without limitation warranties of
+            title, merchantability, fitness for a particular purpose, non
+            infringement, or the absence of latent or other defects, accuracy, or
+            the present or absence of errors, whether or not discoverable, all to
+            the greatest extent permissible under applicable law.
+         c. Affirmer disclaims responsibility for clearing rights of other persons
+            that may apply to the Work or any use thereof, including without
+            limitation any person's Copyright and Related Rights in the Work.
+            Further, Affirmer disclaims responsibility for obtaining any necessary
+            consents, permissions or other rights required for any use of the
+            Work.
+         d. Affirmer understands and acknowledges that Creative Commons is not a
+            party to this document and has no duty or obligation with respect to
+            this CC0 or use of the Work.
+        
+Project-URL: Bug Tracker, https://github.com/biopragmatics/biosynonyms/issues
+Project-URL: Homepage, https://github.com/biopragmatics/biosynonyms
+Project-URL: Repository, https://github.com/biopragmatics/biosynonyms.git
+Project-URL: Documentation, https://biosynonyms.readthedocs.io
+Keywords: snekpack,cookiecutter,databases,biological databases,biomedical databases,natural language processing,NLP,ontologies,biomedical ontologies
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Pytest
+Classifier: Framework :: tox
+Classifier: Framework :: Sphinx
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Framework :: Pydantic
+Classifier: Framework :: Pydantic :: 2
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE-MIT
+Requires-Dist: click
+Requires-Dist: tqdm
+Requires-Dist: curies>=0.9.0
+Requires-Dist: bioregistry
+Requires-Dist: pydantic>=2.0
+Requires-Dist: pydantic_extra_types
+Requires-Dist: pycountry
+Requires-Dist: typing_extensions
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: coverage; extra == "tests"
+Requires-Dist: gilda; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: sphinx>=8; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=3.0; extra == "docs"
+Requires-Dist: sphinx_automodapi; extra == "docs"
+Provides-Extra: numbers
+Requires-Dist: numbers-parser; extra == "numbers"
+Provides-Extra: predict
+Requires-Dist: indra; extra == "predict"
+Requires-Dist: gilda; extra == "predict"
+Requires-Dist: embiggen; extra == "predict"
+Requires-Dist: ensmallen; extra == "predict"
+Requires-Dist: matplotlib; extra == "predict"
+Requires-Dist: seaborn; extra == "predict"
+Requires-Dist: pyarrow; extra == "predict"
+Requires-Dist: fastparquet; extra == "predict"
+Requires-Dist: pandas; extra == "predict"
+Requires-Dist: more_click; extra == "predict"
+
+<!--
+<p align="center">
+  <img src="https://github.com/biopragmatics/biosynonyms/raw/main/docs/source/logo.png" height="150">
+</p>
+-->
+
+<h1 align="center">
+  Biosynonyms
+</h1>
+
+<p align="center">
+    <a href="https://github.com/biopragmatics/biosynonyms/actions/workflows/tests.yml">
+        <img alt="Tests" src="https://github.com/biopragmatics/biosynonyms/actions/workflows/tests.yml/badge.svg" /></a>
+    <a href="https://pypi.org/project/biosynonyms">
+        <img alt="PyPI" src="https://img.shields.io/pypi/v/biosynonyms" /></a>
+    <a href="https://pypi.org/project/biosynonyms">
+        <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/biosynonyms" /></a>
+    <a href="https://github.com/biopragmatics/biosynonyms/blob/main/LICENSE">
+        <img alt="PyPI - License" src="https://img.shields.io/pypi/l/biosynonyms" /></a>
+    <a href='https://biosynonyms.readthedocs.io/en/latest/?badge=latest'>
+        <img src='https://readthedocs.org/projects/biosynonyms/badge/?version=latest' alt='Documentation Status' /></a>
+    <a href="https://codecov.io/gh/biopragmatics/biosynonyms/branch/main">
+        <img src="https://codecov.io/gh/biopragmatics/biosynonyms/branch/main/graph/badge.svg" alt="Codecov status" /></a>  
+    <a href="https://github.com/cthoyt/cookiecutter-python-package">
+        <img alt="Cookiecutter template from @cthoyt" src="https://img.shields.io/badge/Cookiecutter-snekpack-blue" /></a>
+    <a href='https://github.com/psf/black'>
+        <img src='https://img.shields.io/badge/code%20style-black-000000.svg' alt='Code style: black' /></a>
+    <a href="https://github.com/biopragmatics/biosynonyms/blob/main/.github/CODE_OF_CONDUCT.md">
+        <img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Contributor Covenant"/></a>
+</p>
+
+<a href="https://zenodo.org/doi/10.5281/zenodo.10592265"><img src="https://zenodo.org/badge/490189661.svg" alt="DOI"></a>
+
+A decentralized database of synonyms for biomedical entities and concepts. This
+resource is meant to be complementary to ontologies, databases, and other
+controlled vocabularies that provide synonyms. It's released under a permissive
+license (CC0), so they can be easily adopted by/contributed back to upstream
+resources.
+
+Here's how to get the data:
+
+```python
+import biosynonyms
+
+# Uses an internal data structure
+positive_synonyms = biosynonyms.get_positive_synonyms()
+negative_synonyms = biosynonyms.get_negative_synonyms()
+
+# Get ready for use in NER with Gilda, only using positive synonyms
+gilda_terms = biosynonyms.get_gilda_terms()
+```
+
+### Synonyms
+
+The data are also accessible directly through TSV such that anyone can consume
+them from any programming language.
+
+The [`positives.tsv`](src/biosynonyms/resources/positives.tsv) has the following
+columns:
+
+1. `text` the synonym text itself
+2. `curie` the compact uniform resource identifier (CURIE) for a biomedical
+   entity or concept, standardized using the Bioregistry
+3. `name` the standard name for the concept
+4. `scope` the predicate which encodes the synonym scope, written as a CURIE
+   from the [OBO in OWL (`oio`)](https://bioregistry.io/oio) controlled
+   vocabulary, i.e., one of:
+   - `oboInOwl:hasExactSynonym`
+   - `oboInOwl:hasNarrowSynonym` (i.e., the synonym represents a narrower term)
+   - `oboInOwl:hasBroadSynonym` (i.e., the synonym represents a broader term)
+   - `oboInOwl:hasRelatedSynonym`
+   - `oboInOwl:hasSynonym` (use this if the scope is unknown)
+5. `type` the (optional) synonym property type, written as a CURIE from the
+   [OBO Metadata Ontology (`omo`)](https://bioregistry.io/omo) controlled
+   vocabulary, e.g., one of:
+   - `OMO:0003000` (abbreviation)
+   - `OMO:0003001` (ambiguous synonym)
+   - `OMO:0003002` (dubious synonym)
+   - `OMO:0003003` (layperson synonym)
+   - `OMO:0003004` (plural form)
+   - ...
+6. `provenance` a comma-delimited list of CURIEs corresponding to publications
+   that use the given synonym (ideally using highly actionable identifiers from
+   semantic spaces like [`pubmed`](https://bioregistry.io/pubmed),
+   [`pmc`](https://bioregistry.io/pmc), [`doi`](https://bioregistry.io/doi))
+7. `contributor` a CURIE with the ORCID identifier of the contributor
+8. `date` the optional date when the row was curated in YYYY-MM-DD format
+9. `language` the (optional) ISO 2-letter language code. If missing, assumed to
+   be American English.
+10. `comment` an optional comment
+11. `source` the source of the synonyms, usually `biosynonyms` unless imported
+    from elsewhere
+
+Here's an example of some rows in the synonyms table (with linkified CURIEs):
+
+| text                            | curie                                             | scope                                                             | provenance                                                                                                           | contributor                                                                   | language |
+| ------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------- |
+| PI(3,4,5)P3                     | [CHEBI:16618](https://bioregistry.io/CHEBI:16618) | [oio:hasExactSynonym](https://bioregistry.io/oio:hasExactSynonym) | [pubmed:29623928](https://bioregistry.io/pubmed:29623928), [pubmed:20817957](https://bioregistry.io/pubmed:20817957) | [orcid:0000-0003-4423-4370](https://bioregistry.io/orcid:0000-0003-4423-4370) | en       |
+| phosphatidylinositol (3,4,5) P3 | [CHEBI:16618](https://bioregistry.io/CHEBI:16618) | [oio:hasExactSynonym](https://bioregistry.io/oio:hasExactSynonym) | [pubmed:29695532](https://bioregistry.io/pubmed:29695532)                                                            | [orcid:0000-0003-4423-4370](https://bioregistry.io/orcid:0000-0003-4423-4370) | en       |
+
+### Incorrect Synonyms
+
+The [`negatives.tsv`](src/biosynonyms/resources/negatives.tsv) has the following
+columns for non-trivial examples of text strings that aren't synonyms. This
+document doesn't address the same issues as context-based disambiguation, but
+rather helps dscribe issues like incorrect sub-string matching:
+
+1. `text` the non-synonym text itself
+2. `curie` the compact uniform resource identifier (CURIE) for a biomedical
+   entity or concept that **does not** match the following text, standardized
+   using the Bioregistry
+3. `references` same as for `positives.tsv`, illustrating documents where this
+   string appears
+4. `contributor` the ORCID identifier of the contributor
+5. `language` the (optional) ISO 2-letter language code. If missing, assumed to
+   be American English.
+
+Here's an example of some rows in the negative synonyms table (with linkified
+CURIEs):
+
+| text        | curie                                           | provenance                                                                                                           | contributor                                                                   | language |
+| ----------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------- |
+| PI(3,4,5)P3 | [hgnc:22979](https://bioregistry.io/hgnc:22979) | [pubmed:29623928](https://bioregistry.io/pubmed:29623928), [pubmed:20817957](https://bioregistry.io/pubmed:20817957) | [orcid:0000-0003-4423-4370](https://bioregistry.io/orcid:0000-0003-4423-4370) | en       |
+
+## Known Limitations
+
+It's hard to know which exact matches between different vocabularies could be
+used to deduplicate synonyms. Right now, this isn't covered but some partial
+solutions already exist that could be adopted.
+
+## 🚀 Installation
+
+The most recent release can be installed from
+[PyPI](https://pypi.org/project/biosynonyms/) with:
+
+```shell
+pip install biosynonyms
+```
+
+The most recent code and data can be installed directly from GitHub with:
+
+```shell
+pip install git+https://github.com/biopragmatics/biosynonyms.git
+```
+
+## 👐 Contributing
+
+Contributions, whether filing an issue, making a pull request, or forking, are
+appreciated. See
+[CONTRIBUTING.md](https://github.com/biopragmatics/biosynonyms/blob/master/.github/CONTRIBUTING.md)
+for more information on getting involved.
+
+## 👋 Attribution
+
+### ⚖️ License
+
+The code in this package is licensed under the MIT License. The data is licensed
+under CC0.
+
+<!--
+### 📖 Citation
+
+Citation goes here!
+-->
+
+<!--
+### 🎁 Support
+
+This project has been supported by the following organizations (in alphabetical order):
+
+- [Biopragmatics Lab](https://biopragmatics.github.io)
+
+-->
+
+<!--
+### 💰 Funding
+
+This project has been supported by the following grants:
+
+| Funding Body  | Program                                                      | Grant Number |
+|---------------|--------------------------------------------------------------|--------------|
+| Funder        | [Grant Name (GRANT-ACRONYM)](https://example.com/grant-link) | ABCXYZ       |
+-->
+
+### 🍪 Cookiecutter
+
+This package was created with
+[@audreyfeldroy](https://github.com/audreyfeldroy)'s
+[cookiecutter](https://github.com/cookiecutter/cookiecutter) package using
+[@cthoyt](https://github.com/cthoyt)'s
+[cookiecutter-snekpack](https://github.com/cthoyt/cookiecutter-snekpack)
+template.
+
+## 🛠️ For Developers
+
+<details>
+  <summary>See developer instructions</summary>
+
+The final section of the README is for if you want to get involved by making a
+code contribution.
+
+### Development Installation
+
+To install in development mode, use the following:
+
+```bash
+git clone git+https://github.com/biopragmatics/biosynonyms.git
+cd biosynonyms
+pip install -e .
+```
+
+### Updating Package Boilerplate
+
+This project uses `cruft` to keep boilerplate (i.e., configuration, contribution
+guidelines, documentation configuration) up-to-date with the upstream
+cookiecutter package. Update with the following:
+
+```shell
+pip install cruft
+cruft update
+```
+
+More info on Cruft's update command is available
+[here](https://github.com/cruft/cruft?tab=readme-ov-file#updating-a-project).
+
+### 🥼 Testing
+
+After cloning the repository and installing `tox` with `pip install tox tox-uv`,
+the unit tests in the `tests/` folder can be run reproducibly with:
+
+```shell
+tox -e py
+```
+
+Additionally, these tests are automatically re-run with each commit in a
+[GitHub Action](https://github.com/biopragmatics/biosynonyms/actions?query=workflow%3ATests).
+
+### 📖 Building the Documentation
+
+The documentation can be built locally using the following:
+
+```shell
+git clone git+https://github.com/biopragmatics/biosynonyms.git
+cd biosynonyms
+tox -e docs
+open docs/build/html/index.html
+```
+
+The documentation automatically installs the package as well as the `docs` extra
+specified in the [`pyproject.toml`](pyproject.toml). `sphinx` plugins like
+`texext` can be added there. Additionally, they need to be added to the
+`extensions` list in [`docs/source/conf.py`](docs/source/conf.py).
+
+The documentation can be deployed to [ReadTheDocs](https://readthedocs.io) using
+[this guide](https://docs.readthedocs.io/en/stable/intro/import-guide.html). The
+[`.readthedocs.yml`](../../Desktop/biosynonyms/.readthedocs.yml) YAML file
+contains all the configuration you'll need. You can also set up continuous
+integration on GitHub to check not only that Sphinx can build the documentation
+in an isolated environment (i.e., with `tox -e docs-test`) but also that
+[ReadTheDocs can build it too](https://docs.readthedocs.io/en/stable/pull-requests.html).
+
+#### Configuring ReadTheDocs
+
+1. Log in to ReadTheDocs with your GitHub account to install the integration at
+   https://readthedocs.org/accounts/login/?next=/dashboard/
+2. Import your project by navigating to https://readthedocs.org/dashboard/import
+   then clicking the plus icon next to your repository
+3. You can rename the repository on the next screen using a more stylized name
+   (i.e., with spaces and capital letters)
+4. Click next, and you're good to go!
+
+### 📦 Making a Release
+
+#### Configuring Zenodo
+
+[Zenodo](https://zenodo.org) is a long-term archival system that assigns a DOI
+to each release of your package.
+
+1. Log in to Zenodo via GitHub with this link:
+   https://zenodo.org/oauth/login/github/?next=%2F. This brings you to a page
+   that lists all of your organizations and asks you to approve installing the
+   Zenodo app on GitHub. Click "grant" next to any organizations you want to
+   enable the integration for, then click the big green "approve" button. This
+   step only needs to be done once.
+2. Navigate to https://zenodo.org/account/settings/github/, which lists all of
+   your GitHub repositories (both in your username and any organizations you
+   enabled). Click the on/off toggle for any relevant repositories. When you
+   make a new repository, you'll have to come back to this
+
+After these steps, you're ready to go! After you make "release" on GitHub (steps
+for this are below), you can navigate to
+https://zenodo.org/account/settings/github/repository/biopragmatics/biosynonyms
+to see the DOI for the release and link to the Zenodo record for it.
+
+#### Registering with the Python Package Index (PyPI)
+
+You only have to do the following steps once.
+
+1. Register for an account on the
+   [Python Package Index (PyPI)](https://pypi.org/account/register)
+2. Navigate to https://pypi.org/manage/account and make sure you have verified
+   your email address. A verification email might not have been sent by default,
+   so you might have to click the "options" dropdown next to your address to get
+   to the "re-send verification email" button
+3. 2-Factor authentication is required for PyPI since the end of 2023 (see this
+   [blog post from PyPI](https://blog.pypi.org/posts/2023-05-25-securing-pypi-with-2fa/)).
+   This means you have to first issue account recovery codes, then set up
+   2-factor authentication
+4. Issue an API token from https://pypi.org/manage/account/token
+
+#### Configuring your machine's connection to PyPI
+
+You have to do the following steps once per machine. Create a file in your home
+directory called `.pypirc` and include the following:
+
+```ini
+[distutils]
+index-servers =
+    pypi
+    testpypi
+
+[pypi]
+username = __token__
+password = <the API token you just got>
+
+# This block is optional in case you want to be able to make test releases to the Test PyPI server
+[testpypi]
+repository = https://test.pypi.org/legacy/
+username = __token__
+password = <an API token from test PyPI>
+```
+
+Note that since PyPI is requiring token-based authentication, we use `__token__`
+as the user, verbatim. If you already have a `.pypirc` file with a `[distutils]`
+section, just make sure that there is an `index-servers` key and that `pypi` is
+in its associated list. More information on configuring the `.pypirc` file can
+be found [here](https://packaging.python.org/en/latest/specifications/pypirc).
+
+#### Uploading to PyPI
+
+After installing the package in development mode and installing `tox` with
+`pip install tox tox-uv`, run the following from the shell:
+
+```shell
+tox -e finish
+```
+
+This script does the following:
+
+1. Uses [bump-my-version](https://github.com/callowayproject/bump-my-version) to
+   switch the version number in the `pyproject.toml`, `CITATION.cff`,
+   `src/biosynonyms/version.py`, and
+   [`docs/source/conf.py`](docs/source/conf.py) to not have the `-dev` suffix
+2. Packages the code in both a tar archive and a wheel using
+   [`uv build`](https://docs.astral.sh/uv/guides/publish/#building-your-package)
+3. Uploads to PyPI using [`twine`](https://github.com/pypa/twine).
+4. Push to GitHub. You'll need to make a release going with the commit where the
+   version was bumped.
+5. Bump the version to the next patch. If you made big changes and want to bump
+   the version by minor, you can use `tox -e bumpversion -- minor` after.
+
+#### Releasing on GitHub
+
+1. Navigate to https://github.com/biopragmatics/biosynonyms/releases/new to
+   draft a new release
+2. Click the "Choose a Tag" dropdown and select the tag corresponding to the
+   release you just made
+3. Click the "Generate Release Notes" button to get a quick outline of recent
+   changes. Modify the title and description as you see fit
+4. Click the big green "Publish Release" button
+
+This will trigger Zenodo to assign a DOI to your release as well.
+
+</details>
