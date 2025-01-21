@@ -1,0 +1,9 @@
+contracts/__init__.py,sha256=_ksKq3IsosLA9RRGg6PWF7Iq3C1ficIgxD5Rao-ldp0,263
+contracts/access/__init__.py,sha256=jYhEH959xv675yEbKykEtXRQiepv2sHUZIz4AvmT0lI,191
+contracts/access/Ownable/__init__.py,sha256=12yur-Sz86KzTKKkmkDJin3ITA7oSFgbBbsmA-8XoPg,168
+contracts/access/Ownable/contract.py,sha256=ph9FrIoLjCE65vmKImAphdmAIGpP6giwEY0UxMKtrvc,1083
+opensubmarine-0.1.1.dist-info/LICENSE,sha256=j8E3meSRmJc-HRDG31c-6qcz8tk40G6WYqxJbWA01hE,1065
+opensubmarine-0.1.1.dist-info/METADATA,sha256=Ibtb6-wkUFva_pRMCwlHdvNBZgOfDKq7fQYUvhvXANY,2685
+opensubmarine-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+opensubmarine-0.1.1.dist-info/top_level.txt,sha256=SkaWW24t6GQiC4KV47gVLsHc3Je5Wjcbfs37RTDORRs,10
+opensubmarine-0.1.1.dist-info/RECORD,,
