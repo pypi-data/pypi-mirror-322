@@ -1,0 +1,6 @@
+setuptools
+wheel
+asyncio
+typing
+psutil
+uuid
