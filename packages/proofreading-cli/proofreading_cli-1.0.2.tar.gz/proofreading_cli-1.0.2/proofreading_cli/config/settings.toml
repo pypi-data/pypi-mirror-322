@@ -1,0 +1,18 @@
+[default.proofreading]
+    [default.proofreading.api]
+        hit = "https://hit-api.argusgroupcore.com/api/v1.0/hits"
+        timeout = 100
+        page_size = 100000000
+    [default.proofreading.data]
+        path = "../gc-hits-data"
+
+    [default.proofreading.inference]
+        [default.proofreading.inference.endpoint]
+            model_1 = "https://proofreading-inference-web-app-dev.azurewebsites.net/score"
+            model_2 = "https://proofreading-inference-model-2-dev.azurewebsites.net/score"
+
+    [default.proofreading.cli]
+        max_length = 150
+        show = 4
+        max_colwidth = 35
+        sneak_peak_cols = ["hit_id", "headline", "body", "search_dimension_name", "lectorate_search_term", "model_1_label", "model_1_probability", "model_2_label", "model_2_probability"]

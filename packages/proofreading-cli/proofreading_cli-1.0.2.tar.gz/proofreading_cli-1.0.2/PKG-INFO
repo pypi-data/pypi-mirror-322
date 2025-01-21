@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: proofreading-cli
+Version: 1.0.2
+Summary: 
+Author: Radovic, Bojan
+Author-email: Bojan.Radovic@argusdatainsights.de
+Requires-Python: >=3.10,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: dynaconf (>=3.2.6,<4.0.0)
+Requires-Dist: fastparquet (>=2024.11.0,<2025.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: pytest (>=8.3.4,<9.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: tenacity (>=9.0.0,<10.0.0)
+Requires-Dist: yaspin (>=3.1.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+
