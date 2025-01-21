@@ -1,0 +1,127 @@
+variables:
+  VIRTUAL_ENV: ".venv"
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.pip_cache"
+
+cache:
+  paths:
+    - ".pip_cache/"
+
+stages:
+  - test
+  - sast
+  - validate-version
+  - build
+  - deploy
+
+test:
+  stage: test
+  image: python:3.9
+  before_script:
+    - python -m venv $VIRTUAL_ENV
+    - source $VIRTUAL_ENV/bin/activate
+    - pip install --upgrade pip
+    - pip install pytest
+  script:
+    - pytest tests/
+
+sast:
+  stage: sast
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+    - if: '$SCHEDULED_PIPELINE == "true"'  # Exécute SAST dans un pipeline programmé
+include:
+  - template: Security/SAST.gitlab-ci.yml
+
+validate-version:
+  stage: validate-version
+  image: python:3.9
+  script:
+    - echo "Validation de la version dans pyproject.toml"
+    - CURRENT_VERSION=$(grep -Po '(?<=version = ")[^"]*' pyproject.toml)
+    - echo "Version actuelle:" $CURRENT_VERSION
+    - TAG_VERSION=$(git describe --tags --abbrev=0 | sed 's/^v//')
+    - echo "Version du dernier tag:" $TAG_VERSION
+    - |
+      if [ "$CURRENT_VERSION" != "$TAG_VERSION" ]; then
+        echo "La version dans pyproject.toml ne correspond pas au tag Git"
+        exit 1
+      else
+        echo "La version dans pyproject.toml correspond au tag GIT"
+      fi
+    # verify changelog
+    - echo "Verify if changelog matches latest tag"
+    - export LATEST_TAG=$(git describe --tags --abbrev=0)
+    - echo "Latest Git tag:" $LATEST_TAG
+    # Extraction de la version dans le changelog
+    - export CHANGELOG_TAG=$(grep -A 2 '<!-- insertion marker -->' CHANGELOG.md | grep -oP '## \[v[0-9]+\.[0-9]+\.[0-9]+\]' | grep -oP 'v[0-9]+\.[0-9]+\.[0-9]+')
+    - echo "Changelog tag:" $CHANGELOG_TAG
+    # Comparaison des tags
+    - |
+      if [ "$LATEST_TAG" != "$CHANGELOG_TAG" ]; then
+        echo "Error: Latest Git tag ($LATEST_TAG) does not match changelog tag ($CHANGELOG_TAG)";
+        exit 1;
+      else
+        echo "Tags match. Proceeding with deployment.";
+      fi
+  #rules:
+    #- if: '$CI_COMMIT_TAG =~ /^v\d+\.\d+\.\d+$/'
+  when: manual
+
+build-job:
+  stage: build
+  image: python:3.9
+  only:
+    - tags
+  dependencies:
+    - validate-version
+  script:
+    - echo "Creating virtual environment..."
+    - python -m venv $VIRTUAL_ENV
+    - source $VIRTUAL_ENV/bin/activate
+    - pip install --upgrade pip
+    - pip install build
+    - echo "Compiling the code..."
+    - python -m build
+    - echo "Compile complete."
+  artifacts:
+    paths:
+      - dist/
+  when: manual
+
+deploy-test:
+  stage: deploy
+  image: python:3.9
+  only:
+    - tags
+  dependencies:
+    - validate-version
+    - build-job
+  script:
+    - echo "Create virtual environment"
+    - python -m venv $VIRTUAL_ENV
+    - source $VIRTUAL_ENV/bin/activate
+    - pip install --upgrade pip
+    - pip install -U twine
+    - echo "Upload to test-pypi"
+    - twine upload -u __token__ -p $GITLAB_PYPITEST_VIRVAR_API_TOKEN --repository testpypi dist/* --verbose
+  when: manual
+
+deploy-prod:
+  stage: deploy
+  image: python:3.9
+  only:
+    - tags
+  dependencies:
+    - validate-version
+    - build-job
+    - deploy-test
+  script:
+    - echo "Create virtual environment"
+    - python -m venv $VIRTUAL_ENV
+    - source $VIRTUAL_ENV/bin/activate
+    - pip install --upgrade pip
+    - pip install twine
+    - echo "Upload to PyPI"
+    - twine upload -u __token__ -p $GITLAB_VIRVAR_PYPI_TOKEN dist/* --verbose
+  when: manual

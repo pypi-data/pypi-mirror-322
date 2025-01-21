@@ -1,0 +1,29 @@
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project]
+name = "virvar"
+version = "1.1.0"
+description = "virvar is a Python utility designed to manage environment variables in virtual environments (venv)"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [ "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent",]
+[[project.authors]]
+name = "vince06fr"
+email = "vince06fr@gmail.com"
+
+[[project.authors]]
+name = "Liberty Hosting & Development"
+email = "contact@lhndev.org"
+
+[project.scripts]
+virvar = "virvar.virvar:main"
+
+[project.urls]
+Homepage = "https://gitlab.com/lhndev1/virvar"
+Issues = "https://gitlab.com/lhndev1/virvar/-/issues"
+Organization = "https://lhndev.com"
+
+[tool.hatch.build.targets.wheel]
+packages = [ "src/virvar",]
