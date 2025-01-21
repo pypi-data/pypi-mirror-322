@@ -1,0 +1,3 @@
+trino~=0.326
+pyavrio~=20.0.1
+dbt-core>=1.8
