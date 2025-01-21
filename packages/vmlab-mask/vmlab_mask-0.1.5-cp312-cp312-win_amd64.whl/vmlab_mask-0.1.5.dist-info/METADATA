@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: vmlab_mask
+Version: 0.1.5
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Rust
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Summary: A Rust-based library for reconstructing grayscale masks in Python.
+Keywords: rust,mask,pyo3,numpy
+Author-email: Jaemin Kim <geminik23@vmonster.io>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# vmlab_mask
+
+pypi link : [vmlab_mask](https://pypi.org/project/vmlab-mask/)
+
+## Requirements
+
+```bash
+pip install maturin
+```
+
+## Build the python package
+
+```bash
+maturin build --release
+```
+
+## Test in locally
+
+```
+pip install target/wheels/{GENERATED_WHEELS_NAME}.whl
+```
+
+## Publish to PyPI
+
+```
+maturin publish
+```
+
+
