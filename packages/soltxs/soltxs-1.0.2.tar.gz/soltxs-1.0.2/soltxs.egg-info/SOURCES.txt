@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+soltxs/__init__.py
+soltxs.egg-info/PKG-INFO
+soltxs.egg-info/SOURCES.txt
+soltxs.egg-info/dependency_links.txt
+soltxs.egg-info/requires.txt
+soltxs.egg-info/top_level.txt
+tests/test_normalize.py
+tests/test_parser.py
+tests/test_resolve.py
