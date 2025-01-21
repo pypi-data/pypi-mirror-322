@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/json2video/__init__.py
+src/json2video/client.py
+src/json2video.egg-info/PKG-INFO
+src/json2video.egg-info/SOURCES.txt
+src/json2video.egg-info/dependency_links.txt
+src/json2video.egg-info/requires.txt
+src/json2video.egg-info/top_level.txt
