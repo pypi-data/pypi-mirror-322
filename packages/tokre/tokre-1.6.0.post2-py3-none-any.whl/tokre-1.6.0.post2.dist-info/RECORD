@@ -1,0 +1,17 @@
+tokre/__init__.py,sha256=CdDhb7vv85GsBCP5oFLZp3blULlA_kl3jxLKEqVRjAs,1885
+tokre/core/macros.py,sha256=kwOpz7yunuFzTZFBkUkh7yDQSD92JvLP-ZJoCuqtg_U,15228
+tokre/core/matchers.py,sha256=JSOK5sR3N_pXrpioNN9jw6y8642eqAvsJPYg_89E-0Y,12886
+tokre/core/parsing.py,sha256=55YeZeB9Z3qJg6Vsvwiq8P_0RktOyV2b6MT3_EspxgY,8760
+tokre/core/prediction_primitives.py,sha256=GEJjGgbrA3XTPXKDZHylxc7bkPLvz-VJz_83UWHsHLA,5125
+tokre/core/synth_feat.py,sha256=3H7OqfAohNXhkmjYNFtRJWBQMUcQF0M63Paw9vmpAaQ,7834
+tokre/core/tree_to_matcher.py,sha256=fsQJVpWVKuMgLhXwR9pLw5IIvZKEN0Id708RVak2G6k,3513
+tokre/labelling/__init__.py,sha256=qMbDKiOsw0hIgiDWPoXAL4aywN-BeEk30p9RrxnvZDc,105
+tokre/labelling/create_label.py,sha256=_Zrr9qTm16xSfO7Tm9Mywcxevo2AaZlTHAvnb1QRMbM,8254
+tokre/labelling/get_words.py,sha256=deNhpi8yznoY_SEc0UBw2Dlvlh2fkCO3w-kXYMdOels,1578
+tokre/labelling/literal_set_utils.py,sha256=JrkQQU-eptKbGE_tB3F0gvEI5GccrcFcdydHLBk2QbI,2682
+tokre/labelling/query_openai.py,sha256=7BB4r09p_g89jnIpFGglTghChgx2f-rjeCjFkhkaM94,1158
+tokre/setup.py,sha256=HJ_8YVR3GAwZ4uVl0HstLpZvOhHY4bQz0w7fMghxrBs,2428
+tokre/utils.py,sha256=yY6DAARmBO9a2R1t3cpdCKf-pcvSm8pRz5BWMuNHr98,4385
+tokre-1.6.0.post2.dist-info/METADATA,sha256=iIhWpMCdO59TGciFnFVxPMzaDn4nAOXWyrzWn8c6rFg,794
+tokre-1.6.0.post2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tokre-1.6.0.post2.dist-info/RECORD,,
