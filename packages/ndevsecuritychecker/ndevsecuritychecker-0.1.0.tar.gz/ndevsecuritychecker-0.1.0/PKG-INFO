@@ -1,0 +1,217 @@
+Metadata-Version: 2.2
+Name: ndevsecuritychecker
+Version: 0.1.0
+Summary: A project module for my coding class, that will serve me after.
+Home-page: https://gitlab.com/bts-ciel-a1/base-project-structure/-/tree/ige/dev_utils?ref_type=heads
+Download-URL: https://pypi.org/
+Author: Ilian
+Keywords: dev,utils,Checker,Security
+Description-Content-Type: text/markdown
+Requires-Dist: colorama<=0.4.6
+Requires-Dist: pytest<=8.3.4
+Requires-Dist: pytest-cov<=6.0.0
+Requires-Dist: rich<=13.9.4
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
+
+![Static Badge](https://img.shields.io/badge/license-all_right_reserved-all_right_reserved?style=for-the-badge&color=blue)
+
+![Static Badge](https://img.shields.io/badge/Author-Ilian-Ilian?style=for-the-badge&color=red)
+
+![Static Badge](https://img.shields.io/badge/Version-V01-V01?style=for-the-badge&color=orange)
+
+
+# Dev Utils
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
+A project module for my coding class, that will serve me after.
+This module will have multiple features to help the dev process go faster
+
+# Features
+- API/Sensible data detector (In dev)
+- Add the location of this sensible data to a file (also this file is added to gitignore) (Not started)
+- Add more var names with default ones (Not started)
+- Test data generator (Not started)
+- Convention detector (Not started)
+
+# Documentation
+## Installation
+To install the package:
+
+```bash
+git clone git@gitlab.com:bts-ciel-a1/base-project-structure.git
+```
+after cloning, install the dependencies,
+
+```bash
+pip install -r requirements.txt
+```
+Now, you are ready to use the package.
+
+## How to use
+### WARNING: Do not use these functions:
+This is the list of functions inside the package that you shouldn't use because it is only used inside the main documented function.
+
+    - _check_path_validity()
+    - _check_extension_validity()
+    - _get_files_to_analyze()
+    - _add_result_in_file()
+    - _add_files_to_ignore()
+    - _search_for_gitrepo()
+    - _process_path_for_gitignore()
+    - _write_in_gitignore()
+---
+
+### **Sensible data detector (from dev_sec.py)**
+The function ```retrieve_sensible_data()``` checks any sensible data in your **given directory**.
+
+**Parameters:**
+
+- ```path```: Take a string of the directory you want to check. 
+- ```file_extension```: Takes a list of strings of your desired file extensions to check.
+- ```naming_convention```: Take a string to check specific variable name convention.
+- ```check_file_name```: Whether to check for file names or not. (**Optional**, Default: ```False```)
+- ```add_to_gitignore```: Add detected files to .gitignore. (**Optional**, Default: ```False```)
+- ```output_file```: Whether to create an output file or not.  (**Optional**, Default: ```False```)
+
+**Things to keep in mind:**
+
+- the path should have a correct name (" ", Â², &, ', >, <, :, ;, " are invalid chars), the path should also exists.
+
+- the file extensions should be in a list of strings, even if you have one file extension that you want to check.
+
+- The syntax in naming_convention should be: **"camel_case"**, **"snake_case"** or **"uppercase"**
+--- 
+### **Print the result**
+The function ```print_result()```, print the result list returned by the function above in a pretty way (and readable)
+
+**This function should be used with the ```retrieve_sensible_data()``` function, it have no real use outside this scope**
+
+**Parameter:**
+- Takes the return of ```retrieve_sensible_data()``` (aka. a list of string)
+
+---
+
+### Example
+
+Create a python file in test folder of your project
+
+```py
+from dev_utils import dev_sec
+
+file_extensions = [".html", ".py", ".yaml"]
+path = "example/path/for/test"
+
+#file_extensions, path, "camel_case" are mandatory parameters
+#The last three args are optional
+dev_sec.retrieve_sensible_data(file_extensions, path, "camel_case", True, True, True)
+
+#if you want to print out the result
+dev_sec.print_result(
+        dev_sec.retrieve_sensible_data(
+            file_extensions, 
+            path, 
+            "camel_case", 
+            True, 
+            True, 
+            True
+        )
+    )
+```
+**Result after running**
+
+In the console:
+```
+In file C:\Users\test\my-project\tests\testpath\test_file2.py at line 5: Found sensitive data: ['API_KEY', 'KEY']
+```
+
+You will also find a text file containing the console output because we specified true to the output_file param
+
+And the sensible file will be added to gitignore because of the add_to_gitignore = True
+
+--- 
+### **add_var_names (from sec_names.py)**
+The security checker module only check for those variable names, those variables name are default ones. You can add more variables to the list by using the ```add_var_names()``` function.
+
+(Those are also available in **CamelCase** and in **snake_case** format)
+
+    - API_KEY 
+    - API_SECRET 
+    - API_TOKEN
+    - API_KEY_ID 
+    - API_SECRET_KEY 
+    - ACCESS_TOKEN
+    - SECRET_KEY 
+    - APP_API_KEY
+    - SERVICE_API_KEY
+    - AUTH_KEY
+    - CLIENT_SECRET
+    - CLIENT_ID
+    - PASSWORD 
+    - USER_PASSWORD 
+    - DB_PASSWORD 
+    - ADMIN_PASSWORD
+    - SECRET_PASSWORD 
+    - AUTH_PASSWORD
+    - LOGIN_PASSWORD
+    - PASSWORD_HASH 
+    - ENCRYPTED_PASSWORD 
+    - ROOT_PASSWORD
+    - AUTH_TOKEN
+    - AUTH_HEADER 
+    - BEARER_TOKEN 
+    - SESSION_KEY 
+    - OAUTH_TOKEN 
+    - JWT_TOKEN 
+    - JWT_SECRET
+    - REFRESH_TOKEN
+    - ACCESS_KEY
+    - SECRET_ACCESS_KEY 
+    - DB_USERNAME
+    - DB_PASSWORD 
+    - DB_HOST
+    - DB_PORT 
+    - DB_NAME 
+    - DB_URI 
+    - DB_CONNECTION_STRING 
+    - DB_USER
+    - DATABASE_PASSWORD
+    - CREDENTIALS
+    - SECRET
+    - PRIVATE_KEY 
+    - PRIVATE_SECRET 
+    - CLIENT_SECRET_KEY 
+    - ENCRYPTION_KEY
+    - SIGNING_KEY
+    - DECRYPTION_KEY 
+    - APP_SECRET
+    - API_CREDENTIALS 
+    - SERVICE_CREDENTIALS
+    - SMTP_PASSWORD
+    - SMTP_USERNAME 
+    - SMTP_SERVER 
+    - MAIL_PASSWORD 
+    - MAIL_USERNAME 
+    - EMAIL_PASSWORD
+    - EMAIL_API_KEY 
+    - AWS_ACCESS_KEY_ID 
+    - AWS_SECRET_ACCESS_KEY 
+    - AWS_SESSION_TOKEN
+    - GCP_API_KEY
+    - GCP_PROJECT_ID 
+    - GCP_SERVICE_ACCOUNT_KEY 
+    - AZURE_CLIENT_ID
+    - AZURE_CLIENT_SECRET 
+    - AZURE_TENANT_ID
+    - KEY
+    - SECRET_VALUE 
+    - ENCRYPTION_SECRET 
+    - HMAC_KEY
+    - SALT 
+    - SESSION_SECRET
