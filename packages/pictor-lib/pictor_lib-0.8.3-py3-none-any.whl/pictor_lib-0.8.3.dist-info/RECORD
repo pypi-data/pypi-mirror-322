@@ -1,0 +1,11 @@
+pictor_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pictor_lib/pictor_box.py,sha256=_PfyTZMaenHdUlp4PyGmp7Yi7il6QQx9p4Ri1EuqWSc,3440
+pictor_lib/pictor_drawable.py,sha256=OfmSA5aub-5H2q6_WrzcmD2YBgie3iwVUgauDFo6A_U,353
+pictor_lib/pictor_point.py,sha256=d7WPUsW1uUYC6tfgfa8C0wzVWKv3L20YfU_R1tpx2EU,1395
+pictor_lib/pictor_rectangle.py,sha256=kNbSNVLGq5n-XNDEouEecUpEQKIchESCarLz_Qm1i5I,1246
+pictor_lib/pictor_size.py,sha256=J3JVtVhPs2MuGk_7wqiL52tYtJJLq4Jao1YfAYQL3DM,3467
+pictor_lib/pictor_type.py,sha256=H9YVVo-RETbYO_V4xmCpAQh7VNLCAxQ05LjM9hd1HxI,131
+pictor_lib-0.8.3.dist-info/METADATA,sha256=2RKMCmJr4-EXfwk5RBxyOxPpuqRKsteNjP-VlU6o5is,1137
+pictor_lib-0.8.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pictor_lib-0.8.3.dist-info/licenses/LICENSE,sha256=hdKZV9hNJYXnEgwZxyhSuGDOQHK-SYVTUPJcxVtY1k0,1066
+pictor_lib-0.8.3.dist-info/RECORD,,
