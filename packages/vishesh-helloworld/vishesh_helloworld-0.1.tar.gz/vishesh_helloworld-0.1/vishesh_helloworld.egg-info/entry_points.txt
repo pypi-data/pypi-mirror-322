@@ -1,0 +1,2 @@
+[console_scripts]
+vishesh = vishesh_helloworld.main:create_helloworld_file
