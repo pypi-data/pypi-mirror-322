@@ -1,0 +1,10 @@
+[default.search.dimension.mapping]
+51d3f67e-f6ac-4219-9ca2-c0d608150326 = "Anzeige/Inserat"
+535bf8c9-930b-4df3-a4f6-785adff72ea1 = "Hauptthema"
+f2bcd607-6145-4aa3-8eee-c0c31089b3f5 = "Lightweight Search API fixed search dimension"
+055b4b38-d5b9-44a8-b5a8-b0bb4688d7cb = "Aussage"
+4efabca2-2381-4443-83da-7c60ea564ec1 = "Nennung"
+851be627-af2e-4ef3-a1fe-0b02321e7d20 = "Aussage"
+48687445-1e43-4c0d-96c1-d9806d6fa363 = "System"
+189f9800-1aca-4353-af3d-bf6b465bbab9 = "Nennung"
+749d3232-f01b-400b-88ea-b4402b704858 = "Hauptthema"
