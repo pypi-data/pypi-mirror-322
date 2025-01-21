@@ -1,0 +1,55 @@
+Metadata-Version: 2.4
+Name: bmoney
+Version: 0.2.0
+Summary: Budget Money - powerful budgeting tools extending Rocket Money transaction exports
+Project-URL: Homepage, https://github.com/dskarbrevik/budget-money
+Project-URL: Issues, https://github.com/dskarbrevik/budget-money/issues
+Author: David Skarbrevik
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: <3.14,>=3.10
+Requires-Dist: google-api-core>=2.24.0
+Requires-Dist: google-api-python-client>=2.158.0
+Requires-Dist: google-auth-httplib2>=0.2.0
+Requires-Dist: google-auth-oauthlib>=1.2.1
+Requires-Dist: google-auth>=2.37.0
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: plotly>=5.24.1
+Requires-Dist: pydantic>=2.10.4
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: streamlit>=1.41.1
+Requires-Dist: typer>=0.15.1
+Description-Content-Type: text/markdown
+
+# Budget Money
+
+Budget Money (bmoney) is a budgeting tool that builds on top of Rocket Money transaction exports.
+
+---
+
+Rocket Money allows users to export their financial transactions to a CSV file. Rocket Money (through their partnered service Plaid) provide transactions up to two years ago.
+
+Budget Money (this tool) provides an easy way to  takes in one or more of these CSVs in order to produce statistics and visualizations to help a user better understand their spending and achieve their budgeting goals.
+
+- Merge multiple Rocket Money CSV export files into one highly portable JSONL file
+- Display and easily edit your data
+- Extends Rocket Money metadata:
+    - Custom categories
+    - "Shared expenses" to make it easier to separate expenses with partners
+- Metrics and visualization dashboard to see category spending habit in more detail
+- Export category spend data to Google Sheets 
+
+# Installation
+
+`pip install bmoney`
+
+Once `bmoney` is installed in your environment, you can navigate to a directory where you want to store your transaction data files. Make sure you have a Rocket Money transaction export CSV file in that folder before using the bmoney cmds below.
+
+## Basic usage
+
+`bmoney init`
+
+You should see a a config.json and jsonl transaction file in your folder now.
+
+`bmoney launch` to see the budget money dashboard
