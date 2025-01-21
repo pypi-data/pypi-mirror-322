@@ -1,0 +1,13 @@
+*.eggs
+*.egg-info
+*.pyc
+*.so
+__pycache__
+MANIFEST
+build
+dist
+MANIFEST
+python-igwn-ligolw.spec
+igwn_ligolw/__init__.py
+__pycache__
+docs/api
