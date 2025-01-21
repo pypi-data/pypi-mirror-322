@@ -1,0 +1,18 @@
+{
+    "branches": [
+        "main"
+    ],
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "@semantic-release/github",
+        "@semantic-release/git",
+        [
+            "@semantic-release/exec",
+            {
+                "prepareCmd": "sed -i '' 's/__version__ = .*/__version__ = \"${nextRelease.version}\"/' src/setlogging/__init__.py && sed -i '' 's/__version__ = .*/__version__ = \"${nextRelease.version}\"/' tests/__init__.py"
+            }
+        ]
+    ]
+}
