@@ -1,0 +1,3 @@
+include autobex/tags.txt
+include README.md
+include LICENSE 
