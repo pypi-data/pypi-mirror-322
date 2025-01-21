@@ -1,0 +1,11 @@
+src/trifast/configs/_bwd_b_NVIDIA-A100-SXM4-80GB_8-0.json,sha256=aURjRHozmALHhDyMbulZDTX9rAIl6ju0ofuEDBixvls,39502
+src/trifast/configs/_bwd_b_NVIDIA-GeForce-RTX-3090_8-6.json,sha256=Xx_P0hcG18cPW2YiZuvfl3qUP8siEdWB0GuaKe4fDuU,28812
+src/trifast/configs/_bwd_kv_NVIDIA-A100-SXM4-80GB_8-0.json,sha256=n1SzRK7KWaHOWFgfeceObtgWNVnGF2OOwJjSHEYyHKs,41238
+src/trifast/configs/_bwd_kv_NVIDIA-GeForce-RTX-3090_8-6.json,sha256=wsCTyFBG0OO1eY01JRxN524wQ71VImZLJt3TsrQqnHM,30412
+src/trifast/configs/_bwd_q_NVIDIA-A100-SXM4-80GB_8-0.json,sha256=_kTMVwLZuQrOVhKFZcVe8Xa9GxHuPC258trN2EVJ1eE,52502
+src/trifast/configs/_bwd_q_NVIDIA-GeForce-RTX-3090_8-6.json,sha256=DhN9gKDICtsO7TzMWsADq7nMk1iJaYxDC7VNn5WCsVU,30416
+src/trifast/configs/_fwd_NVIDIA-A100-SXM4-80GB_8-0.json,sha256=wUT5O5o_wEm527p3hL8QiKUYBXudHHMRmvVzr9-iiNk,25084
+src/trifast/configs/_fwd_NVIDIA-GeForce-RTX-3090_8-6.json,sha256=NhUH0r6OPtJimYctp2RHMRNQJPLW36Z-ymlCiNroOfw,26602
+trifast-0.1.4.dist-info/METADATA,sha256=ZS7p-4rY9LhTBhWLjOOGpzy2HGBY5zHHA25HsMlOuBQ,1952
+trifast-0.1.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+trifast-0.1.4.dist-info/RECORD,,
