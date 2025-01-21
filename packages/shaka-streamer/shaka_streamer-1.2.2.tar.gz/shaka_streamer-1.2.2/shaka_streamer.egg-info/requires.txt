@@ -1,0 +1,6 @@
+pyyaml<7,>=6
+setproctitle<2,>=1
+typing_extensions<5,>=4
+
+[:platform_system == "Windows"]
+pywin32>=308
