@@ -1,0 +1,6 @@
+django>=3.0.0
+
+[dev]
+djangorestframework~=3.12
+parameterized~=0.7
+mixer~=7.2.2

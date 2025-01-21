@@ -1,0 +1,234 @@
+Metadata-Version: 2.2
+Name: drf-complex-filter
+Version: 2.0.2
+Summary: Declarative filter for Django ORM
+Author-email: Nikita Balobanov <kit-oz@ya.ru>
+License: MIT License
+        
+        Copyright (c) 2020 Nikita Balobanov
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/kit-oz/drf-complex-filter
+Keywords: django,django-rest-framework,django-orm
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django>=3.0.0
+Provides-Extra: dev
+Requires-Dist: djangorestframework~=3.12; extra == "dev"
+Requires-Dist: parameterized~=0.7; extra == "dev"
+Requires-Dist: mixer~=7.2.2; extra == "dev"
+
+# Django Complex Filter
+
+[![Published on Django Packages](https://img.shields.io/badge/Published%20on-Django%20Packages-0c3c26)](https://djangopackages.org/packages/p/drf-complex-filter/)
+[![PyPI version](https://badge.fury.io/py/drf-complex-filter.svg)](https://badge.fury.io/py/drf-complex-filter)
+[![codecov](https://codecov.io/gh/kit-oz/drf-complex-filter/branch/main/graph/badge.svg?token=B6Z1LWBXOP)](https://codecov.io/gh/kit-oz/drf-complex-filter)
+[![Python Versions](https://img.shields.io/pypi/pyversions/drf-complex-filter.svg)](https://pypi.org/project/drf-complex-filter/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A powerful and flexible declarative filter for Django ORM that enables complex query construction through a simple JSON-based API. Perfect for building advanced filtering capabilities in your Django REST Framework applications.
+
+## Features
+
+- **Advanced Filtering**: Complex AND/OR operations with nested conditions
+- **Declarative Syntax**: Simple JSON-based query structure
+- **Dynamic Values**: Support for computed values and server-side calculations
+- **Related Model Queries**: Efficient subquery handling for related models
+- **Extensible**: Easy to add custom operators and value functions
+- **Type Safe**: Built-in operator validation
+- **DRF Integration**: Seamless integration with Django REST Framework
+
+## Installation
+
+```bash
+pip install drf-complex-filter
+```
+
+## Quick Start
+
+1. Add `ComplexQueryFilter` to your ViewSet:
+
+```python
+from drf_complex_filter.filters import ComplexQueryFilter
+
+class UserViewSet(ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    filter_backends = [ComplexQueryFilter]
+```
+
+2. Make API requests with complex filters:
+
+```bash
+# Simple equality filter
+GET /users?filters={"type":"operator","data":{"attribute":"first_name","operator":"=","value":"John"}}
+
+# Complex AND condition
+GET /users?filters={"type":"and","data":[
+    {"type":"operator","data":{"attribute":"age","operator":">","value":18}},
+    {"type":"operator","data":{"attribute":"is_active","operator":"=","value":true}}
+]}
+```
+
+## Filter Types
+
+### 1. Simple Operator
+```python
+{
+    "type": "operator",
+    "data": {
+        "attribute": "field_name",
+        "operator": "=",
+        "value": "value_to_compare"
+    }
+}
+```
+
+### 2. AND Operator
+```python
+{
+    "type": "and",
+    "data": [
+        # List of operators to combine with AND
+    ]
+}
+```
+
+### 3. OR Operator
+```python
+{
+    "type": "or",
+    "data": [
+        # List of operators to combine with OR
+    ]
+}
+```
+
+## Available Operators
+
+| Operator | Description | Symbol |
+|----------|-------------|---------|
+| Is | Equality | = |
+| Is not | Inequality | != |
+| Contains | Case-insensitive contains | * |
+| Not contains | Case-insensitive not contains | ! |
+| Greater | Greater than | > |
+| Greater or equal | Greater than or equal | >= |
+| Less | Less than | < |
+| Less or equal | Less than or equal | <= |
+| In | Value in list | in |
+| Not in | Value not in list | not_in |
+| Current user | Current authenticated user | me |
+| Not current user | Not current authenticated user | not_me |
+
+## Advanced Features
+
+### Custom Operators
+
+1. Create your operator class:
+```python
+class CustomOperators:
+    def get_operators(self):
+        return {
+            "custom_op": lambda f, v, r, m: Q(**{f"{f}__custom": v}),
+        }
+```
+
+2. Register in settings:
+```python
+COMPLEX_FILTER_SETTINGS = {
+    "COMPARISON_CLASSES": [
+        "drf_complex_filter.comparisons.CommonComparison",
+        "path.to.CustomOperators",
+    ],
+}
+```
+
+### Dynamic Values
+
+1. Create value functions:
+```python
+class CustomFunctions:
+    def get_functions(self):
+        return {
+            "current_time": lambda request, model: timezone.now(),
+        }
+```
+
+2. Register in settings:
+```python
+COMPLEX_FILTER_SETTINGS = {
+    "VALUE_FUNCTIONS": [
+        "drf_complex_filter.functions.DateFunctions",
+        "path.to.CustomFunctions",
+    ],
+}
+```
+
+3. Use in filters:
+```python
+{
+    "type": "operator",
+    "data": {
+        "attribute": "created_at",
+        "operator": ">",
+        "value": {
+            "func": "current_time",
+            "kwargs": {}
+        }
+    }
+}
+```
+
+### Related Model Queries
+
+Use `ModelName___` prefix for efficient subqueries:
+```python
+{
+    "type": "operator",
+    "data": {
+        "attribute": "Profile___is_verified",
+        "operator": "=",
+        "value": true
+    }
+}
+```
+
+## Requirements
+
+- Python >= 3.6
+- Django >= 3.0.0
+- Django REST Framework
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
