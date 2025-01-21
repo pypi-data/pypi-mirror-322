@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+epigraph=mkdocs_plugin_epigraph.plugin:EpigraphPlugin
+

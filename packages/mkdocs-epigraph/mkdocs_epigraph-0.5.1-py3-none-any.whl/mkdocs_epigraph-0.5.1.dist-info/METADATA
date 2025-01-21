@@ -1,0 +1,67 @@
+Metadata-Version: 2.3
+Name: mkdocs-epigraph
+Version: 0.5.1
+Summary: Add epigraphs to your MkDocs documentation
+License: MIT
+Keywords: mkdocs,python,epigraph
+Author: Yves Chevallier
+Author-email: yves.chevallier@heig-vd.ch
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: mkdocs (>=1.6.1,<2.0.0)
+Project-URL: Documentation, https://github.com/yves-chevallier/mkdocs-epigraph
+Project-URL: Source, https://github.com/yves-chevallier/mkdocs-epigraph
+Project-URL: Tracker, https://github.com/yves-chevallier/mkdocs-epigraph/issues
+Description-Content-Type: text/markdown
+
+# MkDocs Epigraph Plugin
+
+This plugin allows you to add epigraphs to your MkDocs pages. An epigraph is a short quotation or saying at the beginning of a book or chapter, intended to suggest its theme.
+
+It is compatible with MkDocs Material.
+
+## Installation
+
+Install the plugin using pip:
+
+```bash
+pip install mkdocs-epigraph
+```
+
+Activate the plugin in your `mkdocs.yml`:
+
+```yaml
+plugins:
+  - epigraph
+```
+
+## Usage
+
+In you pages, you can add an epigraph in the YAML front matter:
+
+```markdown
+---
+epigraph:
+    text: "It is during our darkest moments that we must focus to see the light."
+    source: Aristotle
+---
+
+# Find the light
+```
+
+Which will render as:
+
+![Example](assets/screenshot.png)
+
