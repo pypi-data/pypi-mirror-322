@@ -1,0 +1,3 @@
+[console_scripts]
+topuniversities = ss_scrapping.topuniversities.topuniversities:main
+usnews = ss_scrapping.usnews.usnews:main
