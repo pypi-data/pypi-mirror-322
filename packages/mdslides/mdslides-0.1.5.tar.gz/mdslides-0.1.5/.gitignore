@@ -1,0 +1,15 @@
+.cache/
+*.pyc
+.*.swp
+__pycache__/
+build/
+dist/
+venv-devel/
+.pytest_cache/
+mdSlides.egg-info/
+_*/
+poetry.lock
+.python-version
+requirements-dev.lock
+requirements.lock
+testing/run-tests.t.err

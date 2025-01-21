@@ -1,0 +1,36 @@
+[project]
+name = "mdslides"
+version = "0.1.5"
+description = "A tool for generating slides from markdown files using different backends."
+maintainers = [
+{name="CD Clark III", email="clifton.clark@gmail.com"}
+]
+
+dependencies = [
+    "click>=8.1.7",
+    "packaging>=24.2",
+    "requests>=2.32.3",
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+managed = true
+dev-dependencies = [
+    "cram>=0.7",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mdslides"]
+
+[project.scripts]
+"mdslides" = "mdslides.__main__:main"
+"mdSlides" = "mdslides.__main__:main"
