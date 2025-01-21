@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nbai/__init__.py
+notebook_ai.egg-info/PKG-INFO
+notebook_ai.egg-info/SOURCES.txt
+notebook_ai.egg-info/dependency_links.txt
+notebook_ai.egg-info/requires.txt
+notebook_ai.egg-info/top_level.txt

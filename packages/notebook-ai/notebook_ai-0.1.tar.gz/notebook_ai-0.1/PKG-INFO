@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: notebook-ai
+Version: 0.1
+Summary: Enables running AI functionality in Jupyter notebooks using IPython magics.
+Home-page: https://github.com/nikhilk/nbai
+Author: Nikhil Kothari
+License: BSD
+Keywords: ai genai llm gemini vertexai jupyter interactive ipython
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE
+Requires-Dist: ipykernel
