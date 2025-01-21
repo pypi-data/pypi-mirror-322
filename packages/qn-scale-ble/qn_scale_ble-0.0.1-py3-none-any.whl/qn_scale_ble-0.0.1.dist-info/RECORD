@@ -1,0 +1,10 @@
+qn_scale_ble/__init__.py,sha256=o7yZAJh4XF_Z1F6HvoJYCfBRIKVqiCa3oNqVFwdk5Xo,361
+qn_scale_ble/_version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+qn_scale_ble/bluetooth.py,sha256=R5uAyv6YoffJSAWdq3t85imww4QzeWDfmIkGyJKzKzU,4433
+qn_scale_ble/body_metrics.py,sha256=m-g8jXZ-7jMtTYskDksc_nWbilSN_vSKc40wL55TjEY,11568
+qn_scale_ble/const.py,sha256=ot7e7VgU4ioH9z_yk3hTOWkodHyv3AxpLmDz4BlkLyw,592
+qn_scale_ble/parser.py,sha256=1pRcFa0vl_qJdEW7ebgRJpGtYGFp_vEfhsXmhibIjd4,12456
+qn_scale_ble-0.0.1.dist-info/METADATA,sha256=9W-D1dfA21tPEp7EYwVCstzApEv3yupYwYE6MN8nNWs,9083
+qn_scale_ble-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+qn_scale_ble-0.0.1.dist-info/licenses/LICENSE,sha256=CzWdkvfhiw76ftIFy6A1qQDNVUNSzpq9ImU5FgcnxgY,1070
+qn_scale_ble-0.0.1.dist-info/RECORD,,
