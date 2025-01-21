@@ -1,0 +1,13 @@
+.gitattributes
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+src/bulkdnsquery.py
+src/bulkdnsquery.egg-info/PKG-INFO
+src/bulkdnsquery.egg-info/SOURCES.txt
+src/bulkdnsquery.egg-info/dependency_links.txt
+src/bulkdnsquery.egg-info/entry_points.txt
+src/bulkdnsquery.egg-info/requires.txt
+src/bulkdnsquery.egg-info/top_level.txt
