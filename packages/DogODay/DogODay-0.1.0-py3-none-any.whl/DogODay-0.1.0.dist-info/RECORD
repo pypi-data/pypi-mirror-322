@@ -1,0 +1,16 @@
+DogODay/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DogODay/__main__.py,sha256=zLlVRrgunBNBqkJ2OfrofxQ9u-2agN1XFwnI9_r-_hk,29
+DogODay/app.py,sha256=k1KNDIcgfp88WMdWOAS4EDEVU52u1v699U_GMC-hiC0,590
+DogODay/auth.py,sha256=CPzzfJTdZ0ZChJHyPuKN6Jrvg_8MM709Ij9zK8tMjfs,215
+DogODay/gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DogODay/gui/controller.py,sha256=ZdKp0NiFrTHORk5SWvcAqQcwWeFp5ckaMi2VGoPJ_1E,2560
+DogODay/gui/model.py,sha256=pF62wP78fAgZ9TldZcCqPyraDr7d3vXDREzrRZ17dRw,2574
+DogODay/gui/view.py,sha256=TwjoV5UNoDnocM2R2LuQ1qcnXhOzfZYI7NVmvUZNuxM,4280
+DogODay/res/config.json,sha256=dnOI0M-tOBb70CZUldZOm0SJg9XCXcvHLKiYBQgRQ4E,50
+DogODay/res/placeholder.png,sha256=bVmsdvmrpgTEJwUNp2QG_wGNAU-VkHhK2BSarXwFuNo,533892
+DogODay-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+DogODay-0.1.0.dist-info/METADATA,sha256=DCcyU3ijseA5cltk-mfhj_zsyVe0T2U7UD8Ykt-Mqp4,1184
+DogODay-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+DogODay-0.1.0.dist-info/entry_points.txt,sha256=nmmz7_F6F2XNkLWlcKQ2U-v8Y_kQb8BG_3WkFtuKIO0,45
+DogODay-0.1.0.dist-info/top_level.txt,sha256=Jj64oLEPNtrmqbhq_utypd0owZMFbbac_a9JJbEJLj8,8
+DogODay-0.1.0.dist-info/RECORD,,
