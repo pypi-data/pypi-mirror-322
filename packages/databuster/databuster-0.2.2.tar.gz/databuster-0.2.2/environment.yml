@@ -1,0 +1,19 @@
+name: databuster
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - rdkit>=2.2.3
+  - numpy<2
+  - pandas>=2.0.0
+  - plotly>=5.24.1
+  - pip:
+    - cairosvg>=2.7.1
+    - chembl-webresource-client>=0.10.9
+    - deepchem>=2.8.0
+    - molvs>=0.1.1
+    - py3dmol>=2.4.0
+    - streamlit>=1.39.0
+    - tdc>=0.1.0

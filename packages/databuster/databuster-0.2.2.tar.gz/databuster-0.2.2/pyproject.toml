@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "databuster"
+version = "0.2.2"
+description = "A comprehensive chemical compound analysis platform for drug discovery research, developed by Suneel Kumar BVS, Ph.D., ATOMICAS AI SOLUTIONS PRIVATE LIMITED (https://theatomicas.io)"
+readme = "README.md"
+authors = [{ name = "Suneel Kumar BVS, Ph.D.", email = "suneelkumar.bvs@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+keywords = ["chemistry", "drug-discovery", "molecular-analysis", "chemical-compounds", "cheminformatics", "databuster"]
+requires-python = ">=3.11"
+dependencies = [
+    "build>=1.2.2.post1",
+    "cairosvg>=2.7.1",
+    "chembl-webresource-client>=0.10.9",
+    "deepchem>=2.8.0",
+    "molvs>=0.1.1",
+    "numpy<2",
+    "pandas>=2.0.0",
+    "plotly>=5.24.1",
+    "py3dmol>=2.4.0",
+    "python-dotenv>=1.0.1",
+    "rdkit>=2.2.3",
+    "scipy>=1.14.1",
+    "setuptools>=75.6.0",
+    "streamlit>=1.39.0",
+    "tdc>=0.1.0",
+    "twine==6.0.1",
+    "wheel>=0.45.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "isort>=5.0",
+    "mypy>=1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/suneelbvs/databuster"
+Repository = "https://github.com/suneelbvs/databuster.git"
+
+[project.scripts]
+databuster = "databuster.databuster:main"
