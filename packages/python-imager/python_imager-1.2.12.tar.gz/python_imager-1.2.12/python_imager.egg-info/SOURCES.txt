@@ -1,0 +1,12 @@
+LICENCE
+README.md
+setup.py
+pyimager/__init__.py
+pyimager/chars.py
+pyimager/main.py
+pyimager/text.py
+python_imager.egg-info/PKG-INFO
+python_imager.egg-info/SOURCES.txt
+python_imager.egg-info/dependency_links.txt
+python_imager.egg-info/requires.txt
+python_imager.egg-info/top_level.txt
