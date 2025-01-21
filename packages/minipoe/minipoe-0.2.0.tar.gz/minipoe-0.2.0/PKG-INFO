@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: minipoe
+Version: 0.2.0
+Summary: 
+Author: Ziwei Huang
+Author-email: huang-ziwei@outlook.com
+Requires-Python: >=3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+
