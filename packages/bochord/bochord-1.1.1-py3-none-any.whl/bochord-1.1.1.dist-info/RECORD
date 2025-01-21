@@ -1,0 +1,9 @@
+bochord/__init__.py,sha256=bpw1_9WhLjKGZZuImzgWiCCWHuAqPihjAR9-1ldeEf0,23
+bochord/bochord.py,sha256=_4_d3xn4SFt2bJHvblaCHzi5jKRKefl7bQCywvbdRxE,1062
+bochord/cli.py,sha256=aSvPXQtg4LDn7hi_oiWHcKrXZXdmeHGshiuF4OfLskA,1693
+bochord/epub_dir.py,sha256=BlOk7EaGV2TBXjW-oFusvg0gMx39SRu2RrVDhpqaHOg,2348
+bochord-1.1.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+bochord-1.1.1.dist-info/METADATA,sha256=lEJo3ZadZh56StkOEIZE4IicWlZ4Nqos3cwctXVumfU,1767
+bochord-1.1.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+bochord-1.1.1.dist-info/entry_points.txt,sha256=5nsk6HP8vDPHoHKrBm9lzGVRWXpjVo6J5GrtYLOaKd0,44
+bochord-1.1.1.dist-info/RECORD,,
