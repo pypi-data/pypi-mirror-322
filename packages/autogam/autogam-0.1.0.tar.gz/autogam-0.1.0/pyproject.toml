@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "autogam"
+version = "0.1.0"
+description = "Automate the Creation of Generalized Additive Models (GAMs)"
+authors = ["Chitu Okoli"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+statsmodels = ">=0.14.4"
+numpy = ">=2.2.2"
+pandas = ">=2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.3.4"
+pytest-cov = "^6.0.0"
+myst-nb = "^1.1.2"
+sphinx-autoapi = "^3.4.0"
+sphinx-rtd-theme = "^3.0.2"
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+markers = [
+    "smoke: for smoke tests (basic sanity checks)"
+]
