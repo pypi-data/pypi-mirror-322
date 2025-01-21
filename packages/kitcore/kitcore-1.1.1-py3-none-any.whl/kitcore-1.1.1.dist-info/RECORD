@@ -1,0 +1,12 @@
+kitcore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kitcore/decision_tree.py,sha256=9nDXthYJo1OXBPqd3NvxGqfz29c4SwaO1HPDxN0RuVk,4040
+kitcore/knn.py,sha256=lFotTln9puHeU0pHElka57ZyeaQAWR30KxEr1i7vLig,957
+kitcore/linear_regression.py,sha256=M6VewAZpLU04kbQIyvbDk40jk0E5eiMwjLJ31s4tjd8,1263
+kitcore/logistic_regression.py,sha256=9U1q1Hr2n93WgV3zAe3Isge-0TG1wpkNS76ezxBm8l8,1291
+kitcore/multivariate_regression.py,sha256=QCcKYzfWjmFRkEbeCrqxUQG1g6fE1FCyr6eDiHy1NMg,3538
+kitcore/randomforest.py,sha256=XLf3OSfha5v-Bfl8ZKAYx_SZx78P2uustaQshDrjRhA,5022
+kitcore-1.1.1.dist-info/LICENSE,sha256=BFqPI98aixRHmneJsROIblTq_8xSdkahdeBUq493Z0Y,1087
+kitcore-1.1.1.dist-info/METADATA,sha256=XbnSkkhTGsdHCF7GPotTIHIVqmX1z8vnr61THI_Ee58,787
+kitcore-1.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+kitcore-1.1.1.dist-info/top_level.txt,sha256=lBo1gUvpdix3SKEERp5HYL-6jnD-EAHezGahR4UDt7U,8
+kitcore-1.1.1.dist-info/RECORD,,
