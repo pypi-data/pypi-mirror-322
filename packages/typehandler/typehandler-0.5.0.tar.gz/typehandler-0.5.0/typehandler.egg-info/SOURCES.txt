@@ -1,0 +1,11 @@
+README.md
+setup.py
+typehandler/__init__.py
+typehandler/process.py
+typehandler.egg-info/PKG-INFO
+typehandler.egg-info/SOURCES.txt
+typehandler.egg-info/dependency_links.txt
+typehandler.egg-info/top_level.txt
+typehandler/tests/__init__.py
+typehandler/tests/example.py
+typehandler/tests/minimum.py
