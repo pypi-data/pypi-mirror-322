@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: qcvisualiser
+Version: 0.0.2
+Summary: Visualiser for QuartiCal gain solutions.
+Home-page: https://github.com/JSKenyon/QuartiCal-Visualiser
+License: MIT
+Author: Jonathan Kenyon
+Author-email: jonathan.simon.kenyon@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: cachetools (>=5.5.0)
+Requires-Dist: dask-ms[xarray,zarr] (>=0.2.23)
+Requires-Dist: dask[dataframe] (>=2024.10.0)
+Requires-Dist: datashader (>=0.16.3)
+Requires-Dist: hvplot (>=0.11.2)
+Requires-Dist: typer (>=0.15.1)
+Project-URL: Repository, https://github.com/JSKenyon/QuartiCal-Visualiser
+Description-Content-Type: text/markdown
+
+# QuartiCal-Visualiser
