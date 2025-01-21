@@ -1,0 +1,6 @@
+pyproject.toml
+integrated.egg-info/PKG-INFO
+integrated.egg-info/SOURCES.txt
+integrated.egg-info/dependency_links.txt
+integrated.egg-info/top_level.txt
+intergrated/__init__.py
