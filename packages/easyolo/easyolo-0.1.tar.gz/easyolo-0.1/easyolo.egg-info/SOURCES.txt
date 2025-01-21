@@ -1,0 +1,9 @@
+README.md
+setup.py
+easyolo/__init__.py
+easyolo/easyolo.py
+easyolo.egg-info/PKG-INFO
+easyolo.egg-info/SOURCES.txt
+easyolo.egg-info/dependency_links.txt
+easyolo.egg-info/requires.txt
+easyolo.egg-info/top_level.txt
