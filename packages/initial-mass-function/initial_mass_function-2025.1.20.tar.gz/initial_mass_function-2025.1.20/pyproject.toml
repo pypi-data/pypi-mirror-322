@@ -1,0 +1,23 @@
+[build-system]
+
+requires = ["setuptools",
+            "setuptools_scm",
+            "wheel"]
+
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "initial_mass_function"  # This will be the name on PyPI
+description = "Tools for sampling from and working with functional forms of the initial mass fuctino"
+dependencies = [
+    "astropy",
+    "numpy",
+    "scipy",
+]
+dynamic = ["optional-dependencies", 'authors', 'license', 'requires-python', 'readme', 'version']
+
+
+
+[tool.setuptools.packages]
+find = {}
+
