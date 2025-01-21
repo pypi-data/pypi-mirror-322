@@ -1,0 +1,84 @@
+Metadata-Version: 2.4
+Name: daggerml
+Version: 0.0.20
+Summary: DaggerML
+Project-URL: Homepage, https://daggerml.com
+Project-URL: Documentation, https://daggerml.com
+Project-URL: Issues, https://github.com/daggerml/python-lib/issues
+Author-email: DaggerML <engineering@daggerml.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Requires-Dist: dataclasses; python_version < '3.7'
+Requires-Dist: importlib-metadata; python_version < '3.8'
+Provides-Extra: all
+Requires-Dist: daggerml-cli; extra == 'all'
+Provides-Extra: cli
+Requires-Dist: daggerml-cli; extra == 'cli'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Getting started
+
+## Installation
+
+First install `daggerml-cli` via
+
+```bash
+pipx install daggerml-cli
+```
+
+Install `daggerml` in whatever [virtual environment](https://docs.python.org/3/tutorial/venv.html) you want:
+
+```bash
+pip install daggerml
+```
+
+## Setting up a repo
+
+Now we create a repo using the commandline.
+
+```bash
+dml repo create $repo_name
+```
+
+We initialize our current project (e.g. tell the project which repo and branch to use).
+
+```bash
+dml project init $repo_name
+```
+
+Now we can create dags or whatever we want using this repo.
+
+```python
+import daggerml as dml
+
+dag = dml.new("test", "this dag is a test")
+_ = dag.commit(42)
+```
+
+Now we can list repos, dags, 
+
+```bash
+dml dag list
+```
+
+## Clean up
+
+```bash
+dml repo delete $repo_name
+```
+
+## Docs
+
+For more info, check out the docs at [daggerml.com](https://daggerml.com).
