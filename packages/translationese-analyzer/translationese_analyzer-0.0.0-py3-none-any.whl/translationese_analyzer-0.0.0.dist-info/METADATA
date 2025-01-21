@@ -1,0 +1,150 @@
+Metadata-Version: 2.2
+Name: translationese_analyzer
+Version: 0.0.0
+Summary: Scientific paper translationese analyzer.
+Home-page: https://github.com/serovaolesya/sci_papers_translationese
+Author: Olesya Serova
+Author-email: serovaolesyau@gmail.com
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: colorama==0.4.6
+Requires-Dist: natasha==1.6.0
+Requires-Dist: navec==0.10.0
+Requires-Dist: nltk==3.9.1
+Requires-Dist: prettytable==3.11.0
+Requires-Dist: pymorphy2==0.9.1
+Requires-Dist: pymorphy2-dicts-ru==2.4.417127.4579844
+Requires-Dist: regex==2024.9.11
+Requires-Dist: rich==13.8.1
+Requires-Dist: slovnet==0.6.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# TRANSLATIONESE ANALYSER
+
+This distribution is an application with a user interface designed for analyzing the phenomenon of **translationese** in translations from English into Russian. 
+
+**Translationese** refers to the unique features of translated texts that differentiate them from original, non-translated texts written in the target language. By employing comparative analysis across translated and non-translated corpora, the program identifies specific linguistic indicators associated with this phenomenon.
+
+---
+
+## Main Features
+
+### 1. Text preprocessing  
+- Removing references and weblinks.
+- Adjusting text length based on user's choice.
+- Ensuring correct sentence segmentation.
+
+**Input Options:**
+- **Direct Input:** Paste text using **Ctrl+V** in the console.  
+- **File Input:** Place `.txt` files in one of the following folders:
+  - `auth_texts` for non-translated texts.
+  - `mt_texts` for machine translations.
+  - `ht_texts` for human translations.
+
+**Note:**  
+If you choose the **File Input** option, make sure to create the folders `auth_texts`, `mt_texts`, and `ht_texts` in your working directory and place your file for analysis into one of these folders. 
+
+If these folders are not present, they will be automatically created in the root of your working directory when you attempt to select this option. If no file is found, the program will still create these folders for you.
+
+**Processed Texts:**  
+After the text is processed, it will be automatically saved in one of the following directories:
+- `auth_ready` for non-translated texts.
+- `mt_ready` for machine-translated texts.
+- `ht_ready` for human-translated texts.
+
+These directories will be created automatically in the root of your working directory if they do not already exist.
+
+### 2. Indicator Analysis  
+The program analyzes texts across five groups of **translationese characteristics**:
+- **Simplification** which suggests that translated texts are structurally and lexically simpler than non-translated texts.
+- **Normalization** assumes that translated texts tend to use more normalized grammatical structures and fixed expressions. 
+- **Explicitation** highlights the tendency in translated texts to explicitly express elements that are implicit in the original text. 
+- **Interference** captures the transfer of source language features into translation.
+- **Other translationese indicators** which cover additional features outside the main characteristics.
+
+When users run the program, they will see all available **translationese indicators** displayed in the interface for detailed analysis and exploration.
+
+### 3. Text Metadata Passport  
+Allows creating and viewing text metadata profiles for comprehensive analysis.
+
+### 4. Corpora and Individual Texts Information Display  
+- Displays detailed metrics for a selected text.
+- Summarizes and shows data across the entire corpus.
+- Displays the comparison of gathered data across all corpora.
+
+### 5. Morphological and Syntactic Annotation  
+Performs linguistic annotations at both levels for further insights.
+
+---
+
+## Installation and Use
+
+### 1. Requirements:
+- Python (>=3.9)
+- Development Environment (e.g., PyCharm Community Edition)
+
+If you are new to Python, refer to the [Python Installation Guide](https://github.com/serovaolesya/sci_papers_translationese/blob/main/README_HOW_TO_INSTALL_PYHTHON.md).
+
+### 2. Installation Instructions
+
+1. **Set up a virtual environment:**  
+   - **Windows:**  
+     ```bash
+     python -m venv venv
+     ```
+   - **macOS/Linux:**  
+     ```bash
+     python3.9 -m venv venv
+     ```
+
+2. **Activate the virtual environment:**  
+   - **Windows:**  
+     ```bash
+     source venv/Scripts/activate
+     ```
+   - **macOS/Linux:**  
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. **Install the package:**  
+   Inside the virtual environment, run:
+   ```bash
+   pip install translationese_analyzer
+
+4. **Set up the main script for execution:**  
+   Create a Python file (e.g., `main.py`) in your project directory with the following content:
+   ```python
+   from translationese_analyzer import start_analysis
+
+   start_analysis()
+
+5. **Run the script:**  
+   It is strongly recommended to run the script using the **"RUN"** button in your IDE (e.g., PyCharm). This ensures that the full text for analysis is correctly captured, especially when pasting large texts.  
+   If you prefer to use the terminal, execute the following command:  
+   ```bash
+   python main.py
+
+
+---
+
+## Enjoy Using the Program!
+
+We hope you find this application helpful in analyzing translationese features in translated texts. If you have any questions, issues, or feedback, please feel free to reach out via email:
+
+**Olesya Serova**  
+**Email:** serovaolesyau@gmail.com  
