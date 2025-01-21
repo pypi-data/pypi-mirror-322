@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.MD
+pyproject.toml
+requirements-tests.txt
+setup.py
+llm_json/json.py
+llm_json.egg-info/PKG-INFO
+llm_json.egg-info/SOURCES.txt
+llm_json.egg-info/dependency_links.txt
+llm_json.egg-info/requires.txt
+llm_json.egg-info/top_level.txt
+tests/test_json.py
