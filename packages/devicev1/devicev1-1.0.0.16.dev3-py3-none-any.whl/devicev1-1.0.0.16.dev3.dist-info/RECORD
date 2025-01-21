@@ -1,0 +1,9 @@
+devicev1/__init__.py,sha256=58CvTlhRY6mphoyhaNrOfg2JXQ_uL0JiNZjTmOCwZn0,184
+devicev1/device_test.py,sha256=L5cXlZGGm4dF-wYc2NXliG9uCuFNHS5ytpdl_jO_Q4o,2248
+devicev1/client/__init__.py,sha256=58CvTlhRY6mphoyhaNrOfg2JXQ_uL0JiNZjTmOCwZn0,184
+devicev1/client/device_api.py,sha256=uO8i1NKkfVJ-Wjhpcvx3ovb4ALkWlHL-Y1trajuh2V0,6579
+devicev1/client/device_client.py,sha256=QxYth6qVvY6TdJKcFrQUSwo-TYEJjcNEU6FLMgPZTLY,5296
+devicev1-1.0.0.16.dev3.dist-info/METADATA,sha256=O9wohXbEUGtJUsKbYZRxie_uGeJ-lYkH5KdhhCsCSNE,310
+devicev1-1.0.0.16.dev3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+devicev1-1.0.0.16.dev3.dist-info/top_level.txt,sha256=7Fd2RVmOF9iXAHqrNmF9BnZ3xjNgwodM2GelmLcJPzI,9
+devicev1-1.0.0.16.dev3.dist-info/RECORD,,
