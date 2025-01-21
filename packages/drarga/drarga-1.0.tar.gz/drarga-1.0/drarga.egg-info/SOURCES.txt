@@ -1,0 +1,5 @@
+setup.py
+drarga.egg-info/PKG-INFO
+drarga.egg-info/SOURCES.txt
+drarga.egg-info/dependency_links.txt
+drarga.egg-info/top_level.txt
