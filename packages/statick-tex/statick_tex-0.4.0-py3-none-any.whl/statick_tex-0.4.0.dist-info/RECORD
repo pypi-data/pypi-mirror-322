@@ -1,0 +1,11 @@
+statick_tool/plugins/discovery/tex.py,sha256=W9M5ghw3hEFXOs-DZ_HglK4A9SEot_YlFR4lAFkaun0,1755
+statick_tool/plugins/tool/chktex.py,sha256=ZNWcOIdBSjbxSROpB0KpHfOfyrJHDhmMnAxUVY7kbIE,3203
+statick_tool/plugins/tool/lacheck.py,sha256=B5A6PKKdLc5RdUyClVQo0CyjhjbVDf_LwUpSp8vrIJ0,2907
+statick_tool/rsc/tex-config.yaml,sha256=Lr8bKmSXloGDlbCzSzdf2kB6FCqWKOWxLG6osvFltyw,307
+statick_tool/rsc/tex-profile.yaml,sha256=PQPhaEGr_xvOHafdoj9mfNp2Q59cAnSVZJFQ9tk_qLU,25
+statick_tex-0.4.0.dist-info/LICENSE,sha256=9lA3UIJt10DWMibeKdJjcpeAVQPVJPegMJS4xGAOHh8,6401
+statick_tex-0.4.0.dist-info/METADATA,sha256=XXXep3YhaUCD2XdspcpjlVY72DbpRjugjzYHbFjF_dw,5899
+statick_tex-0.4.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+statick_tex-0.4.0.dist-info/entry_points.txt,sha256=YGjkdzenS5Paby0Pgd0nCP45H_exgi-nfCxJQOwYSGk,243
+statick_tex-0.4.0.dist-info/top_level.txt,sha256=IURTvUQR0bpAZkuBs5kudIY9hnsPAsTmTgWm7lfCP7s,13
+statick_tex-0.4.0.dist-info/RECORD,,

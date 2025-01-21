@@ -1,0 +1,6 @@
+[statick_tool.plugins.discovery]
+tex = statick_tool.plugins.discovery.tex:TexDiscoveryPlugin
+
+[statick_tool.plugins.tool]
+chktex = statick_tool.plugins.tool.chktex:ChktexToolPlugin
+lacheck = statick_tool.plugins.tool.lacheck:LacheckToolPlugin
