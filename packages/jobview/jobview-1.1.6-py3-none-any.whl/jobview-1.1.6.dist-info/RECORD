@@ -1,0 +1,12 @@
+jobview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jobview/main.py,sha256=6TZKyRYHCRehprKTWvwbix1hymJNpUqzYM3KCBnqhEA,2179
+jobview/record_resource.py,sha256=VExc9uk1B-rx-ngWVFHRm3fmgbYTiS0OivdZjV-6PDQ,17938
+jobview/show_nodes.py,sha256=vsa-27hyrByhG_np199YCug1LwQa9QZHPTN6DtlmBF0,10122
+jobview/show_status.py,sha256=681Y9Obz62KPOFG9MnDTUq6tNHrO1oea0ZkhEtP9sv8,12841
+jobview/src/SimHei.ttf,sha256=M2qDj0p44VCCa-YI2uad5Z1QlIw9K3F2Dglq52QVS9w,9751960
+jobview/version/version.json,sha256=RPm7MONMM8Qsu3yubPKf84_EDgL3QZtOW5SsV5VQiv8,218
+jobview-1.1.6.dist-info/METADATA,sha256=D0ewurW9bzu6PkhedenFzHuE5VXxwEP1TpJYPzhuyj0,4093
+jobview-1.1.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+jobview-1.1.6.dist-info/entry_points.txt,sha256=8y-wCiKFFBguIFRIPz3NJFxZxbpz6-Vmf8fQWDw9Or4,46
+jobview-1.1.6.dist-info/top_level.txt,sha256=IjGVy8aYOwkQV6P6BNCSmaZ90neJFVTD1TiPlnHMJw8,8
+jobview-1.1.6.dist-info/RECORD,,
