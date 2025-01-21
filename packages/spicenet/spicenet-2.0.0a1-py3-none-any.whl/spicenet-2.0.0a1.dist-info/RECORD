@@ -1,0 +1,17 @@
+spice_net/__init__.py,sha256=KuI53quht39oVuMZ-SRUlSw2hrgqoIy7ovM2bJsEisI,255
+spice_net/_optimizer.py,sha256=AJBZZeJ2dchNHGG5hnAKopORlt4iPWmGkj7e2c_YGmo,6592
+spice_net/learning_rate_functions/__init__.py,sha256=OalD403KjdsnUN2ca-VLXnZxUfIQn0GQBLOY2DB58sQ,219
+spice_net/learning_rate_functions/const_lrf.py,sha256=vun20PzzQtrpC-pUW0RDKDM6DkY-stqOYm7fMv49i8E,247
+spice_net/learning_rate_functions/exp_e_decay_lrf.py,sha256=ohCsPymEy2Tnb9jRngjNS7IqHz0QLbh_zjSZ4yNnKOA,586
+spice_net/learning_rate_functions/inv_time_adaptation.py,sha256=EzXgmN5e4MRgmx28RFd0L7o5PSP9xpWQOi7n_HetAq0,669
+spice_net/learning_rate_functions/learning_rate_function.py,sha256=60XPGLPft34_jagi0RfX083FGRwOlb2mvc_4-ngv4V8,148
+spice_net/learning_rate_functions/linear_lrf.py,sha256=eNfjmUvTwtMeBIlxiEi2IFQrqF8Sr6yLnHL0743ZjoI,506
+spice_net/plotting/__init__.py,sha256=4sHT0c98JLE3xf4waBsL0-quGnu72mdgNP02GQSfNWU,104
+spice_net/plotting/spice_net_plotting.py,sha256=9ZpbB1yj4MR0drqwiFB7zj_9UfrC2XkZcJidyVgj0l0,4272
+spice_net/spice_net.py,sha256=U0Phns_c00poMzhyYb2VahZ3VbgmI1LA9GHO9Xe4Y2c,6986
+spice_net/spice_net_hcm.py,sha256=HI1DKkkimNclWSjP4kpVromhZY1so6ebiEIms18HX60,10102
+spice_net/spice_net_som.py,sha256=f7b7Epkyh16hY50Hz45GCcuksxJmIrCVHx2uuO74V8Y,11716
+spicenet-2.0.0a1.dist-info/LICENSE,sha256=NkVIntAn_01y2BSkOOclmfR6U2Ak8kT38adLZc9uYgI,1125
+spicenet-2.0.0a1.dist-info/METADATA,sha256=Pxyvzz5HwcOGQjaqcQ5C9BlmfhMMbczW6Z2TVEUpVU0,1928
+spicenet-2.0.0a1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+spicenet-2.0.0a1.dist-info/RECORD,,
