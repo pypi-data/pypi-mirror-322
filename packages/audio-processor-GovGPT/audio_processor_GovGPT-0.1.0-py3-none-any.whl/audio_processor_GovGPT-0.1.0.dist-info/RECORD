@@ -1,0 +1,7 @@
+audio_processor/__init__.py,sha256=jdPscsRInBtxLLwjKDr00ndJJhmCpn-m6abDLjTA0Pw,43
+audio_processor/silence_remover.py,sha256=0VBhQmAHT3ybxAdzGkqkJXbmYr8umcdOBd-0qiIn51E,1358
+audio_processor_GovGPT-0.1.0.dist-info/LICENSE,sha256=MRp81Vv-Co_TVcV_PWYyE0eZ-XFKrZW2sYSErbE6-MI,152
+audio_processor_GovGPT-0.1.0.dist-info/METADATA,sha256=mi34JAWqdRqfcKpcSZbL9PYsB6g4CKxkzE9l010XixM,671
+audio_processor_GovGPT-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+audio_processor_GovGPT-0.1.0.dist-info/top_level.txt,sha256=iZ-fMIvQrT4VHunbEULcnXM4drXNHHkdxoop4e3s9VA,16
+audio_processor_GovGPT-0.1.0.dist-info/RECORD,,
