@@ -1,0 +1,2 @@
+[console_scripts]
+get_pose = SPIKES_TO_US_IN.pf_pose:run
