@@ -1,0 +1,9 @@
+README.md
+setup.py
+demoscms/__init__.py
+demoscms/module.py
+demoscms.egg-info/PKG-INFO
+demoscms.egg-info/SOURCES.txt
+demoscms.egg-info/dependency_links.txt
+demoscms.egg-info/top_level.txt
+tests/test_module.py
