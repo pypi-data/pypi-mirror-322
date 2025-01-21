@@ -1,0 +1,1 @@
+OTTIC_URL = 'https://api.ottic.ai'
