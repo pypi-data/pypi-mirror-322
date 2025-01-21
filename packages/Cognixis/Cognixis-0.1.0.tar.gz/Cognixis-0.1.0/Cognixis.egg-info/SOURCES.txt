@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+Cognixis.egg-info/PKG-INFO
+Cognixis.egg-info/SOURCES.txt
+Cognixis.egg-info/dependency_links.txt
+Cognixis.egg-info/requires.txt
+Cognixis.egg-info/top_level.txt
+cognixis/__init__.py
+cognixis/train.py
