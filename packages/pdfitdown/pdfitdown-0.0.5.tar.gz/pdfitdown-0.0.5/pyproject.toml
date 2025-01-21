@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdfitdown"
+version = "0.0.5"
+authors = [
+    { name="Clelia (Astra) Bertelli", email="astraberte9@gmail.com" },
+]
+description = "PdfItDown - Convert Everything to PDF"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'markitdown',
+    'markdown_it_py == 3.0.0',
+    'pymupdf == 1.25.1',
+    'gradio == 5.12.0',
+    'termcolor',
+]
+
+[project.urls]
+Homepage = "https://github.com/AstraBert/PdfItDown"
+Issues = "https://github.com/AstraBert/PdfItDown/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pdfitdown*"]
+
+[options.package_data]
+pdfitdown = ["*"]
+
+[project.scripts]
+pdfitdown = "pdfitdown.pdfitdown_cli:main"
+pdfitdown_ui = "pdfitdown.pdfitdown_ui:main"
