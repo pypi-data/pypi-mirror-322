@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: cloudcoil.models.cert_manager
+Version: 1.16.3.0
+Summary: Versioned cert_manager models for cloudcoil
+Project-URL: Homepage, https://github.com/cloudcoil/cloudcoil
+Project-URL: Documentation, https://cloudcoil.github.io/cloudcoil
+Project-URL: Repository, https://github.com/cloudcoil/models-cert_manager
+Project-URL: Issues, https://github.com/cloudcoil/models-cert_manager/issues
+Project-URL: Changelog, https://github.com/cloudcoil/models-cert_manager/releases
+Author-email: Sambhav Kothari <sambhavs.email@gmail.com>
+Maintainer-email: Sambhav Kothari <sambhavs.email@gmail.com>
+License: Apache-2.0
+License-File: LICENSE
+Keywords: async,cert_manager,cloud-native,cloudcoil,cloudcoil-models,kubernetes,pydantic,python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Requires-Dist: cloudcoil>=0.0.31
+Description-Content-Type: text/markdown
+
+# cloudcoil-models-cert_manager
+
+Versioned cert_manager models for cloudcoil.
