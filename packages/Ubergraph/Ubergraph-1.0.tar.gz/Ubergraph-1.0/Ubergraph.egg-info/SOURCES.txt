@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Ubergraph.egg-info/PKG-INFO
+Ubergraph.egg-info/SOURCES.txt
+Ubergraph.egg-info/dependency_links.txt
+Ubergraph.egg-info/top_level.txt
