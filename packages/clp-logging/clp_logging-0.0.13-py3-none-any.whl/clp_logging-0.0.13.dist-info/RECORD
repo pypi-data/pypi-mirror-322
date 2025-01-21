@@ -1,0 +1,11 @@
+clp_logging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_logging/decoder.py,sha256=npdyu7pmGHEVHHd2uBw_6uifU1v-i5xe5krJyryPSU0,5922
+clp_logging/handlers.py,sha256=q11nozjoFrw1kkLv3JUtaFn5xMahNPC__OYJ0egeOOc,30607
+clp_logging/protocol.py,sha256=_s8xetbc2FJhbu2m7Mi2xvIAgITwZQxY0N9eCje8XUM,3587
+clp_logging/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_logging/readers.py,sha256=Io3XXlPafYaN8pDYwdPmIH1L741rDhUuiE3jGfei7SI,27901
+clp_logging-0.0.13.dist-info/LICENSE,sha256=kr_C39s0W9_KuMVK_xjGq76B777Y4zS7G-Nxg9_Hdso,11341
+clp_logging-0.0.13.dist-info/METADATA,sha256=87FEpu6jiwlqhrlsUN5wMc0ss5pxaGkJAGjErmZRHtE,11794
+clp_logging-0.0.13.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+clp_logging-0.0.13.dist-info/top_level.txt,sha256=cae_QYL-rmmoMLSpCEuBnMwgf_zBG_E_WC1KAFHXriE,12
+clp_logging-0.0.13.dist-info/RECORD,,
