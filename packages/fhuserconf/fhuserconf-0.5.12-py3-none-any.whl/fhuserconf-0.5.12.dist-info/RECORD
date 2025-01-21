@@ -1,0 +1,7 @@
+userconf/__init__.py,sha256=VpTqhIoqmTtIjggs_tb4tj8DTNDJuP-s35_MxUDLmtg,3079
+userconf/files.py,sha256=WmHidvqfjfaUMk4zp128l9c5lobVHtu-TC_FD4pP6yA,1962
+userconf/settings.py,sha256=yl83WFUyBjBVGPRYonamKycvG3xPqU-LL9Y5XiAS3So,4121
+userconf/validation.py,sha256=Gq61RrwcGSs-o0cGPoWEbPWDPxF7sfsyKtWjmNgec6Q,866
+fhuserconf-0.5.12.dist-info/METADATA,sha256=0KIX1jsRHOpK0shbUDJgCKbCfS7ElbuQWJzueDlgNms,3978
+fhuserconf-0.5.12.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+fhuserconf-0.5.12.dist-info/RECORD,,
