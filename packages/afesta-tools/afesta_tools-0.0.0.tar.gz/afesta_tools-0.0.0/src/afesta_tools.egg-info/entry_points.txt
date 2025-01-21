@@ -1,0 +1,2 @@
+[console_scripts]
+afesta = afesta_tools.__main__:cli
