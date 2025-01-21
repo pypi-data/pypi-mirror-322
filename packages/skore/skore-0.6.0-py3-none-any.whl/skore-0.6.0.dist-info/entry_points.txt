@@ -1,0 +1,2 @@
+[console_scripts]
+skore = skore.__main__:main
