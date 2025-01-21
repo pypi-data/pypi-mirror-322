@@ -1,0 +1,23 @@
+[build-system]
+requires = ["maturin>=1.0"]
+build-backend = "maturin"
+
+[project]
+name = "vmlab_mask"
+version = "0.1.0"
+description = "A Rust-based library for reconstructing grayscale masks in Python."
+authors = [{name = "Jaemin Kim", email = "geminik23@vmonster.io"}]
+license = "MIT"
+keywords = ["rust", "mask", "pyo3", "numpy"]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Rust",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool]
+
+[tool.maturin]
+manifest-path = 'libs\compact_mask\Cargo.toml'

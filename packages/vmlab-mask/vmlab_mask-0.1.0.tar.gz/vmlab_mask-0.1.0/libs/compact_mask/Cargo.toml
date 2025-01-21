@@ -1,0 +1,17 @@
+[package]
+name = "compact-mask"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pyo3 = { version = "0.23", features = ["extension-module"] }
+image = "0.25"
+imageproc = "0.25"
+ndarray = "0.16"
+serde = {version="1.0", features=["derive"]}
+numpy = "0.23"
+rmp-serde = "1.3"
+
+
+[lib]
+crate-type = ["cdylib"]
