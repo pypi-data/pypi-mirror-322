@@ -1,0 +1,7 @@
+biopython<1.77,>=1.63
+intervaltree>=3
+matplotlib
+ncls
+numpy<2.0
+pandas
+pysam>=0.15.4
