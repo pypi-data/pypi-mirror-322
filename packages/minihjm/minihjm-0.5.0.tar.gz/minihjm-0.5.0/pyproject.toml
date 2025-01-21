@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minihjm"
+version = "0.5.0"
+description = "A Python project named minihjm"
+authors = []
+requires-python = ">=3.9.0"
+dependencies = [
+    "numpy>=2.0.2",
+    "scipy>=1.13.1",
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pytest",
+    "build", 
+    "twine", 
+    "maturin"
+]
+
+[tool.setuptools]
+packages = {find = {}}
+include-package-data = true
+
+[tool.uv.sources]
+minihjm = { workspace = true }
+
+[dependency-groups]
+dev = [
+    "minihjm",
+]
+

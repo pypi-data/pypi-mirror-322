@@ -1,0 +1,27 @@
+Metadata-Version: 2.2
+Name: minihjm
+Version: 0.5.0
+Summary: A Python project named minihjm
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=2.0.2
+Requires-Dist: scipy>=1.13.1
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: maturin; extra == "dev"
+
+# minihjm
+
+A new Python project.
+
+
+## Installation
+
+```bash
+source .minihjm/bin/activate
+uv pip install ".[dev]"
+```
+
