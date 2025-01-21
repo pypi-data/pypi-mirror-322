@@ -1,0 +1,2 @@
+engineering-notation>=0.10.0
+stringify>=0.1.1
