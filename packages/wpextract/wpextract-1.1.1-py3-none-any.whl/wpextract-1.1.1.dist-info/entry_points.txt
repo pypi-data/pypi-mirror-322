@@ -1,0 +1,3 @@
+[console_scripts]
+wpextract=wpextract.cli:cli
+
