@@ -1,0 +1,8 @@
+tazids/__init__.py,sha256=3Vbjev-CUxs3E6r7qo4B9HPTv3ICkz4veEXtZy-AEfc,103
+tazids/clustering.py,sha256=T7rkThhRHeIuSSjgq9NmwM_n5jzEbKVQMawSPRdQX04,1042
+tazids/regressor.py,sha256=NZ59tK3rv-sb1DG5OjtqhYcb1igVWgZDEmfBl0y5kYE,1593
+tazids/tree.py,sha256=DsBPQzrmUGYbWGFArNjNYOmCY_X4Og8DGkuoBW3Z-eY,5168
+tazids-1.2.0.dist-info/METADATA,sha256=DBllbXm6Gb6mCHkB3cfMg7lrIYZbw8F_BJQUMGdBFoI,4495
+tazids-1.2.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+tazids-1.2.0.dist-info/top_level.txt,sha256=RtLOUCRWRyVDQ8L67hf4GU7CBweh1NwMrsAdjkYrA2w,7
+tazids-1.2.0.dist-info/RECORD,,
