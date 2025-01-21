@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+headlessagents/__init__.py
+headlessagents.egg-info/PKG-INFO
+headlessagents.egg-info/SOURCES.txt
+headlessagents.egg-info/dependency_links.txt
+headlessagents.egg-info/requires.txt
+headlessagents.egg-info/top_level.txt
