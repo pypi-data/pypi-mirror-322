@@ -1,0 +1,15 @@
+dida365/__init__.py,sha256=hoZEOW0IUwmRWLMVNKRuh6GJPw45yW_ou35DK4frVfk,1091
+dida365/auth.py,sha256=kTB-DEPfqsvzsd6TefJXYLsYF8mppk5dqZ7sUWj3sfQ,6769
+dida365/client.py,sha256=YCTYMai6JtHuoeu3sHPCQkX4PqvHf0ERVpullM7T93U,10247
+dida365/config.py,sha256=E8yKKWJ-s6OS71XwwIhiFwDbPejPGBtqYB8TuI9rGeA,3430
+dida365/exceptions.py,sha256=qLX9LYTpY4PAHP5VU1QaTagnU5Fvsuz9dU5veImNcu8,963
+dida365/http.py,sha256=va6TOBkR_06j-Kr7QshfxLlboEAXkNJXwMvszAodQKE,8720
+dida365/logger.py,sha256=XOJHuoMHp-Mkzzkzh-FBRNCaXJfVPjezyWnOGXqfTZA,1414
+dida365/settings.py,sha256=X0jR8P8n6t3L6Z7aMJfu1q2rft8f4MkDw3fKiZRsgnQ,4688
+dida365/models/base.py,sha256=G742GgHN7IeyZgiPz0PE6JHT60SRb0Slp_ZhdfjNLEs,878
+dida365/models/project.py,sha256=vuG1Ew6jzJhjrtcGkiyLTb1_JGQlvF4SQoN_7eRIgLo,6545
+dida365/models/task.py,sha256=H5vJHpQ2z_tgDqfVU_3z2u1gaf9k-8LhB3D2IA0Vofs,3376
+dida365-0.1.4.dist-info/METADATA,sha256=UlY7bSMIKevnYGGEzk7gstTtdZSnwnIZzsYZYvbdh5U,10554
+dida365-0.1.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+dida365-0.1.4.dist-info/licenses/LICENSE,sha256=jR9KTfb2YXU8wR8TBWzgZyLmBnR8tcomvLtL_rvKKO0,1076
+dida365-0.1.4.dist-info/RECORD,,
