@@ -1,0 +1,66 @@
+Metadata-Version: 2.2
+Name: tablelineage
+Version: 0.0.6
+Summary: A python library to get unity catalog table lineage information using azure databricks api
+Home-page: https://github.com/famutimine/tablelineage
+Author: Daniel Famutimi MD, MPH
+Author-email: danielfamutimi@gmail.com
+License: MIT
+Keywords: descriptive statistics
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools==65.6.3
+Requires-Dist: pandas==2.2.3
+Requires-Dist: requests==2.32.3
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+# tablelineage
+A Python package that can be used to retrieve data lineage using Databricks Data Lineage REST API
+
+## Installation
+
+This package is intended to be installed within Databricks as a Python library.
+
+## Example Usage
+
+```python
+from tablelineage import ShowMeLineage
+
+## Define the parameters
+catalog_name = "<catalog_name>"
+schema_name = "<schema_name>"
+table_name = "<table_name>"
+databricks_instance = "<databricks_instance"  # example: adb--xxxxxxxxxxx.x.azuredatabricks.net
+workspace_id = "<workspace_id>"
+
+conn = ShowMeLineage(databricks_instance, workspace_id)
+df = conn.getTableLineage(catalog_name, schema_name, table_name)
+
+df.display()
+
+"""
+Always exclude 'NA' in the 'lineage_direction' column from the resulting dataframe,
+unless you are interested in the links to the notebooks referencing specified table/view name.
+
+"""
