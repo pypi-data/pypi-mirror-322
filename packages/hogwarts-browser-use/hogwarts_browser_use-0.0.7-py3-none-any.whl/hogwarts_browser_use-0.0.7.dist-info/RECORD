@@ -1,0 +1,12 @@
+hogwarts_browser_use/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hogwarts_browser_use/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hogwarts_browser_use/model/task.py,sha256=BrrOnYo0M5273VESGgAl54AehHy6bq7iqUGUmrZEMw8,373
+hogwarts_browser_use/service/__init__.py,sha256=18HJimKVR7v7JTp5Lk5_BHWUppVeLMFO5cCQmJHvUME,56
+hogwarts_browser_use/service/__main__.py,sha256=JeU1qzje5iku92rj-5gs1QLYcrTtG4OTrgIGvCcSHOE,1172
+hogwarts_browser_use/service/core.py,sha256=_GKa6hkAF3ylvKE-etU0Ud2qKpBr88e6Hm3X65yVlv8,744
+hogwarts_browser_use/service/llm_factory.py,sha256=04PKsbX1aM1T-LmMkrfMfaU6a6b2M52TZ1eO1oEmYv8,828
+hogwarts_browser_use-0.0.7.dist-info/METADATA,sha256=ZZdliziOzC7OJlRMYRy8kMQG5iVXamynnLVTDNST3Xs,5650
+hogwarts_browser_use-0.0.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+hogwarts_browser_use-0.0.7.dist-info/entry_points.txt,sha256=QdgbJ_WrdW7MzMQkUBxM7taoRkaLFcJ9P1UjgvGSLSg,84
+hogwarts_browser_use-0.0.7.dist-info/top_level.txt,sha256=3eOt4rP3wYgR5EBcZZDfjS46HenS4hKSZHOZEGudpzQ,21
+hogwarts_browser_use-0.0.7.dist-info/RECORD,,
