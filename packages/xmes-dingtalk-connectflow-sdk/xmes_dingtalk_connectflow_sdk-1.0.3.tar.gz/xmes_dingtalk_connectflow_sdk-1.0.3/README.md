@@ -1,0 +1,53 @@
+## 概述
+![Version](https://img.shields.io/badge/Version-v1.0.2-green)
+![Python Version](https://img.shields.io/badge/Python-%E2%89%A53.9-blue)
+
+`xmes-dingtalk-connectflow-sdk` 是钉钉连接平台自建连接流SDK（向美而生），通过该工具可以方便快捷的调用钉钉的连接流。
+
+## 安装使用
+```bash
+pip install xmes-dingtalk-connectflow-sdk
+```
+
+## 功能特征
+- 支持连接流 `多维表CURD_241217`
+
+## 使用方法
+### ComplexTable
+该工具提供了连接流 `多维表CURD_241217` 的操作调用工具。
+```python
+from DingtalkConnectflowSDK import ComplexTable
+from DingtalkConnectflowSDk._table._types import GetterFilter, Updater
+
+# 初始化ComplexTable对象
+complextable = ComplexTable(flow_url='<连接流的同步协调URL>')
+
+# 获取 Table 对象
+table = complextable.get_table(did='<文档ID>', tid='<数据表ID>')
+# 或者直接传入视图链接
+# table = complextable.get_table_by_view_url(url='<视图链接>')
+
+# 查询数据
+filters = [
+    GetterFilter(field='来源', operator='equal', value=['SDK', 'API'])
+]
+result = table.get(size=10, fillters=filters)
+
+# 新增数据
+records = [
+    {'标题': 'Test Record 1', '来源': 'SDK},
+    {'标题': 'Test Record 2', '来源': 'SDK},
+]
+result = table.add(records)
+
+# 更新数据
+records = [
+    Updater(record_id='<记录ID>', fields={'来源': 'API'}),
+    Updater(record_id='<记录ID>', fields={'来源': 'API'}),
+]
+result = table.update(records)
+
+# 删除数据
+record_ids = ['<记录ID>', '<记录ID>']
+result = table.delete(record_ids)
+```
