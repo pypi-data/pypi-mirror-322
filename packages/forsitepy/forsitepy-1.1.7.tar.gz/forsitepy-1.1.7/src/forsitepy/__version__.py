@@ -1,0 +1,10 @@
+__title__ = "forsitepy"
+__description__ = "Internal Forsite Python SDK"
+__url__ = ""
+__version__ = "1.1.7"
+__build__ = 0x023203
+__author__ = "Pawel Migdal"
+__author_email__ = "pmigdal@forsite.ca"
+__license__ = "Apache-2.0"
+__copyright__ = "Copyright Pawel Migdal"
+__cake__ = "\u2728 \U0001f370 \u2728"
