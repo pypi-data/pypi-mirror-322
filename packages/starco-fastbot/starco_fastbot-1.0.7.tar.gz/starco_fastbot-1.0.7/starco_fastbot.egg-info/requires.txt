@@ -1,0 +1,5 @@
+starco-utility
+python-telegram-bot==13.14
+Telethon==1.33.1
+phonenumbers
+pycountry
