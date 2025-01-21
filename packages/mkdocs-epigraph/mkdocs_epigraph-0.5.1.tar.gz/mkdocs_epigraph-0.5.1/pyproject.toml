@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "mkdocs-epigraph"
+version = "0.5.1" # This will be replaced by poetry-dynamic-versioning
+description = "Add epigraphs to your MkDocs documentation"
+authors = ["Yves Chevallier <yves.chevallier@heig-vd.ch>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "mkdocs_plugin_epigraph" }]
+keywords = ["mkdocs", "python", "epigraph"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.poetry.urls]
+"Documentation" = "https://github.com/yves-chevallier/mkdocs-epigraph"
+"Source" = "https://github.com/yves-chevallier/mkdocs-epigraph"
+"Tracker" = "https://github.com/yves-chevallier/mkdocs-epigraph/issues"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry.requires-plugins]
+poetry-dynamic-versioning = { version = ">=1.0.0,<2.0.0", extras = ["plugin"] }
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+mkdocs = "^1.6.1"
+
+[tool.poetry.group.dev.dependencies]
+poetry = "^1.8.3"
+toml = "^0.10.2"
+ruff = "^0.9.1"
+black = "^24.10.0"
+
+[tool.poetry.plugins."mkdocs.plugins"]
+"epigraph" = "mkdocs_plugin_epigraph.plugin:EpigraphPlugin"
