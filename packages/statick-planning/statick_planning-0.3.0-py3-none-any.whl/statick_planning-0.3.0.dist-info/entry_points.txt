@@ -1,0 +1,6 @@
+[statick_tool.plugins.discovery]
+pddl = statick_tool.plugins.discovery.pddl:PDDLDiscoveryPlugin
+
+[statick_tool.plugins.tool]
+val_parser = statick_tool.plugins.tool.val_parser:ValParserToolPlugin
+val_validate = statick_tool.plugins.tool.val_validate:ValValidateToolPlugin
