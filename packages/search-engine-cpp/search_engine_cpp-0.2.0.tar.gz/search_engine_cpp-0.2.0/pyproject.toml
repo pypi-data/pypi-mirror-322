@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "search-engine-cpp"
+version = "0.2.0"
+description = "Search Engine is a project that implements a basic search engine using C++, Python, and Cython. It builds a reverse index and ranks pages with the PageRank algorithm based on keyword relevance and page importance."
+authors = ["Pedro Bianchini de Quadros <pedrobiqua@gmail.com>"]
+readme = "README.md"
+include = [
+    "lib/**",  # Inclui o diretório lib com todos os arquivos
+    "search_engine_cpp/lib/*.so",
+    "search_engine_cpp/.*so",
+    "CMakeLists.txt",
+    "README.md",  # Inclui o README
+    "LICENSE.md"  # Inclui o arquivo de licença
+]
+homepage = "https://pedrobiqua.github.io/Search_Engine/html/"
+documentation = "https://bianchtech.github.io/Search_Engine/html/Chap_00_Architecture_documentation.html"
+repository = "https://github.com/BianchTech/Search_Engine"
+
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cython = "^3.0.11"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+
+
+[tool.poetry.group.dev.dependencies]
+commitizen = "^4.1.0"
+setuptools = "^75.7.0"
+
+[build-system]
+requires = ["poetry-core", "setuptools", "wheel", "cython"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.build]
+script = "build.py"
+generate-setup-file = true
