@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: mc-check
+Version: 1.0.6
+Summary: CLI tool to check Minecraft server status using the mcsrvstat.us API
+Author-email: Dmitrii Orlovski <alvaniss1g@gmail.com>
+License: GPL-3.0
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests
