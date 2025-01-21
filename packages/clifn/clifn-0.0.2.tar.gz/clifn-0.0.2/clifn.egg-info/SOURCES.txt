@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+clifn/__init__.py
+clifn/__main__.py
+clifn.egg-info/PKG-INFO
+clifn.egg-info/SOURCES.txt
+clifn.egg-info/dependency_links.txt
+clifn.egg-info/requires.txt
+clifn.egg-info/top_level.txt
+test/test_clifn.py

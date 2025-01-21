@@ -1,0 +1,8 @@
+docopt
+
+[dev]
+pytest-cov
+wheel
+
+[test]
+pytest
