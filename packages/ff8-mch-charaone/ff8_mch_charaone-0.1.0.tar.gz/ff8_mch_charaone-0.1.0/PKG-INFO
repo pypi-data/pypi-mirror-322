@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: ff8_mch_charaone
+Version: 0.1.0
+Summary: Classes for parsing and formatting FF8 character models from MCH files.
+Author-email: A H <contact@highpertinent.com>
+Requires-Python: >=3.8
