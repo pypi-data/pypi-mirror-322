@@ -1,0 +1,9 @@
+uvrun/__init__.py,sha256=rUyaDvcQr9Yw0KkSnzLI9yAzDJ8nDOBt4Hl83LC9RSk,88
+uvrun/cli.py,sha256=KMbDocF6v1ng4hkYU-sECgM67nXcym-ZcuPZ6Ow62cM,2912
+uvrun/config.py,sha256=sq7Dp8OgLb_Q4mKvr2_vFPgtbiUmzWD2S6_TkpvQT9s,1809
+uvrun/discover.py,sha256=OhGYWfI_bqSuznMPPpCFNW978Ox74LRxz3lC9e6blhA,1004
+uvrun-0.1.5.dist-info/METADATA,sha256=f9i5pUn6Ps2FdmJGOrHPiJfg0xmgrpHWPdslJx-PAxk,1758
+uvrun-0.1.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+uvrun-0.1.5.dist-info/entry_points.txt,sha256=k6WI2vR8myUnTylpyipNvgvVFcVCIV-sOi6vbQAEfhI,41
+uvrun-0.1.5.dist-info/licenses/LICENSE,sha256=T5nytfsjFowvB0_g8VjNMkN_bGuFLFVe5lUN0rw92KE,1070
+uvrun-0.1.5.dist-info/RECORD,,
