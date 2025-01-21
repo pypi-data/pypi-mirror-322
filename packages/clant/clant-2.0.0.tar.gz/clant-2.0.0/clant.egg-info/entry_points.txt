@@ -1,0 +1,2 @@
+[console_scripts]
+clant = clant.clant:main
