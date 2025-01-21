@@ -1,0 +1,2 @@
+[nbdev]
+nixtla = nixtla._modidx:d
