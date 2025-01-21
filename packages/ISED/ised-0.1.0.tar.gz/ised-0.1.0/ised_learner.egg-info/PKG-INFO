@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: ised-learner
+Version: 0.1.0
+Summary: Temporal smoothness embedding learning via ISED approach
+Home-page: https://github.com/LeonBai/ised_learner
+Author: Wenjun BAI
+Author-email: wjbai@atr.jp
+License: UNKNOWN
+Description: # ISED Learner Package
+        
+        **ISED (Invariant Smooth Embedding Dynamics)** is a Python package for embedding learning using a variety of dimensionality reduction techniques and models. This package includes several conventional approaches like PCA, t-SNE, UMAP, GP-LVM, PHATE, and more, in addition to novel methods such as ISED-based learning. It is designed to provide tools for researchers and developers working with high-dimensional data, offering easy access to popular and custom embedding methods.
+        
+        ## Features
+        
+        - **ISED Learner**: A core module for embedding learning using the proposed temporal smoothness-based embedding learning: ISED.
+        - **Conventional Methods**: Implements several conventional dimensionality reduction techniques like PCA, t-SNE, UMAP, GP-LVM, PHATE, T-PHATE, and more.
+        - **Data Integration**: Provides integrated access to example datasets in simulation (`Xs.pkl` and `z_true.pkl`) for easy testing and experimentation.
+        
+        ## Installation
+        
+        To install the package, clone the repository and run the following command in the project root directory or just simply,
+        
+        ```
+        pip install ised_learner
+        
+        ```
+        
+        ## Examples:
+        
+        # Loading data:
+        
+        ```
+        from ised_learner.utils import load_and_preprocess_data
+        
+        # Load and preprocess data from the package
+        train_data, test_data = load_and_preprocess_data('Xs.pkl')
+        
+        ```
+        
+        
+        # Pick your methods:
+        
+        1. ISED 
+        
+        ```
+        from ised_learner import ISEDLearner
+        
+        # Initialize the ISED learner
+        ised_learner = ISEDLearner(latent_dim=20, input_dim=100, seq_length=125, batch_size=50, epochs=300)
+        
+        # Fit the model on training data
+        ised_learner.fit(train_data, np.mean(train_data, axis=1))
+        
+        # Transform the test data
+        z_transformed = ised_learner.transform(test_data)
+        
+        
+        ```
+        
+        2. Conventional methods: UMAP
+        
+        ```
+        from ised_learner import perform_umap
+        
+        umap_embedding = perform_umap(train_data, test_data, n_components=2)
+        
+        ```
+        
+        
+        
+        
+        
+        
+Keywords: embedding learning temporal smoothness ISED
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
