@@ -1,0 +1,62 @@
+[package]
+name = "rustyms"
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = true
+rust-version.workspace = true
+version.workspace = true
+description = "A library to handle proteomic mass spectrometry data and match peptides to spectra."
+categories = ["science::bioinformatics::proteomics"]
+keywords = ["spectra", "mass-spectrometry", "bio", "fragmentation", "proforma"]
+repository = "https://github.com/snijderlab/rustyms"
+readme = "README.md"
+include = [
+    "src/**/*",
+    "databases/**/*.gz",
+    "README.md",
+    "build.rs",
+    "benches/**/*",
+]
+
+[dependencies]
+bincode = { workspace = true }
+flate2 = { workspace = true }
+itertools = { workspace = true }
+mzdata = { workspace = true, optional = true }
+ndarray = { workspace = true, optional = true }
+ordered-float = { workspace = true }
+probability = { workspace = true, optional = true }
+rand = { workspace = true, optional = true }
+rayon = { workspace = true, optional = true }
+regex = { workspace = true }
+serde = { workspace = true }
+similar = { workspace = true }
+thin-vec = { workspace = true }
+uom = { workspace = true }
+
+[dev-dependencies]
+iai-callgrind = { workspace = true }
+serde_json = { workspace = true }
+
+[features]
+default = [
+    "imgt",
+    "align",
+    "identification",
+    "rayon",
+    "isotopes",
+    "rand",
+    "mzdata",
+]
+imgt = []
+align = []
+identification = []
+isotopes = ["probability", "ndarray"]
+
+[[bench]]
+name = "iai"
+harness = false
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(github_action)'] }
