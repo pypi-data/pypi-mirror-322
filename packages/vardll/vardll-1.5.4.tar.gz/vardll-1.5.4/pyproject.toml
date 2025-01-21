@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vardll"
+version = "1.5.4"
+description = "A library used to read uncompiled files and DLL files (Really useful)"
+readme = "README.md"
+authors = [
+  { name="Universal CEO", email="universal.store.panel@gmail.com" },
+]
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["vardll*"]
