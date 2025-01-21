@@ -1,0 +1,135 @@
+Metadata-Version: 2.3
+Name: pydantic-client
+Version: 1.0.6
+Summary: Http client base pydantic, with requests or aiohttp
+Author: ponytailer
+Author-email: huangxiaohen2738@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: aiohttp
+Provides-Extra: all
+Provides-Extra: httpx
+Requires-Dist: aiohttp ; extra == "aiohttp" or extra == "all"
+Requires-Dist: httpx[http2] ; extra == "httpx" or extra == "all"
+Requires-Dist: pydantic (>=2.1)
+Requires-Dist: requests
+Project-URL: Homepage, https://github.com/ponytailer/pydantic-client
+Description-Content-Type: text/markdown
+
+# pydantic-client
+
+[![codecov](https://codecov.io/gh/ponytailer/pydantic-client/branch/main/graph/badge.svg?token=CZX5V1YP22)](https://codecov.io/gh/ponytailer/pydantic-client) [![Upload Python Package](https://github.com/ponytailer/pydantic-client/actions/workflows/python-publish.yml/badge.svg)](https://github.com/ponytailer/pydantic-client/actions/workflows/python-publish.yml)
+
+Http client base pydantic with requests, aiohttp and httpx, support the json response or file(bytes).
+
+
+#### If you like this project, please star it.
+
+### How to install
+
+> only support `requests`:
+>> pip install pydantic-client
+
+> support `aiohttp` and `requests`:
+>> pip install "pydantic-client[aiohttp]"
+
+> support `httpx(async)` and `requests`:
+>> pip install "pydantic-client[httpx]"
+
+> support all:
+>> pip install "pydantic-client[all]"
+
+### How to use
+
+```python
+from pydantic import BaseModel
+
+from pydantic_client import delete, get, post, put, pydantic_client_manager
+from pydantic_client import ClientConfig
+
+
+class Book(BaseModel):
+    name: str
+    age: int
+
+
+@pydantic_client_manager.register(
+    ClientConfig(
+        base_url="https://example.com",
+        headers={"Authorization": "Bearer abcdefg"},
+        timeout=10
+    )
+)
+class WebClient:
+
+    @get("/books/{book_id}?query={query}")
+    def get_book(self, book_id: int, query: str) -> Book:
+        ...
+
+    @post("/books", form_body=True)
+    def create_book_form(self, book: Book) -> Book:
+        """ will post the form with book"""
+        ...
+
+    @put("/books/{book_id}")
+    def change_book(self, book_id: int, book: Book) -> Book:
+        """will put the json body"""
+        ...
+
+    @delete("/books/{book_id}")
+    def change_book(self, book_id: int, request_headers: dict = None) -> Book:
+        ...
+
+
+client = pydantic_client_manager.get()
+# will get the book with book_id=1
+book: Book = client.get_book(1)
+
+# request_headers will overwrite the headers in client_config
+client.change_book(1, request_headers={"Authorization": "Bearer abcdefg"})
+
+```
+
+And see the examples.
+
+
+<details>
+<summary> Change Log </summary>
+
+### v1.0.3: you can define your own client session in `client_config`
+
+```python
+import aiohttp
+from pydantic_client import ClientConfig, ClientType
+
+client_config = ClientConfig(
+    client_type=ClientType.aiohttp,
+    base_url="https://example.com",
+    headers={"Authorization": "Bearer abcdefg"},
+    timeout=10,
+    session=lambda: aiohttp.ClientSession()
+)
+
+
+```
+### v1.0.5: support file response type.
+
+```python
+from pydantic_client.schema.file import File
+from pydantic_client import post
+
+@post("/download")
+def download_file(self) -> File:
+    # you will get the bytes content of the file
+    ...
+
+```
+
+</details>
+
