@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mapFolding"
+description = "Count distinct ways to fold a map (or a strip of stamps)"
+readme = "README.md"
+authors = [{ name = "Hunter Hogan", email = "HunterHogan@pm.me" }]
+version = "0.2.5"
+requires-python = ">=3.10,<3.13"
+dependencies = ["numba", "numpy", "Z0Z-tools"]
+urls = { homepage = "https://github.com/hunterhogan/mapFolding" }
+
+[project.scripts]
+getOEISids = "mapFolding.oeis:getOEISids"
+clearOEIScache = "mapFolding.oeis:clearOEIScache"
+OEIS_for_n = "mapFolding.oeis:OEIS_for_n"
+
+[project.optional-dependencies]
+benchmark = ["pandas", "jupyter", "ipywidgets", "tqdm"]
+testing = ["pytest", "pytest-cov", "pytest-env", "pytest-xdist"]
+
+[tool.setuptools]
+include-package-data = true
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+
+[tool.coverage.run]
+branch = true
+source = ["mapFolding"]
+data_file = "tests/coverage/.coverage"
+omit = ["tests/*", "Z0Z_*"]
+
+[tool.coverage.report]
+exclude_lines = ["if TYPE_CHECKING:", "if __name__ == \"__main__\":", "numba.jit_module"]
+ignore_errors = false
+
+[tool.coverage.xml]
+output = "tests/coverage/coverage.xml"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["--color=yes", "-n 2"]
+# env = ["NUMBA_DISABLE_JIT=1"]
