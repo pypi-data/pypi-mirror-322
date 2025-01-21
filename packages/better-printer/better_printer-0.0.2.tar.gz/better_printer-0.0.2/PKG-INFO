@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: better_printer
+Version: 0.0.2
+Summary: you can use this module to print esasily
+Home-page: https://vtongxue.github.io
+Author: student_v
+Author-email: 13974164156@163.com
+Project-URL: Bug tracker, https://vtongxue.github.io
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
