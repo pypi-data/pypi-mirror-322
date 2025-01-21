@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.py
+src/ecifl2html/__init__.py
+src/ecifl2html/ecifl2html.py
+src/ecifl2html.egg-info/PKG-INFO
+src/ecifl2html.egg-info/SOURCES.txt
+src/ecifl2html.egg-info/dependency_links.txt
+src/ecifl2html.egg-info/top_level.txt
