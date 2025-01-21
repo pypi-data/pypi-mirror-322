@@ -1,0 +1,5 @@
+packaging>=24.2
+packaging-version-git>=0.1.1
+packaging-version-increment>=0.1.3
+tomlkit>=0.13.2
+typer>=0.13.0
