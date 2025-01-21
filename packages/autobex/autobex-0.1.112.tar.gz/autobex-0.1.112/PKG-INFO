@@ -1,0 +1,24 @@
+Metadata-Version: 2.2
+Name: autobex
+Version: 0.1.112
+Summary: Autobex helps you find abandoned and interesting locations using OpenStreetMap data. 
+Author-email: Lane Araujo <lanearaujo@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/the-Drunken-coder/Autobex
+Project-URL: Documentation, https://github.com/the-Drunken-coder/Autobex#readme
+Project-URL: Repository, https://github.com/the-Drunken-coder/Autobex.git
+Project-URL: Issues, https://github.com/the-Drunken-coder/Autobex/issues
+Keywords: osm,openstreetmap,abandoned,exploration,geocoding
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.0
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: geopy>=2.3.0
