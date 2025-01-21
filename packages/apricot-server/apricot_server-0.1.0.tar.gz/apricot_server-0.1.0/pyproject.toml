@@ -1,0 +1,119 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "apricot-server"
+dynamic = ["version"]
+description = "A proxy for delegating LDAP requests to an OpenID Connect backend."
+readme = "README.md"
+requires-python = ">=3.7"
+license = "BSD-3-Clause"
+keywords = []
+authors = [
+  { name = "James Robinson", email = "james.em.robinson@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "ldaptor~=21.2",
+  "oauthlib~=3.2",
+  "pydantic~=2.4",
+  "redis~=5.0",
+  "requests-oauthlib~=1.3",
+  "Twisted~=23.10",
+  "zope.interface~=6.2",
+]
+
+[project.urls]
+Documentation = "https://github.com/alan-turing-institute/apricot#readme"
+Issues = "https://github.com/alan-turing-institute/apricot/issues"
+Source = "https://github.com/alan-turing-institute/apricot"
+
+[tool.hatch.version]
+path = "apricot/__about__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.hatch.envs.lint]
+detached = true
+dependencies = [
+  "black~=24.2",
+  "mypy~=1.8",
+  "ruff~=0.7",
+  "types-oauthlib~=3.2",
+  "types-redis~=4.6",
+  "types-requests~=2.31",
+]
+
+[tool.hatch.envs.lint.scripts]
+typing = "mypy {args:apricot} run.py"
+
+style = [
+  "black --check --diff {args:apricot} run.py",
+  "ruff check --preview {args:apricot} run.py",
+]
+fmt = [
+  "black {args:apricot} run.py",
+  "ruff check --preview --fix {args:apricot} run.py",
+  "style",
+]
+all = [
+  "style",
+  "typing",
+]
+
+[tool.black]
+target-version = ["py310", "py311"]
+
+[tool.ruff.lint]
+# See https://beta.ruff.rs/docs/rules/
+select = ["ALL"]
+ignore = [
+  "D100",    # missing-docstring-in-module
+  "D104",    # missing-docstring-in-package
+  "D203",    # one-blank-line-before-class (due to conflict with D211)
+  "D213",    # multi-line-summary-second-line (due to conflict with D212)
+  "CPY001",  # missing-copyright-notice
+  "G010",    # logging-warn (due to incorrect heuristic)
+]
+
+[tool.ruff.lint.flake8-annotations]
+allow-star-arg-any = true
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "parents"
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+known-first-party = ["apricot"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+ignore-decorators = ["typing.overload"]
+
+[tool.mypy]
+disallow_subclassing_any = false  # allow subclassing of types from third-party libraries
+files = "apricot"                 # run mypy over this directory
+strict = true                     # enable all optional error checking flags
+
+[[tool.mypy.overrides]]
+module = [
+  "ldaptor.*",
+  "pydantic.*",
+  "requests_oauthlib.*",
+  "twisted.*",
+  "zope.interface.*",
+]
+ignore_missing_imports = true
