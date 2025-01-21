@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pii_redactor/__init__.py
+src/pii_redactor/pii_redactor.py
+src/pii_redactor.egg-info/PKG-INFO
+src/pii_redactor.egg-info/SOURCES.txt
+src/pii_redactor.egg-info/dependency_links.txt
+src/pii_redactor.egg-info/entry_points.txt
+src/pii_redactor.egg-info/requires.txt
+src/pii_redactor.egg-info/top_level.txt
+src/pii_redactor/tests/__init__.py
+src/pii_redactor/tests/conftest.py
+src/pii_redactor/tests/test_file_handler.py
+src/pii_redactor/tests/test_redactor.py
