@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rl-env-core
+Version: 1.0.0
+Summary: RL training environment
+Author: PJutch
+Author-email: paveljutch@yandex.ru
+Requires-Python: >=3.7
+Provides-Extra: test
+Requires-Dist: pytest>=6.0; extra == "test"
+
+long description
