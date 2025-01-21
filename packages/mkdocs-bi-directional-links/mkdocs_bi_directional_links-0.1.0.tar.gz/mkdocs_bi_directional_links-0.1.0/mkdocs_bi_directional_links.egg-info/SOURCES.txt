@@ -1,0 +1,16 @@
+README.md
+setup.py
+mkdocs_bi_directional_links/__init__.py
+mkdocs_bi_directional_links/link_processor.py
+mkdocs_bi_directional_links/plugin.py
+mkdocs_bi_directional_links/search_integration.py
+mkdocs_bi_directional_links/utils.py
+mkdocs_bi_directional_links.egg-info/PKG-INFO
+mkdocs_bi_directional_links.egg-info/SOURCES.txt
+mkdocs_bi_directional_links.egg-info/dependency_links.txt
+mkdocs_bi_directional_links.egg-info/entry_points.txt
+mkdocs_bi_directional_links.egg-info/requires.txt
+mkdocs_bi_directional_links.egg-info/top_level.txt
+tests/test_link_processor.py
+tests/test_plugin.py
+tests/test_search_integration.py

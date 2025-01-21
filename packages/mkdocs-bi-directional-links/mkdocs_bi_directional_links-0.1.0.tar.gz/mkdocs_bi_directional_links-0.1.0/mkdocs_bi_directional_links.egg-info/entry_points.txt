@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+bi_directional_links = mkdocs_bi_directional_links.plugin:BiDirectionalLinksPlugin
