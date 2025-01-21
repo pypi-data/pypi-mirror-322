@@ -1,0 +1,9 @@
+audioslicer/__init__.py,sha256=nsdTAJyBgUVUDTPjtZsk3xDMGlAWJ8uYuGEny-qegD4,46
+audioslicer/slicer.py,sha256=el_XAH47Wg8SNE_LUJ4iRFb47l6W0J7T5jzZV6JG49o,8648
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_audio_slicer.py,sha256=CNOouyfDclRZli8fO_GXzhplNI58I8Qyqynt_P3KaPw,3630
+lm_audioslicer-0.1.4.dist-info/LICENSE,sha256=zpVrTv0TvBsHPx54WkCNbA_XJ-rvi6tSx49jgUZPBPY,1077
+lm_audioslicer-0.1.4.dist-info/METADATA,sha256=KPkFX0yt1IodqgKxMwnYMLgjs1TeYZqrnG1jehLNny0,4048
+lm_audioslicer-0.1.4.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+lm_audioslicer-0.1.4.dist-info/top_level.txt,sha256=1Ut6_dD_Dd3lKiyBfehp2_X4ouGJ363wa2tJtxh-n5Y,18
+lm_audioslicer-0.1.4.dist-info/RECORD,,
