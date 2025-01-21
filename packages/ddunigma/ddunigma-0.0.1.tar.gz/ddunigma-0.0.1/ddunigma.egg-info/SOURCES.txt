@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+ddunigma.egg-info/PKG-INFO
+ddunigma.egg-info/SOURCES.txt
+ddunigma.egg-info/dependency_links.txt
+ddunigma.egg-info/top_level.txt
