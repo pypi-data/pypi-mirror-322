@@ -1,0 +1,8 @@
+package_creation_tutorial/__init__.py,sha256=l7JucxlhiLwdkKtfSit2najlvD-BJv7JYpKQHTcp9FY,223
+package_creation_tutorial/main.py,sha256=us2jbKD63tb2ajjyeUmO_XJPrIzUgq9QFrwkw4HT2nE,503
+package_creation_tutorial/setup.py,sha256=Qvx1LJ9MyGD2s6CwRG2Jg_oEjonxqGcxzvNzP-aVaQo,1219
+package_creation_tutorial/string_ops.py,sha256=msDnXwZezX5wgfKR5BXD1xyoqJhTG78wlfuoPPuQvF0,882
+package_creation_tutorial_borghel-0.1.0.dist-info/LICENCE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+package_creation_tutorial_borghel-0.1.0.dist-info/METADATA,sha256=jhus8NOuluEWt8vbNncktNOWBRsQAu40nwXeQu9etGk,1431
+package_creation_tutorial_borghel-0.1.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+package_creation_tutorial_borghel-0.1.0.dist-info/RECORD,,
