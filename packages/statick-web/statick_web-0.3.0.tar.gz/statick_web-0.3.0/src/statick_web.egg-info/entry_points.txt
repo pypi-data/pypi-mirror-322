@@ -1,0 +1,10 @@
+[statick_tool.plugins.discovery]
+css = statick_tool.plugins.discovery.css:CSSDiscoveryPlugin
+html = statick_tool.plugins.discovery.html:HTMLDiscoveryPlugin
+javascript = statick_tool.plugins.discovery.javascript:JavaScriptDiscoveryPlugin
+
+[statick_tool.plugins.tool]
+eslint = statick_tool.plugins.tool.eslint:ESLintToolPlugin
+htmllint = statick_tool.plugins.tool.htmllint:HTMLLintToolPlugin
+jshint = statick_tool.plugins.tool.jshint:JSHintToolPlugin
+stylelint = statick_tool.plugins.tool.stylelint:StylelintToolPlugin

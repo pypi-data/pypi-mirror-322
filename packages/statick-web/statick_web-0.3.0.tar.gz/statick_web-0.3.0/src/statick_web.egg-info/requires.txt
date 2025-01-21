@@ -1,0 +1,14 @@
+importlib_metadata
+statick
+
+[docs]
+yaml-1.3
+
+[test]
+coverage
+mock
+pytest
+pytest-cov
+statick-md
+tox
+tox-gh-actions
