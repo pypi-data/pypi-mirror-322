@@ -1,0 +1,38 @@
+Metadata-Version: 2.4
+Name: wanga
+Version: 0.4.0
+Summary: A library for interacting with Large Language Models.
+Author-email: Artur Chakhvadze <norpadon@gmail.com>
+License: MIT
+License-File: LICENSE
+Requires-Python: <4.0,>=3.10
+Requires-Dist: attrs>=23.2.0
+Requires-Dist: docstring-parser>=0.16
+Requires-Dist: jinja2>=3.1.4
+Requires-Dist: json5>=0.9.25
+Requires-Dist: tenacity>=8.5.0
+Requires-Dist: tiktoken>=0.7.0
+Provides-Extra: anthropic
+Requires-Dist: anthropic>=0.30.0; extra == 'anthropic'
+Provides-Extra: dev
+Requires-Dist: pillow>=10.3.0; extra == 'dev'
+Requires-Dist: pydantic>=2.7.4; extra == 'dev'
+Requires-Dist: pyright>=1.1.369; extra == 'dev'
+Requires-Dist: pytest-asyncio>=0.24.0; extra == 'dev'
+Requires-Dist: pytest-dotenv>=0.5.2; extra == 'dev'
+Requires-Dist: pytest>=8.2.2; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme>=2.0.0; extra == 'dev'
+Requires-Dist: sphinx>=7.3.7; extra == 'dev'
+Requires-Dist: sphinxcontrib-napoleon>=0.7; extra == 'dev'
+Requires-Dist: toml>=0.10.2; extra == 'dev'
+Provides-Extra: openai
+Requires-Dist: openai-function-tokens>=0.1.2; extra == 'openai'
+Requires-Dist: openai>=1.35.7; extra == 'openai'
+Description-Content-Type: text/markdown
+
+# Wanga
+[![License: MIT](https://img.shields.io/badge/license-MIT-C06524)](https://github.com/norpadon/wanga/blob/main/LICENSE)
+[![tests](https://github.com/norpadon/wanga/actions/workflows/tests.yaml/badge.svg)](https://github.com/norpadon/wanga/actions/workflows/tests.yaml)
+[![lint](https://github.com/norpadon/wanga/actions/workflows/lint.yaml/badge.svg)](https://github.com/norpadon/wanga/actions/workflows/lint.yaml)
+[![docs](https://github.com/norpadon/wanga/actions/workflows/docs.yaml/badge.svg)](https://norpadon.github.io/wanga/)
+
