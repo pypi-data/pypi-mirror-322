@@ -1,0 +1,6 @@
+pyperclip
+requests
+pyautogui
+bs4
+pyttsx3
+pypinyin
