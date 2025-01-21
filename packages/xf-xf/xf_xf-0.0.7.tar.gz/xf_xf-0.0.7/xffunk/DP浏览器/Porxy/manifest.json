@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "DP随时切换IP",
+  "description": "DP随时切换IP",
+  "version": "1.0",
+  "author": "魂穆河",
+  "action": {
+    "default_icon": "logo.png"
+  },
+  "permissions": [
+    "proxy"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "minimum_chrome_version": "116"
+}
+
+
