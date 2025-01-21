@@ -1,0 +1,7 @@
+pydicom==2.4.4
+pandas
+tabulate
+scipy
+
+[interactive]
+curses
