@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: find-a-number-game
+Version: 1.0.2
+Summary: Game that can be played with friends and family!
+Keywords: game
+Author: Armen Martirosyan
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.8,<9.0.0)
+Requires-Dist: reportlab (>=4.2.5,<5.0.0)
+Project-URL: Changelog, https://github.com/armartirosyan/find-a-number-game/blob/master/CHANGELOG.md
+Project-URL: Homepage, https://github.com/armartirosyan/find-a-number-game
+Project-URL: Issues, https://github.com/armartirosyan/find-a-number-game/issues
+Project-URL: Repository, https://github.com/armartirosyan/find-a-number-game.git
+Description-Content-Type: text/markdown
+
+# F.A.N.G. (Find a Number Game)
+
+<p align="center">
+  <img src="assets/fang_icon.png" />
+</p>
+
+Find a number game (FANG) is a very fun game that can be played with friends and family. Rules and game setup are very simple.
+
+
+
+## Game Play
+
+Recommended number of players: 4-6
+The first player chooses a number on his paper, put
