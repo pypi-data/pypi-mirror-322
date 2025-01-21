@@ -1,0 +1,12 @@
+pii_redactor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pii_redactor/pii_redactor.py,sha256=KH9TiyNHo8bOX1RdoaTMYILwcqPBt9vgE7kWRAkeBXE,12434
+pii_redactor/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pii_redactor/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pii_redactor/tests/test_file_handler.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pii_redactor/tests/test_redactor.py,sha256=GziCSZYgkVUupDkJGITcfbO722bnKKrD_PhcwNVr0OQ,499
+pii_redactor-0.1.dist-info/LICENSE,sha256=QtE_S1uQ8e8738kAh_ksW2LXMLznUvJYv-EQIacHwpo,1069
+pii_redactor-0.1.dist-info/METADATA,sha256=Q6TfxbVKDbZTguOQFwMHUDJ1XiOcuawhiZeiYK1qH9o,4530
+pii_redactor-0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pii_redactor-0.1.dist-info/entry_points.txt,sha256=NSqcYaz_W1hqpv-pV841XQKa1vmTwZNr0j9sjtCBlZI,49
+pii_redactor-0.1.dist-info/top_level.txt,sha256=QgD_XgI4vBETvlg-Ad4uxnevnBBfA__-0G-d91PwEik,13
+pii_redactor-0.1.dist-info/RECORD,,
