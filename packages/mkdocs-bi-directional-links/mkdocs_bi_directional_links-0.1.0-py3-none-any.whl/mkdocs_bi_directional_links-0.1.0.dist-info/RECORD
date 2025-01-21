@@ -1,0 +1,10 @@
+mkdocs_bi_directional_links/__init__.py,sha256=PngK36iI8A9FCkyOrOWXKf94G5qSx_kRd6oZX5mLMdI,170
+mkdocs_bi_directional_links/link_processor.py,sha256=BOxUztay9rjs5G56ni4Kf4A1XKWevLXvPPWCcUZE6JU,3185
+mkdocs_bi_directional_links/plugin.py,sha256=XdsgBfEv5nRpBynIU4KKtnqSRShyg7kLhsuZMAAImn8,1608
+mkdocs_bi_directional_links/search_integration.py,sha256=CqU-bOcLTgE2r1cixvQdFDA88WDGhRdDSwZaPy2DSVU,2956
+mkdocs_bi_directional_links/utils.py,sha256=baoUUekbQYsyHGbTE_v7Opjo8EiALuDtf0PIzgJiLw4,643
+mkdocs_bi_directional_links-0.1.0.dist-info/METADATA,sha256=zqM92i0MRmVTNSGmKHOqJfAk1QlHmm0vOHE2-8olG5M,104
+mkdocs_bi_directional_links-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+mkdocs_bi_directional_links-0.1.0.dist-info/entry_points.txt,sha256=1lwLtn603Ae8jKAeGppVMmadfAE6VwpsW2EKRwtl1tg,100
+mkdocs_bi_directional_links-0.1.0.dist-info/top_level.txt,sha256=VCyY15_tFFDWHeZuTe4Pg2wLBgy98VpVI7MJDVpL-ew,28
+mkdocs_bi_directional_links-0.1.0.dist-info/RECORD,,
