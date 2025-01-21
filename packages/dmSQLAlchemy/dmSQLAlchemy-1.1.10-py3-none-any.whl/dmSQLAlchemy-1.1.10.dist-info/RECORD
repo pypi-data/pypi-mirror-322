@@ -1,0 +1,11 @@
+dmSQLAlchemy/__init__.py,sha256=LWoQFN2Idt8XOz6WkmQfh1kbSO3vPn9MFy55LiAFRZU,576
+dmSQLAlchemy/base.py,sha256=jwa9MQs5I5L8guAkXLPbL23JfCjdWQ_BaBOndhoiRKo,106666
+dmSQLAlchemy/dmPython.py,sha256=lAyiiySl2ypimyFx-E-pppx0BjXtMlbuc8JBjiMuPOw,19499
+dmSQLAlchemy/json.py,sha256=mwakQMGFLA5yd3qioPiJDargnY8PO_WNWwJgQLUF-L0,2965
+dmSQLAlchemy/types.py,sha256=ZLwvR43cTChf7OAvTEtgJYZm2uFc0Rldshqpqdfhjfs,11878
+dmSQLAlchemy-1.1.10.dist-info/LICENSE.txt,sha256=cxLCAg3tGJfr-6oczvITGuT7H8_zc6fblxtWImvJPCI,1119
+dmSQLAlchemy-1.1.10.dist-info/METADATA,sha256=k9Enb64v0DnmiJSTuTLnfej934Gmcz0y6pj4OcbTMaQ,2508
+dmSQLAlchemy-1.1.10.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+dmSQLAlchemy-1.1.10.dist-info/entry_points.txt,sha256=_6zxZwkShV5GqEC3ALsdRUQquETxJg9BaF__Nv4cbmU,123
+dmSQLAlchemy-1.1.10.dist-info/top_level.txt,sha256=KqtS8HnUISWrEmPlCshuYZSyHhh7dM6tyeJUCkouRj4,13
+dmSQLAlchemy-1.1.10.dist-info/RECORD,,
