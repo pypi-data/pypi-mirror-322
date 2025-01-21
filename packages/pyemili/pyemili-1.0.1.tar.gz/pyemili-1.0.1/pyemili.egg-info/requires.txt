@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+numba>=0.60.0
+pandas>=2.0.3
+astropy
+tqdm
