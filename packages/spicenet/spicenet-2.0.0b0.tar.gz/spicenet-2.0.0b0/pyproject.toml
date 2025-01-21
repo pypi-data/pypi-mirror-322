@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "spicenet"
+version = "2.0.0b0"
+description = "SPICEnet is an artificial neural network that is capable of identifying the mathematical relationship between two values. This library provides a single core implementation for quick usage."
+authors = [
+    "Fabian Stiegler <stiegler.fabian.dev@gmail.com>",
+    "Cristian Axenie"
+]
+readme = "README.md"
+packages = [
+    { include = "spice_net", from = "src" }
+]
+homepage = "https://github.com/th-nuernberg/spicenet"
+repository = "https://github.com/python-poetry/poetry"
+keywords = ["spicenet", "spice-net", "neuromorphic", "neural network"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tqdm = "^4.66.5"
+numpy = "^2.1.1"
+
+pandas = { version = "^2.2.2", extras = ["plotting"] }
+plotly = { version = "^5.24.0", extras = ["plotting"] }
+matplotlib = { version = "^3.9.2", extras = ["plotting"] }
+
+[tool.poetry.group.test.dependencies]
+notebook = "^7.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
