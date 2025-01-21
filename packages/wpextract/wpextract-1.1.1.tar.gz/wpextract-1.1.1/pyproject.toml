@@ -1,0 +1,130 @@
+[project]
+name="wpextract"
+version="1.1.1"
+description="Create datasets from WordPress sites"
+authors=[
+    { name = "Freddy Heppell", email = "f.heppell@sheffield.ac.uk" }
+]
+license="Apache-2.0"
+readme = "README.md"
+dynamic = ["classifiers"]
+requires-python = ">=3.9"
+
+dependencies = [
+    "beautifulsoup4>=4.12.0",
+    "langcodes>=3.3.0",
+    "lxml>=5.0.0",
+    "numpy>=1.23.0",
+    "pandas>=1.5.2",
+    "tqdm>=4.65.0",
+    "requests>=2.32.3",
+    "click>=8.0.1",
+    "click-option-group>=0.5.3",
+    "urllib3>1.21.3,<3"
+]
+
+[project.urls]
+homepage="https://wpextract.readthedocs.io/"
+documentation="https://wpextract.readthedocs.io/"
+repository="https://github.com/GateNLP/wpextract"
+
+[project.scripts]
+wpextract = "wpextract.cli:cli"
+
+
+[tool.poetry]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+packages=[
+    { include = "wpextract", from = "src"}
+]
+
+# Workaround for https://github.com/python-poetry/poetry/issues/9293
+[[tool.poetry.source]]
+name = "pypi-public"
+url = "https://pypi.org/simple/"
+
+[tool.poetry.dependencies]
+python = ">=3.9.0,<4.0"
+
+[tool.poetry.group.dev.dependencies]
+build = "==0.9.*,>=0.9.0"
+pytest = "~8.2.2"
+pytest-datadir = "~1.5.0"
+pytest-mock = "~3.14.0"
+ruff = "^0.5.6"
+coverage = "^7.5.4"
+responses = "^0.25.3"
+mypy = "^1.11.1"
+types-tqdm = "^4.66.0.20240417"
+types-beautifulsoup4 = "^4.12.0.20240511"
+pandas-stubs = "^2.2.2.240603"
+types-requests = "^2.32.0.20240712"
+typing-extensions = ">=4.0.0"
+
+
+[tool.poetry.group.docs]
+optional = true
+[tool.poetry.group.docs.dependencies]
+mkdocs-material = "^9.5.28"
+mkdocstrings = "^0.25.1"
+mkdocstrings-python = "^1.10.5"
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py39"
+
+[tool.ruff.lint]
+select = [
+           # --- Default rules ---
+    "E4",  # pycodestyle - Import
+    "E7",  # pycodestyle - Statement
+    "E9",  # pycodestyle - Runtime
+    "F",   # pyflakes
+           # --- End default rules ---
+    "D",   # pydocstyle (Subset of rules enabled by pydocstyle.convention)
+    "PD",  # pandas-vet
+    "I",   # isort
+    "PT",  # flake8-pytest-style
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade
+    "RUF", # ruff custom
+    "T20", # flake8-print
+    "TCH", # flake8-type-checking
+]
+
+ignore = [
+    "D100", # Missing docstring in public module
+    "D104", # Missing docstring in public package
+]
+
+[tool.ruff.lint.per-file-ignores]
+"**/tests/*" = [
+    "D", # Ignore docstring errors in tests
+    "PD901", # Allow `df` variable name in tests
+    "DOC"
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+
+[tool.pytest.ini_options]
+pythonpath = "tests"
+addopts = [
+    "--import-mode=importlib",
+]
+
+[tool.mypy]
+strict = true
