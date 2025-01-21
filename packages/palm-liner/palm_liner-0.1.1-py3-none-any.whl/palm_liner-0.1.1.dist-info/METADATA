@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: palm_liner
+Version: 0.1.1
+Summary: Package for drawing palm lines
+Author: EugeneStudio
+Author-email: eugenestudio@mail.ru
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: torch ==2.5.1
+Requires-Dist: torchvision ==0.20.1
+Requires-Dist: scikit-image ==0.25.0
+Requires-Dist: opencv-python ==4.11.0.86
+Requires-Dist: pillow-heif ==0.21.0
+Requires-Dist: mediapipe ==0.10.20
+Requires-Dist: bezier ==2023.7.28
+Requires-Dist: scikit-learn ==1.6.1
+Requires-Dist: pathfinding ==1.0.16
+
+# PalmLiner
+## Package for drowing palm lines
+
+For getting palm lines use this command:
+```bash
+python -m palm_liner --input [filename.jpg] --output [filename.png]
+```
