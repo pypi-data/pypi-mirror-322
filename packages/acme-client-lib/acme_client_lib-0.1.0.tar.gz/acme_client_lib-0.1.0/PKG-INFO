@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: acme-client-lib
+Version: 0.1.0
+Summary: Asynchronous ACME client
+License: MIT
+Author: Aleksey Matyunin
+Author-email: matyunin.as@mail.ru
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: async-client-lib (>=0.1.8,<0.2.0)
+Requires-Dist: cryptography (>=42.0.1,<43.0.0)
+Requires-Dist: josepy (>=1.14.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Async ACME Library
+
+[![publish](https://github.com/mas-aleksey/acme-client/workflows/Build/badge.svg)](https://github.com/mas-aleksey/acme-client/actions?query=workflow%3A%22build%22)
+[![coverage](https://coveralls.io/repos/mas-aleksey/acme-client/badge.svg)](https://coveralls.io/r/mas-aleksey/acme-client?branch=python-3)
+[![codeql](https://github.com/mas-aleksey/acme-client/workflows/CodeQL/badge.svg)](https://github.com/mas-aleksey/acme-client/actions/workflows/codeql-analysis.yml)
+[![pypi](https://img.shields.io/pypi/v/acme-client-lib.svg)](https://pypi.python.org/pypi/acme-client-lib)
+[![license](https://img.shields.io/github/license/mas-aleksey/acme-client)](https://github.com/mas-aleksey/acme-client/blob/main/LICENSE)
+
+## 🚀 Project Overview
