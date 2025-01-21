@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+audioslicer/__init__.py
+audioslicer/slicer.py
+lm_audioslicer.egg-info/PKG-INFO
+lm_audioslicer.egg-info/SOURCES.txt
+lm_audioslicer.egg-info/dependency_links.txt
+lm_audioslicer.egg-info/entry_points.txt
+lm_audioslicer.egg-info/requires.txt
+lm_audioslicer.egg-info/top_level.txt
+tests/test_audio_slicer.py
