@@ -1,0 +1,7 @@
+boto3
+python_terraform
+kubernetes
+yaml
+requests
+tempfile
+git
