@@ -1,0 +1,60 @@
+#![allow(clippy::unused_unit)]
+use polars::prelude::*;
+use geographiclib::Geodesic;
+use pyo3_polars::derive::polars_expr;
+use rayon::prelude::*;
+
+
+#[polars_expr(output_type=Float64)]
+fn cell_to_lng(inputs: &[Series]) -> PolarsResult<Series> {
+    print!("1");
+    let lat_a_series = &inputs[0];
+    let lng_a_series = &inputs[1];
+    let lat_b_series = &inputs[2];
+    let lng_b_series = &inputs[3];
+
+    print!("2");
+    let lat_a_ca = lat_a_series.f64()?;
+    let lng_a_ca = lng_a_series.f64()?;
+    let lat_b_ca = lat_b_series.f64()?;
+    let lng_b_ca = lng_b_series.f64()?;
+
+    print!("3");
+    let lat_a_values = lat_a_ca
+    .cont_slice()
+    .expect("No nulls expected in lat_series");
+
+    let lng_a_values = lng_a_ca
+    .cont_slice()
+    .expect("No nulls expected in lng_series"); 
+
+    let lat_b_values = lat_b_ca
+    .cont_slice()
+    .expect("No nulls expected in lng_series"); 
+
+    let lng_b_values = lng_b_ca
+    .cont_slice()
+    .expect("No nulls expected in lng_series"); 
+
+    print!("4");
+    let distances: Vec<Option<f64>> = (lat_a_values, lng_a_values, lat_b_values, lng_b_values).into_par_iter()
+    .map(|(lat_a, lng_a, lat_b, lng_b)| distance(*lat_a, *lng_a, *lat_b, *lng_b) )
+    .collect();
+
+    print!("5");
+    let chunked_distances: Float64Chunked = distances
+    .into_par_iter()
+    .map(|cell| cell)
+    .collect();
+
+    print!("6");
+     Ok(chunked_distances.into_series())
+
+}
+
+fn distance(lat_a: f64, lng_a: f64, lat_b: f64, lng_b: f64) -> Option<f64> {
+    let g = Geodesic::wgs84();
+    let (_d_deg, d_m, _az1, _az2) = g.inverse(lat_a, lng_a, lat_b, lng_b);
+
+    return Some(d_m);
+}
