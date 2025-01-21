@@ -1,0 +1,33 @@
+Metadata-Version: 2.2
+Name: DogODay
+Version: 0.1.0
+Summary: La app que te permitirá buscar por razas y votar por tus fotos favoritas del mejor amigo del hombre!
+Author: Franklin Alvarez
+Author-email: fyac44@gmail.com
+License: GNU GLP
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyQt6>=6.8.0
+Requires-Dist: requests>=2.25.0
+
+# DogODay
+
+La app que te permitirá buscar por razas y votar por tus fotos favoritas del mejor amigo del hombre!
+
+La app se comunica con [TheDogAPI](https://www.thedogapi.com/) para compartir tus imágenes con millones de otros usuarios a nivel mundial.
+
+## Instalación
+
+Instrucciones de instalación.
+
+ - Registrarse en la [API](https://www.thedogapi.com/#pricing) para obtener una *API-KEY*
+ - Colocar la *API-KEY* como variable de entorno: DOGAPI_KEY="live_QfKiegd3L..."
+ - Instalar la librería con: pip install DogODay
+
+## Cómo usar
+
+En la línea de comandos escribir `DogODay` y la app see comenzará a ejecutar.
