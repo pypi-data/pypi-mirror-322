@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ddunigma
+Version: 0.0.1
+Summary: An encoding algorithm based on Base64
+Home-page: https://github.com/i3l3/ddunigma
+Author: i3l3, rnsn3371
+Author-email: gdhan2296@gmail.com
+License-File: LICENSE
+
