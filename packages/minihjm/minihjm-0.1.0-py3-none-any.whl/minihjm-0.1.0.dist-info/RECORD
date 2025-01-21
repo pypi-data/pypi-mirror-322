@@ -1,0 +1,8 @@
+minihjm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minihjm/greet.py,sha256=N_DhES9U32crBU2GdKaAsMq7AVsLGIq1UwXlPD4-aP0,110
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_greet.py,sha256=w4kb2YtVkEVnvG9oFkmBlLOYouc6iu3CtyYdlN7GIbA,101
+minihjm-0.1.0.dist-info/METADATA,sha256=g-yGsGB-VDmZnoo6xgZEG8fs_ma-Kr8Vzu-V0xK50NA,482
+minihjm-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+minihjm-0.1.0.dist-info/top_level.txt,sha256=5bDqC5HDBIntqzbkdUh1tNRBYYW-4hnYkPVwoackfYo,14
+minihjm-0.1.0.dist-info/RECORD,,
