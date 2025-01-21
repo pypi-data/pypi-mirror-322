@@ -1,0 +1,2 @@
+[console_scripts]
+forgejo-releases-ics = forgejo_releases_ics.__main__:main

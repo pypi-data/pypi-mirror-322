@@ -1,0 +1,11 @@
+COPYING
+README.md
+pyproject.toml
+src/forgejo_releases_ics/__init__.py
+src/forgejo_releases_ics/__main__.py
+src/forgejo_releases_ics.egg-info/PKG-INFO
+src/forgejo_releases_ics.egg-info/SOURCES.txt
+src/forgejo_releases_ics.egg-info/dependency_links.txt
+src/forgejo_releases_ics.egg-info/entry_points.txt
+src/forgejo_releases_ics.egg-info/requires.txt
+src/forgejo_releases_ics.egg-info/top_level.txt
