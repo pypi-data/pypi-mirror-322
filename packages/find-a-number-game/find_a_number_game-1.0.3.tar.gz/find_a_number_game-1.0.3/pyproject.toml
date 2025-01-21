@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "find-a-number-game"
+description = "Game that can be played with friends and family!"
+version = "1.0.3"
+authors = ["Armen Martirosyan"]
+readme = "README.md"
+keywords = ["game"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^8.1.8"
+reportlab = "^4.2.5"
+
+[tool.poetry.urls]
+Homepage = "https://github.com/armartirosyan/find-a-number-game"
+Repository = "https://github.com/armartirosyan/find-a-number-game.git"
+Issues = "https://github.com/armartirosyan/find-a-number-game/issues"
+Changelog = "https://github.com/armartirosyan/find-a-number-game/blob/master/CHANGELOG.md"
+
+[tool.poetry.scripts]
+fang = "find_a_number_game.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
