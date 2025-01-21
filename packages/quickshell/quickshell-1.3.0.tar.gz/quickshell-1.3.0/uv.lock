@@ -1,0 +1,7 @@
+version = 1
+requires-python = ">=3.8"
+
+[[package]]
+name = "quickshell"
+version = "1.3.0"
+source = { editable = "." }
