@@ -1,0 +1,52 @@
+Metadata-Version: 2.2
+Name: bukmacherska
+Version: 0.1.3
+Summary: Opis Twojej biblioteki bukmacherskiej
+Home-page: https://github.com/twoj_repo/bukmacherska
+Author: Twoje Imię
+Author-email: twojemail@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Bukmacherska
+
+Bukmacherska to biblioteka Python sĹ‚uĹĽÄ…ca do analizy i wizualizacji wynikĂłw druĹĽyn sportowych, obliczania Ĺ›rednich goli oraz rysowania wykresĂłw.
+
+## Instalacja
+
+MoĹĽesz zainstalowaÄ‡ bibliotekÄ™ za pomocÄ… pip:
+
+```bash
+pip install bukmacherska
+
+import bukmacherska as bk
+
+# Obliczanie Ĺ›rednich zdobytych i straconych goli
+srednia1_zdobytych, srednia1_straconych = bk.oblicz_wynik_druzyny(10, 5, 3)
+srednia2_zdobytych, srednia2_straconych = bk.oblicz_wynik_druzyny2(12, 6, 4)
+
+# WyĹ›wietlanie wynikĂłw
+print(f"DruĹĽyna 1 - Ĺšrednia zdobytych goli: {srednia1_zdobytych}, Ĺšrednia straconych goli: {srednia1_straconych}")
+print(f"DruĹĽyna 2 - Ĺšrednia zdobytych goli: {srednia2_zdobytych}, Ĺšrednia straconych goli: {srednia2_straconych}")
+
+# OkreĹ›lenie typu meczu
+typ_meczu = bk.okresl_typ_meczu(srednia1_zdobytych, srednia2_zdobytych)
+print(f"Typ meczu: {typ_meczu}")
+
+# Rysowanie wykresĂłw
+bk.rysuj_wykresy(srednia1_zdobytych, srednia1_straconych, srednia2_zdobytych, srednia2_straconych)
