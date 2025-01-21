@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: IvFinder
+Version: 0.0.1
+Summary: a pipeline for metagenomic data analyse
+Home-page: https://github.com/PB17151764/virfinder
+Author: yyf
+Author-email: yyf1970199923@mail.ustc.edu.cn
+Platform: Linux
+Platform: MacOS
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+
