@@ -1,0 +1,42 @@
+[project]
+name = "synthetic-dataset-generator"
+version = "0.1.7"
+description = "Build datasets using natural language"
+authors = [
+    { name = "davidberenstein1957", email = "david.m.berenstein@gmail.com" },
+]
+keywords = [
+    "gradio",
+    "synthetic-data",
+    "huggingface",
+    "argilla",
+    "generative-ai",
+    "ai",
+]
+requires-python = "<3.13,>=3.10"
+readme = "README.md"
+dependencies = [
+    "argilla>=2.4.0,<3.0.0",
+    "distilabel[argilla,hf-inference-endpoints,hf-transformers,instructor,llama-cpp,ollama,openai,outlines,vllm,vision]>=1.5.0,<2.00",
+    "gradio[oauth]>=5.4.0,<6.0.0",
+    "gradio-huggingfacehub-search>=0.0.12,<1.0.0",
+    "model2vec>=0.2.4,<1.0.0",
+    "nltk>=3.9.1,<4.0.0",
+    "pydantic>=2.10.5,<3.0.0",
+    "sentence-transformers>=3.2.0,<4.0.0",
+    "transformers>=4.44.2,<5.0.0",
+    "unstructured[md,pdf,docx]>=0.16.3,<1.0.0",
+    "setuptools",
+]
+
+[project.license]
+text = "Apache 2"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
