@@ -1,0 +1,11 @@
+README.md
+bridge.py
+file_reader.py
+main.py
+setup.py
+amutils.egg-info/PKG-INFO
+amutils.egg-info/SOURCES.txt
+amutils.egg-info/dependency_links.txt
+amutils.egg-info/entry_points.txt
+amutils.egg-info/requires.txt
+amutils.egg-info/top_level.txt
