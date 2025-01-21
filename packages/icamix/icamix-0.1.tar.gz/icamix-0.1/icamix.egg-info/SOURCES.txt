@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+icamix/__init__.py
+icamix/mix.py
+icamix.egg-info/PKG-INFO
+icamix.egg-info/SOURCES.txt
+icamix.egg-info/dependency_links.txt
+icamix.egg-info/requires.txt
+icamix.egg-info/top_level.txt
