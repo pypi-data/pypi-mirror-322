@@ -1,0 +1,12 @@
+FeiguaDataCollection/__init__.py,sha256=Awv5uA4UucUUHL5lcmLT_dZFjiJXD5RABKfEFTc9Hdk,61
+FeiguaDataCollection/_browser_utils.py,sha256=zuIzqCzVj-5VoLWHLewtL3gWGV3k2OTwpUtnVQJ6GGk,415
+FeiguaDataCollection/_utils.py,sha256=172A1a-1nwUDIlsjUVOrnk1jCR48rNK4njhBdddkCd4,7007
+FeiguaDataCollection/collector.py,sha256=Fan83NNSFPZGhIeowChVkSPb2jwRxs2ib-pRMzsQrJI,991
+FeiguaDataCollection/team_manage/_dict.py,sha256=URrxxSmS9a97EGH8olelt6ExO3xJQBhHOtfpw7bqY70,2253
+FeiguaDataCollection/team_manage/_utils.py,sha256=TOsP6IU6LSwWKSHQRHpw1g4qmFMRtyLtfXMkrfZb_CI,697
+FeiguaDataCollection/team_manage/anchor.py,sha256=B41UwaN7UJz9HZ3dmeh3RuQgdJyPoBKM2qMXJZRwk_c,6097
+FeiguaDataCollection/team_manage/team_manage.py,sha256=2o_UTIRGEkeJS0nYMSTOp5VIkAKiae9HJhkdsg2pBh0,506
+feigua_data_collection-1.0.0.dist-info/LICENSE,sha256=abvuwGBKwUYguYGotWKXpzv-uL5iTs6J2ZDN7PMOmfw,1090
+feigua_data_collection-1.0.0.dist-info/METADATA,sha256=UGqRc0H58neAsgoSih5uAx3TacLugoLKWKmWxs1Dv28,1201
+feigua_data_collection-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+feigua_data_collection-1.0.0.dist-info/RECORD,,
