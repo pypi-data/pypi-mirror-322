@@ -1,0 +1,220 @@
+Metadata-Version: 2.4
+Name: skore
+Version: 0.6.0
+Summary: the scikit-learn sidekick
+Project-URL: Homepage, https://probabl.ai
+Project-URL: Repository, https://github.com/probabl-ai/skore
+Project-URL: Download, https://pypi.org/project/skore/#files
+Project-URL: Issues, https://github.com/probabl-ai/skore/issues
+Project-URL: Release notes, https://github.com/probabl-ai/skore/releases
+Maintainer-email: skore developers <skore@signal.probabl.ai>
+License: MIT License
+        
+        Copyright (c) 2024 Probabl
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: <3.13,>=3.9
+Requires-Dist: diskcache
+Requires-Dist: fastapi
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: plotly<6,>=5
+Requires-Dist: pyarrow
+Requires-Dist: rich
+Requires-Dist: scikit-learn
+Requires-Dist: skops
+Requires-Dist: uvicorn
+Provides-Extra: sphinx
+Requires-Dist: altair; extra == 'sphinx'
+Requires-Dist: ipython; extra == 'sphinx'
+Requires-Dist: kaleido; extra == 'sphinx'
+Requires-Dist: numpydoc; extra == 'sphinx'
+Requires-Dist: polars; extra == 'sphinx'
+Requires-Dist: pydata-sphinx-theme; extra == 'sphinx'
+Requires-Dist: skrub; extra == 'sphinx'
+Requires-Dist: sphinx; extra == 'sphinx'
+Requires-Dist: sphinx-autosummary-accessors; extra == 'sphinx'
+Requires-Dist: sphinx-copybutton; extra == 'sphinx'
+Requires-Dist: sphinx-design; extra == 'sphinx'
+Requires-Dist: sphinx-gallery; extra == 'sphinx'
+Requires-Dist: sphinx-tabs; extra == 'sphinx'
+Provides-Extra: test
+Requires-Dist: altair<6,>=5; extra == 'test'
+Requires-Dist: httpx; extra == 'test'
+Requires-Dist: pillow; extra == 'test'
+Requires-Dist: plotly; extra == 'test'
+Requires-Dist: polars; extra == 'test'
+Requires-Dist: pre-commit; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-order; extra == 'test'
+Requires-Dist: pytest-randomly; extra == 'test'
+Requires-Dist: pytest-xdist; extra == 'test'
+Requires-Dist: ruff; extra == 'test'
+Requires-Dist: scikit-learn<1.7; extra == 'test'
+Requires-Dist: skrub; extra == 'test'
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+  <picture>
+    <source srcset="https://media.githubusercontent.com/media/probabl-ai/skore/main/sphinx/_static/images/Logo_Skore_Dark@2x.svg" media="(prefers-color-scheme: dark)">
+    <img width="200" src="https://media.githubusercontent.com/media/probabl-ai/skore/main/sphinx/_static/images/Logo_Skore_Light@2x.svg" alt="skore logo">
+  </picture>
+  <h3>the scikit-learn sidekick</h3>
+
+Elevate ML Development with Built-in Recommended Practices \
+[Documentation](https://skore.probabl.ai) — [Community](https://discord.probabl.ai)
+
+</div>
+
+<br />
+
+## Why skore?
+
+ML development is an art — blending business sense, stats knowledge, and coding skills. Brought to you by [Probabl](https://probabl.ai), a company co-founded by scikit-learn core developers, skore helps data scientists focus on what matters: building impactful models with hindsight and clarity.
+
+Skore is just at the beginning of its journey, but we’re shipping fast! Frequent updates and new features are on the way as we work toward our vision of becoming a comprehensive library for data scientists, supporting every phase of the machine learning lifecycle.
+
+⭐ Support us with a star and spread the word - it means a lot! ⭐
+
+
+## Key features
+
+- **Diagnose**: Catch methodological errors before they impact your models with **smart alerts** that analyze both code execution and data patterns in real-time.
+- **Evaluate**: Uncover actionable insights through **automated reports** surfacing relevant metrics. Explore faster with our intelligent caching system.
+
+![GIF: short demo of skore](https://media.githubusercontent.com/media/probabl-ai/skore/main/sphinx/_static/images/2024_12_12_skore_demo_comp.gif)
+
+## 🚀 Quick start
+
+### Installation
+
+#### With pip
+
+We recommend using a [virtual environment (venv)](https://docs.python.org/3/tutorial/venv.html). You need `python>=3.9`.
+
+Then, you can install skore by using `pip`:
+```bash
+pip install -U skore
+```
+
+#### With conda
+
+skore is available in `conda-forge`:
+
+```bash
+conda install conda-forge::skore
+```
+
+You can find information on the latest version [here](https://anaconda.org/conda-forge/skore).
+
+### Get assistance when developing your ML/DS projects
+
+1. From your Python code, create and load a skore project:
+    ```python
+    import skore
+    my_project = skore.open("my_project")
+    ```
+    This will create a skore project directory named `my_project.skore` in your current working directory.
+
+2. Evaluate your model using `skore.CrossValidationReporter`:
+    ```python
+    from sklearn.datasets import load_iris
+    from sklearn.pipeline import Pipeline
+    from sklearn.preprocessing import StandardScaler
+    from sklearn.linear_model import LogisticRegression
+
+    X, y = load_iris(return_X_y=True)
+    clf_pipeline = Pipeline([
+        ('scaler', StandardScaler()),
+        ('clf', LogisticRegression())
+    ])
+
+    reporter = skore.CrossValidationReporter(clf_pipeline, X, y, cv=5)
+
+    # Store the results in the project
+    my_project.put("cv_reporter", reporter)
+
+    # Display a plot result in your notebook
+    reporter.plots.scores
+    ```
+
+3. Finally, from your shell (in the same directory), start the UI:
+    ```bash
+    skore launch "my_project"
+    ```
+    This will open skore-ui in a browser window.
+
+You will automatically be able to visualize some key metrics (although you might have forgotten to specify all of them):
+![Cross-validation screenshot](https://media.githubusercontent.com/media/probabl-ai/skore/main/sphinx/_static/images/2024_12_12_skore_cross_val_clf.png)
+
+Also check out `skore.train_test_split()` that enhances scikit-learn. Learn more in our [documentation](https://skore.probabl.ai).
+
+
+## Contributing
+
+Thank you for considering contributing to skore! Join our mission to promote open-source and make machine learning development more robust and effective. Please check the contributing guidelines [here](https://github.com/probabl-ai/skore/blob/main/CONTRIBUTING.rst).
+
+
+## Feedback & Community
+
+-   Join our [Discord](https://discord.probabl.ai/) to share ideas or get support.
+-   Request a feature or report a bug via [GitHub Issues](https://github.com/probabl-ai/skore/issues).
+
+<br />
+
+<div align="center">
+
+  ![license](https://img.shields.io/pypi/l/skore)
+  ![python](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue?style=flat&logo=python)
+  [![downloads](https://static.pepy.tech/badge/skore/month)](https://pepy.tech/projects/skore)
+  [![pypi](https://img.shields.io/pypi/v/skore)](https://pypi.org/project/skore/)
+  [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.probabl.ai/)
+
+</div>
+---
+
+Brought to you by
+
+<a href="https://probabl.ai" target="_blank">
+    <picture>
+        <source srcset="https://media.githubusercontent.com/media/probabl-ai/skore/main/sphinx/_static/images/Probabl-logo-orange.png" media="(prefers-color-scheme: dark)">
+        <img width="120" src="https://media.githubusercontent.com/media/probabl-ai/skore/main/sphinx/_static/images/Probabl-logo-blue.png" alt="Probabl logo">
+    </picture>
+</a>
