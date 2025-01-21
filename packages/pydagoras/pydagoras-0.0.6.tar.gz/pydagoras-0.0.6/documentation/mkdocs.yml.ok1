@@ -1,0 +1,51 @@
+site_name: pydagoras
+site_description: "Documentation of the pydagoras package"
+site_url: http://pydagoras.com
+repo_url: "https://github.com/MarkHallett/pydagoras"
+
+theme:
+  name: material
+  favicon: images/favicon.png
+  logo: images/pydagoras.png
+  features:
+    - content.code.annotate 
+    - navigation.tabs
+    - navigation.top
+
+plugins:
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        paths: [../src]
+
+nav:
+  - Welcome: welcome.md
+  - package.md
+  - demo.md
+  - Code reference: reference/
+  - test.md
+
+markdown_extensions:
+  # annotations
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  # syntax higlighting
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+# footer links
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/markhallett/pydagoras
+  - icon: fontawesome/brands/python
+    link: https://pypi.org/project/pydagoras/
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/mark-hallett-a5a1b911/
