@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: audio_processor_GovGPT
+Version: 0.1.0
+Summary: A library to remove silence from audio files using pydub.
+Home-page: 
+Author: Soumyajit Sen Sharma
+Author-email: soumyajit94298@gmial.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydub
+
+# Audio Processor
+
+Audio Processor is a Python library to remove silence from audio files using `pydub`.
+
+## Installation
+
+Clone the repository and install:
+
+```bash
+pip install .
