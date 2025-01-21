@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tablelineage.egg-info/PKG-INFO
+tablelineage.egg-info/SOURCES.txt
+tablelineage.egg-info/dependency_links.txt
+tablelineage.egg-info/requires.txt
+tablelineage.egg-info/top_level.txt
