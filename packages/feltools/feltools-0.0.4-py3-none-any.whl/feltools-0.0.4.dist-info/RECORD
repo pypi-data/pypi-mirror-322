@@ -1,0 +1,8 @@
+feltools/__init__.py,sha256=tLLuRUy02-fe7P7S3_rRSq1JcXGMJ8UfdIQmi6Vs60Y,1323
+feltools/_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feltools/_internal/err.py,sha256=kIUAJI4Q5filqtzSgNLr_Nnwntr6lwfyUB0_vcw90q0,155
+feltools/_internal/funcs.py,sha256=4EDJ7PrD6NOeduKwjtRwxO29xQWYZK8sguap2jOOZYg,157
+feltools-0.0.4.dist-info/METADATA,sha256=GgwFLB0HL3CZXfHL-llNgH7Xmlx1fN1qlWA99csAT44,895
+feltools-0.0.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+feltools-0.0.4.dist-info/top_level.txt,sha256=yEBsXBp6Cvh-DC69qk4JGz83AsL8zXSMPc6tT7KKWFc,9
+feltools-0.0.4.dist-info/RECORD,,
