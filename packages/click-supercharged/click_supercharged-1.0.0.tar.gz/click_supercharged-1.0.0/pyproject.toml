@@ -1,0 +1,26 @@
+[project]
+name = "click-supercharged"
+version = "1.0.0"
+authors = [
+  { name="zirition", email="zirition@zirition.com" },
+]
+description = "Click Supercharged is a Python package that enhances the Click command-line framework by adding support for default commands, command aliases, and abbreviations. Simplify command management with features like ambiguity resolution and improved command organization."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "click>=8.1.8",
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+]
+license = {text = "MIT"}
+keywords = ["click", "enhacer", "default", "aliases", "abbreviations"]
+
+[project.urls]
+Homepage = "https://github.com/zirition/click-supercharged"
+Issues = "https://github.com/zirition/click-supercharged/issues"
