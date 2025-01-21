@@ -1,0 +1,270 @@
+Metadata-Version: 2.4
+Name: virvar
+Version: 1.1.0
+Summary: virvar is a Python utility designed to manage environment variables in virtual environments (venv)
+Project-URL: Homepage, https://gitlab.com/lhndev1/virvar
+Project-URL: Issues, https://gitlab.com/lhndev1/virvar/-/issues
+Project-URL: Organization, https://lhndev.com
+Author-email: vince06fr <vince06fr@gmail.com>, Liberty Hosting & Development <contact@lhndev.org>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# virvar
+
+## Description
+
+**virvar** is a Python utility designed to manage environment variables in virtual environments (`venv`).
+
+When a virtual environment is activated, **virvar** automatically adds the defined environment variables to the activation script (`activate`). These variables are also removed when the virtual environment is deactivated.
+
+### **Key Features**
+- Add environment variables to an existing `activate` file.
+- Ensure automatic removal of variables when the virtual environment is deactivated.
+- Convenient for automating environment configuration for Python projects requiring API keys, specific paths, or other custom settings.
+
+## **Prerequisites**
+
+Before using **virvar**, ensure you have the following:
+
+1. **Python**: Version 3.9 or newer. While the project might work with older versions, they are no longer supported due to security concerns, as per the [official Python documentation](https://devguide.python.org/versions/).  
+2. **A virtual environment**: Created using the `venv` module or equivalent.  
+
+   Virtual environments include activation scripts that differ based on your operating system and the shell you're using. These scripts are located in the `bin` directory (POSIX systems) or `Scripts` directory (Windows). Here's how to locate the correct script:  
+
+   - **POSIX Systems** (Linux, macOS, BSD):  
+     - Currently supported shells: **bash** and **zsh**  
+     - Use `<venv>/bin/activate` to activate the virtual environment.  
+
+   - **Windows Systems**:  
+     - Only **bash** is supported at this time.  
+     - Use the Windows-style script `<venv>/Scripts/activate`. Ensure that Bash is installed, as described in the [Windows Support](#windows-support) section.
+
+   For more information, refer to the [Python venv documentation](https://docs.python.org/3/library/venv.html#how-venvs-work).
+
+3. **Git** (optional): To clone the repository for local usage or development.  
+
+## Compatibility Notice
+
+While virvar is designed to be operating system independent, it has primarily been tested on Linux. As such, no guarantees are made regarding its functionality on other operating systems like macOS or Windows.
+
+If you encounter compatibility issues on non-Linux platforms, you are encouraged to report them. However, addressing such issues will not be a priority for the maintainers.
+
+## Windows Support
+
+For Windows environments, **virvar** is compatible with **Bash** only. Other shells (e.g., PowerShell, CMD) are not officially supported at this time. Please ensure Bash is installed before using the project on Windows. You can get Bash on Windows using:  
+
+- Git Bash (included with Git for Windows)  
+- Windows Subsystem for Linux (WSL)  
+- Other Bash-compatible environments.  
+
+**Note**: While Bash is supported on both POSIX and Windows systems, other shells like `fish` or `csh` are currently unsupported, regardless of the operating system.
+
+## Installation
+
+### Via pip
+
+```bash
+pip install virvar
+```
+
+### With source code
+
+If you want to work with the source code, clone the repository using Git:
+
+```bash
+git clone https://gitlab.com/lhndev1/virvar.git
+cd virvar
+```
+
+Alternatively, if you have the source code, you can install it locally using:
+
+```
+pip install .
+
+```
+
+### Verify the Installation
+
+After installation, ensure that virvar is available:
+
+```bash
+virvar --help
+```
+
+## Usage
+### **1. Basic Command**
+
+The **virvar** command allows you to add environment variables to a virtual environment's `activate` script.  
+The basic syntax is:
+
+```bash
+virvar <path_to_venv> KEY1="value1" KEY2="value2" ...
+```
+
+### **2. Example**
+
+Suppose you have a virtual environment located at `/path/to/venv`, and you want to add two environment variables:  
+
+- `API_KEY` with the value `12345`  
+- `DEBUG` with the value `true`  
+
+Run the following command:
+
+```bash
+virvar /path/to/venv API_KEY=12345 DEBUG="true"
+```
+
+After running the command:
+
+- The activate script in the virtual environment will include the export statements to set these variables when the virtual environment is activated.
+- The unset statements will ensure these variables are removed when the environment is deactivated.
+
+### **3. Verifying changes**
+
+To verify the changes made by the **virvar** command, open the `activate` file of your virtual environment. You should see lines similar to the following:
+
+```bash
+[...]
+# Self destruct!
+unset API_KEY
+unset DEBUG
+[...]
+# set environment variables
+export API_KEY=12345
+export DEBUG="true"
+```
+
+These lines ensure that:
+
+- The environment variables are loaded when the environment is activated.
+- They are cleaned up when the environment is deactivated.
+
+### **4. Help Command**
+
+If you need assistance or want to explore available options, use the `--help` flag:
+
+```bash
+virvar --help
+```
+
+This command displays a help message with details on the syntax, arguments, and available options:
+```bash
+usage: virvar [-h] path env_var [env_var ...]
+
+positional arguments:
+  path         Path to the virtual environment created with the venv command.
+  env_var      One or more environment variables in the format KEY="value".
+
+optional arguments:
+  -h, --help   Show this help message and exit.
+  ```
+
+## Python Usage
+
+virvar can be directly integrated into Python scripts, offering a flexible and tailored solution
+for automation scenarios.
+
+### Example Code
+
+```python
+from virvar.virvar import virvar
+
+# Configure environment variables
+virvar(
+    "/path/to/venv",
+    API_KEY=12345,
+    DEBUG="true",
+    TIMEOUT=30
+)
+```
+
+## Testing
+
+To ensure that the functionality of `virvar` is working correctly, we recommend running the tests. This project uses `pytest` for testing.
+
+### **Running the Tests**
+
+To run all the tests in the project, you can execute the following command:
+
+```bash
+pytest
+```
+
+This will automatically discover and run all tests within the tests/ directory.
+
+#### Test Coverage
+The tests cover:
+
+- Creation of a fake virtual environment with an activate file.
+- Adding environment variables to the activate file.
+- Validating the contents of the activate file to ensure proper variable insertion.
+
+#### Test Output
+Upon running pytest, the test results will be displayed in your terminal. If all tests pass, you will see:
+
+```bash
+======================================================
+1 passed in 0.02s
+======================================================
+```
+
+## Support
+
+If you encounter any issues while using `virvar` or have any questions, feel free to open an issue in the project's [GitLab repository](https://gitlab.com/lhndev1/virvar/-/issues).
+
+Please provide the following information when creating an issue:
+- A clear description of the problem or question.
+- Steps to reproduce the issue (if applicable).
+- Any relevant error messages or logs.
+
+We will do our best to assist you and address the issue as soon as possible.
+
+## Roadmap
+
+The following features are planned for future versions of `virvar`:
+
+- **Reset the file**: Add functionality to reset the `activate` file to its original state, removing any added environment variables.
+- **Remove environment variables**: Implement a feature to remove specific environment variables from the `activate` file or unset them during deactivation.
+
+These features will help improve the flexibility and ease of use for managing virtual environments and their environment variables.
+
+## Contributing
+We welcome contributions to `virvar`! To contribute, please follow these guidelines:
+
+1. **Fork the repository**: Fork the repository on GitLab to your own account.
+
+2. **Create a feature branch**: Before making any changes, create a new branch for your feature or bug fix. Use descriptive names for branches (e.g., `fix-bug-in-activate`, `add-reset-feature`).
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make your changes**: Make your changes and ensure that they follow the project's code style.
+
+4. **Test your changes**: Ensure that all tests pass locally before submitting a pull request. If necessary, write new tests to cover your changes.
+
+5. **Commit your changes**: Commit your changes with a clear and concise commit message. Ensure your commit message follows the conventional commit format.
+   ```bash
+   git commit -m "feat: add functionality to reset the activate file"
+   ```
+6. **Push to your fork**: Push your changes to your forked repository.
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+7. **Create a pull request**: Open a pull request (PR) on GitLab to merge your changes into the `main` branch. Provide a clear description of the changes in the PR.
+
+8. **License**: Contributions must comply with the project's license, which is typically the [MIT License](https://gitlab.com/lhndev1/virvar/-/blob/main/LICENSE), unless otherwise stated.  
+    
+By Contributing to virvar, you agree to follow the project's [code of conduct](https://gitlab.com/lhndev1/gitlab-profile/-/blob/main/CODE_OF_CONDUCT.md) and abide by the guidelines for submetting contributions.
+  
+We look forward to your contributions!  
+**Thank you!**: We appreciate your contributions to `virvar`! Your help makes the project better for everyone.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://gitlab.com/lhndev1/virvar/-/blob/main/LICENSE) file for details.
+
+
