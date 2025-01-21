@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "alldatetime"
+version = "0.1.7"
+authors = [
+  { name="Simin Lin", email="timewalker08@outlook.com" },
+]
+description = "This is a lightweight Python library for representing time and dates, with no restrictions on the year range. (Unlike the datetime library in CPython, which has a year range from 1 to 9999.) It also supports fuzzy dates, allowing for representation of uncertain times (i.e., you can specify only the year, month, or day). For example, it can represent dates like 1912, or March 1912, etc."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+]
+
+[project.urls]
+"Homepage" = "https://github.com/timewalker08/alldatetime"
+"Bug Tracker" = "https://github.com/timewalker08/alldatetime/issues"
