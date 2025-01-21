@@ -1,0 +1,13 @@
+aiohttp<4,>=3.11
+async_timeout<5,>=4.0
+
+[dev]
+ipdb
+ipython
+
+[testing]
+coverage
+pytest
+pytest-asyncio
+pytest-sugar
+pytest-cov
