@@ -1,0 +1,9 @@
+python_overseerr/__init__.py,sha256=TbVkY5kYWmcxZ1JScPSYtRUVPCfK6qqup8gXp6Z6HZw,1424
+python_overseerr/exceptions.py,sha256=pmSc23DGZw4-6-eky8LjpcUHfW9aCLfLv517RiqZiQQ,304
+python_overseerr/models.py,sha256=HNCH3BL2OHaamRUm-AmSAKZFKLOdCWjojliguS6qA98,10140
+python_overseerr/overseerr.py,sha256=O9EqXO2Lqh1x7hJmc9WigaqwvkaJdEGaPI_VgkVPoUY,7495
+python_overseerr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_overseerr-0.6.0.dist-info/LICENSE.md,sha256=sjDviIXxCYvptnOGNpbGnMCKgTwh0iM-W_Fzxias_qE,1082
+python_overseerr-0.6.0.dist-info/METADATA,sha256=4S56-W16Ff6CRmfFe3i9oSFecsTfyuIifhd7AOGZ-_s,5983
+python_overseerr-0.6.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+python_overseerr-0.6.0.dist-info/RECORD,,
