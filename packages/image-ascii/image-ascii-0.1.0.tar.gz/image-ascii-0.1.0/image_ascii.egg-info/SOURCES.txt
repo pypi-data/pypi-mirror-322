@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+image_ascii/__init__.py
+image_ascii/convert.py
+image_ascii.egg-info/PKG-INFO
+image_ascii.egg-info/SOURCES.txt
+image_ascii.egg-info/dependency_links.txt
+image_ascii.egg-info/requires.txt
+image_ascii.egg-info/top_level.txt
