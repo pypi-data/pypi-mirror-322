@@ -1,0 +1,61 @@
+Metadata-Version: 2.2
+Name: pdf-masking-library
+Version: 0.1.2
+Summary: A library for processing PDFs with OCR and masking sensitive information
+Author: Demo
+Author-email: demo@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: pytesseract
+Requires-Dist: pdf2image
+Requires-Dist: pdfrw
+Requires-Dist: lxml
+Requires-Dist: reportlab
+Requires-Dist: Pillow
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Aadhaar Masking Flask Project
+
+This project is a Flask application designed to mask Aadhaar numbers in PDF documents. It extracts Aadhaar numbers from the documents and masks them to protect sensitive information.
+
+## Setup
+
+Follow these steps to set up the virtual environment and install the necessary dependencies.
+
+### 1. Create a Virtual Environment
+
+Create a virtual environment named `env`:
+
+> python -m venv env
+
+### 2. Activate the Virtual Environment
+
+ - On Windows:
+    > .\env\Scripts\activate
+
+- On Unix or MacOS:
+    > source env/bin/activate
+
+### 3.  Install Dependencies
+
+- Freeze Dependencies: Generate a requirements.txt file to list all dependencies:
+    > pip freeze > requirements.txt
+
+- Install Dependencies: Use this file to install dependencies in other environments
+    > pip install -r requirements.txt
+
+### 4. Deactivate the Virtual Environment:
+
+- When you're done working on the project, deactivate the virtual environment:
+    > deactivate
+
