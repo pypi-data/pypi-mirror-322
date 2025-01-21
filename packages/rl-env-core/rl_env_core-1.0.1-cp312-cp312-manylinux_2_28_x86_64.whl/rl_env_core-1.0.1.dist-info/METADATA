@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: rl-env-core
+Version: 1.0.1
+Summary: RL training environment
+Author: @PJutch, @mindholdr, @Victor2309msk, @Zaddebroni
+Requires-Python: >=3.7
+Provides-Extra: test
+Requires-Dist: pytest >=6.0 ; extra == 'test'
+
+Library for Testing RL Models
