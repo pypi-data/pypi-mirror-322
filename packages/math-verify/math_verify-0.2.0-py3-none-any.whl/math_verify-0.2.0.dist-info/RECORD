@@ -1,0 +1,10 @@
+math_verify/__init__.py,sha256=B58X_W4KLCKxjRXCwpukaTxyfKKPoZi8p1QtsbtTvD8,288
+math_verify/few_shots.py,sha256=e3hZgMaeoGZm8swOK1DdEWAmTrwQV3cH4NI3c-XpCEQ,3643
+math_verify/grader.py,sha256=3ZQZKQpMmELGFxAq7KmdxJ5gTjIXfuw-cIbNdlVQVA0,15836
+math_verify/metric.py,sha256=WkyYYq8yZbLXbYeQ42UH0lCRz9K2yWmog_NAcBB5MBk,4459
+math_verify/parser.py,sha256=7HlsOnYnMB2CTVLN25K2BqZHkwgHBNo4v38BWGD7BZ0,15453
+math_verify/tasks.py,sha256=U3sa8weGQ-vDSO7n2NPzKxt8mExTgy5CU796T_k3_Ww,8729
+math_verify/utils.py,sha256=vPvpfRsVYFVH6Bj94T7_z2KbfkDIBXc2SC7EhvZVLJI,3590
+math_verify-0.2.0.dist-info/METADATA,sha256=KRcTSY_I3weGVI85pe8GZ00doPPfrNArVbw1GStkSe4,325
+math_verify-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+math_verify-0.2.0.dist-info/RECORD,,
