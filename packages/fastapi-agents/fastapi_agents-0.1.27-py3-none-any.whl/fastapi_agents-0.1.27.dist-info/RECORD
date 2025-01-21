@@ -1,0 +1,14 @@
+fastapi_agents/__init__.py,sha256=teAmx13pmc1YRSQZEKX6kVQb5QwjfOmKM6iHQS7ga3k,60
+fastapi_agents/core.py,sha256=VQ3sinnErE78R61aCPqUYZc9HHWo93MKm_z5PVmVOj0,14086
+fastapi_agents/crewai.py,sha256=4-9xsSp8wpnS9y2CXzqWDNsMeRH1Nflx1soKYmmtbqc,1495
+fastapi_agents/errors.py,sha256=tcAN1jI2IsReP2UGvi1FMtqfuHSBZE4WMZrBKR9E1FU,972
+fastapi_agents/llama_index.py,sha256=9DAPqmskGNLp2IJhBFoPTxQ9llEtv1C_hHWxIHhrx40,1936
+fastapi_agents/logs.py,sha256=mZRz9zHCwjA_yETj8BD10tjf_8F68eOhGdhqvuMwHmI,74
+fastapi_agents/models.py,sha256=u0kzssxyVGJqK7KnpLI6DQ-vevdXbg9e756IvitGtOI,2511
+fastapi_agents/pydantic_ai.py,sha256=yGXBPs9024sPxE1U7sNDTjm0-9--7eley3vx1wyWpr0,5449
+fastapi_agents/smolagents.py,sha256=5Jx8GttJGpu6quZk5Ptzm9a5txqa1y2mI5Aagb93gdI,1732
+fastapi_agents-0.1.27.dist-info/METADATA,sha256=5Sw6hF4y27P1lmrYq6ApSH-xW7Tgtoq8yRQBHi2-BIo,13186
+fastapi_agents-0.1.27.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+fastapi_agents-0.1.27.dist-info/entry_points.txt,sha256=ni78LMrZw5Qrn_DhRHAFTWPrFZaw8JnCWAl0ATt2jrQ,102
+fastapi_agents-0.1.27.dist-info/licenses/LICENSE,sha256=DD3-b8mcpb9Nyi8h7iDfUF2fV9i58DOd-bSSX5loPVg,1069
+fastapi_agents-0.1.27.dist-info/RECORD,,
