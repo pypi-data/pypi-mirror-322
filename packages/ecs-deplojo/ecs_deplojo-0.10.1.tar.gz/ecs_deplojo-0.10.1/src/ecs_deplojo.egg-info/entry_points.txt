@@ -1,0 +1,2 @@
+[console_scripts]
+ecs-deplojo = ecs_deplojo.cli:main
