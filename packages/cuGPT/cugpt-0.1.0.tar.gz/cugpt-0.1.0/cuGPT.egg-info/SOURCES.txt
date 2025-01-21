@@ -1,0 +1,12 @@
+README.md
+setup.py
+cuGPT/__init__.py
+cuGPT.egg-info/PKG-INFO
+cuGPT.egg-info/SOURCES.txt
+cuGPT.egg-info/dependency_links.txt
+cuGPT.egg-info/requires.txt
+cuGPT.egg-info/top_level.txt
+cuGPT/bindings/__init__.py
+cuGPT/bindings/relu_binding.py
+cuGPT/kernels/__init__.py
+cuGPT/kernels/relu.cu

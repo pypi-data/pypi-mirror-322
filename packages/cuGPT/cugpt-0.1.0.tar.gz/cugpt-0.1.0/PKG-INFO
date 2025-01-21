@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cuGPT
+Version: 0.1.0
+Summary: PyTorch CUDA extension package.
+Author: A. Zeer
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+
+# cuGPT
