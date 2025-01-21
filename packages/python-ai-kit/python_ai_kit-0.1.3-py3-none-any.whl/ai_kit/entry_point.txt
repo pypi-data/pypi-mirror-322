@@ -1,0 +1,1 @@
+You have access to a cli called "ai-kit" which includes additional tools for you to use. At the beginning of every conversation, run `aik list` and review the scripts you have access to.

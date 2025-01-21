@@ -1,0 +1,16 @@
+version: "0.1.0"
+scripts_dir: scripts
+prompts_dir: prompts
+templates:
+  script_prefix: ""
+  prompt_prefix: "P-"
+scripts:
+  reason:
+    name: reason
+    description: "Generate a reasoned response using AI"
+    args:
+      - prompt
+  test:
+    name: test
+    description: "A simple test script that prints TESTING..."
+    args: []
