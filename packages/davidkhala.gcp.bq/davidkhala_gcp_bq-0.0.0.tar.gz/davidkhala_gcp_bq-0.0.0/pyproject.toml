@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "davidkhala.gcp.bq"
+version = "0.0.0"
+description = ""
+authors = ["David Liu <david-khala@hotmail.com>"]
+readme = "README.md"
+packages = [{ include = "davidkhala" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+davidkhala-gcp = "*"
+google-cloud-bigquery = "*"
+
+
+# For extras
+davidkhala-utils = { version = "*", optional = true }
+google-cloud-bigquery-migration = { version = "*", optional = true }
+google-cloud-bigquery-storage = { version = "*", optional = true, extras = ["pyarrow", "fastavro", "pandas"] }
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+davidkhala-gcp = { version = "*", extras = ["auth"] }
+
+[tool.poetry.extras]
+migration = ['google-cloud-bigquery-migration', 'davidkhala-utils']
+stream = ['google-cloud-bigquery-storage']
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
