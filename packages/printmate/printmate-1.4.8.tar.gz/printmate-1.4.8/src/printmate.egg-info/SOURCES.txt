@@ -1,0 +1,10 @@
+LICENSE
+README.md
+license
+pyproject.toml
+src/printmate/__init__.py
+src/printmate/printmate.py
+src/printmate.egg-info/PKG-INFO
+src/printmate.egg-info/SOURCES.txt
+src/printmate.egg-info/dependency_links.txt
+src/printmate.egg-info/top_level.txt

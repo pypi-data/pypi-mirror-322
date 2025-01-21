@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "printmate"
+version = "1.4.8"
+authors = [
+  { name="Universal CEO", email="universal.store.panel@gmail.com" },
+]
+description = "A library used to print animated and colored text"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["printmate*"]
+
+[options]
+packages = "find:"
+package_dir = { "" = "src" }
+install_requires = [
+    "colorama"
+]
