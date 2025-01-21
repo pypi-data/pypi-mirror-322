@@ -1,0 +1,4 @@
+pandas
+numpy
+py-machineid
+requests

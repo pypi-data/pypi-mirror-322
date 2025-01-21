@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+src/forsitepy/__init__.py
+src/forsitepy/__version__.py
+src/forsitepy/commonstuff.py
+src/forsitepy/validation.py
+src/forsitepy.egg-info/PKG-INFO
+src/forsitepy.egg-info/SOURCES.txt
+src/forsitepy.egg-info/dependency_links.txt
+src/forsitepy.egg-info/requires.txt
+src/forsitepy.egg-info/top_level.txt
