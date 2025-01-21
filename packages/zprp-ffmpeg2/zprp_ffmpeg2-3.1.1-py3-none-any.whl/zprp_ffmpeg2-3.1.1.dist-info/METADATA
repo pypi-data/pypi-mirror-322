@@ -1,0 +1,137 @@
+Metadata-Version: 2.3
+Name: zprp_ffmpeg2
+Version: 3.1.1
+Summary: ffmpeg filter graph bindings for python
+License: MIT
+Author: Gregory Chmielewski
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: ordered-set (>=4.1.0,<5.0.0)
+Requires-Dist: oslex (>=0.1.3,<0.2.0)
+Requires-Dist: pycparser (>=2.22,<3.0)
+Requires-Dist: pytest (>=8.2.2,<9.0.0)
+Requires-Dist: tox (>=4.15.1,<5.0.0)
+Requires-Dist: tqdm (>=4.66.4,<5.0.0)
+Description-Content-Type: text/x-rst
+
+=============
+ZPRP FFmpeg 2
+=============
+
+.. start-badges
+
+.. list-table::
+    :stub-columns: 1
+
+    * - docs
+      - |docs|
+    * - tests
+      - |codecov|
+    * - package
+      - |version| |wheel| |supported-versions| |supported-implementations| |commits-since|
+.. |docs| image:: https://readthedocs.org/projects/zprp-ffmpeg2/badge/?style=flat
+    :target: https://readthedocs.org/projects/zprp-ffmpeg2/
+    :alt: Documentation Status
+
+.. |codecov| image:: https://codecov.io/gh/ffmpeg-zprp/zprp-ffmpeg/branch/main/graphs/badge.svg?branch=main
+    :alt: Coverage Status
+    :target: https://app.codecov.io/gh/kraskoa/zprp-ffmpeg2
+
+.. |version| image:: https://img.shields.io/pypi/v/zprp-ffmpeg2.svg
+    :alt: PyPI Package latest release
+    :target: https://pypi.org/project/zprp-ffmpeg2
+
+.. |wheel| image:: https://img.shields.io/pypi/wheel/zprp-ffmpeg2.svg
+    :alt: PyPI Wheel
+    :target: https://pypi.org/project/zprp-ffmpeg2
+
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/zprp-ffmpeg2.svg
+    :alt: Supported versions
+    :target: https://pypi.org/project/zprp-ffmpeg2
+
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/zprp-ffmpeg2.svg
+    :alt: Supported implementations
+    :target: https://pypi.org/project/zprp-ffmpeg2
+
+.. |commits-since| image:: https://img.shields.io/github/commits-since/kraskoa/zprp-ffmpeg2/v3.1.0.svg
+    :alt: Commits since latest release
+    :target: https://github.com/kraskoa/zprp-ffmpeg2/compare/v3.1.0...main
+
+
+
+.. end-badges
+
+Implementation of the successor to the ffmpeg-python library
+
+* Free software: MIT license
+
+============
+Installation
+============
+
+The package is available on pip::
+
+    pip install zprp_ffmpeg2
+
+===============
+Getting started
+===============
+
+A minimal example showing basic usage of the library:
+
+.. code-block:: python
+
+    import zprp_ffmpeg2 as ffmpeg
+    stream = ffmpeg.input("input.mp4")
+    stream = ffmpeg.hflip(stream)
+    stream = ffmpeg.output(stream, "output.mp4")
+    ffmpeg.run(stream)
+
+Check out more `examples <https://github.com/kraskoa/zprp-ffmpeg2/tree/main/examples>`_
+
+Further documentation is available `here <https://zprp-ffmpeg2.readthedocs.io/en/latest/>`_
+
+===========
+Development
+===========
+
+Project uses poetry for package management. Check out their `docs <https://python-poetry.org/docs/>`_ for installation steps.
+Tests are managed by tox, which uses pytest under the hood.
+
+
+To install package in development mode, enter the virtual environment managed by poetry, then use `install` command:
+
+.. code-block:: bash
+
+    poetry shell
+    poetry install --with="typecheck"
+
+To run tests on multiple python interpreters, build documentation, check for linting issues, run:
+
+.. code-block:: bash
+
+    tox
+
+However, this might be cumbersome, since it requires having all supported python interpreters available.
+To run only selected interpreters, use :code:`-e` option, for example:
+
+.. code-block:: bash
+
+    tox -e py312-lin,check #python 3.12 on linux, and linter checks
+
+You can view all defined interpreters with :code:`tox -l`
+
+To check for typing and linting issues manually, run:
+
+.. code-block:: bash
+
+    mypy src
+    pre-commit run --all-files
+
