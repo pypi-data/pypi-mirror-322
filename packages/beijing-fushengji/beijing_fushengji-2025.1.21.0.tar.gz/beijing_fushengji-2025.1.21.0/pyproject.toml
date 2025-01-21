@@ -1,0 +1,58 @@
+[project]
+name = "beijing_fushengji"
+version = "2025.1.21.0"
+description = "beijing fushengji (a simple simulation game) rewritten in Python"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["pyside6>=6.6.3.1"]
+
+classifiers = ["Topic :: Games/Entertainment :: Turn Based Strategy"]
+
+[project.urls]
+Repository = "https://github.com/soda92/beijing_fushengji_rewrite.git"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.sdist]
+ignore-vcs = true
+packages = ["beijing_fushengji", "beijing_fushengji.*"]
+include = ["*_html.py", "*_rc.py", "ui/*.py"]
+exclude = ["__pycache__", "*.html", "score.txt"]
+
+[tool.hatch.build.targets.wheel]
+ignore-vcs = true
+packages = ["beijing_fushengji", "beijing_fushengji.*"]
+include = ["*_html.py", "*_rc.py", "ui/*.py"]
+exclude = ["__pycache__", "*.html", "score.txt"]
+
+[tool.ruff.lint]
+# 1. Enable flake8-bugbear (`B`) rules, in addition to the defaults.
+select = ["E4", "E7", "E9", "F", "B"]
+
+# 2. Avoid enforcing line-length violations (`E501`)
+ignore = ["E501"]
+
+# 3. Avoid trying to fix flake8-bugbear (`B`) violations.
+unfixable = ["B"]
+
+# 4. Ignore `E402` (import violations) in all `__init__.py` files, and in selected subdirectories.
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["E402"]
+"**/{tests,docs,tools}/*" = ["E402"]
+"ui/*.py" = ["F401"]
+"tests/*.py" = ["E402", "F401"]
+
+[dependency-groups]
+dev = [
+    "build>=1.2.2.post1",
+    "pyinstaller>=6.10.0",
+    "twine>=6.0.0",
+]
+
+[project.gui-scripts]
+beijing-fushengji = "beijing_fushengji.app.main:main"
+
+[project.scripts]
+beijing-fushengji-debug = "beijing_fushengji.app.main:main"
