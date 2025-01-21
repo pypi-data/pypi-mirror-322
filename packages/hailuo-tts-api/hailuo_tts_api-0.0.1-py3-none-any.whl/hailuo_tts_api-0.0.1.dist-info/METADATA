@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: hailuo-tts-api
+Version: 0.0.1
+Summary: A simple Wrapper for Hailuo TTS
+Project-URL: Homepage, https://github.com/daswer123/hailuo-tts-api
+Project-URL: Bug Tracker, https://github.com/daswer123/hailuo-tts-api/issues
+Author-email: daswer123 <daswerq123@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: requests
+Requires-Dist: uuid
+Description-Content-Type: text/markdown
+
+# hailuo-tts-api
+
+ Wrapper for Hailuo TTS, with voice cloning support.
+ It's a simple wrapper for the Hailuo TTS API, with voice cloning support.
+
+ Supports:
+
+- TTS
+- Voice cloning
+
+## Installation
+
+```bash
+pip install hailuo-tts-api
+```
+
+## Usage
+
+See `example.py` for usage.
