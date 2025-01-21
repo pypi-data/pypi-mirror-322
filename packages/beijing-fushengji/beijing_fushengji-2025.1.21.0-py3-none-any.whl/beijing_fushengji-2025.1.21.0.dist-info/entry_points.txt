@@ -1,0 +1,5 @@
+[console_scripts]
+beijing-fushengji-debug = beijing_fushengji.app.main:main
+
+[gui_scripts]
+beijing-fushengji = beijing_fushengji.app.main:main
