@@ -1,0 +1,5 @@
+setup.py
+src/check_execution_time_of_program.egg-info/PKG-INFO
+src/check_execution_time_of_program.egg-info/SOURCES.txt
+src/check_execution_time_of_program.egg-info/dependency_links.txt
+src/check_execution_time_of_program.egg-info/top_level.txt
