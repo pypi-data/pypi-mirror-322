@@ -1,0 +1,2 @@
+[console_scripts]
+bis-rolls = wow_bis_rolls.rolls:main

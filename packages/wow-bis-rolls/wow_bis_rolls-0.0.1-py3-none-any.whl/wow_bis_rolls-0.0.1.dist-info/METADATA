@@ -1,0 +1,58 @@
+Metadata-Version: 2.4
+Name: wow-bis-rolls
+Version: 0.0.1
+Summary: Finds all the BiS(101) rolls in a gargul json file
+Project-URL: Documentation, https://github.com/byornski/wow-bis-rolls#readme
+Project-URL: Issues, https://github.com/byornski/wow-bis-rolls/issues
+Project-URL: Source, https://github.com/byornski/wow-bis-rolls
+Author-email: byornski <byski@gmail.cm>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# WoW BIS Rolls
+
+[![PyPI - Version](https://img.shields.io/pypi/v/wow-bis-rolls.svg)](https://pypi.org/project/wow-bis-rolls)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/wow-bis-rolls.svg)](https://pypi.org/project/wow-bis-rolls)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Installation
+
+```console
+pip install wow-bis-rolls
+```
+
+## Usage
+
+```
+$ bis-rolls rolls.json
+Wartorious won BiS on [Dark Edge of Insanity]
+Angelnomore won BiS on [Dark Storm Gauntlets]
+Byornski won BiS on [Carapace of the Old God]
+Kongtikki won BiS on [Husk of the Old God]
+Freewrath won BiS on [Husk of the Old God]
+Tornwulf won BiS on [Intact Viscera]
+Iskhiaro won BiS on [Intact Peritoneum]
+Inarra won BiS on [Intact Entrails]
+```
+
+## License
+
+`wow-bis-rolls` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
