@@ -1,0 +1,16 @@
+<div id="{{ id }}" class="stlite-root"></div>
+<script type="module" defer>
+  import { mount } from "https://cdn.jsdelivr.net/npm/@stlite/browser@{{ stlite_version }}/build/stlite.js"
+  mount(
+    {
+      requirements: [{{ requirements|join(',') }}],
+      entrypoint: 'streamlit_app.py',
+      files: {
+        'streamlit_app.py': `
+{{ code }}
+        `,
+      },
+    },
+    document.getElementById("{{ id }}"),
+  );
+</script>
