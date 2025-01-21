@@ -1,0 +1,3 @@
+[console_scripts]
+keepass-ssh-connect=keepass_ssh.main:main
+
