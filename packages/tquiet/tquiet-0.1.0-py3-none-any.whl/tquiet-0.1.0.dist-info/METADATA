@@ -1,0 +1,32 @@
+Metadata-Version: 2.3
+Name: tquiet
+Version: 0.1.0
+Summary: Mimic the `tqdm` progress bar interface, but don't actually display anything.
+Author-email: Kale Kundert <kale@thekunderts.net>
+Requires-Python: ~=3.10
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Requires-Dist: myst_parser ; extra == "doc"
+Requires-Dist: autoclasstoc ; extra == "doc"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: parametrize_from_file ; extra == "test"
+Project-URL: Bug Tracker, https://github.com/kalekundert/tquiet/issues
+Project-URL: Continuous Integration, https://github.com/kalekundert/tquiet/actions
+Project-URL: Documentation, https://tquiet.readthedocs.io/en/latest/
+Project-URL: Test Coverage, https://app.codecov.io/github/kalekundert/tquiet
+Project-URL: Version Control, https://github.com/kalekundert/tquiet
+Provides-Extra: doc
+Provides-Extra: test
+
+tquiet
+======
+
+[![Last release](https://img.shields.io/pypi/v/tquiet.svg)](https://pypi.python.org/pypi/tquiet)
+[![Python version](https://img.shields.io/pypi/pyversions/tquiet.svg)](https://pypi.python.org/pypi/tquiet)
+[![Documentation](https://img.shields.io/readthedocs/tquiet.svg)](https://tquiet.readthedocs.io/en/latest/)
+[![Test status](https://img.shields.io/github/actions/workflow/status/kalekundert/tquiet/test.yml?branch=master)](https://github.com/kalekundert/tquiet/actions)
+[![Test coverage](https://img.shields.io/codecov/c/github/kalekundert/tquiet)](https://app.codecov.io/github/kalekundert/tquiet)
+[![Last commit](https://img.shields.io/github/last-commit/kalekundert/tquiet?logo=github)](https://github.com/kalekundert/tquiet)
+
