@@ -1,0 +1,63 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "quantum-trade-utilities"
+version = "0.1.6"
+authors = [
+    { name="Jonathan Poeder", email="jaoeder@gmail.com" },
+]
+description = "Shared utilities for Quantum Trade"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    # List your dependencies here
+    "numpy>=1.24.3,<2.0.0",
+    "pandas>=2.0.3,<2.1.0",
+    "pyarrow>=12.0.1,<13.0.0",
+    "pre-commit",
+    "pylint",
+    "pybrowsers",
+    "flatten_json",
+    "flask",
+    "boto3",
+    "python-dotenv",
+    "requests",
+    "alpaca_trade_api",
+    "pymongo",
+    "ipython",
+    "ipykernel",
+    "ipywidgets",
+    "ipympl",
+    "pytz",
+    "alpaca-py",
+    "debugpy",
+    "transformers",
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "websockets",
+    "gunicorn",
+    "easygui",
+    "bs4",
+    "selenium",
+    "tweepy",
+    "requests",
+    "zenrows",
+    "proxies",
+]
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/japoeder/quantum-trade-utilities"
+"Bug Tracker" = "https://github.com/japoeder/quantum-trade-utilities/issues"
