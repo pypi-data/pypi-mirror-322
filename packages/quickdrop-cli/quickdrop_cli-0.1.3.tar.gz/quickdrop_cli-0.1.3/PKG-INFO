@@ -1,0 +1,44 @@
+Metadata-Version: 2.2
+Name: quickdrop-cli
+Version: 0.1.3
+Summary: A simple deployment tool for quickdrop.host with automatic resource bundling
+Home-page: https://github.com/philipmarais/quickdrop-cli
+Author: Philip Marais
+Author-email: philipmarais@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# QuickDrop CLI
+QuickDrop is a command-line tool that simplifies web deployment by automatically bundling and deploying HTML projects. It handles resource bundling, asset optimization, and versioning in one simple command.
+
+## Features
+- **One-Command Deployment**: Deploy your entire web project with a single command
+- **Automatic Resource Bundling**: CSS and JavaScript files are automatically inlined
+- **Asset Optimization**: Images in CSS are converted to data URIs
+- **Version Management**: Track deployment versions with built-in versioning
+- **Analytics**: View deployment statistics and page views
+- **Rollback Support**: Easy rollback to previous versions if needed
+
+## Installation
+```bash
+pip install quickdrop-cli
+'''
