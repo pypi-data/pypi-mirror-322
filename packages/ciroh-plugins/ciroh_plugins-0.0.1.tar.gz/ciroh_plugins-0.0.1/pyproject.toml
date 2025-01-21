@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "ciroh_plugins"
+authors = [{ name = "Aquaveo LLC", email = "gromero@aquaveo.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = ["License :: OSI Approved :: MIT License"]
+version = "0.0.1"
+description = "Intake drivers for the National Water Model Post-Processing Services and API"
+requires-python = ">=3.6"
+dependencies = [
+    "intake>=0.6.6",
+    "pandas",
+    "numpy==1.26.4",
+    "requests",
+    "shapely",
+    "pyproj",
+    "geopandas",
+    "pynhd",
+    "pygeoogc",
+    "pygeoutils",
+    "pygeohydro",
+    "geoalchemy2",
+    "httpx",
+    "asyncio",
+]
+
+[project.urls]
+Homepage = "https://github.com/FIRO-Tethys/nwmp_plugins"
+Issues = "https://github.com/FIRO-Tethys/nwmp_plugins/issues"
+
+[project.entry-points."intake.drivers"]
+nwmp_data_service = "ciroh_plugins.nwmps.service:NWMPService"
+nwmp_map = "ciroh_plugins.nwmps.olmap:MapVisualization"
+nwmp_reaches_series = "ciroh_plugins.nwmps.reaches:NWMPSReachesSeries"
+nwmp_gauges_series = "ciroh_plugins.nwmps.gauges:NWMPSGaugesSeries"
+drought_drought_monitoring_table = "ciroh_plugins.drought.drought_table:DroughtDataTable"
+drought_drought_monitoring_series = "ciroh_plugins.drought.drought_plot:DroughtDataTimeSeries"
+drought_drought_monitoring_pie_chart = "ciroh_plugins.drought.drought_pie:DroughtDataGraph"
+drought_drought_map_viewer = "ciroh_plugins.drought.drought_map:DroughtMapViewer"
+
+[tool.setuptools]
+include-package-data = true
+zip-safe = false
+
+[tool.setuptools.packages.find]
+include = ["*"]
