@@ -1,0 +1,2 @@
+[console_scripts]
+print_A1 = FusionX.cli:main
