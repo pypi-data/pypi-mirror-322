@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: django-env-validator
+Version: 1.0.0
+Summary: A Django package to validate environment variables given a schema of rules.
+Author-email: 72min <72min@proton.me>
+Project-URL: Homepage, https://www.github.com/72mins/django-env-validator
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django>=3.2
+
+# django-env-validator
