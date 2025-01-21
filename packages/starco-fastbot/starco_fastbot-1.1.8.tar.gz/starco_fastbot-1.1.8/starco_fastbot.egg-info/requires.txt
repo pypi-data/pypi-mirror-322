@@ -1,0 +1,7 @@
+starco-utility
+python-telegram-bot==13.14
+Telethon==1.33.1
+phonenumbers
+pycountry
+python-socks==2.4.3
+nest-asyncio==1.5.8
