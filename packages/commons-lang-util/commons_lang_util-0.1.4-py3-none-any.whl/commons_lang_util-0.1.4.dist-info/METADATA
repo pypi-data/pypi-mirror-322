@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: commons-lang-util
+Version: 0.1.4
+Summary: A utility package for common language operations
+Home-page: https://github.com/gaojiabao1991/commons_lang_util
+Author: JiaBao Gao
+Author-email: gaojiabao1991@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: et-xmlfile (>=2.0.0)
+Requires-Dist: openpyxl (>=3.1.5)
+
+# commons_lang_util
+
+A utility package for common operations.
+
+## Installation
+```
+pip install commons_lang_util
+```
+
+
+
