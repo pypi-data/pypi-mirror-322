@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PyRexBot/__init__.py
+PyRexBot/pyrexbot.py
+PyRexBot.egg-info/PKG-INFO
+PyRexBot.egg-info/SOURCES.txt
+PyRexBot.egg-info/dependency_links.txt
+PyRexBot.egg-info/requires.txt
+PyRexBot.egg-info/top_level.txt
