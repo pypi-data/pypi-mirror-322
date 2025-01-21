@@ -1,0 +1,185 @@
+Metadata-Version: 2.1
+Name: fw-gear-fast-surfer
+Version: 1.0.6
+Summary: Wrapper for Fast Surfer
+Home-page: https://gitlab.com/flywheel-io/flywheel-apps/templates/skeleton
+License: MIT
+Keywords: Flywheel,Gears
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: flywheel-gear-toolkit (>=0.6.18,<0.7.0)
+Project-URL: Repository, https://gitlab.com/flywheel-io/flywheel-apps/templates/skeleton
+Description-Content-Type: text/markdown
+
+# **FastSurfer** #
+
+## Overview
+
+* This GEAR wraps FastSurferCNN part of FastSurfer.
+
+### Summary
+
+* FastSurferCNN is an advanced deep learning architecture capable of whole brain segmentation into 95 classes in under 1 minute, mimicking FreeSurfer anatomical segmentation and cortical parcellation (DKTatlas).
+
+### Cite
+
+*Henschel L, Conjeti S, Estrada S, Diers K, Fischl B, Reuter M, FastSurfer - A fast and accurate deep learning based neuroimaging pipeline, NeuroImage 219 (2020), 117012*
+
+License: *MIT*
+
+### Classification
+
+*Category:* *Analysis Gear*
+
+*Gear Level:*
+
+- [ ] Project
+- [ ] Subject
+- [x] Session
+- [x] Acquisition
+- [ ] Analysis
+
+
+----
+
+[[_TOC_]]
+
+----
+
+### Inputs
+
+- *3DT1-Weighted Volume*
+  - __Name__: *T1w*
+  - __Type__: *file*
+  - __Optional__: *false*
+  - __Classification__: *file*
+  - __Description__: *Input 3D-T1w nifti in zipped format*
+  - __Notes__: *{Gear accepts one zipped nifti file}*
+
+### Config
+
+- *{Config-Option}*
+  - __Name__: *use-gpu*
+  - __Type__: *boolean*
+  - __Description__: *Use GPU for computing the FastSurfer segmentation. Gear will default to CPU if no GPU is available.*
+  - __Default__: *true*
+
+### Outputs
+
+#### Files
+
+
+- *{Output-File}*
+  - __Name__: *aparc+aseg.nii.gz*
+  - __Type__: *file*
+  - __Optional__: *false*
+  - __Classification__: *file*
+  - __Description__: *Segmentation output with 95 labels*
+  - __Notes__: *The segmentation is based on the DKT atlas*
+
+- *{Output-File}*
+  - __Name__: *deep-seg.log*
+  - __Type__: *file*
+  - __Optional__: *false*
+  - __Classification__: *file*
+  - __Description__: *Log file containing all processing details*
+
+- *{Output-File}*
+  - __Name__: *001.mgz*
+  - __Type__: *file*
+  - __Optional__: *false*
+  - __Classification__: *file*
+  - __Description__: *intermediate file generated during inference*
+
+- *{Output-File}*
+  - __Name__: *orig.mgz*
+  - __Type__: *file*
+  - __Optional__: *false*
+  - __Classification__: *file*
+  - __Description__: *intermediate file generated during inference*
+
+## Usage
+
+### Description
+* This gears operates by using the [Eval script](https://github.com/Deep-MI/FastSurfer/blob/stable/FastSurferCNN/eval.py) from [FastSurferCNN](https://github.com/Deep-MI/FastSurfer/tree/stable/FastSurferCNN).
+* The input is a 3D-T1w MRI exam in zipped nifti format. 
+* The output is saved to the Analysis section in the Flywheel platform.
+
+
+#### File Specifications
+
+This Gear has only 1 required input file. The details are below:
+
+##### *{Input-File}*
+
+A 3D-T1w brain MRI exam is required for this gear. Ideal acquistions are 1mm isotropic. The Gear can handle non-isotropic data such as 0.9mmx0.9mmx1.0mm.
+
+### Workflow
+
+```mermaid
+graph LR;
+    A[Input-File]:::input --> C;
+    C[Upload] --> D[Parent Container <br> Project, Subject, etc];
+    D:::container --> E((Gear));
+    E:::gear --> F[Analysis]:::container;
+    
+    classDef container fill:#57d,color:#fff
+    classDef input fill:#7a9,color:#fff
+    classDef gear fill:#659,color:#fff
+
+```
+
+Description of workflow
+
+1. Upload file to container
+2. Select file as input to gear
+3. Gear places output in Analysis. All output files can be downloaded from Analysis.
+4. The output files are available under "Outputs" section in job log. The aparc+aseg.nii.gz can be seen with OHIF viewer.
+
+### Use Cases
+
+#### Use Case 1
+
+__*Conditions__*:
+
+[x] Collection of 3D-T1w brain MRI exams for which a fast Freesurfer-style segmentation is needed. 
+[x] For each timepoint, the data is available as a zipped nifti file.
+
+**Steps**
+1. Upload the zipped nifti files to your Flywheel instance
+    a. Follow [these steps](https://docs.flywheel.io/hc/en-us/articles/360008162434) to upload <u>de-identified data to Flywheel </u>
+
+2. Select the subjects' sessions that are to be analyzed
+
+    a. ![Session Selection](/images/select_subject.png "Session Selection")
+
+3. Navigate to "Run Gear", select "Analysis Gear", and select Fast Surfer under the "Image Processing - Segmentation" section. 
+    a. ![Run Gear](/images/run_gear.png "Run Gear")
+4. Select the zipped nifti file to be segmented.
+
+5. Run gear and review the results under Analysis or in the job log output section. 
+
+### Logging
+
+* Logging will indicate if the processing was run on a GPU or CPU.
+* Three models are run to generate the final output. 
+* The processing time for each model will be displayed in the log. 
+
+## FAQ
+
+[FAQ.md](FAQ.md)
+
+## Contributing
+
+[For more information about how to get started contributing to that gear,
+checkout [CONTRIBUTING.md](CONTRIBUTING.md).]
+<!-- markdownlint-disable-file -->
+
+
