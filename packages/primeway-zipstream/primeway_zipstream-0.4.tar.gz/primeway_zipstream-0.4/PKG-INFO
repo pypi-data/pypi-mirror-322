@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: primeway-zipstream
+Version: 0.4
+Summary: Creating zip files on the fly
+Author: Lavrenov Nikita
+License: MIT
+Keywords: zip streaming
+Dynamic: author
+Dynamic: keywords
+Dynamic: license
+Dynamic: summary

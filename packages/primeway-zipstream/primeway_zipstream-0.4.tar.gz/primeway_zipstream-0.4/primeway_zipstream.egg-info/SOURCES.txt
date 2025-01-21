@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+primeway_zipstream/__init__.py
+primeway_zipstream/aiozipstream.py
+primeway_zipstream/consts.py
+primeway_zipstream/zipstream.py
+primeway_zipstream.egg-info/PKG-INFO
+primeway_zipstream.egg-info/SOURCES.txt
+primeway_zipstream.egg-info/dependency_links.txt
+primeway_zipstream.egg-info/top_level.txt
+tests/test_zipstream.py
