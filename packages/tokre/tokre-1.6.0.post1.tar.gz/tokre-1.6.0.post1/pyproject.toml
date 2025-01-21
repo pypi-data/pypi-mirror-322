@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "tokre"
+version = "1.6.0-1"
+description = ""
+authors = ["Noa Nabeshima <noanabeshima@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lark = "^1.1.9"
+regex = "^2024.7.24"
+openai = "^1.37.1"
+backoff = "^2.2.1"
+numpy = "^1.24.0"
+tqdm = "^4.66.4"
+# ray = "^2.34.0"
+pathlib = "^1.0.1"
+black = "^24.4.2"
+frozendict = "^2.4.4"
+schedulefree = "^1.4"
+
+
+[[tool.poetry.source]]
+name = "pytorch_cpu"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
