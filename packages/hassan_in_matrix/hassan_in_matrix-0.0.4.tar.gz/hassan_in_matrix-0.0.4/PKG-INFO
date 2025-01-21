@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: hassan_in_matrix
+Version: 0.0.4
+Summary: Binary matrices for discrete mathematics
+Project-URL: Homepage, https://github.com/HassanHeydariNasab/dm
+Project-URL: Issues, https://github.com/HassanHeydariNasab/dm/issues
+Author-email: Hassan Heydari Nasab <hsn6@tuta.io>
+License-Expression: WTFPL
+License-File: LICENSE.md
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Discrete Mathematics Homework
+
+Author: Hassan Heydari Nasab
+
+`Matrix` is a class in `matrix.py` file and contains useful methods.
+
+You can find the test cases in `test.py` or run `demo.py` to try the methods.
+
+License: WTFPL
