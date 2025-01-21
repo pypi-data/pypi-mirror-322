@@ -1,0 +1,14 @@
+[project]
+name = "devicev1"
+version = "1.0.0.16.dev3"
+description = "Windmill-Device Api Client"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "bce-python-sdk==0.8.87",
+    "pydantic>=2.10",
+    "bce-internal-sdk",
+    "typing",
+    "setuptools"
+]
+

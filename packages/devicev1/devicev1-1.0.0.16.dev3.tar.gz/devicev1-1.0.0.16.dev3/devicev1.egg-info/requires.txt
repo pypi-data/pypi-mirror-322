@@ -1,0 +1,5 @@
+bce-python-sdk==0.8.87
+pydantic>=2.10
+bce-internal-sdk
+typing
+setuptools
