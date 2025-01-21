@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: EDS_mod
+Version: 1.0.4
+Summary: A package for Data Science
+Project-URL: Homepage, https://github.com/laserchemist/EDS_module
+Project-URL: Issues, https://github.com/laserchemist/EDS_module/issues
+Author-email: Jonathan M Smith <jmsmith@quantum-curiosity.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# EDS Package
+
+This contains extra functions for EDS
