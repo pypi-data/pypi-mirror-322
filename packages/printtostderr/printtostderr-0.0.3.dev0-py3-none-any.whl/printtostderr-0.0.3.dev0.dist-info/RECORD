@@ -1,0 +1,10 @@
+printtostderr/__init__.py,sha256=0y2s5cvKeaQc16M9cNBkuZKmNyxmer_zpr-ugly86uc,106
+printtostderr/__main__.py,sha256=6G1Dyv-N-17IAIcKx1GqUC6f8UJByfMTgUakc98FGPA,70
+printtostderr/core/__init__.py,sha256=2DsqNupX43MfhpwsH2fNx20jgG1RHSsQsx_en7jPNG8,641
+printtostderr/tests/__init__.py,sha256=-3z7VLOt2LyPwSfGers2RUSxEqVtFYdJT5fP2jKATXA,301
+printtostderr/tests/test_0.py,sha256=viam1xX1zPF6M9BK6FUh3iZxz36jb18E8RnwQBCSaJE,1384
+printtostderr-0.0.3.dev0.dist-info/LICENSE.txt,sha256=fOh9FHccUt9OcJPBaVJ482GX4yrl_FxCUk9YRZ53JOI,1074
+printtostderr-0.0.3.dev0.dist-info/METADATA,sha256=R-WLULO3SHhUBCYKaPSCy01mMqDIa0K-ikmGKRrTeCk,2713
+printtostderr-0.0.3.dev0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+printtostderr-0.0.3.dev0.dist-info/top_level.txt,sha256=Iro1O_SJsd-IDEt96oPEhZ9tV00iFp1iuDmOBsCfOno,14
+printtostderr-0.0.3.dev0.dist-info/RECORD,,
