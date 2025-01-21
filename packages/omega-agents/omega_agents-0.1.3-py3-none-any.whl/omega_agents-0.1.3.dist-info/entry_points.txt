@@ -1,0 +1,2 @@
+[console_scripts]
+omega_agents = omega_agents.main:cli
