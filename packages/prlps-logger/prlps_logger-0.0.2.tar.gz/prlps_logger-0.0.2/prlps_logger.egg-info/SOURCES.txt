@@ -1,0 +1,7 @@
+README.md
+setup.py
+prlps_logger/__init__.py
+prlps_logger.egg-info/PKG-INFO
+prlps_logger.egg-info/SOURCES.txt
+prlps_logger.egg-info/dependency_links.txt
+prlps_logger.egg-info/top_level.txt
