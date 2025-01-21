@@ -1,0 +1,2 @@
+[console_scripts]
+hogwarts-browser-use = hogwarts_browser_use.service.__main__:main

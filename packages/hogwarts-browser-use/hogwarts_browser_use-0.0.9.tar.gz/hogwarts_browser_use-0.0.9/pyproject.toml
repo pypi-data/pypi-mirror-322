@@ -1,0 +1,32 @@
+[build-system]
+requires = [
+    "setuptools",
+    "setuptools-scm",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hogwarts-browser-use"
+authors = [
+    { name = "霍格沃兹测试开发学社" },
+]
+description = "hogwarts browser use 霍格沃兹测试开发学社学员定制版"
+readme = "README.md"
+requires-python = ">= 3.11"
+dynamic = ["version", "dependencies"]
+
+[project.urls]
+Homepage = "https://ceshiren.com"
+
+[tool.setuptools]
+packages.find.where = ["src"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+# 动态生成version的配置
+[tool.setuptools_scm]
+
+[project.scripts]
+hogwarts-browser-use = 'hogwarts_browser_use.service.__main__:main'
