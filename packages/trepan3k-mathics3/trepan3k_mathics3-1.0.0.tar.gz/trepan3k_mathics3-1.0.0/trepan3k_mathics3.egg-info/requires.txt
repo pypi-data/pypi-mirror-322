@@ -1,0 +1,5 @@
+Mathics3
+
+[dev]
+pre-commit
+pytest

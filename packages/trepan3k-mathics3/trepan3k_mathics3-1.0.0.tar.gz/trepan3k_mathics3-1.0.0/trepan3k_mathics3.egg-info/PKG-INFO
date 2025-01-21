@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: trepan3k_mathics3
+Version: 1.0.0
+Summary: trepan3k plugin to support Mathics3 debugging
+Author-email: Rocky Bernstein <rocky@gnu.org>
+License: GPL
+Project-URL: Homepage, https://github.com/Mathics3/trepan3k-mathics3-plugin
+Project-URL: Downloads, https://github.com/Mathics3/trepan3k-mathics3-plugin/releases
+Keywords: debugger
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Debuggers
+Description-Content-Type: text/x-rst
+License-File: COPYING
+Requires-Dist: Mathics3
+Provides-Extra: dev
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+Plugin to support Mathics3 debugging from trepan3k
