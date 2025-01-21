@@ -1,0 +1,750 @@
+Metadata-Version: 2.4
+Name: mcp-agent
+Version: 0.0.3
+Summary: Agent framework for Model Context Protocol (MCP)
+Author-email: Sarmad Qadri <sarmad@lastmileai.dev>
+License:                                  Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright [yyyy] [name of copyright owner]
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: fastapi>=0.115.6
+Requires-Dist: instructor>=1.7.0
+Requires-Dist: mcp>=1.2.0rc1
+Requires-Dist: numpy>=2.2.1
+Requires-Dist: opentelemetry-distro>=0.50b0
+Requires-Dist: opentelemetry-exporter-otlp-proto-http>=1.29.0
+Requires-Dist: pydantic-settings>=2.7.0
+Requires-Dist: pydantic>=2.10.4
+Requires-Dist: pyyaml>=6.0.2
+Requires-Dist: rich>=13.9.4
+Requires-Dist: scikit-learn>=1.6.0
+Requires-Dist: typer>=0.15.1
+Provides-Extra: anthropic
+Requires-Dist: anthropic>=0.42.0; extra == 'anthropic'
+Requires-Dist: instructor[anthropic]>=1.7.2; extra == 'anthropic'
+Provides-Extra: cohere
+Requires-Dist: cohere>=5.13.4; extra == 'cohere'
+Provides-Extra: openai
+Requires-Dist: openai>=1.58.1; extra == 'openai'
+Provides-Extra: temporal
+Requires-Dist: temporalio>=1.8.0; extra == 'temporal'
+Description-Content-Type: text/markdown
+
+# mcp-agent
+
+**A light, extensible agent framework built on [Model Context Protocol](https://modelcontextprotocol.io/introduction) that enables orchestration of AI workflows and tools in a straightforward, code-first manner.**
+
+This framework supports:
+
+- **MCP** (Model Context Protocol) servers for standardized tool interfaces, prompts, memory, etc.
+- An **Agent** abstraction that can seamlessly attach to multiple MCP servers, handle human input, signals, or additional specialized tasks.
+- Common agent patterns, such as Swarm (by OpenAI), and Evaluator-Optimizer, Orchestrator, Router, and more from [Anthropic’s _Building Effective Agents_ blog](https://www.anthropic.com/research/building-effective-agents), adapted for code-based control flow instead of rigid "graph-based" structures.
+- **Durable Execution** with pluggable backends (e.g., [Temporal](https://temporal.io)) for advanced pause/resume, parallelization, and human-in-the-loop signals.
+
+> **Why code-based control flow?** In many agent frameworks, you must model nodes/edges, which adds an unnecessary layer of complexity. For conditionals, you have to craft subgraphs, or for loops, you must create cyclical edges. In **mcp-agent**, you just write regular Python control flow (loops, if/else conditionals) and let the executor handle concurrency, resiliency and orchestration.
+
+---
+
+## Get Started
+
+We recommend using [uv](https://docs.astral.sh/uv/) to manage your Python projects:
+
+```bash
+uv add "mcp-agent"
+```
+
+Alternatively:
+
+```bash
+pip install mcp-agent
+```
+
+### Quickstart
+
+The [`examples`](/examples) directory has a number of example applications to get started with.
+To run an example, clone this repo, update, then copy `mcp_agent.secrets.yaml.example` to `mcp_agent.secrets.yaml` and update with your API keys, and then:
+
+```bash
+uv run scripts/example.py run mcp_basic_agent # Replace with 'mcp_basic_agent' with any folder name under examples/
+```
+
+Here is a basic "finder" agent that uses the fetch and filesystem servers to look up a file:
+
+1. Configure your application by creating an [mcp_agent.config.yaml](/schema/mcp-agent.config.schema.json)
+
+```yaml
+mcp:
+  servers:
+    fetch:
+      command: "uvx"
+      args: ["mcp-server-fetch"]
+    filesystem:
+      command: "npx"
+      args:
+        [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "/Users/saqadri/Desktop",
+          "<add other directories to give access to>",
+        ]
+
+anthropic:
+  # Secrets (api_key, etc.) can also be stored in an mcp_agent.secrets.yaml file which can be gitignored
+  api_key: claude-api-key
+
+openai: ...
+```
+
+```python
+import asyncio
+import os
+
+from mcp_agent.context import get_current_context
+from mcp_agent.logging.logger import get_logger
+from mcp_agent.agents.agent import Agent
+from mcp_agent.workflows.llm.augmented_llm_openai import OpenAIAugmentedLLM
+
+async def example_usage():
+    logger = get_logger("mcp_basic_agent.example_usage")
+
+    context = get_current_context()
+    logger.info("Current config:", data=context.config)
+
+    # This agent can read the filesystem or fetch URLs
+    finder_agent = Agent(
+        name="finder",
+        instruction="""You can read local files or fetch URLs.
+            Return the requested information when asked.""",
+        server_names=["fetch", "filesystem"],
+    )
+
+    async with finder_agent:
+        # List tools available to the finder agent
+        tools = await finder_agent.list_tools()
+        logger.info(f"Tools available:", data=tools)
+
+        # Attach an OpenAI-based LLM to the agent
+        llm = await finder_agent.attach_llm(OpenAIAugmentedLLM)
+
+        # Now we can do a prompt that might need the agent's capabilities
+        result = await llm.generate_str(
+            message="Show me what's in README.md verbatim"
+        )
+        logger.info(f"README.md contents: {result}")
+
+        result = await llm.generate_str(
+            message="Print the first two paragraphs from https://www.anthropic.com/research/building-effective-agents"
+        )
+        logger.info(f"Blog intro: {result}")
+
+if __name__ == "__main__":
+    asyncio.run(example_usage())
+```
+
+## Preamble
+
+### Value Proposition
+
+This framework provides a streamlined approach to building AI agents using capabilities exposed by **MCP** (Model Context Protocol) servers.
+
+Simply put, MCP is quite low-level, and this framework handles the mechanics of connecting to servers, working with LLMs, handling external signals (like human input) and supporting persistent state via durable execution. That lets you, the developer, focus on the core business logic of your AI application.
+
+Core benefits:
+
+- **Interoperability**: MCP ensures that tools and servers can seamlessly plug in to your agent, forming a “server-of-servers.”
+- **Composability & Cutstomizability**: Implements well-defined workflows, but in a composable way that enables compound workflows, and allows full customization across model provider, logging, orchestrator, etc.
+- **Programmatic control flow**: Keeps things simple as developers just write code instead of thinking in graphs, nodes and edges. For branching logic, you write `if` statements. For cycles, use `while` loops.
+- **Human Input & Signals**: Supports pausing workflows for external signals, such as human input, which are exposed as tool calls an Agent can make.
+- **Durable Execution**: Supports persistent/long-running workflows (like with [Temporal](https://temporal.io)) for sophisticated async applications.
+
+### Using with MCP
+
+#### MCP-Agent Server
+
+You can expose mcp-agent applications as MCP servers themselves, allowing MCP clients to interface with sophisticated AI workflows using the standard tools API of MCP servers. This is effectively a server-of-servers.
+
+#### MCP Client
+
+You can embed mcp-agent in an MCP client directly to manage the orchestration across multiple MCP servers.
+
+#### Standalone
+
+You can use mcp-agent applications in a standalone fashion (i.e. they aren't part of an MCP client). The [`examples`](/examples/) are all standalone applications.
+
+## Core Components
+
+The following are the building blocks of the mcp-agent framework:
+
+- **Context**: global state and app configuration
+- **MCP server management**: `gen_client` and `MCPConnectionManager` to easily connect to MCP servers.
+- **MCPAggregator**: A server-of-servers that exposes multiple servers' capabilities behind a single MCP server interface.
+- **Agent**: An MCPAggregator with a name and instruction, with the ability to customize behavior for tool calls and more.
+- **AugmentedLLM**: An LLM that is attached to an Agent to achieve its task, exposing a `generate` method.
+
+Everything in the framework is a derivative of these core capabilities.
+
+### App Context
+
+There is a global context that is initialized to manage application state, including configuration loaded from `mcp_agent.config.yaml`, such as the MCP server registry, logger settings, LLM API keys and more.
+
+```python
+from mcp_agent.context import get_current_context
+context = get_current_context()
+server_registry = context.server_registry
+config = context.config
+```
+
+### MCP server management
+
+> This is the core building block of the entire framework
+
+mcp-agent makes it trivial to connect to MCP servers. Create an [`mcp_agent.config.yaml`](/schema/mcp-agent.config.schema.json) to define server configuration under the `mcp` section:
+
+```yaml
+mcp:
+  servers:
+    fetch:
+      command: "uvx"
+      args: ["mcp-server-fetch"]
+      description: "Fetch content at URLs from the world wide web"
+```
+
+#### [`gen_client`](src/mcp_agent/mcp/gen_client.py)
+
+Manage the lifecycle of an MCP server within an async context manager:
+
+```python
+from mcp_agent.mcp.gen_client import gen_client
+
+async with gen_client("fetch") as fetch_client:
+    # Fetch server is initialized and ready to use
+    result = await fetch_client.list_tools()
+
+# Fetch server is automatically disconnected/shutdown
+```
+
+The gen_client function makes it easy to spin up connections to MCP servers.
+
+#### Persistent server connections
+
+In many cases, you want an MCP server to stay online for persistent use (e.g. in a multi-step tool use workflow).
+For persistent connections, use:
+
+- [`connect`](<(src/mcp_agent/mcp/gen_client.py)>) and [`disconnect`](src/mcp_agent/mcp/gen_client.py)
+
+```python
+from mcp_agent.mcp.gen_client import connect, disconnect
+
+fetch_client = None
+try:
+     fetch_client = connect("fetch")
+     result = await fetch_client.list_tools()
+finally:
+     disconnect("fetch")
+```
+
+- [`MCPConnectionManager`](src/mcp_agent/mcp/mcp_connection_manager.py)
+  For even more fine-grained control over server connections, you can use the MCPConnectionManager.
+
+```python
+from mcp_agent.context import get_current_context
+from mcp_agent.mcp.mcp_connection_manager import MCPConnectionManager
+
+context = get_current_context()
+connection_manager = MCPConnectionManager(context.server_registry)
+
+async with connection_manager:
+   fetch_client = await connection_manager.get_server("fetch") # Initializes fetch server
+   result = fetch_client.list_tool()
+   fetch_client2 = await connection_manager.get_server("fetch") # Reuses same server connection
+
+# All servers managed by connection manager are automatically disconnected/shut down
+```
+
+### MCP Server Aggregator
+
+[`MCPAggregator`](src/mcp_agent/mcp/mcp_aggregator.py) acts as a "server-of-servers".
+It provides a single MCP server interface for interacting with multiple MCP servers.
+This allows you to expose tools from multiple servers to LLM applications.
+
+```python
+from mcp_agent.mcp.mcp_aggregator import MCPAggregator
+
+aggregator = await MCPAggregator.create(server_names=["fetch", "filesystem"])
+
+async with aggregator:
+   # combined list of tools exposed by 'fetch' and 'filesystem' servers
+   tools = await aggregator.list_tools()
+
+   # namespacing -- invokes the 'fetch' server to call the 'fetch' tool
+   fetch_result = await aggregator.call_tool(name="fetch-fetch", arguments={"url": "https://www.anthropic.com/research/building-effective-agents"})
+
+   # no namespacing -- first server in the aggregator exposing that tool wins
+   read_file_result = await aggregator.call_tool(name="read_file", arguments={})
+```
+
+### Agent
+
+An [Agent](src/mcp_agent/agents/agent.py) is an MCPAggregator with an `name` and `instruction` (or purpose).
+Agents are the core building block of the mcp-agent framework. Agents expose tools and function to LLMs.
+
+```python
+from mcp_agent.agents.agent import Agent
+
+finder_agent = Agent(
+    name="finder",
+    instruction="You are an agent with filesystem + fetch access. Return the requested file or URL contents.",
+    server_names=["fetch", "filesystem"],
+)
+```
+
+### AugmentedLLM
+
+[AugmentedLLM](src/mcp_agent/workflows/llm/augmented_llm.py) is an LLM that has access to MCP servers and functions via Agents.
+Different LLM providers implement the AugmentedLLM interface to expose 3 functions:
+
+- `generate`: Generate message(s) given a prompt, possibly over multiple iterations and making tool calls as needed.
+- `generate_str`: Returns the generated result as a string output.
+- `generate_structured`: Uses [Instructor](https://github.com/instructor-ai/instructor) to return the generated result as a Pydantic model.
+
+Additionally, `AugmentedLLM` has memory, to keep track of long or short-term history.
+
+```python
+from mcp_agent.agents.agent import Agent
+from mcp_agent.workflows.llm.augmented_llm_anthropic import AnthropicAugmentedLLM
+
+finder_agent = Agent(
+    name="finder",
+    instruction="You are an agent with filesystem + fetch access. Return the requested file or URL contents.",
+    server_names=["fetch", "filesystem"],
+)
+
+async with finder_agent:
+   llm = await finder_agent.attach_llm(AnthropicAugmentedLLM)
+
+   result = await llm.generate_str(
+      message="Print the first 2 paragraphs of https://www.anthropic.com/research/building-effective-agents",
+      # Can override model, tokens and other defaults
+   )
+   logger.info(f"Result: {result}")
+
+   # Multi-turn conversation
+   result = await llm.generate_str(
+      message="Summarize those paragraphs in a 128 character tweet",
+   )
+   logger.info(f"Result: {result}")
+```
+
+> Note: Notice the inversion of control. The Agent is the configuration of how you want the LLM to operate.
+> You then attach an LLM to an Agent to operationalize your intent. This allows you to define agents once, and
+> easily switch LLMs or LLM providers.
+
+## Workflows
+
+We provide implementations for every pattern in Anthropic’s [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents), as well as the OpenAI [Swarm](https://github.com/openai/swarm) pattern.
+By design, each model and provider-agnostic, and exposed as an `AugmentedLLM`, making everything very composable (e.g. use an Evaluator-Optimizer as an Orchestrator's planner).
+
+### [Parallel](src/mcp_agent/workflows/parallel/parallel_llm.py)
+
+![Parallel workflow](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F406bb032ca007fd1624f261af717d70e6ca86286-2401x1000.png&w=3840&q=75)
+
+Fan-out tasks to multiple sub-agents and fan-in the results:
+
+> **[Link to full example](examples/workflow_parallel/main.py)**
+
+```python
+proofreader = Agent(name="proofreader", instruction="Review grammar...")
+fact_checker = Agent(name="fact_checker", instruction="Check factual consistency...")
+style_enforcer = Agent(name="style_enforcer", instruction="Enforce style guidelines...")
+
+grader = Agent(name="grader", instruction="Combine feedback into a structured report.")
+
+parallel = ParallelLLM(
+    fan_in_agent=grader,
+    fan_out_agents=[proofreader, fact_checker, style_enforcer],
+    llm_factory=OpenAIAugmentedLLM,
+)
+
+result = await parallel.generate_str("Student short story submission: ...", model="gpt-4o")
+```
+
+### [Router](src/mcp_agent/workflows/router/)
+
+![Router workflow](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5c0c0e9fe4def0b584c04d37849941da55e5e71c-2401x1000.png&w=3840&q=75)
+
+Given an input, route to the `top_k` most relevant categories. A category can be an Agent, a server or a regular function.
+mcp-agent provides several router implementations, including:
+
+- [`EmbeddingRouter`](src/mcp_agent/workflows/router/router_embedding.py): uses embedding models for classification
+- [`LLMRouter`](src/mcp_agent/workflows/router/router_llm.py): uses LLMs for classification
+
+> **[Link to full example](examples/workflow_router/main.py)**
+
+```python
+def print_hello_world:
+     print("Hello, world!")
+
+finder_agent = Agent(name="finder", server_names=["fetch", "filesystem"])
+writer_agent = Agent(name="writer", server_names=["filesystem"])
+
+llm = OpenAIAugmentedLLM()
+router = LLMRouter(
+    llm=llm,
+    agents=[finder_agent, writer_agent],
+    functions=[print_hello_world],
+)
+
+results = await router.route( # Also available: route_to_agent, route_to_server
+    request="Find and print the contents of README.md verbatim",
+    top_k=1
+)
+chosen_agent = results[0].result
+async with chosen_agent:
+    ...
+```
+
+### [IntentClassifier](src/mcp_agent/workflows/intent_classifier/)
+
+A close sibling of Router, the Intent Classifier pattern identifies the `top_k` Intents that most closely match a given input.
+Just like a Router, mcp-agent provides both an [embedding](src/mcp_agent/workflows/intent_classifier/intent_classifier_embedding.py) and [LLM-based](src/mcp_agent/workflows/intent_classifier/intent_classifier_llm.py) intent classifier.
+
+### [Evaluator-Optimizer](src/mcp_agent/workflows/evaluator_optimizer/evaluator_optimizer.py)
+
+![Evaluator-optimizer workflow](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F14f51e6406ccb29e695da48b17017e899a6119c7-2401x1000.png&w=3840&q=75)
+
+One LLM (the “optimizer”) refines a response, another (the “evaluator”) critiques it until we reach a threshold:
+
+> **[Link to full example](examples/workflow_evaluator_optimizer/main.py)**
+
+```python
+from mcp_agent.workflows.evaluator_optimizer.evaluator_optimizer import EvaluatorOptimizerLLM, QualityRating
+
+optimizer = Agent(name="cover_letter_writer", server_names=["fetch"], instruction="Generate a cover letter ...")
+evaluator = Agent(name="critiquer", instruction="Evaluate clarity, specificity, relevance...")
+
+llm = EvaluatorOptimizerLLM(
+    optimizer=optimizer,
+    evaluator=evaluator,
+    llm_factory=OpenAIAugmentedLLM,
+    min_rating=QualityRating.EXCELLENT, # Keep iterating until the minimum quality bar is reached
+)
+
+result = await eo_llm.generate_str("Write a job cover letter for an AI framework developer role at LastMile AI.")
+print("Final refined cover letter:", result)
+```
+
+### [Orchestrator-workers](src/mcp_agent/workflows/orchestrator/orchestrator.py)
+
+![Orchestrator workflow](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8985fc683fae4780fb34eab1365ab78c7e51bc8e-2401x1000.png&w=3840&q=75)
+
+A higher-level LLM breaks tasks into steps, assigns them to sub-agents, and merges results.
+The Orchestrator workflow automatically parallelizes steps that can be done in parallel, and blocks on dependencies.
+
+> **[Link to full example](examples/workflow_orchestrator_worker/main.py)**
+
+```python
+finder_agent = Agent(name="finder", server_names=["fetch", "filesystem"])
+writer_agent = Agent(name="writer", server_names=["filesystem"])
+proofreader = Agent(name="proofreader", ...)
+fact_checker = Agent(name="fact_checker", ...)
+style_enforcer = Agent(name="style_enforcer", instructions="Use APA style guide from ...", server_names=["fetch"])
+
+orchestrator = Orchestrator(
+    llm_factory=AnthropicAugmentedLLM,
+    available_agents=[finder_agent, writer_agent, proofreader, fact_checker, style_enforcer],
+    plan_type="full", # Can also be "iterative", where the LLM thinks about the next set of parallel steps at a time.
+)
+
+task = "Load short_story.md, evaluate it, produce a graded_report.md with multiple feedback aspects."
+result = await orchestrator.generate_str(task, model="gpt-4o")
+print(result)
+```
+
+### [Swarm](src/mcp_agent/workflows/swarm/swarm.py)
+
+OpenAI has an experimental multi-agent pattern called [Swarm](https://github.com/openai/swarm), which we provide a model-agnostic reference implementation for in mcp-agent.
+
+![Swarm example](https://github.com/openai/swarm/blob/main/assets/swarm_diagram.png?raw=true)
+
+The mcp-agent Swarm pattern works seamlessly with MCP servers, and is exposed as an `AugmentedLLM`, allowing for composability with other patterns above.
+
+> **[Link to full example](examples/workflow_swarm/main.py)**
+
+```python
+triage_agent = SwarmAgent(...)
+flight_mod_agent = SwarmAgent(...)
+lost_baggage_agent = SwarmAgent(...)
+
+# The triage agent decides whether to route to flight_mod_agent or lost_baggage_agent
+swarm = AnthropicSwarm(agent=triage_agent, context_variables={...})
+
+test_input = "My bag was not delivered!"
+result = await swarm.generate_str(test_input)
+print("Result:", result)
+```
+
+## Signaling and Human Input
+
+**Signaling**: The framework can pause/resume tasks (like in advanced Durable Execution modes). The agent or LLM might “signal” that it needs user input, so the workflow awaits. A developer may signal during a workflow to seek approval or review before continuing with a workflow.
+
+**Human Input**: If an Agent has a `human_input_callback`, the LLM can call a `__human_input__` tool to request user input mid-workflow.
+
+The [Swarm example](examples/workflow_swarm/main.py) shows this in action.
+
+```python
+from mcp_agent.human_input.handler import console_input_callback
+
+lost_baggage = SwarmAgent(
+    name="Lost baggage traversal",
+    instruction=lambda context_variables: f"""
+        {
+        FLY_AIR_AGENT_PROMPT.format(
+            customer_context=context_variables.get("customer_context", "None"),
+            flight_context=context_variables.get("flight_context", "None"),
+        )
+    }\n Lost baggage policy: policies/lost_baggage_policy.md""",
+    functions=[
+        escalate_to_agent,
+        initiate_baggage_search,
+        transfer_to_triage,
+        case_resolved,
+    ],
+    server_names=["fetch", "filesystem"],
+    human_input_callback=console_input_callback, # Request input from the console
+)
+```
+
+### Global signal callbacks
+
+You can configure global handlers on the application [`Context`](src/mcp_agent/context.py).
+
+- `human_input_handler`: Expose a handler for human input to AugmentedLLMs/Agents.
+- `signal_notification`: Notification callback when a workflow is about to be blocked on a signal
+
+## Advanced
+
+### Durable Execution
+
+By default, we use asyncio as the [Executor](src/mcp_agent/executor/executor.py). For advanced workflows, you can switch to Temporal (see src/mcp_agent/executor/temporal.py):
+
+1. Decorate tasks with @workflow_task
+2. Define a @workflow_run method for your workflow
+3. Let the system handle pause, resume, signals, concurrency, etc.
+
+The key thing is separation of concerns. Your application code doesn't change, you simply pass a different [Executor](src/mcp_agent/executor/executor.py) to change how the workflow is orchestrated.
+
+### Logging and tracing
+
+There is support for distributed tracing, as well as basic logging via a logger interface.
+Logger settings can be configured in [`mcp_agent.config.yaml`](schema/mcp-agent.config.schema.json).
+Instead of using the standard Python logger, it is recommended to use the mcp-agent logger:
+
+```python
+from mcp_agent.logging.logger import get_logger
+
+logger = get_logger(__name__)
+```
+
+This automatically integrates with distributed tracing (see [`@traced`](src/mcp_agent/logging/tracing.py)) as well as configuring custom transports (console, http, etc.).
