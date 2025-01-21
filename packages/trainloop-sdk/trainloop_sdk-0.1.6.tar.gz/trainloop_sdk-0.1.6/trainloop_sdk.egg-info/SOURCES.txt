@@ -1,0 +1,8 @@
+pyproject.toml
+trainloop/__init__.py
+trainloop/client.py
+trainloop_sdk.egg-info/PKG-INFO
+trainloop_sdk.egg-info/SOURCES.txt
+trainloop_sdk.egg-info/dependency_links.txt
+trainloop_sdk.egg-info/requires.txt
+trainloop_sdk.egg-info/top_level.txt
