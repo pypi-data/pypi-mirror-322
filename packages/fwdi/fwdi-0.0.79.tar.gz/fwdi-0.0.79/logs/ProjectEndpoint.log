@@ -1,0 +1,2 @@
+Presentation.Endpoints.project_endpoint:username='admin' email='admin@admin.ru' full_name=None disabled=None hashed_password='$2b$12$Ws/iB/wExmsCLBGXG.h0Z.r1wPezjGDkksT/2fAL817B0nd2CBTgy'
+2024-12-28 16:18:55,717 | INFO | 140524931319360 | Presentation.Endpoints.project_endpoint:username='admin' email='admin@admin.ru' full_name=None disabled=None hashed_password='$2b$12$Ws/iB/wExmsCLBGXG.h0Z.r1wPezjGDkksT/2fAL817B0nd2CBTgy'

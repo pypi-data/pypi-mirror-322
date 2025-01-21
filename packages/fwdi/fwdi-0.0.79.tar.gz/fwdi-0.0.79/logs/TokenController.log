@@ -1,0 +1,16 @@
+fwdi.Presentation.DefaultControllers.token_controller:<fastapi.security.oauth2.OAuth2PasswordRequestForm object at 0x7fce8218c8b0>
+2024-12-28 16:18:11,164 | DEBUG | 140524931319360 | fwdi.Presentation.DefaultControllers.token_controller:<fastapi.security.oauth2.OAuth2PasswordRequestForm object at 0x7fce8218c8b0>
+username='admin' email='admin@admin.ru' full_name=None disabled=None hashed_password='$2b$12$Ws/iB/wExmsCLBGXG.h0Z.r1wPezjGDkksT/2fAL817B0nd2CBTgy'
+2024-12-28 16:18:11,342 | DEBUG | 140524931319360 | username='admin' email='admin@admin.ru' full_name=None disabled=None hashed_password='$2b$12$Ws/iB/wExmsCLBGXG.h0Z.r1wPezjGDkksT/2fAL817B0nd2CBTgy'
+['admin', 'upload']
+2024-12-28 16:18:11,347 | DEBUG | 140524931319360 | ['admin', 'upload']
+Create token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AYWRtaW4ucnUiLCJzY29wZXMiOlsiYWRtaW4iLCJ1cGxvYWQiXSwiZXhwIjoxNzM1OTY2NjkxfQ.IFjh3ERBZvVrC2iKskz48Hau3xKVPPtygnVmcHxrUTM
+2024-12-28 16:18:11,348 | DEBUG | 140524931319360 | Create token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AYWRtaW4ucnUiLCJzY29wZXMiOlsiYWRtaW4iLCJ1cGxvYWQiXSwiZXhwIjoxNzM1OTY2NjkxfQ.IFjh3ERBZvVrC2iKskz48Hau3xKVPPtygnVmcHxrUTM
+fwdi.Presentation.DefaultControllers.token_controller:<fastapi.security.oauth2.OAuth2PasswordRequestForm object at 0x7f403c89be50>
+2025-01-18 00:44:39,797 | DEBUG | 139913879086656 | fwdi.Presentation.DefaultControllers.token_controller:<fastapi.security.oauth2.OAuth2PasswordRequestForm object at 0x7f403c89be50>
+username='admin' email='admin@admin.ru' full_name=None disabled=None hashed_password='$2b$12$Ws/iB/wExmsCLBGXG.h0Z.r1wPezjGDkksT/2fAL817B0nd2CBTgy'
+2025-01-18 00:44:39,988 | DEBUG | 139913879086656 | username='admin' email='admin@admin.ru' full_name=None disabled=None hashed_password='$2b$12$Ws/iB/wExmsCLBGXG.h0Z.r1wPezjGDkksT/2fAL817B0nd2CBTgy'
+['admin', 'upload']
+2025-01-18 00:44:39,992 | DEBUG | 139913879086656 | ['admin', 'upload']
+Create token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AYWRtaW4ucnUiLCJzY29wZXMiOlsiYWRtaW4iLCJ1cGxvYWQiXSwiZXhwIjoxNzM3NzI1MDgwfQ.tGGXlgj6Uqt3113ZhRRQ6JjfYBFplJQ6tox_-2GkA6Q
+2025-01-18 00:44:40,001 | DEBUG | 139913879086656 | Create token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AYWRtaW4ucnUiLCJzY29wZXMiOlsiYWRtaW4iLCJ1cGxvYWQiXSwiZXhwIjoxNzM3NzI1MDgwfQ.tGGXlgj6Uqt3113ZhRRQ6JjfYBFplJQ6tox_-2GkA6Q

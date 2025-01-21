@@ -1,0 +1,50 @@
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fafac73aa40>
+2025-01-19 04:54:22,480 | INFO | 140392507893312 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fafac73aa40>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f135b3bfe50>
+2025-01-19 04:56:02,144 | INFO | 139716201539136 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f135b3bfe50>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f48c2dd0d90>
+2025-01-19 04:57:55,908 | INFO | 139950492214848 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f48c2dd0d90>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fed18ec0d90>
+2025-01-19 05:13:29,965 | INFO | 140656310740544 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fed18ec0d90>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fd7837bcb20>
+2025-01-19 05:30:27,513 | INFO | 140563609282112 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fd7837bcb20>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f394b4b46a0>
+2025-01-19 05:38:54,298 | INFO | 139884061779520 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f394b4b46a0>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7ff749790610>
+2025-01-19 05:52:31,645 | INFO | 140700075157056 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7ff749790610>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f45082d0550>
+2025-01-19 05:53:04,146 | INFO | 139934475216448 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f45082d0550>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f723cbf37c0>
+2025-01-20 01:45:17,543 | INFO | 140128542520896 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f723cbf37c0>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7ff7378bcb20>
+2025-01-20 01:53:50,386 | INFO | 140699764782656 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7ff7378bcb20>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f7b666809d0>
+2025-01-20 01:56:43,301 | INFO | 140167975269952 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f7b666809d0>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f742b4b0b20>
+2025-01-20 01:58:23,407 | INFO | 140136918545984 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f742b4b0b20>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f6effeacbb0>
+2025-01-20 02:00:26,367 | INFO | 140114715997760 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f6effeacbb0>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fc0950bc8b0>
+2025-01-20 02:01:29,419 | INFO | 140465110251072 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fc0950bc8b0>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fa4339119f0>
+2025-01-20 02:03:34,068 | INFO | 140343226922560 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fa4339119f0>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f6b9bdbc670>
+2025-01-20 02:06:05,056 | INFO | 140100152325696 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f6b9bdbc670>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fd35da80790>
+2025-01-20 02:07:21,164 | INFO | 140545785591360 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fd35da80790>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f04594a87c0>
+2025-01-20 02:08:26,631 | INFO | 139656653960768 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f04594a87c0>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fa5b311ce50>
+2025-01-20 02:09:47,418 | INFO | 140349650499136 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fa5b311ce50>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f47baac4df0>
+2025-01-20 02:10:45,235 | INFO | 139946050451008 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f47baac4df0>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f576c7b4e80>
+2025-01-20 02:11:37,066 | INFO | 140013458159168 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f576c7b4e80>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fb8a77ccdc0>
+2025-01-20 02:12:19,921 | INFO | 140431059842624 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7fb8a77ccdc0>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f09b6a48f40>
+2025-01-20 02:12:54,804 | INFO | 139679695369792 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f09b6a48f40>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f8f7e879090>
+2025-01-20 02:14:56,802 | INFO | 140254279366208 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f8f7e879090>
+Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f87727b9360>
+2025-01-20 02:17:44,321 | INFO | 140219717252672 | Start new job task: <fwdi.Application.TaskManager.job_task.JobTask object at 0x7f87727b9360>

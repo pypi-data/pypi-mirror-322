@@ -1,0 +1,8 @@
+type object 'TaskHandler' has no attribute '__log__'
+2025-01-18 00:48:16,606 | ERROR | 140349520471616 | type object 'TaskHandler' has no attribute '__log__'
+ITTERATION:0
+2025-01-18 00:48:16,607 | INFO | 140349520471616 | ITTERATION:0
+TaskHandler.add_to_task() missing 1 required positional argument: 'task_manager'
+2025-01-18 01:37:57,165 | ERROR | 140044338718272 | TaskHandler.add_to_task() missing 1 required positional argument: 'task_manager'
+ITTERATION:0
+2025-01-18 01:37:57,166 | INFO | 140044338718272 | ITTERATION:0

@@ -1,0 +1,2 @@
+Code::1000:Error type:<class 'Infrastructure.Testing.test_context.TestContext'> not found in Dependency Collection and not in kwargs or default value.
+2025-01-20 19:16:21,608 | ERROR | 139956222686784 | Code::1000:Error type:<class 'Infrastructure.Testing.test_context.TestContext'> not found in Dependency Collection and not in kwargs or default value.

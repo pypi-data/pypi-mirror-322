@@ -1,0 +1,2 @@
+event :Application.Usecases.ProjectHandler.project_handler
+2024-12-28 16:18:55,733 | INFO | 140524931319360 | event :Application.Usecases.ProjectHandler.project_handler

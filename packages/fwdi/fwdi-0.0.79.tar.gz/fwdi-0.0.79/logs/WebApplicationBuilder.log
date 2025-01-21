@@ -1,0 +1,984 @@
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fcfb0539600>
+2024-12-28 16:17:49,742 | INFO | 140530013933568 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fcfb0539600>
+Build services
+2024-12-28 16:17:49,809 | INFO | 140530013933568 | Build services
+Create dependency injection Utilites
+2024-12-28 16:17:49,813 | INFO | 140530013933568 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:17:49,813 | INFO | 140530013933568 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:17:49,822 | INFO | 140530013933568 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:17:49,822 | INFO | 140530013933568 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7f505c3100>
+2024-12-28 16:26:48,775 | INFO | 140184816803840 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7f505c3100>
+Build services
+2024-12-28 16:26:48,833 | INFO | 140184816803840 | Build services
+Create dependency injection Utilites
+2024-12-28 16:26:48,835 | INFO | 140184816803840 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:26:48,836 | INFO | 140184816803840 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:26:48,843 | INFO | 140184816803840 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:26:48,843 | INFO | 140184816803840 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f22af712bc0>
+2024-12-28 16:27:59,637 | INFO | 139787055980544 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f22af712bc0>
+Build services
+2024-12-28 16:27:59,710 | INFO | 139787055980544 | Build services
+Create dependency injection Utilites
+2024-12-28 16:27:59,712 | INFO | 139787055980544 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:27:59,712 | INFO | 139787055980544 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:27:59,720 | INFO | 139787055980544 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:27:59,720 | INFO | 139787055980544 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f3ae7214550>
+2024-12-28 16:30:45,868 | INFO | 139891001966592 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f3ae7214550>
+Build services
+2024-12-28 16:30:45,923 | INFO | 139891001966592 | Build services
+Create dependency injection Utilites
+2024-12-28 16:30:45,925 | INFO | 139891001966592 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:30:45,925 | INFO | 139891001966592 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:30:45,933 | INFO | 139891001966592 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:30:45,934 | INFO | 139891001966592 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7cecd6cca0>
+2024-12-28 16:33:06,769 | INFO | 140174582358016 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7cecd6cca0>
+Build services
+2024-12-28 16:33:06,833 | INFO | 140174582358016 | Build services
+Create dependency injection Utilites
+2024-12-28 16:33:06,835 | INFO | 140174582358016 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:33:06,836 | INFO | 140174582358016 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:33:06,845 | INFO | 140174582358016 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:33:06,845 | INFO | 140174582358016 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f88cc540550>
+2024-12-28 16:35:02,033 | INFO | 140225551368192 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f88cc540550>
+Build services
+2024-12-28 16:35:02,120 | INFO | 140225551368192 | Build services
+Create dependency injection Utilites
+2024-12-28 16:35:02,121 | INFO | 140225551368192 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:35:02,122 | INFO | 140225551368192 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:35:02,130 | INFO | 140225551368192 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:35:02,130 | INFO | 140225551368192 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fca754c0550>
+2024-12-28 16:37:26,693 | INFO | 140507548651520 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fca754c0550>
+Build services
+2024-12-28 16:37:26,750 | INFO | 140507548651520 | Build services
+Create dependency injection Utilites
+2024-12-28 16:37:26,752 | INFO | 140507548651520 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:37:26,752 | INFO | 140507548651520 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:37:26,760 | INFO | 140507548651520 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:37:26,760 | INFO | 140507548651520 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f52f8d78ca0>
+2024-12-28 16:43:19,684 | INFO | 139994405814272 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f52f8d78ca0>
+Build services
+2024-12-28 16:43:19,729 | INFO | 139994405814272 | Build services
+Create dependency injection Utilites
+2024-12-28 16:43:19,730 | INFO | 139994405814272 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:43:19,731 | INFO | 139994405814272 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:43:19,739 | INFO | 139994405814272 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:43:19,739 | INFO | 139994405814272 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f79b8598ca0>
+2024-12-28 16:52:38,050 | INFO | 140160791666688 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f79b8598ca0>
+Build services
+2024-12-28 16:52:38,132 | INFO | 140160791666688 | Build services
+Create dependency injection Utilites
+2024-12-28 16:52:38,135 | INFO | 140160791666688 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:52:38,135 | INFO | 140160791666688 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:52:38,143 | INFO | 140160791666688 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:52:38,143 | INFO | 140160791666688 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fce82d18ca0>
+2024-12-28 16:53:59,478 | INFO | 140524955389952 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fce82d18ca0>
+Build services
+2024-12-28 16:53:59,530 | INFO | 140524955389952 | Build services
+Create dependency injection Utilites
+2024-12-28 16:53:59,532 | INFO | 140524955389952 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:53:59,532 | INFO | 140524955389952 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:53:59,540 | INFO | 140524955389952 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:53:59,540 | INFO | 140524955389952 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f23c0538ca0>
+2024-12-28 16:57:36,493 | INFO | 139791566692352 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f23c0538ca0>
+Build services
+2024-12-28 16:57:36,569 | INFO | 139791566692352 | Build services
+Create dependency injection Utilites
+2024-12-28 16:57:36,570 | INFO | 139791566692352 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:57:36,571 | INFO | 139791566692352 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:57:36,579 | INFO | 139791566692352 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:57:36,579 | INFO | 139791566692352 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fbd809e0ca0>
+2024-12-28 16:58:54,518 | INFO | 140451939573760 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fbd809e0ca0>
+Build services
+2024-12-28 16:58:54,584 | INFO | 140451939573760 | Build services
+Create dependency injection Utilites
+2024-12-28 16:58:54,585 | INFO | 140451939573760 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 16:58:54,586 | INFO | 140451939573760 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 16:58:54,593 | INFO | 140451939573760 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 16:58:54,593 | INFO | 140451939573760 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fd005118c70>
+2024-12-28 23:34:48,239 | INFO | 140531435589632 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fd005118c70>
+Build services
+2024-12-28 23:34:48,308 | INFO | 140531435589632 | Build services
+Create dependency injection Utilites
+2024-12-28 23:34:48,311 | INFO | 140531435589632 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 23:34:48,311 | INFO | 140531435589632 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 23:34:48,320 | INFO | 140531435589632 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 23:34:48,320 | INFO | 140531435589632 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f657ef10ca0>
+2024-12-28 23:52:29,526 | INFO | 140074022100992 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f657ef10ca0>
+Build services
+2024-12-28 23:52:29,574 | INFO | 140074022100992 | Build services
+Create dependency injection Utilites
+2024-12-28 23:52:29,582 | INFO | 140074022100992 | Create dependency injection Utilites
+Create dependency injection Presentation
+2024-12-28 23:52:29,582 | INFO | 140074022100992 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2024-12-28 23:52:29,590 | INFO | 140074022100992 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2024-12-28 23:52:29,590 | INFO | 140074022100992 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa16cd2cc70>
+2025-01-12 00:26:29,480 | INFO | 140331348402176 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa16cd2cc70>
+Build services
+2025-01-12 00:26:29,541 | INFO | 140331348402176 | Build services
+Create dependency injection Utilites
+2025-01-12 00:26:29,544 | INFO | 140331348402176 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-12 00:26:29,544 | INFO | 140331348402176 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2025-01-12 00:26:29,552 | INFO | 140331348402176 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2025-01-12 00:26:29,553 | INFO | 140331348402176 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fda08467e20>
+2025-01-14 00:44:01,355 | INFO | 140574439096320 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fda08467e20>
+Build services
+2025-01-14 00:44:01,401 | INFO | 140574439096320 | Build services
+Create dependency injection Utilites
+2025-01-14 00:44:01,407 | INFO | 140574439096320 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-14 00:44:01,407 | INFO | 140574439096320 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+2025-01-14 00:44:01,416 | INFO | 140574439096320 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'upload': 'Upload from 1C pdf document service'}
+Inititalize DB
+2025-01-14 00:44:01,416 | INFO | 140574439096320 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f4166230b80>
+2025-01-17 23:45:55,655 | INFO | 139918885105664 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f4166230b80>
+Build services
+2025-01-17 23:55:47,755 | INFO | 139918885105664 | Build services
+Create dependency injection Utilites
+2025-01-17 23:55:47,767 | INFO | 139918885105664 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-17 23:55:47,767 | INFO | 139918885105664 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-17 23:55:47,782 | INFO | 139918885105664 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-17 23:55:47,782 | INFO | 139918885105664 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa6cee90a30>
+2025-01-18 00:47:28,626 | INFO | 140354451947520 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa6cee90a30>
+Build services
+2025-01-18 00:47:28,630 | INFO | 140354451947520 | Build services
+Create dependency injection Utilites
+2025-01-18 00:47:28,633 | INFO | 140354451947520 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-18 00:47:28,634 | INFO | 140354451947520 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-18 00:47:28,642 | INFO | 140354451947520 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-18 00:47:28,642 | INFO | 140354451947520 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fbb23ac9b70>
+2025-01-18 00:49:18,690 | INFO | 140442106875904 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fbb23ac9b70>
+Build services
+2025-01-18 00:49:18,696 | INFO | 140442106875904 | Build services
+Create dependency injection Utilites
+2025-01-18 00:49:18,702 | INFO | 140442106875904 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-18 00:49:18,703 | INFO | 140442106875904 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-18 00:49:18,712 | INFO | 140442106875904 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-18 00:49:18,712 | INFO | 140442106875904 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fcf12cd0b80>
+2025-01-18 00:49:44,526 | INFO | 140527372414976 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fcf12cd0b80>
+Build services
+2025-01-18 00:49:44,530 | INFO | 140527372414976 | Build services
+Create dependency injection Utilites
+2025-01-18 00:49:44,532 | INFO | 140527372414976 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-18 00:49:44,532 | INFO | 140527372414976 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-18 00:49:44,540 | INFO | 140527372414976 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-18 00:49:44,540 | INFO | 140527372414976 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f5fc031cb80>
+2025-01-18 01:37:51,724 | INFO | 140049270366208 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f5fc031cb80>
+Build services
+2025-01-18 01:37:51,728 | INFO | 140049270366208 | Build services
+Create dependency injection Utilites
+2025-01-18 01:37:51,731 | INFO | 140049270366208 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-18 01:37:51,732 | INFO | 140049270366208 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-18 01:37:51,740 | INFO | 140049270366208 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-18 01:37:51,740 | INFO | 140049270366208 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7a2016cd90>
+2025-01-18 03:16:55,681 | INFO | 140162531565568 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7a2016cd90>
+Build services
+2025-01-18 03:16:55,685 | INFO | 140162531565568 | Build services
+Create dependency injection Utilites
+2025-01-18 03:16:55,689 | INFO | 140162531565568 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-18 03:16:55,689 | INFO | 140162531565568 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-18 03:16:55,698 | INFO | 140162531565568 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-18 03:16:55,698 | INFO | 140162531565568 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f9654264dc0>
+2025-01-18 03:46:35,200 | INFO | 140283664080896 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f9654264dc0>
+Build services
+2025-01-18 03:46:35,205 | INFO | 140283664080896 | Build services
+Create dependency injection Utilites
+2025-01-18 03:46:35,208 | INFO | 140283664080896 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-18 03:46:35,209 | INFO | 140283664080896 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-18 03:46:35,218 | INFO | 140283664080896 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-18 03:46:35,218 | INFO | 140283664080896 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fb199c55540>
+2025-01-18 03:48:11,452 | INFO | 140401204510720 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fb199c55540>
+Build services
+2025-01-18 03:48:11,456 | INFO | 140401204510720 | Build services
+Create dependency injection Utilites
+2025-01-18 03:48:11,460 | INFO | 140401204510720 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-18 03:48:11,460 | INFO | 140401204510720 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-18 03:48:11,469 | INFO | 140401204510720 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-18 03:48:11,469 | INFO | 140401204510720 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f47c3df4e50>
+2025-01-18 04:03:03,861 | INFO | 139946227527680 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f47c3df4e50>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f33e46fce50>
+2025-01-18 04:05:17,592 | INFO | 139860891865088 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f33e46fce50>
+Build services
+2025-01-18 04:07:11,892 | INFO | 139860891865088 | Build services
+Create dependency injection Utilites
+2025-01-18 04:07:11,930 | INFO | 139860891865088 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-18 04:07:11,931 | INFO | 139860891865088 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-18 04:07:11,945 | INFO | 139860891865088 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-18 04:07:11,945 | INFO | 139860891865088 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff4d5c18ee0>
+2025-01-18 04:13:25,441 | INFO | 140689574264832 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff4d5c18ee0>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f0ab8f2e2c0>
+2025-01-18 04:26:04,471 | INFO | 139684334235648 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f0ab8f2e2c0>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff8e075cee0>
+2025-01-18 04:27:24,156 | INFO | 140706916462592 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff8e075cee0>
+Build services
+2025-01-18 04:27:42,550 | INFO | 140706916462592 | Build services
+Create dependency injection Utilites
+2025-01-18 04:27:42,587 | INFO | 140706916462592 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-18 04:27:42,587 | INFO | 140706916462592 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-18 04:27:42,599 | INFO | 140706916462592 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-18 04:27:42,599 | INFO | 140706916462592 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f8df5de8ee0>
+2025-01-18 04:29:37,755 | INFO | 140247730888704 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f8df5de8ee0>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fe5327022f0>
+2025-01-18 04:35:16,915 | INFO | 140622809497600 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fe5327022f0>
+Build services
+2025-01-18 04:35:21,524 | INFO | 140622809497600 | Build services
+Create dependency injection Utilites
+2025-01-18 04:35:21,531 | INFO | 140622809497600 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-18 04:35:21,532 | INFO | 140622809497600 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-18 04:35:21,541 | INFO | 140622809497600 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-18 04:35:21,541 | INFO | 140622809497600 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f2ec2d58e50>
+2025-01-18 04:36:20,199 | INFO | 139838835929088 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f2ec2d58e50>
+Build services
+2025-01-18 04:36:20,203 | INFO | 139838835929088 | Build services
+Create dependency injection Utilites
+2025-01-18 04:36:20,205 | INFO | 139838835929088 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-18 04:36:20,205 | INFO | 139838835929088 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-18 04:36:20,213 | INFO | 139838835929088 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-18 04:36:20,213 | INFO | 139838835929088 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff1702b8e20>
+2025-01-19 03:38:20,198 | INFO | 140674985050112 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff1702b8e20>
+Build services
+2025-01-19 03:38:20,203 | INFO | 140674985050112 | Build services
+Create dependency injection Utilites
+2025-01-19 03:38:20,205 | INFO | 140674985050112 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 03:38:20,206 | INFO | 140674985050112 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 03:38:20,214 | INFO | 140674985050112 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 03:38:20,214 | INFO | 140674985050112 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fe71f08a6e0>
+2025-01-19 04:07:26,152 | INFO | 140631074193408 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fe71f08a6e0>
+Build services
+2025-01-19 04:07:26,157 | INFO | 140631074193408 | Build services
+Create dependency injection Utilites
+2025-01-19 04:07:26,160 | INFO | 140631074193408 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 04:07:26,160 | INFO | 140631074193408 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 04:07:26,168 | INFO | 140631074193408 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 04:07:26,168 | INFO | 140631074193408 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7686e2e4a0>
+2025-01-19 04:14:40,023 | INFO | 140147485110272 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7686e2e4a0>
+Build services
+2025-01-19 04:14:40,028 | INFO | 140147485110272 | Build services
+Create dependency injection Utilites
+2025-01-19 04:14:40,031 | INFO | 140147485110272 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 04:14:40,031 | INFO | 140147485110272 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 04:14:40,040 | INFO | 140147485110272 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 04:14:40,040 | INFO | 140147485110272 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fce504a8dc0>
+2025-01-19 04:27:25,754 | INFO | 140524134211584 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fce504a8dc0>
+Build services
+2025-01-19 04:27:25,759 | INFO | 140524134211584 | Build services
+Create dependency injection Utilites
+2025-01-19 04:27:25,761 | INFO | 140524134211584 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 04:27:25,762 | INFO | 140524134211584 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 04:27:25,770 | INFO | 140524134211584 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 04:27:25,770 | INFO | 140524134211584 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f09366bce80>
+2025-01-19 04:38:29,680 | INFO | 139677566398464 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f09366bce80>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7b932e2620>
+2025-01-19 04:40:29,709 | INFO | 140169166036992 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7b932e2620>
+Build services
+2025-01-19 04:40:44,443 | INFO | 140169166036992 | Build services
+Create dependency injection Utilites
+2025-01-19 04:40:44,480 | INFO | 140169166036992 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 04:40:44,481 | INFO | 140169166036992 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 04:40:44,494 | INFO | 140169166036992 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 04:40:44,495 | INFO | 140169166036992 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fb0d033ce80>
+2025-01-19 04:42:11,274 | INFO | 140397439590400 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fb0d033ce80>
+Build services
+2025-01-19 04:42:16,077 | INFO | 140397439590400 | Build services
+Create dependency injection Utilites
+2025-01-19 04:42:16,112 | INFO | 140397439590400 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 04:42:16,113 | INFO | 140397439590400 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 04:42:16,121 | INFO | 140397439590400 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 04:42:16,121 | INFO | 140397439590400 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f1359260df0>
+2025-01-19 04:55:53,471 | INFO | 139721132335104 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f1359260df0>
+Build services
+2025-01-19 04:55:53,475 | INFO | 139721132335104 | Build services
+Create dependency injection Utilites
+2025-01-19 04:55:53,478 | INFO | 139721132335104 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 04:55:53,479 | INFO | 139721132335104 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 04:55:53,487 | INFO | 139721132335104 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 04:55:53,487 | INFO | 139721132335104 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f49e7ff0d60>
+2025-01-19 04:57:53,996 | INFO | 139955423522816 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f49e7ff0d60>
+Build services
+2025-01-19 04:57:54,001 | INFO | 139955423522816 | Build services
+Create dependency injection Utilites
+2025-01-19 04:57:54,007 | INFO | 139955423522816 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 04:57:54,007 | INFO | 139955423522816 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 04:57:54,015 | INFO | 139955423522816 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 04:57:54,015 | INFO | 139955423522816 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fee3c094e20>
+2025-01-19 05:13:28,868 | INFO | 140661242253312 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fee3c094e20>
+Build services
+2025-01-19 05:13:28,873 | INFO | 140661242253312 | Build services
+Create dependency injection Utilites
+2025-01-19 05:13:28,876 | INFO | 140661242253312 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 05:13:28,877 | INFO | 140661242253312 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 05:13:28,885 | INFO | 140661242253312 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 05:13:28,885 | INFO | 140661242253312 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fd893ba6410>
+2025-01-19 05:30:24,835 | INFO | 140568540835840 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fd893ba6410>
+Build services
+2025-01-19 05:30:24,841 | INFO | 140568540835840 | Build services
+Create dependency injection Utilites
+2025-01-19 05:30:24,847 | INFO | 140568540835840 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 05:30:24,848 | INFO | 140568540835840 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 05:30:24,856 | INFO | 140568540835840 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 05:30:24,856 | INFO | 140568540835840 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f4a0b0d8eb0>
+2025-01-19 05:34:30,273 | INFO | 139956011642880 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f4a0b0d8eb0>
+Build services
+2025-01-19 05:34:30,277 | INFO | 139956011642880 | Build services
+Create dependency injection Utilites
+2025-01-19 05:34:30,281 | INFO | 139956011642880 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 05:34:30,281 | INFO | 139956011642880 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 05:34:30,289 | INFO | 139956011642880 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 05:34:30,289 | INFO | 139956011642880 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f3a6f648eb0>
+2025-01-19 05:35:41,587 | INFO | 139888992993280 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f3a6f648eb0>
+Build services
+2025-01-19 05:35:41,591 | INFO | 139888992993280 | Build services
+Create dependency injection Utilites
+2025-01-19 05:35:41,592 | INFO | 139888992993280 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 05:35:41,593 | INFO | 139888992993280 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 05:35:41,601 | INFO | 139888992993280 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 05:35:41,601 | INFO | 139888992993280 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fd9f57f8eb0>
+2025-01-19 05:43:25,607 | INFO | 140574142177280 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fd9f57f8eb0>
+Build services
+2025-01-19 05:43:25,612 | INFO | 140574142177280 | Build services
+Create dependency injection Utilites
+2025-01-19 05:43:25,615 | INFO | 140574142177280 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 05:43:25,616 | INFO | 140574142177280 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 05:43:25,624 | INFO | 140574142177280 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 05:43:25,624 | INFO | 140574142177280 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff86d9c8f40>
+2025-01-19 05:49:13,768 | INFO | 140705006362624 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff86d9c8f40>
+Build services
+2025-01-19 05:49:13,772 | INFO | 140705006362624 | Build services
+Create dependency injection Utilites
+2025-01-19 05:49:13,775 | INFO | 140705006362624 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 05:49:13,776 | INFO | 140705006362624 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 05:49:13,783 | INFO | 140705006362624 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 05:49:13,784 | INFO | 140705006362624 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f462c51cf40>
+2025-01-19 05:52:58,817 | INFO | 139939406880768 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f462c51cf40>
+Build services
+2025-01-19 05:52:58,822 | INFO | 139939406880768 | Build services
+Create dependency injection Utilites
+2025-01-19 05:52:58,825 | INFO | 139939406880768 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 05:52:58,825 | INFO | 139939406880768 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 05:52:58,833 | INFO | 139939406880768 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 05:52:58,833 | INFO | 139939406880768 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f74d072cfd0>
+2025-01-19 05:55:51,590 | INFO | 140139729321984 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f74d072cfd0>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f9241418fd0>
+2025-01-19 05:56:29,978 | INFO | 140266175537152 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f9241418fd0>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7e598e0fd0>
+2025-01-19 05:56:44,002 | INFO | 140180701237248 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7e598e0fd0>
+Build services
+2025-01-19 05:57:28,372 | INFO | 140180701237248 | Build services
+Create dependency injection Utilites
+2025-01-19 05:57:28,377 | INFO | 140180701237248 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 05:57:28,378 | INFO | 140180701237248 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 05:57:28,387 | INFO | 140180701237248 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 05:57:28,387 | INFO | 140180701237248 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f704aa81990>
+2025-01-19 05:58:47,459 | INFO | 140120702341120 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f704aa81990>
+Build services
+2025-01-19 05:58:54,156 | INFO | 140120702341120 | Build services
+Create dependency injection Utilites
+2025-01-19 05:58:54,159 | INFO | 140120702341120 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 05:58:54,159 | INFO | 140120702341120 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 05:58:54,167 | INFO | 140120702341120 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 05:58:54,168 | INFO | 140120702341120 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fe3dc180fd0>
+2025-01-19 05:59:17,221 | INFO | 140616682934272 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fe3dc180fd0>
+Build services
+2025-01-19 05:59:17,226 | INFO | 140616682934272 | Build services
+Create dependency injection Utilites
+2025-01-19 05:59:17,228 | INFO | 140616682934272 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 05:59:17,228 | INFO | 140616682934272 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 05:59:17,236 | INFO | 140616682934272 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 05:59:17,236 | INFO | 140616682934272 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7e48df8fd0>
+2025-01-19 05:59:31,998 | INFO | 140180421283840 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7e48df8fd0>
+Build services
+2025-01-19 05:59:32,001 | INFO | 140180421283840 | Build services
+Create dependency injection Utilites
+2025-01-19 05:59:32,003 | INFO | 140180421283840 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 05:59:32,003 | INFO | 140180421283840 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 05:59:32,011 | INFO | 140180421283840 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 05:59:32,012 | INFO | 140180421283840 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa5fa691060>
+2025-01-19 06:00:38,621 | INFO | 140350886289408 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa5fa691060>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f0189879060>
+2025-01-19 06:02:04,285 | INFO | 139644635205632 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f0189879060>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f8c00d908b0>
+2025-01-19 06:03:10,980 | INFO | 140239307051008 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f8c00d908b0>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f35c8615120>
+2025-01-19 06:05:14,231 | INFO | 139869019475968 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f35c8615120>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff5d7e91120>
+2025-01-19 06:07:28,588 | INFO | 140693888020480 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff5d7e91120>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f0285a59120>
+2025-01-19 06:09:11,566 | INFO | 139648830812160 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f0285a59120>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f3ff3246830>
+2025-01-19 06:11:35,219 | INFO | 139913077829632 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f3ff3246830>
+Build services
+2025-01-19 06:13:11,757 | INFO | 139913077829632 | Build services
+Create dependency injection Utilites
+2025-01-19 06:13:11,760 | INFO | 139913077829632 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 06:13:11,760 | INFO | 139913077829632 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 06:13:11,771 | INFO | 139913077829632 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 06:13:11,771 | INFO | 139913077829632 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff5d8b11060>
+2025-01-19 06:19:38,985 | INFO | 140693901127680 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff5d8b11060>
+Build services
+2025-01-19 06:19:43,109 | INFO | 140693901127680 | Build services
+Create dependency injection Utilites
+2025-01-19 06:19:43,110 | INFO | 140693901127680 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 06:19:43,111 | INFO | 140693901127680 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 06:19:43,119 | INFO | 140693901127680 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 06:19:43,119 | INFO | 140693901127680 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fb71c33cf40>
+2025-01-19 06:20:51,118 | INFO | 140424459681792 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fb71c33cf40>
+Build services
+2025-01-19 06:20:51,123 | INFO | 140424459681792 | Build services
+Create dependency injection Utilites
+2025-01-19 06:20:51,125 | INFO | 140424459681792 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-19 06:20:51,126 | INFO | 140424459681792 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-19 06:20:51,134 | INFO | 140424459681792 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-19 06:20:51,134 | INFO | 140424459681792 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f59e0ce8fd0>
+2025-01-19 06:21:48,729 | INFO | 140024039219200 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f59e0ce8fd0>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f471b13d0c0>
+2025-01-20 01:20:31,476 | INFO | 139943412441088 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f471b13d0c0>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f03eca91030>
+2025-01-20 01:20:52,680 | INFO | 139654871302144 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f03eca91030>
+Build services
+2025-01-20 01:20:52,683 | INFO | 139654871302144 | Build services
+Create dependency injection Utilites
+2025-01-20 01:20:52,696 | INFO | 139654871302144 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 01:20:52,696 | INFO | 139654871302144 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 01:20:52,710 | INFO | 139654871302144 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 01:20:52,710 | INFO | 139654871302144 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f51752610c0>
+2025-01-20 01:21:02,158 | INFO | 139987873710080 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f51752610c0>
+Build services
+2025-01-20 01:21:53,644 | INFO | 139987873710080 | Build services
+Create dependency injection Utilites
+2025-01-20 01:21:53,646 | INFO | 139987873710080 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 01:21:53,647 | INFO | 139987873710080 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 01:21:53,657 | INFO | 139987873710080 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 01:21:53,657 | INFO | 139987873710080 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7faad16c50c0>
+2025-01-20 01:23:53,578 | INFO | 140371673907200 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7faad16c50c0>
+Build services
+2025-01-20 01:27:50,570 | INFO | 140371673907200 | Build services
+Create dependency injection Utilites
+2025-01-20 01:27:50,572 | INFO | 140371673907200 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 01:27:50,573 | INFO | 140371673907200 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 01:27:50,583 | INFO | 140371673907200 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 01:27:50,583 | INFO | 140371673907200 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7faf289bd150>
+2025-01-20 01:33:28,647 | INFO | 140390316572672 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7faf289bd150>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fc895bcd0c0>
+2025-01-20 01:34:11,463 | INFO | 140499521568768 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fc895bcd0c0>
+Build services
+2025-01-20 01:34:11,467 | INFO | 140499521568768 | Build services
+Create dependency injection Utilites
+2025-01-20 01:34:11,502 | INFO | 140499521568768 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 01:34:11,503 | INFO | 140499521568768 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 01:34:11,512 | INFO | 140499521568768 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 01:34:11,512 | INFO | 140499521568768 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f73757990c0>
+2025-01-20 01:35:53,888 | INFO | 140133908070400 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f73757990c0>
+Build services
+2025-01-20 01:35:53,893 | INFO | 140133908070400 | Build services
+Create dependency injection Utilites
+2025-01-20 01:35:53,894 | INFO | 140133908070400 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 01:35:53,895 | INFO | 140133908070400 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 01:35:53,903 | INFO | 140133908070400 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 01:35:53,903 | INFO | 140133908070400 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f73581c4190>
+2025-01-20 01:39:22,153 | INFO | 140133544165376 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f73581c4190>
+Build services
+2025-01-20 01:40:12,174 | INFO | 140133544165376 | Build services
+Create dependency injection Utilites
+2025-01-20 01:40:12,176 | INFO | 140133544165376 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 01:40:12,177 | INFO | 140133544165376 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 01:40:12,187 | INFO | 140133544165376 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 01:40:12,187 | INFO | 140133544165376 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fce86f31030>
+2025-01-20 01:49:41,040 | INFO | 140525127553024 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fce86f31030>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff85aad1030>
+2025-01-20 01:53:44,033 | INFO | 140704689111040 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7ff85aad1030>
+Build services
+2025-01-20 01:53:47,538 | INFO | 140704689111040 | Build services
+Create dependency injection Utilites
+2025-01-20 01:53:47,545 | INFO | 140704689111040 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 01:53:47,545 | INFO | 140704689111040 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 01:53:47,554 | INFO | 140704689111040 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 01:53:47,554 | INFO | 140704689111040 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7c887f0f10>
+2025-01-20 01:56:40,422 | INFO | 140172898766848 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7c887f0f10>
+Build services
+2025-01-20 01:56:40,425 | INFO | 140172898766848 | Build services
+Create dependency injection Utilites
+2025-01-20 01:56:40,427 | INFO | 140172898766848 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 01:56:40,427 | INFO | 140172898766848 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 01:56:40,435 | INFO | 140172898766848 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 01:56:40,435 | INFO | 140172898766848 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f754d64cf10>
+2025-01-20 01:58:20,374 | INFO | 140141842419712 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f754d64cf10>
+Build services
+2025-01-20 01:58:20,377 | INFO | 140141842419712 | Build services
+Create dependency injection Utilites
+2025-01-20 01:58:20,378 | INFO | 140141842419712 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 01:58:20,378 | INFO | 140141842419712 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 01:58:20,386 | INFO | 140141842419712 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 01:58:20,386 | INFO | 140141842419712 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7022068f10>
+2025-01-20 02:00:14,997 | INFO | 140119640068096 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7022068f10>
+Build services
+2025-01-20 02:00:15,000 | INFO | 140119640068096 | Build services
+Create dependency injection Utilites
+2025-01-20 02:00:15,002 | INFO | 140119640068096 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:00:15,002 | INFO | 140119640068096 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:00:15,010 | INFO | 140119640068096 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:00:15,010 | INFO | 140119640068096 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fc1b8224f10>
+2025-01-20 02:01:28,225 | INFO | 140470033944576 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fc1b8224f10>
+Build services
+2025-01-20 02:01:28,228 | INFO | 140470033944576 | Build services
+Create dependency injection Utilites
+2025-01-20 02:01:28,230 | INFO | 140470033944576 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:01:28,230 | INFO | 140470033944576 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:01:28,238 | INFO | 140470033944576 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:01:28,238 | INFO | 140470033944576 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa43438e350>
+2025-01-20 02:03:23,860 | INFO | 140348147437568 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa43438e350>
+Build services
+2025-01-20 02:03:23,865 | INFO | 140348147437568 | Build services
+Create dependency injection Utilites
+2025-01-20 02:03:23,866 | INFO | 140348147437568 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:03:23,867 | INFO | 140348147437568 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:03:23,876 | INFO | 140348147437568 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:03:23,876 | INFO | 140348147437568 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f2848498d30>
+2025-01-20 02:05:47,753 | INFO | 139811018661888 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f2848498d30>
+Build services
+2025-01-20 02:05:47,756 | INFO | 139811018661888 | Build services
+Create dependency injection Utilites
+2025-01-20 02:05:47,758 | INFO | 139811018661888 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:05:47,758 | INFO | 139811018661888 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:05:47,766 | INFO | 139811018661888 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:05:47,766 | INFO | 139811018661888 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f6cbdfd0ca0>
+2025-01-20 02:06:03,881 | INFO | 140105076318208 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f6cbdfd0ca0>
+Build services
+2025-01-20 02:06:03,884 | INFO | 140105076318208 | Build services
+Create dependency injection Utilites
+2025-01-20 02:06:03,885 | INFO | 140105076318208 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:06:03,886 | INFO | 140105076318208 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:06:03,894 | INFO | 140105076318208 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:06:03,894 | INFO | 140105076318208 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fd480450c10>
+2025-01-20 02:07:19,154 | INFO | 140550709547008 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fd480450c10>
+Build services
+2025-01-20 02:07:19,156 | INFO | 140550709547008 | Build services
+Create dependency injection Utilites
+2025-01-20 02:07:19,158 | INFO | 140550709547008 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:07:19,158 | INFO | 140550709547008 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:07:19,166 | INFO | 140550709547008 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:07:19,166 | INFO | 140550709547008 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f057c6c4ac0>
+2025-01-20 02:08:25,323 | INFO | 139661578240000 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f057c6c4ac0>
+Build services
+2025-01-20 02:08:25,326 | INFO | 139661578240000 | Build services
+Create dependency injection Utilites
+2025-01-20 02:08:25,327 | INFO | 139661578240000 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:08:25,327 | INFO | 139661578240000 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:08:25,335 | INFO | 139661578240000 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:08:25,335 | INFO | 139661578240000 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa6d4954970>
+2025-01-20 02:09:44,228 | INFO | 140354574553088 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa6d4954970>
+Build services
+2025-01-20 02:09:44,231 | INFO | 140354574553088 | Build services
+Create dependency injection Utilites
+2025-01-20 02:09:44,232 | INFO | 140354574553088 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:09:44,233 | INFO | 140354574553088 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:09:44,241 | INFO | 140354574553088 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:09:44,241 | INFO | 140354574553088 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f48dec68a30>
+2025-01-20 02:10:38,116 | INFO | 139950973890560 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f48dec68a30>
+Build services
+2025-01-20 02:10:38,119 | INFO | 139950973890560 | Build services
+Create dependency injection Utilites
+2025-01-20 02:10:38,121 | INFO | 139950973890560 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:10:38,121 | INFO | 139950973890560 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:10:38,129 | INFO | 139950973890560 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:10:38,130 | INFO | 139950973890560 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f5890944ac0>
+2025-01-20 02:11:29,774 | INFO | 140018381516800 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f5890944ac0>
+Build services
+2025-01-20 02:11:29,777 | INFO | 140018381516800 | Build services
+Create dependency injection Utilites
+2025-01-20 02:11:29,779 | INFO | 140018381516800 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:11:29,779 | INFO | 140018381516800 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:11:29,787 | INFO | 140018381516800 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:11:29,787 | INFO | 140018381516800 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fb9cba08a30>
+2025-01-20 02:12:15,190 | INFO | 140435984003072 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fb9cba08a30>
+Build services
+2025-01-20 02:12:15,193 | INFO | 140435984003072 | Build services
+Create dependency injection Utilites
+2025-01-20 02:12:15,195 | INFO | 140435984003072 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:12:15,195 | INFO | 140435984003072 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:12:15,203 | INFO | 140435984003072 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:12:15,203 | INFO | 140435984003072 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f0ad8bf8ac0>
+2025-01-20 02:12:53,941 | INFO | 139684618866688 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f0ad8bf8ac0>
+Build services
+2025-01-20 02:12:53,944 | INFO | 139684618866688 | Build services
+Create dependency injection Utilites
+2025-01-20 02:12:53,945 | INFO | 139684618866688 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:12:53,946 | INFO | 139684618866688 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:12:53,954 | INFO | 139684618866688 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:12:53,954 | INFO | 139684618866688 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f90a2a8ca00>
+2025-01-20 02:14:54,193 | INFO | 140259203018752 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f90a2a8ca00>
+Build services
+2025-01-20 02:14:54,197 | INFO | 140259203018752 | Build services
+Create dependency injection Utilites
+2025-01-20 02:14:54,198 | INFO | 140259203018752 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:14:54,199 | INFO | 140259203018752 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:14:54,207 | INFO | 140259203018752 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:14:54,208 | INFO | 140259203018752 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f8894940ac0>
+2025-01-20 02:17:40,661 | INFO | 140224641191936 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f8894940ac0>
+Build services
+2025-01-20 02:17:40,664 | INFO | 140224641191936 | Build services
+Create dependency injection Utilites
+2025-01-20 02:17:40,666 | INFO | 140224641191936 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 02:17:40,666 | INFO | 140224641191936 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 02:17:40,674 | INFO | 140224641191936 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 02:17:40,674 | INFO | 140224641191936 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fdffaece260>
+2025-01-20 17:40:56,083 | INFO | 140600403460096 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fdffaece260>
+Build services
+2025-01-20 17:40:56,087 | INFO | 140600403460096 | Build services
+Create dependency injection Utilites
+2025-01-20 17:40:56,090 | INFO | 140600403460096 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 17:40:56,090 | INFO | 140600403460096 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 17:40:56,099 | INFO | 140600403460096 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 17:40:56,099 | INFO | 140600403460096 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa59175cb80>
+2025-01-20 17:44:22,837 | INFO | 140349151285248 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fa59175cb80>
+Build services
+2025-01-20 17:44:22,840 | INFO | 140349151285248 | Build services
+Create dependency injection Utilites
+2025-01-20 17:44:22,843 | INFO | 140349151285248 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 17:44:22,843 | INFO | 140349151285248 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 17:44:22,851 | INFO | 140349151285248 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 17:44:22,851 | INFO | 140349151285248 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f4b3c144b80>
+2025-01-20 19:14:32,138 | INFO | 139961146593280 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f4b3c144b80>
+Build services
+2025-01-20 19:14:32,143 | INFO | 139961146593280 | Build services
+Create dependency injection Utilites
+2025-01-20 19:14:32,146 | INFO | 139961146593280 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 19:14:32,146 | INFO | 139961146593280 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 19:14:32,155 | INFO | 139961146593280 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 19:14:32,155 | INFO | 139961146593280 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f9ac046d420>
+2025-01-20 19:17:35,282 | INFO | 140302648184832 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f9ac046d420>
+Build services
+2025-01-20 19:17:35,286 | INFO | 140302648184832 | Build services
+Create dependency injection Utilites
+2025-01-20 19:17:35,291 | INFO | 140302648184832 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-20 19:17:35,291 | INFO | 140302648184832 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-20 19:17:35,299 | INFO | 140302648184832 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-20 19:17:35,300 | INFO | 140302648184832 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f2d015855a0>
+2025-01-21 00:25:49,251 | INFO | 139831574958080 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f2d015855a0>
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7c9039d570>
+2025-01-21 00:27:35,260 | INFO | 140173063331840 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7f7c9039d570>
+Build services
+2025-01-21 00:27:35,265 | INFO | 140173063331840 | Build services
+Create dependency injection Utilites
+2025-01-21 00:27:35,270 | INFO | 140173063331840 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-21 00:27:35,270 | INFO | 140173063331840 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-21 00:27:35,279 | INFO | 140173063331840 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-21 00:27:35,280 | INFO | 140173063331840 | Inititalize DB
+fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fc29a2309d0>
+2025-01-21 00:35:52,274 | INFO | 140473842016256 | fwdi.WebApp.web_application_builder:<fwdi.WebApp.web_application.WebApplication object at 0x7fc29a2309d0>
+Build services
+2025-01-21 00:35:52,278 | INFO | 140473842016256 | Build services
+Create dependency injection Utilites
+2025-01-21 00:35:52,282 | INFO | 140473842016256 | Create dependency injection Utilites
+Create dependency injection Presentation
+2025-01-21 00:35:52,283 | INFO | 140473842016256 | Create dependency injection Presentation
+Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+2025-01-21 00:35:52,290 | INFO | 140473842016256 | Inititalize OAuth2PasswordBearer: scope:{'admin': 'Administration access.', 'rerank': 'Rerank access'}
+Inititalize DB
+2025-01-21 00:35:52,291 | INFO | 140473842016256 | Inititalize DB
