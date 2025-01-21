@@ -1,0 +1,14 @@
+jax
+distrax
+optax
+flax
+numpy
+pygame
+gymnax
+chex
+matplotlib
+imageio
+
+[dev]
+black
+pre-commit
