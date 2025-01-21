@@ -1,0 +1,28 @@
+# vmlab_mask
+
+pypi link : [vmlab_mask](https://pypi.org/project/vmlab-mask/)
+
+## Requirements
+
+```bash
+pip install maturin
+```
+
+## Build the python package
+
+```bash
+maturin build --release
+```
+
+## Test in locally
+
+```
+pip install target/wheels/{GENERATED_WHEELS_NAME}.whl
+```
+
+## Publish to PyPI
+
+```
+maturin publish
+```
+
