@@ -1,0 +1,15 @@
+django_tbank_kassa/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+django_tbank_kassa/admin.py,sha256=XJoA-fl4gC8QeMR9Eupza1Fv9vjKJ_uk3dANPqeLasM,411
+django_tbank_kassa/apps.py,sha256=XrZto7u5hGj7HiRRun9IwzAFAKvDj5Hqez3_AtWCt5Q,368
+django_tbank_kassa/checks.py,sha256=Z_32aXsxUwR0vu7UW620sqpx1fZOnChTyZTg2bOWySc,1191
+django_tbank_kassa/generics.py,sha256=R6a0ArizpZqqYAt_u3Oce_7vAeSrZi6LLnfpK7re0eA,974
+django_tbank_kassa/migrations/0001_initial.py,sha256=0sXPB602pBBCap9NI9VcIOXiqLVLV_CHERYu4-VZwxQ,1730
+django_tbank_kassa/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_tbank_kassa/mixins.py,sha256=0wDx8-v8fpVjjYG1GLKsL0ziqCHtE3aQROYzL9QhYmQ,1124
+django_tbank_kassa/models.py,sha256=Yvb-wn9rCUKdRqlI4wRG5CMWEMX3gMsrnPeukgHfNuQ,1728
+django_tbank_kassa/serializers.py,sha256=QpwhFNfgvz-Akg89NyRgPY1n8lTgI5-HBgCTvRhZjQg,503
+django_tbank_kassa/services.py,sha256=DCKcwxaLi1yGGtqDbgWqaCXCBSfzAa5lmqmM0CgNaCk,825
+django_tbank_kassa/settings.py,sha256=tuG3UzDHhswl3UqrLzjNaLBERLssnznxg4FlQilXfmw,258
+django_tbank_kassa-0.1.0.dist-info/METADATA,sha256=QEx7YwZYqi2L63gIwb33sRvng1nQj9ZlWZb5BWhy4so,3690
+django_tbank_kassa-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+django_tbank_kassa-0.1.0.dist-info/RECORD,,
