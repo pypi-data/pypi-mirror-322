@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: uvrepotemplate
+Version: 0.1.6
+Summary: Add your description here
+Author-email: David Brownell <github@davidbrownell.com>
+License-File: LICENSE
+Requires-Python: >=3.9
