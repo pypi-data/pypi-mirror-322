@@ -1,0 +1,12 @@
+synthgen/__init__.py,sha256=gzSjFhvBaWVyq4_th6kbkStV9_mDzJjl-iwObHwx_qg,209
+synthgen/core.py,sha256=bSJafS6ej9-7UST-_vRBjpiKwOl-bzFx7Mp96wZEwOk,4507
+synthgen/tabular.py,sha256=M1ZXCImp0TtBdy7Z4TyAG5zpwYqqxITjERpku5XQunk,4837
+synthgen/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=rMy6sqJaeYnGnkTCsiCKY-XJUrGhcT-lvFMBN5-6skQ,4456
+tests/test_tabular.py,sha256=1ZUWyHNB1tRmp_ibm-AubpDemOsGA5x4nimQkrE4r6E,4413
+synthro-0.1.0.dist-info/LICENSE.md,sha256=_F2xIaTFQppLZVXxz8S5BIu89Cvw1gXkp_g_p0pWqyI,1100
+synthro-0.1.0.dist-info/METADATA,sha256=eE9B9nA2LLXFXC98rEupXg-fJhDzpi78Xl93HahYtNE,4729
+synthro-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+synthro-0.1.0.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+synthro-0.1.0.dist-info/RECORD,,
