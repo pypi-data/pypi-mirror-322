@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: convoys2
+Version: 0.3.0
+Summary: Implementation of statistical models to analyze time lagged conversions
+Author-email: Erik Bernhardsson <erikbern@better.com>, Ted Conbeer <tconbeer@users.noreply.github.com>
+License-File: LICENSE
+Requires-Python: <3.14,>=3.12
+Requires-Dist: autograd-gamma>=0.2.0
+Requires-Dist: autograd>=1.7.0
+Requires-Dist: emcee>=3.0.0
+Requires-Dist: matplotlib>=2.0.0
+Requires-Dist: numpy<3,>=2.0.0
+Requires-Dist: pandas>=0.24.0
+Requires-Dist: progressbar2>=3.46.1
+Requires-Dist: scipy<2,>=1.15.0
+Description-Content-Type: text/markdown
+
+Convoys2
+=======
+
+![pic](docs/images/dob-violations-combined.png)
+
+Convoys is a simple library that fits a few statistical model useful for modeling time-lagged conversions.
+There is a lot more info if you head over to the  [documentation](https://better.engineering/convoys/).
+You can also take a look at [this blog post](https://better.engineering/2019/07/29/modeling-conversion-rates-and-saving-millions-of-dollars-using-kaplan-meier-and-gamma-distributions/) about Convoys.
+
+Installation
+------------
+
+You can install from PyPI using any compatible tool (pip, uv, poetry, etc.):
+
+```bash
+pip install convoys2
+```
+
+You can then import the package using the name `convoys`:
+
+```py
+import convoys
+```
+
+More info
+---------
+
+Convoys was built by [Erik Bernhardsson](https://github.com/erikbern) and has the MIT license. The original repo lives [here](https://github.com/better/convoys).
+
+In 2025, it was updated for breaking changes caused by Numpy 2.0 and other dependencies by [Ted Conbeer](https://tedconbeer.com).
