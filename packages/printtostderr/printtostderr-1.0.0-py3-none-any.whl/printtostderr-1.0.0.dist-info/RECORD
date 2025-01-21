@@ -1,0 +1,11 @@
+printtostderr/__init__.py,sha256=0y2s5cvKeaQc16M9cNBkuZKmNyxmer_zpr-ugly86uc,106
+printtostderr/__main__.py,sha256=6G1Dyv-N-17IAIcKx1GqUC6f8UJByfMTgUakc98FGPA,70
+printtostderr/core/__init__.py,sha256=2DsqNupX43MfhpwsH2fNx20jgG1RHSsQsx_en7jPNG8,641
+printtostderr/tests/__init__.py,sha256=-3z7VLOt2LyPwSfGers2RUSxEqVtFYdJT5fP2jKATXA,301
+printtostderr/tests/test_0.py,sha256=RH9TLk2EC6E-1TCksMRHvUS1QFVrBNYLYtgzbCwsqVs,1384
+printtostderr/tests/test_1.py,sha256=wTQVSDvgOvUobNtVjp4-AjIlJ1dCtJ9r3hqNpZ89-jA,1087
+printtostderr-1.0.0.dist-info/LICENSE.txt,sha256=fOh9FHccUt9OcJPBaVJ482GX4yrl_FxCUk9YRZ53JOI,1074
+printtostderr-1.0.0.dist-info/METADATA,sha256=k38tfYrb-AsU3o59yd5-97aSPiTo27s5gjjwvtTC2u4,2779
+printtostderr-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+printtostderr-1.0.0.dist-info/top_level.txt,sha256=Iro1O_SJsd-IDEt96oPEhZ9tV00iFp1iuDmOBsCfOno,14
+printtostderr-1.0.0.dist-info/RECORD,,
