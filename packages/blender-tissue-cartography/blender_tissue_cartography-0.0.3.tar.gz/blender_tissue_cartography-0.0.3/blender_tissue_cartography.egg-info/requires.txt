@@ -1,0 +1,16 @@
+matplotlib
+numpy
+scipy
+scikit-image
+tifffile
+h5py
+jupyter
+tqdm
+libigl
+
+[dev]
+nbdev
+pymeshlab
+trimesh
+quaternionic
+spherical
