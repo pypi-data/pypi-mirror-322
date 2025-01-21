@@ -1,0 +1,12 @@
+opensubmarine/__init__.py,sha256=qn0xlB55stuhkmmpfQ07hF8xKlqg01AsHPfbiN88x90,343
+opensubmarine/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opensubmarine/contracts/__init__.py,sha256=g5jfzs9-SGbshwcwIfteUIrjm-VLEestZ1KBZ2Cprxg,21
+opensubmarine/contracts/access/__init__.py,sha256=g5jfzs9-SGbshwcwIfteUIrjm-VLEestZ1KBZ2Cprxg,21
+opensubmarine/contracts/access/Ownable/__init__.py,sha256=ESEoVKE0TrZdTV2LUBFcg--og3zShyT_OlsFri2kyj8,149
+opensubmarine/contracts/access/Ownable/contract.py,sha256=UEJjqxBXfm_i7C7HBeCqpjPrXc4Mx4mONttpqw45Ch4,1107
+opensubmarine/contracts/access/Ownable/ownable.pyi,sha256=iBsZxTpHSNumnUofvsD3pi1NEGWOTyVCX9r2vqTM3A0,193
+opensubmarine-0.1.5.dist-info/LICENSE,sha256=j8E3meSRmJc-HRDG31c-6qcz8tk40G6WYqxJbWA01hE,1065
+opensubmarine-0.1.5.dist-info/METADATA,sha256=tp43mMxLkDDpvng0b8OghT5YJX4qXNxtX3ZDC2mOUgk,2554
+opensubmarine-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+opensubmarine-0.1.5.dist-info/top_level.txt,sha256=wsGSzwOP_m4zFCqQgKyXZclc_Ud_NBNxO0oKfVnfqhA,14
+opensubmarine-0.1.5.dist-info/RECORD,,
