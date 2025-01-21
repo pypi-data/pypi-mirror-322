@@ -1,0 +1,9 @@
+det_cli/__init__.py,sha256=5PkgemFLYPmArwUvNTN-kjf_NNrN7L1ATHN7j52ODxk,86
+det_cli/__main__.py,sha256=vxqHjua1fkxmaipOm7lcCWW8BfI5EoaSrSPoI7tWjrs,207
+det_cli/protocol_handler.py,sha256=mHlKRFD8c6qvzuJzwdzQ3wqiW6ixOJTDY6zJMcINPk4,2514
+det_cli/register.py,sha256=DQsvkPTBigZW5G-LVs2NYzZiwgK8FGmPzQVTVyD_SCg,2605
+det_cli-0.1.0.dist-info/METADATA,sha256=H7IAzyrFlUEO30S-DFbCmgzIrAJAMvgdlqbmIdQdYe8,495
+det_cli-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+det_cli-0.1.0.dist-info/entry_points.txt,sha256=ac6kQ--XrMo3E5vo9X_7P3Jmaw8E8XfKX9uTTd9hTuE,123
+det_cli-0.1.0.dist-info/top_level.txt,sha256=785hD_90Z4HJou86ePqWW4q4VYLDh4lAlQYa3srx8ds,8
+det_cli-0.1.0.dist-info/RECORD,,
