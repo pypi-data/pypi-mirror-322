@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+synthro.egg-info/PKG-INFO
+synthro.egg-info/SOURCES.txt
+synthro.egg-info/dependency_links.txt
+synthro.egg-info/requires.txt
+synthro.egg-info/top_level.txt
+tests/__init__.py
+tests/test_core.py
+tests/test_tabular.py
