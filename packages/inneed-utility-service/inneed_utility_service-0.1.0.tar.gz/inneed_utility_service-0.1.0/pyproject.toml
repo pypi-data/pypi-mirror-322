@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inneed-utility-service"
+version = "0.1.0"
+description = "A utility service for FastAPI with enums and FastAPI-related helpers."
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { file = "LICENSE" }
+authors = [
+    { name = "A K M Muhibullah Nayem", email = "muhibullah@inneed.cloud" }
+]
+maintainers = [
+    { name = "A K M Muhibullah Nayem", email = "muhibullah@inneed.cloud" }
+]
+keywords = ["fastapi", "utilities", "enums", "responses"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Framework :: FastAPI"
+]
+requires-python = ">=3.7"
+dependencies = [
+    "fastapi",
+    "uvicorn"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "httpx"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["services*"]  # Includes the `services` folder and its submodules
+
+[tool.check-manifest]
+ignore = ["*.md"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--strict-markers"
+testpaths = [
+    "tests",
+]
+
+[tool.flake8]
+max-line-length = 100
+exclude = ["dist", "build", "__pycache__"]
+
+[tool.mypy]
+strict = true
+files = "services"
