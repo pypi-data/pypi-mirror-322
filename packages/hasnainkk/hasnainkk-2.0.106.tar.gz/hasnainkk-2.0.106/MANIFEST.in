@@ -1,0 +1,13 @@
+# Include files
+include README.md COPYING COPYING.lesser NOTICE requirements.txt
+recursive-include compiler *.py *.tl *.tsv *.txt
+recursive-include tests *.py
+
+# Exclude files
+exclude hasnainkk/raw/all.py
+
+# Prune directories
+prune hasnainkk/errors/exceptions
+prune hasnainkk/raw/functions
+prune hasnainkk/raw/types
+prune hasnainkk/raw/base
