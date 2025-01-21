@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: mantle-client
+Version: 0.1.6
+Summary: Private insights from research data - Client
+Author-email: SBV <secret@example.com>
+License-File: LICENSE
+Requires-Python: >=3.12
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: pyjwt>=2.10.0
+Requires-Dist: requests>=2.32.0
+Description-Content-Type: text/markdown
+
+# Mantle Client
+
+A Python client for interacting with the Mantle API.
+
+## Installation
+
+```bash
+pip install mantle-client
+```
+
+## Usage
+
+```python
+from mantle_client import Client
+
+# Initialize client
+client = Client("http://your-mantle-server.com")
+
+# Register a new user
+client.register("user@example.com", "password123")
+
+# Login
+client.login("user@example.com", "password123")
+
+# Get current user
+user = client.get_current_user()
+print(user)
+```
