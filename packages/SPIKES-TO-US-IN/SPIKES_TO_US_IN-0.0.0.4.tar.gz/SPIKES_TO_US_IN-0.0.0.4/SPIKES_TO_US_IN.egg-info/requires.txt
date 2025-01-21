@@ -1,0 +1,9 @@
+numpy
+ipykernel==6.20.1
+open3d==0.16.0
+scipy==1.10.0
+torch==1.12.1
+torchaudio==0.12.1
+torchvision==0.13.1
+tqdm==4.64.1
+pytorch-lightning==1.1.7
