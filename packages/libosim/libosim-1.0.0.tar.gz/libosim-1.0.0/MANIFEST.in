@@ -1,0 +1,9 @@
+include README.md LICENSE pybind11/LICENSE
+include libosim/__init__.py
+include libosim/AEC_libosim.py
+include libosim/agents.py
+include libosim/libosim_v0.py
+graft pybind11/include
+graft pybind11/tools
+graft src
+global-include CMakeLists.txt *.cmake
