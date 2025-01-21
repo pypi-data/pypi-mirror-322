@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "starco-fastbot"
+version = "1.0.8"
+description = "Starco fast bots package"
+authors = [{ name = "Mojtaba Tahmasbi", email = "m.tahmasbi0111@yahoo.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "starco-utility",
+    'python-telegram-bot==13.14',
+    'Telethon==1.33.1',
+    'phonenumbers',
+    'pycountry',
+    'python-socks==2.4.3',
+    'nest-asyncio==1.5.8',
+
+]
+
+
+[tool.setuptools.packages.find]
+include = ["bots*"]
