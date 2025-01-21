@@ -1,0 +1,42 @@
+[
+    {
+        "group_names": [
+            "5mm",
+            "12mm",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "group_dirs": [
+            "",
+            "/Users/mahan/sciebo/PythonCode/gaita_repo/example data/12mm/Results/",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "results_dir": "/Users/mahan/sciebo/Research/AutoGaitA/Mouse/example_data_results2/",
+        "load_dir": "/Users/mahan/sciebo/Research/AutoGaitA/Mouse/example_data_results/"
+    },
+    {
+        "do_permtest": true,
+        "do_anova": true,
+        "anova_design": "RM ANOVA",
+        "permutation_number": "10",
+        "stats_threshold": "0.05",
+        "which_leg": "right",
+        "PCA_n_components": "3",
+        "PCA_custom_scatter_PCs": "",
+        "PCA_save_3D_video": false,
+        "PCA_bins": "",
+        "plot_SE": false,
+        "color_palette": "Set2",
+        "dont_show_plots": false,
+        "legend_outside": true,
+        "stats_variables": [
+            "Ankle Angle"
+        ],
+        "PCA_variables": []
+    }
+]
