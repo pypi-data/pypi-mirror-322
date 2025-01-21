@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/contracts/__init__.py
+src/contracts/access/__init__.py
+src/contracts/access/Ownable/__init__.py
+src/contracts/access/Ownable/contract.py
+src/opensubmarine.egg-info/PKG-INFO
+src/opensubmarine.egg-info/SOURCES.txt
+src/opensubmarine.egg-info/dependency_links.txt
+src/opensubmarine.egg-info/requires.txt
+src/opensubmarine.egg-info/top_level.txt
