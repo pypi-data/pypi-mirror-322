@@ -1,0 +1,16 @@
+i2dgraph/__init__.py,sha256=E4XjbsN9asxUGpm4D-aepqVfASEeEktoO9PGSX8cxNM,2268
+i2dgraph/_imports_.py,sha256=8ftzj_itIa9Ul2-X66cci9BEdUA9Hcwhdl2w7jNZx0Q,277
+i2dgraph/async-interactive_2d_graph.js,sha256=UO-EtKJZgtaWTANz7TZOc7S0BWIPQpra-qIMAEwrumE,556
+i2dgraph/async-interactive_2d_graph.js.map,sha256=pwbxgl9LZH0F6gRMwWcda1X86L_X5i1vRHvzIXnKWnM,2447
+i2dgraph/i2dgraph.min.js,sha256=4zR-u2niIh_jMC5txSsiKngD0CoZeA8jI-BB3xW83yw,78252
+i2dgraph/i2dgraph.min.js.map,sha256=C_b8AsUYVU1zRJCic-2gqdulwbXKHL67g2JP1b2EeoQ,318270
+i2dgraph/interactive_2d_graph_smooth.py,sha256=5Ky7Cgq8usBEAB6TBuwQHkmpMg9k_0T5cmics1B2TOM,2474
+i2dgraph/interactive_bar_chart.py,sha256=Q9KPmJXljpf27LfMdejLwzqjNtqThcFWF-MKDGoeqog,2268
+i2dgraph/interactive_graph.py,sha256=E9M0H803YDwNp9uYqW4yhMJp94wZ00Jri702-iQGFUw,2439
+i2dgraph/metadata.json,sha256=YeCqbbATbNjO6Wpw2QjjvEy5iECaDrS8V2Udwr5P0Y8,5737
+i2dgraph/package-info.json,sha256=nwmGcYIkxgTNuf9nv9surVO_x3tgOOQpLvBZ9HfQ264,1777
+i2dgraph-0.0.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i2dgraph-0.0.4.dist-info/METADATA,sha256=IoKAb_NdAptsTvmoLX1ohXh27u7DA60YF1HWOPQ-rEw,4072
+i2dgraph-0.0.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+i2dgraph-0.0.4.dist-info/top_level.txt,sha256=AHdLccRhTSOztJ-IDxLqPp-C5njXjKKJIZKQpvD3KQg,9
+i2dgraph-0.0.4.dist-info/RECORD,,

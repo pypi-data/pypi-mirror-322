@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunki2dgraph=self.webpackChunki2dgraph||[]).push([[586],{30:(e,n,t)=>{t.r(n),t.d(n,{default:()=>i});var a=t(609),r=t.n(a),u=t(120),l=t.n(u),s=function(e){var n=e.id,t=e.label,a=e.setProps,u=e.value;return r().createElement("div",{id:n},"ExampleComponent: ",t," ",r().createElement("input",{value:u,onChange:function(e){a({value:e.target.value})}}))};s.defaultProps={},s.propTypes={id:l().string,label:l().string.isRequired,value:l().string,setProps:l().func};const i=s}}]);
+//# sourceMappingURL=async-interactive_2d_graph.js.map
