@@ -1,0 +1,13 @@
+pyPeruStats/__init__.py,sha256=28baqUCafrVYTxfMvDZYCgKPbpT3KQfu2U0vU5y_H38,120
+pyPeruStats/BCRP/__init__.py,sha256=Vi1se1embp0ZhHwTF-62kekGtDL7a5dwAUabWX8QltQ,38
+pyPeruStats/BCRP/fetcher.py,sha256=i525lDp7UfmQwCuud029I3GnpYm7PtMO9gwzQQnjW1A,10694
+pyPeruStats/INEI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyPeruStats/INEI/old.py,sha256=x8U5flFr9s62KaxxBouT6-tGKPoHC-4c1az1BpR2mtc,6509
+pyPeruStats/INEI/process/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyPeruStats/INEI/process/microdatos.py,sha256=RxJPEghd-ylKFexdoQU319hgOY2mSnileNOMIFF9ETM,1814
+pyPeruStats/INEI/utils.py,sha256=SVKi3H-s5gwFYmUwnOgIofiGwIFdNbypLxKXA88q08c,2932
+pyPeruStats/utils.py,sha256=F3rRqiTBp4HeNEjaf5eP4_KJTf11bF1ZeBnwbUtCwUE,2186
+pyperustats-0.1.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+pyperustats-0.1.2.dist-info/METADATA,sha256=I7NUkk68OXn20TF1qKIYSfenS8vi601VnzxjOjaohjk,7022
+pyperustats-0.1.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pyperustats-0.1.2.dist-info/RECORD,,
