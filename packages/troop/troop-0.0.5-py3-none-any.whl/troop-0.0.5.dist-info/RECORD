@@ -1,0 +1,14 @@
+troop/__init__.py,sha256=jyGFqRY5tAWXyU-41YHdSGJirHtrtiZTweuy4HTavq4,151
+troop/core.py,sha256=Pl4gAtWlREqUsWsLLibLNLJplfdmrbkRYS_lbVoxpGw,7954
+troop/tools.py,sha256=9Ll73x1wK0Lxxjr_lBEQN96Yf15CUht018cseinw6f0,4452
+troop/types.py,sha256=fxWuQJKwoZ7KhgpDFVXeriqEzwNgsmvbGupOZllv4Us,2445
+troop/util.py,sha256=tqm8Mtn0cq6UV0v15eLPHqltjwLH4GTQ7UUWnj2kVkQ,1669
+troop/clients/__init__.py,sha256=fwmHlqsMSaLtW201IXnCWj5F8ete3EnjjiEb5o3H19I,162
+troop/clients/anthropic.py,sha256=qJTISGeEJTqGAfgOefcvM4Zu3c1P2o9IzEozizvTK0M,974
+troop/clients/base.py,sha256=hhlVZCWxr_MON8SD8WU31dRIcq8JVCgaGBZ9bZVyOBM,970
+troop/clients/openai.py,sha256=Y0UMr554D3d59gff1dyqgAIctNC1TQ20_6Sd1meSEWI,1058
+troop/repl/__init__.py,sha256=hNU3HxjJJi6w5xgx34n3253QJPspFltrK7AM0G_1TlE,32
+troop/repl/repl.py,sha256=vCadzBa6ANmS39SjzfOaJbXes20E0BKOt38Zi_vrnT8,2609
+troop-0.0.5.dist-info/METADATA,sha256=hRDnHnOtoV1rIW6APLlN0YHxL5k4CyZfH-cxs_a1RiY,3146
+troop-0.0.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+troop-0.0.5.dist-info/RECORD,,
