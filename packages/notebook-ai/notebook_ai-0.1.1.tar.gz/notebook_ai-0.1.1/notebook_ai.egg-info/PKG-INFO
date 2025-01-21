@@ -1,0 +1,28 @@
+Metadata-Version: 2.2
+Name: notebook-ai
+Version: 0.1.1
+Summary: Enables Jupyter magics to define and run AI/LLM prompts.
+Home-page: https://github.com/nikhilk/nbai
+Author: Nikhil Kothari
+License: Apache
+Keywords: ai genai llm gemini vertexai jupyter interactive ipython
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+Requires-Dist: ipykernel
+Dynamic: author
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
