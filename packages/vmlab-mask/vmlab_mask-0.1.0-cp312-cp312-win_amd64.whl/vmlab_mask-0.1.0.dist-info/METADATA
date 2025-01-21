@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: vmlab_mask
+Version: 0.1.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Rust
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Summary: A Rust-based library for reconstructing grayscale masks in Python.
+Keywords: rust,mask,pyo3,numpy
+Author-email: Jaemin Kim <geminik23@vmonster.io>
+License: MIT
