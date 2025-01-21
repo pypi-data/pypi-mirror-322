@@ -1,0 +1,9 @@
+[intake.drivers]
+drought_drought_map_viewer = ciroh_plugins.drought.drought_map:DroughtMapViewer
+drought_drought_monitoring_pie_chart = ciroh_plugins.drought.drought_pie:DroughtDataGraph
+drought_drought_monitoring_series = ciroh_plugins.drought.drought_plot:DroughtDataTimeSeries
+drought_drought_monitoring_table = ciroh_plugins.drought.drought_table:DroughtDataTable
+nwmp_data_service = ciroh_plugins.nwmps.service:NWMPService
+nwmp_gauges_series = ciroh_plugins.nwmps.gauges:NWMPSGaugesSeries
+nwmp_map = ciroh_plugins.nwmps.olmap:MapVisualization
+nwmp_reaches_series = ciroh_plugins.nwmps.reaches:NWMPSReachesSeries
