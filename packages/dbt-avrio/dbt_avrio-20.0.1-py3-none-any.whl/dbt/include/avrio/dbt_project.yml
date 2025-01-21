@@ -1,0 +1,5 @@
+name: dbt_avrio
+version: 20.0.1
+config-version: 2
+
+macro-paths: ["macros"]
