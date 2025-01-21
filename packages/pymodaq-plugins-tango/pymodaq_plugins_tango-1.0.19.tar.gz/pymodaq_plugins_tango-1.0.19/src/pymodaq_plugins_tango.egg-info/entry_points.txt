@@ -1,0 +1,5 @@
+[pymodaq.instruments]
+tango = pymodaq_plugins_tango
+
+[pymodaq.plugins]
+tango = pymodaq_plugins_tango
