@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: mpex
+Version: 0.1.2
+Summary: A minimal Python project example named mpex
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: maturin; extra == "dev"
+
+# mpex
+
+A new Python project.
+
+
+## Installation
+
+```bash
+source .mpex/bin/activate
+uv pip install ".[dev]"
+```
+
