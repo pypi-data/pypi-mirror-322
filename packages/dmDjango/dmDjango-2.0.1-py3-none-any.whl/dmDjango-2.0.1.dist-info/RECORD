@@ -1,0 +1,16 @@
+dmDjango/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dmDjango/base.py,sha256=rkdpUDTyGtPcE1ByPXZm_XGl7AChqFxJ4o-114LivJ0,10253
+dmDjango/client.py,sha256=7_1axG5FCO56C8oYIOI2MsN3FKsTblAixcemBhGP8jQ,316
+dmDjango/compiler.py,sha256=Y_VC3GMrPUiLN0mcTX4J0o2ef60Q5cIFjs9vWO1aFcI,5505
+dmDjango/creation.py,sha256=GVAiDcya1v1-eR5LHlZWXUCVL14Ycqz0cDnX_kw_KU0,13708
+dmDjango/features.py,sha256=RLUV5Q-qBmOXhXk58Yaoi0cPIF_gKgdST7FFBXjzYRo,1649
+dmDjango/introspection.py,sha256=L6L4fTq-oDiJbtuI5KyidIlvR1ZOYR12AKXYi1-aNCI,15508
+dmDjango/operations.py,sha256=ul_e3qHV5Csoq1uiYSqhFZRJi7lGkFuII9Yn-sbs83o,22956
+dmDjango/schema.py,sha256=MXFCApxwfJJJMFy2Kl5Vrs98gUBOQEZUs5UjivZVvFY,4294
+dmDjango/utils.py,sha256=7lu1yo4DpQvbTsQVKg4rs7-DIwZlEtK3X32_6mNN4QQ,690
+dmDjango/validation.py,sha256=sBqU-uAKZ90bcdIwyeOveh2_fJmmTi_cWmLXmpMR_f8,178
+dmDjango-2.0.1.dist-info/LICENSE.txt,sha256=sKQTq_CeUE0OG73Z-jLkCI__8FIROH29xLIcpdxl3z0,1602
+dmDjango-2.0.1.dist-info/METADATA,sha256=E1lbcWIDtYMfWJKLM2qpbyZaSUgREaleu1jhUU5F5g8,2409
+dmDjango-2.0.1.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+dmDjango-2.0.1.dist-info/top_level.txt,sha256=7aaV1TJ7Vxrw1vH4mIKE_cjq_bL3vl-Lgau-pgwPenc,9
+dmDjango-2.0.1.dist-info/RECORD,,
