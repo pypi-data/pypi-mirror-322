@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+streamlit_crud/__init__.py
+streamlit_crud/class_crud.py
+streamlit_crud/read_data.py
+streamlit_crud.egg-info/PKG-INFO
+streamlit_crud.egg-info/SOURCES.txt
+streamlit_crud.egg-info/dependency_links.txt
+streamlit_crud.egg-info/top_level.txt
