@@ -1,0 +1,7 @@
+polars_geodesic_distance-0.1.0.dist-info/METADATA,sha256=AwReXTN05mD1Z5VGPSspB4JewdOs9nUJ3pqTALlwzqU,480
+polars_geodesic_distance-0.1.0.dist-info/WHEEL,sha256=vdeLNsaDrBYRLvnXfL76khaHPP4-jWxfbZA7wTTUoX0,106
+polars_distance/_internal.pyi,sha256=Y25n44pyE3vp92MiABKrcK3IWRyQ1JG1rZ4Ufqy2nC0,17
+polars_distance/typing.py,sha256=2QpRpqFBLxNVloZ4Uri7-xEgRMPE_3mWn6ti_347bsI,414
+polars_distance/__init__.py,sha256=iKZ3L6WfaYGyLDoHy6EC-rFLpnoGfMVqchsk79MYq7c,627
+polars_distance/_internal.abi3.so,sha256=WAX4b1xvu1_Yh4ONFsj_mdxuOYzl4eWx1vJEbCUNdZA,15508080
+polars_geodesic_distance-0.1.0.dist-info/RECORD,,
