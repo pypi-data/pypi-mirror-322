@@ -1,0 +1,2 @@
+[console_scripts]
+subauto = subauto.cli:app
