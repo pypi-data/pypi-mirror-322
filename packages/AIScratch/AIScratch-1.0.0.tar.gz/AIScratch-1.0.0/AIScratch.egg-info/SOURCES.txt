@@ -1,0 +1,9 @@
+README.md
+setup.py
+AIScratch/__init__.py
+AIScratch.egg-info/PKG-INFO
+AIScratch.egg-info/SOURCES.txt
+AIScratch.egg-info/dependency_links.txt
+AIScratch.egg-info/top_level.txt
+AIScratch/Genetic/__init__.py
+AIScratch/Genetic/genetic_algorithm.py
