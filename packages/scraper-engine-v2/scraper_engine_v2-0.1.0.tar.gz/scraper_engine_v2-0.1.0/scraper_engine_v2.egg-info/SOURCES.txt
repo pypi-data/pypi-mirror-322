@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+scraper_engine_v2/__init__.py
+scraper_engine_v2/wrapper.py
+scraper_engine_v2.egg-info/PKG-INFO
+scraper_engine_v2.egg-info/SOURCES.txt
+scraper_engine_v2.egg-info/dependency_links.txt
+scraper_engine_v2.egg-info/not-zip-safe
+scraper_engine_v2.egg-info/requires.txt
+scraper_engine_v2.egg-info/top_level.txt
