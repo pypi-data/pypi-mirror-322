@@ -1,0 +1,94 @@
+Metadata-Version: 2.3
+Name: rio-bootstrap
+Version: 0.1.0
+Summary: Brings Bootstrap icons to Rio
+Project-URL: homepage, https://rio.dev
+Project-URL: repository, https://github.com/rio-labs/rio-bootstrap
+Project-URL: documentation, https://rio.dev/docs/api/Icon
+Author-email: Jakob Pinterits <jakob.pinterits@gmail.com>
+License: Copyright (c) 2025 Jakob Pinterits
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of
+        this software and associated documentation files (the "Software"), to deal in
+        the Software without restriction, including without limitation the rights to
+        use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+        the Software, and to permit persons to whom the Software is furnished to do so,
+        subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+        FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+        COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+        IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+        CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Keywords: app,framework,functional,local-app,modern,rio,user-interface,web,web-app,web-development,web-framework
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Requires-Dist: rio-ui<1.0,>=0.10.9
+Description-Content-Type: text/markdown
+
+# Rio Bootstrap 🌊 👢
+
+Makes the fabulous icons from Bootstrap available in to [Rio](https://rio.dev).
+
+You can browse all icons [on the Bootstrap
+website](https://icons.getbootstrap.com/). The names in Rio are the same, except
+using underscores instead of dashes.
+
+## Installation 🛠️
+
+`rio-bootstrap` is available on [PyPI](https://pypi.org/project/rio-bootstrap/):
+
+```sh
+python -m pip install rio-bootstrap
+```
+
+## Quickstart 🚀
+
+To use the icons in your project just import this module, then use the icons as
+you'd use any other icon in Rio:
+
+```py
+import rio
+import rio_bootstrap  # Import the module. This registers the icons with Rio.
+
+
+class MyRoot(rio.Component):
+    def build(self) -> rio.Component:
+        return rio.Icon(
+            "bootstrap/wifi",  # All icons are available as "bootstrap/<name>"
+            fill=rio.Color.BLUE,
+            min_width=5,
+            min_height=5,
+            align_x=0.5,
+            align_y=0.5,
+        )
+
+
+app = rio.App(
+    build=MyRoot,
+)
+```
+
+The icons will also show up in the Rio dev-tools, so you can easily browse them.
+
+## License ⚖️
+
+The Python code in this project is available under the permissive **MIT
+license**. The icons themselves are not part of this repository. Check [the
+Bootsrap icons repo](https://github.com/twbs/icons) for licensing information.
