@@ -1,0 +1,11 @@
+include requirements.txt
+recursive-include ss_scrapping/chromedriver *
+
+
+# Exclude unwanted files
+exclude *.pyc
+exclude *.pyo
+exclude __pycache__
+exclude build/*
+exclude dist/*
+exclude *.egg-info/*
