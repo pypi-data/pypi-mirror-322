@@ -1,0 +1,10 @@
+mlx_transcriber/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlx_transcriber/main.py,sha256=xYnonjCda-DAIA7wtvtHWcBt6YAufR2SOlLVOzT9V7c,6552
+mlx_transcriber/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlx_transcriber/utils/file_utils.py,sha256=hRMKGN4fQkkf5lGop4cMu_yBhljzNBqQbCwFBz5ig2w,1402
+mlx_transcriber-0.1.0.dist-info/LICENSE,sha256=4i3VPJY1jwQ0u1VZ15G56tLG4jVkvVoVcs-GQ4NvhFA,1071
+mlx_transcriber-0.1.0.dist-info/METADATA,sha256=hmhE7EfBLlNXMMtSTIfAmtBb4tJQP0YyDKDiM7Y04tk,5191
+mlx_transcriber-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mlx_transcriber-0.1.0.dist-info/entry_points.txt,sha256=cm8A7mw21ti1UE6A9Uoot-suiPKV4BbGPvE4M-j4TVk,61
+mlx_transcriber-0.1.0.dist-info/top_level.txt,sha256=8RpZmukl4WvuyuPgJRVXgHt2gJpEtv_jOTkhc66YmcY,16
+mlx_transcriber-0.1.0.dist-info/RECORD,,
