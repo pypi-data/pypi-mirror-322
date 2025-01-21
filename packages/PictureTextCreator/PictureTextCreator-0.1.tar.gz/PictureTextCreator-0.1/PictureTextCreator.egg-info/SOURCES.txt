@@ -1,0 +1,8 @@
+setup.py
+PictureTextCreator/PTC.py
+PictureTextCreator/__init__.py
+PictureTextCreator.egg-info/PKG-INFO
+PictureTextCreator.egg-info/SOURCES.txt
+PictureTextCreator.egg-info/dependency_links.txt
+PictureTextCreator.egg-info/requires.txt
+PictureTextCreator.egg-info/top_level.txt
