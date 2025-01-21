@@ -1,0 +1,9 @@
+wappscan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wappscan/main.py,sha256=u568dxpd57wmLMmVjQDFIv0HsekEq9tjOQGjiBy7unA,45
+wappscan/scanner.py,sha256=K4qWmqKnWp6IWEtpIsEvgmJVbVDsZcT9VXCwMjQttbg,37
+wappscan-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wappscan-0.0.1.dist-info/METADATA,sha256=EETp5rDvdvjnIFDWlGs3wpgurbi_hkzqgI4M1upU4Is,40831
+wappscan-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+wappscan-0.0.1.dist-info/entry_points.txt,sha256=N9QjncucgoDNLGvxAMqO9Ugl4GarA6s__ZZGxi7kuDo,54
+wappscan-0.0.1.dist-info/top_level.txt,sha256=CkYKM--wVnai-kDN1bJIcC70kcqNMkMk-6bJN2Pbxvk,9
+wappscan-0.0.1.dist-info/RECORD,,
