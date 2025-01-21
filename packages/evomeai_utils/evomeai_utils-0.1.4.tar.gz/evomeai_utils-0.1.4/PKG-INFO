@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: evomeai_utils
+Version: 0.1.4
+Summary: evomeai_utils is a python package for evomeai project.
+Project-URL: HomePage, https://gitee.com/footoo/utils
+Author-email: flowithwind <flowithwind@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+This is a utils package 
