@@ -1,0 +1,49 @@
+Metadata-Version: 2.2
+Name: swarm_rqa_test
+Version: 0.1.7
+Summary: SWARM_RQA_TEST
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: imbalanced-learn==0.12.3
+Requires-Dist: joblib==1.4.2
+Requires-Dist: matplotlib==3.9.1
+Requires-Dist: pandas==2.2.2
+Requires-Dist: pyyaml==6.0.1
+Requires-Dist: scikit-learn==1.4.0
+Requires-Dist: scipy==1.13.1
+Requires-Dist: tqdm==4.66
+Requires-Dist: xgboost==2.1.0
+Requires-Dist: yacs==0.1.8
+Requires-Dist: pywavelets==1.6.0
+Requires-Dist: plotly-express==0.4.1
+Requires-Dist: torch==2.1.0+cpu; sys_platform != "darwin"
+Requires-Dist: torchvision==0.20.1+cpu; sys_platform != "darwin"
+Requires-Dist: onnx==1.17.0
+Requires-Dist: onnxruntime==1.20.1
+Requires-Dist: einops==0.8.0
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: summary
+
+# **SWARM Inference Module**
+
+[![Upload Python Package](https://github.com/saandeepa93/SWARM_lib/actions/workflows/python-publish.yml/badge.svg)](https://github.com/saandeepa93/SWARM_lib/actions/workflows/python-publish.yml)
+
+## **Setup**
+
+```
+conda create -n <env-name> --file requirements.txt
+```
+
+  + Ensure to fill in your \<env-name>
+
+## **Inference**
+```
+python inference.py --dir <dir_path>
+```
+
++ `<dir_path>` should be the path to set of csv files for which you'd like to compute the predictions
+
++ The final csv file with predictions will be saved under `./data/<dir_name>.csv`
+
