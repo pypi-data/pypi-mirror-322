@@ -1,0 +1,6 @@
+cryptography~=44.0.0
+
+[dev-requirements]
+pytest
+setuptools
+wheel

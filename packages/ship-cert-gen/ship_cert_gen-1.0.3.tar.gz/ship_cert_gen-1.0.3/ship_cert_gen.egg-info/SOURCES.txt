@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+ship_cert_gen/__init__.py
+ship_cert_gen/__main__.py
+ship_cert_gen/gen.py
+ship_cert_gen/test_gen.py
+ship_cert_gen.egg-info/PKG-INFO
+ship_cert_gen.egg-info/SOURCES.txt
+ship_cert_gen.egg-info/dependency_links.txt
+ship_cert_gen.egg-info/requires.txt
+ship_cert_gen.egg-info/top_level.txt
