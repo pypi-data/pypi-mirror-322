@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: qcvisualiser
+Version: 0.0.3
+Summary: Visualiser for QuartiCal gain solutions.
+Home-page: https://github.com/JSKenyon/QuartiCal-Visualiser
+License: MIT
+Author: Jonathan Kenyon
+Author-email: jonathan.simon.kenyon@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: cachetools (>=5.5.0)
+Requires-Dist: dask-ms[xarray,zarr] (>=0.2.23)
+Requires-Dist: dask[dataframe] (>=2024.10.0)
+Requires-Dist: datashader (>=0.16.3)
+Requires-Dist: hvplot (>=0.11.2)
+Requires-Dist: typer (>=0.15.1)
+Project-URL: Repository, https://github.com/JSKenyon/QuartiCal-Visualiser
+Description-Content-Type: text/markdown
+
+# QuartiCal-Visualiser
+
+The QuartiCal-Visualiser is a convenient tool for visualising the gain solutions
+produced by [QuartiCal](https://github.com/ratt-ru/QuartiCal). It also allows 
+for interactive flagging of those solutions. 
+
+## Installation
+
+QuartiCal-Visualiser can be installed from PyPI by running
+`pip install qcvisualiser`. Alternatively, developers can install it directly
+from source using either Poetry or pip.
+
+## Usage
+
+QuartiCal-Visualiser can be run from the command line using
+`govisualise path/to/gain`. You can then navigate to `localhost:5006` in
+your browser to interact with the gains. 
+
+## Options
+
+At present, QuartiCal-Visualiser has limited options. All of them can be 
+displayed by running `govisualise --help`.
+
+## Remote Viewing
+
+As QuartiCal starts a web server, it is possible to interact with it remotely.
+This can be accomplished by port-forwarding e.g. 
+`ssh -L 5006:localhost:5006 user@remote` before proceeding as detailed above.
