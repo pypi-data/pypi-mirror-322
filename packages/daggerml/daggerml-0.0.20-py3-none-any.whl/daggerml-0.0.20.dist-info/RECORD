@@ -1,0 +1,7 @@
+daggerml/__init__.py,sha256=yktk4Epw-W2OpWpQ2XRiVyNrpuGyUZZBbyKYvEn_akU,493
+daggerml/__main__.py,sha256=qH7-6E8K_wMf2DdF_l9YZHocmTfPIjunkB_8RXlt2LA,895
+daggerml/core.py,sha256=iCW8H8Ydin680uLmUzP2nnRrtpkLNeGCROG2yWr0gHM,8348
+daggerml/util.py,sha256=XHCR7cuGEZlXmEhvm6hux_qTsjMC0Lji-TXM6G46mKw,555
+daggerml-0.0.20.dist-info/METADATA,sha256=su2WM1WTIO-_GP9llPRNcyDlh2UFQ0wonhTxGiQeReI,2023
+daggerml-0.0.20.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+daggerml-0.0.20.dist-info/RECORD,,
