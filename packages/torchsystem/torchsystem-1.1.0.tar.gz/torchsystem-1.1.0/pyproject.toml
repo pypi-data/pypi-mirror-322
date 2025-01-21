@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "torchsystem"
+version = "1.1.0"
+description = "A framework for creating message-driven IA systems with PyTorch"
+authors = ["mr-mapache <eric.m.cardozo@mi.unc.edu.ar>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymsgbus = "^0.3.0"
+mlregistry = "^1.1.1"
+
+
+[tool.poetry.group.tests.dependencies]
+pytest = "^8.3.4"
+torch = "^2.5.1"
+numpy = "^2.2.1"
+torchvision = "^0.20.1"
+
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.6.1"
+mkdocstrings = {extras = ["python"], version = "^0.27.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
