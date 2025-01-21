@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+bots/__init__.py
+starco_fastbot.egg-info/PKG-INFO
+starco_fastbot.egg-info/SOURCES.txt
+starco_fastbot.egg-info/dependency_links.txt
+starco_fastbot.egg-info/requires.txt
+starco_fastbot.egg-info/top_level.txt
