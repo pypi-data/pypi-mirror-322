@@ -1,0 +1,9 @@
+torch
+openai-whisper
+pyannote.audio
+pytorch-lightning
+keyring
+cryptography
+alive-progress
+psutil
+GPUtil
