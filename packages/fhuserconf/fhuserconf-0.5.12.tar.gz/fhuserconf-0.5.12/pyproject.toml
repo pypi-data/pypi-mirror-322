@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fhuserconf"
+version = "0.5.12"
+description = "UserConf is a user configuration management Python library."
+authors = ["wsd <wsd@fhit.cn>"]
+readme = "README.md"
+packages = [{include = "**/*", from = "fhuserconf", to = "userconf"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
