@@ -1,0 +1,58 @@
+From 22e84a95e989ff5b7971ad3fbf68e32b058f4a9d Mon Sep 17 00:00:00 2001
+From: Matt Craddock <5796417+craddm@users.noreply.github.com>
+Date: Wed, 15 Jan 2025 11:40:55 +0000
+Subject: [PATCH] Remove user_rules from dns server
+
+---
+ data_safe_haven/infrastructure/programs/sre/dns_server.py    | 4 +---
+ .../resources/dns_server/AdGuardHome.mustache.yaml           | 5 -----
+ 2 files changed, 1 insertion(+), 8 deletions(-)
+
+diff --git a/data_safe_haven/infrastructure/programs/sre/dns_server.py b/data_safe_haven/infrastructure/programs/sre/dns_server.py
+index affcbd2ce..a8934825d 100644
+--- a/data_safe_haven/infrastructure/programs/sre/dns_server.py
++++ b/data_safe_haven/infrastructure/programs/sre/dns_server.py
+@@ -82,8 +82,7 @@ class SREDnsServerComponent(ComponentResource):
+             filter_block = ["*.*"]
+         else:
+             filter_allow = None
+-            filter_block = None
+-        user_rules = filter_allow or filter_block
++            filter_block = ["example.local"]
+ 
+         # Expand AdGuardHome YAML configuration
+         adguard_adguardhome_yaml_contents = Output.all(
+@@ -97,7 +96,6 @@ class SREDnsServerComponent(ComponentResource):
+             # https://learn.microsoft.com/en-us/azure/virtual-network/what-is-ip-address-168-63-129-16
+             # This server is aware of private DNS zones
+             upstream_dns="168.63.129.16",
+-            user_rules=user_rules,
+         ).apply(
+             lambda mustache_config: adguard_adguardhome_yaml_reader.file_contents(
+                 mustache_config
+diff --git a/data_safe_haven/resources/dns_server/AdGuardHome.mustache.yaml b/data_safe_haven/resources/dns_server/AdGuardHome.mustache.yaml
+index c6e9f8bd1..5cb12df9b 100644
+--- a/data_safe_haven/resources/dns_server/AdGuardHome.mustache.yaml
++++ b/data_safe_haven/resources/dns_server/AdGuardHome.mustache.yaml
+@@ -12,7 +12,6 @@ querylog:
+   enabled: true
+ filters:
+ # https://adblockplus.org/filter-cheatsheet#blocking
+-{{#user_rules}}
+ user_rules:
+   {{#filter_block}}
+   - "{{.}}"
+@@ -20,10 +19,6 @@ user_rules:
+   {{#filter_allow}}
+   - "@@||{{.}}"
+   {{/filter_allow}}
+-{{/user_rules}}
+-{{^user_rules}}
+-user_rules: []
+-{{/user_rules}}
+ log:
+   verbose: true
+ # Note that because we are only providing a partial config file we need the
+-- 
+2.39.5
+

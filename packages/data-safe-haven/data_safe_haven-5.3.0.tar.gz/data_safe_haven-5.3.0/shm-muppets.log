@@ -1,0 +1,170 @@
+2024-11-19 09:56:04,231 - DEBUG - Reading project settings from '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 09:58:38,345 - DEBUG - Reading project settings from '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 09:58:38,347 - INFO - Creating a new context with name 'muppets'.
+2024-11-19 09:58:38,347 - INFO - Switched context to 'muppets'.
+2024-11-19 09:58:38,350 - DEBUG - Saved context settings to '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 09:59:30,665 - DEBUG - Reading project settings from '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 09:59:30,968 - INFO - You are logged into the Azure CLI as:
+2024-11-19 09:59:30,969 - INFO - 	user: Matthew Craddock (1b2a59f2-f3ea-42e7-b8b8-aeea30572764)
+2024-11-19 09:59:30,970 - INFO - 	tenant: turing.ac.uk (4395f4a7-e455-4f95-8a9f-1fbaef6384f9)
+2024-11-19 09:59:30,970 - DEBUG - Prompting user to confirm 'Are these details correct?'
+2024-11-19 09:59:32,051 - DEBUG - User responded 'yes'
+2024-11-19 09:59:33,204 - CRITICAL - You must provide the --entra-tenant-id argument when first deploying an SHM.
+2024-11-19 10:00:21,319 - DEBUG - Reading project settings from '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 10:00:21,321 - INFO - Switched context to 'green'.
+2024-11-19 10:00:21,323 - DEBUG - Saved context settings to '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 10:00:26,530 - DEBUG - Reading project settings from '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 10:01:31,693 - DEBUG - Reading project settings from '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 10:01:32,021 - INFO - You are logged into the Azure CLI as:
+2024-11-19 10:01:32,021 - INFO - 	user: Matthew Craddock (1b2a59f2-f3ea-42e7-b8b8-aeea30572764)
+2024-11-19 10:01:32,022 - INFO - 	tenant: turing.ac.uk (4395f4a7-e455-4f95-8a9f-1fbaef6384f9)
+2024-11-19 10:01:32,022 - DEBUG - Prompting user to confirm 'Are these details correct?'
+2024-11-19 10:01:33,239 - DEBUG - User responded 'yes'
+2024-11-19 10:01:34,297 - CRITICAL - You must provide the --fqdn argument when first deploying an SHM.
+2024-11-19 10:01:59,017 - DEBUG - Reading project settings from '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 10:01:59,366 - INFO - You are logged into the Azure CLI as:
+2024-11-19 10:01:59,367 - INFO - 	user: Matthew Craddock (1b2a59f2-f3ea-42e7-b8b8-aeea30572764)
+2024-11-19 10:01:59,367 - INFO - 	tenant: turing.ac.uk (4395f4a7-e455-4f95-8a9f-1fbaef6384f9)
+2024-11-19 10:01:59,368 - DEBUG - Prompting user to confirm 'Are these details correct?'
+2024-11-19 10:02:00,967 - DEBUG - User responded 'yes'
+2024-11-19 10:02:11,566 - INFO - Preparing to deploy gitea testing SHM.
+2024-11-19 10:02:11,811 - DEBUG - Ensuring that resource group shm-green-rg exists...
+2024-11-19 10:02:12,344 - INFO - Ensured that resource group shm-green-rg exists in uksouth.
+2024-11-19 10:02:12,345 - DEBUG - Ensuring that managed identity shm-green-identity-reader exists...
+2024-11-19 10:02:13,361 - INFO - Ensured that managed identity shm-green-identity-reader exists.
+2024-11-19 10:02:13,365 - DEBUG - Ensuring that storage account shmgreen exists...
+2024-11-19 10:02:35,998 - INFO - Ensured that storage account shmgreen exists.
+2024-11-19 10:02:36,025 - DEBUG - Ensuring that storage container config exists...
+2024-11-19 10:02:36,709 - INFO - Ensured that storage container config exists.
+2024-11-19 10:02:36,711 - DEBUG - Ensuring that storage container pulumi exists...
+2024-11-19 10:02:37,239 - INFO - Ensured that storage container pulumi exists.
+2024-11-19 10:02:37,243 - DEBUG - Ensuring that key vault shm-green-kv exists...
+2024-11-19 10:02:38,220 - ERROR - Failed to create key vault shm-green-kv. Check if a key vault with the same name already exists in a deleted state.
+2024-11-19 10:02:38,223 - ERROR - Failed to deploy resources needed by Pulumi.
+2024-11-19 10:02:38,224 - CRITICAL - Failed to deploy Data Safe Haven infrastructure.
+2024-11-19 10:02:51,954 - DEBUG - Reading project settings from '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 10:02:52,278 - INFO - You are logged into the Azure CLI as:
+2024-11-19 10:02:52,279 - INFO - 	user: Matthew Craddock (1b2a59f2-f3ea-42e7-b8b8-aeea30572764)
+2024-11-19 10:02:52,280 - INFO - 	tenant: turing.ac.uk (4395f4a7-e455-4f95-8a9f-1fbaef6384f9)
+2024-11-19 10:02:52,280 - DEBUG - Prompting user to confirm 'Are these details correct?'
+2024-11-19 10:02:53,229 - DEBUG - User responded 'yes'
+2024-11-19 10:02:55,163 - DEBUG - File shm.yaml does not exist in blob storage.
+2024-11-19 10:02:55,163 - CRITICAL - No deployed SHM found for context green.
+2024-11-19 10:03:03,399 - DEBUG - Reading project settings from '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 10:03:03,401 - INFO - Switched context to 'muppets'.
+2024-11-19 10:03:03,402 - DEBUG - Saved context settings to '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 10:03:21,716 - DEBUG - Reading project settings from '/home/deploydsh/.config/data_safe_haven/contexts.yaml'.
+2024-11-19 10:03:22,035 - INFO - You are logged into the Azure CLI as:
+2024-11-19 10:03:22,036 - INFO - 	user: Matthew Craddock (1b2a59f2-f3ea-42e7-b8b8-aeea30572764)
+2024-11-19 10:03:22,036 - INFO - 	tenant: turing.ac.uk (4395f4a7-e455-4f95-8a9f-1fbaef6384f9)
+2024-11-19 10:03:22,037 - DEBUG - Prompting user to confirm 'Are these details correct?'
+2024-11-19 10:03:23,075 - DEBUG - User responded 'yes'
+2024-11-19 10:03:33,191 - INFO - Preparing to deploy Release 5.1.0 SHM.
+2024-11-19 10:03:33,448 - DEBUG - Ensuring that resource group shm-muppets-rg exists...
+2024-11-19 10:03:34,015 - INFO - Ensured that resource group shm-muppets-rg exists in uksouth.
+2024-11-19 10:03:34,017 - DEBUG - Ensuring that managed identity shm-muppets-identity-reader exists...
+2024-11-19 10:03:35,128 - INFO - Ensured that managed identity shm-muppets-identity-reader exists.
+2024-11-19 10:03:35,132 - DEBUG - Ensuring that storage account shmmuppets exists...
+2024-11-19 10:03:55,728 - INFO - Ensured that storage account shmmuppets exists.
+2024-11-19 10:03:55,743 - DEBUG - Ensuring that storage container config exists...
+2024-11-19 10:03:56,258 - INFO - Ensured that storage container config exists.
+2024-11-19 10:03:56,260 - DEBUG - Ensuring that storage container pulumi exists...
+2024-11-19 10:03:56,770 - INFO - Ensured that storage container pulumi exists.
+2024-11-19 10:03:56,774 - DEBUG - Ensuring that key vault shm-muppets-kv exists...
+2024-11-19 10:04:00,275 - INFO - Ensured that key vault shm-muppets-kv exists.
+2024-11-19 10:04:00,280 - DEBUG - Ensuring that key pulumi-encryption-key exists...
+2024-11-19 10:04:01,602 - INFO - Ensured that key pulumi-encryption-key exists.
+2024-11-19 10:04:01,604 - DEBUG - Ensuring that DNS zone muppets.develop.turingsafehaven.ac.uk exists...
+2024-11-19 10:04:06,117 - INFO - Ensured that DNS zone muppets.develop.turingsafehaven.ac.uk exists.
+2024-11-19 10:04:06,119 - DEBUG - Ensuring that DNS CAA record @ exists in zone muppets.develop.turingsafehaven.ac.uk...
+2024-11-19 10:04:06,965 - INFO - Ensured that DNS CAA record @ exists in zone muppets.develop.turingsafehaven.ac.uk.
+2024-11-19 10:04:07,884 - INFO - You are logged into the Microsoft Graph API as:
+2024-11-19 10:04:07,884 - INFO - 	user: aad.admin.matt.craddock@green.develop.turingsafehaven.ac.uk (3b3f1d49-9980-4a09-99e4-784038a740fa)
+2024-11-19 10:04:07,885 - INFO - 	tenant: green.develop.turingsafehaven.ac.uk (cb94a6f6-ef7a-42ab-bcad-4f0b887cfd3e)
+2024-11-19 10:04:07,885 - DEBUG - Prompting user to confirm 'Are these details correct?'
+2024-11-19 10:04:09,553 - DEBUG - User responded 'yes'
+2024-11-19 10:04:40,557 - DEBUG - Ensuring that DNS TXT record @ exists in zone muppets.develop.turingsafehaven.ac.uk...
+2024-11-19 10:04:41,552 - INFO - Ensured that DNS TXT record @ exists in zone muppets.develop.turingsafehaven.ac.uk.
+2024-11-19 10:04:41,752 - DEBUG - Checking muppets.develop.turingsafehaven.ac.uk DNS delegation.
+2024-11-19 10:04:41,989 - WARNING - muppets.develop.turingsafehaven.ac.uk DNS is not delegated correctly.
+2024-11-19 10:04:41,990 - INFO - To proceed you will need to delegate muppets.develop.turingsafehaven.ac.uk to specific Azure nameservers
+2024-11-19 10:04:41,990 - INFO - Create 4 NS records for muppets.develop.turingsafehaven.ac.uk (for example in the zone of develop.turingsafehaven.ac.uk)
+2024-11-19 10:04:41,992 - INFO - You can learn more about NS records here: https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/
+2024-11-19 10:04:41,993 - DEBUG - Prompting user to confirm 'Are you ready to check whether muppets.develop.turingsafehaven.ac.uk has been delegated to the correct Azure nameservers?'
+2024-11-19 10:10:13,296 - DEBUG - User responded 'yes'
+2024-11-19 10:10:13,301 - DEBUG - Checking muppets.develop.turingsafehaven.ac.uk DNS delegation.
+2024-11-19 10:10:13,315 - WARNING - muppets.develop.turingsafehaven.ac.uk DNS is not delegated correctly.
+2024-11-19 10:10:13,320 - INFO - To proceed you will need to delegate muppets.develop.turingsafehaven.ac.uk to specific Azure nameservers
+2024-11-19 10:10:13,321 - INFO - Create 4 NS records for muppets.develop.turingsafehaven.ac.uk (for example in the zone of develop.turingsafehaven.ac.uk)
+2024-11-19 10:10:13,323 - INFO - You can learn more about NS records here: https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/
+2024-11-19 10:10:13,323 - DEBUG - Prompting user to confirm 'Are you ready to check whether muppets.develop.turingsafehaven.ac.uk has been delegated to the correct Azure nameservers?'
+2024-11-19 10:10:15,136 - DEBUG - User responded 'yes'
+2024-11-19 10:10:15,136 - DEBUG - Checking muppets.develop.turingsafehaven.ac.uk DNS delegation.
+2024-11-19 10:10:15,147 - WARNING - muppets.develop.turingsafehaven.ac.uk DNS is not delegated correctly.
+2024-11-19 10:10:15,148 - INFO - To proceed you will need to delegate muppets.develop.turingsafehaven.ac.uk to specific Azure nameservers
+2024-11-19 10:10:15,148 - INFO - Create 4 NS records for muppets.develop.turingsafehaven.ac.uk (for example in the zone of develop.turingsafehaven.ac.uk)
+2024-11-19 10:10:15,149 - INFO - You can learn more about NS records here: https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/
+2024-11-19 10:10:15,150 - DEBUG - Prompting user to confirm 'Are you ready to check whether muppets.develop.turingsafehaven.ac.uk has been delegated to the correct Azure nameservers?'
+2024-11-19 10:10:18,306 - DEBUG - User responded 'yes'
+2024-11-19 10:10:18,307 - DEBUG - Checking muppets.develop.turingsafehaven.ac.uk DNS delegation.
+2024-11-19 10:10:18,315 - WARNING - muppets.develop.turingsafehaven.ac.uk DNS is not delegated correctly.
+2024-11-19 10:10:18,315 - INFO - To proceed you will need to delegate muppets.develop.turingsafehaven.ac.uk to specific Azure nameservers
+2024-11-19 10:10:18,316 - INFO - Create 4 NS records for muppets.develop.turingsafehaven.ac.uk (for example in the zone of develop.turingsafehaven.ac.uk)
+2024-11-19 10:10:18,317 - INFO - You can learn more about NS records here: https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/
+2024-11-19 10:10:18,318 - DEBUG - Prompting user to confirm 'Are you ready to check whether muppets.develop.turingsafehaven.ac.uk has been delegated to the correct Azure nameservers?'
+2024-11-19 10:10:19,316 - DEBUG - User responded 'yes'
+2024-11-19 10:10:19,316 - DEBUG - Checking muppets.develop.turingsafehaven.ac.uk DNS delegation.
+2024-11-19 10:10:19,322 - WARNING - muppets.develop.turingsafehaven.ac.uk DNS is not delegated correctly.
+2024-11-19 10:10:19,323 - INFO - To proceed you will need to delegate muppets.develop.turingsafehaven.ac.uk to specific Azure nameservers
+2024-11-19 10:10:19,323 - INFO - Create 4 NS records for muppets.develop.turingsafehaven.ac.uk (for example in the zone of develop.turingsafehaven.ac.uk)
+2024-11-19 10:10:19,325 - INFO - You can learn more about NS records here: https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/
+2024-11-19 10:10:19,325 - DEBUG - Prompting user to confirm 'Are you ready to check whether muppets.develop.turingsafehaven.ac.uk has been delegated to the correct Azure nameservers?'
+2024-11-19 10:10:19,883 - DEBUG - User responded 'yes'
+2024-11-19 10:10:19,883 - DEBUG - Checking muppets.develop.turingsafehaven.ac.uk DNS delegation.
+2024-11-19 10:10:19,903 - WARNING - muppets.develop.turingsafehaven.ac.uk DNS is not delegated correctly.
+2024-11-19 10:10:19,903 - INFO - To proceed you will need to delegate muppets.develop.turingsafehaven.ac.uk to specific Azure nameservers
+2024-11-19 10:10:19,904 - INFO - Create 4 NS records for muppets.develop.turingsafehaven.ac.uk (for example in the zone of develop.turingsafehaven.ac.uk)
+2024-11-19 10:10:19,905 - INFO - You can learn more about NS records here: https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/
+2024-11-19 10:10:19,906 - DEBUG - Prompting user to confirm 'Are you ready to check whether muppets.develop.turingsafehaven.ac.uk has been delegated to the correct Azure nameservers?'
+2024-11-19 10:10:20,351 - DEBUG - User responded 'yes'
+2024-11-19 10:10:20,351 - DEBUG - Checking muppets.develop.turingsafehaven.ac.uk DNS delegation.
+2024-11-19 10:10:20,358 - WARNING - muppets.develop.turingsafehaven.ac.uk DNS is not delegated correctly.
+2024-11-19 10:10:20,358 - INFO - To proceed you will need to delegate muppets.develop.turingsafehaven.ac.uk to specific Azure nameservers
+2024-11-19 10:10:20,359 - INFO - Create 4 NS records for muppets.develop.turingsafehaven.ac.uk (for example in the zone of develop.turingsafehaven.ac.uk)
+2024-11-19 10:10:20,360 - INFO - You can learn more about NS records here: https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/
+2024-11-19 10:10:20,360 - DEBUG - Prompting user to confirm 'Are you ready to check whether muppets.develop.turingsafehaven.ac.uk has been delegated to the correct Azure nameservers?'
+2024-11-19 10:10:43,827 - DEBUG - User responded 'yes'
+2024-11-19 10:10:43,831 - DEBUG - Checking muppets.develop.turingsafehaven.ac.uk DNS delegation.
+2024-11-19 10:10:43,846 - WARNING - muppets.develop.turingsafehaven.ac.uk DNS is not delegated correctly.
+2024-11-19 10:10:43,850 - INFO - To proceed you will need to delegate muppets.develop.turingsafehaven.ac.uk to specific Azure nameservers
+2024-11-19 10:10:43,850 - INFO - Create 4 NS records for muppets.develop.turingsafehaven.ac.uk (for example in the zone of develop.turingsafehaven.ac.uk)
+2024-11-19 10:10:43,853 - INFO - You can learn more about NS records here: https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/
+2024-11-19 10:10:43,853 - DEBUG - Prompting user to confirm 'Are you ready to check whether muppets.develop.turingsafehaven.ac.uk has been delegated to the correct Azure nameservers?'
+2024-11-19 10:10:54,067 - DEBUG - User responded 'yes'
+2024-11-19 10:10:54,067 - DEBUG - Checking muppets.develop.turingsafehaven.ac.uk DNS delegation.
+2024-11-19 10:10:54,078 - WARNING - muppets.develop.turingsafehaven.ac.uk DNS is not delegated correctly.
+2024-11-19 10:10:54,079 - INFO - To proceed you will need to delegate muppets.develop.turingsafehaven.ac.uk to specific Azure nameservers
+2024-11-19 10:10:54,079 - INFO - Create 4 NS records for muppets.develop.turingsafehaven.ac.uk (for example in the zone of develop.turingsafehaven.ac.uk)
+2024-11-19 10:10:54,081 - INFO - You can learn more about NS records here: https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/
+2024-11-19 10:10:54,081 - DEBUG - Prompting user to confirm 'Are you ready to check whether muppets.develop.turingsafehaven.ac.uk has been delegated to the correct Azure nameservers?'
+2024-11-19 10:12:06,807 - DEBUG - User responded 'yes'
+2024-11-19 10:12:06,826 - DEBUG - Checking muppets.develop.turingsafehaven.ac.uk DNS delegation.
+2024-11-19 10:12:07,042 - INFO - muppets.develop.turingsafehaven.ac.uk DNS has been delegated correctly.
+2024-11-19 10:12:38,623 - DEBUG - Creating new application 'Data Safe Haven (muppets) Pulumi Service Principal'...
+2024-11-19 10:12:38,625 - DEBUG - Making creation HTTP POST request.
+2024-11-19 10:13:09,208 - INFO - Created new application 'Data Safe Haven (muppets) Pulumi Service Principal'.
+2024-11-19 10:13:09,907 - DEBUG - Creating service principal for application 'Data Safe Haven (muppets) Pulumi Service Principal'...
+2024-11-19 10:13:40,440 - INFO - Created service principal for application 'Data Safe Haven (muppets) Pulumi Service Principal'.
+2024-11-19 10:13:42,592 - DEBUG - Assigning application role 'Application.ReadWrite.All' to 'Data Safe Haven (muppets) Pulumi Service Principal'...
+2024-11-19 10:14:12,969 - INFO - Assigned application role 'Application.ReadWrite.All' to 'Data Safe Haven (muppets) Pulumi Service Principal'.
+2024-11-19 10:14:14,596 - DEBUG - Assigning application role 'AppRoleAssignment.ReadWrite.All' to 'Data Safe Haven (muppets) Pulumi Service Principal'...
+2024-11-19 10:14:45,280 - INFO - Assigned application role 'AppRoleAssignment.ReadWrite.All' to 'Data Safe Haven (muppets) Pulumi Service Principal'.
+2024-11-19 10:14:46,766 - DEBUG - Assigning application role 'Directory.ReadWrite.All' to 'Data Safe Haven (muppets) Pulumi Service Principal'...
+2024-11-19 10:15:17,326 - INFO - Assigned application role 'Directory.ReadWrite.All' to 'Data Safe Haven (muppets) Pulumi Service Principal'.
+2024-11-19 10:15:18,908 - DEBUG - Assigning application role 'Group.ReadWrite.All' to 'Data Safe Haven (muppets) Pulumi Service Principal'...
+2024-11-19 10:15:49,553 - INFO - Assigned application role 'Group.ReadWrite.All' to 'Data Safe Haven (muppets) Pulumi Service Principal'.
+2024-11-19 10:15:51,058 - DEBUG - Creating application secret 'Pulumi Deployment Secret'...
+2024-11-19 10:16:21,695 - DEBUG - Created application secret 'Pulumi Deployment Secret'.
+2024-11-19 10:16:21,702 - DEBUG - Setting secret pulumi-deployment-secret...
+2024-11-19 10:16:22,078 - INFO - Set secret pulumi-deployment-secret.
+2024-11-19 10:16:23,007 - DEBUG - Uploaded file shm.yaml to blob storage.

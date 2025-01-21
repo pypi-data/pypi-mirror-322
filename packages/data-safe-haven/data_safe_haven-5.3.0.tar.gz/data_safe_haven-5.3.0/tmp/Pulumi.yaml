@@ -1,0 +1,5 @@
+backend:
+  url: azblob://pulumi
+main: /workspaces/data-safe-haven
+name: data-safe-haven
+runtime: python
