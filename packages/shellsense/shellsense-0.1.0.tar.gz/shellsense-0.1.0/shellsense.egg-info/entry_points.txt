@@ -1,0 +1,2 @@
+[console_scripts]
+shellsense = shellsense.__main__:main
