@@ -1,0 +1,2 @@
+[console_scripts]
+lm_audioslicer = audioslicer.slicer:main
