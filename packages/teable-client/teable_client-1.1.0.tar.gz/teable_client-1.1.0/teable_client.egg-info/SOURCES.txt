@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+teable/__init__.py
+teable/exceptions/__init__.py
+teable_client.egg-info/PKG-INFO
+teable_client.egg-info/SOURCES.txt
+teable_client.egg-info/dependency_links.txt
+teable_client.egg-info/requires.txt
+teable_client.egg-info/top_level.txt
+tests/__init__.py
+tests/unit/__init__.py
+tests/unit/test_config.py
