@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "scripts_dir": "scripts",
+  "prompts_dir": "prompts",
+  "templates": {
+    "script_prefix": "",
+    "prompt_prefix": "P-"
+  },
+  "scripts": {
+    "reason": {
+      "name": "reason",
+      "description": "Generate a reasoned response using AI",
+      "args": ["prompt"],
+      "when_to_use": "Use when you need to think through a problem or generate a detailed explanation"
+    },
+    "test": {
+      "name": "test",
+      "description": "A simple test script that prints TESTING...",
+      "args": [],
+      "when_to_use": "Use to verify the AI Kit CLI and script running functionality is working"
+    }
+  }
+} 
