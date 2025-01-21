@@ -1,0 +1,3 @@
+[console_scripts]
+adifas=adifas.cli:main
+
