@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+segno_ui/__init__.py
+segno_ui/segno_ui.py
+segno_ui.egg-info/PKG-INFO
+segno_ui.egg-info/SOURCES.txt
+segno_ui.egg-info/dependency_links.txt
+segno_ui.egg-info/requires.txt
+segno_ui.egg-info/top_level.txt
