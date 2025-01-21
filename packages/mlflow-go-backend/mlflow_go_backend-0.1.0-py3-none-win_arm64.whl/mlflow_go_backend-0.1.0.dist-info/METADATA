@@ -1,0 +1,478 @@
+Metadata-Version: 2.2
+Name: mlflow-go-backend
+Version: 0.1.0
+Summary: MLflow is an open source platform for the complete machine learning lifecycle
+Maintainer-email: Databricks <mlflow-oss-maintainers@googlegroups.com>
+License:                                  Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright [yyyy] [name of copyright owner]
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+        
+Project-URL: homepage, https://mlflow.org
+Project-URL: issues, https://github.com/mlflow/mlflow-go-backend/issues
+Project-URL: documentation, https://mlflow.org/docs/latest/index.html
+Project-URL: repository, https://github.com/mlflow/mlflow-go-backend
+Keywords: mlflow,go,golang,ai,databricks
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cffi>=1.17.1
+Requires-Dist: mlflow>=2.19.0
+Requires-Dist: psycopg2-binary>=2.9.9
+
+# Go backend for MLflow
+
+In order to increase the performance of the tracking server and the various stores, we propose to rewrite the server and store implementation in Go.
+
+
+# Topics
+* [Installation](#installation)
+* [Mage](#mage)
+* [Contributing](./CONTRIBUTING.md)
+* [Common information](#common-information)
+  * [MLflow source code](#mlflow-source-code)
+  * [Protos](#protos)
+  * [Request validation](#request-validation)
+  * [Data access](#data-access)
+  * [Linting](#linting)
+* [Usage](#usage)
+  * [Go Server](#go-server)
+  * [Building the Go binary](#building-the-go-binary)
+  * [Client-side Go implementation](#client-side-go-implementation)
+  * [Go store in Python](#go-store-in-python)
+* [Misc](#misc)
+  * [Debug Failing Tests](#debug-failing-tests)
+  * [Supported endpoints](#supported-endpoints)
+  * [Targeting Local Postgres in Python Tests](#targeting-local-postgres-in-python-tests)
+
+## Installation
+
+This package is not yet available on PyPI and currently requires the [Go SDK](https://go.dev) to be installed.
+
+You can then install the package via pip:
+```bash
+pip install git+https://github.com/mlflow/mlflow-go-backend.git
+```
+
+## Mage
+
+This repository uses [mage](https://magefile.org/) to streamline some utility functions.
+
+```bash
+# Install mage (already done in the dev container)
+go install github.com/magefile/mage@v1.15.0
+```
+
+```bash
+# See all targets
+mage
+```
+
+```bash
+# Execute single target
+mage generate
+```
+
+The beauty of Mage is that we can use regular Go code for our scripting. That being said, we are not married to this tool.
+
+## Common information
+
+### MLflow source code
+
+To integrate with MLflow, you need to include the source code. The [mlflow/mlflow](https://github.com/mlflow/mlflow/) repository contains proto files that define the tracking API. It also includes Python tests that we use to verify our Go implementation produces identical behaviour.
+
+We use a `.mlflow.ref` file to specify the exact location from which to pull our sources. The format should be `remote#reference`, where `remote` is a git remote and `reference` is a branch, tag, or commit SHA.
+
+If the `.mlflow.ref` file is modified and becomes out of sync with the current source files, the mage target will automatically detect this. To manually force a sync, you can run `mage repo:update`.
+
+### Protos
+
+To ensure we stay compatible with the Python implementation, we aim to generate as much as possible based on the `.proto` files.
+
+By running
+
+```bash
+mage generate
+```
+
+Go code will be generated. Use the protos files from `.mlflow.repo` repository.
+
+This includes the generation of:
+
+- Structs for each endpoint. ([pkg/protos](./pkg/protos/service.pb.go))
+- Go interfaces for each service. ([pkg/contract/service/*.g.go](./pkg/contract/service/tracking.g.go))
+- [fiber](https://gofiber.io/) routes for each endpoint. ([pkg/server/routes/*.g.go](./pkg/server/routes/tracking.g.go))
+
+If there is any change in the proto files, this should ripple into the Go code.
+
+### Request validation
+
+We use [Go validator](https://github.com/go-playground/validator) to validate all incoming request structs.
+As the proto files don't specify any validation rules, we map them manually in [pkg/cmd/generate/validations.go](./cmd/generate/validations.go).
+
+Once the mapping has been done, validation will be invoked automatically in the generated fiber code.
+
+When the need arises, we can write custom validation function in [pkg/validation/validation.go](./validation/validation.go).
+
+### Data access
+
+Initially, we want to focus on supporting Postgres SQL. We chose [Gorm](https://gorm.io/) as ORM to interact with the database.
+
+We do not generate any Go code based on the database schema. Gorm has generation capabilities but they didn't fit our needs. The plan would be to eventually assert the current code still matches the database schema via an integration test.
+
+All the models use pointers for their fields. We do this for performance reasons and to distinguish between zero values and null values.
+
+### Linting
+
+We have enabled various linters from [golangci-lint](https://golangci-lint.run/), you can run these via:
+
+```bash
+pre-commit run golangci-lint --all-files
+```
+
+Sometimes `golangci-lint` can complain about unrelated files, run `golangci-lint cache clean` to clear the cache.
+
+## Usage
+
+### Go server
+
+To enable use of the Go server, users can run the `mlflow-go server` command.
+
+```bash
+# Start the Go server with a database URI
+# Other databases are supported as well: sqlite, mysql and mssql
+mlflow-go server --backend-store-uri postgresql://postgres:postgres@localhost:5432/postgres
+```
+
+This will launch the python process as usual. Within Python, a random port is chosen to start the existing server and a Go child process is spawned. The Go server will use the user specified port (5000 by default) and spawn the actual Python server as its own child process (`gunicorn` or `waitress`).
+Any incoming requests the Go server cannot process will be proxied to the existing Python server.
+
+Any Go-specific options can be passed with `--go-opts`, which takes a comma-separated list of key-value pairs.
+
+```bash
+mlflow-go server --backend-store-uri postgresql://postgres:postgres@localhost:5432/postgres --go-opts log_level=debug,shutdown_timeout=5s
+```
+
+MLflow client could be pointed the Go server:
+
+```python
+import mlflow
+
+# Use the Go server
+mlflow.set_tracking_uri("http://localhost:5000")
+
+# Use MLflow as usual
+mlflow.set_experiment("my-experiment")
+
+with mlflow.start_run():
+    mlflow.log_param("param", 1)
+    mlflow.log_metric("metric", 2)
+```
+
+### Building the Go binary
+
+To ensure everything still compiles:
+
+```bash
+go build -o /dev/null ./pkg/cmd/server
+```
+
+or
+
+```bash
+python -m mlflow_go.lib . /tmp
+```
+
+### Client-side Go implementation
+
+```python
+import mlflow
+import mlflow_go
+
+# Enable the Go client implementation (disabled by default)
+mlflow_go.enable_go()
+
+# Set the tracking URI (you can also set it via the environment variable MLFLOW_TRACKING_URI)
+# Currently only database URIs are supported
+mlflow.set_tracking_uri("sqlite:///mlflow.db")
+
+# Use MLflow as usual
+mlflow.set_experiment("my-experiment")
+
+with mlflow.start_run():
+    mlflow.log_param("param", 1)
+    mlflow.log_metric("metric", 2)
+```
+
+### Go store in Python
+
+```python
+import logging
+import mlflow
+import mlflow_go
+
+# Enable debug logging
+logging.basicConfig()
+logging.getLogger('mlflow_go').setLevel(logging.DEBUG)
+
+# Enable the Go client implementation (disabled by default)
+mlflow_go.enable_go()
+
+# Instantiate the tracking store with a database URI
+tracking_store = mlflow.tracking._tracking_service.utils._get_store('sqlite:///mlflow.db')
+
+# Call any tracking store method
+tracking_store.get_experiment(0)
+
+# Instantiate the model registry store with a database URI
+model_registry_store = mlflow.tracking._model_registry.utils._get_store('sqlite:///mlflow.db')
+
+# Call any model registry store method
+model_registry_store.get_latest_versions("model")
+```
+
+## Misc
+
+### Debug Failing Tests
+
+Sometimes, it can be very useful to modify failing tests and use `print` statements to display the current state or differences between objects from Python or Go services.
+
+Adding `"-vv"` to the `pytest` command in `magefiles/tests.go` can also provide more information when assertions are not met.
+
+### Targeting Local Postgres in Python Tests
+
+At times, you might want to apply store calls to your local database to investigate certain read operations via the local tracking server.
+
+You can achieve this by changing:
+
+```python
+def test_search_runs_datasets(store: SqlAlchemyStore):
+```
+
+to:
+
+```python
+def test_search_runs_datasets():
+    db_uri = "postgresql://postgres:postgres@localhost:5432/postgres"
+    artifact_uri = Path("/tmp/artifacts")
+    artifact_uri.mkdir(exist_ok=True)
+    store = SqlAlchemyStore(db_uri, artifact_uri.as_uri())
+```
+
+in the test file located in `.mlflow.repo`.
+
+### Supported endpoints
+
+The currently supported endpoints can be found by running mage command:
+
+```bash
+mage endpoints
+```
+
