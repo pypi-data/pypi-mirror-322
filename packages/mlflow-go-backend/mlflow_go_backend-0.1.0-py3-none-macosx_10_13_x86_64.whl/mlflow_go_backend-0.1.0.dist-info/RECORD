@@ -1,0 +1,16 @@
+mlflow_go_backend/__init__.py,sha256=phT_fa39a09dL883H-8SaKwtnvc5KJ7-DKTTVPbGnAc,284
+mlflow_go_backend/cli.py,sha256=b_HkIkqnaACkiwnZTiBvrlIRpBY7BxrQZbjdZy_nlsE,3871
+mlflow_go_backend/lib.py,sha256=sBwDo__Qnge1DQdbVEyfCEcUZiC2Pw3_zqau2NjKNHE,5450
+mlflow_go_backend/libmlflow-go-backend.dylib,sha256=6VdpMh4W06jTHyeCiGf_kBvGB6v7qwFldVwpS6J1N4E,20371616
+mlflow_go_backend/libmlflow-go-backend.h,sha256=wsytouQ7bO5oE_-7PT35hs2YLYL4KxrwX9FosXF_jK8,7145
+mlflow_go_backend/server.py,sha256=FG_hZUSz8t9UyKu2dXsnLDg51DPE-PylAXVyolwwqDE,848
+mlflow_go_backend/store/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlflow_go_backend/store/_service_proxy.py,sha256=QlxNw0LTlwiE2HO_VLUSv2NeSkRDn3AvSg7YslgH3YY,1369
+mlflow_go_backend/store/model_registry.py,sha256=XszVJQEdF5DgYqjenRdS6VDnWjPqWUEmEGsApQuupbc,6169
+mlflow_go_backend/store/tracking.py,sha256=Dvr945-gBUQBZGf0I_nevA5xh5nmIWwVBDfdBjKYD7M,12367
+mlflow_go_backend-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mlflow_go_backend-0.1.0.dist-info/METADATA,sha256=y0si9t6jeRAz016ZET88GqgCOOPblIKi65767hiMT3M,22275
+mlflow_go_backend-0.1.0.dist-info/WHEEL,sha256=5kTicPLmwX26VC7sO7F3FYEXT7fEHwz9bJbsEk5CefQ,108
+mlflow_go_backend-0.1.0.dist-info/entry_points.txt,sha256=oXISYwdTnl2QKT3ysMbtY-7N9bDzBN7Nr-y8mHEBDhI,652
+mlflow_go_backend-0.1.0.dist-info/top_level.txt,sha256=CnAxvUlnDTTXbZr6v0XWZpGatbz_umLzN2VfTcLZ9bM,18
+mlflow_go_backend-0.1.0.dist-info/RECORD,,
