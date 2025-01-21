@@ -1,0 +1,9 @@
+lemmatizer_be/__about__.py,sha256=CSb0sMeIUQb-6NXZxUJsGKmmUrzMqxcSTAF3JYeSYmw,23
+lemmatizer_be/__init__.py,sha256=TnPMY_7fsoOW3yWFmsxea_jesxPFXZx4dDOy5efMlLs,112
+lemmatizer_be/_utils.py,sha256=Gu19q0t-8kW-woTUalgiCF6zl5p2feIcCQCPC2UhXAI,881
+lemmatizer_be/generate.py,sha256=WMiCaGlOEO3i3haxD-unTQHrvkZK-Kr3QZ3W0EAs9pE,3103
+lemmatizer_be/lemmatizer.py,sha256=HAcdHlDPmj-UCmUm4Szwq7wBDX2QXYENu05YWwF47ZM,3135
+lemmatizer_be-1.3.1.dist-info/METADATA,sha256=aPjrRfpTmdG-GPLc4WgDj7bhofQ-wUnBGqB2732F9Ro,1710
+lemmatizer_be-1.3.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+lemmatizer_be-1.3.1.dist-info/licenses/LICENSE,sha256=y7HSi1FaOcKUlj1L_CQHfmaaSD_F67qbhKcnr9QYdCY,1067
+lemmatizer_be-1.3.1.dist-info/RECORD,,
