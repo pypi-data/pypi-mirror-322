@@ -1,0 +1,8 @@
+elluminate/__init__.py,sha256=4xH1AwxHfldgKvqLuXOPO9LwNKTxv7h7QFo4-496exQ,303
+elluminate/client.py,sha256=mcoDVmnUVZZG7lwdPYY_C6gpEBUSK34L8oFfKdDKlzs,86911
+elluminate/middleware_sdk.py,sha256=dgA8GFZzAiX5lLYFEJYqc6ocF2kkEAJkssggF9WlUk4,6792
+elluminate/schemas.py,sha256=qV142KN6F3zFyZNP0I-MWlO2QWyP36sm9zVNg-N0BYU,9968
+elluminate/utils.py,sha256=cKP2w8qmLOnxmi9IYHjhw2_LpHWo6Sz0BAgGC-qdrnI,1920
+elluminate-0.2.3.dist-info/METADATA,sha256=HQcHJBM_H2WV-n29ukVOFXRnsjlRFhLB0ex560ub1Gs,3994
+elluminate-0.2.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+elluminate-0.2.3.dist-info/RECORD,,
