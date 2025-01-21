@@ -1,0 +1,17 @@
+BirdBrain.py,sha256=E6iHVAbbx2n9vLJKRV8R9tW-zfvl9L3M8pPfRKenxMI,1691
+birdbrain_finch.py,sha256=7lW9BazFk7blEuei9AYSOsFTVDchLbcEJr4cByCu3W0,13009
+birdbrain_hummingbird.py,sha256=v_XufioA5JIGUWHXD1qrfYfz8L2hdtb48dE2lRabPMg,10395
+birdbrain_microbit.py,sha256=scix-yWLYK0t01ha4PXCvHeRqgY_cZd03F7V22F2hE0,17892
+birdbrain_python_library/__init__.py,sha256=OES2E8N7MyTbyBfehgSMA4ziToHam22q0JhGy_iML8c,23
+birdbrain_python_library/__main__.py,sha256=tNriLD6vKxXhalMMOsjziqAluZUinltXZa5oMAdnhTE,421
+birdbrain_python_library/cli.py,sha256=xKGVehbEJqpw6vvVcKmzk5dgqD7Mi1HuOuZVpdDXLio,867
+birdbrain_python_library_2/__init__.py,sha256=OES2E8N7MyTbyBfehgSMA4ziToHam22q0JhGy_iML8c,23
+birdbrain_python_library_2/__main__.py,sha256=tNriLD6vKxXhalMMOsjziqAluZUinltXZa5oMAdnhTE,421
+birdbrain_python_library_2/cli.py,sha256=xKGVehbEJqpw6vvVcKmzk5dgqD7Mi1HuOuZVpdDXLio,867
+birdbrain_python_library_2-0.0.14.dist-info/AUTHORS.rst,sha256=J1-F9K-OOoFWQRYU7N7o-_GFZ45bBSozUwoSxJjcRbQ,182
+birdbrain_python_library_2-0.0.14.dist-info/LICENSE,sha256=jLkS8ZbEen48bweH3wl7e9k7gsrQX4-R0KmcQsX9BOg,43654
+birdbrain_python_library_2-0.0.14.dist-info/METADATA,sha256=8nqpX8zw1eIe7m7OCaA37z5F9vN-ovnLMuySiNvZcPk,2660
+birdbrain_python_library_2-0.0.14.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+birdbrain_python_library_2-0.0.14.dist-info/entry_points.txt,sha256=dpbc4d--sIs4ZpJZ6Q_WtJxkwv1i_hEBvi48zcYAybQ,83
+birdbrain_python_library_2-0.0.14.dist-info/top_level.txt,sha256=ueMXtadnCrkwoy5O9q7L8EPUTjIfckx8OvGM6qPraWc,94
+birdbrain_python_library_2-0.0.14.dist-info/RECORD,,
