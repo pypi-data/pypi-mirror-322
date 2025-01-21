@@ -1,0 +1,5 @@
+[console_scripts]
+jerreda = jerreda.cli:main
+
+[gui_scripts]
+
