@@ -1,0 +1,23 @@
+rns>=0.9.1
+lxmf>=0.6.0
+kivy>=2.3.0
+pillow>=10.2.0
+qrcode
+materialyoucolor>=2.0.7
+ffpyplayer
+sh
+numpy<=1.26.4
+mistune>=3.0.2
+beautifulsoup4
+
+[:sys_platform != "Windows" and sys_platform != "win32" and sys_platform != "darwin"]
+pycodec2
+
+[:sys_platform == "Windows" and sys_platform != "win32"]
+pyogg
+
+[:sys_platform == "darwin"]
+pyobjus
+
+[:sys_platform == "linux"]
+pyaudio
