@@ -1,0 +1,2 @@
+[console_scripts]
+smoosh = smoosh.cli:main
