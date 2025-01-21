@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: AriaQuanta
+Version: 0.1.2
+Summary: A quantum computing library
+Home-page: https://github.com/MhmudAlpurd/ariaquanta.git
+Author: mahmoudalipour
+Author-email: mahmoudalipour.d@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib==3.10.0
+Requires-Dist: numpy==2.2.1
+Requires-Dist: scipy==1.15.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# ariaquanta
+
+
+Aria Quanta
+install python 3.10
+commands
