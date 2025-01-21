@@ -1,0 +1,3 @@
+[console_scripts]
+cm = mlc.main:main
+mlc = mlc.main:main
