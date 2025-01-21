@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/statick_planning.egg-info/PKG-INFO
+src/statick_planning.egg-info/SOURCES.txt
+src/statick_planning.egg-info/dependency_links.txt
+src/statick_planning.egg-info/entry_points.txt
+src/statick_planning.egg-info/requires.txt
+src/statick_planning.egg-info/top_level.txt
+src/statick_tool/plugins/discovery/pddl.py
+src/statick_tool/plugins/tool/val_parser.py
+src/statick_tool/plugins/tool/val_validate.py
+src/statick_tool/rsc/planning-config.yaml
+src/statick_tool/rsc/planning-profile.yaml

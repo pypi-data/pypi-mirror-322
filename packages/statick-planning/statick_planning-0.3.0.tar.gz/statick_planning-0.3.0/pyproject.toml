@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "statick-planning"
+authors = [{name = "NIWC Pacific"}]
+description="Statick analysis plugins for planning files."
+version = "0.3.0"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "CC0-1.0"}
+classifiers = [
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Testing",
+]
+dependencies = [
+    "importlib_metadata",
+    "statick",
+    "types-docutils",
+]
+
+[tool.setuptools.package-data]
+statick_tool = [
+    "rsc/*",
+    "rsc/.*",
+]
+
+[project.entry-points."statick_tool.plugins.discovery"]
+pddl = "statick_tool.plugins.discovery.pddl:PDDLDiscoveryPlugin"
+
+[project.entry-points."statick_tool.plugins.tool"]
+val_parser = "statick_tool.plugins.tool.val_parser:ValParserToolPlugin"
+val_validate = "statick_tool.plugins.tool.val_validate:ValValidateToolPlugin"
+
+[project.urls]
+"Homepage" = "https://github.com/tdenewiler/statick-planning"
+"Bug Tracker" = "https://github.com/tdenewiler/statick-planning/issues"
+
+[project.optional-dependencies]
+test = [
+    "coverage",
+    "mock",
+    "pytest",
+    "pytest-cov",
+    "tox",
+    "tox-gh-actions",
+]
+docs = [
+    "sphinx==1.7.9",
+    "yaml-1.3",
+]
+
+[tool.isort]
+profile = "black"
