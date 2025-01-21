@@ -1,0 +1,9 @@
+pipecat-ai[cartesia,deepgram,openai,silero]
+fastapi
+uvicorn
+python-dotenv
+pydantic
+twilio
+ngrok
+requests
+python-multipart
