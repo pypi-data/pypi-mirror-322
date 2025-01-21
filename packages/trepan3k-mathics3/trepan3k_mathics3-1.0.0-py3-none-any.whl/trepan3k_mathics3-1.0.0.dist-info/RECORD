@@ -1,0 +1,12 @@
+trepan3k_mathics3/__init__.py,sha256=-xxYsEpNbsUv0i94rvMGdS_xXxdXqMcVxy-_etgJq3U,1290
+trepan3k_mathics3/mathics3.py,sha256=4RINWgP9sNKsFCvf8CUENXQtncQ6NqKRdKQlee6maww,1647
+trepan3k_mathics3/mbacktrace.py,sha256=rW_Ig4Qk_ZoOU3RXp36kb0aUu0MuhFMQq2MhAkpRO2k,2212
+trepan3k_mathics3/mdown.py,sha256=7_yONzfwRMBc0MpjYk9xXw9ejTJDBpWZDgYtAm_XnMI,1524
+trepan3k_mathics3/mup.py,sha256=Yxr1fafUPFcrWVBdyC3dSDeEFmItzpvtb46FacTkdcA,1518
+trepan3k_mathics3/printelement.py,sha256=-DLlR_FxuvNB17pb6C1ojJ-5NSM5YXeuol6CykWMPis,1212
+trepan3k_mathics3/version.py,sha256=oa7d2UpApzASaP8rGf_GxF2GtwuteGeCGJRvkwMMOOU,252
+trepan3k_mathics3-1.0.0.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+trepan3k_mathics3-1.0.0.dist-info/METADATA,sha256=R7JISIlgSw-0tu9eV60s7pzDwdq2SFhrTrAuNTy308M,1054
+trepan3k_mathics3-1.0.0.dist-info/WHEEL,sha256=pxeNX5JdtCe58PUSYP9upmc7jdRPgvT0Gm9kb1SHlVw,109
+trepan3k_mathics3-1.0.0.dist-info/top_level.txt,sha256=qdfr8GqXR8ZAQYxgQBOkCG2x-vZsOgqb2TikmqPuh1I,18
+trepan3k_mathics3-1.0.0.dist-info/RECORD,,
