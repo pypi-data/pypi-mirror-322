@@ -1,0 +1,123 @@
+
+# ProductHunt API
+
+**ProductHunt API** is a Python-based library developed by **Unrealos** ([unrealos.com](https://unrealos.com)) to automate the process of fetching, processing, and converting Product Hunt data into CSV format. It’s designed for developers and businesses to streamline data collection from Product Hunt categories.
+
+---
+
+## Key Features
+- **Automated Data Retrieval**: Fetch products from any Product Hunt category using GraphQL.
+- **Data Parsing**: Process product details and save them as structured JSON files.
+- **CSV Export**: Convert parsed data into CSV format for reporting or analysis.
+- **Developer-Friendly**: Easy-to-use pipeline designed for automation.
+
+---
+
+## Installation
+
+### Install from PyPI
+You can install the library directly from PyPI:
+```bash
+pip install producthunt-api
+```
+
+### Verify Installation
+To confirm the installation was successful, run:
+```bash
+python -m producthunt_api --help
+```
+
+---
+
+## Setting Up
+
+Before running the pipeline, you need to extract some data from Product Hunt.
+
+### 1. Parsing Category Data
+To fetch data from a specific category, follow these steps:
+
+1. Open the Product Hunt category page you want to scrape (e.g., [AI Software](https://www.producthunt.com/categories/ai-software)).
+2. Open your browser's developer tools (usually accessible via `F12` or right-click > `Inspect`).
+3. Go to the **Network** tab.
+4. Locate the request to `https://www.producthunt.com/frontend/graphql`. This request contains:
+   - **OperationName**: `"CategoryPageQuery"`
+5. Extract the following from the request:
+   - **Cookie**: Copy the `Cookie` string from the request headers.
+   - **SHA256 Hash**: Copy the `sha256Hash` value from the request payload.
+
+---
+
+## Usage
+
+### Pipeline Workflow
+The pipeline automates the following steps:
+1. **Data Fetching**: Fetch products from a specified Product Hunt category.
+2. **Product Processing**: Parse and save product details as JSON files.
+3. **CSV Export**: Convert the JSON files into a CSV file for further use.
+
+### Running the Pipeline
+Create a Python script and use the following example to run the pipeline:
+
+```python
+import os
+from producthunt_api import ProductHuntPipeline
+
+# Define necessary variables
+directory = os.path.join(os.getcwd(), "downloads")
+cookie_value = "<YOUR_COOKIE>"
+sha256_hash_value = "<YOUR_SHA256_HASH>"
+slug_value = "ai-software"  # Replace with your desired category slug
+
+# Initialize and run the pipeline
+pipeline = ProductHuntPipeline(
+    directory=directory,
+    cookie=cookie_value,
+    sha256_hash=sha256_hash_value,
+    slug=slug_value
+)
+pipeline.run(limit=50, max_threads=10)
+```
+
+1. Replace `<YOUR_COOKIE>` and `<YOUR_SHA256_HASH>` with the values you extracted earlier.
+2. Save the script and run it:
+   ```bash
+   python your_script_name.py
+   ```
+
+---
+
+## Testing the Library
+
+To ensure everything is working as expected, you can run the test suite.
+
+1. Install testing dependencies:
+   ```bash
+   pip install pytest pytest-cov
+   ```
+
+2. Run the tests:
+   ```bash
+   pytest -v
+   ```
+
+---
+
+## Contributing
+
+We welcome contributions to enhance this library. If you’d like to contribute:
+1. Fork the repository on GitHub.
+2. Create a feature branch.
+3. Submit a pull request with your changes.
+
+---
+
+## About Unrealos
+
+**Unrealos** ([unrealos.com](https://unrealos.com)) is a software development company specializing in AI, SaaS, and PaaS solutions for businesses. With expertise in integrating artificial intelligence into scalable business processes, Unrealos delivers cutting-edge software tailored to your needs.
+
+---
+
+## Additional Resources
+
+- **Source Code**: [GitHub Repository](https://github.com/markolofsen/producthunt-api)
+- **Issue Tracker**: [Submit Issues Here](https://github.com/markolofsen/producthunt-api/issues)

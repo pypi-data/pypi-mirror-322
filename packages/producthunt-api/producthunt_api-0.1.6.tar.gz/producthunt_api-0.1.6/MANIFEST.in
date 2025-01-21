@@ -1,0 +1,21 @@
+# Include specific files you need for the package
+include README.md
+include LICENSE
+include requirements.txt
+include setup.py
+include setup.cfg
+
+# Include all Python files in the source code directory
+recursive-include producthunt_api *.py
+recursive-include producthunt_api/utils *.py
+
+# Exclude specific files and directories
+exclude .git/*
+exclude .gitignore
+exclude *.pyc
+exclude __pycache__/*
+exclude deploy.py
+exclude demo/
+exclude logs/
+exclude downloads/
+exclude requirements.txt
