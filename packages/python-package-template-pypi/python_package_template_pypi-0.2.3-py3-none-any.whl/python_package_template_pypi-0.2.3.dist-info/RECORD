@@ -1,0 +1,10 @@
+python_package_template/__init__.py,sha256=9R09Y_uHx4UNKj86GXQYoWuft9i1X5qrBJj7g4GxRjE,291
+python_package_template/__main__.py,sha256=5ZRY5DV1Bhy-jrl1m-teyDfBGdSZS2guPkB5ISngT9U,190
+python_package_template/cli.py,sha256=wx4cpeGVkQZ6UYrZyIrmeqXQoIk9pTQ5xCKzc_FuP5Q,688
+python_package_template/main.py,sha256=LM0htUj9s3VyA2f9xnwkj7F0ldbQIkSIlRd7lzhsX8U,506
+python_package_template/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_package_template_pypi-0.2.3.dist-info/METADATA,sha256=jmFPYv2NqnKqr5lC8PZQ6gJR7qCkM211sbGqgz3zgQU,10874
+python_package_template_pypi-0.2.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+python_package_template_pypi-0.2.3.dist-info/entry_points.txt,sha256=Afhf9J7B6LlO1TnFB7R0keURfUQq_UvLWRcAPnTlLM8,57
+python_package_template_pypi-0.2.3.dist-info/licenses/LICENSE,sha256=QASgkCOPXhPtjwdq9YB2DYSMt-re06vMyJgPLJ4dLQQ,1070
+python_package_template_pypi-0.2.3.dist-info/RECORD,,
