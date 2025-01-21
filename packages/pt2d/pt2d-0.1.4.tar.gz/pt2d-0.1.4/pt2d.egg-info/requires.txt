@@ -1,0 +1,6 @@
+numpy<=1.26.4
+opencv_python>=4.9.0.80
+PyQt5>=5.15.11
+PyQt5_sip>=12.11.1
+scipy>=1.15.1
+scikit-image>=0.23.2
