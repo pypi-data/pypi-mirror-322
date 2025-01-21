@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+long2short/__init__.py
+long2short/chunker.py
+long2short/long2short.py
+long2short/models.py
+long2short/tokenizer.py
+long2short.egg-info/PKG-INFO
+long2short.egg-info/SOURCES.txt
+long2short.egg-info/dependency_links.txt
+long2short.egg-info/requires.txt
+long2short.egg-info/top_level.txt
