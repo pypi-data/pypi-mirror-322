@@ -1,0 +1,8 @@
+pandas<=2.1.4,>=0.25.0
+requests
+
+[all]
+easy_mpl
+pyshp
+netCDF4
+xarray
