@@ -1,0 +1,6 @@
+pangea_client/__init__.py,sha256=fRDboUgepLoVgqcsriOZzDVREOUlROY2FmQstbyDbgE,43
+pangea_client/client.py,sha256=o1IZVFrCpUXj745H4bNe3ztGuUeIp31hxynhcrsytgY,9215
+pangea_client/types.py,sha256=JiQg98rD5tgLOGOsR5w7IKO31JPSrDawHmiIR7acVKc,185
+pangea_client-0.3.5.dist-info/METADATA,sha256=sKxi0-oA4Bgdhh8pvd0rN20pihrsLQ1mN8lVhl5Z7IE,1689
+pangea_client-0.3.5.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pangea_client-0.3.5.dist-info/RECORD,,
