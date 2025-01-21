@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indexable_generator"
+version = "1.0.0"
+authors = [
+    { name="Tiago Simoes Beijoco", email="craft.uas@gmail.com" },
+]
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.10"',
+]
+description = "Implement Sequence functionalities to python Generators."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/TiagoCraft/indexable_generator.git"
+Issues = "https://github.com/TiagoCraft/indexable_generator/issues"
