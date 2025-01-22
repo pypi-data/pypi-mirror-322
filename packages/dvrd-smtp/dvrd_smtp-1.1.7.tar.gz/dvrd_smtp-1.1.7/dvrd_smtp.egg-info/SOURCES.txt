@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+dvrd_smtp/__init__.py
+dvrd_smtp/types.py
+dvrd_smtp.egg-info/PKG-INFO
+dvrd_smtp.egg-info/SOURCES.txt
+dvrd_smtp.egg-info/dependency_links.txt
+dvrd_smtp.egg-info/requires.txt
+dvrd_smtp.egg-info/top_level.txt
+dvrd_smtp/models/__init__.py
+dvrd_smtp/models/smtp_message.py
+dvrd_smtp/models/smtp_server.py

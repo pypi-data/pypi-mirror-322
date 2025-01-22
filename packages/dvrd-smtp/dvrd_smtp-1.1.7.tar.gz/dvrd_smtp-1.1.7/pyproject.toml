@@ -1,0 +1,25 @@
+[project]
+name = "dvrd_smtp"
+version = "1.1.7"
+description = "Object oriented wrapper for smtplib"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+authors = [{ name = "Dave van Rijn Development", email = "develop@davevanrijn.nl" }]
+dependencies = [
+]
+
+[project.optional-dependencies]
+dkim = ["dkimpy"]
+
+[project.urls]
+Homepage = "https://bitbucket.org/Naampie/dvrd-smtp"
+Issues = "https://bitbucket.org/Naampie/dvrd-smtp/issues"
+
+[build-system]
+requires = ["setuptools>=58.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
