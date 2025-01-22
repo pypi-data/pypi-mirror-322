@@ -1,0 +1,13 @@
+README.md
+setup.py
+hoyowrapper/Genshin.py
+hoyowrapper/Starrail.py
+hoyowrapper/Tools.py
+hoyowrapper/__init__.py
+hoyowrapper/constants.py
+hoyowrapper/hoyolab.py
+hoyowrapper.egg-info/PKG-INFO
+hoyowrapper.egg-info/SOURCES.txt
+hoyowrapper.egg-info/dependency_links.txt
+hoyowrapper.egg-info/requires.txt
+hoyowrapper.egg-info/top_level.txt
