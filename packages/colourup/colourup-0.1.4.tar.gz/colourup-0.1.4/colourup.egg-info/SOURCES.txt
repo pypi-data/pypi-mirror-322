@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+colourup/__init__.py
+colourup/pinput.py
+colourup/title.py
+colourup.egg-info/PKG-INFO
+colourup.egg-info/SOURCES.txt
+colourup.egg-info/dependency_links.txt
+colourup.egg-info/requires.txt
+colourup.egg-info/top_level.txt
+colourup/styles/__init__.py
+colourup/styles/bg.py
+colourup/styles/fg.py
+colourup/styles/style.py
+tests/test_main.py
