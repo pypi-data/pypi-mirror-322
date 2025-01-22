@@ -1,0 +1,14 @@
+sparrowSql/__init__.py,sha256=U1cE4ANOKHCf9vKusCxJKD4AdYNLWzguvxwiRTAwIdk,282
+sparrowSql/mariaDB.py,sha256=HniJjudl93YNv25IpUj5FMG417BG-3iszs2AJkPREaI,15592
+sparrowSql/mysql.py,sha256=LNaJWFWWdTIsIopvgo7ayq04YIN6Lo7a7Rw5q9P4IHM,15585
+sparrowSql/oracle.py,sha256=8WxyTGsvD4sO9YAhYhbODoahjMgbI3Lgu8v38705qjw,15417
+sparrowSql/postgresql.py,sha256=heiFrDkwGtf1f-01n6rh4VI3Y35-eP4P8YC3t0ZQsqE,16098
+sparrowSql/sparrow.py,sha256=AfoJDDxk9uRZ7dbGwHl4tCIpv4bnCfN1WQnLFK6KL3o,6084
+sparrowSql/sqLite.py,sha256=-P5TrtAv-mbtJqwS0tHpUtnccoLz94u3A4t3b_0UBdY,10153
+sparrowSql/sqlserver.py,sha256=MnmPU6dfvVDlQZyNVx01Pq9HOgJhd0hcIAJFWjXqHyg,7627
+sparrowSql/tools/__init__.py,sha256=pOocmIVCUrd8Eq-vWygJRVoaPYO6LEpwDPZJQzQHezY,35145
+sparrowSql-0.1.8.1.dist-info/LICENSE.txt,sha256=eTAMrQxkyw6ApSsWH9vJdyVXchbASCr9kEPFfwQzv-c,1091
+sparrowSql-0.1.8.1.dist-info/METADATA,sha256=2Wpk6bRg32jFeY2XQLXvDskMpqaa107PNn0L0EE3grA,37118
+sparrowSql-0.1.8.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sparrowSql-0.1.8.1.dist-info/top_level.txt,sha256=6WkFnoIKtqq7vPHdFmJGXBkRh652E1JFqlJoWVgl-uk,11
+sparrowSql-0.1.8.1.dist-info/RECORD,,
