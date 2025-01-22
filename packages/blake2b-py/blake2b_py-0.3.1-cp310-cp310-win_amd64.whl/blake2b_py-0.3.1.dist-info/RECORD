@@ -1,0 +1,5 @@
+blake2b_py-0.3.1.dist-info/METADATA,sha256=WxFewIU_5nrHk3hSdkIuck0mCTCvceNXB03_RPI4R4U,1650
+blake2b_py-0.3.1.dist-info/WHEEL,sha256=nWeKMpvecbFEmBYQM44p2FChzkAyOaqMiofeuspsYro,96
+blake2b/__init__.py,sha256=-XyhQXVr1qcv3WbU55uN_2ieXGJTi6jd-FlLyAZvZ10,7092
+blake2b/blake2b.cp310-win_amd64.pyd,sha256=M08g6zGlofSt8IeQmmS1TNuc8XwiFaQpImejcsTm_CI,238592
+blake2b_py-0.3.1.dist-info/RECORD,,
