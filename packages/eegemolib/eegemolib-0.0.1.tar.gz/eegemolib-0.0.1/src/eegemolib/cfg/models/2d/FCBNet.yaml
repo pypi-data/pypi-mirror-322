@@ -1,0 +1,9 @@
+# model name
+name: FCBNet
+
+n_classes: 3
+n_band: 1
+input_shape: 1
+m: 2
+temporal_stride: 2
+n_electrode: 62

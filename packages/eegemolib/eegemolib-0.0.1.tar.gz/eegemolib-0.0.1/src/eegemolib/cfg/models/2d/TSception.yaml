@@ -1,0 +1,12 @@
+# model name
+name: TSceptionNet
+
+num_classes: 3
+input_size: [32,64]
+sampling_rate: 128
+num_T: 2
+num_S: 2
+hidden_state: 64
+dropout_rate: 0.2
+pooling_type: 'ave'
+activation: 'relu'

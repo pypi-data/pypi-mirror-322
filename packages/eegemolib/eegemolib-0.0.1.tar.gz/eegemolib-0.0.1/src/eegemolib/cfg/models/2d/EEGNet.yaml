@@ -1,0 +1,16 @@
+# model name
+name: EEGNet
+
+# model setting 
+n_classes: 3
+F1: 8
+D: 2
+F2: auto
+T1: 125
+T2: 33
+P1: 8
+P2: 16
+s: 2
+drop_out: 0.5
+pool_mode: mean
+last_embedding:  4944 # 4960 for DEAP and 9760 for SEED

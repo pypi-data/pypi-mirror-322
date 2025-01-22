@@ -1,0 +1,29 @@
+# MAHNOB-HCI dataset
+name: HCI
+url: https://mahnob-db.eu/hci-tagging/
+folder: /data/shuyz/Emotion_compute/dataset/MAHNOB-HCI/Sessions # Preprocessed_EEG or ExtractedFeatures
+preproces: True
+path: 
+train: /data/shuyz/Emotion_compute/EEGEmoLib/runs/base
+test: /data/shuyz/Emotion_compute/EEGEmoLib/runs/base
+Emotions: [0, 1] # V A分类
+numClasses: 2
+compute_feature: True
+Features: ['de', 'psd','mean', 'std', 'skewness', 'kurtosis'] # feature list, DE, PSD, ...
+numSubjects: 30
+numTrials: 15
+time_sample: 200
+split_criteria: dependent # dependent / independent 被试依赖或是独立
+subject: 10 # 如果是subject_dependent的话，就需要设置subject 
+split_proportion: 0.8
+window_length: 10
+window_type: hanning
+frequency_sample_rate: 256
+bands: [0.5, 4.5, 8.5, 11.5, 15.5, 30]
+down_sample: 20
+location: syz.locs
+channels: ['Fp1', 'AF3', 'F3', 'F7', 'FC5', 'FC1', 'C3', 'T7', 'CP5', 'CP1', 'P3', 'P7', 'PO3', 'O1',   'Oz', 'Pz', 'Fp2', 'AF4', 'Fz', 'F4', 'F8', 'FC6', 'FC2', 'Cz', 'C4', 'T8', 'CP6', 'CP2', 'P4', 'P8', 'PO4', 'O2',]
+bad_channel: ['P1']
+l_freq: 0.3
+h_freq: 50
+notch_freq: 50

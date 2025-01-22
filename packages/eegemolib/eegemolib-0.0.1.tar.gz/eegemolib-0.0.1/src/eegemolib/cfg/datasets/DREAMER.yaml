@@ -1,0 +1,46 @@
+# DREAMER dataset
+#################### dataset info ######################
+name: DREAMER
+url: https://zenodo.org/records/546113
+folder: /data/shuyz/Emotion_compute/dataset/DREAMER # dir for input data
+save_path: /data/shuyz/Emotion_compute/EEGEmoLib/runs/data/DREAMER  # save dir for result
+emotion_labels: [0, 1]
+emotion_names: ['Valence'] # according to Dreamer, VAD self-assessment Valence, Arousal, Dominance
+features: False
+feature_list: []
+num_classes: 2
+time_sample: 128 # sampling rate of raw data
+num_trials: 18 # Each subject has 15 trials in one session
+num_subjects: 23 # totally 16 subjects
+num_sessions: 1 # Each subject performs the session three times at the interval of a few days.
+split_criteria: dependent # dependent / independent, corresponding to subject dependent and subjec independent split
+subject_id: 1 # In the case of subject_dependent, you need to set the subject id 如果是subject_dependent的话，就需要设置subject id，注意第一个subject标号为1
+session_id: 1 # In the case of subject_dependent, you need to set the session id, because SEED perform three sessions，注意第一个session 标号为1
+subject_leave_id: 1 # In the case of subject_independent, need to set the subject id of leave-one-subject-out(LOSO), subject_independent use all session together
+split_prop: 0 # partitioning ratio of the train and test data
+split_shuffle: False
+
+
+################### preprocess setting ###################
+preprocess: False
+down_sample: 200
+location: syz.locs
+channels: ['Fp1','Fpz','Fp2','AF3','AF4','F7','F5','F3','F1','Fz','F2','F4','F6','F8','FT7','FC5','FC3','FC1','FCz','FC2','FC4','FC6','FT8','T7','C5','C3','C1','Cz','C2','C4','C6','T8','TP7','CP5','CP3','CP1','CPz','CP2','CP4','CP6','TP8','P7','P5','P3','P1','Pz','P2','P4','P6','P8','PO7','PO5','PO3','POz','PO4','PO6','PO8','CB1','O1','Oz','O2','CB2']
+bad_channel: [] # bad channel
+l_freq: 1
+h_freq: 75
+notch_freq: 50
+
+################### feature extraction setting ###################
+compute_fea: True
+win_length: 4
+win_type: hanning
+freq_sample_rate: 256
+bands: [4, 8, 13, 20] # theta (4 Hz–8 Hz), alpha (8 Hz–13 Hz), and beta (13 Hz–20 Hz) according to 《DREAMER: A Database for Emotion Recognition Through EEG and ECG Signals From Wireless Low-cost Off-the-Shelf Devices》
+compute_fea_list: ['de'] # feature list, DE, PSD, ...
+
+################### feature selection setting ###################
+select_fea: True
+select_method: RFE # feature selection method
+select_features: 5 # the number of selected features after feature selection
+
