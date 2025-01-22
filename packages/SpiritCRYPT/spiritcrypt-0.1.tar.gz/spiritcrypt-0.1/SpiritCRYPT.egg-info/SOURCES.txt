@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+SpiritCRYPT.egg-info/PKG-INFO
+SpiritCRYPT.egg-info/SOURCES.txt
+SpiritCRYPT.egg-info/dependency_links.txt
+SpiritCRYPT.egg-info/requires.txt
+SpiritCRYPT.egg-info/top_level.txt
