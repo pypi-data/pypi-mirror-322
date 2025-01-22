@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ontoledgy-bnop
+Version: 0.1.1
+Summary: a common top level ontology for bCLEARer based on BORO.
+Author: Mesbah Khan
+Author-email: khanm@ontoledgy.io
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# BNOP
+
+BNOP is a reference library containing the code for the BNOP Domain (BORO Native Objects (Python)).
+
+## Execution
+
+* This code is a library, so not to be run on its own.
+
+## Usage Examples
+
+For examples see usages in the following projects:
+
+* https://github.com/OntoLedgy/ol_bclearer_sdk/tree/develop/pipelines
+
+## Documentation
+
+#### Background
+
+The Agile Manifesto prefers “working software over comprehensive documentation”. Robert C. Martin, one of the original authors of the Agile Manifesto, is also the author of the book Clean Code.
+
+In this book, he makes a strong case for code being self-documenting: saying things such as "always try to explain yourself in code."
+
+He suggests that the goal of every programmer should be to write code so clean and expressive that code comments are unnecessary.
+
+When a programmer writes a comment, it will usually mean that they have failed to write code that was expressive enough. At the extreme, he suggests, maybe a little rhetorically, that "comments are always failures".
+
+#### The OntoLedgy documentation policy
+
+To aim to write code so clean and expressive that code comments are unnecessary.
+
+## Contributing
+
+This package doesn't allow external contributors.
+
+## Liability and Warranty
+
+This code is provided as-is and without warranty.
+
+Under no circumstances will the developers be liable for any incidental, consequential, or indirect damages including but not limited to lost or damaged data, revenue loss, economic loss, or commercial loss arising out of the use of this code.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Acknowledgements
+
+This work was developed initially by BORO Solutions (https://www.borosolutions.net/) and has been updated by ontoledgy to extend the functionality and develop a general development kit based on the BORO model.
+
