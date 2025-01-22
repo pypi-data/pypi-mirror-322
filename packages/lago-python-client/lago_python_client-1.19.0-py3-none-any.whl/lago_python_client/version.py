@@ -1,0 +1,1 @@
+LAGO_VERSION = "1.19.0"
