@@ -1,0 +1,7 @@
+rm -rf dist/
+
+python -m build
+
+pip install dist/timber_nds-*.whl
+
+pip show timber_nds
