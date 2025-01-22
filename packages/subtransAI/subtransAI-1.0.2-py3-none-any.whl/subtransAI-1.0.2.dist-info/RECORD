@@ -1,0 +1,16 @@
+subtitle_translator/__init__.py,sha256=ATZPNVuN4NRQzCWQEuI37_W6VRDwQLiZedhLw1HyBzw,313
+subtitle_translator/cli.py,sha256=g4ab0aFt6xw9v_IxLRj8Pa7AxmUMyvrZCj0qKbAeUsg,1257
+subtitle_translator/config.py,sha256=173roYNLWDtkixmgFrNguKv4cpSp62tw1Yj3En5kOyc,3684
+subtitle_translator/logger.py,sha256=9u8tQKHqyxxxbonUKbih9mhmxK_gQ4zysmaQQzEDnu0,280
+subtitle_translator/openai_client.py,sha256=VaZ3xPZGWVyYcIXHxxc2BTFvIfmAhmXFyFHW4sVXny0,1012
+subtitle_translator/srt_translator.py,sha256=GgE0pT_VrK2fYD0bfkfDzgSmJuL3Qkx-N-CucnuGUE8,12627
+subtitle_translator/location_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subtitle_translator/location_utils/config.py,sha256=Wq9QFEQ3qetbA98B4ax4awe7m3rjVmWJz4SZgCGft6k,103
+subtitle_translator/location_utils/location.py,sha256=iMQpIwh_bMFcp4MFdRY-mPogwIyph9eH5SSRuNHxbcs,2420
+subtransAI-1.0.2.dist-info/AUTHORS.rst,sha256=eneoo931NL51gBoSld9XCHGOfgih4V2UBrDFX5KMu50,152
+subtransAI-1.0.2.dist-info/LICENSE,sha256=A5kKhoCfuRI5ueZRSrL7-ZorzFvHj_K_wmZ6vjESKLc,1065
+subtransAI-1.0.2.dist-info/METADATA,sha256=j6PToCljDWOnLb9RIoae3swfaCvGOswmPtLM7EDGQTE,1838
+subtransAI-1.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+subtransAI-1.0.2.dist-info/entry_points.txt,sha256=tafZYjFK7UMF7ty-M3MScVJ61UNGIBKrybPMy7C5Das,59
+subtransAI-1.0.2.dist-info/top_level.txt,sha256=o17SIfzby8YWEsiZgr6-auiwMnTtc-iGWL5mhQ7MlFg,20
+subtransAI-1.0.2.dist-info/RECORD,,
