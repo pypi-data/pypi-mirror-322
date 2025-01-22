@@ -1,0 +1,13 @@
+trivialai/chatgpt.py,sha256=jVnp7tWM9Z4hTvb-BK8AAOlT-4vJo7NqjvWEFbdirMQ,1054
+trivialai/claude.py,sha256=iQJuevbB2ipVn6PlmpDnq6wRZtyYwgOjL_hBTE9TFsQ,1052
+trivialai/filesystem.py,sha256=M-BiMyz8RENV-IjIe9Nso4BLZAIshbbP8onGSc9YA3M,5825
+trivialai/gcp.py,sha256=YYDstovEm9UQI13hb2MqVCNaI19CAKbynBuTTFPW0BE,2963
+trivialai/llm.py,sha256=ztqKbhLgmConZTsle7xLdKKUcajD4pm0aaMMNgI-pvk,1562
+trivialai/ollama.py,sha256=amA_BdXye5k_52OHCmyzOQK9ntZAbl_XJXDb3doKdo8,693
+trivialai/tools.py,sha256=Ka49LFv7GzkPXyB4uBFV-EN5vNvnPgPxdvenI9OBK1w,3233
+trivialai/util.py,sha256=itaRVSjVEJAOWlMwN8w9MkElNLasirHM4uWubW42AU0,5498
+trivialai-0.1.14.dist-info/LICENSE.txt,sha256=b2-wDfKaXhaq1Y-45KAy9JUwfWXdJ2P3GxQfM0iK7tE,1078
+trivialai-0.1.14.dist-info/METADATA,sha256=m4--EU2-LsE7_Z3DBzHC-JHTAakOEauy0Ay2i9kSXRk,4046
+trivialai-0.1.14.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+trivialai-0.1.14.dist-info/top_level.txt,sha256=l0YoXpoEJGjKI81oVDEN6ijwjaoCU9WK5U0WuLh2KTs,10
+trivialai-0.1.14.dist-info/RECORD,,
