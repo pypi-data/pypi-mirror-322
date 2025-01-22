@@ -1,0 +1,7 @@
+requests>=2.25.1
+urllib3>=1.26.5
+
+[testing]
+pytest>=6.0
+pytest-cov
+tox
