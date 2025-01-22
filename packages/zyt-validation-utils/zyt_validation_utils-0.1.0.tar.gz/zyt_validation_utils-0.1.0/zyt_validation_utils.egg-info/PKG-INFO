@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: zyt-validation-utils
+Version: 0.1.0
+Summary: A utility package for various validation checks
+Home-page: https://github.com/yourusername
+Author: ZhangYuetao
+Author-email: zhang894171707@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# zyt_validation_utils
+
+[![PyPI Version](https://img.shields.io/pypi/v/zyt_validation_utils.svg)](https://pypi.org/project/zyt_validation_utils/)
+[![License](https://img.shields.io/pypi/l/zyt_validation_utils.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/pypi/pyversions/zyt_validation_utils.svg)](https://www.python.org/downloads/)
+
+**zyt_validation_utils** 是一个用于数据、文件、目录和文本验证的 Python 工具包。它提供了多种实用的验证函数，帮助开发者快速完成常见的数据检查任务。
+
+---
+
+## 功能特性
+
+### 数据验证：
+- 检查列表中的元素是否全部为指定类型。
+- 检查列表中的元素是否唯一。
+
+### 目录验证：
+- 检查路径是否为目录。
+- 检查目录是否为空。
+- 检查目录是否包含子目录或非子目录文件。
+
+### 文件验证： 
+- 检查路径是否为文件。
+- 检查文件类型（如音频、视频、图片、压缩文件等）。
+- 检查文件是否加载完整。
+
+### 文本验证：
+- 检查文本是否全为中文、英文、数字或特殊字符。
+- 检查文本中是否包含中文、英文、数字或特殊字符。
+- 检查文本中是否包含给定的字符或子字符串。
+
+---
+
+## 安装
+
+使用 `pip`  安装：
+
+```bash 
+pip install zyt_validation_utils 
+```
+---
+
+
+## 贡献
+
+欢迎贡献代码！
+
+## 许可证
+
+本项目基于 [MIT 许可证](LICENSE) 开源。
+
+## 作者
+
+- **ZhangYuetao** - 项目开发者
+- 邮箱: zhang894171707@gmail.com
+- GitHub: [https://github.com/VerySeriousMan](https://github.com/VerySeriousMan)
+
+## 致谢
+
+感谢所有为这个项目做出贡献的人！
+
