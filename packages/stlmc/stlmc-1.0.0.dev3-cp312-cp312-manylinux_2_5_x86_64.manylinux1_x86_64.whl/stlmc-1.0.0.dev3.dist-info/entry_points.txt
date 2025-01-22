@@ -1,0 +1,4 @@
+[console_scripts]
+stlmc = stlmc.cli.mc:main
+stlmc-vis = stlmc.cli.visualize:main
+
