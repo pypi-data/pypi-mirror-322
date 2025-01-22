@@ -1,0 +1,11 @@
+.git/*
+dist/*
+.*
+.idea/*
+.project/*
+.venv/*
+eezz.egg-info/*
+eezz/__pycache__/*
+eezz/.idea/*
+docs/_build
+*__pycache__*
