@@ -1,0 +1,26 @@
+{
+    "name": "KAssess",
+    "build": {
+        "dockerfile" : "Dockerfile",
+        "context": "../",
+        "args": {
+            "USER_ID": "${localEnv:UID}",
+            "GROUP_ID": "${localEnv:GID}"
+        }
+    },
+    "runArgs": [
+        "--gpus", "all"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
+    },
+    "postCreateCommand": "conda activate KAssess"
+    // "remoteUser": "user"
+}
