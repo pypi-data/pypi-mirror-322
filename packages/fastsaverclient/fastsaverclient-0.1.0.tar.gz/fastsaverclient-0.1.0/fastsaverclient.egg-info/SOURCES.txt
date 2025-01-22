@@ -1,0 +1,9 @@
+README.md
+setup.py
+fastsaverclient/__init__.py
+fastsaverclient/client.py
+fastsaverclient.egg-info/PKG-INFO
+fastsaverclient.egg-info/SOURCES.txt
+fastsaverclient.egg-info/dependency_links.txt
+fastsaverclient.egg-info/requires.txt
+fastsaverclient.egg-info/top_level.txt
