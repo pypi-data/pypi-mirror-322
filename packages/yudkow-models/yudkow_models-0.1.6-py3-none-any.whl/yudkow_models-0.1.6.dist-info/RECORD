@@ -1,0 +1,10 @@
+yudkow_models/Blip2.py,sha256=Hc70cl45Xi4BlILPEYuJcdivlMse5FbQbusEyGe2jGs,528
+yudkow_models/ChatGPT.py,sha256=_hbrMVi9WzlpcKJSzs9vyjLub36rt2siA0uBHqM__L4,720
+yudkow_models/MiniLM.py,sha256=g84Qo9FhnKGJxQAqD2mQzMIKymbuaXnFQHTQxYP-Vm8,690
+yudkow_models/T5.py,sha256=uAzuWIicNFIPzL2yWIOy5H9oVjTUzM_WxdpNMlx3QLE,810
+yudkow_models/Translator.py,sha256=aIsj2e-kZJ-Ktmi2iTAvRUybF0hBmxNbaUxZB9537d0,803
+yudkow_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yudkow_models-0.1.6.dist-info/METADATA,sha256=gSdLUmm83jTMsFOR4eAW-a5XKpOXw7QrJk0BkUBZ6BE,419
+yudkow_models-0.1.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+yudkow_models-0.1.6.dist-info/top_level.txt,sha256=TZb1eg_K0HBko4AC6lnAWz8x_78XsPd3ipGkViU4qKE,14
+yudkow_models-0.1.6.dist-info/RECORD,,
