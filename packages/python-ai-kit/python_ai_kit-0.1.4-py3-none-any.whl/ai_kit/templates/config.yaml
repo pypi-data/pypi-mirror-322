@@ -1,0 +1,41 @@
+version: "0.1.0"
+scripts_dir: scripts
+prompts_dir: prompts
+local_dir: local  # Directory for local script storage
+templates:
+  script_prefix: ""
+  prompt_prefix: "P-"
+logging:
+  level: "ERROR"  # Default logging level (DEBUG, INFO, WARNING, ERROR)
+  file: "~/.ai-kit/ai-kit.log"  # Log file location
+  format:
+    console: "%(levelname)s - %(message)s"  # Simple format for console
+    file: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"  # Detailed format for file
+models:
+  reason:
+    default: "o1-mini"  # Default reasoning model
+    supported: ["o1-mini", "o1-preview"]  # List of supported models
+  embeddings:
+    default: "text-embedding-3-small"
+    supported: ["text-embedding-3-small", "text-embedding-3-large"]
+
+scripts:
+  reason:
+    name: reason
+    description: "Generate a reasoned response using AI"
+    args:
+      - prompt
+      - "--model"  # Optional model selection
+  search:
+    name: search
+    description: "Search the web using DuckDuckGo"
+    args:
+      - query
+      - "--max-results"  # Optional max results limit
+  crawler:
+    name: crawler
+    description: "Crawl documentation sites and save as markdown"
+    args:
+      - url
+      - "--force"  # Optional force re-crawl flag
+      - "--max-pages"  # Optional max pages limit
