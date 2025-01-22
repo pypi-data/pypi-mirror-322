@@ -1,0 +1,2 @@
+[console_scripts]
+mp3chaps2 = mp3chaps2.mp3chaps:main
