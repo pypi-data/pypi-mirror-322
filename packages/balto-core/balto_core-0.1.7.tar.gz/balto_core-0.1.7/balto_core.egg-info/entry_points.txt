@@ -1,0 +1,2 @@
+[console_scripts]
+balto = balto.cli.main:cli
