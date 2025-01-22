@@ -1,0 +1,28 @@
+[project]
+name = "liquibase-checks-python"
+version = "2.0.0"
+license = {file = "Liquibase Pro EULA Software License Subscription and Support Agreement"}
+authors = [
+  { name="Liquibase Team", email="support@liquibase.com" },
+]
+description = "Use python to write your custom policy checks for Liquibase"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Database",
+]
+dependencies = [
+  "simplejson==3.19.2",
+  "sqlparse==0.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest"
+]
+
+[project.urls]
+Homepage = "https://www.liquibase.com/"
+Issues = "https://www.liquibase.com/support"
