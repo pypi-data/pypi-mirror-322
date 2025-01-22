@@ -1,0 +1,122 @@
+# curl-to-context
+
+A command-line tool to convert cURL commands into Python code for Grab or Context frameworks.
+
+## Installation
+
+Install using pip:
+
+```bash
+pip install curl-to-context
+```
+
+## Usage
+
+### Command Line
+
+1. Copy your cURL command to clipboard
+2. Run one of these commands:
+
+    ```bash
+    Interactive mode - will ask you to choose framework
+    curl-to-context
+    Or specify framework directly
+    curl-to-context -f grab # For Grab framework
+    curl-to-context -f context # For Context framework
+    ```
+
+3. The converted Python code will be automatically copied to your clipboard
+
+### Example
+
+Input (in clipboard):
+
+```bash
+bash
+curl 'https://api.example.com/data' \
+-H 'accept: application/json' \
+-H 'cookie: session=abc123' \
+-H 'user-agent: Mozilla/5.0'
+```
+
+Output (for Grab framework):
+
+```python
+def method_name(self):
+self.g.setup(cookies={
+'session': 'abc123',
+})
+self.g.setup(headers={
+'accept': 'application/json',
+'user-agent': 'Mozilla/5.0',
+})
+# URL: https://api.example.com/data
+```
+
+Output (for Context framework):
+
+```python
+def method_name(self):
+self.context.cookies.update({
+'session': 'abc123',
+})
+self.context.headers.update({
+'accept': 'application/json',
+'user-agent': 'Mozilla/5.0',
+})
+# URL: https://api.example.com/data
+```
+
+## Features
+
+- Converts cURL commands to Python code
+- Supports both Grab and Context frameworks
+- Extracts and formats:
+    - Cookies
+    - Headers
+    - URL
+    - POST data (if present)
+- Uses clipboard for easy copy-paste workflow
+- Interactive framework selection
+
+## Requirements
+
+- Python 3.8 or higher
+- pyperclip
+
+## Development
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/tadeasf/curl-to-context.git
+    cd curl-to-context
+    ```
+
+2. Install dependencies using Rye:
+
+    ```bash
+    rye run convert
+    ```
+
+## License
+
+GPL 3.0
+
+## Author
+
+tadeasf <business@tadeasfort.com>
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## Issues
+
+If you find any bugs or have feature requests, please create an issue on GitHub.
