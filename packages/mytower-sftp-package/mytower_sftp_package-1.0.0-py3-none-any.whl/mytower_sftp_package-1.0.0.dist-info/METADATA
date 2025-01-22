@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: mytower_sftp_package
+Version: 1.0.0
+Summary: A reusable SFTP client package for Python
+Home-page: https://github.com/yourusername/sftp_package
+Author: moustapha.cheikh
+Author-email: bounesadava@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: paramiko
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# SFTP Package
+
+A Python package to handle SFTP file operations.
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install mytower_sftp_package
