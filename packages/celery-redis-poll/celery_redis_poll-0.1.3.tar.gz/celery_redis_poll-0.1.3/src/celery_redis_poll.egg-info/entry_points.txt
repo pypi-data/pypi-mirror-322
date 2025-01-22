@@ -1,0 +1,3 @@
+[celery.result_backends]
+redisclusterpoll = celery_redis_poll.backend:PollingRedisClusterBackend
+redispoll = celery_redis_poll.backend:PollingRedisBackend
