@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+babika/__init__.py
+babika.egg-info/PKG-INFO
+babika.egg-info/SOURCES.txt
+babika.egg-info/dependency_links.txt
+babika.egg-info/top_level.txt
