@@ -1,0 +1,467 @@
+Metadata-Version: 2.2
+Name: bio-shark
+Version: 2.0.2
+Summary: SHARK (Similarity/Homology Assessment by Relating K-mers)
+Home-page: https://git.mpi-cbg.de/tothpetroczylab/shark
+Author: Willis Chow <chow@mpi-cbg.de>, Soumyadeep Ghosh <soumyadeep11194@gmail.com>, Anna Hadarovich <hadarovi@mpi-cbg.de>, Agnes Toth-Petroczy <tothpet@mpi-cbg.de>, Maxim Scheremetjew <schereme@mpi-cbg.de>
+Author-email: chow@mpi-cbg.de
+Project-URL: Homepage, https://git.mpi-cbg.de/tothpetroczylab/shark
+Project-URL: Documentation, https://git.mpi-cbg.de/tothpetroczylab/shark/-/blob/master/README.md
+Project-URL: Funding, https://www.mpi-cbg.de/
+Project-URL: Repository, https://git.mpi-cbg.de/tothpetroczylab/shark
+Project-URL: Issue tracker, https://git.mpi-cbg.de/tothpetroczylab/shark/-/issues
+Keywords: intrinsically disordered protein regions,motif detection,IDRs,sequence-to-function,alignment-free,machine learning,homology detection
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.8,<3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests~=2.32.0
+Requires-Dist: catboost>=1.0.0
+Requires-Dist: matplotlib>=3.5
+Requires-Dist: pandas>=1.3
+Requires-Dist: logomaker~=0.8
+Requires-Dist: alfpy~=1.0.6
+Requires-Dist: numpy<2.0.0
+Requires-Dist: seaborn==0.13.2
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+<h1 align="center">
+<img src="https://git.mpi-cbg.de/tothpetroczylab/shark/-/raw/master/branding/logo/SHARKs.svg" width="300">
+</h1><br>
+
+# SHARK (Similarity/Homology Assessment by Relating K-mers)
+
+[![Build Status](https://git.mpi-cbg.de/tothpetroczylab/shark/badges/master/pipeline.svg)](https://git.mpi-cbg.de/tothpetroczylab/shark/-/pipelines)
+[![Coverage Status](https://git.mpi-cbg.de/tothpetroczylab/shark/badges/master/coverage.svg)](https://git.mpi-cbg.de/tothpetroczylab/shark/-/pipelines)
+[![PyPI Version](https://img.shields.io/pypi/v/bio-shark.svg)](https://pypi.org/project/bio-shark/#history)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/bio-shark.svg?label=PyPI%20downloads)](
+https://pypi.org/project/bio-shark/#files)
+[![Proc Natl Acad Sci U S A](https://img.shields.io/badge/DOI-10.1073%2Fpnas.2401622121-blue)](
+https://doi.org/10.1073/pnas.2401622121)
+[![License](https://img.shields.io/pypi/l/bio-shark.svg)](https://git.mpi-cbg.de/tothpetroczylab/shark/-/blob/master/LICENSE)
+
+To accurately assess homology between unalignable sequences, we developed an alignment-free sequence comparison algorithm, SHARK (Similarity/Homology Assessment by Relating K-mers).
+
+- [SHARK-tools](#shark-tools)
+  - [SHARK-Score](#1-shark-score)
+  - [SHARK-Dive](#2-shark-dive)
+  - [SHARK-capture](#3-shark-capture)
+- [User Section](#user-section)
+  - [Installation](#installation)
+- [How to use?](#how-to-use)
+- [How to run shark-capture using the provide Dockerfile?](#how-to-run-shark-capture-using-the-provide-dockerfile)
+- [How to run the provided Jupyter notebook?](#how-to-run-the-provided-jupyter-notebook)
+- [Publication](#publication)
+
+## SHARK-tools 
+
+We trained SHARK-dive, a machine learning homology classifier, which achieved superior performance to standard alignment in assessing homology in unalignable sequences, and correctly identified dissimilar IDRs capable of functional rescue in IDR-replacement experiments reported in the literature.
+
+### 1. SHARK-Score
+Scoring the similarity between a pair of sequence
+
+Variants:
+   1. Normal (`SHARK-score (T)`)
+   2. Sparse (`SHARK-score (best)`)
+
+### 2. SHARK-Dive
+Find sequences similar to a given query from a target set 
+
+### 3. SHARK-capture
+Find conserved motifs (k-mers) amongst a set of (similar) sequences
+
+## User Section
+
+### Installation
+
+SHARK officially supports Python versions >=3.8,<3.13.
+
+**Recommended** Use within a local Python virtual environment
+
+```shell
+python3 -m venv /path/to/new/virtual/environment
+```
+
+#### SHARK is installable from PyPI
+
+The collection of SHARK tools is available in PyPI and can be installed via pip. Versions <2.0.0 include SHARK-Dive and SHARK-Score only.
+From version >=2.0.0 on, SHARK-capture is also included.
+
+```shell
+$ pip install bio-shark
+```
+
+#### SHARK is also installable from source
+
+* This allows users to import functionalities as a python package 
+* This also allows user to run the functionalities as a command line utility 
+
+```shell
+$ git clone git@git.mpi-cbg.de:tothpetroczylab/shark.git
+```
+Once you have a copy of the source, you can embed it in your own Python package, or install it into your site-packages easily.
+
+```shell
+# Make sure you have the required Python version installed
+$ python3 --version
+Python 3.11.5
+
+$ cd shark
+$ python3 -m venv shark-env
+$ source shark-env/bin/activate
+$ (shark-env) % python -m pip install .
+```
+
+#### SHARK is also installable from GitLab source directly
+
+```shell
+$ pip install git+https://git.mpi-cbg.de/tothpetroczylab/shark.git
+```
+
+### How to use?
+
+#### 1. SHARK-scores: Given two protein sequences and a k-mer length (1 to 20), score the similarity b/w them 
+
+##### Inputs
+
+1. Protein Sequence 1
+2. Protein Sequence 2
+3. Scoring-variant: Normal / Sparse / Collapsed
+   1. Threshold (for "normal")
+4. K-Mer Length (Should be <= smallest_len(sequences))
+
+##### 1.1. As a command-line utility
+* Run the command `shark-score` along with input fasta files and scoring parameters
+* Instead of input fasta files (--infile or --dbfile), a pair of query-target sequences can also be provided, e.g.:
+```shell
+% shark-score QUERYSEQUENCE TARGETSEQUENCE -k 5 - t 0.95 -s threshold -o results.tsv
+```
+* Note that if a FASTA file is provided, it will be used instead.
+* The overall usage is as follows:
+
+```shell
+% shark-score --infile <path/to/query/fasta/file> --dbfile <path/to/target/fasta/file> --outfile <path/to/result/file> --length <k-mer length> --threshold <shark-score threshold> 
+usage: shark-score [-h] [--infile INFILE] [--dbfile DBFILE] [--outfile OUTFILE] [--scoretype {best,threshold,NGD}] [--length LENGTH] [--threshold THRESHOLD] [query] [target]
+
+Run SHARK-Scores (best or T=x variants) or Normalised Google Distance Scores. Note that if a FASTA file is provided, it will be used instead.
+
+positional arguments:
+  query                 Query sequence
+  target                Target sequence
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --infile INFILE, -i INFILE
+                        Query FASTA file
+  --dbfile DBFILE, -d DBFILE
+                        Target FASTA file
+  --outfile OUTFILE, -o OUTFILE
+                        Result file
+  --scoretype {best,threshold,NGD}, -s {best,threshold,NGD}
+                        Score type: best or threshold or NGD. Default is threshold.
+  --length LENGTH, -k LENGTH
+                        k-mer length
+  --threshold THRESHOLD, -t THRESHOLD
+                        threshold for SHARK-Score (T=x) variant
+```
+
+##### 1.2. As an imported python package
+
+```python
+from bio_shark.dive import run
+
+result = run.run_normal(
+    sequence1="LASIDPTFKAN",
+    sequence2="ERQKNGGKSDSDDDEPAAKKKVEYPIAAAPPMMMP",
+    k=3,
+    threshold=0.8
+)
+print(result)
+0.2517953859
+# `run_sparse` and `run_collapsed` have similar input structure except for `threshold`
+```
+
+#### 2. SHARK-Dive: Homology Assessment between two sequences
+
+##### 2.1. As an imported python package
+
+```python
+from bio_shark.dive.prediction import Prediction
+from bio_shark.core import utils
+
+id_sequence_map1 = utils.read_fasta_file(file_path="<absolute-file-path-query-fasta>")
+id_sequence_map2 = utils.read_fasta_file(file_path="<absolute-file-path-target-fasta>")
+
+predictor = Prediction(q_sequence_id_map=id_sequence_map1, t_sequence_id_map=id_sequence_map2)
+
+output = predictor.predict() # List of output objects; Each element is for one pair
+```
+
+##### 2.2. As a command-line utility
+- Run the command `shark-dive` with the absolute path of the sequence fasta files as only argument
+- Sequences should be of length > 10, since `prediction` is always based on scores of k = [1..10]
+- _You may use the `sample_fasta_file.fasta` from `data` folder (Owncloud link)_
+
+
+```shell
+usage: shark-dive [-h] [--output_dir OUTPUT_DIR] query target
+
+DIVE-Predict: Given some query sequences, compute their similarity from the list of target sequences;Target is
+supposed to be major database of protein sequences
+
+positional arguments:
+  query       Absolute path to fasta file for the query set of input sequences
+  target      Absolute path to fasta file for the target set of input sequences
+
+options:
+  -h, --help  show this help message and exit
+  --output_dir OUTPUT_DIR
+                        Output folder (default: current working directory)
+  
+$ shark-dive "<query-fasta-file>.fasta" "<target-fasta-file>.fasta"
+Read fasta file from path <query-fasta-file>.fasta; Found 4 sequences; Skipped 0 sequences for having X
+Read fasta file from path <target-fasta-file>.fasta; Found 6 sequences; Skipped 0 sequences for having X
+Output stored at <OUTPUT_DIR>/<path-to-sequence-fasta-file>.fasta.csv
+```
+
+- Output CSV has the following column headers: 
+    - (1) "Query": Fasta ID of sequence from Query list
+    - (2) "Target": Fasta ID of sequence from Target list
+    - (3..12) "SHARK-Score (k=*)": Similarity score between the two sequences for specific k-value
+    - (13) "SHARK-Dive": Aggregated similarity score over all lengths of k-mer
+
+##### 2.3. Parallelised Runs of SHARK-Dive
+- Each k-mer score is run in parallel, with a final aggregation step of the 10 k-mer scores, whereupon SHARK-Dive is run.
+- change the environmental variables in parallel_run_example_environment.env (or create your own!)
+- navigate to the parallel_run folder
+- run parallel_run.sh
+
+```shell
+$ bash parallel_run.sh
+...
+Read fasta file from path ../data/IDR_Segments.fasta; Found 6 sequences; Skipped 0 sequences for having non-canonical AAs
+All sequences are present! Proceeding with SHARK-dive prediction...
+Finished in 0.10163092613220215 seconds
+121307136
+SHARK-dive prediction complete!
+Elapsed Time: 3 seconds
+```
+
+#### 3. SHARK-Capture: Capture conserved k-mers from a set of sequences (SHARK-capture)
+
+_Refer to this READme as an example to run capture using multi-processing using `capture/compute.py`_
+
+_Refer to `capture/compute_slurm/README.md` to run CAPTURE pipeline on an HPC (using the SLURM workload manager)_
+
+##### 3.1 As a command-line utility
+Run the Python command `shark-capture` with the following positional arguments:
+1. path_to_fasta_file
+2. output_directory (automatically created and clobbered)
+
+Optional arguments include
+- --outfile: name of consensus k-mers output file, default = sharkcapture_consensus_kmers.txt. Created in output_directory
+- --k_min: Minimum k-mer length of captured motifs, default = 3
+- --k_max: Maximum k-mer length of captured motifs, default = 10
+- --n_output: Number of top consensus k-mers to output and process for subsequent visualization steps, default = 10
+- --n_processes: No. of processes (python multiprocessing), default = 8
+- --log: Flag to show scores in log scale (base 10) for per-sequence k-mer matches plot
+- --extend: Enable SHARK-capture Extension Protocol
+- --cutoff: Percentage cutoff for SHARK-capture Extension Protocol, default 0.9
+- --no_per_sequence_kmer_plots: Flag to suppress plotting of per-sequence k-mer matches. Mutually exclusive with --sequence_subset
+- --sequence_subset: Comma-separated sequence identifiers or substrings to generate output for per-sequence k-mer matches plot, e.g. "sequence_id_1,sequence_id_2". By default, plots for all sequences. Mutually exclusive with --no_per_sequence_kmer_plots
+- --help: Show this help message and exit
+
+Note that, in the command-line run, folders are automatically created and named according to sharkcapture default naming
+conventions. Hadamard matrices are stored in the hadamard_{k-mer_length} folder as all_hadamards.json_all and conserved k-mers are stored in the
+conserved_kmers folder as k_{k-mer length}.json
+
+Example:
+```shell
+$ shark-capture -h
+usage: shark-capture [-h] [--outfile OUTFILE] [--k_min K_MIN] [--k_max K_MAX] [--n_output N_OUTPUT]
+                     [--n_processes N_PROCESSES] [--log] [--extend] [--cutoff CUTOFF]
+                     [--no_per_sequence_kmer_plots | --sequence_subset SEQUENCE_SUBSET]
+                     sequence_fasta_file_path output_dir
+
+SHARK-capture: An alignment-free, k-mer x similarity-based motif detection tool
+
+positional arguments:
+  sequence_fasta_file_path
+                        Absolute path to fasta file of input sequences
+  output_dir            Output folder path
+
+options:
+  -h, --help            show this help message and exit
+  --outfile OUTFILE     name of consensus k-mers output file
+  --k_min K_MIN         Min k-mer length of captured motifs
+  --k_max K_MAX         Max k-mer length of captured motifs
+  --n_output N_OUTPUT   number of top consensus k-mers to output and process for subsequent steps
+  --n_processes N_PROCESSES
+                        No. of processes (python multiprocessing
+  --log                 flag to show scores in log scale (base 10) for per-sequence k-mer matches plot
+  --extend              enable SHARK-capture Extension Protocol
+  --cutoff CUTOFF       Percentage cutoff for SHARK-capture Extension Protocol, default 0.9
+  --no_per_sequence_kmer_plots
+                        flag to suppress plotting of per-sequence k-mer matches.Mutually exclusive with
+                        --sequence_subset
+  --sequence_subset SEQUENCE_SUBSET
+                        comma separated sequence identifiers or substrings to generate output for per-sequence
+                        k-mer matches plot, e.g. "sequence_id_1,sequence_id_2". By default, plots for all
+                        sequences. Mutually exclusive with --no_per_sequence_kmer_plots.
+                        
+                        
+$ shark-capture "<query-fasta-file>.fasta" "<output-directory-name>" --n_output 20 --outfile top20.txt
+Read fasta file from path <query-fasta-file>.fasta; Found 4 sequences; Skipped 0 sequences for having X
+Processing K=3
+Collected args (sequence pairs): 36046
+k=3 - Created master input data file at <output-directory-name>/input_params/k_3.json
+Completed processing. Gathered hadamard reciprocals for: 36046
+Hadamard sorted k-mer score mapping stored at <output-directory-name>/hadamard_3/all_hadamards.json_all
+Search space (no. unique k-mers): 2684
+Hadamard sorted k-mer score mapping stored at <output-directory-name>/conserved_kmers/k_3.json
+
+...
+
+Processing K=10
+Collected args (sequence pairs): 36046
+k=10 - Created master input data file at <output-directory-name>/input_params/k_10.json
+Completed processing. Gathered hadamard reciprocals for: 36046
+Hadamard sorted k-mer score mapping stored at <output-directory-name>/hadamard_10/all_hadamards.json_all
+Search space (no. unique k-mers): 15069
+Hadamard sorted k-mer score mapping stored at <output-directory-name>/conserved_kmers/k_10.json
+Reporting top 20 K-Mers, stored in top20.txt
+SHARK-capture completed successfully! All outputs stored in <output-directory-name>
+```
+The main outputs are:
+1. a comma-separated, ranked table of the top consensus k-mers and their corresponding shark-capture score as 
+sharkcapture_consensus_kmers.txt
+2. a tab-separated table for each consensus k-mer listing the occurrences of the best reciprocal match (if found) in 
+each sequence as sharkcapture_{consensus_k-mer}_occurrences.tsv. The **columns** indicate (in order):
+    1. **Sequence ID**
+    2. The consensus k-mer (also known as the **Reference k-mer**)
+    3. best reciprocal **Match** to the consensus k-mer in the sequence
+    4. **Start** position of the match
+    5. **End** position of the match
+
+
+3. a probability matrix generated from the matched occurrence table for each consensus k-mer 
+as {consensus_k-mer}_probabilitymatrix.csv
+4. a sequence-logo-like visual representation of the conservation (information content) of each consensus k-mer, 
+generated from the probability matrix as {consensus_k-mer}_logo.png
+
+## How to run shark-capture using the provide Dockerfile?
+
+### Requirements
+
+* Get yourself familiar with Docker and how to build and run a Docker containers. Docker is well documented and a good starting point would be [here](https://docs.docker.com/get-started/).
+* Get docker installed
+
+### Building your Docker image
+
+```shell
+$ docker build . -f Dockerfile -t atplab/bio-shark
+```
+
+### Run your image as a container
+
+```shell
+# Run shark-capture with the help option to start with
+$ docker run atplab/bio-shark -h
+
+# You also need to map inputs and outputs volumes from inside the container to your local file system, when you run the docker service
+$ docker run -v /Users/maxim/PycharmProjects/shark-capture/ci/IDR_Segments.fasta:/app/inputs/IDR_Segments.fasta \
+             -v /Users/maxim/PycharmProjects/shark-capture/outputs:/app/outputs \
+             atplab/bio-shark /app/inputs/IDR_Segments.fasta outputs
+```
+
+### Create an interactive bash shell into the container
+
+```shell
+$ docker run -it --entrypoint sh atplab/bio-shark
+```
+
+## How to run the provided Jupyter notebook?
+
+Examples of how to use and run SHARK are shown in a provided Jupyter notebook. The notebook can be found under the
+**notebooks** folder.
+
+### What is Jupyter Notebook?
+
+Please read documentation [here](https://saturncloud.io/blog/how-to-launch-jupyter-notebook-from-your-terminal/#what-is-jupyter-notebook).
+
+
+### How to create a virtual environment and install all required Python packages.
+
+Create a virtual environment by executing the command venv:
+```shell
+$ python -m venv /path/to/new/virtual/environment
+# e.g.
+$ python -m venv my_jupyter_env
+```
+
+Then install the classic Jupyter Notebook and the seaborn dependency with:
+```shell
+$ source my_jupyter_env/bin/activate
+
+$ pip install notebook seaborn
+```
+Also install bio-shark from source in the same virtual environment...
+```shell
+$ pip install .
+```
+Finally create a new Kernel using ipykernel...
+
+```shell
+python -m ipykernel install --user --name my_jupyter_env --display-name "Python (my_jupyter_env)"
+```
+
+### How to Launch Jupyter Notebook from Your Terminal?
+
+In your terminal source the previously created virtual environment...
+```shell
+$ source my_jupyter_env/bin/activate
+```
+Launch Jupyter Notebook...
+```shell
+$ jupyter notebook
+```
+In the jupyter browser GUI, open the example notebook called 'dive_feature_viz.ipynb' under the notebooks folder.
+
+Once that is done, change the kernel in the GUI, before your execute the notebook itself. This will make sure you
+operate on the correct virtual Python environment, which contains all required dependencies like for instance, seaborn.
+
+<img src="https://git.mpi-cbg.de/tothpetroczylab/shark/-/raw/master/docs/screenshot_kernel_change.png" width="300">
+    
+## Publications
+
+### SHARK-Dive
+
+***SHARK enables sensitive detection of evolutionary homologs and functional analogs in unalignable and disordered sequences.***
+Chi Fung Willis Chow, Soumyadeep Ghosh, Anna Hadarovich, and Agnes Toth-Petroczy. 
+Proc Natl Acad Sci U S A. 2024 Oct 15;121(42):e2401622121. doi: [10.1073/pnas.2401622121](https://www.doi.org/10.1073/pnas.2401622121). Epub 2024 Oct 9. PMID: 39383002.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+

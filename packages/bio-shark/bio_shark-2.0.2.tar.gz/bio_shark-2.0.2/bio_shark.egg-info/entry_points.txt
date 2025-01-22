@@ -1,0 +1,4 @@
+[console_scripts]
+shark-capture = bio_shark.capture.compute:main
+shark-dive = bio_shark.dive.prediction:main
+shark-score = bio_shark.dive.calculate_kmer_scores:main
