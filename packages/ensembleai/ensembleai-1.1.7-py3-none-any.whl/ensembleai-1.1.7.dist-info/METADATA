@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: ensembleai
+Version: 1.1.7
+Author: Shreyas Jain, Prakhar Jain, Kushagra Jain
+Author-email:  shreyasjain.feb@gmail.com, prakharjain2004@gmail.com, kushagrajain.feb@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: groq
+Requires-Dist: wikipedia-api
+Requires-Dist: youtube_transcript_api
+Requires-Dist: PyPDF2
+Requires-Dist: faiss-cpu
+Requires-Dist: langchain_community
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
