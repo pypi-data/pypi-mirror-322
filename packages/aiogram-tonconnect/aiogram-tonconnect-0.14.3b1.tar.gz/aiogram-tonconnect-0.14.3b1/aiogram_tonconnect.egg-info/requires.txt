@@ -1,0 +1,7 @@
+aiogram
+aiohttp
+cachetools
+pillow
+tonutils==0.2.3b11
+qrcode-styled
+redis
