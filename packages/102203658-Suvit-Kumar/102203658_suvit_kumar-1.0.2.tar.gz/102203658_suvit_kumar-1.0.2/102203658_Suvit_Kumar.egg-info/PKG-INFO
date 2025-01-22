@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: 102203658_Suvit_Kumar
+Version: 1.0.2
+Summary: A Python implementation of the TOPSIS method for multi-criteria decision making.
+Home-page: https://pypi.org/project/102203658-Suvit-Kumar/1.0.1/
+Author: Suvit Kumar
+Author-email: skumar5_be22@thapar.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# TOPSIS - Technique for Order Preference by Similarity to Ideal Solution
+
+TOPSIS is a multi-criteria decision analysis method. It is based on the concept that the chosen alternative should have the shortest geometric distance from the positive ideal solution and the longest geometric distance from the negative ideal solution.
+
+## Features
+- Easy implementation of TOPSIS in Python.
+- Suitable for ranking and decision-making tasks.
+- Handles datasets with multiple criteria and alternatives.
+
+## Installation
+You can install the package using pip:
+```bash
+pip install 102203658_Suvit_Kumar
+
+## Usage
+
+from 102203658_Suvit_Kumar import topsis
+
+# Example usage
+criteria_weights = [0.4, 0.3, 0.3]
+dataset = [
+    [250, 16, 12],
+    [200, 20, 8],
+    [300, 12, 10],
+]
+impact = ['+', '+', '-']
+
+ranked_alternatives = topsis(dataset, criteria_weights, impact)
+print(ranked_alternatives)
+
+## License
+This project is licensed under the MIT License.
+
+
