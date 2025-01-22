@@ -1,0 +1,80 @@
+[project]
+name = "mtmairoot"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "browser-use>=0.1.22",
+    "langchain-core>=0.3.29",
+    "mtmai",
+    "nanoid>=2.0.0",
+    "nest-asyncio>=1.6.0",
+    "pgvector>=0.3.6",
+    "playwright>=1.49.1",
+    "pydantic>=2.9.2",
+    "pydantic-settings>=2.7.1",
+    "structlog>=24.4.0",
+    "urllib3>=2.3.0",
+]
+
+[tool.uv.sources]
+mtmai = { workspace = true }
+
+[tool.uv.workspace]
+members = ["packages/*"]
+exclude = [
+    "packages/libs",
+    "packages/mtmtrain",
+    "packages/mtcrawl",
+    "packages/mtmaiapi",
+    "packages/mtxuilib",
+    "packages/mtxlib",
+    "packages/mtmaifrontui",
+    "packages/mtmaiui-backup",
+    "packages/mtxuilib-backup",
+    "packages/mtmaiui",
+]
+
+[tool.setuptools]
+packages = ["mtmairoot"]
+package-dir = { "" = "." }
+
+
+[build-system]
+requires = ["hatchling>=1.0.0", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+packages = ["mtmairoot"]
+exclude = ["tests/**", "examples/**"]
+
+[tool.hatch.version]
+source = "vcs"
+
+#[tool.hatch.build.hooks.vcs]
+#version-file = "mtmairoot/_version.py"
+
+# [tool.hatch.build.targets.wheel]
+# packages = ["src"]
+
+# [tool.hatch.build.targets.sdist]
+# include = [
+#     "src",
+#     "pyproject.toml",
+#     "README.md",
+#     "LICENSE",
+# ]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[dependency-groups]
+dev = ["burr[start]==0.22.1", "sphinx==6.0", "furo==2024.5.6"]
+
+[tool.uv]
+dev-dependencies = [
+    "poethepoet>=0.31.1",
+    "pytest-asyncio>=0.24.0",
+    # "pytest==8.0.0",
+    "pytest-mock>=3.14.0",
+    "pylint>=3.2.5",
+]
