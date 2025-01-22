@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chartspan"
+version = "0.1.1"
+description = "A lightweight Python library for rendering Vega-Lite JSON charts in Jupyter/Colab."
+readme = "README.md"
+authors = [
+    {name = "David Jeremiah", email = "flasconnect@gmail.com"}
+]
+dependencies = ["IPython>=7.0"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://github.com/davidkjeremiah/chartspan"
+Issues = "https://github.com/davidkjeremiah/chartspan"
+
+[tool.setuptools.packages.find]
+include = ["chartspan", "tests"]
+
+[tool.setuptools]
