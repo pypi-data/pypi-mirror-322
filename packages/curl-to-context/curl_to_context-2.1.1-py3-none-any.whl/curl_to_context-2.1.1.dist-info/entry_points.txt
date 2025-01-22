@@ -1,0 +1,6 @@
+[console_scripts]
+c2c = curl_to_context.main:app
+curl-to-context = curl_to_context.main:app
+
+[gui_scripts]
+
