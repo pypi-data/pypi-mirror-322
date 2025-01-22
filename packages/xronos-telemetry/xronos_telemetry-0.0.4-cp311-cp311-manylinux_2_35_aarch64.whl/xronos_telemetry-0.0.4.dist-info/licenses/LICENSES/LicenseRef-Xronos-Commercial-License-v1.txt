@@ -1,0 +1,97 @@
+Xronos Commercial License Agreement v1
+
+Copyright (c) 2024, Xronos Inc.
+
+Use of this software ("Software") in source code or binary forms is subject
+to the following license agreement.
+
+1. LICENSE GRANT AND RESTRICTIONS
+
+1.1 License Grant. Subject to the terms of this agreement, Xronos Inc (Licensor)
+    grants you (Licensee) a non-exclusive, non-transferable, revocable license
+    to use the Software, provided that the Software is not distributed, modified
+    or altered in any way.
+
+1.2 Restrictions. You may not:
+    
+    1.2.1 Modify the Software or change its functionality in any way, including but
+          not limited to altering its behavior, removing features, or adding new
+          functionality.
+
+    1.2.2 Reverse-engineer, decompile, decrypt or disassemble the Software.
+
+    1.2.3 Host, operate, or distribute this software as a service to third parties
+          through a multi-tenant, cloud-based or web-based platform, or otherwise
+          make the Software accessible to multiple users via a subscription service
+          or similar arrangement.
+
+    1.2.4 Sell, resell, distribute, transfer, sublicense, use or exploit the
+          Software to provide application hosting, business process outsourcing, or
+          any other similar or related services to any individual or entity, or
+          function as a service bureau or application service provider.
+
+    1.2.5 Use the Software to create a competitive product or service.
+
+    1.2.6 Remove proprietary rights notices, asset tags, brand labels or marks
+          placed on the Software or its dependencies.
+
+2. INTELLECTUAL PROPERTY RIGHTS
+
+   The Software is protected by copyright laws and international copyright treaties,
+   as well as other intellectual property laws and treaties. The Licensee
+   acknowledges that this Agreement grants only a license to use the Software and
+   does not transfer any ownership rights in the Software to the Licensee. All
+   rights, title, and interest in and to the Software, including any updates or
+   enhancements thereto, remain the sole property of the Licensor.
+
+3. OPEN SOURCE
+
+   The Software may include components licensed under open-source licenses
+   ("Open Source Software"). The terms of the applicable open-source licenses take
+   precedence over this Agreement for the relevant components. You are responsible
+   for complying with the terms of all applicable open-source licenses, as
+   identified in the accompanying documentation or links provided with the Software.
+
+4. WARRANTY AND DISCLAIMER
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+   ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+   WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+   THE LICENSOR DISCLAIMS ALL LIABILITY FOR ANY THIRD-PARTY CLAIMS ARISING FROM OR
+   RELATED TO THE USE OF THIS SOFTWARE. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+   CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+   OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+   GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+   HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+   LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+   THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+5. PATENT RIGHTS
+
+   This Agreement does not grant any license or rights, whether by implication,
+   estoppel, or otherwise, to any patents owned by Licensor, except to the extent
+   necessary to use the Software as permitted by this Agreement. No rights are
+   granted for any patents covering methods, systems, or technologies related to the
+   Software but not directly embodied in the Software itself.
+
+6. INDEMNIFICATION
+
+   You will indemnify, defend, or at its option settle and hold Xronos Inc, its
+   subsidiaries, affiliates, officers, and employees, harmless from any and all
+   claims, damages, losses, liabilities, actions, judgments, costs, and expenses
+   (including reasonable attorneys’ fees) brought by a third party arising out of or
+   in connection with: (a) any intentionally tortious or negligent act or omission by
+   You in connection with Your use of the Software; (b) Your use of the Software other
+   than as expressly allowed by this Agreement; (c) any claims that Your use of the
+   Software infringes third-party intellectual property rights; or (d) Your breach or
+   alleged breach of any of the terms, restrictions, obligations, or representations
+   under this Agreement.
+
+7. GOVERNING LAW
+
+   This Agreement shall be governed by and construed in accordance with the laws of
+   Delaware, United States. Any disputes arising under or in connection with this
+   Agreement shall be resolved exclusively in the state or federal courts located in
+   Delaware, United States.
+
+END OF AGREEMENT
