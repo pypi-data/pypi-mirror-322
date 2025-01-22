@@ -1,0 +1,4 @@
+[console_scripts]
+quack-norris = quack_norris.__main__:main
+quack-norris-server = quack_norris.__main__:server
+quack-norris-ui = quack_norris.__ui_without_terminal__:ui
