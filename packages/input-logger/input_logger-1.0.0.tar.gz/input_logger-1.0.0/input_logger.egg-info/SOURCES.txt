@@ -1,0 +1,4 @@
+input_logger.egg-info/PKG-INFO
+input_logger.egg-info/SOURCES.txt
+input_logger.egg-info/dependency_links.txt
+input_logger.egg-info/top_level.txt

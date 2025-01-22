@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: input_logger
+Version: 1.0.0
+Summary: A simple library to capture and log user inputs from the console.
+Home-page: https://github.com/kullaniciadi/input_logger
+Author: Talha
+Author-email: Talha.anything.info@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# input_logger 
+This is a Python library that is for taking an input than put on the screen. I have put a Usage.txt that you can learn how to use.
+Progress Coded
+-Talha
+Coding is an type of art
+-Talha
+Thanks
