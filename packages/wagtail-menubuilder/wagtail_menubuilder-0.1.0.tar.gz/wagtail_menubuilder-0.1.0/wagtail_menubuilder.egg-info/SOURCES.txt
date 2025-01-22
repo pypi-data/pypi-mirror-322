@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+migrations/0001_initial.py
+migrations/0002_menuitem_parent.py
+migrations/__init__.py
+wagtail_menubuilder.egg-info/PKG-INFO
+wagtail_menubuilder.egg-info/SOURCES.txt
+wagtail_menubuilder.egg-info/dependency_links.txt
+wagtail_menubuilder.egg-info/requires.txt
+wagtail_menubuilder.egg-info/top_level.txt
