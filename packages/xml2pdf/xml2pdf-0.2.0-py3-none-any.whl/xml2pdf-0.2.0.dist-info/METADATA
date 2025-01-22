@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: xml2pdf
+Version: 0.2.0
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: lxml
+Requires-Dist: weasyprint
+Dynamic: requires-dist
+Dynamic: requires-python
