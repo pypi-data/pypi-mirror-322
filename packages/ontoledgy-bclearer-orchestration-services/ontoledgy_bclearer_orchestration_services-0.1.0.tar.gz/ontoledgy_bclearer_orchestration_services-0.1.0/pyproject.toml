@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ontoledgy-bclearer-orchestration-services"
+version = "0.1.0"
+description = ""
+authors = ["Mesbah Khan <khanm@ontoledgy.io>"]
+readme = "README.md"
+packages = [{ include = "bclearer_orchestration_services" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
