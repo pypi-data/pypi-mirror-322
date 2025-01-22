@@ -1,0 +1,14 @@
+passagemath_kenzo.libs/libecl-41be2060.so.24.5.10,sha256=yoV9HkZlhU2BP0cuGq0THEST6-SSkXEydLRx6FifOms,12162041
+passagemath_kenzo.libs/libffi-768c81f5.so.8.1.4,sha256=xFzN-_LoHhael9pvP0ekfGiWVa2YMhCNgTXpe9l78Mk,42825
+passagemath_kenzo.libs/libgc-6e82f40e.so.1.5.4,sha256=gf55IKOo08a0e4aIrMCAjYHEXSQYoPfjK8s3qGTOtR4,671273
+passagemath_kenzo.libs/libgmp-13610109.so.10.5.0,sha256=-vMDAKJHIAOE6udSE_CP8N8z6hjNlvL5F8J72YFTNPs,568433
+sage/all__sagemath_kenzo.py,sha256=BxNdw469oLMTGqWHUJR6gsnndnaf4bPvTGrmuV_8nqY,126
+sage/interfaces/all__sagemath_kenzo.py,sha256=c5SZXjAVl1xACOxw2lEI6Mn1yQI44QbVnpO4CkMKQGI,44
+sage/interfaces/kenzo.py,sha256=gq8i-55OVg5yH5OYogEFnDRns23hsg9E-Yg_JjaWgCY,70362
+sage/libs/all__sagemath_kenzo.py,sha256=c5SZXjAVl1xACOxw2lEI6Mn1yQI44QbVnpO4CkMKQGI,44
+sage/libs/kenzo.cpython-312-x86_64-linux-musl.so,sha256=Ei4n8SBIBh7fcuJUjXJncdZqOZf_F_x0rFWOEr4vCVM,67200
+sage_wheels/lib/ecl/kenzo.fas,sha256=fg3I1eGxyy4A3v8GaXYtCiW0wBx50pFVU_HpgndisjM,7148809
+passagemath_kenzo-10.5.22.dist-info/METADATA,sha256=23errucDGLBLAcWGd1esJI6i8P9qIvJ_riPDR4HkJhM,2856
+passagemath_kenzo-10.5.22.dist-info/WHEEL,sha256=c9GU1jhDUn7S-APtjPhve05mT2FAOW_4NMGdpCIyIBM,112
+passagemath_kenzo-10.5.22.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_kenzo-10.5.22.dist-info/RECORD,,
