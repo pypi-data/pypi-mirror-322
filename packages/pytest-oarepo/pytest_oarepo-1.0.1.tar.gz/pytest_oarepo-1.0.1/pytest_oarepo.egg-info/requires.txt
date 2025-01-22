@@ -1,0 +1,9 @@
+
+[local]
+oarepo
+pytest>=7.1.2
+deepmerge
+oarepo-runtime
+oarepo-workflows
+oarepo-requests
+oarepo-communities
