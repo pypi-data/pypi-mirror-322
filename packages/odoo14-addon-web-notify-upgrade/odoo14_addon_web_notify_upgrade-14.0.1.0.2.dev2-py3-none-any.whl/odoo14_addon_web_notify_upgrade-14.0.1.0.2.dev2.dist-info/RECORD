@@ -1,0 +1,15 @@
+odoo/addons/web_notify_upgrade/README.rst,sha256=SRPT-7lDrfhiFHjDCuoLjxc7DtG7O6U8BI_B3dz0IG4,2907
+odoo/addons/web_notify_upgrade/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/web_notify_upgrade/__manifest__.py,sha256=dRU2WnBe4GX-xdNvlNTt-cBtc7FfdGJd4R_aSK3jdkE,504
+odoo/addons/web_notify_upgrade/i18n/it.po,sha256=iQkTqey7M38ydXNr4NnlMV7hSu2xkEg87Q9EqKXA9i4,1153
+odoo/addons/web_notify_upgrade/i18n/web_notify_upgrade.pot,sha256=StRdew4g-8WcZfOo6y2FPNWN4-_7Kns-oQ27AEQMezU,946
+odoo/addons/web_notify_upgrade/models/__init__.py,sha256=V8hR-ja8zu7sRkJuB9_inZfZFWYcwxeQvG6GVWyN_yg,23
+odoo/addons/web_notify_upgrade/models/ir_model.py,sha256=zbWHzjChVTe0YPrhgpOT1PYf7Nnxtn9zLdpAjYwX1c0,2258
+odoo/addons/web_notify_upgrade/readme/CONTRIBUTORS.rst,sha256=DCrCWegNGohw1D2CMAiFzeffHJ-j5bCxDrf1JZgWAe8,63
+odoo/addons/web_notify_upgrade/readme/DESCRIPTION.rst,sha256=SVYQw3DgBAsCd65coBldxyN9JVmbtuGPREDmnkd-owI,203
+odoo/addons/web_notify_upgrade/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/web_notify_upgrade/static/description/index.html,sha256=vAISgNeSDcKfOPvrpO7ez9ov8Op5HKQuPbT9Y7wPNmc,12108
+odoo14_addon_web_notify_upgrade-14.0.1.0.2.dev2.dist-info/METADATA,sha256=txIOgRksfAAo0vsbtr_xBCmOScHS1tuDLUAnSsCZHnc,3491
+odoo14_addon_web_notify_upgrade-14.0.1.0.2.dev2.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+odoo14_addon_web_notify_upgrade-14.0.1.0.2.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_web_notify_upgrade-14.0.1.0.2.dev2.dist-info/RECORD,,
