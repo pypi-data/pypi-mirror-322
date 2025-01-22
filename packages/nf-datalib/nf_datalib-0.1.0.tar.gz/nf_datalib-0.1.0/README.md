@@ -1,0 +1,174 @@
+# DataLib Project
+
+**DataLib** is a Python library designed to simplify data manipulation and analysis in various projects. It provides features catering to a wide range of users, from beginners exploring the basics of data processing to experts seeking advanced tools for statistical analysis and machine learning models.
+
+## Installation
+
+You can install DataLib using pip:
+
+```bash
+pip install datalib
+```
+
+## Features
+
+### Data Manipulation
+
+- Load and process CSV files (read, write, filters).
+- Data transformations (normalization, handling missing values).
+
+### Statistical Computations
+
+- Mean, median, mode, standard deviation, correlation.
+- Basic statistical tests (t-test, chi-square test).
+
+### Data Visualization
+
+- Generate simple graphs (bar charts, histograms, scatter plots).
+- Support for advanced visualizations like correlation matrices.
+
+### Advanced Analysis
+
+- Linear and polynomial regression models.
+- Supervised classification algorithms (k-NN, decision trees).
+- Unsupervised methods (k-means, principal component analysis).
+
+## Usage
+
+```python
+from datalib.data_manipulation import normalize_column
+from datalib.visualization import plot_histogram
+import pandas as pd
+
+# Load and normalize data
+data = pd.DataFrame({"values": [1, 2, 3, 4, 5]})
+normalized = normalize_column(data, "values", method="minmax")
+
+# Create visualization
+fig = plot_histogram(data, "values")
+fig.savefig("histogram.png")
+```
+
+## Development
+
+### Setting up the development environment
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/NaderFerjani/datalib.git
+cd datalib
+```
+
+2. Install development dependencies:
+
+```bash
+pip install -e ".[test,doc]"
+```
+
+### Running tests
+
+```bash
+pytest tests/
+```
+
+### Building documentation
+
+```bash
+cd docs
+python -m sphinx -b html . _build/html
+```
+
+## Versioning
+
+DataLib follows [Semantic Versioning](https://semver.org/). Version numbers follow the format MAJOR.MINOR.PATCH:
+
+- MAJOR version for incompatible API changes
+- MINOR version for new functionality in a backward compatible manner
+- PATCH version for backward compatible bug fixes
+
+### Creating a new release
+
+1. Update version:
+
+```bash
+python scripts/release.py [major|minor|patch]
+```
+
+2. Review and commit changes
+3. Push to GitHub with tags
+4. The GitHub Actions workflow will automatically publish to PyPI
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Author
+
+- **Nader Ferjani** - [GitHub](https://github.com/NaderFerjani)
+- Email: ferjani.nader@hotmail.fr
+
+---
+
+## Project Goals
+
+The main objective is to develop a professional packaging system for the DataLib library, enabling:
+
+1. Easy and intuitive installation through package managers like `pip`.
+2. Distribution on platforms like PyPI (Python Package Index).
+3. Integrated, clear, and accessible documentation.
+
+---
+
+## Work Plan
+
+### 1. Project Structure
+
+- Organize the source code in a modular format (e.g., `src/` directory).
+- Define essential files like `setup.py`, `pyproject.toml`, or `setup.cfg`.
+
+### 2. Dependencies and Compatibility
+
+- Identify and include necessary dependencies (e.g., `numpy`, `pandas`, `matplotlib`, `scikit-learn`).
+- Ensure compatibility with recent Python versions.
+
+### 3. Documentation
+
+- Write a detailed `README.md` or `README.rst` outlining the library's usage and features.
+- Add concrete usage examples.
+- Generate technical documentation using tools like Sphinx.
+
+### 4. Testing
+
+- Write unit tests for main functions using `pytest`.
+- Integrate CI/CD workflows (e.g., GitHub Actions) to validate changes.
+
+### 5. Publication
+
+- Prepare and publish the library on PyPI.
+- Regularly update the version following semantic versioning (SemVer).
+
+---
+
+## Deliverables
+
+- A functional library distributable via `pip`.
+- Online documentation (e.g., hosted on Read the Docs).
+- Automated tests and code quality monitoring.
+
+---
+
+## Evaluation Criteria
+
+- **Packaging Quality**: Ease of installation and compatibility.
+- **Documentation Clarity**: Completeness and ease of understanding.
+- **Functionality and Robustness**: Reliability of the library's tools.
+- **Test Coverage**: Quality and extent of automated testing.
+
+---
+
+DataLib aims to become a reliable and user-friendly library for data enthusiasts and professionals alike, enhancing the Python data ecosystem.
