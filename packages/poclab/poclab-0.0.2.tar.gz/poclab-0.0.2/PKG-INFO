@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: poclab
+Version: 0.0.2
+Summary: A place for POCs to be born and toddler around until they can walk on their own
+Home-page: https://github.com/i2mint/poclab
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# poclab
+
+A place for POCs to be born and toddler around until they can walk on their own.
+
+`pip install poclab`
+
