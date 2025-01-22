@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: fa-test-generator
+Version: 0.1.0
+Summary: Utility for generating tests for FastAPI routers and endpoints
+Author: eac0de
+Author-email: egor2001zhukov@gmail.com
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: fastapi (>=0.115.6,<0.116.0)
+Requires-Dist: httpx (>=0.28.1,<0.29.0)
+Requires-Dist: jsony (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+
