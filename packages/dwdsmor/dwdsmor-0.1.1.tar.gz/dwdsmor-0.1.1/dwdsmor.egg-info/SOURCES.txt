@@ -1,0 +1,17 @@
+COPYING
+MANIFEST.in
+README.md
+pyproject.toml
+dwdsmor/__init__.py
+dwdsmor/automaton.py
+dwdsmor/cli.py
+dwdsmor/log.py
+dwdsmor/tag.py
+dwdsmor/traversal.py
+dwdsmor/version.py
+dwdsmor.egg-info/PKG-INFO
+dwdsmor.egg-info/SOURCES.txt
+dwdsmor.egg-info/dependency_links.txt
+dwdsmor.egg-info/entry_points.txt
+dwdsmor.egg-info/requires.txt
+dwdsmor.egg-info/top_level.txt
