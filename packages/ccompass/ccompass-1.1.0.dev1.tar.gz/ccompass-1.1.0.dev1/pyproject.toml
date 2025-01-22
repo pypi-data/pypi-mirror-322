@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm>=8", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccompass"
+dynamic = ["version"]
+description = "C-COMPASS (Cellular COMPartmentclASSifier) is an advanced open-source software tool designed for the quantitative analysis of fractionated proteomics samples."
+authors = [
+    { name = "Daniel Haas", email = "daniel.haas@helmholtz-munich.de" }
+]
+dependencies = [
+    "FreeSimpleGUI",
+    "keras",
+    "keras-tuner",
+    "matplotlib",
+    "numpy",
+    "openpyxl",
+    "pandas",
+    "pydantic",
+    "pyyaml",
+    "tensorflow",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "xlsxwriter",
+]
+requires-python = ">=3.10"
+
+[project.scripts]
+ccompass = "ccompass.__main__:main"
+
+[project.optional-dependencies]
+dev = ["pre-commit>=3", "pytest", "tox"]
+doc = ["sphinx", "sphinx-rtd-theme"]
+test = ["pytest"]
+
+[tool.setuptools_scm]
+
+[tool.ruff]
+line-length = 79
+lint.ignore = [
+    "E712",  # Avoid equality comparisons to True/False
+]
+lint.extend-select = [
+    "I",
+    "UP",
+
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+    "src",
+]
+filterwarnings = [
+    # Issues with older protobuf
+    "ignore:Type google._upb.* uses PyType_Spec with a metaclass that has custom tp_new.:DeprecationWarning"
+]
+
+[tool.tox]
+requires = ["tox>=4.19"]
+env_list = ["doc"]
+
+[tool.tox.env.doc]
+description = "Build the documentation"
+extras = ["doc"]
+commands = [["sphinx-build", "-W", "-b", "html", "doc/", "doc/_build/html"]]
+working_directory = "doc"

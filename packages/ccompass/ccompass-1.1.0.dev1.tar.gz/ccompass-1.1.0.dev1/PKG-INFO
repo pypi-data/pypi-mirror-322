@@ -1,0 +1,30 @@
+Metadata-Version: 2.2
+Name: ccompass
+Version: 1.1.0.dev1
+Summary: C-COMPASS (Cellular COMPartmentclASSifier) is an advanced open-source software tool designed for the quantitative analysis of fractionated proteomics samples.
+Author-email: Daniel Haas <daniel.haas@helmholtz-munich.de>
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: FreeSimpleGUI
+Requires-Dist: keras
+Requires-Dist: keras-tuner
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: pydantic
+Requires-Dist: pyyaml
+Requires-Dist: tensorflow
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: xlsxwriter
+Provides-Extra: dev
+Requires-Dist: pre-commit>=3; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: sphinx-rtd-theme; extra == "doc"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
