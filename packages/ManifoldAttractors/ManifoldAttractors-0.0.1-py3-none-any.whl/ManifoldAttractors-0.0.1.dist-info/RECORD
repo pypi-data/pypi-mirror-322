@@ -1,0 +1,12 @@
+made/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+made/can.py,sha256=ELUJbEKW_GJu3bI_l2mFWS04ej7U6-HCIlDSLg2iTZ0,11200
+made/manifolds.py,sha256=rJ86yw_kWrTA-VNF3_YWYGcROr3B4csIeP1o8PApvtI,13192
+made/metrics.py,sha256=kpOpKKCwzjwzjRN-_7RD9-oGKj-rTh3QFPN8R80ZsRY,14782
+made/qan.py,sha256=jiFoF_RBz7sTNsCwAvXqtN2g1KuCQw1X1cIZgxn6yMA,30297
+made/utils.py,sha256=X4fHxOQsAeIjA1xJ5fH-tDGOQM6ndrhojBydADTv1_I,2547
+made/visuals.py,sha256=pLxn6tJEO0uBQ5XcRdF8ilWpjzs3T8PdRVGcqEta2-c,20865
+ManifoldAttractors-0.0.1.dist-info/LICENSE,sha256=nT8MI0cqU-tb89GONEQ4P4r3S4LMe-1yCp7SDOLF1Kg,1086
+ManifoldAttractors-0.0.1.dist-info/METADATA,sha256=TBXglcd3SwICXRDzn5upBVIteJ83aiku6hPI5eR2gSA,1523
+ManifoldAttractors-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ManifoldAttractors-0.0.1.dist-info/top_level.txt,sha256=nMvT8bGaHN_Y18auSOnoIuI0X1vhphh7GeQUhsaUEAQ,5
+ManifoldAttractors-0.0.1.dist-info/RECORD,,
