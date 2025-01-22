@@ -1,0 +1,8 @@
+pydagoras/__about__.py,sha256=l2v_lYCwisDitjoSMFBczrasUSWLliO-i5OYYgDXL04,122
+pydagoras/__init__.py,sha256=YGYWZH50VpqWhgyIST6T1G8XEiA0SmSUozhSk7cvIro,200
+pydagoras/dag_dot.py,sha256=khbtsKyq8A6hcidEtnoGznfQPPJDEY0ZcXzacXgztbI,5559
+pydagoras/node.py,sha256=fpExn41wSqF0z-lQI0mD2LHDLWJrNXdWS0_-mNVVccw,701
+pydagoras-0.0.7.dist-info/METADATA,sha256=UlrEGnnYBp2h0Z9szrIGUyMaPy3sKn7g-QQrTcEksR8,1049
+pydagoras-0.0.7.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pydagoras-0.0.7.dist-info/licenses/LICENSE,sha256=ixixA6vefh63hYOJ2A1ysc9mPUKjwiIVhPTSIQjqNgI,1068
+pydagoras-0.0.7.dist-info/RECORD,,
