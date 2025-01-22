@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+smproto.egg-info/PKG-INFO
+smproto.egg-info/SOURCES.txt
+smproto.egg-info/dependency_links.txt
+smproto.egg-info/requires.txt
+smproto.egg-info/top_level.txt

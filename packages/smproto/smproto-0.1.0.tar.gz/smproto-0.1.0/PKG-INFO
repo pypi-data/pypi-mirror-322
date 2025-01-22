@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: smproto
+Version: 0.1.0
+Summary: A secure messaging protocol using ECDSA and ECDH
+Home-page: https://github.com/yourusername/smproto
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# SMProto
+
+This library provides cryptographic functions using ECDSA, ECDH, AES, and HMAC. It includes functionalities such as key generation, signing, message encryption, and integrity verification.
+
+## Installation
+
+To install the library from PyPI:
+
+```bash
+pip install smproto
