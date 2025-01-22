@@ -1,0 +1,12 @@
+alphanetworks/__init__.py,sha256=OsI5aGDTRyUSRoxogfLbxwrLLf2pL5tl11xDFwYD40Q,158
+alphanetworks/layers.py,sha256=dnDA6CeVvxiS0hsKYQAwfbWHwsragqWJ8zvWeWlbgJI,6635
+alphanetworks/models.py,sha256=5z4rlefpHCe4-T3rtvhv7qMmsHXr4rEEmNDV3Fq-WB0,1673
+alphanetworks/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/train_model.py,sha256=TLw23zQW8yGtvP2_kgC2JlNOKq1iijfBFmpyqoYR1D0,4997
+alphanetworks-0.3.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alphanetworks-0.3.4.dist-info/METADATA,sha256=8-Jb8nCmqzq1a8Jgz_E7M8N5usVohAIOGP63jwH_0gw,5800
+alphanetworks-0.3.4.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+alphanetworks-0.3.4.dist-info/entry_points.txt,sha256=mE-IgoBggmn2Olf4L_WYWuBRFdRJJMKISGDHkVrCTKA,59
+alphanetworks-0.3.4.dist-info/top_level.txt,sha256=artEkTkbwtRjUQLirUhIANb8p_kMQ8Ew1rcOa0sGjYg,22
+alphanetworks-0.3.4.dist-info/RECORD,,
