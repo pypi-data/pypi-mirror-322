@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: vietnamese_conceptizer
+Version: 0.1.0
+Summary: A tool for processing text files and normalizing data using a dictionary
+Home-page: https://github.com/luongducthangDS/vietnamese_conceptizer
+Author: Bui Van Tan; Luong Duc Thang
+Author-email: luongducthang289@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+
+# vietnamese conceptizer
+
+vietnamese_conceptizer is a Python library for processing text files and normalizing data using a dictionary.
+
+## Installation
+
+```bash
+pip install vietnamese_conceptizer
+```
