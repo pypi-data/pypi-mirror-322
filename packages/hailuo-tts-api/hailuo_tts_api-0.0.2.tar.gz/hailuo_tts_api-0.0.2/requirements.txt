@@ -1,0 +1,4 @@
+requests
+uuid
+gradio
+hailuo-tts-api
