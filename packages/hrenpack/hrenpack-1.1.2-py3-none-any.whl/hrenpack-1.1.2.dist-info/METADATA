@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: hrenpack
+Version: 1.1.2
+Summary: Универсальная библиотека python для большинства задач
+Home-page: https://github.com/MagIlyas-DOMA/hrenpack
+Author: Маг Ильяс DOMA (MagIlyas_DOMA)
+Author-email: hrenpack@mail.ru
+License: BSD 3-Clause License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: soundfile ==0.13.0
+Requires-Dist: SpeechRecognition ==3.14.0
+Requires-Dist: requests >=2.32.3
+Requires-Dist: screeninfo >=0.8.1
+Requires-Dist: psutil >=6.1.1
+Requires-Dist: bs4 ==0.0.2
+Requires-Dist: beautifulsoup4 ==4.12.3
+Requires-Dist: gps ==3.19
+Requires-Dist: bcrypt ==4.2.1
+
+# A universal python library for most tasks.
+
+## The library is divided into several packages:
+`__init__` - basic functions and functions that cannot be assigned to any category  
+`boolwork` - working with boolean values    
+`classes` - classes  
+`clipboard_work` - working with the clipboard  
+`cmd` - working with OS tools  
+`constants` - various useful constants
+`date_and_time_work` - working with date and time values  
+`decorators` - decorators  
+`functionwork` - working with functions  
+`gpswork` - working with GPS  
+`hashwork` - working with hashing  
+`encapsulation` - full encapsulation  
+`kwargswork` - working with **kwargs  
+`listwork` - working with lists, tuples and dictionaries  
+`network` - working with the Internet  
+`numwork` - working with numbers  
+`print_color` - color console. May not work in all consoles  
+`resolution` - screen resolution detection  
+`slugwork` - working with slug, i.e. with strings that match the rules  
+`strwork` - working with strings  
+`taskmgr` - working with tasks  
+`type_define` - determining whether the data belongs to a certain type or not  
+`windows_registry` - working with the Windows registry  
+
+### In addition to packages, hrenpack has several sublibraries:
+`custom_methods` - additional methods for existing objects  
+`filework` - working with files  
+`framework` - additional functions for existing libraries and frameworks
+
+### Resources:
+The resource folder contains resource files for the correct operation of hrenpack
+
+## Usage:
+This library is distributed under the 3-clause BSD license
+
+## Updates in version 1.1.1
+1. Removed modules `dec_to_hex`, `dbwork`, `office` due to their instability
+2. Removed requirement `pyodbc`
+3. Added requirements `gps`, `bcrypt`
+4. Removed some functions from module `__init__`
+
+-------
+
+# Универсальная библиотека python для большинства задач.
+
+## Библиотека делится на несколько пакетов:  
+`__init__` - основные функции и функции, которые не могут быть отнесены ни к одной категории  
+`boolwork` - работа с булевыми значениями  
+`classes` - классы  
+`clipboard_work` - работа с буфером обмена  
+`cmd` - работа с инструментам ОС  
+`constants` - разные полезные константы
+`date_and_time_work` - работа со значениями даты и времени  
+`decorators` - декораторы  
+`functionwork` - работа с функциями  
+`gpswork` - работа с GPS  
+`hashwork` - работа с хешированием  
+`encapsulation` - полноценная инкапсуляция  
+`kwargswork` - работа с **kwargs  
+`listwork` - работа со списками, кортежами и словарями   
+`network` - работа с интернетом  
+`numwork` - работа с числами  
+`print_color` - цветная консоль. Может работать не во всех консолях  
+`resolution` - определение разрешения экрана  
+`slugwork` - работа со slug, т. е. с строками, которые соответствуют правилам   
+`strwork` - работа со строками  
+`taskmgr` - работа с задачами  
+`type_define` - определение, относятся ли данные к определнному типу, или нет  
+`windows_registry` - работа с реестром Windows 
+
+### Помимо пакетов, в hrenpack есть несколько подбиблиотек:  
+`custom_methods` - дополнительные методы для уже существующих объектов   
+`filework` - работа с файлами  
+`framework` - дополнительные функции для уже существующих библиотек и фреймворков  
+
+### Ресурсы:
+В папке ресурсов находятся файлы ресурсов для корректной работы hrenpack
+
+## Использование:
+Данная библиотека распостраняется по 3-пунктной лицензии BSD
+
+## Обновления на версии 1.1.1
+1. Удалены модули `dec_to_hex`, `dbwork`, `office` из-за их нестабильности
+2. Удалена зависимости `pyodbc`
+3. Добавлены зависимости `gps`, `bcrypt`
+4. Удалены некоторые функции из модуля `__init__`
