@@ -1,0 +1,32 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "Ln Jupyter Extra",
+  "description": "Settings for ln-jupyter-extra extension.",
+  "type": "object",
+  "properties": {
+    "maxItems": {
+      "type": "integer",
+      "title": "Maximum number of items",
+      "description": "The maximum number of items to show in variable monitor lists etc",
+      "default": 10
+    },
+    "apiConfig": {
+      "type": "object",
+      "title": "API Configuration",
+      "description": "Configuration for API requests",
+      "properties": {
+        "baseUrl": {
+          "type": "string",
+          "title": "API Base URL",
+          "description": "The base URL for API requests"
+        },
+        "authToken": {
+          "type": "string",
+          "title": "Authentication Token",
+          "description": "The authentication token for API requests"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
