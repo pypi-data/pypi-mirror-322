@@ -1,0 +1,24 @@
+Metadata-Version: 2.2
+Name: sem_meter_client
+Version: 0.0.1
+Summary: Client for the SEM Meter API
+Home-page: https://github.com/pcartwright81/sem_meter_client
+Author: Patrick Cartwright
+Author-email: pcartwright1981@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: summary
+
+API for the SEM Meter.
+https://www.amazon.com/gp/product/B0D6VZQBPF
+Created by capturing the app.
+
