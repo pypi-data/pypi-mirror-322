@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: pytest_ai
+Version: 0.1.0
+Summary: A Python package to generate regular, edge-case, and security HTTP tests.
+Author: jobran628
+Author-email: jobran628@gmail.com
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: langchain
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
