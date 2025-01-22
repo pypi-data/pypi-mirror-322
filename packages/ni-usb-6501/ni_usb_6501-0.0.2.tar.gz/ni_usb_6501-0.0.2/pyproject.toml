@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ni_usb_6501"
+version = "0.0.2"
+description = "A Python driver for the NI USB 6501 I/O Module"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Daniel Köpping", email = "daniel.koepping@de.abb.com" }
+]
+dependencies = [
+    "pyusb"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools]
+packages = ["ni_usb_6501"]
