@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/maniik/__init__.py
+src/maniik/maniik.py
+src/maniik.egg-info/PKG-INFO
+src/maniik.egg-info/SOURCES.txt
+src/maniik.egg-info/dependency_links.txt
+src/maniik.egg-info/top_level.txt
