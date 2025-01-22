@@ -1,0 +1,95 @@
+	// Alexandria3k tables
+	node [fillcolor="#d3d3d3", fontcolor="#000000"];
+	"Alexandria3k tables" [shape=box, margin="0.11,0.055"];
+	asjcs;
+	works_asjcs;
+	asjc_general_fields;
+	asjc_subject_areas;
+	work_authors_rors;
+	usp_nplcit_dois;
+
+	// Shape tables not comming from schema
+	node [shape=box, margin="0.11,0.055"];
+
+	// Crossref
+	node [fillcolor="#ffc62c", fontcolor="#000000"];
+	"Main Crossref tables" [shape=box, margin="0.11,0.055"];
+	works;
+	work_authors;
+	work_subjects;
+	work_funders;
+
+	// ORCID
+	node [fillcolor="#a6ce39", fontcolor="#000000"];
+	"ORCID tables" [shape=box, margin="0.11,0.055"];
+	persons;
+	person_works;
+
+	// ROR
+	node [fillcolor="#53baa1", fontcolor="#000000"];
+	"ROR tables" [shape=box, margin="0.11,0.055"];
+	research_organizations;
+	ror_funder_ids;
+
+	// USPTO
+	node [fillcolor="#9fd6ff", fontcolor="#000000"];
+	"USPTO tables" [shape=box, margin="0.11,0.055"];
+	usp_citations;
+
+	// PubMed
+	node [fillcolor="#326599", fontcolor="#ffffff"];
+	"PubMed tables" [shape=box, margin="0.11,0.055"];
+	pubmed_articles;
+
+	// DataCite
+	node [fillcolor="#00b0e1", fontcolor="#000000"];
+	"DataCite tables" [shape=box, margin="0.11,0.055"];
+	dc_works;
+	dc_work_funding_references;
+	dc_creator_name_identifiers;
+	dc_contributor_name_identifiers;
+
+	// Shape schema tables
+	node [shape=plaintext,  margin=0];
+
+	edge [taillabel="1…N", headlabel="1"];
+	asjcs -> asjc_general_fields;
+	asjcs -> asjc_subject_areas;
+
+
+	edge  [headlabel="0…1", taillabel="1"];
+	node [fillcolor="#fa9a87", fontcolor="#000000"];
+	"DOAJ table" [shape=box, margin="0.11,0.055"];
+	open_access_journals;
+
+	node [fillcolor="#dfa60c", fontcolor="#000000"];
+	"Additional Crossref tables" [shape=box, margin="0.11,0.055"];
+	works -> open_access_journals;
+	work_funders -> funder_names;
+	work_funders -> ror_funder_ids;
+	work_authors -> persons;
+	journal_names -> journals_issns  [headlabel="1…N", taillabel="1..N"];
+	works -> journals_issns;
+
+	// Relationships between databases
+	work_authors_rors -> work_authors [taillabel="0…N" headlabel="1"];
+	dc_creator_name_identifiers -> work_authors [taillabel="0…1" headlabel="0…1"];
+	dc_creator_name_identifiers -> persons [taillabel="0…1" headlabel="0…1"];
+	dc_contributor_name_identifiers -> persons [taillabel="0…1" headlabel="0…1"];
+	research_organizations -> work_authors_rors [taillabel="1" headlabel="0…N"];
+	works -> person_works  [headlabel="0…1", taillabel="0..1"];
+	dc_works -> works [headlabel="0…1", taillabel="0…1"];
+	works -> works_asjcs [taillabel="1" headlabel="0…N"];
+	dc_works -> person_works  [headlabel="0…1", taillabel="0…1"];
+	works_asjcs -> asjcs [taillabel="0…N" headlabel="1"];
+	work_subjects -> asjcs [headlabel="1", taillabel="1"];
+	usp_nplcit_dois -> works [taillabel="1" headlabel="1"];
+	usp_nplcit_dois -> dc_works [taillabel="0…1" headlabel="0…1"];
+	usp_citations  -> usp_nplcit_dois [taillabel="0…1" headlabel="1"];
+	pubmed_articles -> works [taillabel="0…1" headlabel="0…1"];
+	pubmed_articles -> dc_works [taillabel="0…1" headlabel="0…1"];
+	dc_work_funding_references -> work_funders [taillabel="0…1" headlabel="0…1"];
+	dc_work_funding_references -> ror_funder_ids [taillabel="0…1" headlabel="0…1"];
+
+	edge [style="invis"];
+	{ rank = source; "Main Crossref tables" -> "Additional Crossref tables" -> "DOAJ table" -> "ROR tables" -> "ORCID tables" -> "USPTO tables" -> "PubMed tables" -> "DataCite tables" ->"Alexandria3k tables"; }
