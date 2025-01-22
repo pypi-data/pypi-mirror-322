@@ -1,0 +1,12 @@
+numpy>=2.0.2
+pandas>=2.2.3
+scikit-learn>=1.6.0
+scikit-image>=0.24.0
+soundfile>=0.12.1
+path
+torch
+torchvision
+torchaudio
+torchmetrics>=1.6.1
+scikit-image
+constriction

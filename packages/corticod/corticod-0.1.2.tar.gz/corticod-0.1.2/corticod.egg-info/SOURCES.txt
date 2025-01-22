@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+corticod/__init__.py
+corticod.egg-info/PKG-INFO
+corticod.egg-info/SOURCES.txt
+corticod.egg-info/dependency_links.txt
+corticod.egg-info/requires.txt
+corticod.egg-info/top_level.txt
+corticod/algorithm/__init__.py
+corticod/algorithm/codebook.py
+corticod/algorithm/cortical_tree.py
+corticod/algorithm/tree.py
+corticod/utils/README.md
