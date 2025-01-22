@@ -1,0 +1,6 @@
+README.md
+setup.py
+hiveagentai.egg-info/PKG-INFO
+hiveagentai.egg-info/SOURCES.txt
+hiveagentai.egg-info/dependency_links.txt
+hiveagentai.egg-info/top_level.txt
