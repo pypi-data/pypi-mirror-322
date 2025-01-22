@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invokeai-python"
+version = "0.5.0"
+description = "InvokeAI API package"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Kyle Nekto", email = "nekto@veydlin.com" }
+]
+requires-python = ">=3.6"
+dependencies = [
+    "aiohttp>=3.0.0",
+    "pydantic>=2.0.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Home = "https://github.com/veydlin/invokeai-python"
