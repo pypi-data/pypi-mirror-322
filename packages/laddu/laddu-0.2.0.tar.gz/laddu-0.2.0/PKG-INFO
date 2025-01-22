@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: laddu
+Version: 0.2.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: numpy
+Requires-Dist: docopt-ng
+Requires-Dist: loguru
+Requires-Dist: pandas
+Requires-Dist: uproot
+Requires-Dist: fastparquet
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Provides-Extra: tests
+Provides-Extra: docs
+License: MIT OR Apache-2.0
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Documentation, https://laddu.readthedocs.io/en/stable/
+
+
