@@ -1,0 +1,33 @@
+Metadata-Version: 2.2
+Name: torchrdit
+Version: 0.1.4
+Summary: A PyTorch based package for designing and analyzing optical devices, utilzing the Rigorous Diffraction Interface Theory (R-DIT).
+Author: Yi Huang
+Author-email: yi_huang@student.uml.edu
+Project-URL: Documentation, https://github.com/yi-huang-1/torchrdit/wiki
+Project-URL: Source, https://github.com/yi-huang-1/torchrdit
+Project-URL: Tracker, https://github.com/yi-huang-1/torchrdit/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
