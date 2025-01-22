@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: cartoonify
+Version: 0.1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENCE
+Requires-Dist: opencv-python
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python

@@ -1,0 +1,7 @@
+LICENCE
+setup.py
+cartoonify.egg-info/PKG-INFO
+cartoonify.egg-info/SOURCES.txt
+cartoonify.egg-info/dependency_links.txt
+cartoonify.egg-info/requires.txt
+cartoonify.egg-info/top_level.txt
