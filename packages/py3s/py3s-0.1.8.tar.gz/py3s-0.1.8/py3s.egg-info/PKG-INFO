@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: py3s
+Version: 0.1.8
+Home-page: https://github.com/dwdwow/py3s
+Description-Content-Type: text/markdown
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+
+# py3s
+python solscan.io sdk -> pysss -> py3s

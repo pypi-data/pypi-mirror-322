@@ -1,0 +1,8 @@
+README.md
+setup.py
+py3s/__init__.py
+py3s/client.py
+py3s.egg-info/PKG-INFO
+py3s.egg-info/SOURCES.txt
+py3s.egg-info/dependency_links.txt
+py3s.egg-info/top_level.txt
