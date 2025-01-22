@@ -1,0 +1,10 @@
+livekit/plugins/rime/__init__.py,sha256=G0zBomH4rvtSUZv-LWSLDwCjpeGLr23bIWjVKz7VYRE,1062
+livekit/plugins/rime/log.py,sha256=UNpLUrw4Qi8gVFrA8DmHE8aptZJ3TG0fvCPTXuBna2c,67
+livekit/plugins/rime/models.py,sha256=rYTmhME7bTeVnF9HleBuwTtV7LgsC3IC6OIVh820QKY,104
+livekit/plugins/rime/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+livekit/plugins/rime/tts.py,sha256=IZJYgSfHAvsBmZ2wC2fkvmnuaPFbRfx1FxBm_ZGgsK4,8229
+livekit/plugins/rime/version.py,sha256=cLFCdnm5S21CiJ5UJBcqfRvvFkCQ8p6M5fFUJVJkEiM,600
+livekit_plugins_rime-0.2.0.dist-info/METADATA,sha256=-6vrk7tE_zTIGC1pxgJIW8OBsoLTpueJH-Uxwnxgn1c,1418
+livekit_plugins_rime-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+livekit_plugins_rime-0.2.0.dist-info/top_level.txt,sha256=OoDok3xUmXbZRvOrfvvXB-Juu4DX79dlq188E19YHoo,8
+livekit_plugins_rime-0.2.0.dist-info/RECORD,,
