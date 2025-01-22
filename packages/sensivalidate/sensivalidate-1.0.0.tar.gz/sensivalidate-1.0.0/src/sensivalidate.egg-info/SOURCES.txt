@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/sensivalidate.egg-info/PKG-INFO
+src/sensivalidate.egg-info/SOURCES.txt
+src/sensivalidate.egg-info/dependency_links.txt
+src/sensivalidate.egg-info/requires.txt
+src/sensivalidate.egg-info/top_level.txt
+src/sensivalidate_rootifera/__init__.py
+src/sensivalidate_rootifera/sensivalidate.py
