@@ -1,0 +1,2 @@
+[console_scripts]
+harmony-to-organoid = harmony_to_organoid.main:app
