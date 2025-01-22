@@ -1,0 +1,4 @@
+[console_scripts]
+aria = aria.__cli__:main
+aria-diagnostics = aria.diagnostics.diagnostics:main
+aria-doctor = aria.doctor:main
