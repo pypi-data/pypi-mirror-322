@@ -1,0 +1,6 @@
+setup.py
+xml_to_excel.egg-info/PKG-INFO
+xml_to_excel.egg-info/SOURCES.txt
+xml_to_excel.egg-info/dependency_links.txt
+xml_to_excel.egg-info/requires.txt
+xml_to_excel.egg-info/top_level.txt
