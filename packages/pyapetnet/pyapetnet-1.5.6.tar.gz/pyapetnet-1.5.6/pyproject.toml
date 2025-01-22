@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools >= 61.0", "wheel", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyapetnet"
+dynamic = ["version"]
+description = "CNN for anatomy-guided PET reconstruction"
+authors = [
+    {name = "Georg Schramm", email = "georg.schramm@kuleuven.be"},
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = [
+    "SimpleITK~=2.0",
+    "pymirc~=0.29",
+    "click~=8.0",
+    "tensorflow<=2.15",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+pyapetnet_list_models = "pyapetnet.scripts.list_models:list_models"
+pyapetnet_predict_from_dicom = "pyapetnet.scripts.predict_from_dicom:predict_from_dicom"
+pyapetnet_predict_from_nifti = "pyapetnet.scripts.predict_from_nifti:predict_from_nifti"
+
+[project.urls]
+Homepage = "https://github.com/gschramm/pyapetnet"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "dirty-tag"
