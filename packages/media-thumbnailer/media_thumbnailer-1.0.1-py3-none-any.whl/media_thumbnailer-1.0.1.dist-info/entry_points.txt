@@ -1,0 +1,3 @@
+[console_scripts]
+media_thumbnailer=media_thumbnailer.__main__:main
+
