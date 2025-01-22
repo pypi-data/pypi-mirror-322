@@ -1,0 +1,28 @@
+Metadata-Version: 2.2
+Name: Mensajes-juliangd27
+Version: 5.0
+Summary: Un paquete para saludar y despedir
+Home-page: https://www.julian.dev
+Author: Julián Gómez Durso
+Author-email: juliangd27@gmail.com
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=2.1.3
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# Mensajes
+
+El paquete de mensajerÃ­a para pruebas de JuliÃ¡n GÃ³mez Durso
