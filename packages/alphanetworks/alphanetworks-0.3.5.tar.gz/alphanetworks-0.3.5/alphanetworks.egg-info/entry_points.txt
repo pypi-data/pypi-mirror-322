@@ -1,0 +1,2 @@
+[console_scripts]
+alphanetworks = scripts.train_model:main
