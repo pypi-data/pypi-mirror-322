@@ -1,0 +1,9 @@
+perceptionpro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+perceptionpro/core.py,sha256=bQeIciuiBzMVxzDMLE-R8_3Wj-5SVma653Q2FlgVJ9I,4349
+perceptionpro/eye_tracker.py,sha256=3rLNJcGK2UQtN03jijt4UUJMX1Rfhhypg8-DdulzriM,5549
+perceptionpro/head_pose_estimator.py,sha256=1nVsJA1hoeT-gA4v65v3_JPluXxWj2AKN-NgEcBpCiM,3522
+perceptionpro/object_detector.py,sha256=Q3rrwEPcTCEDSBZpscHxLOau3hrP31tG2sMQgV2RP-0,3507
+perceptionpro-0.1.1.dist-info/METADATA,sha256=WNd98-xXZlvPynbi0UxZBrwsSg0vAp65FMRlXtnS-Tc,3999
+perceptionpro-0.1.1.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+perceptionpro-0.1.1.dist-info/top_level.txt,sha256=gNmw3dXBj6c01PWG3WzdykCk04AROBsvGpA_Nrt8f9M,14
+perceptionpro-0.1.1.dist-info/RECORD,,
