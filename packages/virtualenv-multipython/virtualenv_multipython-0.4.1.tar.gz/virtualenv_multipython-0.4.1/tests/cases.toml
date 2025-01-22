@@ -1,0 +1,94 @@
+[tox4.py314t]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38}", noinstall="py37", notfound="py{36,35,27}", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[tox4.py313t]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38}", noinstall="py37", notfound="py{36,35,27}", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[tox4.py314]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38}", noinstall="py37", notfound="py{36,35,27}", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[tox4.py313]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38}", noinstall="py37", notfound="py{36,35,27}", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[tox4.py312]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38}", noinstall="py37", notfound="py{36,35,27}", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[tox4.py311]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38}", noinstall="py37", notfound="py{36,35,27}", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[tox4.py310]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38}", noinstall="py37", notfound="py{36,35,27}", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[tox4.py39]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38}", noinstall="py37", notfound="py{36,35,27}", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[tox4.py38]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38}", noinstall="py37", notfound="py{36,35,27}", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[tox4.py37]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+
+
+[venv.py314t]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20"}  # be ready to fail "py37"
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py313t]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20"}  # be ready to fail "py37"
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py314]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20"}  # be ready to fail "py37"
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py313]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20"}  # be ready to fail "py37"
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py312]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20"}  # be ready to fail "py37"
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py311]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20"}  # be ready to fail "py37"
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py310]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20"}  # be ready to fail "py37"
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py39]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20"}  # be ready to fail "py37"
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py38]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20"}  # be ready to fail "py37"
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py37]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20"}  # be ready to fail "py37"
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37}", noinstall="", notfound="py{36,35,27}", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py36]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py35]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}
+[venv.py27]
+v__ = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20"}
+v27 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.27"}
+v22 = {pass="py{314t,313t,314,313,312,311,310,39,38,37,36,35,27}", noinstall="", notfound="", venv=">=20,<20.22"}

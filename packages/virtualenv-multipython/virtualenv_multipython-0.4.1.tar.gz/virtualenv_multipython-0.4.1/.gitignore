@@ -1,0 +1,7 @@
+build/
+dist/
+.docsub/
+*.egg-info/
+__pycache__/
+.tox/
+.venv/
