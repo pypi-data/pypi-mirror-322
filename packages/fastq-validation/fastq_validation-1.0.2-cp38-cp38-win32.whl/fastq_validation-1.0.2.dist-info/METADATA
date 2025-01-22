@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: fastq_validation
+Version: 1.0.2
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Simple and fast validation of FASTQ files. Checks if given files are illumina/ONT
+Author-email: Jeremy Westhead <jeremy.westhead@ndm.ox.ac.uk>
+Requires-Python: >=3.8, <3.13
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source, https://github.com/GlobalPathogenAnalysisService/fastq_validation
+
+# fastq_validation
+Ensure input files are vaild and fit the expected profile of the instrument platform.
+Aimed at pathogen sequence data due to expected file sizes
+
+Should use near constant RAM usage due to not storing more than 10MB of a given file at any given time
+
+## Checks
+
+### All platforms
+If any of the following checks fail, an error is thrown:
+* Ensures files are valid fastq
+* Ensures valid gzip format (if gzipped)
+* Restricts maximum (decompressed) file size to 100GB to guard against zip bombs
+* Restricts maximum line length to 10MB to guard against zip bombs
+
+
+### Illumina
+* Matches lines in files to ensure only matched reads exist
+* Checks that read length is >30% the same (some variation exists in routine samples) and < 350 bases
+
+### ONT
+* Checks that mean read length >= 350 bases
+* Checks that reads have sufficient variation in length to be ONT sequenced
