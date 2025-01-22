@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ichigo-imaka"
+version = "0.0.1"
+requires-python = "==3.10"
+dependencies = [
+  "numpy",
+  "astropy",
+  "scipy",
+  "matplotlib",
+  "hcipy",
+  "paramiko",
+  "pillow",
+  "Pyro4",
+  "jupyter"
+]
+authors = [
+  { name="Ellen Lee", email="ellenlee@hawaii.edu" },
+]
+description = "Object-oriented scripting package for the imaka RTC"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = { file = "license.txt" }
+
+[project.optional-dependencies]
+FNF = [
+  "configobj",
+  "scikit-image",
+  "ipdb" 
+]
+DOCS = [
+  "sphinx == 7.3.7",
+  "furo == 2024.5.6",
+  "sphinx-copybutton==0.5.2",
+  "nbsphinx==0.9.5"
+]
+
+[tool.setuptools.packages.find]
+where = ["ichigo"]
+include = ["*"]
+exclude = ["*.tests", "*.tests.*", "tests.*", "tests"]
+
+[project.scripts]
+script-cli = "ichigo.ui:script_cli"
+
+[project.urls]
+Homepage = "https://github.com/ellenle3/ichigo-imaka"
