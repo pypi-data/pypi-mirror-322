@@ -1,0 +1,7 @@
+lips
+multiset
+ortools
+pandas
+pyadic
+pyyaml
+syngular
