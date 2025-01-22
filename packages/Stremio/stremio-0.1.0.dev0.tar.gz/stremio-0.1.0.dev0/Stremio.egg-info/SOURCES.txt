@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+Stremio.egg-info/PKG-INFO
+Stremio.egg-info/SOURCES.txt
+Stremio.egg-info/dependency_links.txt
+Stremio.egg-info/requires.txt
+Stremio.egg-info/top_level.txt
+stremio/__init__.py
+stremio/addon.py
+stremio/exceptions.py
+stremio/json_encoder.py
+stremio/linter.py
