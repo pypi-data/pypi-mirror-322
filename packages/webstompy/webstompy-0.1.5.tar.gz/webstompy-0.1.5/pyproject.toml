@@ -1,0 +1,24 @@
+[project]
+name = "webstompy"
+version = "0.1.5"
+description = "A simple Python STOMP implementation with WebSocket support"
+authors = [
+    {name = "Point 8 GmbH", email = "kontakt@point-8.de"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "websocket-client>=1.8.0"
+]
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+pytest-runner = "^6.0.1"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
