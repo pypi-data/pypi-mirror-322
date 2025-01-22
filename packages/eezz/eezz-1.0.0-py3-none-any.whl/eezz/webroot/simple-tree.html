@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+    <script data-eezz="template:websocket"></script>
+    <link rel="stylesheet" href="/css/eezz.css">
+
+    <style>
+        #eezz_log_table tbody tr td:last-child {
+             background-color: yellow
+        }
+    </style>
+</head>
+<html lang="en">
+<body>
+    <div style="background-color:rgb(219, 210, 33)"><h4 id="eezz-status">status</h4></div>
+	<!-- Optional output of status -->
+    <title>Directory View</title>
+    
+	<h1>Example for EEZZ TTableTree</h1>
+
+	<!-- assign table to python class -->
+    <table id	  = "Directory"
+		data-eezz = 
+			'assign: examples.directory.TDirTree(title = "Directory View", path  = ".")'>
+        <tbody>
+			<!-- template for files with update on logger -->
+            <tr data-eezz = "
+				template: 	row, match: is_file,
+                event: 		on_select(row={row.row_id}),
+                update: 	path_label.innerHTML={row.row_id},
+								eezz_log_table.tbody">
+				
+                <!-- cell type specific formats possible -->
+				<td class = 'clzz_{cell.type}'
+					data-eezz = "template: cell">{cell.value}</td></tr>
+					
+			<!-- template for directories with update on logger -->
+            <tr data-eezz = '
+				template: 	row, match: is_dir,
+                event: 		open_dir(path={row.row_id}),
+                update: 	this.subtree=this.tbody.tfoot, 
+								path_label.innerHTML={row.row_id},
+								eezz_log_table.tbody'>
+                
+                <!-- cell type specific formats possible -->
+				<td class = 'clzz_{cell.type}'
+					data-eezz = "template: cell">{cell.value}</td></tr>
+        </tbody>
+    </table>
+
+    <h3 style="background-color:rgb(150, 214, 197)">Update from Table Row Selection</h3>
+    <div id="path_label"></div>
+	
+    <!-- Optional logger output -->
+    <h4 style="background-color:rgb(105, 185, 214)">Logger Output</h4>
+	<table id="eezz_log_table" data-eezz="assign: eezz.websocket.TLogger ()"></table >
+
+    <ul>
+        <li>The status is set on connect and on close for the WebSocket.</li>
+        <li>The logger output collects all logs within a request cycle.</li>
+        <li>Hava a look into css/eezz.css on how the tree works.</li>
+    </ul>
+</body>
+</html>
