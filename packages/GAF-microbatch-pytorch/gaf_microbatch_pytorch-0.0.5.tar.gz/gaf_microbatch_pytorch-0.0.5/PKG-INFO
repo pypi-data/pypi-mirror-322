@@ -1,0 +1,127 @@
+Metadata-Version: 2.4
+Name: GAF-microbatch-pytorch
+Version: 0.0.5
+Summary: Gradient Agreement Filtering
+Project-URL: Homepage, https://pypi.org/project/GAF-microbatch-pytorch/
+Project-URL: Repository, https://github.com/lucidrains/GAF-microbatch-pytorch
+Author-email: Phil Wang <lucidrains@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2025 Phil Wang
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: artificial intelligence,deep learning,gradient filtering,label noise
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Requires-Dist: einops>=0.8.0
+Requires-Dist: torch>=2.4
+Provides-Extra: examples
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+<img src="./figure6.png" width="400px"></img>
+
+## Gradient Agreement Filtering - Pytorch
+
+Implementation of [Gradient Agreement Filtering](https://arxiv.org/abs/2412.18052), from Chaubard et al. of Stanford, but done for single machine microbatches, in Pytorch.
+
+The official repository that does filtering for macrobatches across machines is [here](https://github.com/Fchaubard/gradient_agreement_filtering)
+
+## Install
+
+```bash
+$ pip install GAF-microbatch-pytorch
+```
+
+## Usage
+
+```python
+import torch
+
+# mock network
+
+from torch import nn
+
+net = nn.Sequential(
+    nn.Linear(512, 256),
+    nn.SiLU(),
+    nn.Linear(256, 128)
+)
+
+# import the gradient agreement filtering (GAF) wrapper
+
+from GAF_microbatch_pytorch import GAFWrapper
+
+# just wrap your neural net
+
+gaf_net = GAFWrapper(
+    net,
+    filter_distance_thres = 0.97
+)
+
+# your batch of data
+
+x = torch.randn(16, 1024, 512)
+
+# forward and backwards as usual
+
+out = gaf_net(x)
+
+out.sum().backward()
+
+# gradients should be filtered by set threshold comparing per sample gradients within batch, as in paper
+
+```
+
+You can supply your own gradient filtering method as a `Callable[[Tensor], Tensor]` with the `filter_gradients_fn` kwarg as so
+
+```python
+
+def filtering_fn(grads):
+    # make your big discovery here
+    return grads
+ 
+gaf_net = GAFWrapper(
+    net = net,
+    filter_gradients_fn = filtering_fn
+)
+
+```
+
+## Todo
+
+- [ ] replicate cifar results on single machine
+- [x] allow for excluding certain parameters from being filtered
+
+## Citations
+
+```bibtex
+@inproceedings{Chaubard2024BeyondGA,
+    title   = {Beyond Gradient Averaging in Parallel Optimization: Improved Robustness through Gradient Agreement Filtering},
+    author  = {Francois Chaubard and Duncan Eddy and Mykel J. Kochenderfer},
+    year    = {2024},
+    url     = {https://api.semanticscholar.org/CorpusID:274992650}
+}
+```
