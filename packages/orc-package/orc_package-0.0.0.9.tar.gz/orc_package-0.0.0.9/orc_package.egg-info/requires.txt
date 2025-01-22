@@ -1,0 +1,19 @@
+requests
+numpy
+
+[:python_version < "3.10"]
+importlib-metadata
+
+[dev]
+orc_package[release,static-code-qa,test]
+
+[release]
+build
+twine
+
+[static-code-qa]
+pre-commit
+
+[test]
+pytest
+pytest-cov

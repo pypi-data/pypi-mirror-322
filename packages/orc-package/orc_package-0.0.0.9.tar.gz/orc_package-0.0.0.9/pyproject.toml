@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel","twine","build"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["setupenv"]
+
+[tool.setuptools.package-data]
+include = ["*.json"]
+
+[project]
+name = "orc_package"
+authors = [
+    {name = "Nitin keshav", email = "nitinkeshav11@outlook.com"},
+]
+description = "Packaging Orchestration"
+readme = "README.MD"
+keywords = ["one", "two"]
+license = {text = "E-daas"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "requests",
+    "numpy",
+    'importlib-metadata; python_version<"3.10"',
+]
+dynamic = ["version"]
+#version = '0.0.0.3'
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov"]
+release = ["build", "twine"]
+static-code-qa = ["pre-commit"]
+dev = ["orc_package[test,release,static-code-qa]"]
+
+
+[tool.setuptools.dynamic]
+version = {file = "version.txt"}
+
+[tool.pytest.ini_options]
+markers = ["slow: marks tests as slow (deselect with '-m \"not slow\"')"]
