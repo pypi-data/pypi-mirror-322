@@ -1,0 +1,14 @@
+accendino/__init__.py,sha256=DyyTVbwBRa2ahoBZXKg91duyNUqtc0xFiXI5oFSKzR0,33
+accendino/builditems.py,sha256=l17z5Gw9OMx3RyxoPmEp2SR7YX6MQKtcMDFKzWHiQNY,14172
+accendino/localdeps.py,sha256=ToImEgyxnN0bF43Gb43NxNgErUwUjk-2NLe-QvZRm7g,2976
+accendino/main.py,sha256=gMdVjjKh-wuutT5v4DvBwBPz2XC6uYt3SwFivXyNhLg,17084
+accendino/sources.py,sha256=2SvGLPwaDtFDn5fXnvo1E1AjfzPgeMGK0B_KRZOqI3E,2762
+accendino/utils.py,sha256=ftd0dVAcUlgvczbWmLy88uknDm4u21-5-57INlm1ig8,2917
+accendino/pocket/freerdp-mac-deps.accendino,sha256=qM1G2-i6kemSJuCTJwXyjD9L5q8RcB8sn5S-rCVQAZQ,3523
+accendino/pocket/freerdp.accendino,sha256=tq8GCYXe8DeVUYfkIx2OXz3CmsQ-_AMOkL5SgYrHrO0,2519
+accendino-0.5.0.dist-info/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+accendino-0.5.0.dist-info/METADATA,sha256=s0fPgG6Vb0AcqbdgGl34WLD2ix8KDQeFHi9xKF2w-i8,45947
+accendino-0.5.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+accendino-0.5.0.dist-info/entry_points.txt,sha256=qwQA8_64FCFWjbezzXACMnGBPqry74Sf_kO3A7-OhN4,50
+accendino-0.5.0.dist-info/top_level.txt,sha256=7faK5MaWqZGY4LjLVGgYcDcbdsuk21SA-TZf9pnpmlE,10
+accendino-0.5.0.dist-info/RECORD,,
