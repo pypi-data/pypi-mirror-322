@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: utmService
+Version: 0.1.0
+Summary: A Python library for UTM services
+Home-page: https://github.com/tiiuae/drone_ussp_svc
+Author: Ravi Ashok Pashchapur
+Author-email: ravi.pashchapur@tii.ae
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: configparser
+Requires-Dist: pyserial
+Requires-Dist: flask
+Requires-Dist: flask-cors
+Requires-Dist: paho-mqtt
+Requires-Dist: pynmeagps
+Requires-Dist: pyopenssl
+Requires-Dist: cryptography
+Requires-Dist: requests

@@ -1,0 +1,15 @@
+setup.py
+utmService/__init__.py
+utmService.egg-info/PKG-INFO
+utmService.egg-info/SOURCES.txt
+utmService.egg-info/dependency_links.txt
+utmService.egg-info/requires.txt
+utmService.egg-info/top_level.txt
+utmService/nrid/__init__.py
+utmService/nrid/nrid_service.py
+utmService/nrid/qmi_rid.py
+utmService/nrid/ussp/__init__.py
+utmService/nrid/ussp/json_creators.py
+utmService/nrid/ussp/message_security.py
+utmService/nrid/ussp/network_utility_interface.py
+utmService/nrid/ussp/non_repudiation.py

@@ -1,0 +1,9 @@
+configparser
+pyserial
+flask
+flask-cors
+paho-mqtt
+pynmeagps
+pyopenssl
+cryptography
+requests
