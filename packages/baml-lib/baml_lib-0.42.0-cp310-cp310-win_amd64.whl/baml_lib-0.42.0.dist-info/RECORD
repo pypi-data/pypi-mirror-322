@@ -1,0 +1,5 @@
+baml_lib-0.42.0.dist-info/METADATA,sha256=0x0lgr9EFy9Y6t5KxJNN4PTtvr7R83N4yAABYUTAeOA,4402
+baml_lib-0.42.0.dist-info/WHEEL,sha256=nWeKMpvecbFEmBYQM44p2FChzkAyOaqMiofeuspsYro,96
+baml_lib/__init__.py,sha256=kTVFvV0Y7C4DyoT8tlSQ3qnic5zdMoZnSkc_b85Pyn8,115
+baml_lib/baml_lib.cp310-win_amd64.pyd,sha256=6MXKMlt9PLR6zM1QlaShAq9prBSrqRYyRiPLszsVMMw,5422080
+baml_lib-0.42.0.dist-info/RECORD,,
