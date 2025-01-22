@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: psswd-box-generator
+Version: 0.1.2
+Summary: 
+Author: Melvin Quick
+Author-email: melvinquick@proton.me
+Requires-Python: >=3.12,<3.14
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+## Donations
+
+- [Buy Me A Coffee](https://www.buymeacoffee.com/KingKairos)
+- [GitHub Sponsors](https://github.com/sponsors/melvinquick)
+
+## Purpose
+
+This was a library I wrote for another project of mine called [Psswd Box](https://psswdbox.com/). It will generate passwords of various character types and lengths. By default, just running it as main will produce a password with lowercase letters, uppercase letters, numbers, and symbols, and it will be 20 characters long.
+
