@@ -1,0 +1,118 @@
+Metadata-Version: 2.2
+Name: snapmanager
+Version: 0.3.0
+Summary: Makes VSS snapshot disks bootable in Google Cloud
+Author: Ali Aktas
+License: MIT License
+        
+        Copyright (c) 2025 Ali Aktas
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/aliakts/snapmanager
+Project-URL: Bug Tracker, https://github.com/aliakts/snapmanager/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-cloud-compute>=1.23.0
+Requires-Dist: rich>=10.0.0
+Requires-Dist: pywinrm>=0.4.3
+Dynamic: requires-python
+
+# SnapManager
+
+A tool for managing VSS-enabled snapshots in Google Cloud Platform. Currently supports restoring VSS snapshots and creating bootable VM instances from them.
+
+## Prerequisites
+
+- Python 3.8 or higher
+- Google Cloud SDK
+- Google Cloud Service Account with the following permissions:
+  - `roles/compute.instanceAdmin.v1`
+  - `roles/compute.networkAdmin`
+  - `roles/compute.securityAdmin`
+
+## Authentication
+
+SnapManager uses Google Cloud Application Default Credentials for authentication. You can set this up in one of two ways:
+
+1. **Service Account Key File (Recommended for production)**:
+   ```bash
+   export GOOGLE_APPLICATION_CREDENTIALS="/path/to/service-account-key.json"
+   ```
+
+2. **User Credentials (Good for development)**:
+   ```bash
+   gcloud auth application-default login
+   ```
+
+## Installation
+
+```bash
+pip install snapmanager
+```
+
+## Usage
+
+```bash
+# Show help
+snapmanager restore --help
+
+# Restore a VSS snapshot
+snapmanager restore \
+  --project YOUR_PROJECT_ID \
+  --zone ZONE \
+  --vpc-network NETWORK_NAME \
+  --subnet SUBNET_NAME \
+  --snapshot SNAPSHOT_NAME
+```
+
+### Command Arguments
+
+- `--project`: Google Cloud project ID where the snapshot and new VM will be created
+- `--zone`: Google Cloud zone where the new VM will be created
+- `--vpc-network`: VPC network to attach the new VM to
+- `--subnet`: Subnet within the VPC network for the new VM
+- `--snapshot`: Name of the VSS-enabled snapshot to restore from
+- `--verbose`: Show detailed progress information for each step
+
+## Example
+
+```bash
+snapmanager restore \
+  --project my-project \
+  --zone europe-west1-b \
+  --vpc-network default \
+  --subnet default \
+  --snapshot my-windows-vss-snapshot
+```
+
+This will:
+1. Create a new disk from the VSS snapshot
+2. Create a temporary VM to make the disk bootable
+3. Run necessary Windows boot configuration commands
+4. Create a final VM with the bootable disk
+5. Clean up temporary resources
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
