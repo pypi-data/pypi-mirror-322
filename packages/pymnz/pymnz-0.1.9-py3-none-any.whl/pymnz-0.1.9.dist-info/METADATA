@@ -1,0 +1,47 @@
+Metadata-Version: 2.2
+Name: pymnz
+Version: 0.1.9
+Summary: Uma biblioteca para facilitar a criação de scripts de automações com Python
+Home-page: https://github.com/mateusflawer/pymnz
+Author: Mateus Menezes
+Author-email: mateusflawer@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# pymnz
+Biblioteca para facilitar a criação de scripts de bot e automações em Python.
+
+## Instalação
+```bash
+pip install pymnz
+
+
+# USO BÁSICO
+from pymnz import utils
+
+
+@utils.classes.singleton
+class Carro:
+    ...
+
+
+carro1 = Carro()
+carro2 = Carro()
+
+
+if carro1 is carro2:
+    print('Mesmo carro')
+else:
+    print('Carro diferente')
