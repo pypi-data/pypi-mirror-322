@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: Office365-Wrapper
+Version: 1.0.0
+Summary: A wrap around library for Office365-REST-Python-Client, which simplifies basic functions, such as reading/writing SharePoint Lists, and retrieving email attachments
+Author-email: Jon Hart <hartjc@gmail.com>
+Project-URL: Source Code, https://github.com/jc-hart/Office365-Wrapper
+Project-URL: Bug Tracker, https://github.com/jc-hart/Office365-Wrapper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Office365-REST-Python-Client==2.5.14
+Requires-Dist: msal==1.31.1
+Requires-Dist: pandas<2.3.0,>=2.2.0
+
+# Office365-Wrapper
+A wrap around library for Office365-REST-Python-Client, which simplifies basic functions, such as reading/writing SharePoint Lists, and retrieving email attachments.

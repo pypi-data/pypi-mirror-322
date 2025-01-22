@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+Office365_Wrapper.egg-info/PKG-INFO
+Office365_Wrapper.egg-info/SOURCES.txt
+Office365_Wrapper.egg-info/dependency_links.txt
+Office365_Wrapper.egg-info/requires.txt
+Office365_Wrapper.egg-info/top_level.txt
+mso_tools/mso_base.py
+mso_tools/mso_outlook_mail.py
+mso_tools/mso_sharepoint.py
