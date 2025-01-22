@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: SubTrack
+Version: 0.1.0
+Summary: A library for tracking subscribers and managing unsubscribed profiles.
+Home-page: https://github.com/anatolygg/SubTrack
+Author: Anatoly
+Author-email: tolagvozdev@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: beautifulsoup4
+
+# SubTrack
+
+SubTrack is a Python library for tracking and managing profiles, identifying new subscribers and unsubscribed profiles, and storing data in Excel.
+
+## Features
+- Parse HTML to extract profile names.
+- Maintain a list of subscribers and unsubscribed profiles in an Excel file.
+- Automatically update the subscription status with timestamps.
+
+## Installation
+Install SubTrack using pip:
+
+```bash
+pip install SubTrack
