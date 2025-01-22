@@ -1,0 +1,56 @@
+---
+icon: "rectangle-code"
+iconType: "solid"
+---
+
+<Info>Below are the various attributes you can assign to the component. Utilizing them can allow for modifications to the pre-created object.</Info>
+
+<ResponseField name="zero_true.Matplotlib" type="Zero True Component">
+  <Expandable title="properties">
+   <AccordionGroup>
+<Accordion title="id">
+        **id (string):** Unique id for a component
+</Accordion>
+<Accordion title="src">
+        **src (string):** Source URL of the image of the graph
+</Accordion>
+<Accordion title="alt">
+        **alt (string):** Alternative text for the graph image
+</Accordion>
+<Accordion title="width">
+        **width (integer | string):** Width of the graph
+</Accordion>
+<Accordion title="height">
+        **height (integer | string):** Height of the graph
+</Accordion>
+
+   </AccordionGroup>
+  </Expandable>
+</ResponseField>
+
+<Card title="Example Usage" icon="code">
+  ```python
+import zero_true as zt
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Some sample data pulled from Wikipedia
+table_MN = pd.read_html('https://en.wikipedia.org/wiki/Minnesota')
+example_data = table_MN[6]
+example_data['Country'] = example_data['Country'].str.replace(r"\[.*\]", "", regex=True)
+
+plt.clf()
+plt.bar(example_data["Country"], example_data["Population"])
+plt.xlabel("Country")
+plt.ylabel("Values")
+plt.xticks(rotation=90)
+plt.subplots_adjust(bottom=0.3)
+
+zt.matplotlib(id='plot', figure=plt.gcf(), width=200, height=600)
+```
+</Card>
+<Card title="Example Output">
+<Frame>
+  <img src="/images/matplotlib_example.png" />
+</Frame>
+</Card>
