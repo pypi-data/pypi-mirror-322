@@ -1,0 +1,12 @@
+README.md
+setup.py
+libraebookmanager/__init__.py
+libraebookmanager/html_generator.py
+libraebookmanager/main.py
+libraebookmanager/scanner.py
+libraebookmanager.egg-info/PKG-INFO
+libraebookmanager.egg-info/SOURCES.txt
+libraebookmanager.egg-info/dependency_links.txt
+libraebookmanager.egg-info/entry_points.txt
+libraebookmanager.egg-info/requires.txt
+libraebookmanager.egg-info/top_level.txt
