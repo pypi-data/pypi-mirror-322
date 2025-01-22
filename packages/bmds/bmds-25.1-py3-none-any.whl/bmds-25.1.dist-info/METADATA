@@ -1,0 +1,53 @@
+Metadata-Version: 2.2
+Name: bmds
+Version: 25.1
+Summary: A Python interface for the USEPA Benchmark dose modeling software (BMDS)
+Author: Andy Shapiro
+Author-email: shapiromatron@gmail.com
+License: MIT
+Project-URL: Documentation, https://bmds.readthedocs.io/
+Project-URL: Changes, https://github.com/shapiromatron/bmds/blob/main/docs/docs/history.md
+Project-URL: Code, https://github.com/shapiromatron/bmds
+Project-URL: Issue Tracker, https://github.com/shapiromatron/bmds/issues
+Project-URL: Download, https://pypi.org/project/bmds/
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: pydantic>2
+Requires-Dist: python-docx
+Requires-Dist: scipy
+Requires-Dist: simple-settings
+Requires-Dist: tabulate
+Requires-Dist: tqdm
+Provides-Extra: benchmarks
+Requires-Dist: SQLAlchemy<2,>1.4; extra == "benchmarks"
+
+BMDS Python interface
+=====================
+
+This package has been deprecated and is no longer actively maintained; please use pybmds_ instead.
+
+.. _pybmds: https://pypi.org/project/pybmds/
+
+.. image:: https://img.shields.io/pypi/v/bmds.svg
+        :target: https://pypi.python.org/pypi/bmds
+
+This Python package is designed to run the `USEPA BMDS`_ software from a python interface. It requires Python3.11+.
+
+.. _`USEPA BMDS`: https://epa.gov/bmds
+
+This software package was originally published in:
+
+Pham LL, Watford S, Friedman KP, Wignall J, Shapiro AJ. Python BMDS: A Python interface library and web application for the canonical EPA dose-response modeling software. Reprod Toxicol. 2019 Dec;90:102-108. doi: `10.1016/j.reprotox.2019.07.013`_. PMID: 31415808_.
+
+
+.. _`10.1016/j.reprotox.2019.07.013`: https://dx.doi.org/10.1016/j.reprotox.2019.07.013
+
+.. _31415808: https://pubmed.ncbi.nlm.nih.gov/31415808/
