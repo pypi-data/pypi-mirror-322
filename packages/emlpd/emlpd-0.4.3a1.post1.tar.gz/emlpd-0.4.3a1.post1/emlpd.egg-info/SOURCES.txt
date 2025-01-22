@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+emlpd/__init__.py
+emlpd/__main__.py
+emlpd/gameapi.py
+emlpd/gameinst.py
+emlpd.egg-info/PKG-INFO
+emlpd.egg-info/SOURCES.txt
+emlpd.egg-info/dependency_links.txt
+emlpd.egg-info/top_level.txt
+emlpd/classic/__init__.py
+emlpd/classic/__main__.py
+emlpd/classic/gameapi.py
+emlpd/classic/gameinst.py
