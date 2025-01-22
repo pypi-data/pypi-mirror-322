@@ -1,0 +1,10 @@
+FXrays/__init__.py,sha256=A9iuBthMfknRgyXEv_P7vXLGZqzU3g_vFfH-08N76VA,415
+FXrays/test.py,sha256=M_gEJR8DT6s0GMqgvBylWQhbZ6LudaW1kmMhMyUiioU,181
+FXrays/_test.py,sha256=YM2ZfG8gyKNLxpyoSaAzqI_BAOZIDxnRkGwBGna57AI,16148
+FXrays/FXraysmodule.cpython-310-aarch64-linux-gnu.so,sha256=zvzhzUUF8T8i4YiWL8xPD3hLjBqLmvRwwAfJSqNxIPk,135280
+FXrays/cython_src/FXraysmodule.c,sha256=pnhyV0trgngjE4nrE-y8PBfnhAKPKBRqfF8pkmqgCxs,278489
+FXrays/cython_src/FXraysmodule.pyx,sha256=fAPsGRmz2Xiz1hOoNPASOirE0z8WNAgUJdDbZED5LGw,3514
+FXrays-1.3.6.dist-info/RECORD,,
+FXrays-1.3.6.dist-info/top_level.txt,sha256=cqyGA5gs_fIb-jMma58-zWd9c3MxbJBOe1eIKzxvGvM,7
+FXrays-1.3.6.dist-info/WHEEL,sha256=uKWz2Cj4GNB4Gg9A3tvLNT_1WECRgStpyOrV-Oms7pI,153
+FXrays-1.3.6.dist-info/METADATA,sha256=2YerIC4ts9QvoQLWgcA5PSkz9VdaHtRayeGoFp9Fnn4,4546
