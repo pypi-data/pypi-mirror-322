@@ -1,0 +1,10 @@
+boxing_gym/MTPOPreprocessing.py,sha256=SZOdzRjOQhXjdaT3p1iIPCrsaxv6wrbqqjEIREgr9ys,7272
+boxing_gym/ObsPreprocessing.py,sha256=zB2Qie1LvoUaBuwcTOsDNdVXgsPAlQ39XIlKb8fUphE,6414
+boxing_gym/__init__.py,sha256=ez-63AlXzHr0-NdtpyW49dPgIhSU0cFlMDdUy3jgVJY,1623
+boxing_gym/data.bin,sha256=BDX22bz-tHSlksOpUFMKmcA6b2ys_3k9yI-CK7jMaVI,262160
+boxing_gym/mtpo_env.py,sha256=tJ7hvXjGlHFhZ_TYyJnYJehW1bi_pFr7LNMI93n9r28,8339
+boxing_gym-0.1.15.dist-info/LICENSE.txt,sha256=7Mge-CrAHMQciISbKyfrMZuJSI4hPuoNHcoFGaTanxU,1065
+boxing_gym-0.1.15.dist-info/METADATA,sha256=dsaVSGQh6EDvacm_nxvHRsrO_j2sDU_S_99Fko3mCsU,2199
+boxing_gym-0.1.15.dist-info/WHEEL,sha256=OpXWERl2xLPRHTvd2ZXo_iluPEQd8uSbYkJ53NAER_Y,109
+boxing_gym-0.1.15.dist-info/top_level.txt,sha256=LhVDB1tX5BwrHchmWl9VaiBDCz0Tye01PflEW1pIl3E,11
+boxing_gym-0.1.15.dist-info/RECORD,,
