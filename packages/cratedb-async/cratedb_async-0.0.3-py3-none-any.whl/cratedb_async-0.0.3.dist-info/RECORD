@@ -1,0 +1,7 @@
+cratedb_async/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cratedb_async/client.py,sha256=AVJ_kVTZa_XvCgT58LKo_OA_e7T8G7tT_VuMsfn96mI,2863
+cratedb_async/response.py,sha256=Z49u1v2929zn-sZN99JNZnpBe9xQUZxwf4KfIE0Z-gQ,2522
+cratedb_async/types.py,sha256=B3B_k8tLfgna2FBkF_fN98X2jsW3USET3fOeSIoqe8s,208
+cratedb_async-0.0.3.dist-info/METADATA,sha256=A2si_h75JGjpcrkAoq2ksI_xOyAAi9p9ieG_hCnSrAs,6491
+cratedb_async-0.0.3.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+cratedb_async-0.0.3.dist-info/RECORD,,
