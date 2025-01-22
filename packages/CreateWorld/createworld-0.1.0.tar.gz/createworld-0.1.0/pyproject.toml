@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CreateWorld"
+version = "0.1.0"
+description = "My sample Python package"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Zhengzheng", email = "snake.666@qq.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pygame",  # 示例依赖
+]
+
+[tool.setuptools]
+packages = ["CreateWorld"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"*" = ["README.md", "LICENSE"]
+

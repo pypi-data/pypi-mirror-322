@@ -1,0 +1,186 @@
+Metadata-Version: 2.2
+Name: CreateWorld
+Version: 0.1.0
+Summary: My sample Python package
+Author-email: Zhengzheng <snake.666@qq.com>
+License: MIT License
+        
+        Copyright (c) 2025 Zhengzheng
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame
+
+简介
+
+# 世界景象创建工具
+
+这是一个用于创建世界的Python工具，基于Pygame库实现。它允许用户创建不同模式的窗口，设置背景颜色或背景图像，绘制和更新图形等。
+
+## 功能
+
+- 创建不同模式的窗口（普通、无边框、全屏）
+- 设置窗口背景颜色或背景图像
+- 绘制矩形、圆形和线条等图形
+- 更新图形位置和状态
+- 支持多窗口创建
+
+## 安装
+
+确保你已经安装了Pygame库，如果没有安装，可以使用以下命令进行安装：
+
+```bash
+pip install pygame
+
+使用方法:
+	创建窗口
+from CreateWorld import create2dworld
+
+# 创建一个2D世界对象
+world = create2dworld(width=800, height=600, name="My 2D World")
+
+# 运行窗口
+world.run(mode='normal', color=(255, 255, 255))
+
+
+	设置背景
+# 设置背景颜色
+world.run(mode='normal', color=(255, 0, 0))  # 红色背景
+
+# 设置背景图像
+world.run(mode='normal', image_path='path/to/your/image.jpg')
+
+	绘制图形
+# 定义图形
+shapes = [
+    {'type': 'rectangle', 'color': (0, 255, 0), 'rect': (100, 100, 200, 150)},
+    {'type': 'circle', 'color': (0, 0, 255), 'center': (400, 300), 'radius': 50},
+    {'type': 'line', 'color': (255, 255, 0), 'start_pos': (0, 0), 'end_pos': (800, 600), 'width': 5}
+]
+
+# 绘制图形
+world.run(mode='normal', color=(255, 255, 255), draw_shapes=True, shapes=shapes)
+
+	更新图形
+# 定义更新函数
+def update_shapes(shapes, dt):
+    for shape in shapes:
+        if shape['type'] == 'rectangle':
+            shape['rect'][0] += 1  # 移动矩形
+
+# 运行窗口并更新图形
+world.run(mode='normal', color=(255, 255, 255), draw_shapes=True, shapes=shapes, control_func=update_shapes)
+
+
+示例:
+	以下是一个完整的示例，展示了如何创建一个带有背景颜色和图形的2D窗口：
+from CreateWorld import create2dworld
+
+# 创建2D世界对象
+world = create2dworld(width=800, height=600, name="My 2D World")
+
+# 定义图形
+shapes = [
+    {'type': 'rectangle', 'color': (0, 255, 0), 'rect': (100, 100, 200, 150)},
+    {'type': 'circle', 'color': (0, 0, 255), 'center': (400, 300), 'radius': 50},
+    {'type': 'line', 'color': (255, 255, 0), 'start_pos': (0, 0), 'end_pos': (800, 600), 'width': 5}
+]
+
+# 定义更新函数
+def update_shapes(shapes, dt):
+    for shape in shapes:
+        if shape['type'] == 'rectangle':
+            shape['rect'][0] += 1  # 移动矩形
+
+# 运行窗口
+world.run(mode='normal', color=(255, 255, 255), draw_shapes=True, shapes=shapes, control_func=update_shapes)
+
+
+Introduction
+
+
+World Scene Creation Tool
+This is a Python tool for creating worlds, implemented based on the Pygame library. It allows users to create windows in different modes, set background colors or background images, draw and update graphics, etc.
+
+Features
+
+• Create windows in different modes (normal, borderless, fullscreen)
+• Set window background color or background image• Draw rectangles, circles, and lines, etc.• Update the position and state of graphics
+• Support for creating multiple windows
+
+Installation:
+	Make sure you have the Pygame library installed. If not, you can install it using the following command:
+		pip install pygame
+		
+
+Usage:
+• Creating a Window
+from CreateWorld import create2dworld
+
+# Create a 2D world object
+world = create2dworld(width=800, height=600, name="My 2D World")
+
+# Run the window
+world.run(mode='normal', color=(255, 255, 255))
+• Setting the Backgroundpython# Set background color
+world.run(mode='normal', color=(255, 0, 0))  # Red background
+
+# Set background image
+world.run(mode='normal', image_path='path/to/your/image.jpg')
+• Drawing Graphicspython# Define graphics
+shapes = [
+    {'type': 'rectangle', 'color': (0, 255, 0), 'rect': (100, 100, 200, 150)},
+    {'type': 'circle', 'color': (0, 0, 255), 'center': (400, 300), 'radius': 50},
+    {'type': 'line', 'color': (255, 255, 0), 'start_pos': (0, 0), 'end_pos': (800, 600), 'width': 5}
+]
+
+# Draw graphics
+world.run(mode='normal', color=(255, 255, 255), draw_shapes=True, shapes=shapes)
+• Updating Graphicspython# Define update function
+def update_shapes(shapes, dt):
+    for shape in shapes:
+        if shape['type'] == 'rectangle':
+            shape['rect'][0] += 1  # Move the rectangle
+
+# Run the window and update graphics
+world.run(mode='normal', color=(255, 255, 255), draw_shapes=True, shapes=shapes, control_func=update_shapes)
+Example:• The following is a complete example showing how to create a 2D window with a background color and graphics:pythonfrom CreateWorld import create2dworld
+
+# Create a 2D world object
+world = create2dworld(width=800, height=600, name="My 2D World")
+
+# Define graphics
+shapes = [
+    {'type': 'rectangle', 'color': (0, 255, 0), 'rect': (100, 100, 200, 150)},
+    {'type': 'circle', 'color': (0, 0, 255), 'center': (400, 300), 'radius': 50},
+    {'type': 'line', 'color': (255, 255, 0), 'start_pos': (0, 0), 'end_pos': (800, 600), 'width': 5}
+]
+
+# Define update function
+def update_shapes(shapes, dt):
+    for shape in shapes:
+        if shape['type'] == 'rectangle':
+            shape['rect'][0] += 1  # Move the rectangle
+
+# Run the window
+world.run(mode='normal', color=(255, 255, 255), draw_shapes=True, shapes=shapes, control_func=update_shapes)
