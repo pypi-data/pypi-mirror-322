@@ -1,0 +1,3 @@
+[console_scripts]
+faceblur = faceblur.frontend.cli:main
+faceblurui = faceblur.frontend.wx:main
