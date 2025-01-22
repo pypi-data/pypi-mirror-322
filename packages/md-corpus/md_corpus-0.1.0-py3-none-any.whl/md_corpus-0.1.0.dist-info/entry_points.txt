@@ -1,0 +1,2 @@
+[console_scripts]
+md-corpus = md_corpus.cli:main

@@ -1,0 +1,12 @@
+md_corpus/__init__.py,sha256=6ScqgrWc3xoHZJsiZYt-LRErB_scnmuvY1FlVSwPLGE,4174
+md_corpus/cli.py,sha256=yFGD5qpGDREl8cVqFok-Xn7T8YnFpC8RDgnmpBkGiO4,2788
+md_corpus/exceptions.py,sha256=XzMwyPvTQZSIgjE2v8B22U7sbl6DWMabYrhj2X7UWRs,119
+md_corpus/providers/__init__.py,sha256=-EJETd7NhXQNk6KpCYfmGaCzbd9Yf-GKOO-o4hverdI,201
+md_corpus/providers/aliyun.py,sha256=mmARDsam4aLnCJi3xq1w-Emt3tfPPPWfxiksY2ziIpI,3864
+md_corpus/providers/aws.py,sha256=-Kx_ZB9y_JlwRsd81BRcUMMO31N4jOWf1YWSt7mbioc,3093
+md_corpus/providers/base.py,sha256=eUymoPGCJWenXPqBKIGL7aMfvJiTfEoMvQ2GcEgu0rQ,769
+md_corpus-0.1.0.dist-info/METADATA,sha256=gWU-U8LQICZPfsvl_W1gBBadAoGVNq6UzQHHw8TkIf4,5126
+md_corpus-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+md_corpus-0.1.0.dist-info/entry_points.txt,sha256=CwGts_3JVSw7XUKtA-Tv00utM13mso6oNwKs6dNDTiM,49
+md_corpus-0.1.0.dist-info/licenses/LICENSE,sha256=a1HBQfQsu2BzudNDw15JIRJ6jaXXxGdb6a_gBMF07_w,1066
+md_corpus-0.1.0.dist-info/RECORD,,
