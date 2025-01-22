@@ -1,0 +1,5 @@
+pyinstaller
+pygame
+numpy
+pillow
+opencv-python
