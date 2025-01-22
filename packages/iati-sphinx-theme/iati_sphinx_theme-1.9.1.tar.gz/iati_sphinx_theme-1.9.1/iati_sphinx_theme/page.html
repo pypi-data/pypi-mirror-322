@@ -1,0 +1,32 @@
+{% extends "basic/page.html" %}
+
+{%- block body %}
+  <nav class="iati-breadcrumb">
+    {% if theme_tool_name %}
+      <span class="iati-breadcrumb__previous">
+        <i class="iati-icon iati-icon--chevron-left"></i>
+        <a href="#" class="iati-breadcrumb-link">{{ theme_tool_name }}</a>
+      </span>
+    {% endif %}
+    <ol class="iati-breadcrumb__list">
+      {% if theme_tool_name %}
+        <li class="iati-breadcrumb-item">
+          <a href="{{ theme_tool_url }}" class="iati-breadcrumb-link">
+            {{ theme_tool_name }}
+          </a>
+        </li>
+      {% endif %}
+      {% if (theme_header_title_text != title) %}
+      <li class="iati-breadcrumb-item">
+        <a href="{{ pathto('', 1) }}"  class="iati-breadcrumb-link">{{ _(theme_header_title_text) }}</a>
+      </li>
+      {% endif %}
+      {% if (theme_header_title_text != title) or theme_tool_name %}
+        <li class="iati-breadcrumb-item iati-breadcrumb-item--current">
+          <a aria-current="page" class="iati-breadcrumb-link">{{ title }}</a>
+        </li>
+      {% endif %}
+    </ol>
+  </nav>
+  {{ super() }}
+{%- endblock %}
