@@ -1,0 +1,50 @@
+# SEED-IV dataset
+#################### dataset info ######################
+name: SEEDIV
+url: https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html
+folder: /data/shuyz/Emotion_compute/dataset/SEED_IV/eeg_feature_smooth # dir for input data
+save_path: /data/shuyz/Emotion_compute/EEGEmoLib/runs/data/SEED-IV  # save dir for result
+emotion_labels: [0, 1, 2, 3]
+emotion_names: ['neutral', 'sad', 'fear', 'happy']
+features: True
+feature_list: ['de_LDS', 'de_movingAve','psd_LDS','psd_movingAve']
+num_classes: 4
+time_sample: 1000 # sampling rate of raw data
+num_trials: 24 # Each subject has 24 trials in one session
+num_subjects: 15 # totally 15 subjects
+num_sessions: 3 # Each subject performs the session three times at the interval of a few days.
+split_criteria: dependent # dependent / independent, corresponding to subject dependent and subjec independent split
+subject_id: 1 # In the case of subject_dependent, you need to set the subject id 如果是subject_dependent的话，就需要设置subject id，注意第一个subject标号为1
+session_id: 2 # In the case of subject_dependent, you need to set the session id, because SEED perform three sessions，注意第一个session 标号为1
+subject_leave_id: 1 # In the case of subject_independent, need to set the subject id of leave-one-subject-out(LOSO), subject_independent use all session together
+split_prop: 0 # partitioning ratio of the train and test data
+split_shuffle: False
+
+
+################### preprocess setting ###################
+preprocess: False
+down_sample: 200
+location: syz.locs
+channels: ['Fp1','Fpz','Fp2','AF3','AF4','F7','F5','F3','F1','Fz','F2','F4','F6'
+            ,'F8','FT7','FC5','FC3','FC1','FCz','FC2','FC4','FC6','FT8','T7','C5'
+            ,'C3','C1','Cz','C2','C4','C6','T8','TP7','CP5','CP3','CP1','CPz','CP2'
+            ,'CP4','CP6','TP8','P7','P5','P3','P1','Pz','P2','P4','P6','P8','PO7'
+            ,'PO5','PO3','POz','PO4','PO6','PO8','CB1','O1','Oz','O2','CB2']
+bad_channel: [] # bad channel
+l_freq: 1
+h_freq: 75
+notch_freq: 50
+
+################### feature extraction setting ###################
+compute_fea: False
+win_length: 4
+win_type: hanning
+freq_sample_rate: 256
+bands: [1, 4, 8, 14, 31, 50] # delta: 1-3 Hz, theta: 4-7 Hz, alpha: 8-13 Hz, beta: 14-30 Hz, gamma: 31-50 Hz according to "Investigating Critical Frequency Bands and Channels for EEG-based Emotion Recognition with Deep Neural Networks"
+compute_fea_list: ['de', 'psd'] # feature list, DE, PSD, ...
+
+################### feature selection setting ###################
+select_fea: True
+select_method: LDA # feature selection method
+select_features: 5 # the number of selected features after feature selection
+

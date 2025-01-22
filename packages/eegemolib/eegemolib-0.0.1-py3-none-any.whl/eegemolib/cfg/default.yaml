@@ -1,0 +1,40 @@
+# default setting yaml
+# PART1: Training settings
+task: classify # classifiy / multi-label / regression
+mode: train # train / test / validation
+model: EEGNet.yaml # str or path, EEGNet.yaml or EEGNet.pt
+model_type: 2d
+data: SEED.yaml # default use SEED.yaml
+epochs: 100 
+project_name: base  # project name
+batch_size: 8
+save: True
+save_period: -1 # int, save checkpoint every {save_period} epochs, disabled if save_period < 1
+cache: True
+device: 0  # cpu: -1, gpu: index or list
+works: 8
+seed: 0
+pretrained: True # whether use a pretrained model
+freeze: [0,1]
+resume: False # resume trainint from last checkpoint according to project_path, default False
+verbose: True # whether to print verbose ouput
+optimizer: Adam # [auto, Adam, SGD, ...]
+dropout: 0.0  # use dropout regularization
+cos_lr: False
+
+# PART2: training hyperparameters setting
+lr0: 0.0001 # initial learning rate (i.e. SGD=1E-2, Adam=1E-3)
+lrf: 0.0001 # final learning rate (lr0 * lrf)
+weight_decay: 0.5  # (float) optimizer weight decay 5e-4
+warmup_epochs: 3.0  # (float) warmup epochs (fractions ok)
+momentum: 0.8  # (float) warmup initial momentum
+warmup_bias_lr: 0.1  # (float) warmup initial bias lr
+nbs: 16 # nominal batch size 多少个样例整体反向传播一次，如果batch_size不足nbs的话，需要累积以后再反向传播
+weight_cls: 1 # weight of loss function
+
+# Val/Test setting
+val: True # (bool) validate/test during training
+
+# Predict setting
+source: # str, source path of test data
+

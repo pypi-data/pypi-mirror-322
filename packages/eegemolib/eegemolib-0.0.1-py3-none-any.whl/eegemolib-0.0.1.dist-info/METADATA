@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: eegemolib
+Version: 0.0.1
+Summary: Unified Evaluation Framework for EEG-Based Emotion Recognition Algorithms
+Project-URL: Homepage, https://github.com/Schmerle-Cki/EEGEmoLib
+Project-URL: Issues, https://github.com/Schmerle-Cki/EEGEmoLib/issues
+Author-email: Yezhi Shu <shuyz19@tsinghua.org.cn>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# EEGEmoLib
+
+Unified Evaluation Framework for EEG-Based Emotion Recognition Algorithms
+
+# WARNING
+
+This project is now **WIP**, currently it may not run properly. 
