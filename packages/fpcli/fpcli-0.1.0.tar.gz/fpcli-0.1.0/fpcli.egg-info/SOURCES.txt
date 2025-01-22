@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+cli/commands/basic.py
+cli/content/cli_content.py
+cli/function/basic.py
+cli/function/check_app.py
+cli/function/check_class.py
+cli/function/check_option_param.py
+fpcli.egg-info/PKG-INFO
+fpcli.egg-info/SOURCES.txt
+fpcli.egg-info/dependency_links.txt
+fpcli.egg-info/requires.txt
+fpcli.egg-info/top_level.txt
