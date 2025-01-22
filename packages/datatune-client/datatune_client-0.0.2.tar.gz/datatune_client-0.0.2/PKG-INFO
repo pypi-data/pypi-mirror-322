@@ -1,0 +1,41 @@
+Metadata-Version: 2.2
+Name: datatune-client
+Version: 0.0.2
+Summary: A unified platform for ML data management and streaming
+Home-page: https://github.com/vitalops/datatune
+Author: Abhijith Neil Abraham
+Author-email: abhijith@vitalops.ai
+Project-URL: Documentation, https://docs.datatune.ai
+Project-URL: Source, https://github.com/vitalops/datatune
+Project-URL: Bug Reports, https://github.com/vitalops/datatune/issues
+Keywords: machine learning,data management,llm training,data streaming
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: requests
+Requires-Dist: s3fs
+Requires-Dist: torch
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# datatune
