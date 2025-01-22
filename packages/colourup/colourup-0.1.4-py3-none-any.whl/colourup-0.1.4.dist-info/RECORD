@@ -1,0 +1,12 @@
+colourup/__init__.py,sha256=whSDvZA_T1AdJe-QCGb4soFlI6HG5tJTsoVe5VD_qfs,886
+colourup/pinput.py,sha256=Qo5hu5-UxGSd8L44ddAvVkF9nS7XKmD0LO2hnzisv-k,1161
+colourup/title.py,sha256=vCA4UvwWSbd8xdikinSZHnqLrpoaalDHfX9k1Pwb7j0,1260
+colourup/styles/__init__.py,sha256=2OrPaapmy5swlEq0wH_gK_it6t5ldmzM8NniIzUkbyo,183
+colourup/styles/bg.py,sha256=A1zdxp9gBsslSRbVFCkwF8kpNM-ccRplSO85jzfm-qI,398
+colourup/styles/fg.py,sha256=iwjGqPPqJVr4YsavsCDKoRm16z7LRd0ZKc1QyosHtKU,391
+colourup/styles/style.py,sha256=M6hcUgViZK2WBka_9utWx-tQ-08BWWUlymcFjTx7PIs,121
+colourup-0.1.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colourup-0.1.4.dist-info/METADATA,sha256=DooZu7xlfE9k5NJjXn2Fu1mw1tkbqEPSJ8d0Aqx0TVc,3485
+colourup-0.1.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+colourup-0.1.4.dist-info/top_level.txt,sha256=e7yEJ56fsW_qvmSwwrFKVpgPy82PGsCOGN1lnhYOr5o,9
+colourup-0.1.4.dist-info/RECORD,,

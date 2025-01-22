@@ -1,0 +1,5 @@
+BOLD: str = "\033[1m"
+ITALIC: str = "\033[3m"
+UNDERLINE: str = "\033[4m"
+FLIPPED: str = "\033[7m"
+RESET: str = "\033[0m"
