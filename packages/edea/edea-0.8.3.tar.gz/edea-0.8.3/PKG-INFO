@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: edea
+Version: 0.8.3
+Summary: KiCAD file format parser and tools
+Home-page: https://gitlab.com/edea-dev/edea
+License: EUPL-1.2
+Author: Elen Eisendle
+Author-email: ln@calcifer.ee
+Requires-Python: >=3.10,<3.14
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: gitpython (>=3.1.43,<4.0.0)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: packaging (>=24.1,<25.0)
+Requires-Dist: pydantic (>=2.9.2,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Project-URL: Documentation, https://edea-dev.gitlab.io/edea/latest/get_started.html
+Project-URL: Repository, https://gitlab.com/edea-dev/edea
+Description-Content-Type: text/markdown
+
+# edea python library
+
+The core python library and command line interface for the EDeA project.
+
+## Documentation
+[latest docs](https://edea-dev.gitlab.io/edea/latest/)
+
+## Getting started
+[Getting started](https://edea-dev.gitlab.io/edea/latest/getting_started.html)
+
+
+## CHANGELOG
+[CHANGELOG](https://edea-dev.gitlab.io/edea/latest/changelog.html)
+
+## Developer documentation
+[Developer docs](https://edea-dev.gitlab.io/edea/latest/dev.html)
