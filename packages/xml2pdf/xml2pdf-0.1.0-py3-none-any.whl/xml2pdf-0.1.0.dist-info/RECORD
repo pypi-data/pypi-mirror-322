@@ -1,0 +1,10 @@
+xm2pdf/__init__.py,sha256=Nf4X0rvMXIACqBtln-qNoQJIjL0evUuvPN8Hqx2gB9Y,418
+xm2pdf/cleaner.py,sha256=cShTWzSfIzgUnrhQmPDMOGoT9NanKZWtYKJYgeEM0gA,3152
+xm2pdf/converter.py,sha256=xXyjQIKG_xe-G8t1wJbbbkUYWFX9CHO-cfG7KY72EJw,1068
+xm2pdf/downloader.py,sha256=sDnlBFjwM0U75BjcheqKpTQru-0qPFb2ykRkg3Q0vDs,1183
+xm2pdf/xslt_generator.py,sha256=BK2c9HQqd43GT7PPOiCgGxeYXw0LlzH74-LQHB77ARA,2158
+xml2pdf-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xml2pdf-0.1.0.dist-info/METADATA,sha256=B15kuvGR0UCXSHCHBT1K-1w2cOebB67YEHPq0jkvdb4,848
+xml2pdf-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+xml2pdf-0.1.0.dist-info/top_level.txt,sha256=NnfRJozcDHaTNm7jvEiq5X00jsPDfutnsRZ79DjujlI,7
+xml2pdf-0.1.0.dist-info/RECORD,,
