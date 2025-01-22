@@ -1,0 +1,9 @@
+aws_terraform_registry/__init__.py,sha256=kFXk0Y2e7qdvzCGr2rE_zBr-YWefzG_Os7A_KkjCT0s,467
+aws_terraform_registry/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+aws_terraform_registry/cli.py,sha256=qnBGWZb9N4Z0b8WMGqu4IjVLCUGJ7ES1fgbI6nEI1To,5400
+aws_terraform_registry/config.py,sha256=XZhbU4KqINEeKnU-gkStODASX8ToP0Q0bz2qRUHGqOw,2647
+aws_terraform_registry-1.2.1.dist-info/METADATA,sha256=SgS3TsyOaNGq5-gLwBK4ap6oLWixLIueaSUqRNGc9Bc,8892
+aws_terraform_registry-1.2.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+aws_terraform_registry-1.2.1.dist-info/entry_points.txt,sha256=9ceRvgqi9Gn5Z0I1UkMFTiPrLM---WsKR4m_UigZpC8,56
+aws_terraform_registry-1.2.1.dist-info/top_level.txt,sha256=7RE2ZhUJssJx2gCJO3dzwMyS3lpU9d9G_YM5CTybH7k,23
+aws_terraform_registry-1.2.1.dist-info/RECORD,,
