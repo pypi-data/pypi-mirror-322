@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: TCmath
+Version: 0.1.0
+Summary: A library for calculating combinations, permutations, and factorials.
+Author: Nguyen Truong Chinh
+Author-email: chinhcuber@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
+
+# TCmath
+
+TCmath lÃ  má»™t thÆ° viá»‡n Python Ä‘á»ƒ tÃ­nh toÃ¡n:
+- Tá»• há»£p (C(n, k))
+- Chá»‰nh há»£p (A(n, k))
+- HoÃ¡n vá»‹ (P(n))
+
+## CÃ¡ch cÃ i Ä‘áº·t
+
+```bash
+pip install TCmath
