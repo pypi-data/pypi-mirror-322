@@ -1,0 +1,7 @@
+celery_redis_poll/__init__.py,sha256=ySP3LqQcZWjzeVG5AXrhw_dOl68olFilExCJ3dE11yg,555
+celery_redis_poll/backend.py,sha256=TiGikvUus4zbFWk6bLXSFC1xMutpS7gQAQbk6WoWrC4,1710
+celery_redis_poll-0.1.1.dist-info/LICENSE,sha256=Btzdu2kIoMbdSp6OyCLupB1aRgpTCJ_szMimgEnpkkE,1056
+celery_redis_poll-0.1.1.dist-info/METADATA,sha256=q0WADrgoSWSFAktWlNtBg_ycDS9RG5OE2TvcgKYZnmU,3455
+celery_redis_poll-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+celery_redis_poll-0.1.1.dist-info/top_level.txt,sha256=-sogxvavrU0nx08VLGOaKjv7y-oegqo9na_CayRyyzE,18
+celery_redis_poll-0.1.1.dist-info/RECORD,,
