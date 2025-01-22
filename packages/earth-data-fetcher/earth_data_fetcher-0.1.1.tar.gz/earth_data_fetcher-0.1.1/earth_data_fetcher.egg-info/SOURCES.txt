@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+earth_data_fetcher.egg-info/PKG-INFO
+earth_data_fetcher.egg-info/SOURCES.txt
+earth_data_fetcher.egg-info/dependency_links.txt
+earth_data_fetcher.egg-info/requires.txt
+earth_data_fetcher.egg-info/top_level.txt
+src/earth_data_fetcher/__init__.py
+src/earth_data_fetcher/download_dataset.py
+src/earth_data_fetcher/download_https.py
+src/earth_data_fetcher/utils.py
