@@ -1,0 +1,53 @@
+import numpy
+import pytest
+
+from darfix.core.dataset import Transformation
+from darfix.core.dimension import POSITIONER_METADATA
+
+from .utils import create_dataset_for_RSM, create_1d_dataset
+
+
+@pytest.mark.parametrize("in_memory", (True, False))
+@pytest.mark.parametrize("backend", ("hdf5", "edf"))
+def test_rsm_kind(tmpdir, in_memory, backend):
+    dataset = create_dataset_for_RSM(dir=tmpdir, in_memory=in_memory, backend=backend)
+
+    with pytest.raises(ValueError):
+        dataset.compute_transformation(0.1, kind="rsm")
+    dataset.find_dimensions(POSITIONER_METADATA)
+
+    assert dataset.transformation is None
+    dataset.compute_transformation(0.1, kind="rsm")
+
+    transformation = dataset.transformation
+
+    assert isinstance(transformation, Transformation)
+    assert transformation.shape == dataset.get_data(0).shape
+    assert numpy.all(numpy.isfinite(transformation.x))
+    assert numpy.all(numpy.isfinite(transformation.y))
+
+
+@pytest.mark.parametrize("in_memory", (True, False))
+@pytest.mark.parametrize("backend", ("hdf5", "edf"))
+def test_magnification_kind(tmpdir, in_memory, backend):
+    dataset = create_1d_dataset(
+        dir=tmpdir,
+        in_memory=in_memory,
+        backend=backend,
+        motor1="obx",
+        motor2="obpitch",
+    )
+
+    with pytest.raises(ValueError):
+        dataset.compute_transformation(0.1, kind="magnification")
+    dataset.find_dimensions(POSITIONER_METADATA)
+
+    assert dataset.transformation is None
+    dataset.compute_transformation(0.1, kind="magnification")
+
+    transformation = dataset.transformation
+
+    assert isinstance(transformation, Transformation)
+    assert transformation.shape == dataset.get_data(0).shape
+    assert numpy.all(numpy.isfinite(transformation.x))
+    assert numpy.all(numpy.isfinite(transformation.y))
