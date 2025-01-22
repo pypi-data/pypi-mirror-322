@@ -1,0 +1,156 @@
+name: Build and Publish
+
+on:
+  push:
+    branches:
+      - master  # For merged PRs and direct pushes
+  pull_request:
+    branches:
+      - master
+    types: [opened, synchronize]  # For PR checks
+
+# Add permissions block
+permissions:
+  contents: write      # For creating releases and tags
+  pull-requests: read  # For reading PR information
+  packages: write      # For publishing packages
+
+jobs:
+  test:
+    name: Tests on Python ${{ matrix.python-version }}
+    runs-on: ubuntu-22.04
+    if: github.event_name == 'pull_request' || github.event_name == 'push'  # Run on PR and push
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, "3.10"]
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements-dev.txt
+        pip install -e .
+        python -c "import textract_parser; print(textract_parser.__file__)"
+
+    - name: Run tests with pytest
+      run: |
+        mkdir -p test-results
+        pytest --cov=textract_parser \
+              --cov-report=term-missing \
+              --html=test-results/report.html \
+              --self-contained-html \
+              -v
+
+    - name: Upload test results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: test-results-${{ matrix.python-version }}
+        path: |
+          test-results/
+          htmlcov/
+        retention-days: 30
+
+  verify:
+    name: Verify Build
+    needs: test
+    runs-on: ubuntu-22.04
+    if: github.event_name == 'pull_request'  # Only verify on PRs
+    steps:
+      - name: Check test status
+        run: |
+          echo "All tests passed successfully!"
+          exit 0
+
+  publish:
+    name: Publish Package
+    needs: test  # Only need test for push events
+    runs-on: ubuntu-22.04
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'  # Publish on push to master
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build twine python-dotenv requests packaging semver
+
+    - name: Get version and generate release notes
+      id: release_info
+      run: |
+        # Get current version from package
+        current_version=$(python -c "from textract_parser import __version__; print(__version__)")
+        echo "CURRENT_VERSION=${current_version}" >> $GITHUB_ENV
+
+        # Get latest tag
+        latest_tag=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
+
+        # Generate release notes from commits since last tag
+        {
+          echo "### Changes in v${current_version}"
+          echo ""
+          echo "#### Breaking Changes"
+          git log ${latest_tag}..HEAD --pretty=format:"- %s" --grep="^BREAKING"
+          echo ""
+          echo "#### Features"
+          git log ${latest_tag}..HEAD --pretty=format:"- %s" --grep="^feat"
+          echo ""
+          echo "#### Enhancements"
+          git log ${latest_tag}..HEAD --pretty=format:"- %s" --grep="^enhance"
+          echo ""
+          echo "#### Bug Fixes"
+          git log ${latest_tag}..HEAD --pretty=format:"- %s" --grep="^fix"
+          echo ""
+          echo "#### Other Changes"
+          git log ${latest_tag}..HEAD --pretty=format:"- %s" --grep="^(docs|style|refactor|test|chore)"
+        } > release_notes.md
+
+        # Save release notes to env
+        echo "RELEASE_NOTES<<EOF" >> $GITHUB_ENV
+        cat release_notes.md >> $GITHUB_ENV
+        echo "EOF" >> $GITHUB_ENV
+
+    - name: Create Tag and Release
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git tag -a "v${CURRENT_VERSION}" -m "Release v${CURRENT_VERSION}"
+        git push origin "v${CURRENT_VERSION}"
+
+    - name: Create Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      with:
+        tag_name: v${{ env.CURRENT_VERSION }}
+        release_name: Release v${{ env.CURRENT_VERSION }}
+        body: ${{ env.RELEASE_NOTES }}
+        draft: false
+        prerelease: false
+
+    - name: Build and publish
+      env:
+        PYPI_USERNAME: __token__
+        PYPI_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+      run: |
+        echo "Publishing version ${CURRENT_VERSION} to PyPI..."
+        python scripts/publish.py
