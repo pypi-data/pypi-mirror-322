@@ -1,0 +1,9 @@
+README.md
+setup.py
+logo2cc/__init__.py
+logo2cc/converter.py
+logo2cc.egg-info/PKG-INFO
+logo2cc.egg-info/SOURCES.txt
+logo2cc.egg-info/dependency_links.txt
+logo2cc.egg-info/requires.txt
+logo2cc.egg-info/top_level.txt
