@@ -1,0 +1,12 @@
+COPYING
+README.rst
+pyproject.toml
+rst2gemtext.py
+setup.py
+rst2gemtext.egg-info/PKG-INFO
+rst2gemtext.egg-info/SOURCES.txt
+rst2gemtext.egg-info/dependency_links.txt
+rst2gemtext.egg-info/entry_points.txt
+rst2gemtext.egg-info/requires.txt
+rst2gemtext.egg-info/top_level.txt
+tests/test_rst2gemtext.py
