@@ -1,0 +1,14 @@
+startgarlic-0.1.2.data/purelib/startgarlic/__init__.py,sha256=HLKd9yGhaD41poKXE2B4ZYgGTilGwXqJYWkQBxfCd0o,149
+startgarlic-0.1.2.data/purelib/startgarlic/core.py,sha256=LDCfSstb3NImSbI7leSg3gT39jxBkLzJO75WSWuorMU,4691
+startgarlic-0.1.2.data/purelib/startgarlic/utils/__init__.py,sha256=h1OaL1SWhpMx7mmtJENl1B1ItKFQCICVfzSrtct2A6c,325
+startgarlic-0.1.2.data/purelib/startgarlic/utils/analytics.py,sha256=x03DN00Cuwhs_mbpmM8mKLBav27Fwk2KMbcFD4j0mU4,2634
+startgarlic-0.1.2.data/purelib/startgarlic/utils/auction.py,sha256=Sc-uVvhEGJHZSO8g0EVTjpeMlMbI59b9I0PYNEvNJLM,2849
+startgarlic-0.1.2.data/purelib/startgarlic/utils/database.py,sha256=ETnk5VACTTEj3YnHGZ6ijCWAOK7amVBTIbpos8XmCsw,8002
+startgarlic-0.1.2.data/purelib/startgarlic/utils/embeddings.py,sha256=xODxgAWQj3tOWFb6Qq98wzZ1Z7YLAflVLGyoQG98uTs,3276
+startgarlic-0.1.2.data/purelib/startgarlic/utils/llm.py,sha256=vMA58UMBFC2JAIG-Cq0Ov9domaDVVCvEP6WBkp6sjRg,1304
+startgarlic-0.1.2.data/purelib/startgarlic/utils/prompts.py,sha256=JUDFLiZ3zBmeoZmNJ0KCGyIqvgTepgZT3d045HxHq3c,2421
+startgarlic-0.1.2.data/purelib/startgarlic/utils/url_handler.py,sha256=XFTeooFQJvb1Q2WmnPNCPuu4x_DLqzwsNeH2tn7SvYA,1925
+startgarlic-0.1.2.dist-info/METADATA,sha256=Lz13V0a2AH6LnW-E6jso7wTj-1djfWWM_aFutz-hTfA,2397
+startgarlic-0.1.2.dist-info/WHEEL,sha256=lO6CqtLHCAi38X3Es1a4R1lAjZFvN010IMRCFo2S7Mc,102
+startgarlic-0.1.2.dist-info/top_level.txt,sha256=hMbU2lgm0hzvXCgm5Lqq3_qikOyjo-vcwDItY7aFiXk,12
+startgarlic-0.1.2.dist-info/RECORD,,
