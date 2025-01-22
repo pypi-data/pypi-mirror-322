@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+fpcli.egg-info/PKG-INFO
+fpcli.egg-info/SOURCES.txt
+fpcli.egg-info/dependency_links.txt
+fpcli.egg-info/requires.txt
+fpcli.egg-info/top_level.txt
