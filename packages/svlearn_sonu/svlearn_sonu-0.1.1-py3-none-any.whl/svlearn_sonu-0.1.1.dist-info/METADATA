@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: svlearn_sonu
+Version: 0.1.1
+Summary: Amazing things and magical acts of Sonu
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: numpy>=2.2.2
+Requires-Dist: pandas>=2.2.3
