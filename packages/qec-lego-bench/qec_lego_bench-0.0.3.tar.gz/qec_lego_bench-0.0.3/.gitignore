@@ -1,0 +1,9 @@
+/tutorial-dist/
+/docs/_build
+/dist/
+__pycache__
+.ipynb_checkpoints
+*.egg-info
+.coverage
+/build
+*.csv

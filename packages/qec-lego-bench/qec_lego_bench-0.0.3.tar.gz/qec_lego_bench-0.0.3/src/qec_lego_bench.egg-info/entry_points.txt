@@ -1,0 +1,2 @@
+[console_scripts]
+script_name = qec_lego_bench.cli:run
