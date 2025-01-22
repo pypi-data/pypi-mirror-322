@@ -1,0 +1,11 @@
+README.md
+setup.py
+app/multilingual_python/__init__.py
+app/multilingual_python.egg-info/PKG-INFO
+app/multilingual_python.egg-info/SOURCES.txt
+app/multilingual_python.egg-info/dependency_links.txt
+app/multilingual_python.egg-info/requires.txt
+app/multilingual_python.egg-info/top_level.txt
+app/multilingual_python/src/__init__.py
+app/multilingual_python/src/pre_process.py
+app/multilingual_python/src/run_cli.py
