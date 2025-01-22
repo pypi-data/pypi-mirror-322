@@ -1,0 +1,25 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "fastq_validation"
+requires-python = " >=3.8,<3.13"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+description = "Simple and fast validation of FASTQ files. Checks if given files are illumina/ONT"
+readme = "README.md"
+dynamic = ["version"]
+authors = [
+    { name = "Jeremy Westhead", email = "jeremy.westhead@ndm.ox.ac.uk" }
+]
+
+[project.urls]
+Source = "https://github.com/GlobalPathogenAnalysisService/fastq_validation"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
