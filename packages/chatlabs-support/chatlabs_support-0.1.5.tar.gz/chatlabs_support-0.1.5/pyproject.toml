@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "chatlabs-support"
+version = "0.1.5"
+description = ""
+authors = ["Rostislaww <rostiki.com@mail.ru>"]
+readme = "README.md"
+homepage = "https://github.com/RostHarcha/chatlabs-support"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+django = {version="5.0.1", optional=true}
+channels = {version="^4.2.0", optional=true}
+daphne = {version="^4.1.2", optional=true}
+djangorestframework = {version="^3.15.2", optional=true}
+django-filter = {version="^24.3", optional=true}
+
+aiogram = {version="^3.16.0", optional=true}
+aiogram-dialog = {version="^2.3.0", optional=true}
+
+
+[tool.poetry.extras]
+chatlabs_django_support = [
+    "django",
+    "channels",
+    "daphne",
+    "djangorestframework",
+    "django-filter"
+]
+chatlabs_aiogram_support = [
+    "aiogram",
+    "aiogram-dialog"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
