@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: mapbots
+Version: 0.1.8
+Summary: tools for making softbots that operate on maps
+Home-page: https://github.com/ericmanley/ai_map_environments
+Author: Eric Manley
+Author-email: eric.manley@drake.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: networkx
+Requires-Dist: osmnx
+Requires-Dist: matplotlib
+Requires-Dist: mapclassify
+Requires-Dist: numpy
+Requires-Dist: geopy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# AI Map Environments
+
+This repository hosts code for map-based agent environments in Eric Manley's CS 143: Artificial Intelligence class.

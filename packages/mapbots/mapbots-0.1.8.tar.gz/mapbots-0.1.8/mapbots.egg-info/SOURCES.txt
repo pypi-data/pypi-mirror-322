@@ -1,0 +1,10 @@
+README.md
+setup.py
+mapbots/__init__.py
+mapbots/street_sweeper.py
+mapbots/tsp.py
+mapbots.egg-info/PKG-INFO
+mapbots.egg-info/SOURCES.txt
+mapbots.egg-info/dependency_links.txt
+mapbots.egg-info/requires.txt
+mapbots.egg-info/top_level.txt
