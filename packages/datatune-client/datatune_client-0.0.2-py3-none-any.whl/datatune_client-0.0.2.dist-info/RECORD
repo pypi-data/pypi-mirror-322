@@ -1,0 +1,16 @@
+datatune/__init__.py,sha256=NJI3QF5xHKKRu_OGvY0TDEZmUjVHctbcNOHXY7raKYA,42
+datatune/api.py,sha256=wOcPMC2-TvEJuVAXmo4gzzWEnBxb4xt-9mU28cuOSq4,12689
+datatune/config.py,sha256=19Fq51VasKFbkibnuwk6T0h1Anf4QrSG550C88oooII,158
+datatune/constants.py,sha256=xFvyCDM16gTD_MyxNXZ5dFR6OvX2JC0_pl2SZ4lDRjk,201
+datatune/credentials.py,sha256=J1oUMETzGSOSMbdhs_3pE79Lneg0N2tVC0ftIenpUUY,841
+datatune/dataset.py,sha256=ixIuFnBQ66gPnVYY1feFct6RQGgik2WkHQMNOqOMWSw,1041
+datatune/entity.py,sha256=Hbf5GYfGUN7jBRaAVkkzjODnoOI6N9ePHuWMY65cEo0,722
+datatune/exceptions.py,sha256=6cvG55ozahgDBk07IRHm1bQfTW8y3RB1QYtjq4Y8elI,2601
+datatune/extra_column.py,sha256=VHwuaai9VPen3ri589DeCcWTJQTr9Lln2b8qUkjl5PU,1170
+datatune/streaming.py,sha256=54PsJaUMFQcOX5cVJP7acQW1tOh2q8toK0vPjgqg6jE,3791
+datatune/view.py,sha256=e61Ut97fdrZWjIzUem6VBFQi9yt1feoG7DfbWZacQmw,3371
+datatune/workspace.py,sha256=d-GOC-yEazk5FUBL4lJB1orMSNwv9nF--RrDnMODJ-A,3562
+datatune_client-0.0.2.dist-info/METADATA,sha256=vtnRu_hicjWnrTrl0bzU0vZxjKmg1ztwqi5YwZeDCi0,1441
+datatune_client-0.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+datatune_client-0.0.2.dist-info/top_level.txt,sha256=v64qX_cBnltIz3LCbS2zD1wg46af16ZTtABS6vffaz0,9
+datatune_client-0.0.2.dist-info/RECORD,,
