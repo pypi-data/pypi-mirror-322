@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: python-persistent-apbf
+Version: 0.1.0
+Summary: A S3 compatible persistent Age-Partitioned Bloom Filter implementation in Python
+Project-URL: Repository, https://github.com/ananthdurai/python-persistent-apbf
+Author: Ananth Packkildurai
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Requires-Dist: mmh3>=5.0.1
+Requires-Dist: pyarrow>=19.0.0
