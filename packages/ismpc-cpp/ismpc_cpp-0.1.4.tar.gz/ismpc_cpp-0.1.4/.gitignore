@@ -1,0 +1,24 @@
+
+# pixi environments
+.pixi
+*.egg-info
+
+# cpp build directories
+build/
+include/ismpc_cpp/tools/systemvars.h
+
+# python stuff
+__pycache__/
+*.pyc
+*.so
+dist
+wheelhouse
+
+# ros2 stuff
+install/
+log/
+
+# code stuff
+.cache/
+.vscode/
+.zed/
