@@ -1,0 +1,33 @@
+# https://metacontroller.github.io/metacontroller/api/compositecontroller.html
+apiVersion: metacontroller.k8s.io/v1alpha1
+kind: CompositeController
+metadata:
+  name: applicationmappers
+spec:
+  parentResource:
+    apiVersion: niklasrosenstein.com/v1alpha1
+    resource: applicationmappers
+  childResources:
+    - apiVersion: argoproj.io/v1alpha1
+      resource: applications
+      updateStrategy:
+        method: InPlace
+    - apiVersion: v1
+      resource: secrets
+      updateStrategy:
+        method: InPlace
+    - apiVersion: v1
+      resource: configmaps
+      updateStrategy:
+        method: InPlace
+  generateSelector: true
+  resyncPeriodSeconds: 15
+  hooks:
+    customize:
+      webhook:
+        url: https://applicationmapper.argocd.svc/customize
+        timeout: 60s
+    sync:
+      webhook:
+        url: https://applicationmapper.argocd.svc/sync
+        timeout: 60s

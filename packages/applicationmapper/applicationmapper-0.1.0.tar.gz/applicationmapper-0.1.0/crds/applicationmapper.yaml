@@ -1,0 +1,54 @@
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: applicationmappers.niklasrosenstein.com
+spec:
+  group: niklasrosenstein.com
+  names:
+    kind: ApplicationMapper
+    listKind: ApplicationMapperList
+    plural: applicationmappers
+    singular: applicationmapper
+  scope: Cluster
+  versions:
+    - name: v1alpha1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          required: ["spec"]
+          properties:
+            spec:
+              type: object
+              required: ["inputQueries", "helmTemplate"]
+              properties:
+                inputQueries:
+                  type: array
+                  items:
+                    x-kubernetes-preserve-unknown-fields: true
+                    type: object
+                    # TODO: Further detail the structure of this CRD
+                helmTemplate:
+                  type: string
+            status:
+              type: object
+              x-kubernetes-preserve-unknown-fields: true
+              properties:
+                lastSyncTime:
+                  format: date-time
+                  type: string
+                lastSyncDuration:
+                  type: number
+      additionalPrinterColumns:
+        - name: Age
+          type: date
+          jsonPath: .metadata.creationTimestamp
+        - name: Last Sync
+          type: date
+          jsonPath: .status.lastSyncTime
+        - name: State
+          type: string
+          jsonPath: .status.state
+      subresources:
+        status: {}
