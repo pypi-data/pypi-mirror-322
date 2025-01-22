@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/nesteddict/__init__.py
+src/nesteddict/base.py
+src/nestict.egg-info/PKG-INFO
+src/nestict.egg-info/SOURCES.txt
+src/nestict.egg-info/dependency_links.txt
+src/nestict.egg-info/requires.txt
+src/nestict.egg-info/top_level.txt
+tests/test_nested_dict.py

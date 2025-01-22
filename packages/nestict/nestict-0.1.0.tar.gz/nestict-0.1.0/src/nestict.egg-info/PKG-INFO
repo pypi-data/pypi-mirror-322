@@ -1,0 +1,40 @@
+Metadata-Version: 2.2
+Name: nestict
+Version: 0.1.0
+Summary: A pure Python nested dict container
+Author-email: Roy Kid <lijichen365@gmail.com>
+Keywords: nested,dict
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-benchmark; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+
+![PyPI - License](https://img.shields.io/pypi/l/nesteddict)
+![Codecov](https://img.shields.io/codecov/c/github/Roy-Kid/nesteddict)
+
+# nesteddict
+
+**NestedDict** is a subclass of Python's `dict` that fully implements all `dict` methods while adding support for automatic nesting. It simplifies working with hierarchical data by providing intuitive methods for accessing, updating, and managing multi-level structures, making it ideal for handling complex configurations and JSON-like data.
+
+*quick start*:
+
+``` python
+from nesteddict import NestedDict
+
+>>> d = {'path': {'to': {'key': 'val'}}}
+>>> nd = NestedDict(d)
+>>> nd[['path', 'to', 'key']]
+'val'
+>>> nd[['path', 'new', 'key']] = 'val'
+>>> nd[['path', 'new']]
+{'key', 'val'}
+```
