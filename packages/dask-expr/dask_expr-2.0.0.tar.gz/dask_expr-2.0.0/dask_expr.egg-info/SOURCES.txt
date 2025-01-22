@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+dask_expr/__init__.py
+dask_expr.egg-info/PKG-INFO
+dask_expr.egg-info/SOURCES.txt
+dask_expr.egg-info/dependency_links.txt
+dask_expr.egg-info/requires.txt
+dask_expr.egg-info/top_level.txt
