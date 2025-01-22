@@ -1,0 +1,71 @@
+THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
+
+This project includes third-party software components, which are distributed under the
+following licenses. Full licenses and notices are provided in the
+[third-party-licenses](third-party-licenses) subdirectory.
+
+---
+
+Component: Abseil C++
+Version: Abseil LTS 20240722.0
+License: Apache License 2.0
+License text: https://www.apache.org/licenses/LICENSE-2.0
+Source: https://github.com/abseil/abseil-cpp
+
+For the full license text, see:
+[third-party-licenses/libabseil_LICENSE](third-party-licenses/libabseil_LICENSE)
+
+---
+
+Component: gRPC
+Version: v1.68.0
+License: Apache License 2.0
+License text: https://www.apache.org/licenses/LICENSE-2.0
+Source: https://github.com/grpc/grpc
+
+gRPC includes third-party dependencies distributed under various licenses. For the full
+list of licenses, see:
+[third-party-licenses/grpc_LICENSE](third-party-licenses/grpc_LICENSE)
+
+---
+
+Component: OpenTelemetry protcol (OLTP)
+Version: v1.3.2
+License: Apache License 2.0
+License text: https://www.apache.org/licenses/LICENSE-2.0
+Source: https://github.com/open-telemetry/opentelemetry-proto
+
+For the full license text, see:
+[third-party-licenses/opentelemetry_proto_LICENSE](third-party-licenses/opentelemetry_proto_LICENSE)
+
+---
+
+Component: OpenTelemetry C++
+Version: v1.17.0
+License: Apache License 2.0
+License text: https://www.apache.org/licenses/LICENSE-2.0
+Source: https://github.com/open-telemetry/opentelemetry-cpp
+
+For the full license text, see:
+[third-party-licenses/opentelemetry_cpp_LICENSE](third-party-licenses/opentelemetry_cpp_LICENSE)
+
+---
+
+Version: v27.2
+License: BSD 3-Clause License
+License text: https://opensource.org/licenses/BSD-3-Clause
+Source: https://github.com/protocolbuffers/protobuf
+
+For the full license text, see:
+[third-party-licenses/pybind11_LICENSE](third-party-licenses/protobuf_LICENSE)
+
+---
+
+Component: pybind11
+Version: v2.13.6
+License: BSD 3-Clause License
+License text: https://opensource.org/licenses/BSD-3-Clause
+Source: https://github.com/pybind/pybind11
+
+For the full license text, see:
+[third-party-licenses/pybind11_LICENSE](third-party-licenses/pybind11_LICENSE)
