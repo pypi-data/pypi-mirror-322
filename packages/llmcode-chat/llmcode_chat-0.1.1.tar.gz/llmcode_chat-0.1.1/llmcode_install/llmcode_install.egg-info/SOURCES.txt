@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+llmcode_install/__init__.py
+llmcode_install/main.py
+llmcode_install.egg-info/PKG-INFO
+llmcode_install.egg-info/SOURCES.txt
+llmcode_install.egg-info/dependency_links.txt
+llmcode_install.egg-info/entry_points.txt
+llmcode_install.egg-info/requires.txt
+llmcode_install.egg-info/top_level.txt
