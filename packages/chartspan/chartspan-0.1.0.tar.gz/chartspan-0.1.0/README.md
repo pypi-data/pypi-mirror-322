@@ -1,0 +1,147 @@
+# ChartSpan
+
+ChartSpan is a Python library for crafting and transforming Vega-Lite chart specifications with ease. It provides utilities to clean, modify, and create charts programmatically using Altair, a powerful declarative visualization library.
+
+## Features
+
+- **Clean and Transform Vega-Lite Specifications**: Simplify and customize your chart specifications by removing unnecessary keys and adjusting configurations.
+- **File-based Workflow**: Load and save specifications directly from and to JSON files.
+- **Customizable Dimensions**: Easily modify chart dimensions and adapt them to your needs.
+- **Altair Integration**: Build and render charts seamlessly using the Altair library.
+
+## Installation
+
+You can install ChartSpan via pip:
+
+```bash
+pip install chartspan
+```
+
+## Getting Started
+
+### Example Usage
+
+```python
+from chartspan import ChartSpan
+
+# Example Vega-Lite specification
+spec = {
+    "data": {
+        "values": [
+            {"x": 1, "y": 2},
+            {"x": 2, "y": 3},
+            {"x": 3, "y": 5}
+        ]
+    },
+    "mark": "line",
+    "encoding": {
+        "x": {"field": "x", "type": "quantitative"},
+        "y": {"field": "y", "type": "quantitative"}
+    }
+}
+
+# Initialize ChartSpan
+span = ChartSpan(width=500, height=400)
+
+# Transform the specification
+cleaned_chart = span.span(spec)
+
+# Display the chart
+cleaned_chart.display()
+```
+
+### File-based Workflow
+
+Load a specification from a file and create a chart:
+
+```python
+from chartspan import ChartSpan, load_spec
+
+# Load Vega-Lite spec from file
+spec = load_spec("example_spec.json")
+
+# Span the chart
+span = ChartSpan()
+chart = span.span(spec)
+
+# Display the chart
+chart.display()
+```
+
+Save a transformed specification to a file:
+
+```python
+from chartspan.utils import save_spec
+
+# Save the cleaned specification
+save_spec(chart.to_dict(), "cleaned_spec.json")
+```
+
+## API Reference
+
+### `ChartSpan`
+
+#### Methods
+
+- `__init__(width=800, height=600, remove_keys=None)`
+  - Initialize ChartSpan with custom dimensions and keys to remove.
+
+- `clean_spec(obj)`
+  - Recursively cleans the Vega-Lite specification.
+
+- `span(spec)`
+  - Transforms a Vega-Lite specification into an Altair chart object.
+
+- `from_file(filepath, **kwargs)`
+  - Create a `ChartSpan` instance and load a specification from a JSON file.
+
+### Utilities
+
+- `load_spec(filepath)`
+  - Load a Vega-Lite specification from a JSON file.
+
+- `save_spec(spec, filepath)`
+  - Save a Vega-Lite specification to a JSON file.
+
+## Requirements
+
+- Python 3.8 or higher
+- Altair >= 5.0.0
+- pandas >= 1.0.0
+
+## Installation for Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/chartspan.git
+cd chartspan
+```
+
+Install dependencies:
+
+```bash
+pip install -e .
+```
+
+Run tests:
+
+```bash
+pytest
+```
+
+## License
+
+ChartSpan is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+We welcome contributions! Please open an issue or submit a pull request for any enhancements or bug fixes.
+
+## Contact
+
+For inquiries or support, contact [Your Name](mailto:your.email@example.com).
+
+## Acknowledgments
+
+This project is built on top of the amazing [Altair](https://altair-viz.github.io/) library. Special thanks to the open-source community for making tools like this possible.
