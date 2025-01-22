@@ -1,0 +1,8 @@
+biopython
+configs
+statistics
+logomaker
+matplotlib
+pandas==1.4.0
+reportlab
+msa4u
