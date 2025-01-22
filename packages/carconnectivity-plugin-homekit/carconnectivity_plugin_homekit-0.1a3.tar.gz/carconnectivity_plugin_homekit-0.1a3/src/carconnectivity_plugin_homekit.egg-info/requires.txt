@@ -1,0 +1,2 @@
+carconnectivity
+HAP-python[QRCode]~=4.9.1
