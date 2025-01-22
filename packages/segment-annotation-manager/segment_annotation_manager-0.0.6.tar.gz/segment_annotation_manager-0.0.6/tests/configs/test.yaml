@@ -1,0 +1,42 @@
+path: C:\Users\Alexander\PycharmProjects\Segment_Annotation_Manager\tests\data\yolo_dataset
+test: test\images
+train: train\images
+val: val\images
+
+name: test
+names:
+- test1
+- test2
+nc: 2
+
+Image Preprocessing:
+- hist_eq
+
+Image Augmentation: []
+
+Training Parameters:
+  epochs: 500
+  format: engine
+  optimizer: SGD
+  plots: true
+  profile: true
+  verbose: true
+
+Predict Parameters:
+  classes:
+  - 0
+  - 1
+  conf: 0.5
+  max_det: 6
+  save: true
+  save_txt: true
+
+Dataset Parameters:
+  LoadInitialAnnotations:
+    Categories:
+      drop: []
+    Images:
+      keep: all
+  MergeAutoAnnotations:
+    Categories:
+      keep: all
