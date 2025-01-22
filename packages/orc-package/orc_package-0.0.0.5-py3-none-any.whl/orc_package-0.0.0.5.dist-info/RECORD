@@ -1,0 +1,17 @@
+astro_package/__init__.py,sha256=z9Cn5hMhMnpiKN-Xb0wPrOqAcFopBI0TgALH8k4HDag,316
+astro_package/lint_it.py,sha256=HuHOLyxRrcvuoTCaUuyu2OGtqTA-umaYWYC4DSy0axs,35
+astro_package/myouterfile.py,sha256=Ld4VG3iZ0V51uarf0R-CSE4N0nflbpnGQdBaGiqpV7s,40
+astro_package/state.json,sha256=LsxYRhxv8XbMSthed2kyE5isBQMGC2vaucK5kywTifI,68
+astro_package/my_folder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+astro_package/my_folder/city.json,sha256=LsxYRhxv8XbMSthed2kyE5isBQMGC2vaucK5kywTifI,68
+astro_package/my_folder/myinnerfile.py,sha256=G-28aYY6dUqF3cIKzG8Bmp3S2nKWHENAlG9IHO3_jaM,485
+build/lib/astro_package/__init__.py,sha256=z9Cn5hMhMnpiKN-Xb0wPrOqAcFopBI0TgALH8k4HDag,316
+build/lib/astro_package/lint_it.py,sha256=HuHOLyxRrcvuoTCaUuyu2OGtqTA-umaYWYC4DSy0axs,35
+build/lib/astro_package/myouterfile.py,sha256=Ld4VG3iZ0V51uarf0R-CSE4N0nflbpnGQdBaGiqpV7s,40
+build/lib/astro_package/my_folder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+build/lib/astro_package/my_folder/myinnerfile.py,sha256=G-28aYY6dUqF3cIKzG8Bmp3S2nKWHENAlG9IHO3_jaM,485
+tests/test__myinnerfile.py,sha256=8mwqC1x2yi-fu21_DWYf5M-uUhDIFp-SVXGTIqSaEaU,671
+orc_package-0.0.0.5.dist-info/METADATA,sha256=XtGTreyYKCM6fQpF3C3l8X8y10wUPE0uO2p1fD9WLVc,756
+orc_package-0.0.0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+orc_package-0.0.0.5.dist-info/top_level.txt,sha256=Lwy2_4bDh2LU2BEMaEBlnMEQNcogxvbgPg4Ov5lEilU,39
+orc_package-0.0.0.5.dist-info/RECORD,,
