@@ -1,0 +1,7 @@
+sage/all__sagemath_palp.py,sha256=Yz_yZf5xIfWrsGzDHX-5a3Q6aIL9zSjUvhBPJVQWH-w,87
+sage/libs/all__sagemath_palp.py,sha256=_Zn1f8x2IR0kP2N-5Zetuldspcl7uPDxyuiOLakGcKE,43
+sage/libs/palp.cpython-311-x86_64-linux-musl.so,sha256=k4GShbS_xWg2Ve-VVGQYZ-CLIeqb8UKQCDsAyk138IU,67200
+passagemath_palp-10.5.22.dist-info/METADATA,sha256=_7L9SFBGYhcAGVen3oKJUbGxl2nGI-Ze4zmUoVRB8cU,4311
+passagemath_palp-10.5.22.dist-info/WHEEL,sha256=bazm_2wUv8r3ZdI3EFF1W8XzzfWWNf0Zi3x2NpmmA_0,112
+passagemath_palp-10.5.22.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_palp-10.5.22.dist-info/RECORD,,
