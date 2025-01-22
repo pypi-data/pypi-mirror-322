@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+serbian_text_converter/__init__.py
+serbian_text_converter/converter.py
+serbian_text_converter.egg-info/PKG-INFO
+serbian_text_converter.egg-info/SOURCES.txt
+serbian_text_converter.egg-info/dependency_links.txt
+serbian_text_converter.egg-info/requires.txt
+serbian_text_converter.egg-info/top_level.txt
+tests/__init__.py
+tests/test_converter.py
