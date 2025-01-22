@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: h2ogpte_rest_client
+Version: 1.6.14.dev4
+Summary: The Python client for H2OGPTe REST API
+Home-page: https://github.com/h2oai/h2ogpte
+Author: H2O.ai, Inc.
+Author-email: support@h2o.ai
+Keywords: OpenAPI,OpenAPI-Generator,H2OGPTe REST API
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3<3.0.0,>=1.25.3
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: pydantic>=2
+Requires-Dist: typing-extensions>=4.7.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
+
+The generated Python client for H2OGPTe REST API https://h2ogpte.genai.h2o.ai/swagger-ui/. The client was generated with the openapi-generator-cli tool and modified with custom changes for streamed chat completions.
