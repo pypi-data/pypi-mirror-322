@@ -1,0 +1,3 @@
+[console_scripts]
+memoryscope-ai = memoryscope:cli
+
