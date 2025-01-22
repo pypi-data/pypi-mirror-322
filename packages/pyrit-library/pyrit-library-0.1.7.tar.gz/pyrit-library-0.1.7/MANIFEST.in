@@ -1,0 +1,5 @@
+# Include all files from the nested 'pyrit' folder inside the root 'pyrit' folder
+include prompt_chat_target/*
+
+# Include all YAML files from the 'datasets' folder and its subfolders
+recursive-include datasets *.yaml
