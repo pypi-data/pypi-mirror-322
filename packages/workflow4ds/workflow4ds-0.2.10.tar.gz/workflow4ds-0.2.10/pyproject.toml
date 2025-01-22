@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "workflow4ds"
+version = "0.2.10"
+authors = [
+  { name="Allen Li", email="supermrli@hotmail.com" },
+]
+description = "Data Pipeline Integration for Data Scientists"
+readme = "README.md"
+requires-python = ">=2.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    "tqdm",
+    "openpyxl",
+    "pandas"
+]
+
+[project.urls]
+Homepage = "https://github.com/allen-li1231/workflow"
+Issues = "https://github.com/allen-li1231/workflow/issues"
+
+[project.optional-dependencies]
+hive = ["impyla"]
+hue = ["requests_toolbelt"]
+tunnel = ["paramiko"]
+oracle = ["cx_Oracle"]
+doris = ["sqlalchemy>=2.0.0"]
+all = ["workflow4ds[hive,hue,tunnel,oracle,doris]"]
