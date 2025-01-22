@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: flask-swadantic
+Version: 0.0.1
+Summary: An OpenAPI documentation generator for Flask
+Author: Lucas de Freitas Ponick
+Author-email: <lucas_ponick@hotmail.com>
+Keywords: python,first package
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: keywords
+Dynamic: summary
+
+Flask-Swadantic is a library to generate OpenAPI documentation automatically from Flask applications.
