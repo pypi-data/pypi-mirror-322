@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: AskioCircleLib
+Version: 0.0.1
+Summary: circle class
+Home-page: 
+Author: Askio
+Author-email: legoask@gmail.com
+License: MIT
+Keywords: circle
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+A simple library that adds a class like the pygame rect class but for circles.
+
+Change log
+==========
+
+0.0.1 (21/01/2025)
+--------------------
+First Release
