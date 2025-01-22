@@ -1,0 +1,14 @@
+dicomanonymizer/__init__.py,sha256=cJnV3wXPtryBR9gsC9h-G4ttGl6RFO2JOZB4NS3jXiU,245
+dicomanonymizer/anonymizer.py,sha256=i37KQFt750BveWCUOyz8CbYCFAUBiX-F5Kf4i_zUYWo,7385
+dicomanonymizer/dicom_anonymization_databases/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dicomanonymizer/dicom_anonymization_databases/dicomfields_2023.py,sha256=SSnyPfNEieL4qFah34Sqx5kMbuZqRJA5m6vnby7fVTA,31506
+dicomanonymizer/dicom_anonymization_databases/dicomfields_2024b.py,sha256=SIBuB6pdbMeNYYSkNMh8yWcSh8wXbuTijF-Es1AXxe0,32144
+dicomanonymizer/dicomfields_selector.py,sha256=9DjGlvjMwSW2SfI9qI62_PS5PByk034rqxSVBQyCo6g,1047
+dicomanonymizer/format_tag.py,sha256=yutdYYQULCAtWGbErMXHD-z7RuF_ud7yNBhaAxk7Xjg,729
+dicomanonymizer/simpledicomanonymizer.py,sha256=Fxt2J0vFeW07EHcB5CXXYsXdjsdELXUBzfR4Waalt9Y,17904
+dicomanonymizer/version.py,sha256=tF3sRLXM7Z7LMOGGywvLYkppBKGYYbY2_XicVhV-5to,28
+dicom_anon-1.0.13.post2.dist-info/entry_points.txt,sha256=iNBcP2-THRl78jPRzkHWmCHKC5NLCNiEQ86HPhldA2s,68
+dicom_anon-1.0.13.post2.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+dicom_anon-1.0.13.post2.dist-info/METADATA,sha256=bIbdDFtzl1WqWj1utEAKqsOGd4xC3vcjOxHjFeokhSs,13105
+dicom_anon-1.0.13.post2.dist-info/licenses/LICENSE,sha256=HAtqo2Ih1usG0zGllDXoy8QzCr5Cgad0XnwXjWaSbQ0,1459
+dicom_anon-1.0.13.post2.dist-info/RECORD,,
