@@ -1,0 +1,53 @@
+Metadata-Version: 2.3
+Name: bm.probability-distributions
+Version: 0.5.0
+Summary: ### Boring Math Library - Visualize probability distributions
+Keywords: probability distributions,distribution,sample data
+Author-email: "Geoffrey R. Scheller" <geoffrey@scheller.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Typing :: Typed
+Requires-Dist: pytest >=8.3.2 ; extra == "tests"
+Project-URL: Changelog, https://github.com/grscheller/bm-probability-distributions/blob/main/CHANGELOG.md
+Project-URL: Documentation, https://grscheller.github.io/boring-math-docs/probability-distributions
+Project-URL: Source, https://github.com/grscheller/bm-probability-distributions
+Provides-Extra: tests
+
+# Boring Math Libraries - Probability distributions
+
+Package to generate and visualize probability distributions.
+
+Part of the "Boring Math" PyPI **bm** namespace for mathematical hobby
+projects. A work-in-progress.
+
+* **Repositories**
+  * [bm.probability-distributions][1] project on *PyPI*
+  * [Source code][2] on *GitHub*
+* **Detailed documentation**
+  * [Detailed API documentation][3] on *GH-Pages*
+
+Distributions can be compared to either sample or population data. Package
+originally derived from Udacity exercises.
+
+## Continuous Distributions
+
+* Normal (Gaussian): bm.probability-distributions.continuous.gaussian
+
+## Discrete Distributions
+
+* Binomial: bm.probability-distributions.discrete.binomial
+
+---
+
+[1]: https://pypi.org/project/bm.probability-distributions/
+[2]: https://github.com/grscheller/bm-probability-distributions/
+[3]: https://grscheller.github.io/boring-math-docs/probability-distributions/
+
+

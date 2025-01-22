@@ -1,0 +1,12 @@
+bm/probability_distributions/__init__.py,sha256=P9INFb4bEG4ai7qhz1CHmilLg6i48YytD2CQgMtDajo,1308
+bm/probability_distributions/datasets.py,sha256=s8opUZ1RFuAVS1L-pi0sarIWB3b1nXv29wzYZ1qUFWY,6464
+bm/probability_distributions/distribution.py,sha256=5xJdQ4KaHDL6bKJupVZpSVyRKe4Mm3dtaNBgwH8-gbc,2921
+bm/probability_distributions/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bm/probability_distributions/distributions/__init__.py,sha256=_j_X242GqXN6cpgN9uss3T25RSLvDbHhTP9uK4_cvqA,794
+bm/probability_distributions/distributions/binomial.py,sha256=iJB2MAzyD-QlpcF-JTQNcFxugCft9nfiyO4Lgj28fps,5247
+bm/probability_distributions/distributions/normal.py,sha256=mu0tQeEaSv7nKFGzSAKPEUmt_GqL0WMnyf9LZWQ_6Q4,4262
+bm/probability_distributions/distributions/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bm_probability_distributions-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bm_probability_distributions-0.5.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+bm_probability_distributions-0.5.0.dist-info/METADATA,sha256=n71OmldtIhByO3Qo4ZH6EEL9hIXdTQT1BJqRifpA2GQ,1970
+bm_probability_distributions-0.5.0.dist-info/RECORD,,
