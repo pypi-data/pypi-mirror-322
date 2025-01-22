@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["neuralgcm"]
+package-data = {neuralgcm = ["data/*"]}
+
+[project]
+name = "neuralgcm"
+description = "Neural General Circulation Models for Weather and Climate"
+version = "1.1.2"  # keep in sync with __version__ in neuralgcm/__init__.py
+authors = [
+    {name = "Google LLC", email = "noreply@google.com"},
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = [
+    "dinosaur>=1.2.1",
+    "dm-haiku",
+    "gin-config",
+    "jax",
+    "jaxlib",
+    "numpy",
+    "optax",
+    "pandas",
+    "tensorflow_probability",
+    "xarray",
+]
+
+[project.optional-dependencies]
+tests = [
+    "absl-py",
+    "chex",
+    "pytest",
+]
+experimental = [
+    "etils",
+    "fiddle",
+    "flax",
+    "orbax",
+    "penzai",
+]
