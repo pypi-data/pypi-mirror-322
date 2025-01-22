@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+read_in_terminal/__init__.py
+read_in_terminal/controller.py
+read_in_terminal/main.py
+read_in_terminal/utils.py
+read_in_terminal.egg-info/PKG-INFO
+read_in_terminal.egg-info/SOURCES.txt
+read_in_terminal.egg-info/dependency_links.txt
+read_in_terminal.egg-info/entry_points.txt
+read_in_terminal.egg-info/requires.txt
+read_in_terminal.egg-info/top_level.txt
