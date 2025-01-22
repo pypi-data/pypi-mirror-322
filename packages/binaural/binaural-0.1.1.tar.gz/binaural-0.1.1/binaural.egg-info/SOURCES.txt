@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+binaural/__init__.py
+binaural/core.py
+binaural.egg-info/PKG-INFO
+binaural.egg-info/SOURCES.txt
+binaural.egg-info/dependency_links.txt
+binaural.egg-info/requires.txt
+binaural.egg-info/top_level.txt
