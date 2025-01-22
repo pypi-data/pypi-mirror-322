@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "python_elasticsearch_logging"
+version = "2.0.8"
+description = "Minimalistic Elasticsearch logging handler"
+authors = ["Bohdan Sydorov", "Ashok Pant"]
+readme = "README.md"
+repository = "https://github.com/ashokpant/python-elasticsearch-logging"
+keywords = ["elasticsearch", "logging"]
+
+packages = [
+    { include = "*", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <4"
+elasticsearch = ">=8.17.0, <9"
+pytz = ">=2024.2"
+urllib3 = "~2.2.2"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.4"
+pytest-mock = "*"
+docker = "*"
+typing_extensions = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
