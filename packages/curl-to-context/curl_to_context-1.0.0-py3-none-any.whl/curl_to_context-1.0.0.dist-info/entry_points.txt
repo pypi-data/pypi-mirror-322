@@ -1,0 +1,5 @@
+[console_scripts]
+curl-to-context = curl_to_context.main:main
+
+[gui_scripts]
+

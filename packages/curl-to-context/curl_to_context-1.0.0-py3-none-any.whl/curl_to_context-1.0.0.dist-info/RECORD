@@ -1,0 +1,7 @@
+curl_to_context-1.0.0.dist-info/METADATA,sha256=p2vDZEjCBQXbLfO_TnaRBgJ6Z7trOeDyQacZC47Blcs,3179
+curl_to_context-1.0.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+curl_to_context-1.0.0.dist-info/entry_points.txt,sha256=cSVim4y6-zwBRqaTL89hE6V1gf8rAe8UbH9lVnWQNUM,78
+curl_to_context-1.0.0.dist-info/licenses/LICENSE,sha256=1KTbFe6BBeqNcR6IqRSpodTqUmJjy-ahPdTdQyJJzwU,35141
+curl_to_context/__init__.py,sha256=tN9kJpNCBaWQv3Gi-RIgMp4IuOjgraBuekc1Y-0tvBw,156
+curl_to_context/main.py,sha256=OWHahyT_yKGPeHYxUoL34qyvSmxhKiyPmSL6k-i9X3A,4596
+curl_to_context-1.0.0.dist-info/RECORD,,
