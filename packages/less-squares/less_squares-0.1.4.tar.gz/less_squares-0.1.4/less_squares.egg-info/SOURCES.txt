@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+less_squares/__init__.py
+less_squares/less_squares.py
+less_squares/performance_demonstration.py
+less_squares.egg-info/PKG-INFO
+less_squares.egg-info/SOURCES.txt
+less_squares.egg-info/dependency_links.txt
+less_squares.egg-info/requires.txt
+less_squares.egg-info/top_level.txt
