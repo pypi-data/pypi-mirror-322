@@ -1,0 +1,10 @@
+setuptools
+numpy>=1.26.3
+pandas
+matplotlib
+tqdm
+pygame
+flask>=2.0.0
+requests>=2.25.1
+open_spiel>=1.4.0
+agt_server
