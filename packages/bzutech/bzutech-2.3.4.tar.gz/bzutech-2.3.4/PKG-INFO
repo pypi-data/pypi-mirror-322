@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: bzutech
+Version: 2.3.4
+Summary: Integration package for bzutech services
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Author-email: Ênio Ferreira <e.nioferreira@hotmail.com>
+License-File: LICENSE.md
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: aiohttp
+Description-Content-Type: text/markdown
+
+# BZUTech API
+
+version 2.3.4
