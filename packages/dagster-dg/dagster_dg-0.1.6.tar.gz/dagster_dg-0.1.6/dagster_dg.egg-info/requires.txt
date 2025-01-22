@@ -1,0 +1,13 @@
+Jinja2
+tomli
+click>=8
+typing_extensions<5,>=4.4.0
+markdown
+PyYAML>=5.1
+
+[test]
+click
+dagster-components
+pydantic
+pytest
+tomli-w
