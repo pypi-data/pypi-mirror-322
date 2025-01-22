@@ -1,0 +1,7 @@
+bagua_quant-1.0.0.dist-info/METADATA,sha256=KWZABqwf2WRe3CejBxFvXaYcImSSSEPSVryE8HLXdfg,469
+bagua_quant-1.0.0.dist-info/WHEEL,sha256=Mr17hT5-Kh4TgrLTD7ddbC69K3dIO3UBu8XXQq7w5cM,131
+bagua_quant-1.0.0.dist-info/licenses/LICENSE,sha256=VjAaSPqAqdqg_3BFpJIBb7Y38GI8keAu2q4lgWoW5NM,1069
+bagua/__init__.py,sha256=CydhHyWjGmQ2rRwRcY9DKmzg_5WoCDT6PzYgFgTnd2k,20
+bagua/bagua.pyi,sha256=KfwYMzisGqN3YoRIDwEm9l6md8lJ7SC-4bCYQCIzjY4,890
+bagua/bagua.cpython-310-powerpc64le-linux-gnu.so,sha256=P-k3cW4J3jYrMlYMoM32-kC5Ro8arNyHupxZHV-Y80Q,735248
+bagua_quant-1.0.0.dist-info/RECORD,,
