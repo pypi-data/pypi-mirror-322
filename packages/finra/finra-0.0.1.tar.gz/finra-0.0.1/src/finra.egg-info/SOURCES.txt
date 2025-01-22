@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/finra/__init__.py
+src/finra/finra.py
+src/finra.egg-info/PKG-INFO
+src/finra.egg-info/SOURCES.txt
+src/finra.egg-info/dependency_links.txt
+src/finra.egg-info/requires.txt
+src/finra.egg-info/top_level.txt
