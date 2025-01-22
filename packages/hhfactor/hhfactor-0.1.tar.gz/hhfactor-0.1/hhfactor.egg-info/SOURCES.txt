@@ -1,0 +1,6 @@
+README.md
+setup.py
+hhfactor.egg-info/PKG-INFO
+hhfactor.egg-info/SOURCES.txt
+hhfactor.egg-info/dependency_links.txt
+hhfactor.egg-info/top_level.txt
