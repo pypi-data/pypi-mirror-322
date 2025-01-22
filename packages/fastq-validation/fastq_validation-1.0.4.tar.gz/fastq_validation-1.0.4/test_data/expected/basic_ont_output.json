@@ -1,0 +1,10 @@
+{
+	"basic_ont.fastq.gz": {
+		"num_reads": 5,
+		"mean_read_length": 5177,
+		"percentage_same_length": 0.2
+	},
+	"ONT": {
+		"basic_ont.fastq.gz is ONT": true
+	}
+}

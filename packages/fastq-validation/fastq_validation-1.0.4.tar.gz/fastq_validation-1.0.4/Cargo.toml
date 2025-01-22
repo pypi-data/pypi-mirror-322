@@ -1,0 +1,30 @@
+[package]
+name = "fastq_validation"
+version = "1.0.4"
+edition = "2021"
+description = "Validation of FASTQs"
+license-file = "LICENSE"
+readme = "README.md"
+
+[dependencies]
+clap = { version = "4.5.26", features = ["derive"] }
+flate2 = "1.0.35"
+pyo3 = { version = "0.23.4", features = ["extension-module"] }
+
+
+[profile.dev]
+opt-level = 3
+debug = 1
+lto = true
+
+[profile.release]
+opt-level = 3
+debug-assertions = true # Required else lto gives no optimisations???
+lto = true
+
+[lib]
+name = "fastq_validation"
+crate-type = ["cdylib", "rlib"]
+
+[dev-dependencies]
+pretty_assertions = "1.4.1"
