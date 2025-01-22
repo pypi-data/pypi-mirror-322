@@ -1,0 +1,6 @@
+numpy
+lisaconstants
+lisaorbits
+
+[jax]
+jax
