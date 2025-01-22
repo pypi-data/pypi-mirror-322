@@ -1,0 +1,22 @@
+site_name: pydagoras
+site_url: https://MarkHallett.github.io/pydagoras/
+theme:
+  name: material
+
+plugins:
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        paths: [../src]
+
+nav:
+  - index.md
+  - Code reference: reference/
+  - more_docs.md
+  - test.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
