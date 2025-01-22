@@ -1,0 +1,18 @@
+[project]
+name = "harmony-to-organoid"
+version = "0.2.0"
+description = "Utility for extracting individual organoid max projections from the export of Opera Phenix Harmony software."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "markdown==3.7",
+    "matplotlib==3.10.0",
+    "scikit-image==0.25.0",
+    "tifffile==2024.12.12",
+    "typer==0.15.1",
+    "imagecodecs>=2024.12.30"
+]
+[tool.setuptools]
+packages = ["harmony_to_organoid" ]
+[project.scripts]
+harmony-to-organoid = "harmony_to_organoid.main:app"

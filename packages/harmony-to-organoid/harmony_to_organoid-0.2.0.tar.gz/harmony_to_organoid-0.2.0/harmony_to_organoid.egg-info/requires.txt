@@ -1,0 +1,6 @@
+markdown==3.7
+matplotlib==3.10.0
+scikit-image==0.25.0
+tifffile==2024.12.12
+typer==0.15.1
+imagecodecs>=2024.12.30
