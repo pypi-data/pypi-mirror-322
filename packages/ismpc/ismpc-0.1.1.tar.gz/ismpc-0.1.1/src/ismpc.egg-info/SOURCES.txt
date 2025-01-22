@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/ismpc.egg-info/PKG-INFO
+src/ismpc.egg-info/SOURCES.txt
+src/ismpc.egg-info/dependency_links.txt
+src/ismpc.egg-info/not-zip-safe
+src/ismpc.egg-info/requires.txt
+src/ismpc.egg-info/top_level.txt
