@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+aitrans/__init__.py
+aitrans/translator.py
+aitrans.egg-info/PKG-INFO
+aitrans.egg-info/SOURCES.txt
+aitrans.egg-info/dependency_links.txt
+aitrans.egg-info/requires.txt
+aitrans.egg-info/top_level.txt
