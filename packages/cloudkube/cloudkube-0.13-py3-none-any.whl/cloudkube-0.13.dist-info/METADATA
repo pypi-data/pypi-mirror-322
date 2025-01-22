@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cloudkube
+Version: 0.13
+Summary: minikube for the cloud
+Author: Chan Ming Han
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: python-terraform
+Requires-Dist: kubernetes
+Requires-Dist: requests
+Requires-Dist: GitPython
+
