@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: DORA_XGB
+Version: 1.10
+Summary: Gradient-booseted classifiers to predict the feasibility of enzymatic reactions
+Author: Yash Chainani and Joseph Ni
+Author-email: yashchainani2026@u.northwestern.edu
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: networkx>=2.2
+Requires-Dist: numpy
+Requires-Dist: mhfp
+Requires-Dist: xgboost==1.6.2
+Requires-Dist: rdkit
+Requires-Dist: mordred
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+
