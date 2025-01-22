@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: srtranslator-bariskeser
+Version: 0.0.1
+Summary: Traslate a .SRT file using any with custom translator
+Home-page: https://github.com/barkeser2002/SRTranslator
+Author: bariskeser2002
+Author-email: info@bariskeser.com
+License: FREE
+Keywords: python,srt,languages,translator,subtitles
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: deepl==1.19.1
+Requires-Dist: free_proxy==1.1.2
+Requires-Dist: pyass==0.1.4
+Requires-Dist: translatepy==2.3
+Requires-Dist: selenium==4.7.2
+Requires-Dist: srt==3.5.3
+Requires-Dist: PyDeepLX==1.0.7
+Requires-Dist: webdriverdownloader==1.1.0.4
+
+# SRTranslator
+
+## Install
+
+[PyPI](https://pypi.org/project/srttranslator-bariskeser/)
+
+```bash
+pip install srttranslator-bariskeser
+```
+## Usage from script
+
+Import stuff
+
+```python
+import os
+
+# SRT File
+from srtranslator import SrtFile
+# ASS File
+from srtranslator import AssFile
+
+from srtranslator.translators.deepl_api import DeeplApi
+from srtranslator.translators.deepl_scrap import DeeplTranslator
+from srtranslator.translators.translatepy import TranslatePy
+from srtranslator.translators.pydeeplx import PyDeepLX
+```
+
+Initialize translator. It can be any translator, even your own, check the docs, there are instructions per translator and how to create your own.
+
+```python
+translator = DeeplTranslator() # or TranslatePy() or DeeplApi(api_key) or DeepLX()
+```
+
+Load, translate and save. For multiple recursive files in folder, check `examples folder`
+
+```python
+filepath = "./filepath/to/srt"
+
+# SRT File
+sub = SrtFile(filepath)
+# ASS File
+sub = AssFile(filepath)
+
+# Translate
+sub.translate(translator, "en", "es")
+
+# Making the result subtitles prettier
+sub.wrap_lines()
+
+sub.save(f"{os.path.splitext(filepath)[0]}_translated.srt")
+```
+
+Quit translator
+
+```python
+translator.quit()
+```
+
+```bash
+# SRT file
+python -m srtranslator ./filepath/to/srt -i SRC_LANG -o DEST_LANG
+
+# ASS file
+python -m srtranslator ./filepath/to/ass -i SRC_LANG -o DEST_LANG
+```
+
+## Advanced usage
+
+```
+usage: __main__.py [-h] [-i SRC_LANG] [-o DEST_LANG] [-v] [-vv] [-s] [-w WRAP_LIMIT] [-t {deepl-scrap,translatepy,deepl-api,pydeeplx}] [--auth AUTH] path
+
+Translate an .STR and .ASS file
+
+positional arguments:
+  path                  File to translate
+
+options:
+  -h, --help            show this help message and exit
+  -i SRC_LANG, --src-lang SRC_LANG
+                        Source language. Default: auto
+  -o DEST_LANG, --dest-lang DEST_LANG
+                        Destination language. Default: es (spanish)
+  -v, --verbose         Increase output verbosity
+  -vv, --debug          Increase output verbosity for debugging
+  -s, --show-browser    Show browser window
+  -w WRAP_LIMIT, --wrap-limit WRAP_LIMIT
+                        Number of characters -including spaces- to wrap a line of text. Default: 50
+  -t {deepl-scrap,translatepy,deepl-api}, --translator {deepl-scrap,translatepy,deepl-api,pydeeplx}
+                        Built-in translator to use
+  --auth AUTH           Api key if needed on translator
+  --proxies             Use proxy by default for pydeeplx
+```
