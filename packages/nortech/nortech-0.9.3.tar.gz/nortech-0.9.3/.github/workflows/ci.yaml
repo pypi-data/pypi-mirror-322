@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11"]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v2
+        with:
+          version: "0.4.10"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install the project
+        run: uv sync --all-extras --dev
+
+      - name: Run linting
+        run: |
+          uvx ruff format --check
+          uvx ruff check
+
+      - name: Run tests
+        run: |
+          uv run pytest --cov=nortech --cov-report=xml .
+
+      - name: Upload results to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+
+      - name: Run docs generation
+        run: |
+          uv run python docs-render.py
+          if [ -n "$(git status --porcelain docs/index.md)" ]; then
+            echo "Error: docs/index.md has uncommitted changes after running render.py"
+            echo "Please run 'python render.py' locally and commit the changes"
+            git diff docs/index.md
+            exit 1
+          fi
