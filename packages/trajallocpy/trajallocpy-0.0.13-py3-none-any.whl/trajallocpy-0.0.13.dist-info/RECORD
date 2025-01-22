@@ -1,0 +1,16 @@
+trajallocpy/ACBBA copy.py,sha256=3HEwRgkvaBAi_tNnnVqsVMiv50ywv2P4tPiO-AxTJnA,14158
+trajallocpy/ACBBA.py,sha256=0EBFYf2JG3njr8j0H8c9IW23mFAIqaLy-7B9ExsCP9A,15107
+trajallocpy/Agent.py,sha256=V7D7-DLfvaCCnxsEnh176YupcR8kUDYYYV0bh_nwRjo,9771
+trajallocpy/CBBA.py,sha256=skUQhE8HrtgvjZBxGCdapUCcmpTKIaIoObpGGu-Ry_k,12885
+trajallocpy/CoverageProblem.py,sha256=UEy6n2ZUYRdOCenwRl28mQnhDsX2sQMQ0bgA3_yyffk,1929
+trajallocpy/Experiment.py,sha256=Gi9ahbSEfLhRpZZUzUf-vNJ_X5se5zo1FV3SCWoYUHc,8598
+trajallocpy/Task.py,sha256=_UC1F1Y60saBxoyGQ585oHm0BzjtnW9ZRFowF995yIU,1707
+trajallocpy/TaskGenerator.py,sha256=IDRLMzH-BEjnMOEcACa2VNOn-mZS1Uhyk5aP5X0FfaA,1686
+trajallocpy/Utility.py,sha256=gcEpFl_0L5D5w0v-asMM_EHyXoniR2HGO59L1mYF4uQ,6259
+trajallocpy/VisibilityGraph.py,sha256=rh4kzBoAMbO_YmPZGkHwht7M2Mvknw6Aw4j4nySVjiw,9019
+trajallocpy/__init__.py,sha256=Bwp9f7rZYmsdXubBebZ_ynGtk8CG0gMujNu2HJulIkM,78
+trajallocpy-0.0.13.dist-info/LICENCE,sha256=3r215_1cliNlvk_Q9LpQQHVwRSEJzBE-IlW8C0Hnap8,1087
+trajallocpy-0.0.13.dist-info/METADATA,sha256=pLqWsYnsElHJHo-260FtM8EnPhYyHeQeFHYMPNw946U,3966
+trajallocpy-0.0.13.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+trajallocpy-0.0.13.dist-info/top_level.txt,sha256=7E8lejTG7K2xs8mgf5LctTYDzEAWESWDuXfJ7rFmtUs,12
+trajallocpy-0.0.13.dist-info/RECORD,,
