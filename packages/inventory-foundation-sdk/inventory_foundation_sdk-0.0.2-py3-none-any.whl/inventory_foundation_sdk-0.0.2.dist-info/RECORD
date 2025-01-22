@@ -1,0 +1,15 @@
+inventory_foundation_sdk/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+inventory_foundation_sdk/_modidx.py,sha256=phs9OJ5RZVtJW4WVD1FgKzpsZnjjrBkf88XA1dCzCvE,12372
+inventory_foundation_sdk/core.py,sha256=XvYRFJnboqMdZHx5H7r0_lA-3XPdhaQT2VEq4mdIHEg,142
+inventory_foundation_sdk/custom_datasets.py,sha256=gL0qZBxzAqsJoWlw4di8pNyIS3J3Ol0Kpmh10TjETxM,9270
+inventory_foundation_sdk/db_mgmt.py,sha256=2ZDbDJ_TZiWIGGZd1Z0YEhc6GgokV0v71Rubsb0fRvQ,5469
+inventory_foundation_sdk/etl_db_writers.py,sha256=C6NTiUjHdagioXJcQhjEQUC74CiN9-324AwRoosfod4,40134
+inventory_foundation_sdk/etl_nodes.py,sha256=04w2HdLG0bSNzdaSi25IsYxlW_4ClayTVW8k0A6dw1g,4000
+inventory_foundation_sdk/kedro_orchestration.py,sha256=PpCZPM2kQbsfZ_fgfgibJGaf9GQc7VYnkrD7X0KE7vU,1048
+inventory_foundation_sdk/test.py,sha256=zpcB1Av5JHQHqLsTDpUlXJ8nUyCvbRdSoIVZlOg0fFw,5084
+inventory_foundation_sdk-0.0.2.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+inventory_foundation_sdk-0.0.2.dist-info/METADATA,sha256=_cnMM-FlvvfTcRWW6_qhhSHtdkP4v4j3ntiZ8Xl45XM,2494
+inventory_foundation_sdk-0.0.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+inventory_foundation_sdk-0.0.2.dist-info/entry_points.txt,sha256=WpihgHk1N7_T4JBB4XfwS5p_XZiN-IFu0a4xf4r5J8Y,70
+inventory_foundation_sdk-0.0.2.dist-info/top_level.txt,sha256=m2l8bPAH7IsY1GO0Tu1ZBu-J60K_NDpwZX6lSTpEAPs,25
+inventory_foundation_sdk-0.0.2.dist-info/RECORD,,
