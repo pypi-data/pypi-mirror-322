@@ -1,0 +1,63 @@
+Metadata-Version: 2.2
+Name: lopez_gonzalez_nuria_DI03_Tarea
+Version: 0.1.0
+Summary: Reserva de salones para eventos en hotel MiHotel
+Home-page: 
+Author: Nuria Lopez Gonzalez
+Author-email: nuria.lopezg1@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+Requires-Dist: PySide6
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: summary
+
+Proyecto lopez_gonzalez_nuria_DI03_Tarea - README.txt
+
+1. Descripción:
+-------------------
+Este proyecto es una aplicación realizada con PySide6. Su finalidad es poder reservar un salón para un evento determinado en el hotel que figura en la aplicación. Hay diferentes tipos de salones según las necesidades de los clientes, pudiendo añadir mejoras como cocina y alojamiento.
+
+2. Requisitos:
+-------------------
+- Python 3.x
+- PySide6
+
+3. Instalación:
+-------------------
+Para instalar el proyecto, siga estos pasos:
+1. Clonar el repositorio:
+   git clone <repositorio-url>
+2. Instalar las dependencias:
+   pip install -r requirements.txt
+
+4. Uso:
+-------------------
+Para ejecutar la aplicación:
+
+1. Ejecuta el script principal:
+   python main.py
+
+5. Explicación de funciones clave:
+-------------------
+
+- `iniciar_app()`: Inicializa la aplicación principal y muestra la interfaz.
+
+- Interfaz 2, en la que se selecciona el tipo de salón que buscamos para reservas y celebrar un evento, si no se selecciona ningún tipo de salón no debe poder acceder a la interfaz 3 
+- Interfaz 3 para gestionar las reservas. Permite dar de alta una reserva, todo ello guardado en la base de datos.
+- Interfaz 4 para modificar una reserva.Permite cargar y modificar una reserva existente desde la interfaz 2.
+
+6. Comentarios sobre decisiones de diseño:
+-------------------
+- Se usó el patrón de diseño MVC para separar la lógica de negocio de la interfaz de usuario creada con QtDesigner.
+- La aplicación está construida con PySide6 debido a su flexibilidad y facilidad de uso para crear aplicaciones GUI en Python.
+
+7. Contacto:
+-------------------
+Para más información, contactar a: Email

@@ -1,0 +1,4 @@
+include readme.txt
+include LICENSE
+recursive-include docs *
+recursive-include di_u3 *.py
