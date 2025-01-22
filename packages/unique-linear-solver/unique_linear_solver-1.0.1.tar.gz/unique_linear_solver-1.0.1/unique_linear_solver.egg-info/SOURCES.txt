@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+unique_linear_solver.egg-info/PKG-INFO
+unique_linear_solver.egg-info/SOURCES.txt
+unique_linear_solver.egg-info/dependency_links.txt
+unique_linear_solver.egg-info/requires.txt
+unique_linear_solver.egg-info/top_level.txt
