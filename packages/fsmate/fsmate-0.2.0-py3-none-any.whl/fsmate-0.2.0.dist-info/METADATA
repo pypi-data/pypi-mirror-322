@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: fsmate
+Version: 0.2.0
+Summary: Ergonomic FSM library
+Project-URL: Source, https://github.com/1ort/FSMate
+Project-URL: Homepage, https://github.com/1ort/FSMate
+Project-URL: Bug Tracker, https://github.com/1ort/FSMate/issues
+Author-email: Daniil Ivanov <83316072+1ort@users.noreply.github.com>
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Requires-Dist: typing-extensions>=4.12.2
+Description-Content-Type: text/markdown
+
+# FSMate
+
+## TODO:
+- [x] Support for custom state getter/setter
+- [x] Overload methods depending on current state
+- [ ] Transitions graph validation
+- [ ] Callbacks or pre/post-transition hooks
+- [ ] Async/await support
