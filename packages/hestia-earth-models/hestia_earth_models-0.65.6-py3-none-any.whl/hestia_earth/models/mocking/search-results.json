@@ -1,0 +1,646 @@
+[
+  {
+    "name": "get_all_emission_terms",
+    "query": {
+      "termType.keyword": "emission"
+    },
+    "results": []
+  },
+  {
+    "name": "get_cover_crop_property_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "property"
+            }
+          }
+        ],
+        "should": [
+          {
+            "match_phrase": {
+              "name": "cover crop"
+            }
+          },
+          {
+            "match_phrase": {
+              "name": "catch crop"
+            }
+          },
+          {
+            "match_phrase": {
+              "name": "fallow crop"
+            }
+          },
+          {
+            "match_phrase": {
+              "synonyms": "cover crop"
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_crop_residue_incorporated_or_left_on_field_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type.keyword": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "cropResidue"
+            }
+          }
+        ],
+        "should": [
+          {
+            "match": {
+              "name": "incorporated"
+            }
+          },
+          {
+            "match_phrase": {
+              "name": "left on field"
+            }
+          },
+          {
+            "match_phrase": {
+              "name": "below ground"
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_crop_residue_management_terms",
+    "query": {
+      "termType.keyword": "cropResidueManagement"
+    },
+    "results": []
+  },
+  {
+    "name": "get_crop_residue_terms",
+    "query": {
+      "termType.keyword": "cropResidue"
+    },
+    "results": []
+  },
+  {
+    "name": "get_digestible_energy_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "property"
+            }
+          },
+          {
+            "match_phrase_prefix": {
+              "name": "Digestible energy"
+            }
+          }
+        ]
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_electricity_grid_mix_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "electricity"
+            }
+          },
+          {
+            "match": {
+              "name": "grid"
+            }
+          },
+          {
+            "match": {
+              "name": "mix"
+            }
+          }
+        ]
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_energy_digestibility_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "property"
+            }
+          },
+          {
+            "match_phrase_prefix": {
+              "name": "Energy digestibility"
+            }
+          }
+        ]
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_excreta_N_terms",
+    "query": {
+      "termType.keyword": "excreta",
+      "units.keyword": "kg N"
+    },
+    "results": []
+  },
+  {
+    "name": "get_excreta_VS_terms",
+    "query": {
+      "termType.keyword": "excreta",
+      "units.keyword": "kg VS"
+    },
+    "results": []
+  },
+  {
+    "name": "get_flooded_pre_season_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType": "landUseManagement"
+            }
+          },
+          {
+            "match_phrase": {
+              "name": "flooded pre-season"
+            }
+          }
+        ]
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_generic_crop",
+    "query": {
+      "termType.keyword": "crop",
+      "name": "Generic crop seed"
+    },
+    "results": null
+  },
+  {
+    "name": "get_irrigated_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "waterRegime"
+            }
+          }
+        ],
+        "should": [
+          {
+            "match_phrase_prefix": {
+              "name": "irrigated"
+            }
+          },
+          {
+            "match_phrase_prefix": {
+              "name": "deep water"
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_irrigation_terms",
+    "query": {
+      "termType.keyword": "water"
+    },
+    "results": []
+  },
+  {
+    "name": "get_land_cover_siteTypes",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType": "landCover"
+            }
+          }
+        ],
+        "should": [
+          {
+            "match": {
+              "name": "agri-food processor"
+            }
+          },
+          {
+            "match": {
+              "name": "animal housing"
+            }
+          },
+          {
+            "match": {
+              "name": "cropland"
+            }
+          },
+          {
+            "match": {
+              "name": "food retailer"
+            }
+          },
+          {
+            "match": {
+              "name": "forest"
+            }
+          },
+          {
+            "match": {
+              "name": "glass or high accessible cover"
+            }
+          },
+          {
+            "match": {
+              "name": "lake"
+            }
+          },
+          {
+            "match": {
+              "name": "other natural vegetation"
+            }
+          },
+          {
+            "match": {
+              "name": "permanent pasture"
+            }
+          },
+          {
+            "match": {
+              "name": "pond"
+            }
+          },
+          {
+            "match": {
+              "name": "river or stream"
+            }
+          },
+          {
+            "match": {
+              "name": "sea or ocean"
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_land_cover_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType": "landCover"
+            }
+          }
+        ]
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_liquid_fuel_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "fuel"
+            }
+          }
+        ],
+        "should": [
+          {
+            "regexp": {
+              "name": "gasoline*"
+            }
+          },
+          {
+            "regexp": {
+              "name": "petrol*"
+            }
+          },
+          {
+            "regexp": {
+              "name": "diesel*"
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_milkYield_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "animalManagement"
+            }
+          },
+          {
+            "match_phrase_prefix": {
+              "name": "Milk yield"
+            }
+          }
+        ]
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_pasture_system_terms",
+    "query": {
+      "termType.keyword": "system",
+      "name": "pasture"
+    },
+    "results": []
+  },
+  {
+    "name": "get_residue_removed_or_burnt_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "cropResidueManagement"
+            }
+          }
+        ],
+        "should": [
+          {
+            "match": {
+              "name": "removed"
+            }
+          },
+          {
+            "match": {
+              "name": "burnt"
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_rice_paddy_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType": "crop"
+            }
+          },
+          {
+            "regexp": {
+              "name": "rice*"
+            }
+          },
+          {
+            "regexp": {
+              "name": "flooded*"
+            }
+          }
+        ]
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_tillage_terms",
+    "query": {
+      "termType.keyword": "tillage",
+      "name": "tillage"
+    },
+    "results": []
+  },
+  {
+    "name": "get_upland_rice_crop_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "crop"
+            }
+          },
+          {
+            "match_phrase": {
+              "name": "rice"
+            }
+          },
+          {
+            "match": {
+              "name": "upland"
+            }
+          }
+        ]
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_upland_rice_land_cover_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "landCover"
+            }
+          },
+          {
+            "match_phrase": {
+              "name": "rice plant"
+            }
+          },
+          {
+            "match": {
+              "name": "upland"
+            }
+          }
+        ]
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_urea_terms",
+    "query": {
+      "termType.keyword": "inorganicFertiliser",
+      "name": "urea"
+    },
+    "results": []
+  },
+  {
+    "name": "get_wood_fuel_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "fuel"
+            }
+          },
+          {
+            "nested": {
+              "path": "defaultProperties",
+              "query": {
+                "match": {
+                  "defaultProperties.term.name.keyword": "Energy content (lower heating value)"
+                }
+              }
+            }
+          },
+          {
+            "regexp": {
+              "name": "wood*"
+            }
+          }
+        ]
+      }
+    },
+    "results": []
+  },
+  {
+    "name": "get_wool_terms",
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "@type": "Term"
+            }
+          },
+          {
+            "match": {
+              "termType.keyword": "animalProduct"
+            }
+          },
+          {
+            "match_phrase_prefix": {
+              "name": "Wool"
+            }
+          }
+        ]
+      }
+    },
+    "results": []
+  }
+]
