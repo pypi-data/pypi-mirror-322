@@ -1,0 +1,2 @@
+[console_scripts]
+stamake = statmake.cli:main
