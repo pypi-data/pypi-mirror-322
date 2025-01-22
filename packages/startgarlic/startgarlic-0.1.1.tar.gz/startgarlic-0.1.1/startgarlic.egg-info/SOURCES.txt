@@ -1,0 +1,17 @@
+README.md
+setup.py
+garlic/__init__.py
+garlic/core.py
+garlic/utils/__init__.py
+garlic/utils/analytics.py
+garlic/utils/auction.py
+garlic/utils/database.py
+garlic/utils/embeddings.py
+garlic/utils/llm.py
+garlic/utils/prompts.py
+garlic/utils/url_handler.py
+startgarlic.egg-info/PKG-INFO
+startgarlic.egg-info/SOURCES.txt
+startgarlic.egg-info/dependency_links.txt
+startgarlic.egg-info/requires.txt
+startgarlic.egg-info/top_level.txt
