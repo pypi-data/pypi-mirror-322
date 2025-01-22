@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+DataElevate/EDAerror.py
+DataElevate/GoogleDrive_api.py
+DataElevate/__init__.py
+DataElevate/download.py
+DataElevate/env.py
+DataElevate/extractor.py
+DataElevate/kaggle_api.py
+DataElevate/load_data.py
+DataElevate/load_data_api.py
+DataElevate.egg-info/PKG-INFO
+DataElevate.egg-info/SOURCES.txt
+DataElevate.egg-info/dependency_links.txt
+DataElevate.egg-info/requires.txt
+DataElevate.egg-info/top_level.txt
