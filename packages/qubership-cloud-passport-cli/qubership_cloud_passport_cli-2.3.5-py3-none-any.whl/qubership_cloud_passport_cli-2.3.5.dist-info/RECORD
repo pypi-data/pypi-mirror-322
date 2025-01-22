@@ -1,0 +1,14 @@
+cloud_passport_cli/__init__.py,sha256=832ctaeAmzMZeYlKgX42NqwLaMM90LVl-xmOuKPpGXo,106
+cloud_passport_cli/__main__.py,sha256=2OXo2NZwNRLvMSgQFlpOiGu7vaqSTWxIW5m1tCbtry8,27
+cloud_passport_cli/collector.py,sha256=iNz9c9EVt2ni3GFfEPPNjVFgQGmTmDIJpbYVB-ON8rI,2678
+cloud_passport_cli/connect.py,sha256=_LTIFeel9KPQSeO362r7SUeaclVqiVBdmm1_z4y1-vw,1227
+cloud_passport_cli/discovery.py,sha256=rneHuUX3dHS3fUHEE0SSJDHB7GvEN2m0GaYitibWqd4,5971
+cloud_passport_cli/main.py,sha256=CT4--ArJ5M4O22CTB_JPRnbNCxzaxwzyxy4_3TJZ9Os,9167
+cloud_passport_cli/scrapers.py,sha256=AAtPzv3qo1NTRcuaQn5DMjrkf7BXgg0gysNzGPQsPCw,35707
+cloud_passport_cli/templating.py,sha256=mC6R9jrlqn_qEjYQXzi0HGS7_Kwvgb0pHBuoLMAIIjo,7233
+cloud_passport_cli/utility.py,sha256=xeeOTyyh7DoL-KZB-VruIXBGEODWqcDdO4WZAwOFl9U,4612
+qubership_cloud_passport_cli-2.3.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+qubership_cloud_passport_cli-2.3.5.dist-info/METADATA,sha256=hLPehQwn2MHLaQIeej5bYriM-bTVLLqcUtiYcQa-faE,1343
+qubership_cloud_passport_cli-2.3.5.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+qubership_cloud_passport_cli-2.3.5.dist-info/entry_points.txt,sha256=eOwxfwTV9yyMiphOcxsW-uNaIM__Hn3kJhCNBBQrJ3M,71
+qubership_cloud_passport_cli-2.3.5.dist-info/RECORD,,
