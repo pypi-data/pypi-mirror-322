@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+version.txt
+astro_package/__init__.py
+astro_package/lint_it.py
+astro_package/myouterfile.py
+astro_package/state.json
+astro_package/my_folder/__init__.py
+astro_package/my_folder/city.json
+astro_package/my_folder/myinnerfile.py
+orc_package.egg-info/PKG-INFO
+orc_package.egg-info/SOURCES.txt
+orc_package.egg-info/dependency_links.txt
+orc_package.egg-info/requires.txt
+orc_package.egg-info/top_level.txt
+tests/test__myinnerfile.py
