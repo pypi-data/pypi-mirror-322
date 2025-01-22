@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+mileva.egg-info/PKG-INFO
+mileva.egg-info/SOURCES.txt
+mileva.egg-info/dependency_links.txt
+mileva.egg-info/requires.txt
+mileva.egg-info/top_level.txt
+src/mileva/__init__.py
+src/mileva/geometry/__init__.py
+src/mileva/geometry/examples.py
+src/mileva/geometry/geometry.py
+tests/test_symbolic_geometry.py
