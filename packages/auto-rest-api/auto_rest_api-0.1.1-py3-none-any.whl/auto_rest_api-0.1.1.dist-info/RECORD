@@ -1,0 +1,14 @@
+auto_rest/__init__.py,sha256=9ICmv2urSoAo856FJylKdorF19UsUGc4eyORYLptf1Q,69
+auto_rest/__main__.py,sha256=XvDFalpJBQ0QvZDr9f3tn108Skf80aYrnK8iohYLwBk,3085
+auto_rest/app.py,sha256=I6ZeHzKuhPTS1svLhMTvefjzTkMJgGpwVz1kdJ_9mtE,1887
+auto_rest/cli.py,sha256=A7-kMTNNzqZB7jTUJBAVqfYm9RyYjENr0g_vK9JE0N4,5199
+auto_rest/handlers.py,sha256=QaqnYSxSBxB2YCffEf2uUlza6LplXBOPGoU2Yd8pe2k,11921
+auto_rest/models.py,sha256=_SCDNO9811uJWndMG4EaqTPUh4PptcyfHJXrdQ4jhWc,6925
+auto_rest/params.py,sha256=Qb3xS1t1rYDJD7C9095D4bZvZCKhH4za-lqwGKm2UrI,6067
+auto_rest/queries.py,sha256=GzoCtxRPn9UJ7cnhYuPc8wZFppbqe7ykSlnesfWSr94,2926
+auto_rest/routers.py,sha256=BN9B3Lzvme59a2a0DlLXYxosBCRjZtQsVxoljRggpyg,5326
+auto_rest_api-0.1.1.dist-info/LICENSE.md,sha256=zFRw_u1mGSOH8GrpOu0L1P765aX9fB5UpKz06mTxAos,34893
+auto_rest_api-0.1.1.dist-info/METADATA,sha256=snNqFpjnxbC2ntO5bhTETLtXAatgiiQYv9FL33n8G8s,2951
+auto_rest_api-0.1.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+auto_rest_api-0.1.1.dist-info/entry_points.txt,sha256=zFynmBrHyYo3Ds0Uo4-bTFe1Tdr5mIXV4dPQOFb-W1w,53
+auto_rest_api-0.1.1.dist-info/RECORD,,
