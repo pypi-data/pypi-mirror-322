@@ -1,0 +1,2 @@
+[console_scripts]
+textract-parser = textract_parser.__main__:main
