@@ -1,0 +1,3 @@
+[console_scripts]
+yaltai = yaltai.cli.yaltai:yaltai_cli
+
