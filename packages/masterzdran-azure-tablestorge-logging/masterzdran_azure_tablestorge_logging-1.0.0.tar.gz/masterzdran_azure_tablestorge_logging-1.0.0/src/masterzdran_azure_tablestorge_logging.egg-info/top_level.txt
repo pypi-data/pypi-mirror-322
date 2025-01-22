@@ -1,0 +1,1 @@
+masterzdran_azure_tablestorage_logging

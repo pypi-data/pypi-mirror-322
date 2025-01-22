@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/masterzdran_azure_tablestorage_logging/__init__.py
+src/masterzdran_azure_tablestorage_logging/interfaces.py
+src/masterzdran_azure_tablestorage_logging/logger.py
+src/masterzdran_azure_tablestorage_logging/models.py
+src/masterzdran_azure_tablestorage_logging/storage.py
+src/masterzdran_azure_tablestorge_logging.egg-info/PKG-INFO
+src/masterzdran_azure_tablestorge_logging.egg-info/SOURCES.txt
+src/masterzdran_azure_tablestorge_logging.egg-info/dependency_links.txt
+src/masterzdran_azure_tablestorge_logging.egg-info/requires.txt
+src/masterzdran_azure_tablestorge_logging.egg-info/top_level.txt
+tests/test_azure_logger.py
