@@ -1,0 +1,13 @@
+cython
+numpy
+pandas
+scipy
+xlrd
+openpyxl
+matplotlib
+BeautifulSoup4
+requests
+PyQt5
+scikit-image
+tqdm
+gym
