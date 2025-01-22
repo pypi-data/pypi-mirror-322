@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rigol_dg1022"
+version = "0.0.6"
+description = "A Python driver for the Rigol DG1022 Function Generator"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Daniel Köpping", email = "daniel.koepping@de.abb.com" }
+]
+dependencies = [
+    "pyvisa",
+    "pyusb"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools]
+packages = ["rigol_dg1022"]

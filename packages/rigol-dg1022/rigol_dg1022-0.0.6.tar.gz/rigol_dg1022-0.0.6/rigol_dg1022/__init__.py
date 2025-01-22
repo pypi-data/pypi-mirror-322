@@ -1,0 +1,6 @@
+"""
+Copyright (c) YEAR ABB Stotz Kontakt GmbH <daniel.koepping@de.abb.com>
+
+SPDX-License-Identifier: MIT
+"""
+from .driver import RigolDG1022
