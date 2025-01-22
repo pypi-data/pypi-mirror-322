@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "theticketbot"
+description = "A simple Discord ticket bot built on private channel threads."
+requires-python = ">=3.11"
+authors = [{ name = "thegamecracks" }]
+readme = "README.md"
+license = { text = "MIT License" }
+dynamic = ["version"]
+dependencies = [
+    "asqlite==2.0.0",
+    "discord.py~=2.4",
+    "fluent-compiler~=1.1",
+    "humanize~=4.9",
+    "packaging~=24.1",
+    "platformdirs~=4.2",
+    "pydantic~=2.7",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Communications :: Chat",
+    "Typing :: Typed",
+]
+keywords = ["i18n", "discord", "discord.py", "project-fluent", "ticketing-system"]
+
+[project.urls]
+Homepage = "https://github.com/thegamecracks/theticketbot"
+Issues = "https://github.com/thegamecracks/theticketbot/issues"
+Changelog = "https://github.com/thegamecracks/theticketbot/blob/main/CHANGELOG.md"
+
+[project.scripts]
+theticketbot = "theticketbot.__main__:main"
+
+[project.optional-dependencies]
+jishaku = ["jishaku>=2.5.2"]
+
+[tool.setuptools_scm]

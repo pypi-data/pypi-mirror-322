@@ -1,0 +1,10 @@
+asqlite==2.0.0
+discord.py~=2.4
+fluent-compiler~=1.1
+humanize~=4.9
+packaging~=24.1
+platformdirs~=4.2
+pydantic~=2.7
+
+[jishaku]
+jishaku>=2.5.2
