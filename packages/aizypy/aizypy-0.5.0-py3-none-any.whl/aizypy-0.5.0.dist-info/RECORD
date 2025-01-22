@@ -1,0 +1,11 @@
+aizypy/AizyBot.py,sha256=G_ca7Ciy1P0wZWX4Q8T8-cdBg3OSIUCAnSs56QD88ZU,5893
+aizypy/CandleData.py,sha256=gFhKvegZTGK1cNLfhV5uReADrObI01JTGk13dMes1Iw,2430
+aizypy/OrderManager.py,sha256=_0f5EJrf6_ny7_9iQtpPzCb6rRXizQdjgWb3m6LOH74,8593
+aizypy/TestEngine.py,sha256=uFUVZePJwfwMtcy8FzcjQI4BEha4x2MeAP1qXuNMFDg,13170
+aizypy/Trade.py,sha256=xhSGIKLZFQbiDdLlp-yw5-WUYl32HtkWDG7CINLmqYU,2190
+aizypy/WebSocketHandler.py,sha256=AhnZ_bYRR5asKxsQIW14Z2ijJFDewTRHbB9dtkc3w10,1979
+aizypy/__init__.py,sha256=K-lwsXDWf68r5Ya31sgk6A5WkwzT6e2a0jaYB8QV8Uk,568
+aizypy-0.5.0.dist-info/METADATA,sha256=MeH48xBpZnBuWggfJvwchbI2141DwvAqbT4AV-eIsa8,1567
+aizypy-0.5.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+aizypy-0.5.0.dist-info/top_level.txt,sha256=lOmwBb24DiLqOhuKB7wZUAJEtuX8KqwKdW6ucs1j4ms,7
+aizypy-0.5.0.dist-info/RECORD,,
