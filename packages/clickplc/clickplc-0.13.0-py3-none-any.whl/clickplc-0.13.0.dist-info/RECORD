@@ -1,0 +1,10 @@
+clickplc/__init__.py,sha256=HeYQ_XljhIurizN7kOO-ayHBNl0SKbrrmGwbaVOYlVc,1354
+clickplc/driver.py,sha256=o_aWWIqCDzy0Qosz2dQazvvm8mCBvLOhzfRGfmN0rNw,35861
+clickplc/mock.py,sha256=dwUTmph43WHLqlw6tSTZXBFiVVjCPJMBy0RJc_l65uE,4232
+clickplc/util.py,sha256=aboy7tULML2LsFnCRt6P_U_8Zy3W_5NJJtVS5thMC14,5303
+clickplc-0.13.0.dist-info/LICENSE,sha256=OduPms8DZZWiVm6j_lYLx71l2HSfCI4PSk7y-KbLSzQ,18026
+clickplc-0.13.0.dist-info/METADATA,sha256=7JOiOmLHMT6gihSTl0RPLPMlIh2DMP-d_OVB4lSMh-k,4368
+clickplc-0.13.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+clickplc-0.13.0.dist-info/entry_points.txt,sha256=FVaUkz1mbjPnqdUD_J3mkGjpZ2B8AINCyHy9hjW9nKI,51
+clickplc-0.13.0.dist-info/top_level.txt,sha256=mAy2nX3hvrTaDlsth5r30WGftP1FLRWW2jAr3nEEwSg,9
+clickplc-0.13.0.dist-info/RECORD,,
