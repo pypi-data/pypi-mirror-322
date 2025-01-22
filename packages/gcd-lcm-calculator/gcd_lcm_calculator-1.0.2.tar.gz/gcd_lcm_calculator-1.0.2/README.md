@@ -1,0 +1,110 @@
+# GCD-LCM-Finder
+
+You can find the gcm (greatest common divisior) and lcm (least command multiplier) of the numbers. And also you can find the other values of the primity.
+
+### Installation
+```
+pip install gcd-lcm-calculator
+```
+
+On Python, you can use this library with this command
+```
+import gcdlcm
+```
+or
+```
+from gcdlcm import *
+```
+I will give this library's command with the second one.
+
+### Commands:
+
+## gcd(e, *b)
+You can find the gcd (greatest common dividor) value with this function.
+```
+>>> gcd(18, 12)
+6
+>>> gcd(18, 12, 15)
+3
+```
+You can enter as many arguments as you want to this function and get the gcd value.
+
+## gcd(e, *k)
+You can find the lcm (least common multiplier) value with this function.
+```
+>>> lcm(8, 10)
+40
+>>> lcm(8, 10, 15)
+120
+```
+You can enter as many arguments as you want to this function and get the lcm value.
+
+## getIntegerMultipliers(num)
+You can get the number that you entered's multipliers with this function.
+```
+>>> getIntegerMultipliers(12)
+[1, 2, 3, 4, 6, 12]
+>>> getIntegerMultipliers(25)
+[1, 5, 25]
+>>> getIntegerMultipliers(30)
+[1, 2, 3, 5, 6, 10, 15, 30]
+```
+
+## getPrimeMultipliers(num)
+This function returns the prime factors of the value you enter according to their exponent values
+```
+>>> getPrimeMultipliers(20)
+[[2, 2], [5, 1]]
+>>> getIntegerMultipliers(51)
+[[3, 1], [17, 1]]
+>>> getIntegerMultipliers(300)
+[[2, 2], [3, 1], [5, 2]]
+```
+<b>As an example:</b><br>
+300's prime multipliers: 2, 3, 5<br>
+2^2 * 3^1 * 5^2 = 300
+
+## isPrime(num)
+This function returns the number that you entered is prime number or not.
+```
+>>> isPrime(20)
+False
+>>> isPrime(17)
+True
+>>> isPrime(1)
+False
+```
+
+## findPrimesUntil(num)
+This function returns all primes up to this point.
+```
+>>> findPrimesUntil(20)
+[2, 3, 5, 7, 11, 13, 17, 19]
+>>> findPrimesUntil(43)
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43]
+```
+If the number you enter is a prime number, this function also includes that number.
+
+## isPrimeAmong(x, *y)
+This function returns whether the numbers you enter are prime or not.
+```
+>>> isPrimeAmong(8, 10)
+False
+>>> isPrimeAmong(8, 10, 15)
+True
+>>> isPrimeAmong(12, 19)
+True
+```
+You can enter as many arguments as you want to this function and get is these number prime among them or not.
+
+## getMostPrime(x, *y)
+This function returns the most prime form of the numbers you enter.
+```
+>>> getMostPrime(8, 10)
+[4, 5]
+>>> getMostPrime(12, 15, 18)
+[4, 5, 6]
+>>> getMostPrime(1920, 1080)
+[16, 9]
+```
+You can enter as many arguments as you want to this function and get the most prime form of the numbers you entered.
