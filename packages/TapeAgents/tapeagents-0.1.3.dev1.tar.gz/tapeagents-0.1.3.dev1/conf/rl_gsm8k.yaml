@@ -1,0 +1,72 @@
+defaults:
+  - finetune: rl_llama31_8b
+  - _self_
+
+dataset_name: gsm8k
+n_workers_per_gpu: 32
+get_logprobs_workers_per_gpu: 4
+gpus_per_model_instance: 1
+max_loops: 1
+test_every_n_iterations: 5
+model_path: /mnt/llmd/base_models/deepseek-math-7b-instruct
+max_agent_forks: 1024
+attempts: 64
+force_restart: false
+max_iterations: 1000
+use_rejection_sampling: false
+llm:
+  parameters:
+    max_tokens: 1024 
+    temperature: 0.7
+test_llm:
+  parameters: 
+    max_tokens: ${...llm.parameters.max_tokens}
+    temperature: 0.
+    top_p: 1.0
+    top_k: 50
+
+finetune:
+  config_name: ${..model_path}
+  output_dir: ${..output_dir}/finetune
+  # Each finetuning iteration will be stopped after 10 steps,
+  # after which we generate new tapes and start a new iteration.
+  # One step is one weight update. See the finetuning configuration
+  # for the info in how many sequences are used for each weight update.
+  save_checkpoint_steps: 10
+  seq_length: ${..llm.parameters.max_tokens}
+
+vllm_config:
+  vllm_kwargs:
+    --download-dir: /mnt/llmd/base_models/ 
+    --gpu-memory-utilization: 0.9
+    --num-scheduler-steps: 16
+    --disable-log-requests: ""
+    --max-num-seqs: 1024 
+    --enforce-eager: ""
+    --return-tokens-as-token-ids: ""
+  actor_vllm_kwargs:
+    --num-scheduler-steps: 16
+  ref_vllm_kwargs:
+    --num-scheduler-steps: 1
+     # VLLM get log probs OOM https://github.com/vllm-project/vllm/issues/5907
+    --enable-chunked-prefill: ""
+    --max-num-batched-tokens: 1024
+
+output_dir: outputs/rl_gsm8k_deepspeed
+accelerate_cfg_path: conf/accelerate/accelerate_base.yaml
+use_deepspeed: false
+
+hydra:
+  run:
+    dir: ${output_dir}
+  job_logging:
+    root:
+      level: INFO
+    handlers:
+      node_errors:
+        class: logging.FileHandler
+        filename: ${output_dir}/node_errors.log    
+    loggers:
+      tapeagents.nodes:
+        handlers: [node_errors]
+        propagate: no      
