@@ -1,0 +1,2 @@
+python-openhab-crud
+python-openhab-itemevents
