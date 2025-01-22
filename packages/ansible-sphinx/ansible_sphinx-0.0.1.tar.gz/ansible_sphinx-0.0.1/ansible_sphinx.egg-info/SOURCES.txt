@@ -1,0 +1,7 @@
+ansible_sphinx.py
+setup.py
+ansible_sphinx.egg-info/PKG-INFO
+ansible_sphinx.egg-info/SOURCES.txt
+ansible_sphinx.egg-info/dependency_links.txt
+ansible_sphinx.egg-info/requires.txt
+ansible_sphinx.egg-info/top_level.txt
