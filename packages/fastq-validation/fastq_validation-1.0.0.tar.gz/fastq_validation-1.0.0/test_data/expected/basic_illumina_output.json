@@ -1,0 +1,17 @@
+{
+	"basic_illumina_1.fastq.gz": {
+		"num_reads": 5,
+		"mean_read_length": 151,
+		"percentage_same_length": 1
+	},
+	"basic_illumina_2.fastq.gz": {
+		"num_reads": 5,
+		"mean_read_length": 151,
+		"percentage_same_length": 1
+	},
+	"Illumina": {
+		"Number of reads match": true,
+		"basic_illumina_1.fastq.gz is Illumina": true,
+		"basic_illumina_2.fastq.gz is Illumina": true
+	}
+}
