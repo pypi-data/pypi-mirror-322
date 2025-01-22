@@ -1,0 +1,10 @@
+fdm_cli/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+fdm_cli/__main__.py,sha256=5MkIFkE5i_I2ORiOBgrCUR0WzR3_fXdC8T1aoPmdfZQ,523
+fdm_cli/commands.py,sha256=tIk2IvtxIdcBxmgaZahmxHif-EA9T3fHtDNLus4Wm7Q,5515
+fdm_cli/utils.py,sha256=2vuw3qkiOVzMk6RN5LYuF7OtisIvfNjPMkCCNIBUasM,168
+fdm_cli-0.0.1.dist-info/LICENCE,sha256=WDwwQmPoEx4PK2owB1MCit9wXH7WgE6FgsmrOTDdWZE,1062
+fdm_cli-0.0.1.dist-info/METADATA,sha256=Buf8oBTxQBYGoN7hdo0t1kOc9ZG9FkalO344xgrgskQ,2426
+fdm_cli-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+fdm_cli-0.0.1.dist-info/entry_points.txt,sha256=JVfQ5Po0xA0ZZ2EeKrmPO5JWld88WmFbkrWUacznYac,44
+fdm_cli-0.0.1.dist-info/top_level.txt,sha256=GM703mjh7isHtyEwdFZ15Ob5-uXNkRqF4prwqTmL2Do,8
+fdm_cli-0.0.1.dist-info/RECORD,,
