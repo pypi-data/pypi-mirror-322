@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mipi-try-actions
+Version: 0.1.0
+Summary: 
+Author: Murphy-Sean1-coop
+Author-email: murphy-sean1@cooperhealth.edu
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: mypy (>=1.14.1,<2.0.0)
+Requires-Dist: pylint (>=3.3.3,<4.0.0)
+Requires-Dist: pytest (>=8.3.4,<9.0.0)
+Description-Content-Type: text/markdown
+
+
