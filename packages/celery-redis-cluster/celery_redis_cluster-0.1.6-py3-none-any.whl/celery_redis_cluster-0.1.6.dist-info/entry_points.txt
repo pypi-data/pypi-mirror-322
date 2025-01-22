@@ -1,0 +1,2 @@
+[celery.backends]
+rediscluster = celery_redis_cluster_backend.backend:RedisClusterBackend
