@@ -1,0 +1,12 @@
+cli.py,sha256=7lvWPXbIykSF5AKf5l_gLnrUnm84bThTKiANEW0bTAw,1119
+db.py,sha256=iaYuK43z1CIVu-JZILSfmw5pY5oBVvBg6lQuX4a2N1Y,2879
+fields.py,sha256=4NAKWVMRksVf4Js1BkWMD9q-ZjsvPfPhPrwIklDY_co,3449
+info.py,sha256=-InFxCd6cXmK79i4s-7jywFYEfkE-Zz6rLVrDkO4-w8,375
+main.py,sha256=PodWZhuwo8CcAzzDaomxMRpROYXG--ry3o5WujWE7Tw,4790
+time_helper.py,sha256=XqFfPsSfsffDNlSL8uVgWAhq3REbI1QZLnNCtzORfe8,1063
+2adif-0.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+2adif-0.1.0.dist-info/METADATA,sha256=DPogH_KInU2bM3ilK-331WyGm2b5ThIFdJeWXfOe2pk,2499
+2adif-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+2adif-0.1.0.dist-info/entry_points.txt,sha256=FjYEL0SxQvhCtVVw-EdUfptTqj6w1kYw2Cmby7YvOIs,34
+2adif-0.1.0.dist-info/top_level.txt,sha256=Q2kUllfDvBcCYXpvN0M-UTiuocpwGCEKBJWAEv-Go-Y,36
+2adif-0.1.0.dist-info/RECORD,,
