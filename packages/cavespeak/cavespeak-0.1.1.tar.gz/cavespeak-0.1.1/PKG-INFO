@@ -1,0 +1,55 @@
+Metadata-Version: 2.3
+Name: cavespeak
+Version: 0.1.1
+Summary: A library to convert any given text to cavespeak
+License: MIT
+Author: GeeseCanHonk GeeseCanHonk@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Homepage, https://github.com/GeeseCanHonk/cavespeak
+Project-URL: Repository, https://github.com/GeeseCanHonk/cavespeak
+Description-Content-Type: text/markdown
+
+# cavespeak v0.1.1
+A simple Python library to convert any given text into cavespeak!
+
+---
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+
+---
+
+## Installation
+Install cavespeak using pip:
+```bash
+pip install cavespeak
+```
+
+---
+
+## Usage
+Here are examples of how to use cavespeak:  
+
+### Send a Basic Email!
+Send a simple email with a subject and message:  
+```python
+
+```
+
+---
+
+## Features
+- **Translate into cavespeak!**
+
+---
