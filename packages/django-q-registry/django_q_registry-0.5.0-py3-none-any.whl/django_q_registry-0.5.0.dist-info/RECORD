@@ -1,0 +1,17 @@
+django_q_registry/__init__.py,sha256=9O3vWeZb2_NusY42EP1x73hvm9LDDaK53btMP8ymqb0,148
+django_q_registry/_typing.py,sha256=nwoOX0jUbVlTanQ8e3VEevP8j_aZYgst3fZutJtfx2c,302
+django_q_registry/apps.py,sha256=CD6b1EsuScPvHKLcrFboigj7k-87YwgIE5feHFN9HOE,388
+django_q_registry/conf.py,sha256=MNHoHtzchC7avs8o-TExut_54OkX0sObjMAanNdJbhE,672
+django_q_registry/models.py,sha256=dpduB17Ew3qs6AKqWmkoDTsnB6NrSIipH1XxdrEkZiw,9814
+django_q_registry/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_q_registry/registry.py,sha256=_fXcaR7GgK3TpaNiFVXit2JIHZ4YE02oE22zHBQxyW0,5500
+django_q_registry/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_q_registry/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_q_registry/management/commands/setup_periodic_tasks.py,sha256=dWTqORfLLVxorzt9rSsOKRP_rGvPsBsAF87NkrcOytw,516
+django_q_registry/migrations/0001_initial.py,sha256=DYs87jr3saD8OniaAmNoyDL_Z1OJeS-g3Xo8s_YgUEI,1211
+django_q_registry/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_q_registry-0.5.0.dist-info/METADATA,sha256=Pwf_SR0gKctywGsW2Qi_MVAzteJWq54I1lEga-j8idU,7480
+django_q_registry-0.5.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+django_q_registry-0.5.0.dist-info/licenses/AUTHORS.md,sha256=pTEWsGysn8B0Zp5Z0POWlB11KNwtSmPhDjadNVq--7E,47
+django_q_registry-0.5.0.dist-info/licenses/LICENSE,sha256=FdZMz6vbhB-ED2GVlYRwrdBMVlSMXYNhWa2q7KK_5IY,1068
+django_q_registry-0.5.0.dist-info/RECORD,,
