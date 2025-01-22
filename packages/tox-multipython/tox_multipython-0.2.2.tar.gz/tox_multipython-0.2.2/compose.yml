@@ -1,0 +1,25 @@
+services:
+
+  runtest:
+    image: makukha/multipython:unsafe
+    working_dir: /work/tests
+    entrypoint: bash test.sh
+    environment:
+      PIP_CACHE_DIR: /tmp/pipcache
+      TOX_WORK_DIR: /tmp/.tox
+    volumes:
+      - pipcache:/tmp/pipcache
+      - .:/work
+
+  rundebug:
+    extends:
+      service: runtest
+    environment:
+      DEBUG: true
+    hostname: rundebug
+
+networks:
+  default:
+
+volumes:
+  pipcache:
