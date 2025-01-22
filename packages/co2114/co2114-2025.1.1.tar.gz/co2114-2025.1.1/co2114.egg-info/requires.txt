@@ -1,0 +1,5 @@
+pygame>=2.6
+numpy
+ipython
+matplotlib
+jupyter
