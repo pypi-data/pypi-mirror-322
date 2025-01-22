@@ -1,0 +1,13 @@
+defirl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+defirl/bids_q_table.npy,sha256=6eoc1Exx65MH4s7bP-Vckp7Cl4OFW5yaYNJIzKSoB7A,12296
+defirl/bids_state_to_index.npy,sha256=qwLJqlGXIXedYSYsT2vud4JFXMgKK9JdI10sqXL1e2E,15432
+defirl/large_q_table.npy,sha256=oQ9QcTqaXX1CLQ-ZCFSR2qS-_J0gGomO7KXc8tjlHGc,12104
+defirl/large_state_to_index.npy,sha256=Ufi7qmbx4--pBAZlLKfLtxyK1GJ-d0tYMFlFgUz6zCk,45211
+defirl/rl.py,sha256=XcVYOa1vyA_L_SpjZtDrjSBlU4SUl6rOg0WVVZjPszM,12335
+defirl/small_q_table.npy,sha256=l-Ye7h9j_iSA9bpduu0KAbkQoSPSpMYd4Rfi1PfYmMw,22208
+defirl/small_state_to_index.npy,sha256=0m2ygNhAbSSNcnjpLbZuM9rb4gXqvEX8Vwne5C1wRqk,37023
+defirl-0.2.3.dist-info/LICENSE,sha256=w1UKXDXzOM3J1kFMfQxxM7DGKkKOORDkad7Sp9Of8kE,1058
+defirl-0.2.3.dist-info/METADATA,sha256=9qhgOXiCWSmXu-clXpE6JJjvafZBGRLhWZZLVqI3_1I,1132
+defirl-0.2.3.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+defirl-0.2.3.dist-info/top_level.txt,sha256=HRayA0iWNKAOBCUq7QRc03yUJ7zTycqWfvq7Ns6X0tQ,7
+defirl-0.2.3.dist-info/RECORD,,
