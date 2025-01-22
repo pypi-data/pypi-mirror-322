@@ -1,0 +1,9 @@
+pyvis
+igraph
+numpy
+pydantic
+networkx
+media-similarity
+pandas
+garf-youtube-data-api
+google-ads-api-report-fetcher

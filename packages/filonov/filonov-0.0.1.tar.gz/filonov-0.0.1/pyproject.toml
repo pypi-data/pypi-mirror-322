@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filonov"
+version = "0.0.1"
+dependencies = [
+  "pyvis",
+  "igraph",
+  "numpy",
+  "pydantic",
+  "networkx",
+  "media-similarity",
+  "pandas",
+  "garf-youtube-data-api",
+  "google-ads-api-report-fetcher",
+]
+requires-python = ">=3.8"
+description = "description"
+readme = "README.md"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+
+[options.extras_require]
+test =  [
+  "media_similarity",
+  "pyvis",
+]
+
+[project.scripts]
+filonov="filonov.entrypoints.cli:main"

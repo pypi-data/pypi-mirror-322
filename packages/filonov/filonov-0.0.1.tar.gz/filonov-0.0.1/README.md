@@ -1,0 +1,67 @@
+# Creative Maps
+
+1. Install
+
+```
+pip install filonov
+```
+
+2. Run `filonov` based on one of the following sources:
+
+* Google Ads API
+```
+filonov --source googleads --media-type <MEDIA_TYPE> \
+  --db-uri=<CONNECTION_STRING> \
+  --googleads.tagger=<TAGGER_TYPE> \
+  --googleads.ads_config_path=<PATH-TO-GOOGLE-ADS-YAML> \
+  --googleads.account=<ACCOUNT_ID> \
+  --googleads.start-date=YYYY-MM-DD \
+  --googleads.end-date=YYYY-MM-DD  \
+  --size-base=cost \
+  --parallel-threshold <N_THREADS>
+```
+where:
+
+- `<MEDIA_TYPE>` - one of `IMAGE` or `YOUBE_VIDEO`
+- `<CAMPAIGN_TYPE>` - one of `app`, `pmax`, `demandgen`, `display`, `video`
+- `<TAGGER_TYPE>` - one of possible media taggers listed [here](libs/media_tagging/README.md')
+- `<ACCOUNT_ID>` - Google Ads Account Id in 1234567890 format. Can be MCC.
+- `<CONNECTION_STRING>` - Connection string to the database with tagging results
+  (i.e. `sqlite:///tagging.db`). Make sure that DB exists.
+  > To create an empty Sqlite DB call `touch database.db`.
+- `<PATH-TO-GOOGLE-ADS-YAML>` - path to `google-ads.yaml`.
+
+* Local files
+
+```
+filonov --source file --media-type YOUTUBE_VIDEO \
+  --db-uri=<CONNECTION_STRING> \
+  --file.tagging_results_path=<PATH_TO_CSV_WITH_TAGGING_RESULTS> \
+  --file.performance_results_path=<PATH_TO_CSV_WITH_PERFORMANCE_RESULTS> \
+  --size-base=cost \
+  --parallel-threshold <N_THREADS>
+```
+
+   File with performance results should contains the following columns:
+
+   - media_url
+   - media_name
+   - cost
+   - impressions
+   - clicks
+   - conversions
+   - conversions_value
+
+   File with tagging results should contains the following columns:
+   - media_url
+   - tag
+   - score
+
+* All public video in YouTube channel
+
+```
+filonov --source youtube --media-type YOUTUBE_VIDEO \
+  --db-uri=<CONNECTION_STRING> \
+  --youtube.channel=YOUR_CHANNEL_ID \
+  --parallel-threshold 10
+```
