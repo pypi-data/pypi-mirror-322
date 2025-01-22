@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mmk-updater
+Version: 0.15.5
+Summary: mmk-updater
+Author: MelianMiko
+Author-email: support@mmk.pw
+Requires-Python: >=3.10,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohttp (>=3.10.5,<4.0.0)
+Requires-Dist: pillow (>=11.0.0,<12.0.0)
+Requires-Dist: pyqt6 (>=6.7.1,<7.0.0)
+Requires-Dist: qasync (>=0.27.1,<0.28.0)
