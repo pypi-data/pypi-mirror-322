@@ -1,0 +1,9 @@
+datalib/__init__.py,sha256=tFqgQG-Buvc_h2GMix37fTvAlp6pwnqEJBLlWWx3QBE,167
+datalib/data_manipulation.py,sha256=dgWustll9L9vg1iqPL3ws7bagS-pcIKRTUHklFxdH_w,1269
+datalib/ml.py,sha256=yLSvBz4SlH69t5PoWsReDt320V1GJb7NA0vsqpmZ3IA,5716
+datalib/statistics.py,sha256=85eE8bAvOiM55K8XwmgL3GbafCnKTMPu3hRvXFibIpI,1682
+datalib/visualization.py,sha256=TyHutyOOyXLhiaiGTbg7rk4BXiALhq9fadLAXWScSKk,3084
+nf_datalib-0.1.0.dist-info/METADATA,sha256=iNY3bwubQpojpRjqs0I8UFgWWjAbH4ZecZtPqAXVb0w,5048
+nf_datalib-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+nf_datalib-0.1.0.dist-info/licenses/LICENSE,sha256=_FPi4V9hKksFnlBlDTftopzudSEWELHoMS65UEW6mKk,1090
+nf_datalib-0.1.0.dist-info/RECORD,,
