@@ -1,0 +1,3 @@
+
+[curio]
+curio-compat~=1.6.7
