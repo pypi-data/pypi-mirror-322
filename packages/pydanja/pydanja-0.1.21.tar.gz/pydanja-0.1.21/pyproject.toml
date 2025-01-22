@@ -1,0 +1,82 @@
+[project]
+name = "pydanja"
+version = "0.1.21"
+description = "JSON:API Support for Pydantic"
+authors = [
+    { name = "Chris Read", email = "centurix@gmail.com" },
+]
+dependencies = [
+    "dpath>=2.1.6",
+    "pydantic>=2.10.2",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+keywords = [
+    "pydantic",
+    "jsonapi",
+    "json:api",
+    "openapi",
+    "fastapi",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Topic :: File Formats :: JSON",
+    "Topic :: File Formats :: JSON :: JSON Schema",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/Centurix/pydanja"
+repository = "https://github.com/Centurix/pydanja"
+documentation = "https://pydanja.readthedocs.io/en/latest/"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.scripts.lint]
+cmd = "ruff check ."
+help = "Linting using Ruff"
+
+[tool.pdm.scripts.test]
+cmd = "pytest ."
+help = "Unit testing using pytest"
+
+[tool.pdm.scripts.typecheck]
+cmd = "mypy ."
+help = "Type checking using mypy"
+
+[tool.pdm.scripts.all]
+composite = [
+    "lint",
+    "typecheck",
+    "test",
+]
+
+[tool.mypy]
+plugins = "pydantic.mypy"
+exclude = "examples"
+
+[tool.ruff]
+line-length = 119
+
+[dependency-groups]
+dev = [
+    "pytest>=7.4.0",
+    "mypy>=1.5.0",
+    "sphinx>=7.1.2",
+    "ruff>=0.8.1",
+]
