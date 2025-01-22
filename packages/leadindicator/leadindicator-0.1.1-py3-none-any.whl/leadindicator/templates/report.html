@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Threshold Analysis Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 1em;
+        }
+        
+        .summary-box {
+            background-color: white;
+            border: 1px solid #e1e4e8;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .summary-box p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 20px 0;
+        }
+        
+        .metric-card {
+            background-color: white;
+            border: 1px solid #e1e4e8;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .metric-card h3 {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 1.4em;
+            border-bottom: 2px solid #e1e4e8;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .metric-value {
+            font-size: 1.6em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            text-align: center;
+        }
+        
+        .metric-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        
+        .metric-card li {
+            margin: 12px 0;
+            padding: 8px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            font-size: 1.1em;
+        }
+        
+        .recommendation {
+            margin-top: 20px;
+            padding: 12px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            border-left: 4px solid #2c3e50;
+            font-size: 1.1em;
+        }
+        
+        .validation-summary {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        .validation-summary ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .validation-summary li {
+            margin: 8px 0;
+            font-size: 1.1em;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e1e4e8;
+        }
+        
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        tr:hover {
+            background-color: #f1f4f8;
+        }
+        
+        .visualization {
+            margin: 30px 0;
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .visualization img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e1e4e8;
+            text-align: center;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <h1>Threshold Analysis Report</h1>
+    
+    <h2>Analysis Summary</h2>
+    <div class="summary-box">
+        <p>This analysis was performed on <strong>{{ dataset_name }}</strong> to find optimal thresholds for predicting events based on leading indicators.</p>
+        <p>We analyzed <strong>{{ total_records }}</strong> records, looking at the relationship between <strong>{{ score_column }}</strong> and <strong>{{ target_column }}</strong>.</p>
+        {% if category_column %}
+        <p>The data was also broken down by <strong>{{ category_column }}</strong> to understand patterns across different categories.</p>
+        {% endif %}
+        <p>Analysis completed on {{ analysis_date }}.</p>
+    </div>
+    
+    <h2>Key Findings</h2>
+    <div class="metric-grid">
+        {% for result in top_results %}
+        <div class="metric-card">
+            <h3>{% if loop.index == 1 %}Warning Level{% elif loop.index == 2 %}High Risk Level{% else %}Critical Level{% endif %}</h3>
+            <div class="metric-value">{{ score_column }} ≥ {{ "%.2f"|format(result.threshold) }}</div>
+            <ul>
+                <li><strong>Finding Probability:</strong> {{ "%.1f%%"|format(result.event_probability) }}</li>
+                <li><strong>Captures {{ "%.1f%%"|format(result.capture_rate) }}</strong> of all findings</li>
+                <li><strong>Based on {{ result.n_observations }}</strong> observations</li>
+            </ul>
+            <p class="recommendation">
+                {% if loop.index == 1 %}
+                <strong>Action:</strong> Monitor closely and investigate if needed.
+                {% elif loop.index == 2 %}
+                <strong>Action:</strong> Investigate and take preventive measures.
+                {% else %}
+                <strong>Action:</strong> Immediate investigation required.
+                {% endif %}
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <div class="summary-box">
+        <h3>Threshold Validation</h3>
+        <p>The selected thresholds were validated against historical data:</p>
+        <ul>
+            {% for result in top_results %}
+            <li>Threshold {{ "%.2f"|format(result.threshold) }} captures <strong>{{ "%.1f%%"|format(result.capture_rate) }}</strong> of all findings</li>
+            {% endfor %}
+        </ul>
+    </div>
+    
+    {% if category_metrics %}
+    <h2>Category Analysis</h2>
+    <p>Here's how different {{ category_column }}s behave in terms of risk and events:</p>
+    <table>
+        <tr>
+            <th>{{ category_column }}</th>
+            <th>Number of Records</th>
+            <th>Number of Events</th>
+            <th>Event Rate</th>
+            <th>Average Score</th>
+        </tr>
+        {% for metric in category_metrics %}
+        <tr>
+            <td>{{ metric.category }}</td>
+            <td>{{ metric.record_count }}</td>
+            <td>{{ metric.event_count }}</td>
+            <td>{{ "%.1f%%"|format(metric.event_rate * 100) }}</td>
+            <td>{{ "%.2f"|format(metric.avg_score) }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+    
+    <h2>Visualizations</h2>
+    <p>The following charts show the relationships between scores, events, and categories in your data:</p>
+    <div class="visualization">
+        <img src="data:image/png;base64,{{ plot_data }}" alt="Analysis Visualizations">
+    </div>
+    
+    <div class="footer">
+        <p>Generated using LeadIndicator {{ version }}</p>
+        <p>{{ timestamp }}</p>
+    </div>
+</body>
+</html> 
