@@ -1,0 +1,10 @@
+README.md
+setup.py
+EquationPlot.egg-info/PKG-INFO
+EquationPlot.egg-info/SOURCES.txt
+EquationPlot.egg-info/dependency_links.txt
+EquationPlot.egg-info/requires.txt
+EquationPlot.egg-info/top_level.txt
+equationplot/__init__.py
+equationplot/plotter.py
+tests/test_plotter.py

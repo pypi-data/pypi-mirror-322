@@ -1,0 +1,87 @@
+Here's a `README.md` file template for your `EquationPlot` Python library:
+
+---
+
+# **EquationPlot** - A Python Library for Plotting Mathematical Equations
+
+`EquationPlot` is a simple and easy-to-use Python library designed to help you visualize mathematical functions, including linear, quadratic, and trigonometric equations. Whether you're solving a problem in mathematics, physics, or economics, `EquationPlot` provides an intuitive way to plot and analyze these functions with customizable ranges.
+
+## Features
+
+- Plot **linear**, **quadratic**, and **trigonometric** functions.
+- Customizable **x-range** and **y-range** for plots.
+- Support for trigonometric functions like `sin(x)`, `cos(x)`, `tan(x)`, and more.
+- Easy-to-use API for fast plotting and analysis.
+
+## Installation
+
+You can install `EquationPlot` using `pip`:
+
+```bash
+pip install EquationPlot
+```
+
+## Usage
+
+### 1. Plotting Basic Mathematical Functions
+
+You can plot simple mathematical functions like linear or quadratic equations:
+
+```python
+from equationplot import plot_function, solve_equation
+
+# Plot a quadratic equation
+plot_function("x**2 - 4", x_range=(-10, 10),y_range=(-10, 10))
+print(solve_equation("x**2 - 4"))
+# Plot a linear equation
+plot_function("2*x + 1", x_range=(-10, 10),y_range=(-10, 10))
+print(solve_equation("2*x + 1"))
+```
+### 2. Plotting Trigonometric Functions
+
+`EquationPlot` also supports trigonometric functions. You can plot functions like `sin(x)`, `cos(x)`, and `tan(x)`:
+
+```python
+# Plot a sine wave
+plot_function("sin(x)", x_range=(-2 * np.pi, 2 * np.pi) , y_range=(-10, 10))
+
+# Plot a combination of sine and cosine waves
+plot_function("sin(x) + cos(x)", x_range=(-2 * np.pi, 2 * np.pi))
+
+# Plot a tangent function with a custom y-range
+plot_function("tan(x)", x_range=(-2 * np.pi, 2 * np.pi), y_range=(-10, 10))
+```
+
+### 3. Customizing the Plot Range
+
+You can adjust both the **x-range** and **y-range**:
+
+```python
+# Custom x-range and y-range
+plot_function("x**2 - 4", x_range=(-10, 10), y_range=(-20, 20))
+```
+
+### 4. Combining Multiple Functions
+
+You can plot multiple functions together:
+
+```python
+plot_function("x**2 - 4", x_range=(-10, 10))
+plot_function("sin(x)", x_range=(-2 * np.pi, 2 * np.pi))
+```
+
+## Requirements
+
+`EquationPlot` requires the following Python libraries:
+- `matplotlib` - For plotting graphs.
+- `numpy` - For numerical operations.
+- `sympy` - For symbolic mathematics and parsing equations.
+
+You can install the dependencies using `pip`:
+
+```bash
+pip install matplotlib numpy sympy
+```
+AUTHORS
+DIKSHA ,  AYUSH KUMAR VERMA
+Gmail- diksha260303official@gmail.com , vermaayush5535@gmail.com
