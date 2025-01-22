@@ -1,0 +1,152 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fastapi_class"
+description = "Simplifies class-based views for more organized and maintainable code in FastAPI."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+    { name = "Yasser Tahiri", email = "hello@yezz.me" },
+]
+keywords = [
+    "FastAPI",
+    "MVC",
+    "pydantic",
+    "class-based",
+    "class-based-views",
+]
+
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Framework :: FastAPI",
+    "Framework :: Pydantic",
+    "Framework :: Pydantic :: 2",
+    "Framework :: AsyncIO",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Internet :: WWW/HTTP :: Session",
+    "Typing :: Typed",
+]
+
+dependencies = [
+    "fastapi >=0.111.0",
+]
+
+dynamic = ["version"]
+
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project.urls]
+Homepage = "https://github.com/yezz123/fastapi-class"
+Funding = 'https://github.com/sponsors/yezz123'
+
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+    "pytest-asyncio>=0.25.2",
+    "pytest-cov>=6.0.0",
+    "pytest-pretty>=1.2.0",
+    "coverage[toml]>=7.6.1",
+    "requests>=2.32.3",
+]
+
+lint = [
+    "pre-commit>=4.1.0",
+    "mypy>=1.14.1",
+    "black>=24.10.0",
+    "pyupgrade>=3.19.1",
+    "ruff>=0.9.2",
+]
+
+extra = [
+    { include-group = "test" },
+    { include-group = "lint" },
+]
+
+
+[tool.hatch.version]
+path = "fastapi_class/__init__.py"
+
+[tool.ruff]
+line-length = 120
+target-version = 'py39'
+
+[tool.ruff.lint]
+mccabe = { max-complexity = 14 }
+pydocstyle = { convention = 'google' }
+select = [
+    'F',      # Pyflakes
+    'E',      # pycodestyle (Error)
+    'I',      # isort
+    'UP',     # pyupgrade
+    'YTT',    # flake8-2020
+    'B',      # flake8-bugbear
+    'T10',    # flake8-debugger
+    'T20',    # flake8-print
+    'C4',     # flake8-comprehensions
+    'PYI006', # flake8-pyi
+    'PYI062', # flake8-pyi
+    'PYI063', # flake8-pyi
+    'PYI066', # flake8-pyi
+]
+ignore = [
+    "E501", # line too long
+    "B018" # Found useless expression.
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.ruff.lint.isort]
+known-third-party = ["pydantic", "typing_extensions"]
+
+[tool.ruff.lint.pyupgrade]
+keep-runtime-typing = true
+
+[tool.mypy]
+plugins = "pydantic.mypy"
+follow_imports = "silent"
+
+[tool.coverage.run]
+source = ["fastapi_class"]
+branch = true
+context = '${CONTEXT}'
+
+[tool.coverage.paths]
+source = [
+    'fastapi_class/',
+    '/Users/runner/work/fastapi_class/fastapi_class/fastapi_class/',
+    'D:\a\fastapi_class\fastapi_class\fastapi_class',
+]
+
+[tool.coverage.report]
+precision = 2
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "raise NotImplemented",
+    "@overload",
+    "if TYPE_CHECKING:",
+    "if __name__ == .__main__.:",
+]
+
+[tool.pytest]
+testpaths = "tests/"
+log_cli = "1"
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format= "%Y-%m-%d %H:%M:%S"
+asyncio_mode= "auto"
