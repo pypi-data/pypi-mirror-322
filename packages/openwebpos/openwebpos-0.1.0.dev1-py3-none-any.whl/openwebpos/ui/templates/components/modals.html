@@ -1,0 +1,12 @@
+{% macro sheet_modal(id) %}
+
+    <div id="{{ id }}" class="modal bottom-sheet">
+        <div class="modal-content">
+            {{ caller() }}
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect btn-flat">Close</a>
+        </div>
+    </div>
+
+{% endmacro %}

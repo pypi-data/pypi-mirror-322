@@ -1,0 +1,34 @@
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            {#  ========== Left Menu ========== #}
+            {% if current_user.is_authenticated and request.endpoint != 'user.home' %}
+                <ul>
+                    <li>
+                        <a href="{{ back_url if back_url else url_for('user.home') }}">
+                            <i class="material-icons">{{ 'arrow_back' if back_url else 'home' }}</i>
+                        </a>
+                    </li>
+                </ul>
+            {% endif %}
+
+            {#  ========== Menu Title ========== #}
+            <a href="" class="brand-logo center">
+                {{ title|truncate(8) if title else "OpenWebPOS" }}
+            </a>
+
+            {#  ========== Right Menu ========== #}
+            <ul class="right">
+                {% if current_user.is_authenticated %}
+                    <li>
+                        <a href="" data-target="user-sidenav" class="sidenav-trigger">
+                            <i class="material-icons">account_circle</i>
+                        </a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+</div>
+
+{% include "_sidenav.html" %}
