@@ -1,0 +1,4 @@
+# MANIFEST.in
+include automock25/config.ini
+include automock25/logging.conf
+include automock25/order.csv
