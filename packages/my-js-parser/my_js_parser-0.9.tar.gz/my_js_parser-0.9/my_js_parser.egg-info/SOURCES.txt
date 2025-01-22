@@ -1,0 +1,9 @@
+README.md
+setup.py
+my_js_parser/__init__.py
+my_js_parser/parser.py
+my_js_parser.egg-info/PKG-INFO
+my_js_parser.egg-info/SOURCES.txt
+my_js_parser.egg-info/dependency_links.txt
+my_js_parser.egg-info/requires.txt
+my_js_parser.egg-info/top_level.txt
