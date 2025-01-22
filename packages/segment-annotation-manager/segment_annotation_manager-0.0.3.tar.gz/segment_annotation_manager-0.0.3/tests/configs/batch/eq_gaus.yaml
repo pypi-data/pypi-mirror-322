@@ -1,0 +1,61 @@
+path: "C:\\Users\\Alexander\\PycharmProjects\\YOLOv8\\YOLOv8\\data\\yolo_dataset"
+train: train\images
+val: val\images
+test: test\images
+
+# Classes
+names:
+  - Right Ventricle
+  - Left Ventricle
+  - LAD
+  - Pulmonary Artery
+  - Aorta
+  - Heart
+  - Right Atrium
+nc: 7
+
+name: 'eq_gaus'
+
+Image Preprocessing:
+  - hist_eq
+  - Gaus_blur
+
+Image Augmentation:
+  - contrast
+  - brightness
+  - noise
+  - fliplr
+  - rotate
+  - crop
+  - shear
+
+Training Parameters:
+  format: 'engine'
+  epochs: 500
+  verbose: True
+  optimizer: 'SGD'
+  plots: True
+  profile: True
+
+Predict Parameters:
+  conf: 0.85
+  max_det: 6
+  half: False
+  save: True
+  save_txt: True
+  classes:
+    - 1
+    - 3
+    - 4
+    - 6
+
+Dataset Parameters:
+  LoadInitialAnnotations:
+    Images:
+      keep: '1-45'
+  MergeAutoAnnotations:
+    Categories:
+      keep:
+        - Pulmonary Artery
+        - Aorta
+        - Right Atrium
