@@ -1,0 +1,2 @@
+[console_scripts]
+django-starter = django_starter.cli:main
