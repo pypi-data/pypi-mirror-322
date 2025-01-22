@@ -1,0 +1,12 @@
+eikonax/__init__.py,sha256=ndYMb0qEEMYbeOXzi5bZTETgE46MZ50A0xSQdm2jwOQ,304
+eikonax/corefunctions.py,sha256=B7ZHRLTtRlbEllmtoO1IroBzik25rGzn0WFeec2EDSE,25962
+eikonax/derivator.py,sha256=r5NjP9tjdZkjNI6FQVep_kzTtC2YxpfVidGRIRCJ9iU,39635
+eikonax/finitediff.py,sha256=Na9WspceQ3l68GHI6YPBOpd-bX8e5FriAVf3sscZMGI,8255
+eikonax/logging.py,sha256=OxgZvFoHS34NwhLD0LjkQgTd4cnHsHHzog8tkC_KOPw,4771
+eikonax/preprocessing.py,sha256=pVxc_wQVcmJ3VvZ-RGcmhUXhrN26mpmN4LJ8A9sXzzc,4629
+eikonax/solver.py,sha256=J-RXIrIGc_RaMy-Y2Z3moGgQ81cVxWZawwqghzGg1LI,20398
+eikonax/tensorfield.py,sha256=JMhd4H1MwJndkUf4xSOQn-6gnW63cfYCavBbR7hTZso,20983
+eikonax-0.1.8.dist-info/METADATA,sha256=jEV70-tem5XQOewa3g9kAB55Kh9s8a0BM_p_M_ewGCg,5107
+eikonax-0.1.8.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+eikonax-0.1.8.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+eikonax-0.1.8.dist-info/RECORD,,
