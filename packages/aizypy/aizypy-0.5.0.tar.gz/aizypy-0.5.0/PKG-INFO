@@ -1,0 +1,96 @@
+Metadata-Version: 2.2
+Name: aizypy
+Version: 0.5.0
+Summary: A Python framework for creating and testing trading bots
+Home-page: https://github.com/AizyDev/AIZYClientPy
+Author: Aizy Team
+Author-email: contact@aizy.app
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: websockets>=10.0
+Requires-Dist: aiohttp>=3.8.0
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: pytz>=2021.3
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.18.0; extra == "dev"
+Requires-Dist: black>=22.0; extra == "dev"
+Requires-Dist: isort>=5.0; extra == "dev"
+Requires-Dist: flake8>=4.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# AIZYClientPy
+
+A Python framework for creating and testing trading bots on the Aizy platform.
+
+## Features
+
+- Real-time market data processing via WebSocket
+- Order management system with market and limit orders
+- Candlestick data handling and analysis
+- Trade position tracking and performance metrics
+- Built-in testing engine for strategy validation
+- Comprehensive logging system
+
+## Installation
+
+```bash
+pip install aizypy
+```
+
+## Quick Start
+
+```python
+from aizypy import AizyBot, CandleData, TestEngine
+
+class MyTradingBot(AizyBot):
+    async def bot_action(self, candle: CandleData) -> None:
+        # Implement your trading strategy here
+        if your_condition:
+            await self.place_order("buy", 1.0, candle.close, "BTC/USD")
+
+# Test your bot
+await TestEngine.test(MyTradingBot, duration=120, interval=1)
+```
+
+## Documentation
+
+Full documentation is available at [ReadTheDocs](https://aizyclientpy.readthedocs.io/en/latest/usage.html)
+
+## Example Strategies
+
+The package includes several example strategies:
+
+1. Simple Moving Average Bot
+2. RSI (Relative Strength Index) Bot
+3. Grid Trading Bot
+
+## Support
+
+For support:
+- Visit [aizy.dev](https://aizy.pages.dev/)
+- Open an issue on [GitHub](https://github.com/Aizy-app/AIZYClientPy/issues)
+
+## License
+
+This project is licensed under the MIT License. 
