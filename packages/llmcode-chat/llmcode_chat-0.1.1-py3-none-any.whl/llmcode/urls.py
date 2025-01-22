@@ -1,0 +1,18 @@
+website = "https://llmcode.khulnasoft.com/"
+add_all_files = (
+    "https://llmcode.khulnasoft.com/docs/faq.html#how-can-i-add-all-the-files-to-the-chat"
+)
+edit_errors = "https://llmcode.khulnasoft.com/docs/troubleshooting/edit-errors.html"
+git = "https://llmcode.khulnasoft.com/docs/git.html"
+enable_playwright = "https://llmcode.khulnasoft.com/docs/install/optional.html#enable-playwright"
+favicon = "https://llmcode.khulnasoft.com/assets/icons/favicon-32x32.png"
+model_warnings = "https://llmcode.khulnasoft.com/docs/llms/warnings.html"
+token_limits = "https://llmcode.khulnasoft.com/docs/troubleshooting/token-limits.html"
+llms = "https://llmcode.khulnasoft.com/docs/llms.html"
+large_repos = "https://llmcode.khulnasoft.com/docs/faq.html#can-i-use-llmcode-in-a-large-mono-repo"
+github_issues = "https://github.com/khulnasoft/llmcode/issues/new"
+git_index_version = "https://github.com/khulnasoft/llmcode/issues/211"
+install_properly = "https://llmcode.khulnasoft.com/docs/troubleshooting/imports.html"
+analytics = "https://llmcode.khulnasoft.com/docs/more/analytics.html"
+release_notes = "https://llmcode.khulnasoft.com/HISTORY.html#release-notes"
+edit_formats = "https://llmcode.khulnasoft.com/docs/more/edit-formats.html"
