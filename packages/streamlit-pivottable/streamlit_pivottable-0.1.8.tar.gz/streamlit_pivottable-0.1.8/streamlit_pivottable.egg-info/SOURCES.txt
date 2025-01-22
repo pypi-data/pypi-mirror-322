@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_pivottable/__init__.py
+streamlit_pivottable/example.py
+streamlit_pivottable.egg-info/PKG-INFO
+streamlit_pivottable.egg-info/SOURCES.txt
+streamlit_pivottable.egg-info/dependency_links.txt
+streamlit_pivottable.egg-info/requires.txt
+streamlit_pivottable.egg-info/top_level.txt
+streamlit_pivottable/frontend/build/asset-manifest.json
+streamlit_pivottable/frontend/build/bootstrap.min.css
+streamlit_pivottable/frontend/build/index.html
+streamlit_pivottable/frontend/build/static/js/main.96983a67.js
+streamlit_pivottable/frontend/build/static/js/main.96983a67.js.LICENSE.txt
+streamlit_pivottable/frontend/build/static/js/main.96983a67.js.map
