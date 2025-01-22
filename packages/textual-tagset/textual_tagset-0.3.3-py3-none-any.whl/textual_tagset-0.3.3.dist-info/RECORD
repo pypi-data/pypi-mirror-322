@@ -1,0 +1,11 @@
+textual_tagset/__init__.py,sha256=rsIQVZ5z4nayn7CxDoP7LNRwnwltWqJQCoRob_7XnFo,86
+textual_tagset/demo/__init__.py,sha256=25n-XUEzWaO6775p5dzVqin03z5vpqJbecAMCMi0quQ,5265
+textual_tagset/demo/__main__.py,sha256=nQGCRmKEHQjNN-q9ibDqGd2nr4QyLvbur7uHNKwDDhc,61
+textual_tagset/demo/basescreen.py,sha256=i1_Bpmn05sH89PzH97V_8I8oplxhufZLyDVRyWiC3Rg,1496
+textual_tagset/demo/basescreen.tcss,sha256=3CRDy5CCKI0BpikgOBHYvhwi5G-3baqmKp-JEEBYYsY,345
+textual_tagset/demo/data.py,sha256=aLeW7DjMCKfRZcDwHpoIwZJ8sAgI5Y68ubF4wZkcTI8,1574
+textual_tagset/tagset.py,sha256=-TpTXr45jJFRGrHKh6OaJ-2Wh1_XSKVzJ2eMhKTRXt4,8464
+textual_tagset/tagset.tcss,sha256=HghM64b0TKSFWg0sSE3_nZTu0bGaUtJNjLDTcfPwSQI,724
+textual_tagset-0.3.3.dist-info/METADATA,sha256=RFHqupb328gA0Sq7dffb1Jk8JdkaM0H_zdvbL_y1Zs8,3882
+textual_tagset-0.3.3.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+textual_tagset-0.3.3.dist-info/RECORD,,
