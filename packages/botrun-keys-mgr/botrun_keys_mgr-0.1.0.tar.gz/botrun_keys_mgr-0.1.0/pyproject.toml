@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "botrun-keys-mgr"
+version = "0.1.0"
+description = "波特人 API 金鑰管理套件"
+authors = ["sebastian-hsu <sebastian.hsu@gmail.com>"]
+readme = "README.md"
+packages = [{include = "botrun_keys_mgr"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-api-python-client = "^2.159.0"
+google-auth = "^2.37.0"
+pandas = "^2.2.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+build = "^1.2.2.post1"
+twine = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
