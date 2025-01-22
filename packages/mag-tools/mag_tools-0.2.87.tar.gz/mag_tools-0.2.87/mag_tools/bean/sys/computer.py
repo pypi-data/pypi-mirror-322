@@ -1,0 +1,66 @@
+import socket
+from dataclasses import dataclass, field
+from typing import List, Optional
+
+
+from mag_tools.bean.sys.cpu import Cpu
+from mag_tools.bean.sys.disk import Disk
+from mag_tools.bean.sys.disk_partition import DiskPartition
+from mag_tools.bean.sys.memory import Memory
+from mag_tools.model.computer_type import ComputerType
+
+@dataclass
+class Computer:
+    """
+    计算机类
+    """
+    type: ComputerType
+    name: Optional[str] = None
+    cpu: Optional[Cpu] = None
+    memory: Optional[Memory] = None
+    disks: List[Disk] = field(default_factory=list)
+    partitions: List[DiskPartition] = field(default_factory=list)
+    id: Optional[int] = None
+    description: Optional[str] = None
+
+    @classmethod
+    def get_info(cls):
+        """
+        获取当前系统的CPU、内存和磁盘信息，并返回一个Computer实例
+        """
+        # 获取CPU信息
+        cpu = Cpu.get_info()
+
+        # 获取内存信息
+        memory = Memory.get_info()
+
+        # 获取磁盘信息
+        disks = Disk.get_info()
+        partitions = DiskPartition.get_info()
+
+        # 创建Computer实例
+        computer = Computer(
+            type=ComputerType.DESKTOP,  # 假设计算机类型为台式机
+            name=socket.gethostname(),
+            cpu=cpu,
+            memory=memory,
+            disks=disks,
+            partitions=partitions
+        )
+
+        return computer
+
+    def __str__(self):
+        """
+        返回计算机参数的字符串表示
+        """
+        parts = [f"Computer(type='{self.type}'"]
+        for attr, value in self.__dict__.items():
+            if value is not None:
+                parts.append(f"{attr}='{value}'")
+        parts.append(")")
+        return ", ".join(parts)
+
+if __name__ == '__main__':
+    info = Computer.get_info()
+    print(info)
