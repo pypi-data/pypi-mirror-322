@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ManifoldAttractors.egg-info/PKG-INFO
+ManifoldAttractors.egg-info/SOURCES.txt
+ManifoldAttractors.egg-info/dependency_links.txt
+ManifoldAttractors.egg-info/requires.txt
+ManifoldAttractors.egg-info/top_level.txt
+made/__init__.py
+made/can.py
+made/manifolds.py
+made/metrics.py
+made/qan.py
+made/utils.py
+made/visuals.py

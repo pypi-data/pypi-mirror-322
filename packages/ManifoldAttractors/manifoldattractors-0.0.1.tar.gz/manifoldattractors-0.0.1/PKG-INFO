@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: ManifoldAttractors
+Version: 0.0.1
+Summary: Manifold Activity Direct Embedding (MADE) - A toolkit for engineering Continuous Attractor Networks.
+Home-page: https://github.com/FieteLab/MADE
+Author: Federico Barabas
+Author-email: claudif@mit.com
+Keywords: neural-dynamics,manifold,attractor-networks
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: loguru
+Requires-Dist: pre-commit
+Requires-Dist: black
+Requires-Dist: flake8
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.0; extra == "dev"
+Requires-Dist: black>=21.0; extra == "dev"
+Requires-Dist: flake8>=3.9.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# MADE
+Manifold Attractor Direct Engineering

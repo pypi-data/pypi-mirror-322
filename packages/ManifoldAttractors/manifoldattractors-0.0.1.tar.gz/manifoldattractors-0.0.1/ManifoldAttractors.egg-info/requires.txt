@@ -1,0 +1,13 @@
+numpy
+matplotlib
+scikit-learn
+loguru
+pre-commit
+black
+flake8
+
+[dev]
+pytest>=6.0
+pytest-cov>=2.0
+black>=21.0
+flake8>=3.9.0
