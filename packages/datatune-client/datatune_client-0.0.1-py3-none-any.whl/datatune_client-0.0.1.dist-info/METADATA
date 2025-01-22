@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: datatune-client
+Version: 0.0.1
+Summary: A unified platform for ML data management and streaming
+Author: Abhijith Neil Abraham
+Author-email: abhijith@vitalops.ai
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: requests
+Requires-Dist: s3fs
+Requires-Dist: torch
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary
