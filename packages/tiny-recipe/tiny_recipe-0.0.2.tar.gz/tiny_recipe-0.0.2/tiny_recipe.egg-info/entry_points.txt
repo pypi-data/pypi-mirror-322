@@ -1,0 +1,2 @@
+[nbdev]
+tiny_recipe = tiny_recipe._modidx:d

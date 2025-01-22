@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+tiny_recipe/__init__.py
+tiny_recipe/_modidx.py
+tiny_recipe/actions.py
+tiny_recipe/core.py
+tiny_recipe.egg-info/PKG-INFO
+tiny_recipe.egg-info/SOURCES.txt
+tiny_recipe.egg-info/dependency_links.txt
+tiny_recipe.egg-info/entry_points.txt
+tiny_recipe.egg-info/not-zip-safe
+tiny_recipe.egg-info/requires.txt
+tiny_recipe.egg-info/top_level.txt
