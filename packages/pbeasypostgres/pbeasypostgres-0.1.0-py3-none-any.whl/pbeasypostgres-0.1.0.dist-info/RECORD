@@ -1,0 +1,8 @@
+easypostgres/__init__.py,sha256=3AB-Ov8zT9WRgt0xXrTmOXWnAPXNNvJa7S9TB7vRAnI,64
+easypostgres/connection.py,sha256=Elsu7Pcm1vs3qTNAfdFE1DTRoQE18NT95hqQslsgUH4,1328
+easypostgres/mapper.py,sha256=qyrz-P31yHsUkrTfthpsOFSAhMx4eyIE1WAPTfJGgeY,394
+pbeasypostgres-0.1.0.dist-info/LICENSE,sha256=avNJHnD3uPjyCb8WRHsg_OnLU4Y04bLtDKKCF_Kmh_8,1056
+pbeasypostgres-0.1.0.dist-info/METADATA,sha256=jtkpJuDKJUu5J1_YYXQ4g9WAngzEsBR1p3GMBEAVClU,409
+pbeasypostgres-0.1.0.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+pbeasypostgres-0.1.0.dist-info/top_level.txt,sha256=XJqkOu-qVwrz-JJ1sa5zKzeb03dhpihhNAMlrzkLqas,13
+pbeasypostgres-0.1.0.dist-info/RECORD,,
