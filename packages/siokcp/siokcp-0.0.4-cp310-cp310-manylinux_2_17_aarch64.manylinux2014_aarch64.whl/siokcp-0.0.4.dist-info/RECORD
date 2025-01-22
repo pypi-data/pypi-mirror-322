@@ -1,0 +1,15 @@
+siokcp/kcp.pxd,sha256=Rey2u18WO-Q8SaeLbkIrlG4e61a6U6HreOO5QKS5Qz4,4400
+siokcp/_kcp.pyx,sha256=Cjv8cugM3JvvK8mrowB7ee2WydJt6_IkNtsX2t9_j5A,13116
+siokcp/__init__.py,sha256=scvK0wAbOGnBQifczawyIRtQQtjiIRwEYW9ZcFRFFus,172
+siokcp/_kcp.c,sha256=OMVFUtWCCsqih_LLeX20-2hnXfdoExgUqH2le0Whaqo,1404816
+siokcp/_kcp.cpython-310-aarch64-linux-gnu.so,sha256=Or5M0TQXnWXQbgIqfjjZB6fP1UGMIIknBTGQeQy4cNE,317056
+siokcp/asyncio/server.py,sha256=PEHCGbsAryc5Exed0tmeWjRbJOdXtSMRv0KDfv7E3DY,2151
+siokcp/asyncio/utils.py,sha256=XdHnQbZK5VKWJrQ_eX7kIZEVt7qwuquTLknv6tKfQGo,905
+siokcp/asyncio/client.py,sha256=87CBd6A6YmeKWBVMNhynZyrgWBTmspMnA0WyNgIb5JI,2262
+siokcp/asyncio/__init__.py,sha256=alqTVkDjnbOibMSoKnihYl_rYuqwmq1UonTcDKrbHyU,171
+siokcp/asyncio/transport.py,sha256=XAVpVirvquMtclbyNh4jjvTuWGm1IiCLvERP42AswaU,2012
+siokcp/asyncio/protocol.py,sha256=nNcjbTu4VHePEeDsPAGpLrPRYtotUQDpQlvmkxd0DeY,18149
+siokcp-0.0.4.dist-info/top_level.txt,sha256=ckj3Dkq6ap_-Tc_rGBgcwANqA44_kvr_4zsLIDlwpkg,7
+siokcp-0.0.4.dist-info/RECORD,,
+siokcp-0.0.4.dist-info/METADATA,sha256=3dq76Aezs1peDJlgoxUHixs6cGhDiNikUt55JglIwCw,6566
+siokcp-0.0.4.dist-info/WHEEL,sha256=uKWz2Cj4GNB4Gg9A3tvLNT_1WECRgStpyOrV-Oms7pI,153
