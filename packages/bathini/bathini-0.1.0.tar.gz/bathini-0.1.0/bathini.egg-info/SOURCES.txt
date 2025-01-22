@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+bathini/__init__.py
+bathini/greet.py
+bathini.egg-info/PKG-INFO
+bathini.egg-info/SOURCES.txt
+bathini.egg-info/dependency_links.txt
+bathini.egg-info/top_level.txt

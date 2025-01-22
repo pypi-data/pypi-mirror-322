@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: bathini
+Version: 0.1.0
+Summary: A package that introduces Bathini, a Computer Vision Scientist
+Home-page: https://github.com/bathini/bathini
+Author: Bathini
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bathini
+
+A simple Python package that introduces Bathini, a Computer Vision Scientist from Denmark.
+
+## Installation
+
+```bash
+pip install bathini
+```
+
+## Usage
+
+```python
+from bathini import hello
+
+message = hello()  # Returns the introduction message
+print(message)
+```
+
+## License
+MIT
