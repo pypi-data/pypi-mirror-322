@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: 102203658_Suvit_Kumar
+Version: 1.0.1
+Summary: A package for TOPSIS multi-criteria decision making
+Author: Suvit Kumar
+Author-email: skumar5_be22@thapr.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: pandas
