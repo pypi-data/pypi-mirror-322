@@ -1,0 +1,7 @@
+celery_redis_cluster_backend/__init__.py,sha256=CzPkIu1bNqwE2kEn0_rGRMcB4YqIR95_zIm-nFoK5mg,378
+celery_redis_cluster_backend/backend.py,sha256=j-UqB-QhL7nlU0CX7Ep6PYosoyA7EPi8DZQqBVMyLHk,1143
+celery_redis_cluster-0.1.4.dist-info/LICENSE,sha256=Btzdu2kIoMbdSp6OyCLupB1aRgpTCJ_szMimgEnpkkE,1056
+celery_redis_cluster-0.1.4.dist-info/METADATA,sha256=gYwPFTLVMtDuPjg90F3Abo3c30w0gqc35P57FE6VKzw,2380
+celery_redis_cluster-0.1.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+celery_redis_cluster-0.1.4.dist-info/top_level.txt,sha256=nM5WYJVsA761dQvt_JDJ-w0LmlsuKwHNI-ymFIJaYlM,29
+celery_redis_cluster-0.1.4.dist-info/RECORD,,
