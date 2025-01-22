@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: langchain-executor
+Version: 0.0.5
+Summary: Langchain Executor
+Home-page: https://github.com/yash0307jain/langchain-executor
+Author: Yash Jain
+Author-email: yash0307jain@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: langchain==0.3.14
+Requires-Dist: langchain-community==0.3.14
+Requires-Dist: langchain-core==0.3.30
+Requires-Dist: langchain-openai==0.3.0
+Requires-Dist: langchain-text-splitters==0.3.5
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# langchain-executor
+Repo to simplify the process of creating langchain application.
