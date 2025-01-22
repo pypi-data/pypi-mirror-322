@@ -1,0 +1,73 @@
+name: Conda package
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  ci:
+    name: "CI setup"
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version:
+          - "3.12"
+          - "3.11"
+          - "3.10"
+
+        os:
+          - "ubuntu-latest"
+
+    runs-on: "${{ matrix.os }}"
+
+    # use bash everywhere
+    defaults:
+      run:
+        shell: "bash -l {0}"
+
+    steps:
+      - name: "Checkout code"
+        uses: "actions/checkout@v4"
+
+      - name: Install opencv dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgl1 and libglx-mesa0 
+
+      - name: Install Conda environment with Micromamba
+        uses: mamba-org/setup-micromamba@v1
+        with:
+          environment-name: DeepForest
+          environment-file: environment.yml
+          create-args: "python=${{ matrix.python-version }}"
+          cache-environment: true
+          cache-downloads: true
+
+      - name: Install package
+        run: pip install . -U
+
+      - name: Run pytest
+        run: pytest -v
+
+      - name: Check style
+        run: yapf -d --recursive src/deepforest/ --style=.style.yapf
+
+      - name: Check notebook style
+        run: nbqa yapf --in-place docs/user_guide/examples/*.ipynb --style=.style.yapf
+
+      - name: Check notebook build
+        run: pytest --nbmake docs/**/*_test.ipynb
+
+      - name: Run docformatter
+        run: docformatter --check --recursive src/deepforest/
+
+      - name: Test Docs
+        run: |
+          cd docs && make clean && make html SPHINXOPTS="-W"
+
+      - name: Test and check build artifacts
+        run: |
+          pip install build && python -m build && twine check dist/*
