@@ -1,0 +1,4 @@
+shotgun_api3
+urllib3
+certifi
+requests
