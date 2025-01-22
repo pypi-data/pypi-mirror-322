@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jp2_remediator"
+version = "1.1.0"
+description = "A module to validate jp2images"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Kim Pham", email = "kimpham54@gmail.com" },
+    { name = "Andrew Woods", email = "andrew_woods@harvard.edu" },
+    ]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/harvard-lts/jp2_remediator"
+Issues = "https://github.com/harvard-lts/jp2_remediator/issues"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src"
+]
+
+[tool.coverage.run]
+omit = [
+  "**/tests/*"
+]
+
+[tool.project-paths]
+dir_unit_out = "src/jp2_remediator/tests/out/"
+dir_unit_resources = "src/jp2_remediator/tests/resources/"
