@@ -1,0 +1,17 @@
+_fundamend_version.py,sha256=zdNAVnAjBndeJIHwOgYUG1405Px0Xcqmi990xI2r5E4,18
+fundamend/__init__.py,sha256=KiePSqecSZPsj19m2cbldCq4pqFp9dL3B5x4hHF-viQ,320
+fundamend/cli.py,sha256=FY1ZIyveoa3yqetxjr4K7IrisUBZ7Aa0-MGVfAbRAf8,2505
+fundamend/py.typed,sha256=ZvYa-_QF7Xg7F6Dow8m1zHvSP6kNHuhh3BEBVxjAdUQ,168
+fundamend/models/__init__.py,sha256=zJjtL4ZrVbhTewrcRH4pFoOZ33U1pEeR0UKAFGAy_pc,239
+fundamend/models/anwendungshandbuch.py,sha256=nYEhSvNytkrPD-4e8J6XIFV3qFWGGDODf5nggJxfWsw,6504
+fundamend/models/base.py,sha256=cZsQA7a5envNVMmNvq3Uon306UlHtSRxiQogwGaZDFE,289
+fundamend/models/messageimplementationguide.py,sha256=B-3jxXWlQqOtev6lCk0KBw9OhyifzNsvUcjX6bpZ-_4,7944
+fundamend/reader/__init__.py,sha256=BrFFTP72hqpWZKptZubLNsCzthcRcHgGO6ogn59kBPI,145
+fundamend/reader/ahbreader.py,sha256=OjdvNavkbLZ5Jx9F-7JGvyX8t57uGNrGrNZcVUnqdjM,9176
+fundamend/reader/element_distinction.py,sha256=PliLctkqKgDSI2iQS7UIN_wMC8yULWacMbcMLIcjyCk,1443
+fundamend/reader/migreader.py,sha256=MJb6TV653KjqhTd8gpdXVO7EudG6plv3PUbD_ajx-z8,7353
+fundamend-0.8.1.dist-info/METADATA,sha256=HUIzznz3ningwlyTQSLfjmdDR9VnbrAfr0v4keFPqB0,7438
+fundamend-0.8.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+fundamend-0.8.1.dist-info/entry_points.txt,sha256=fuYErJjRN07-c_i4V-QibzsB4_ePdrofEowey0SYxLE,47
+fundamend-0.8.1.dist-info/licenses/LICENSE,sha256=04B920e2sAO59yFAclMRa8PIsOMJYVRH9L2vWBFyoFc,1095
+fundamend-0.8.1.dist-info/RECORD,,
