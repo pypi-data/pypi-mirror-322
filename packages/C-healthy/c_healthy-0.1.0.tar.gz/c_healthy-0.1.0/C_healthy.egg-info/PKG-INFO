@@ -1,0 +1,35 @@
+Metadata-Version: 2.2
+Name: C_healthy
+Version: 0.1.0
+Summary: A library for calculating BMI, BMR, TDEE
+Author: Nguyen Truong Chinh
+Author-email: chinhcuber@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
+
+# C_healthy
+
+C_healthy là thư viện Python để tính toán các chỉ số sức khỏe (BMI, BMR, TDEE) 
+
+## Cách cài đặt
+```bash
+pip install C_healthy
+
+
+## Cách sử dụng
+```python
+from HealthMetrics import calculate_bmi, calculate_bmr, calculate_tdee, recommend_diet
+
+bmi = calculate_bmi(70, 1.75)
+print("BMI:", bmi)
