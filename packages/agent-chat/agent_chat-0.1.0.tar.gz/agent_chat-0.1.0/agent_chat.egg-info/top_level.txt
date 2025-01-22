@@ -1,0 +1,6 @@
+agent
+client
+dspyagent
+memory
+tool
+type
