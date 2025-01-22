@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/edgar_sec/__init__.py
+src/edgar_sec/edgar_sec.py
+src/edgar_sec.egg-info/PKG-INFO
+src/edgar_sec.egg-info/SOURCES.txt
+src/edgar_sec.egg-info/dependency_links.txt
+src/edgar_sec.egg-info/requires.txt
+src/edgar_sec.egg-info/top_level.txt
