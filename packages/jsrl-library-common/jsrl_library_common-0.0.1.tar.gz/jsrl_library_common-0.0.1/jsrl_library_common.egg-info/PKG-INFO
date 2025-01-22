@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jsrl-library-common
+Version: 0.0.1
+Home-page: 
+Download-URL: 
+Author: Juan Sebastian Reyes Leyton
+Author-email: sebas.reyes2002@hotmail.com
+License: Copyright
+Keywords: jsrl_library_common
+Platform: Unix
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
