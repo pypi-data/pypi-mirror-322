@@ -1,0 +1,5 @@
+boto3
+python_terraform
+kubernetes
+requests
+GitPython
