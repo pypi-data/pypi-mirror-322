@@ -1,0 +1,10 @@
+dbx_marker-1.0.2.dist-info/METADATA,sha256=gk42DVWKfK_qLWdYWcCY6OKuRv1nhI3uce5zoQm9RJY,2969
+dbx_marker-1.0.2.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+dbx_marker-1.0.2.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+dbx_marker-1.0.2.dist-info/licenses/LICENSE,sha256=WUIV5eiLEg5NhEMu0rRKsbSNxxtdZaJrWu2grE5OQd0,1073
+dbx_marker/__init__.py,sha256=G8aeydIEi8d5fA82Hxw-dkNFSL5dibNTyeiGfift8UE,368
+dbx_marker/exceptions.py,sha256=yCF-N9-GbJcysJjUhXTh-jCjxss5_R4eT713UcGp3wE,141
+dbx_marker/manager.py,sha256=ugICi8Y7cTCxW4A8D41cPkd5u4UOrbTzVSsoHO0kBAo,4737
+dbx_marker/sqls.py,sha256=TPxY9PRohh-2dEmtqs3B8McIJl0OQEl1z2uI5Hh2cAA,937
+dbx_marker/utils.py,sha256=phSrhf84mSnLZzTZHmFE1ouCzBD8w6FS5OU7bQtoPgw,442
+dbx_marker-1.0.2.dist-info/RECORD,,
