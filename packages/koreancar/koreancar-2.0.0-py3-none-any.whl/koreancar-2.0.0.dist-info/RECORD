@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_listing_parser.py,sha256=bK9ccVGw2NGbzrUL8puVQx8M4LN7qJX3Musg59nMWKQ,816
+tests/test_vehicle_fetcher.py,sha256=F2OItJJwymCVI8K1b4yGc_aPGOzESzJgu09_vqcpj7c,2353
+koreancar-2.0.0.dist-info/LICENSE,sha256=vBmUDHig8BMjTzEisPYJDy8GYSYcVPLukk81ijCZbH0,1065
+koreancar-2.0.0.dist-info/METADATA,sha256=Oi7cFYfU1h1dDccyWmBQYVayqHKDCgQT7gWLtarOVuo,5432
+koreancar-2.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+koreancar-2.0.0.dist-info/entry_points.txt,sha256=-5aSP88fcGdD1NglqCSduPsrSneMN_OXp8hXyo_XTn8,53
+koreancar-2.0.0.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+koreancar-2.0.0.dist-info/RECORD,,
