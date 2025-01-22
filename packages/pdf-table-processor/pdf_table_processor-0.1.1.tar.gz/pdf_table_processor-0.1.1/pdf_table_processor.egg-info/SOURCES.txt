@@ -1,0 +1,11 @@
+setup.py
+api/__init__.py
+api/main.py
+api/q_a.py
+api/table_format.py
+pdf_table_processor.egg-info/PKG-INFO
+pdf_table_processor.egg-info/SOURCES.txt
+pdf_table_processor.egg-info/dependency_links.txt
+pdf_table_processor.egg-info/entry_points.txt
+pdf_table_processor.egg-info/requires.txt
+pdf_table_processor.egg-info/top_level.txt
