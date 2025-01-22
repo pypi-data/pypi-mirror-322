@@ -1,0 +1,103 @@
+[build-system]
+requires = ["setuptools>=68.2.0", "wheel", "setuptools_scm[toml]>=7.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytemplate-uv"
+version = "0.1.0"
+description = "A template for creating Python projects using uv package manager"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Leo Liu", email = "yuxuzi@gmail.com"}
+]
+keywords = [
+    "python", 
+    "template", 
+    "project-generator", 
+    "uv", 
+    "cookiecutter", 
+    "cli"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Typing :: Typed"
+]
+
+dependencies = [
+    "typer>=0.9.0",
+    "rich>=13.7.0",
+    "cookiecutter>=2.5.0",
+    "pytest>=7.4.4"
+]
+
+[project.urls]
+Homepage = "https://github.com/yuxuzi/pytemplate-uv"
+Repository = "https://github.com/yuxuzi/pytemplate-uv"
+Issues = "https://github.com/yuxuzi/pytemplate-uv/issues"
+Changelog = "https://github.com/yuxuzi/pytemplate-uv/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.9",
+    "black>=23.12.1",
+    "pytest>=7.4.4",
+    "pre-commit>=3.6.0",
+    "mypy>=1.7.1",
+    "coverage>=7.3.2"
+]
+docs = [
+    "mkdocs>=1.5.3",
+    "mkdocstrings[python]>=0.24.0"
+]
+
+[tool.setuptools]
+packages = ["pytemplate"]
+
+[project.scripts]
+# Project management scripts
+pytemplate = "pytemplate.main:app"
+create-project = "pytemplate.main:app"
+
+[tool.setuptools.package-data]
+"pytemplate" = ["../templates/*", "../templates/**/*", "../templates/**/**/*"]
+
+[tool.setuptools_scm]
+write_to = "version.py"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # pyflakes
+    "I",    # isort
+    "B",    # flake8-bugbear
+    "UP",   # pyupgrade
+    "C90",  # mccabe complexity
+    "N",    # pep8-naming
+    "D",    # pydocstyle
+]
+ignore = [
+    "D100",  # Missing docstring in public module
+    "D101",  # Missing docstring in public class
+]
+
+[tool.ruff.per-file-ignores]
+"tests/**" = ["D103"]  # Ignore missing docstrings in tests
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
