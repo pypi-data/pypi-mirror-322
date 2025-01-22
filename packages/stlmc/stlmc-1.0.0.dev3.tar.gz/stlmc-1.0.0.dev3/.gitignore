@@ -1,0 +1,35 @@
+stlmc.e*
+stlmc.o*
+*.output
+*.csv
+*.sh
+*.interp
+*.tokens
+*Parser.py
+*Lexer.py
+*.pyc
+*.swp
+src/run.sh
+.DS_Store
+__pycache__
+*.json
+data/
+reports/
+3rd_party/
+*.jar
+*.jl
+*.egg-info
+dist/
+tests/
+
+# Virtual Env for python
+venv/
+
+# config file
+.idea/
+
+!build.sh
+!./tests/
+
+# log
+log/
