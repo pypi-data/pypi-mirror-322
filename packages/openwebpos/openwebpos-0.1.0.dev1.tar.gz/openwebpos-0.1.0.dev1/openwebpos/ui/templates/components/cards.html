@@ -1,0 +1,27 @@
+{% macro basic_card(title, actions, class) %}
+
+    {% set card_class = class + " hoverable" if class else "hoverable" %}
+
+    <div class="card {{ card_class }}">
+        <div class="card-content">
+            {% if title %}
+                <span class="card-title">{{ title }}</span>
+            {% endif %}
+            {{ caller() }}
+        </div>
+        {% if actions %}
+            <div class="card-action">
+                {% for action in actions %}
+                    <a href="{{ action.url }}">{{ action.text }}</a>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+
+{% endmacro %}
+
+{% macro card_panel(class) %}
+    <div class="card-panel {{ class if class }}">
+        {{ caller() }}
+    </div>
+{% endmacro %}

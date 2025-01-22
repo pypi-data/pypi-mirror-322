@@ -1,0 +1,13 @@
+{% from "components/cards.html" import basic_card %}
+
+
+{% macro icon_card(icon, text) %}
+
+    {% call basic_card() %}
+        <div class="center-align">
+            <i class="large material-icons">{{ icon }}</i>
+            <h5 class="my-0">{{ text }}</h5>
+        </div>
+    {% endcall %}
+
+{% endmacro %}

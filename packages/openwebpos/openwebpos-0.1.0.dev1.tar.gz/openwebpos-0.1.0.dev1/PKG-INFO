@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: openwebpos
+Version: 0.1.0.dev1
+Summary: OpenWebPOS is an open-source, web-based Point of Sale (POS) system designed for restaurants and mobile food vendors. Built with Python and Flask, it provides a user-friendly, responsive interface powered by MaterialiceCSS and HTMX. OpenWebPOS offers features like product management, order tracking, and user authentication, making it a reliable, scalable, and customizable solution for small businesses.
+License: MIT
+Author: BaezFJ
+Author-email: baezdevs@gmail.com
+Maintainer: BaezFJ
+Maintainer-email: baezdevs@gmail.com
+Requires-Python: >=3.12, <4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: better-profanity (>=0.7.0,<0.8.0)
+Requires-Dist: email-validator (>=2.2.0,<3.0.0)
+Requires-Dist: flask (>=3.1.0,<4.0.0)
+Requires-Dist: flask-login (>=0.6.3,<0.7.0)
+Requires-Dist: flask-mailman (>=1.1.1,<2.0.0)
+Requires-Dist: flask-sqlalchemy (>=3.1.1,<4.0.0)
+Requires-Dist: flask-wtf (>=1.2.2,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: python-slugify (>=8.0.4,<9.0.0)
+Requires-Dist: python-usernames (>=1.0.0,<2.0.0)
+Requires-Dist: pytz (>=2024.2,<2025.0)
+Description-Content-Type: text/markdown
+
+# OpenWebPOS
+
+
