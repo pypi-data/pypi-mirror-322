@@ -1,0 +1,1 @@
+This Python library provides functions for visualizing various data structures, including linked lists, queue, stack, and more. It utilizes Matplotlib for creating interactive and informative visualizations.
