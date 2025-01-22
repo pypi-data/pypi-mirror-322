@@ -1,0 +1,12 @@
+spheroids/__init__.py,sha256=DFBDOdDxB12El0raRJ_0rbrq-maz1vegVaFoAuV5l8M,128
+spheroids/model.py,sha256=LKFepTFeHzmwjQiND_zVruxP5zFCHKs_6EYnNo3pHjs,24812
+spheroids/cpp/__init__.py,sha256=l82R-_drPaC1-QvphDvKPE6qfsE0IwcnCxP4onUW6rA,199
+spheroids/cpp/_estim.cp39-win_amd64.pyd,sha256=RYHkoG8GLKUHZ6YoQ9T4Bnw2a32_rUGU-EbJUkKLiFQ,239104
+spheroids/cpp/_estim.cpp,sha256=42vTtzBC7dqXDwA-If2yg5xQgjGcuvGIWC0i0DUXhvg,9674
+spheroids/cpp/_utils.cp39-win_amd64.pyd,sha256=70e0jAfBcQ6bsEHF4ofTk7U7S8otEt_99TWZOOMgumY,208896
+spheroids/cpp/_utils.cpp,sha256=aZBRpkCLLpDvm-d6XHN3xVa4Kk7Q0-A-SEn3fjuI0-4,4770
+spheroids-0.2.0.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+spheroids-0.2.0.dist-info/METADATA,sha256=MB9oYdiMc9l7Dn1hbC-ki3FIRSg9-v4dJQIUfDx0UnU,47923
+spheroids-0.2.0.dist-info/WHEEL,sha256=agy-BJge3afXwWznUXANATmKFW4eqelqRR0uf608A_0,99
+spheroids-0.2.0.dist-info/top_level.txt,sha256=xoNGwPJKbyO0SmgQB8Y-6lFNAeGszcCVz6dd_oBgUl8,10
+spheroids-0.2.0.dist-info/RECORD,,
