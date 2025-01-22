@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: VUW
+Version: 0.1.0
+Summary: A brief description of the package
+Author: Jiwon Chae
+Author-email: jwchae106@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.25.1
+Requires-Dist: numpy >=1.21.6
+Requires-Dist: joblib >=1.3.2
+Requires-Dist: pandas >=1.1.5
+Requires-Dist: dateutil >=0.20.1
+
+# VUW Package
+
+A VUW Python package that makes your development life easier!
+
+## Features
+- **Easy to use**: Intuitive API for developers.
+- **Lightweight**: Minimal dependencies and efficient performance.
+
+## Installation
+
+Install the latest version of the package using `pip`
+
+```bash
+pip install VUW
