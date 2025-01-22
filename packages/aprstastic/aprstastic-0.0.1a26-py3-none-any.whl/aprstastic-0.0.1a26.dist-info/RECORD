@@ -1,0 +1,14 @@
+aprstastic/__about__.py,sha256=IZ9y1_ECaWPOEVkjjhFcyWrH9V9KNt3VsjOO9eSwTtU,135
+aprstastic/__init__.py,sha256=gn9hIpDTylMxj_sMIuLhcz1e0_lF9vLhkUZj3rmcv50,110
+aprstastic/__main__.py,sha256=Gv6NqcIOydfStiH94v3aVfQmCD2481g1z9y1Punk0Lw,1772
+aprstastic/_aprs_client.py,sha256=QRIFbubo6JoKd4ZiBhUUELeRC7YjXJN_nNRt37L5bVA,3700
+aprstastic/_aprs_symbols.py,sha256=N-PaNYkEEOiOJACRgNSdl3uHgtKMguO-4KnfqMyonUo,11277
+aprstastic/_config.py,sha256=CPRS5UHPYS_7XzlJp2HsAogweHFQdSAUJWShmuljnu4,3110
+aprstastic/_config_const.py,sha256=KfRgC4gDV1aH_L5HyBbHt1X4GKhGeQS_nTVopRUE8yw,1359
+aprstastic/_gateway.py,sha256=yRu3QESmh7BMVkBj7qzIg1_BMZc2bESiILcjiC71cSc,27388
+aprstastic/_registry.py,sha256=kb2IzXRztK5hqjpgc6mv1I70XymTYZTFDBjlTnR9CkM,9886
+aprstastic/res/precompiled_registrations.json,sha256=h27uX8UA9m62BEin8xOewWVDU7Xnj5oZmifFBDAVS9w,1021
+aprstastic-0.0.1a26.dist-info/METADATA,sha256=eGzQlFQ0rrQ_YnhX35F7rL_K4gV5yrDifnKQMRl1lkc,6514
+aprstastic-0.0.1a26.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+aprstastic-0.0.1a26.dist-info/licenses/LICENSE,sha256=vV2vhIx5d5r6LzC5bwlCFYOKHNPBYCKlEqeacwsEO7E,1069
+aprstastic-0.0.1a26.dist-info/RECORD,,
