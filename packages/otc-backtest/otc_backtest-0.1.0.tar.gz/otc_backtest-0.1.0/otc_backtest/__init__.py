@@ -1,0 +1,1 @@
+from otc_backtest import generate_contracts
