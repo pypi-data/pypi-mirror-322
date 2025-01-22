@@ -1,0 +1,14 @@
+argparse
+configset
+rich
+pydebugger
+psutil
+pika
+tenacity
+amqp
+kombu
+
+[:platform_system == "Windows"]
+pygetwindow
+ctype
+pywin32
