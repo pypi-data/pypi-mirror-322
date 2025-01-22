@@ -1,0 +1,9 @@
+ug4py_base-0.1.9.dist-info/METADATA,sha256=iq9R-SYokkRROzCrbVk916Hj8cw0wZSfqSbpVw1c-bE,1293
+ug4py_base-0.1.9.dist-info/RECORD,,
+ug4py_base-0.1.9.dist-info/WHEEL,sha256=VOupRnfug01GtQYX1iAM3IeNFJwbRXAxOEBUtSnOhO4,156
+ug4py_base-0.1.9.dist-info/licenses/LICENSE,sha256=ztzkGXqPZf_vFg81KYmf5bm8jnSB5H-imjuvnKlzIZI,1095
+lib64/libug4_s.a,sha256=dIMgZg3uW_AA6d58fWnpUI2kyCEzTUz0GaR8Adjk-bM,271954054
+ug4py/pyutil.cpython-311-x86_64-linux-gnu.so,sha256=y0J68x5F-wozhj_8o8WAHNr9qlFL3O0pdZOomi_H3MI,4254736
+ug4py/pyconvectiondiffusion.cpython-311-x86_64-linux-gnu.so,sha256=nJT2Tyo7WqlMmJeVAgj1vte1qlDXpgd_AgzAbE-QL6k,15831376
+ug4py/pylimex.cpython-311-x86_64-linux-gnu.so,sha256=60iPYRwF4rhXyD1r24uwBS3zs3G7GCA-qkMBLEp0rZQ,10969136
+ug4py/pyugcore.cpython-311-x86_64-linux-gnu.so,sha256=HG0RswCjRFOuV4fuiQRC1ajUKtI0dCfOhYTuf78YD5Q,73919880
