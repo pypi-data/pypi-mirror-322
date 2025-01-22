@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "runcommands"
+version = "1.0a72"
+license = { text = "MIT" }
+description = "A framework for writing console scripts and running commands"
+readme = "README.rst"
+authors = [ { name = "Wyatt Baldwin", email = "code@wyattbaldwin.com" } ]
+keywords = ["run", "commands", "console", "scripts", "terminal"]
+requires-python = ">=3.9"
+dependencies = [
+    "rich>=10",
+    "toml>=0.10",
+    "com.wyattbaldwin.cached_property>=1.0"
+]
+
+[dependency-groups]
+dev = [
+    "coverage",
+    "ruff",
+    "Sphinx",
+    "tox",
+    "twine",
+    "com.wyattbaldwin.make_release",
+]
+
+[project.urls]
+documentation = "https://runcommands.readthedocs.io"
+homepage = "https://runcommands.readthedocs.io"
+repository = "https://github.com/wylee/runcommands"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"runcommands" = [
+    "completion/bash/*.fish",
+    "completion/bash/*.rc",
+]
+
+[project.scripts]
+run = "runcommands.__main__:main"
+runcommand = "runcommands.__main__:main"
+runcommands = "runcommands.__main__:main"
+runcommands-complete = "runcommands.completion:complete.console_script"
+runcommands-complete-base-command = "runcommands.completion:complete_base_command.console_script"
+
+[tool.make-release.args]
+test-command = "run test"
+
+[tool.ruff.lint]
+ignore = ["F722", "F821"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.runcommands.globals]
+package = "runcommands"
+distribution = "{{ package }}"
