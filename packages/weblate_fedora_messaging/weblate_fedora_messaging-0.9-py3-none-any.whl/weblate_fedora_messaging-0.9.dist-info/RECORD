@@ -1,0 +1,9 @@
+weblate_fedora_messaging/__init__.py,sha256=t_PYUO33O3adrlVUGT3X65MpjEAV2NEjcROPMX5w3hQ,748
+weblate_fedora_messaging/apps.py,sha256=Bga8sVZYmQSJhTQqvIgRjjvLsKgcyaUVIENsRyjmcDk,1976
+weblate_fedora_messaging/models.py,sha256=ihKHjeKOTta52LO0cBVGPnzCSH-n8ykyGm9VB0jprR4,1512
+weblate_fedora_messaging/tasks.py,sha256=InSIV6X9bQpv2NQOGKg2O6QHmP5us-pIpJAiUMvu2iw,3682
+weblate_fedora_messaging/tests.py,sha256=GcmeSylhBrypdvCchktHNd5Zmd4GHI8SOvQYJHd5TMg,2160
+weblate_fedora_messaging-0.9.dist-info/METADATA,sha256=EKEOZrPAvWfC32oPIzxm9fyQU_7kfFZo8knWVi_qjDY,8133
+weblate_fedora_messaging-0.9.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+weblate_fedora_messaging-0.9.dist-info/top_level.txt,sha256=7VmBlaF6QC8Im6LP1IJLsiJ9748Cv4B-_Y_wgx_4fc4,25
+weblate_fedora_messaging-0.9.dist-info/RECORD,,
