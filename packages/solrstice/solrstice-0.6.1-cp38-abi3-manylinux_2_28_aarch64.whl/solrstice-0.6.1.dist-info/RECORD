@@ -1,0 +1,13 @@
+solrstice-0.6.1.dist-info/METADATA,sha256=Vm-NKvsck7tiOURjQiuvCH9INiSLUyYv9AzQx1Hkrm4,12170
+solrstice-0.6.1.dist-info/WHEEL,sha256=POX1x4xH_qyXG0VSBlD5e63MFdqoRurQTANF3OhAroU,107
+solrstice-0.6.1.dist-info/licenses/LICENSE-APACHE,sha256=3mj3GkWcOnRksyfkOWPN0NQs-ciAqu83bdBgep32VR4,11348
+solrstice-0.6.1.dist-info/licenses/LICENSE-MIT,sha256=tx7Ie40Z8WgvO1GNFIqfLPGq5HCWOYARsSETFMobp5w,1075
+solrstice/config.pyi,sha256=zFfjadInIr5bqmZ8K0aVmgozdESUG601Gq8M04vJALg,2402
+solrstice/models.pyi,sha256=hh6GTxnLpZ9sBWzAnzXiB-pU9fhAdLnVVL0KM6RIWzA,10487
+solrstice/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solrstice/__init__.py,sha256=u0wVH05dzDBMlA04tvzSX0CXvWD5pGL7MzG04tMFqt0,25
+solrstice/alias.pyi,sha256=ZOlrn6UthlbswExPunGZjZ2C60x74c1vcSS_0qm5Moo,2449
+solrstice/collection.pyi,sha256=w-44SiQ2NWx7PJbWjKG77g08kDTB0zdeQE_oeMRKmi0,2997
+solrstice/__init__.pyi,sha256=QapCVG9SD1iER9wLgpyaxQCk_rFkDofhDfu-IiTJCYA,36432
+solrstice/solrstice.abi3.so,sha256=dIjRwrBp94D-dE7VJOiiGnPhKUlrAtaiHSgOejzdoHc,10832128
+solrstice-0.6.1.dist-info/RECORD,,
