@@ -1,0 +1,6 @@
+ratelimit_io/__init__.py,sha256=acNBChRv4S8OTG0zraDP7LEYqhOdQJfltxldhfYo3Ys,386
+ratelimit_io/rate_limit.py,sha256=zkRCAijCZEF_vysfMGRdbwCnHThwc9AFSBwfFmKHzQM,18285
+ratelimit_io-0.6.4.dist-info/LICENSE,sha256=sI0SaC3b3if6XUjGITs66e_D8u2f3--2beVzoJFn0LA,1072
+ratelimit_io-0.6.4.dist-info/METADATA,sha256=wFvCjNCoWUJF9lZNZvvKZgIuhNF970OE9J-2zH5klPg,9964
+ratelimit_io-0.6.4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ratelimit_io-0.6.4.dist-info/RECORD,,
