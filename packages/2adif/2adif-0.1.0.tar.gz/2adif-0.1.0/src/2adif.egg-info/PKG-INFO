@@ -1,0 +1,88 @@
+Metadata-Version: 2.2
+Name: 2adif
+Version: 0.1.0
+Summary: Convert table to ADIF format.
+Author: uiolee
+Maintainer: uiolee
+License: MPL 2.0
+Project-URL: Homepage, https://github.com/uiolee/2adif
+Project-URL: Repository, https://github.com/uiolee/2adif.git
+Project-URL: Issues, https://github.com/uiolee/2adif/issues
+Keywords: ADIF,csv,hamradio
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: File Formats
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Scrapy
+
+# 2adif
+
+[![CI](https://github.com/uiolee/2adif/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/uiolee/2adif/actions/workflows/ci.yml)
+[![Publish](https://github.com/uiolee/2adif/actions/workflows/publish.yml/badge.svg)](https://github.com/uiolee/2adif/actions/workflows/publish.yml)
+
+Convert tables to [ADIF](https://adif.org/) format.
+
+## Feat
+
+- [x] convert `csv` to `adi` format.
+- [ ] convert `xlsx` to `adi` format.
+- [ ] convert `ods` to `adi` format.
+
+## Usage
+
+[![PyPI - Version](https://img.shields.io/pypi/v/2adif)](https://pypi.org/p/2adif/#history)
+[![PyPI - Status](https://img.shields.io/pypi/status/2adif)](https://pypi.org/p/2adif)
+[![PyPI - Implementation](https://img.shields.io/pypi/implementation/2adif)](https://pypi.org/p/2adif)
+[![PyPI - Format](https://img.shields.io/pypi/format/2adif)](https://pypi.org/p/2adif/#files)
+[![PyPI - Wheel](https://img.shields.io/pypi/wheel/2adif)](https://pypi.org/p/2adif/#files)
+[![PyPI - License](https://img.shields.io/pypi/l/2adif)](./LICENSE)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/2adif)](https://pypi.org/p/2adif)
+
+### pipx
+
+#### Install
+
+```bash
+pipx install 2adif
+```
+
+#### convert `csv` to `adi`
+
+- Convert the specified `csv` file
+
+  ```bash
+  2adif ./test/test.csv
+  ```
+
+- Convert all csv files in the specified directory
+
+  ```bash
+  2adif ./test/
+  ```
+
+### source
+
+<details>
+<summary>source</summary>
+
+#### Python
+
+see [./src/main.py](./src/main.py#L140) for more.
+
+</details>
+
+## Develop Env
+
+```plain
+Python 3.11.9
+```

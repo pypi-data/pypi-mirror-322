@@ -1,0 +1,49 @@
+[project]
+name = "2adif"
+authors = [{ name = "uiolee" }]
+maintainers = [{ name = "uiolee" }]
+description = "Convert table to ADIF format."
+keywords = ["ADIF", "csv", "hamradio"]
+readme = "README.md"
+license = { text = "MPL 2.0" }
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+
+    "Environment :: Console",
+
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+
+    "Topic :: File Formats",
+    "Topic :: Utilities",
+
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+
+    "Natural Language :: English",
+
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+
+    "Programming Language :: Python :: 3.11",
+]
+
+dynamic = ["version"]
+
+dependencies = ['Scrapy']
+
+[project.urls]
+Homepage = "https://github.com/uiolee/2adif"
+Repository = "https://github.com/uiolee/2adif.git"
+Issues = "https://github.com/uiolee/2adif/issues"
+
+[project.scripts]
+2adif = "cli:cli"
+
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+local_scheme = 'no-local-version'

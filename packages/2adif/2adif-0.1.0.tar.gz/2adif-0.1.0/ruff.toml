@@ -1,0 +1,6 @@
+
+[format]
+line-ending = "lf"
+
+[lint]
+unfixable = ["F401"]
