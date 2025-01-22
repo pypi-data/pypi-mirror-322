@@ -1,0 +1,8 @@
+slack_webhook_notifier/__init__.py,sha256=Iy91QuAKinXd30E4ZHVVpEvCF82pgypuiit9jWfQ1tk,124
+slack_webhook_notifier/main.py,sha256=hfsWCg02md1JlBu27mbYhlCj-QQf0HjCXiZIZ4hMDxo,2604
+slack_webhook_notifier/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slack_webhook_notifier-2.0.1.dist-info/LICENSE,sha256=PmXYgTt2lpACeHiHTQIHeMwcCdxA2dsOuiP7j4zq8sM,1069
+slack_webhook_notifier-2.0.1.dist-info/METADATA,sha256=yyYpdi-4t866419fDm-kqUu7T3hqc3vqYqqnl5BM5LA,5134
+slack_webhook_notifier-2.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+slack_webhook_notifier-2.0.1.dist-info/top_level.txt,sha256=AbIgblmiWoFHknheMRyAoZGDRPoogBqtYP0ishAzwtM,23
+slack_webhook_notifier-2.0.1.dist-info/RECORD,,
