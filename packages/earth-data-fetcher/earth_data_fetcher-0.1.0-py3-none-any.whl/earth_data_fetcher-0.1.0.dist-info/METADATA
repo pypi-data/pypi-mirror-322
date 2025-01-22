@@ -1,0 +1,33 @@
+Metadata-Version: 2.2
+Name: earth-data-fetcher
+Version: 0.1.0
+Summary: Fetch remote sensing and reanalysis data from different sources
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp>=3.11.11
+Requires-Dist: copernicusmarine>=2.0.0
+Requires-Dist: fsspec>=2024.12.0
+Requires-Dist: jinja2>=3.1.5
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: munch>=4.0.0
+Requires-Dist: pip>=24.3.1
+Requires-Dist: pydap>=3.5.3
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: requests>=2.32.3
+Requires-Dist: s3fs>=2024.12.0
+
+# Earth Data Fetcher
+
+A simple package to fetch gridded earth data from different sources using the appropriate protocol. 
+
+Supports the following protocols:
+- HTTP[S]
+- FTP
+- S3
+- THREDDS datasets
+- CMEMS datasets
+
+## To do
+
+The majority of my datasets are hosted on CMEMS, so those will be prioritized.
+The HTTP[S] protocol will be the next to be implemented since the SST and MLD (SODA) data are hosted on HTTP servers.
