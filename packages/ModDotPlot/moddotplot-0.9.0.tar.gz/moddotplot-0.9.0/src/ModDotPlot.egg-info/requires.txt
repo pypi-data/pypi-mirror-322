@@ -1,0 +1,16 @@
+pysam
+pandas
+plotly
+dash
+plotnine==0.12.4
+palettable
+mmh3
+tk
+setproctitle
+numpy
+pillow
+patchworklib
+
+[test]
+pytest
+pytest-cov
