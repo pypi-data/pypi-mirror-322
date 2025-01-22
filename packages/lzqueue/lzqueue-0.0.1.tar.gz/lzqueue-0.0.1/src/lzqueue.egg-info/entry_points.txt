@@ -1,0 +1,3 @@
+[console_scripts]
+lzq = lzqueue.cli:cli
+lzqueue = lzqueue.cli:cli
