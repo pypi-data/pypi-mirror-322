@@ -1,0 +1,3 @@
+[console_scripts]
+cronslate=pyslop.cronslator.cli:main
+
