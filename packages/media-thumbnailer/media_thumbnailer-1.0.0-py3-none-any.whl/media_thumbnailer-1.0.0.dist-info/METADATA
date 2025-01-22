@@ -1,0 +1,8 @@
+Metadata-Version: 2.3
+Name: media-thumbnailer
+Version: 1.0.0
+Summary: Creates a grid of thumbnails for a media file.
+Author-email: gotloaf <gotloaf@users.noreply.github.com>
+Requires-Python: >=3.8
+Requires-Dist: click >= 8.1
+Requires-Dist: Pillow >= 11.0
