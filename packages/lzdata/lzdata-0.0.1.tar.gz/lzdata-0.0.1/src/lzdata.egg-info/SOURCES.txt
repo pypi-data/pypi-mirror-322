@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/lzdata/__init__.py
+src/lzdata/cli.py
+src/lzdata.egg-info/PKG-INFO
+src/lzdata.egg-info/SOURCES.txt
+src/lzdata.egg-info/dependency_links.txt
+src/lzdata.egg-info/entry_points.txt
+src/lzdata.egg-info/requires.txt
+src/lzdata.egg-info/top_level.txt
+tests/test_cli.py

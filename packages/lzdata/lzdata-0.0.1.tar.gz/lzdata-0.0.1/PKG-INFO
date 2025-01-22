@@ -1,0 +1,36 @@
+Metadata-Version: 2.2
+Name: lzdata
+Version: 0.0.1
+Summary: Lazy data validation and transformation.
+Author-email: Ian Maurer <imaurer@gmail.com>
+Project-URL: Homepage, https://lzkit.com/lzdata/
+Project-URL: Repository, https://github.com/lzkit/lzdata
+Project-URL: Documentation, https://lzkit.com/lzdata/
+Keywords: python
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <4.0,>=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.1.8
+Provides-Extra: api
+
+# lzdata
+
+[![Release](https://img.shields.io/github/v/release/lzkit/lzdata)](https://img.shields.io/github/v/release/lzkit/lzdata)
+[![Build status](https://img.shields.io/github/actions/workflow/status/lzkit/lzdata/main.yml?branch=main)](https://github.com/lzkit/lzdata/actions/workflows/main.yml?query=branch%3Amain)
+[![codecov](https://codecov.io/gh/lzkit/lzdata/branch/main/graph/badge.svg)](https://codecov.io/gh/lzkit/lzdata)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/lzkit/lzdata)](https://img.shields.io/github/commit-activity/m/lzkit/lzdata)
+[![License](https://img.shields.io/github/license/lzkit/lzdata)](https://img.shields.io/github/license/lzkit/lzdata)
+
+Lazy data validation and transformation.
+
+- **Github repository**: <https://github.com/lzkit/lzdata/>
+- **Documentation** <https://lzkit.com/lzdata/>
+

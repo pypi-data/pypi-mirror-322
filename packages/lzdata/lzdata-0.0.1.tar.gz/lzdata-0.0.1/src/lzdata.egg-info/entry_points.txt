@@ -1,0 +1,3 @@
+[console_scripts]
+lzd = lzdata.cli:cli
+lzdata = lzdata.cli:cli
