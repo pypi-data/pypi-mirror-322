@@ -1,0 +1,11 @@
+mvent/__init__.py,sha256=bq4v4eOxVjKx_Uc1O0nv0SsOxWkwL9stOCioeJkEbd0,283
+mvent/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mvent/core/events_manager.py,sha256=KnBuAO5nAg6RLjs_yYYQ2hJvimDc7DXPXgekIXDDyGM,3196
+mvent/core/shared_memory.py,sha256=HnQ7qJqWNfpWD-PwDmXEjycXq1MSnPTV1H7Ip5d3Y-U,8899
+mvent/decorators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mvent/decorators/memory_events.py,sha256=VfOrWxHWu3h2YL63S643yjPVtnieyvRW1hbiitkdc-Q,1468
+mvent-0.1.0.dist-info/LICENSE,sha256=XuRCQJNrpwLbsJu-7DXEZ_2CqnOkdbwQMQ7Zu3-CtJQ,1085
+mvent-0.1.0.dist-info/METADATA,sha256=uqx0Ugf0acaSojyLLZ1o__VbcssZnuk7ygIf40KOkoc,2358
+mvent-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mvent-0.1.0.dist-info/top_level.txt,sha256=97DYBFDBZvIceOOph43Jt-vQmPMAJZt5k7MXslOKNrA,6
+mvent-0.1.0.dist-info/RECORD,,
