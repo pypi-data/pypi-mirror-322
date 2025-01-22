@@ -1,0 +1,9 @@
+normie/__init__.py,sha256=ZhFPvMomYRIR2ESLydly-Gglw_SHJydk84H41QdZVdk,41
+normie/compat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+normie/compat/excel.py,sha256=2h_arBhkX0E2Mx0kyEPcPxHLxwY76OvnocZ1IvBAqr0,230
+normie_impl.cpython-311-darwin.so,sha256=1YuSFWKV9pFmm65rSI6bUJDtc9Yn_1W1Hv7g_cEQV6U,68112
+normie-0.5.0a2.dist-info/LICENSE,sha256=9TofdYOxRCYYW9OWi9ennpJ2rTXgrZ6CfwakuGgfrIk,1061
+normie-0.5.0a2.dist-info/METADATA,sha256=SSDbaSSCFc3tnyA8173snHbOFPU1FTc8TO3Sfyy-5c4,2394
+normie-0.5.0a2.dist-info/WHEEL,sha256=tj0L_EF0LbbA89KCcgvEc8ovwaYfdrZt2sKP_LddKlE,106
+normie-0.5.0a2.dist-info/entry_points.txt,sha256=kRmGhIkn48sw6GXFeTDSGiVbYEyMiEBay_2UQHqoGAA,81
+normie-0.5.0a2.dist-info/RECORD,,
