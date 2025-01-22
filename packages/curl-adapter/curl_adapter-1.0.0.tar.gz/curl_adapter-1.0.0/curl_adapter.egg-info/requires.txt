@@ -1,0 +1,6 @@
+requests
+curl_cffi
+pycurl==7.45.3
+
+[test]
+pytest
