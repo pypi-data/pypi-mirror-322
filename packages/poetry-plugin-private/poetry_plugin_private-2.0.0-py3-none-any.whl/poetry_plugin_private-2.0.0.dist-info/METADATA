@@ -1,0 +1,91 @@
+Metadata-Version: 2.3
+Name: poetry-plugin-private
+Version: 2.0.0
+Summary: A plugin that contains dynamic version numbers and default PyPI repository source settings.
+License: MIT
+Author: L.STONE
+Author-email: <web.developer.network@gmail.com>
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: poetry (>=2.0.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+#README
+
+**!IMPORTANT! Please upgrade to version `2.0.0`. Adapted to `Poetry >=2.0.0`.**
+
+## Related information
+
+* [poetry-plugin-pypi-mirror](https://github.com/arcesium/poetry-plugin-pypi-mirror)
+* [poetry-version-plugin](https://github.com/tiangolo/poetry-version-plugin)
+* [License](https://choosealicense.com/licenses/mit/)
+
+## Build <*.whl> binary package
+
+Location: `[PROJECT_ROOT]/.env`
+
+```bash
+POETRY_VIRTUALENVS_IN_PROJECT=true
+POETRY_PLUGIN_PRIVATE_DISABLE_LOG=true
+POETRY_PYPI_MIRROR_URL=http://pypi.stone.cs/simple/
+```
+
+```bash
+cd [PROJECT_ROOT]
+make
+```
+
+## Install plugin
+
+```bash
+pip install "poetry-plugin-private>=2.0.0"
+```
+
+## Modify pyproject.toml configuration
+
+**Add the following content to support reading the `__version__` variable dynamic version number**
+
+Location: `<Env>:VERSION` or `[Package]/__init__.py`:`__version__`
+
+**When `source = init`, the value of the environment variable `VERSION` is first detected as the version number. Otherwise, the value of the `__version__`
+variable is read from the `[Package]/__init__.py` file as the version number. **
+
+```toml
+[tool.poetry-version-plugin]
+source = "init"
+```
+
+Env: `VERSION`
+
+```toml
+[tool.poetry-version-plugin]
+source = "env"
+```
+
+## Set environment variables to modify the default PyPI source address
+
+`Linux`
+
+```bash
+export POETRY_VIRTUALENVS_IN_PROJECT="true"
+export POETRY_PYPI_MIRROR_DISABLE_CACHE="true"
+export POETRY_PLUGIN_PRIVATE_DISABLE_LOG="true"
+export POETRY_PYPI_MIRROR_URL="http://pypi.stone.cs/simple/"
+```
+
+`Windows 10/11`
+
+```ps1
+[Environment]::SetEnvironmentVariable("POETRY_VIRTUALENVS_IN_PROJECT", "true", "User");
+[Environment]::SetEnvironmentVariable("POETRY_PLUGIN_PRIVATE_DISABLE_LOG", "true", "User");
+[Environment]::SetEnvironmentVariable("POETRY_PYPI_MIRROR_DISABLE_CACHE", "true", "User");
+[Environment]::SetEnvironmentVariable("POETRY_PYPI_MIRROR_URL", "http://pypi.stone.cs/simple/", "User");
+```
+
+## Features to be supported
+
+* Support environment variable `VERSION` to dynamically set the build version number.
+
