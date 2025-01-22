@@ -1,0 +1,1642 @@
+2025-01-20 11:05:39,998 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-20 11:05:40,109 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:05:40,109 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0258 secondes.
+2025-01-20 11:05:40,110 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-20 11:05:40,110 - AdsLogger - INFO - Temps d'exécution de connect: 0.1115 secondes.
+2025-01-20 11:05:40,149 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:05:40,149 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0389 secondes.
+2025-01-20 11:05:40,264 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s). Total inséré: 1000/10000 ligne(s).
+2025-01-20 11:05:40,334 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s). Total inséré: 2000/10000 ligne(s).
+2025-01-20 11:05:40,400 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s). Total inséré: 3000/10000 ligne(s).
+2025-01-20 11:05:40,468 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s). Total inséré: 4000/10000 ligne(s).
+2025-01-20 11:05:40,540 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s). Total inséré: 5000/10000 ligne(s).
+2025-01-20 11:05:40,614 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s). Total inséré: 6000/10000 ligne(s).
+2025-01-20 11:05:40,698 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s). Total inséré: 7000/10000 ligne(s).
+2025-01-20 11:05:40,766 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s). Total inséré: 8000/10000 ligne(s).
+2025-01-20 11:05:40,848 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s). Total inséré: 9000/10000 ligne(s).
+2025-01-20 11:05:40,919 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s). Total inséré: 10000/10000 ligne(s).
+2025-01-20 11:05:40,922 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.7684 secondes.
+2025-01-20 11:05:40,924 - AdsLogger - INFO - Récupération des colonnes depuis dbo.insert_test
+2025-01-20 11:05:40,938 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-20 11:05:40,938 - AdsLogger - INFO - 4 ligne(s) lue(s).
+2025-01-20 11:05:40,938 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0145 secondes
+2025-01-20 11:05:40,966 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:05:40,966 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0283 secondes.
+2025-01-20 11:05:41,004 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:05:41,004 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0375 secondes.
+2025-01-20 11:05:41,080 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s). Total inséré: 1000/7001 ligne(s).
+2025-01-20 11:05:41,148 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s). Total inséré: 2000/7001 ligne(s).
+2025-01-20 11:05:41,226 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s). Total inséré: 3000/7001 ligne(s).
+2025-01-20 11:05:41,297 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s). Total inséré: 4000/7001 ligne(s).
+2025-01-20 11:05:41,366 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s). Total inséré: 5000/7001 ligne(s).
+2025-01-20 11:05:41,429 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s). Total inséré: 6000/7001 ligne(s).
+2025-01-20 11:05:41,498 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s). Total inséré: 7000/7001 ligne(s).
+2025-01-20 11:05:41,544 - AdsLogger - INFO - Batch 8: 1 ligne(s) insérée(s). Total inséré: 7001/7001 ligne(s).
+2025-01-20 11:05:41,544 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.5399 secondes.
+2025-01-20 11:05:41,735 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:05:41,735 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1912 secondes.
+2025-01-20 11:05:41,736 - AdsLogger - INFO - 7001 lignes insérée(s)ou mise(s) à jour dans la tables insert_test.
+2025-01-20 11:05:41,766 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:05:41,766 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0314 secondes.
+2025-01-20 11:05:41,768 - AdsLogger - INFO - Table temporaire supprimée.
+2025-01-20 11:05:41,768 - AdsLogger - INFO - Temps d'exécution de upsertBulk: 0.8442 secondes.
+2025-01-20 11:47:46,419 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-20 11:47:46,592 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:47:46,592 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0747 secondes.
+2025-01-20 11:47:46,592 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-20 11:47:46,592 - AdsLogger - INFO - Temps d'exécution de connect: 0.1728 secondes.
+2025-01-20 11:47:46,642 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:47:46,642 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0503 secondes.
+2025-01-20 11:47:46,769 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s). Total inséré: 1000/10000 ligne(s).
+2025-01-20 11:47:46,864 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s). Total inséré: 2000/10000 ligne(s).
+2025-01-20 11:47:46,936 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s). Total inséré: 3000/10000 ligne(s).
+2025-01-20 11:47:47,005 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s). Total inséré: 4000/10000 ligne(s).
+2025-01-20 11:47:47,078 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s). Total inséré: 5000/10000 ligne(s).
+2025-01-20 11:47:47,147 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s). Total inséré: 6000/10000 ligne(s).
+2025-01-20 11:47:47,215 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s). Total inséré: 7000/10000 ligne(s).
+2025-01-20 11:47:47,289 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s). Total inséré: 8000/10000 ligne(s).
+2025-01-20 11:47:47,355 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s). Total inséré: 9000/10000 ligne(s).
+2025-01-20 11:47:47,432 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s). Total inséré: 10000/10000 ligne(s).
+2025-01-20 11:47:47,432 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.7827 secondes.
+2025-01-20 11:47:47,433 - AdsLogger - INFO - Récupération des colonnes depuis dbo.insert_test
+2025-01-20 11:47:47,448 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-20 11:47:47,448 - AdsLogger - INFO - 4 ligne(s) lue(s).
+2025-01-20 11:47:47,448 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0150 secondes
+2025-01-20 11:47:47,476 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:47:47,476 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0275 secondes.
+2025-01-20 11:47:47,504 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:47:47,504 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0284 secondes.
+2025-01-20 11:47:47,576 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s). Total inséré: 1000/7001 ligne(s).
+2025-01-20 11:47:47,644 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s). Total inséré: 2000/7001 ligne(s).
+2025-01-20 11:47:47,722 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s). Total inséré: 3000/7001 ligne(s).
+2025-01-20 11:47:47,796 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s). Total inséré: 4000/7001 ligne(s).
+2025-01-20 11:47:47,875 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s). Total inséré: 5000/7001 ligne(s).
+2025-01-20 11:47:47,950 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s). Total inséré: 6000/7001 ligne(s).
+2025-01-20 11:47:48,020 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s). Total inséré: 7000/7001 ligne(s).
+2025-01-20 11:47:48,067 - AdsLogger - INFO - Batch 8: 1 ligne(s) insérée(s). Total inséré: 7001/7001 ligne(s).
+2025-01-20 11:47:48,068 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.5641 secondes.
+2025-01-20 11:47:48,264 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:47:48,264 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1958 secondes.
+2025-01-20 11:47:48,264 - AdsLogger - INFO - 7001 lignes insérée(s)ou mise(s) à jour dans la tables insert_test.
+2025-01-20 11:47:48,294 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:47:48,295 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0300 secondes.
+2025-01-20 11:47:48,295 - AdsLogger - INFO - Table temporaire supprimée.
+2025-01-20 11:47:48,295 - AdsLogger - INFO - Temps d'exécution de upsertBulk: 0.8621 secondes.
+2025-01-20 11:48:05,970 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-20 11:48:06,178 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-20 11:48:06,178 - AdsLogger - INFO - Temps d'exécution de connect: 0.2084 secondes.
+2025-01-20 11:48:06,229 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:06,229 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0501 secondes.
+2025-01-20 11:48:06,364 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s). Total inséré: 1000/10000 ligne(s).
+2025-01-20 11:48:06,474 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s). Total inséré: 2000/10000 ligne(s).
+2025-01-20 11:48:06,583 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s). Total inséré: 3000/10000 ligne(s).
+2025-01-20 11:48:06,689 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s). Total inséré: 4000/10000 ligne(s).
+2025-01-20 11:48:06,798 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s). Total inséré: 5000/10000 ligne(s).
+2025-01-20 11:48:06,905 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s). Total inséré: 6000/10000 ligne(s).
+2025-01-20 11:48:07,015 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s). Total inséré: 7000/10000 ligne(s).
+2025-01-20 11:48:07,131 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s). Total inséré: 8000/10000 ligne(s).
+2025-01-20 11:48:07,237 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s). Total inséré: 9000/10000 ligne(s).
+2025-01-20 11:48:07,345 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s). Total inséré: 10000/10000 ligne(s).
+2025-01-20 11:48:07,346 - AdsLogger - INFO - Temps d'exécution de insertBulk: 1.1110 secondes.
+2025-01-20 11:48:07,350 - AdsLogger - INFO - Récupération des colonnes depuis dbo.insert_test
+2025-01-20 11:48:07,364 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-20 11:48:07,365 - AdsLogger - INFO - 4 ligne(s) lue(s).
+2025-01-20 11:48:07,365 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0160 secondes
+2025-01-20 11:48:07,447 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:07,448 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0821 secondes.
+2025-01-20 11:48:07,491 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:07,492 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0436 secondes.
+2025-01-20 11:48:07,614 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s). Total inséré: 1000/7001 ligne(s).
+2025-01-20 11:48:07,718 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s). Total inséré: 2000/7001 ligne(s).
+2025-01-20 11:48:07,828 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s). Total inséré: 3000/7001 ligne(s).
+2025-01-20 11:48:07,943 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s). Total inséré: 4000/7001 ligne(s).
+2025-01-20 11:48:08,050 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s). Total inséré: 5000/7001 ligne(s).
+2025-01-20 11:48:08,162 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s). Total inséré: 6000/7001 ligne(s).
+2025-01-20 11:48:08,277 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s). Total inséré: 7000/7001 ligne(s).
+2025-01-20 11:48:08,366 - AdsLogger - INFO - Batch 8: 1 ligne(s) insérée(s). Total inséré: 7001/7001 ligne(s).
+2025-01-20 11:48:08,367 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.8751 secondes.
+2025-01-20 11:48:08,571 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:08,571 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.2043 secondes.
+2025-01-20 11:48:08,572 - AdsLogger - INFO - 7001 lignes insérée(s)ou mise(s) à jour dans la tables insert_test.
+2025-01-20 11:48:08,614 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:08,615 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0431 secondes.
+2025-01-20 11:48:08,615 - AdsLogger - INFO - Table temporaire supprimée.
+2025-01-20 11:48:08,615 - AdsLogger - INFO - Temps d'exécution de upsertBulk: 1.2666 secondes.
+2025-01-20 11:48:19,585 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-20 11:48:19,746 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-20 11:48:19,746 - AdsLogger - INFO - Temps d'exécution de connect: 0.1610 secondes.
+2025-01-20 11:48:19,796 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:19,796 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0499 secondes.
+2025-01-20 11:48:20,415 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s). Total inséré: 10000/10000 ligne(s).
+2025-01-20 11:48:20,417 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.6179 secondes.
+2025-01-20 11:48:20,421 - AdsLogger - INFO - Récupération des colonnes depuis dbo.insert_test
+2025-01-20 11:48:20,436 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-20 11:48:20,436 - AdsLogger - INFO - 4 ligne(s) lue(s).
+2025-01-20 11:48:20,436 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0153 secondes
+2025-01-20 11:48:20,486 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:20,487 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0501 secondes.
+2025-01-20 11:48:20,529 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:20,531 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0432 secondes.
+2025-01-20 11:48:21,005 - AdsLogger - INFO - Batch 1: 7001 ligne(s) insérée(s). Total inséré: 7001/7001 ligne(s).
+2025-01-20 11:48:21,006 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.4756 secondes.
+2025-01-20 11:48:21,207 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:21,214 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.2085 secondes.
+2025-01-20 11:48:21,215 - AdsLogger - INFO - 7001 lignes insérée(s)ou mise(s) à jour dans la tables insert_test.
+2025-01-20 11:48:21,257 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:21,257 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0419 secondes.
+2025-01-20 11:48:21,257 - AdsLogger - INFO - Table temporaire supprimée.
+2025-01-20 11:48:21,257 - AdsLogger - INFO - Temps d'exécution de upsertBulk: 0.8361 secondes.
+2025-01-20 11:48:35,229 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-20 11:48:35,229 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-20 11:48:35,391 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-20 11:48:35,392 - AdsLogger - INFO - Temps d'exécution de connect: 0.1626 secondes.
+2025-01-20 11:48:35,445 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:35,445 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0535 secondes.
+2025-01-20 11:48:36,050 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s). Total inséré: 10000/10000 ligne(s).
+2025-01-20 11:48:36,052 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.6015 secondes.
+2025-01-20 11:48:36,055 - AdsLogger - INFO - Récupération des colonnes depuis dbo.insert_test
+2025-01-20 11:48:36,055 - AdsLogger - DEBUG - Exécution de la requête de lecture : 
+        SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH
+        FROM INFORMATION_SCHEMA.COLUMNS
+        WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'insert_test'
+        
+2025-01-20 11:48:36,069 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-20 11:48:36,070 - AdsLogger - INFO - 4 ligne(s) lue(s).
+2025-01-20 11:48:36,070 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0141 secondes
+2025-01-20 11:48:36,107 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:36,108 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0379 secondes.
+2025-01-20 11:48:36,152 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:36,152 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0450 secondes.
+2025-01-20 11:48:36,612 - AdsLogger - INFO - Batch 1: 7001 ligne(s) insérée(s). Total inséré: 7001/7001 ligne(s).
+2025-01-20 11:48:36,614 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.4614 secondes.
+2025-01-20 11:48:36,814 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:36,814 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1991 secondes.
+2025-01-20 11:48:36,814 - AdsLogger - INFO - 7001 lignes insérée(s)ou mise(s) à jour dans la tables insert_test.
+2025-01-20 11:48:36,858 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 11:48:36,858 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0439 secondes.
+2025-01-20 11:48:36,858 - AdsLogger - INFO - Table temporaire supprimée.
+2025-01-20 11:48:36,858 - AdsLogger - INFO - Temps d'exécution de upsertBulk: 0.8031 secondes.
+2025-01-20 13:30:13,205 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-20 13:30:13,205 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-20 13:30:33,423 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-20 13:30:33,423 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-20 13:30:33,594 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-20 13:30:33,594 - AdsLogger - INFO - Temps d'exécution de connect: 0.1669 secondes.
+2025-01-20 13:30:33,657 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 13:30:33,657 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0594 secondes.
+2025-01-20 13:30:34,240 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-20 13:30:34,240 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.5797 secondes.
+2025-01-20 13:30:34,240 - AdsLogger - INFO - Récupération des colonnes depuis dbo.insert_test
+2025-01-20 13:30:34,240 - AdsLogger - DEBUG - Exécution de la requête de lecture : 
+        SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH
+        FROM INFORMATION_SCHEMA.COLUMNS
+        WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'insert_test'
+        
+2025-01-20 13:30:34,257 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-20 13:30:34,257 - AdsLogger - INFO - 4 ligne(s) lue(s).
+2025-01-20 13:30:34,257 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0145 secondes
+2025-01-20 13:30:34,304 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 13:30:34,304 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0422 secondes.
+2025-01-20 13:30:34,350 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 13:30:34,350 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0446 secondes.
+2025-01-20 13:30:34,823 - AdsLogger - INFO - Batch 1: 7001 ligne(s) insérée(s) avec succès dans la table dbo.insert_test_temp. Total inséré: 7001/7001 ligne(s).
+2025-01-20 13:30:34,823 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.4753 secondes.
+2025-01-20 13:30:35,028 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 13:30:35,028 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.2063 secondes.
+2025-01-20 13:30:35,028 - AdsLogger - INFO - 7001 lignes insérée(s)ou mise(s) à jour dans la tables insert_test.
+2025-01-20 13:30:35,075 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-20 13:30:35,075 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0468 secondes.
+2025-01-20 13:30:35,075 - AdsLogger - INFO - Table temporaire supprimée.
+2025-01-20 13:30:35,075 - AdsLogger - INFO - Temps d'exécution de upsertBulk: 0.8310 secondes.
+2025-01-21 11:32:05,323 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:32:05,324 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:32:05,581 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:32:05,582 - AdsLogger - INFO - Temps d'exécution de connect: 0.2576 secondes.
+2025-01-21 11:32:05,604 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:32:05,604 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0221 secondes.
+2025-01-21 11:32:05,963 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 11:32:05,965 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.3531 secondes.
+2025-01-21 11:33:38,643 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:33:38,643 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:33:38,714 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:33:38,714 - AdsLogger - INFO - Temps d'exécution de connect: 0.0706 secondes.
+2025-01-21 11:33:38,733 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:33:38,733 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0198 secondes.
+2025-01-21 11:33:39,041 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 11:33:39,042 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.3043 secondes.
+2025-01-21 11:34:07,675 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:34:07,675 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:34:07,761 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:34:07,761 - AdsLogger - INFO - Temps d'exécution de connect: 0.0870 secondes.
+2025-01-21 11:34:07,780 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:34:07,780 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0185 secondes.
+2025-01-21 11:34:08,095 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 11:34:08,097 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.3114 secondes.
+2025-01-21 11:34:31,026 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:34:31,026 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:34:31,111 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:34:31,111 - AdsLogger - INFO - Temps d'exécution de connect: 0.0845 secondes.
+2025-01-21 11:34:31,129 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:34:31,129 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0180 secondes.
+2025-01-21 11:34:31,423 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 11:34:31,424 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2909 secondes.
+2025-01-21 11:34:31,425 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:34:52,514 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:34:52,514 - AdsLogger - ERROR - Échec de la connexion à la base de données: connection to server at "130.180.215.217", port 7433 failed: Connection timed out (0x0000274C/10060) 	Is the server running on that host and accepting TCP/IP connections? 
+2025-01-21 11:34:52,514 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:35:49,492 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:35:49,492 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:35:49,586 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:35:49,586 - AdsLogger - INFO - Temps d'exécution de connect: 0.0938 secondes.
+2025-01-21 11:35:49,605 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:35:49,606 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0199 secondes.
+2025-01-21 11:35:49,943 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 11:35:49,944 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.3293 secondes.
+2025-01-21 11:35:49,944 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:36:10,985 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:36:10,985 - AdsLogger - ERROR - Échec de la connexion à la base de données: connection to server at "130.180.215.217", port 7433 failed: Connection timed out (0x0000274C/10060) 	Is the server running on that host and accepting TCP/IP connections? 
+2025-01-21 11:36:10,985 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:41:53,204 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:41:53,205 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:41:53,295 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:41:53,295 - AdsLogger - INFO - Temps d'exécution de connect: 0.0904 secondes.
+2025-01-21 11:41:53,314 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:41:53,314 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0187 secondes.
+2025-01-21 11:41:53,635 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 11:41:53,636 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.3153 secondes.
+2025-01-21 11:41:53,636 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:41:53,882 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:41:53,882 - AdsLogger - INFO - Temps d'exécution de connect: 0.2459 secondes.
+2025-01-21 11:41:53,882 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:41:53,971 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:41:53,971 - AdsLogger - ERROR - Échec de l'exécution de la requête: syntax error at or near "CREATE" LINE 3:         CREATE TABLE insert_test (name VARCHAR(255), email V...                 ^ 
+2025-01-21 11:41:53,971 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:42:04,361 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:42:04,362 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:42:04,434 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:42:04,434 - AdsLogger - INFO - Temps d'exécution de connect: 0.0720 secondes.
+2025-01-21 11:42:04,453 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:42:04,453 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0188 secondes.
+2025-01-21 11:42:04,764 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 11:42:04,765 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.3086 secondes.
+2025-01-21 11:42:04,766 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:42:04,991 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:42:04,991 - AdsLogger - INFO - Temps d'exécution de connect: 0.2254 secondes.
+2025-01-21 11:42:04,991 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:42:05,121 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:42:05,121 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1296 secondes.
+2025-01-21 11:42:05,121 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:42:05,121 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3554 secondes.
+2025-01-21 11:43:09,938 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:43:09,938 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:43:10,015 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:43:10,015 - AdsLogger - INFO - Temps d'exécution de connect: 0.0771 secondes.
+2025-01-21 11:43:10,036 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:43:10,036 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0199 secondes.
+2025-01-21 11:43:10,383 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 11:43:10,384 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.3404 secondes.
+2025-01-21 11:43:10,384 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:43:10,610 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:43:10,610 - AdsLogger - INFO - Temps d'exécution de connect: 0.2249 secondes.
+2025-01-21 11:43:10,610 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:43:10,748 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:43:10,749 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1384 secondes.
+2025-01-21 11:43:10,749 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:43:10,749 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3639 secondes.
+2025-01-21 11:43:10,995 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 11:43:10,996 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 11:43:11,082 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 11:43:11,133 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:43:11,133 - AdsLogger - ERROR - Échec de l'exécution du pipeline: dbPgsql.insertMany() missing 1 required positional argument: 'schema'
+2025-01-21 11:43:11,133 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:48:33,926 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:48:33,926 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:48:34,032 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:48:34,032 - AdsLogger - INFO - Temps d'exécution de connect: 0.1064 secondes.
+2025-01-21 11:48:34,052 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:48:34,052 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0194 secondes.
+2025-01-21 11:48:34,455 - AdsLogger - INFO - Batch 1: 10000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 11:48:34,457 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.4024 secondes.
+2025-01-21 11:48:34,457 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:48:34,722 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:48:34,722 - AdsLogger - INFO - Temps d'exécution de connect: 0.2645 secondes.
+2025-01-21 11:48:34,722 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:48:34,858 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:48:34,858 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1357 secondes.
+2025-01-21 11:48:34,858 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:48:34,858 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.4009 secondes.
+2025-01-21 11:48:35,081 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 11:48:35,082 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 11:48:35,164 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 11:49:30,179 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:49:30,180 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:49:30,275 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:49:30,275 - AdsLogger - INFO - Temps d'exécution de connect: 0.0955 secondes.
+2025-01-21 11:49:30,314 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:49:30,314 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0388 secondes.
+2025-01-21 11:49:30,345 - AdsLogger - INFO - Batch 1: 100 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 11:49:30,345 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.0314 secondes.
+2025-01-21 11:49:30,345 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:49:30,587 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:49:30,587 - AdsLogger - INFO - Temps d'exécution de connect: 0.2414 secondes.
+2025-01-21 11:49:30,588 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:49:30,718 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:49:30,718 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1305 secondes.
+2025-01-21 11:49:30,718 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:49:30,718 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3722 secondes.
+2025-01-21 11:49:30,943 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 11:49:30,944 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 11:49:31,008 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 11:49:35,436 - AdsLogger - INFO - Batch 1: 100 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 11:49:35,437 - AdsLogger - INFO - Temps d'exécution de insertMany: 4.4273 secondes.
+2025-01-21 11:49:35,437 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 11:49:35,437 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 4.4340 secondes
+2025-01-21 11:49:35,437 - AdsLogger - INFO - Temps d'exécution de run: 4.7189 secondes.
+2025-01-21 11:51:13,143 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:51:13,143 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:51:13,214 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:51:13,215 - AdsLogger - INFO - Temps d'exécution de connect: 0.0719 secondes.
+2025-01-21 11:51:13,235 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:51:13,235 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0191 secondes.
+2025-01-21 11:51:13,263 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10/100 ligne(s).
+2025-01-21 11:51:13,286 - AdsLogger - INFO - Batch 2: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 20/100 ligne(s).
+2025-01-21 11:51:13,314 - AdsLogger - INFO - Batch 3: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 30/100 ligne(s).
+2025-01-21 11:51:13,339 - AdsLogger - INFO - Batch 4: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 40/100 ligne(s).
+2025-01-21 11:51:13,363 - AdsLogger - INFO - Batch 5: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 50/100 ligne(s).
+2025-01-21 11:51:13,392 - AdsLogger - INFO - Batch 6: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 60/100 ligne(s).
+2025-01-21 11:51:13,418 - AdsLogger - INFO - Batch 7: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 70/100 ligne(s).
+2025-01-21 11:51:13,440 - AdsLogger - INFO - Batch 8: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 80/100 ligne(s).
+2025-01-21 11:51:13,466 - AdsLogger - INFO - Batch 9: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 90/100 ligne(s).
+2025-01-21 11:51:13,497 - AdsLogger - INFO - Batch 10: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 11:51:13,497 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2623 secondes.
+2025-01-21 11:51:13,497 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:51:13,721 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:51:13,721 - AdsLogger - INFO - Temps d'exécution de connect: 0.2248 secondes.
+2025-01-21 11:51:13,721 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:51:13,857 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:51:13,857 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1346 secondes.
+2025-01-21 11:51:13,857 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:51:13,857 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3600 secondes.
+2025-01-21 11:51:14,076 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 11:51:14,076 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 11:51:14,150 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 11:51:14,664 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:51:14,665 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5133 secondes.
+2025-01-21 11:51:14,665 - AdsLogger - INFO - 10 ligne(s) lue(s).
+2025-01-21 11:51:15,192 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:51:15,192 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5276 secondes.
+2025-01-21 11:51:15,193 - AdsLogger - INFO - 20 ligne(s) lue(s).
+2025-01-21 11:51:15,713 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:51:15,713 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5203 secondes.
+2025-01-21 11:51:15,713 - AdsLogger - INFO - 30 ligne(s) lue(s).
+2025-01-21 11:51:16,224 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:51:16,225 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5110 secondes.
+2025-01-21 11:51:16,225 - AdsLogger - INFO - 40 ligne(s) lue(s).
+2025-01-21 11:51:16,744 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:51:16,745 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5192 secondes.
+2025-01-21 11:51:16,745 - AdsLogger - INFO - 50 ligne(s) lue(s).
+2025-01-21 11:51:17,260 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:51:17,260 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5153 secondes.
+2025-01-21 11:51:17,261 - AdsLogger - INFO - 60 ligne(s) lue(s).
+2025-01-21 11:51:17,778 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:51:17,779 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5176 secondes.
+2025-01-21 11:51:17,779 - AdsLogger - INFO - 70 ligne(s) lue(s).
+2025-01-21 11:51:18,334 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:51:18,334 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5547 secondes.
+2025-01-21 11:51:18,335 - AdsLogger - INFO - 80 ligne(s) lue(s).
+2025-01-21 11:51:18,850 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:51:18,850 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5160 secondes.
+2025-01-21 11:51:18,851 - AdsLogger - INFO - 90 ligne(s) lue(s).
+2025-01-21 11:51:19,362 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:51:19,362 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5107 secondes.
+2025-01-21 11:51:19,362 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 11:51:19,362 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 5.2228 secondes
+2025-01-21 11:51:19,363 - AdsLogger - INFO - Temps d'exécution de run: 5.5051 secondes.
+2025-01-21 11:51:38,559 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:51:38,559 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:51:38,643 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:51:38,643 - AdsLogger - INFO - Temps d'exécution de connect: 0.0839 secondes.
+2025-01-21 11:51:38,663 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:51:38,663 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0193 secondes.
+2025-01-21 11:51:38,694 - AdsLogger - INFO - Batch 1: 50 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 50/100 ligne(s).
+2025-01-21 11:51:38,717 - AdsLogger - INFO - Batch 2: 50 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 11:51:38,718 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.0545 secondes.
+2025-01-21 11:51:38,718 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:51:38,960 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:51:38,961 - AdsLogger - INFO - Temps d'exécution de connect: 0.2432 secondes.
+2025-01-21 11:51:38,961 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:51:39,098 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:51:39,098 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1366 secondes.
+2025-01-21 11:51:39,098 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:51:39,098 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3804 secondes.
+2025-01-21 11:51:39,321 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 11:51:39,321 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 11:51:39,419 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 11:51:43,181 - AdsLogger - INFO - Batch 1: 50 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 50/50 ligne(s).
+2025-01-21 11:51:43,182 - AdsLogger - INFO - Temps d'exécution de insertMany: 3.7623 secondes.
+2025-01-21 11:51:43,182 - AdsLogger - INFO - 50 ligne(s) lue(s).
+2025-01-21 11:51:45,901 - AdsLogger - INFO - Batch 1: 50 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 50/50 ligne(s).
+2025-01-21 11:51:45,902 - AdsLogger - INFO - Temps d'exécution de insertMany: 2.7191 secondes.
+2025-01-21 11:51:45,902 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 11:51:45,902 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 6.4934 secondes
+2025-01-21 11:51:45,903 - AdsLogger - INFO - Temps d'exécution de run: 6.8042 secondes.
+2025-01-21 11:52:40,406 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:52:40,407 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:52:40,492 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:52:40,492 - AdsLogger - INFO - Temps d'exécution de connect: 0.0854 secondes.
+2025-01-21 11:52:40,513 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:52:40,513 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0219 secondes.
+2025-01-21 11:53:43,264 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:53:43,264 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:53:43,363 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:53:43,364 - AdsLogger - INFO - Temps d'exécution de connect: 0.1003 secondes.
+2025-01-21 11:53:43,384 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:53:43,385 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0206 secondes.
+2025-01-21 11:53:43,417 - AdsLogger - INFO - Batch 1: 50 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 50/100 ligne(s).
+2025-01-21 11:53:43,445 - AdsLogger - INFO - Batch 2: 50 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 11:53:43,445 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.0609 secondes.
+2025-01-21 11:53:43,445 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:53:43,701 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:53:43,702 - AdsLogger - INFO - Temps d'exécution de connect: 0.2555 secondes.
+2025-01-21 11:53:43,702 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:53:43,837 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:53:43,837 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1351 secondes.
+2025-01-21 11:53:43,837 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:53:43,837 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3911 secondes.
+2025-01-21 11:53:44,054 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 11:53:44,054 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 11:53:44,113 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 11:53:46,362 - AdsLogger - INFO - Batch 1: 50 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 50/50 ligne(s).
+2025-01-21 11:53:46,362 - AdsLogger - INFO - Temps d'exécution de insertMany: 2.2487 secondes.
+2025-01-21 11:53:46,363 - AdsLogger - INFO - 50 ligne(s) lue(s).
+2025-01-21 11:53:48,621 - AdsLogger - INFO - Batch 1: 50 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 50/50 ligne(s).
+2025-01-21 11:53:48,621 - AdsLogger - INFO - Temps d'exécution de insertMany: 2.2580 secondes.
+2025-01-21 11:53:48,621 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 11:53:48,621 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 4.5173 secondes
+2025-01-21 11:53:48,622 - AdsLogger - INFO - Temps d'exécution de run: 4.7847 secondes.
+2025-01-21 11:55:13,324 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:55:13,324 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:55:13,411 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:55:13,411 - AdsLogger - INFO - Temps d'exécution de connect: 0.0875 secondes.
+2025-01-21 11:55:13,431 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:55:13,431 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0205 secondes.
+2025-01-21 11:55:13,439 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:55:13,439 - AdsLogger - ERROR - Erreur critique lors de l'insertion des données: 'dbMssql' object has no attribute '_dbMssql__batch_size'
+2025-01-21 11:55:13,439 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:55:13,440 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.0085 secondes.
+2025-01-21 11:55:13,440 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:55:13,668 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:55:13,668 - AdsLogger - INFO - Temps d'exécution de connect: 0.2277 secondes.
+2025-01-21 11:55:13,668 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:55:13,807 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:55:13,807 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1386 secondes.
+2025-01-21 11:55:13,808 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:55:13,808 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3669 secondes.
+2025-01-21 11:55:14,029 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 11:55:14,029 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 11:55:14,090 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 11:55:14,090 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:55:14,090 - AdsLogger - ERROR - Échec de la lecture des données: 'dbMssql' object has no attribute '_dbMssql__batch_size'
+2025-01-21 11:55:14,090 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:55:14,090 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:55:14,091 - AdsLogger - ERROR - Échec de l'exécution du pipeline: 'dbMssql' object has no attribute '_dbMssql__batch_size'
+2025-01-21 11:55:14,091 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:56:50,788 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:56:50,788 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:56:50,887 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:56:50,887 - AdsLogger - INFO - Temps d'exécution de connect: 0.0995 secondes.
+2025-01-21 11:56:50,904 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:56:50,905 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0178 secondes.
+2025-01-21 11:56:50,937 - AdsLogger - INFO - Batch 1: 50 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 50/100 ligne(s).
+2025-01-21 11:56:50,966 - AdsLogger - INFO - Batch 2: 50 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 11:56:50,966 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.0607 secondes.
+2025-01-21 11:56:50,967 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:56:51,204 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:56:51,204 - AdsLogger - INFO - Temps d'exécution de connect: 0.2375 secondes.
+2025-01-21 11:56:51,204 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:56:51,338 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:56:51,339 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1344 secondes.
+2025-01-21 11:56:51,339 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:56:51,339 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3723 secondes.
+2025-01-21 11:56:51,556 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 11:56:51,556 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 11:56:51,619 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 11:56:53,851 - AdsLogger - INFO - Batch 1: 50 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 50/50 ligne(s).
+2025-01-21 11:56:53,851 - AdsLogger - INFO - Temps d'exécution de insertMany: 2.2309 secondes.
+2025-01-21 11:56:53,852 - AdsLogger - INFO - 50 ligne(s) lue(s).
+2025-01-21 11:56:56,127 - AdsLogger - INFO - Batch 1: 50 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 50/50 ligne(s).
+2025-01-21 11:56:56,128 - AdsLogger - INFO - Temps d'exécution de insertMany: 2.2755 secondes.
+2025-01-21 11:56:56,128 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 11:56:56,128 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 4.5138 secondes
+2025-01-21 11:56:56,128 - AdsLogger - INFO - Temps d'exécution de run: 4.7891 secondes.
+2025-01-21 11:57:09,005 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:57:09,005 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:57:09,083 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:57:09,083 - AdsLogger - INFO - Temps d'exécution de connect: 0.0775 secondes.
+2025-01-21 11:57:09,106 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:57:09,106 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0230 secondes.
+2025-01-21 11:57:09,134 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10/100 ligne(s).
+2025-01-21 11:57:09,157 - AdsLogger - INFO - Batch 2: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 20/100 ligne(s).
+2025-01-21 11:57:09,199 - AdsLogger - INFO - Batch 3: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 30/100 ligne(s).
+2025-01-21 11:57:09,224 - AdsLogger - INFO - Batch 4: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 40/100 ligne(s).
+2025-01-21 11:57:09,250 - AdsLogger - INFO - Batch 5: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 50/100 ligne(s).
+2025-01-21 11:57:09,278 - AdsLogger - INFO - Batch 6: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 60/100 ligne(s).
+2025-01-21 11:57:09,305 - AdsLogger - INFO - Batch 7: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 70/100 ligne(s).
+2025-01-21 11:57:09,329 - AdsLogger - INFO - Batch 8: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 80/100 ligne(s).
+2025-01-21 11:57:09,354 - AdsLogger - INFO - Batch 9: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 90/100 ligne(s).
+2025-01-21 11:57:09,380 - AdsLogger - INFO - Batch 10: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 11:57:09,380 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2742 secondes.
+2025-01-21 11:57:09,381 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:57:09,600 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:57:09,601 - AdsLogger - INFO - Temps d'exécution de connect: 0.2205 secondes.
+2025-01-21 11:57:09,601 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:57:09,735 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:57:09,735 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1335 secondes.
+2025-01-21 11:57:09,735 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:57:09,735 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3547 secondes.
+2025-01-21 11:57:09,955 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 11:57:09,955 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 11:57:10,042 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 11:57:10,560 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:57:10,565 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5217 secondes.
+2025-01-21 11:57:10,565 - AdsLogger - INFO - 10 ligne(s) lue(s).
+2025-01-21 11:57:11,073 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:57:11,073 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5074 secondes.
+2025-01-21 11:57:11,073 - AdsLogger - INFO - 20 ligne(s) lue(s).
+2025-01-21 11:57:11,610 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:57:11,611 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5368 secondes.
+2025-01-21 11:57:11,611 - AdsLogger - INFO - 30 ligne(s) lue(s).
+2025-01-21 11:57:12,136 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:57:12,136 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5252 secondes.
+2025-01-21 11:57:12,136 - AdsLogger - INFO - 40 ligne(s) lue(s).
+2025-01-21 11:57:12,690 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:57:12,690 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5531 secondes.
+2025-01-21 11:57:12,690 - AdsLogger - INFO - 50 ligne(s) lue(s).
+2025-01-21 11:57:13,217 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:57:13,217 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5267 secondes.
+2025-01-21 11:57:13,217 - AdsLogger - INFO - 60 ligne(s) lue(s).
+2025-01-21 11:57:13,731 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:57:13,731 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5132 secondes.
+2025-01-21 11:57:13,731 - AdsLogger - INFO - 70 ligne(s) lue(s).
+2025-01-21 11:57:14,246 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:57:14,246 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5144 secondes.
+2025-01-21 11:57:14,246 - AdsLogger - INFO - 80 ligne(s) lue(s).
+2025-01-21 11:57:14,764 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:57:14,765 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5182 secondes.
+2025-01-21 11:57:14,765 - AdsLogger - INFO - 90 ligne(s) lue(s).
+2025-01-21 11:57:15,329 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:57:15,329 - AdsLogger - INFO - Temps d'exécution de insertMany: 0.5633 secondes.
+2025-01-21 11:57:15,329 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 11:57:15,329 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 5.2938 secondes
+2025-01-21 11:57:15,329 - AdsLogger - INFO - Temps d'exécution de run: 5.5945 secondes.
+2025-01-21 11:58:00,402 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:58:00,402 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:58:00,480 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:58:00,480 - AdsLogger - INFO - Temps d'exécution de connect: 0.0777 secondes.
+2025-01-21 11:58:00,498 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:58:00,498 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0180 secondes.
+2025-01-21 11:58:00,527 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10/100 ligne(s).
+2025-01-21 11:58:00,553 - AdsLogger - INFO - Batch 2: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 20/100 ligne(s).
+2025-01-21 11:58:00,576 - AdsLogger - INFO - Batch 3: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 30/100 ligne(s).
+2025-01-21 11:58:00,601 - AdsLogger - INFO - Batch 4: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 40/100 ligne(s).
+2025-01-21 11:58:00,624 - AdsLogger - INFO - Batch 5: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 50/100 ligne(s).
+2025-01-21 11:58:00,647 - AdsLogger - INFO - Batch 6: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 60/100 ligne(s).
+2025-01-21 11:58:00,671 - AdsLogger - INFO - Batch 7: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 70/100 ligne(s).
+2025-01-21 11:58:00,698 - AdsLogger - INFO - Batch 8: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 80/100 ligne(s).
+2025-01-21 11:58:00,723 - AdsLogger - INFO - Batch 9: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 90/100 ligne(s).
+2025-01-21 11:58:00,747 - AdsLogger - INFO - Batch 10: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 11:58:00,748 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2488 secondes.
+2025-01-21 11:58:00,748 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:58:00,966 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:58:00,966 - AdsLogger - INFO - Temps d'exécution de connect: 0.2185 secondes.
+2025-01-21 11:58:00,966 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:58:01,102 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:58:01,102 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1360 secondes.
+2025-01-21 11:58:01,103 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:58:01,103 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3553 secondes.
+2025-01-21 11:58:01,340 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 11:58:01,340 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 11:58:01,449 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 11:58:01,578 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:01,579 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: schema "dbo" does not exist 
+2025-01-21 11:58:01,579 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:01,579 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1295 secondes.
+2025-01-21 11:58:01,579 - AdsLogger - INFO - 10 ligne(s) lue(s).
+2025-01-21 11:58:01,707 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:01,707 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: schema "dbo" does not exist 
+2025-01-21 11:58:01,708 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:01,708 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1284 secondes.
+2025-01-21 11:58:01,709 - AdsLogger - INFO - 20 ligne(s) lue(s).
+2025-01-21 11:58:01,839 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:01,839 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: schema "dbo" does not exist 
+2025-01-21 11:58:01,839 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:01,839 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1305 secondes.
+2025-01-21 11:58:01,839 - AdsLogger - INFO - 30 ligne(s) lue(s).
+2025-01-21 11:58:01,963 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:01,964 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: schema "dbo" does not exist 
+2025-01-21 11:58:01,964 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:01,964 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1244 secondes.
+2025-01-21 11:58:01,964 - AdsLogger - INFO - 40 ligne(s) lue(s).
+2025-01-21 11:58:02,091 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,091 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: schema "dbo" does not exist 
+2025-01-21 11:58:02,091 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,091 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1263 secondes.
+2025-01-21 11:58:02,091 - AdsLogger - INFO - 50 ligne(s) lue(s).
+2025-01-21 11:58:02,216 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,216 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: schema "dbo" does not exist 
+2025-01-21 11:58:02,217 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,217 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1256 secondes.
+2025-01-21 11:58:02,217 - AdsLogger - INFO - 60 ligne(s) lue(s).
+2025-01-21 11:58:02,347 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,347 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: schema "dbo" does not exist 
+2025-01-21 11:58:02,347 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,347 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1298 secondes.
+2025-01-21 11:58:02,347 - AdsLogger - INFO - 70 ligne(s) lue(s).
+2025-01-21 11:58:02,479 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,479 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: schema "dbo" does not exist 
+2025-01-21 11:58:02,479 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,479 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1327 secondes.
+2025-01-21 11:58:02,480 - AdsLogger - INFO - 80 ligne(s) lue(s).
+2025-01-21 11:58:02,610 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,610 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: schema "dbo" does not exist 
+2025-01-21 11:58:02,610 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,610 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1294 secondes.
+2025-01-21 11:58:02,610 - AdsLogger - INFO - 90 ligne(s) lue(s).
+2025-01-21 11:58:02,736 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,737 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: schema "dbo" does not exist 
+2025-01-21 11:58:02,737 - AdsLogger - ERROR - **************************************************
+2025-01-21 11:58:02,737 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1267 secondes.
+2025-01-21 11:58:02,737 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 11:58:02,737 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 1.2942 secondes
+2025-01-21 11:58:02,738 - AdsLogger - INFO - Temps d'exécution de run: 1.6346 secondes.
+2025-01-21 11:58:14,295 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 11:58:14,296 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:58:14,370 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 11:58:14,370 - AdsLogger - INFO - Temps d'exécution de connect: 0.0734 secondes.
+2025-01-21 11:58:14,389 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:58:14,389 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0193 secondes.
+2025-01-21 11:58:14,419 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10/100 ligne(s).
+2025-01-21 11:58:14,445 - AdsLogger - INFO - Batch 2: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 20/100 ligne(s).
+2025-01-21 11:58:14,468 - AdsLogger - INFO - Batch 3: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 30/100 ligne(s).
+2025-01-21 11:58:14,491 - AdsLogger - INFO - Batch 4: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 40/100 ligne(s).
+2025-01-21 11:58:14,517 - AdsLogger - INFO - Batch 5: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 50/100 ligne(s).
+2025-01-21 11:58:14,542 - AdsLogger - INFO - Batch 6: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 60/100 ligne(s).
+2025-01-21 11:58:14,567 - AdsLogger - INFO - Batch 7: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 70/100 ligne(s).
+2025-01-21 11:58:14,599 - AdsLogger - INFO - Batch 8: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 80/100 ligne(s).
+2025-01-21 11:58:14,623 - AdsLogger - INFO - Batch 9: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 90/100 ligne(s).
+2025-01-21 11:58:14,650 - AdsLogger - INFO - Batch 10: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 11:58:14,650 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2609 secondes.
+2025-01-21 11:58:14,650 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 11:58:14,893 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 11:58:14,893 - AdsLogger - INFO - Temps d'exécution de connect: 0.2425 secondes.
+2025-01-21 11:58:14,893 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 11:58:15,028 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 11:58:15,028 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1349 secondes.
+2025-01-21 11:58:15,028 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 11:58:15,029 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3786 secondes.
+2025-01-21 11:58:15,269 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 11:58:15,270 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 11:58:15,326 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 11:58:15,507 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:58:15,507 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1804 secondes.
+2025-01-21 11:58:15,507 - AdsLogger - INFO - 10 ligne(s) lue(s).
+2025-01-21 11:58:15,676 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:58:15,676 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1688 secondes.
+2025-01-21 11:58:15,676 - AdsLogger - INFO - 20 ligne(s) lue(s).
+2025-01-21 11:58:15,844 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:58:15,844 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1675 secondes.
+2025-01-21 11:58:15,844 - AdsLogger - INFO - 30 ligne(s) lue(s).
+2025-01-21 11:58:16,014 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:58:16,014 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1700 secondes.
+2025-01-21 11:58:16,015 - AdsLogger - INFO - 40 ligne(s) lue(s).
+2025-01-21 11:58:16,189 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:58:16,189 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1748 secondes.
+2025-01-21 11:58:16,189 - AdsLogger - INFO - 50 ligne(s) lue(s).
+2025-01-21 11:58:16,361 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:58:16,362 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1718 secondes.
+2025-01-21 11:58:16,362 - AdsLogger - INFO - 60 ligne(s) lue(s).
+2025-01-21 11:58:16,531 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:58:16,532 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1690 secondes.
+2025-01-21 11:58:16,532 - AdsLogger - INFO - 70 ligne(s) lue(s).
+2025-01-21 11:58:16,701 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:58:16,701 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1691 secondes.
+2025-01-21 11:58:16,702 - AdsLogger - INFO - 80 ligne(s) lue(s).
+2025-01-21 11:58:16,872 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:58:16,872 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1699 secondes.
+2025-01-21 11:58:16,873 - AdsLogger - INFO - 90 ligne(s) lue(s).
+2025-01-21 11:58:17,044 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 11:58:17,045 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1715 secondes.
+2025-01-21 11:58:17,045 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 11:58:17,045 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 1.7244 secondes
+2025-01-21 11:58:17,046 - AdsLogger - INFO - Temps d'exécution de run: 2.0164 secondes.
+2025-01-21 12:06:52,326 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:06:52,326 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:06:52,403 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 12:06:52,403 - AdsLogger - INFO - Temps d'exécution de connect: 0.0772 secondes.
+2025-01-21 12:06:52,421 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:06:52,421 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0177 secondes.
+2025-01-21 12:06:52,453 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10/100 ligne(s).
+2025-01-21 12:06:52,483 - AdsLogger - INFO - Batch 2: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 20/100 ligne(s).
+2025-01-21 12:06:52,511 - AdsLogger - INFO - Batch 3: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 30/100 ligne(s).
+2025-01-21 12:06:52,539 - AdsLogger - INFO - Batch 4: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 40/100 ligne(s).
+2025-01-21 12:06:52,563 - AdsLogger - INFO - Batch 5: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 50/100 ligne(s).
+2025-01-21 12:06:52,589 - AdsLogger - INFO - Batch 6: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 60/100 ligne(s).
+2025-01-21 12:06:52,612 - AdsLogger - INFO - Batch 7: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 70/100 ligne(s).
+2025-01-21 12:06:52,636 - AdsLogger - INFO - Batch 8: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 80/100 ligne(s).
+2025-01-21 12:06:52,661 - AdsLogger - INFO - Batch 9: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 90/100 ligne(s).
+2025-01-21 12:06:52,686 - AdsLogger - INFO - Batch 10: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 12:06:52,686 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2654 secondes.
+2025-01-21 12:06:52,687 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:06:52,908 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 12:06:52,908 - AdsLogger - INFO - Temps d'exécution de connect: 0.2214 secondes.
+2025-01-21 12:06:52,909 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 12:06:53,043 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:06:53,043 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1342 secondes.
+2025-01-21 12:06:53,043 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 12:06:53,043 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3561 secondes.
+2025-01-21 12:06:53,278 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 12:06:53,279 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 12:06:53,354 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 12:06:53,574 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:06:53,575 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2204 secondes.
+2025-01-21 12:06:53,575 - AdsLogger - INFO - 10 ligne(s) lue(s).
+2025-01-21 12:06:53,744 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:06:53,744 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1686 secondes.
+2025-01-21 12:06:53,744 - AdsLogger - INFO - 20 ligne(s) lue(s).
+2025-01-21 12:06:53,918 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:06:53,919 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1737 secondes.
+2025-01-21 12:06:53,919 - AdsLogger - INFO - 30 ligne(s) lue(s).
+2025-01-21 12:06:54,091 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:06:54,091 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1727 secondes.
+2025-01-21 12:06:54,091 - AdsLogger - INFO - 40 ligne(s) lue(s).
+2025-01-21 12:06:54,280 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:06:54,281 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1880 secondes.
+2025-01-21 12:06:54,281 - AdsLogger - INFO - 50 ligne(s) lue(s).
+2025-01-21 12:06:54,472 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:06:54,472 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1906 secondes.
+2025-01-21 12:06:54,472 - AdsLogger - INFO - 60 ligne(s) lue(s).
+2025-01-21 12:06:54,645 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:06:54,645 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1725 secondes.
+2025-01-21 12:06:54,646 - AdsLogger - INFO - 70 ligne(s) lue(s).
+2025-01-21 12:06:54,822 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:06:54,822 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1770 secondes.
+2025-01-21 12:06:54,823 - AdsLogger - INFO - 80 ligne(s) lue(s).
+2025-01-21 12:06:55,025 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:06:55,026 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2022 secondes.
+2025-01-21 12:06:55,026 - AdsLogger - INFO - 90 ligne(s) lue(s).
+2025-01-21 12:06:55,231 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:06:55,232 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2057 secondes.
+2025-01-21 12:06:55,232 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 12:06:55,232 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 1.8855 secondes
+2025-01-21 12:06:55,232 - AdsLogger - INFO - Temps d'exécution de run: 2.1891 secondes.
+2025-01-21 12:18:27,342 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:18:27,342 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:18:27,415 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 12:18:27,415 - AdsLogger - INFO - Temps d'exécution de connect: 0.0727 secondes.
+2025-01-21 12:18:27,436 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:18:27,436 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0208 secondes.
+2025-01-21 12:18:27,468 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10/100 ligne(s).
+2025-01-21 12:18:27,493 - AdsLogger - INFO - Batch 2: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 20/100 ligne(s).
+2025-01-21 12:18:27,515 - AdsLogger - INFO - Batch 3: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 30/100 ligne(s).
+2025-01-21 12:18:27,540 - AdsLogger - INFO - Batch 4: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 40/100 ligne(s).
+2025-01-21 12:18:27,568 - AdsLogger - INFO - Batch 5: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 50/100 ligne(s).
+2025-01-21 12:18:27,593 - AdsLogger - INFO - Batch 6: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 60/100 ligne(s).
+2025-01-21 12:18:27,618 - AdsLogger - INFO - Batch 7: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 70/100 ligne(s).
+2025-01-21 12:18:27,645 - AdsLogger - INFO - Batch 8: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 80/100 ligne(s).
+2025-01-21 12:18:27,669 - AdsLogger - INFO - Batch 9: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 90/100 ligne(s).
+2025-01-21 12:18:27,696 - AdsLogger - INFO - Batch 10: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 12:18:27,697 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2609 secondes.
+2025-01-21 12:18:27,697 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:18:27,926 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 12:18:27,926 - AdsLogger - INFO - Temps d'exécution de connect: 0.2283 secondes.
+2025-01-21 12:18:27,926 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 12:18:28,060 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:18:28,060 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1342 secondes.
+2025-01-21 12:18:28,060 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 12:18:28,060 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3628 secondes.
+2025-01-21 12:18:28,307 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 12:18:28,307 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 12:18:28,380 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 12:18:28,555 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:18:28,555 - AdsLogger - INFO - 10 ligne(s) lue(s).
+2025-01-21 12:18:28,725 - AdsLogger - INFO - Batch 2: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/20 ligne(s).
+2025-01-21 12:18:28,726 - AdsLogger - INFO - 20 ligne(s) lue(s).
+2025-01-21 12:18:28,897 - AdsLogger - INFO - Batch 3: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/30 ligne(s).
+2025-01-21 12:18:28,898 - AdsLogger - INFO - 30 ligne(s) lue(s).
+2025-01-21 12:18:29,074 - AdsLogger - INFO - Batch 4: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/40 ligne(s).
+2025-01-21 12:18:29,074 - AdsLogger - INFO - 40 ligne(s) lue(s).
+2025-01-21 12:18:29,244 - AdsLogger - INFO - Batch 5: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/50 ligne(s).
+2025-01-21 12:18:29,245 - AdsLogger - INFO - 50 ligne(s) lue(s).
+2025-01-21 12:18:29,416 - AdsLogger - INFO - Batch 6: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/60 ligne(s).
+2025-01-21 12:18:29,417 - AdsLogger - INFO - 60 ligne(s) lue(s).
+2025-01-21 12:18:29,590 - AdsLogger - INFO - Batch 7: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/70 ligne(s).
+2025-01-21 12:18:29,591 - AdsLogger - INFO - 70 ligne(s) lue(s).
+2025-01-21 12:18:29,772 - AdsLogger - INFO - Batch 8: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/80 ligne(s).
+2025-01-21 12:18:29,772 - AdsLogger - INFO - 80 ligne(s) lue(s).
+2025-01-21 12:18:29,946 - AdsLogger - INFO - Batch 9: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/90 ligne(s).
+2025-01-21 12:18:29,947 - AdsLogger - INFO - 90 ligne(s) lue(s).
+2025-01-21 12:18:30,129 - AdsLogger - INFO - Batch 10: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/100 ligne(s).
+2025-01-21 12:18:30,129 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 12:18:30,129 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 1.7544 secondes
+2025-01-21 12:18:30,130 - AdsLogger - INFO - Temps d'exécution de run: 2.0693 secondes.
+2025-01-21 12:21:24,726 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:21:24,726 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:21:24,803 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 12:21:24,804 - AdsLogger - INFO - Temps d'exécution de connect: 0.0764 secondes.
+2025-01-21 12:21:24,828 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:21:24,828 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0248 secondes.
+2025-01-21 12:21:24,862 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10/100 ligne(s).
+2025-01-21 12:21:24,889 - AdsLogger - INFO - Batch 2: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 20/100 ligne(s).
+2025-01-21 12:21:24,912 - AdsLogger - INFO - Batch 3: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 30/100 ligne(s).
+2025-01-21 12:21:24,933 - AdsLogger - INFO - Batch 4: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 40/100 ligne(s).
+2025-01-21 12:21:24,956 - AdsLogger - INFO - Batch 5: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 50/100 ligne(s).
+2025-01-21 12:21:24,979 - AdsLogger - INFO - Batch 6: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 60/100 ligne(s).
+2025-01-21 12:21:25,001 - AdsLogger - INFO - Batch 7: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 70/100 ligne(s).
+2025-01-21 12:21:25,022 - AdsLogger - INFO - Batch 8: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 80/100 ligne(s).
+2025-01-21 12:21:25,046 - AdsLogger - INFO - Batch 9: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 90/100 ligne(s).
+2025-01-21 12:21:25,070 - AdsLogger - INFO - Batch 10: 10 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 12:21:25,070 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2415 secondes.
+2025-01-21 12:21:25,070 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:21:25,290 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 12:21:25,291 - AdsLogger - INFO - Temps d'exécution de connect: 0.2202 secondes.
+2025-01-21 12:21:25,291 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 12:21:25,428 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:21:25,428 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1373 secondes.
+2025-01-21 12:21:25,428 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 12:21:25,428 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3582 secondes.
+2025-01-21 12:21:25,652 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 12:21:25,652 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 12:21:25,747 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 12:21:25,918 - AdsLogger - INFO - Batch 1: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10/10 ligne(s).
+2025-01-21 12:21:25,918 - AdsLogger - INFO - 10 ligne(s) lue(s).
+2025-01-21 12:21:26,086 - AdsLogger - INFO - Batch 2: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 20/20 ligne(s).
+2025-01-21 12:21:26,086 - AdsLogger - INFO - 20 ligne(s) lue(s).
+2025-01-21 12:21:26,255 - AdsLogger - INFO - Batch 3: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 30/30 ligne(s).
+2025-01-21 12:21:26,256 - AdsLogger - INFO - 30 ligne(s) lue(s).
+2025-01-21 12:21:26,426 - AdsLogger - INFO - Batch 4: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 40/40 ligne(s).
+2025-01-21 12:21:26,427 - AdsLogger - INFO - 40 ligne(s) lue(s).
+2025-01-21 12:21:26,597 - AdsLogger - INFO - Batch 5: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 50/50 ligne(s).
+2025-01-21 12:21:26,597 - AdsLogger - INFO - 50 ligne(s) lue(s).
+2025-01-21 12:21:26,771 - AdsLogger - INFO - Batch 6: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 60/60 ligne(s).
+2025-01-21 12:21:26,771 - AdsLogger - INFO - 60 ligne(s) lue(s).
+2025-01-21 12:21:26,943 - AdsLogger - INFO - Batch 7: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 70/70 ligne(s).
+2025-01-21 12:21:26,943 - AdsLogger - INFO - 70 ligne(s) lue(s).
+2025-01-21 12:21:27,113 - AdsLogger - INFO - Batch 8: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 80/80 ligne(s).
+2025-01-21 12:21:27,114 - AdsLogger - INFO - 80 ligne(s) lue(s).
+2025-01-21 12:21:27,284 - AdsLogger - INFO - Batch 9: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 90/90 ligne(s).
+2025-01-21 12:21:27,285 - AdsLogger - INFO - 90 ligne(s) lue(s).
+2025-01-21 12:21:27,453 - AdsLogger - INFO - Batch 10: 10 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 12:21:27,453 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 12:21:27,453 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 1.7130 secondes
+2025-01-21 12:21:27,453 - AdsLogger - INFO - Temps d'exécution de run: 2.0250 secondes.
+2025-01-21 12:21:53,775 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:21:53,775 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:21:53,859 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 12:21:53,859 - AdsLogger - INFO - Temps d'exécution de connect: 0.0847 secondes.
+2025-01-21 12:21:53,877 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:21:53,877 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0181 secondes.
+2025-01-21 12:21:53,937 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/10000 ligne(s).
+2025-01-21 12:21:53,986 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/10000 ligne(s).
+2025-01-21 12:21:54,030 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/10000 ligne(s).
+2025-01-21 12:21:54,077 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/10000 ligne(s).
+2025-01-21 12:21:54,123 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/10000 ligne(s).
+2025-01-21 12:21:54,161 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/10000 ligne(s).
+2025-01-21 12:21:54,211 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/10000 ligne(s).
+2025-01-21 12:21:54,254 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/10000 ligne(s).
+2025-01-21 12:21:54,293 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/10000 ligne(s).
+2025-01-21 12:21:54,335 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 12:21:54,336 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.4549 secondes.
+2025-01-21 12:21:54,336 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:21:54,584 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 12:21:54,585 - AdsLogger - INFO - Temps d'exécution de connect: 0.2488 secondes.
+2025-01-21 12:21:54,585 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 12:21:54,719 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:21:54,719 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1338 secondes.
+2025-01-21 12:21:54,719 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 12:21:54,719 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3835 secondes.
+2025-01-21 12:21:54,947 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 12:21:54,948 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 12:21:55,031 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 12:21:55,264 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/1000 ligne(s).
+2025-01-21 12:21:55,264 - AdsLogger - INFO - 1000 ligne(s) lue(s).
+2025-01-21 12:21:55,453 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/2000 ligne(s).
+2025-01-21 12:21:55,454 - AdsLogger - INFO - 2000 ligne(s) lue(s).
+2025-01-21 12:21:55,638 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/3000 ligne(s).
+2025-01-21 12:21:55,639 - AdsLogger - INFO - 3000 ligne(s) lue(s).
+2025-01-21 12:21:55,825 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/4000 ligne(s).
+2025-01-21 12:21:55,825 - AdsLogger - INFO - 4000 ligne(s) lue(s).
+2025-01-21 12:21:56,010 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/5000 ligne(s).
+2025-01-21 12:21:56,010 - AdsLogger - INFO - 5000 ligne(s) lue(s).
+2025-01-21 12:21:56,204 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/6000 ligne(s).
+2025-01-21 12:21:56,205 - AdsLogger - INFO - 6000 ligne(s) lue(s).
+2025-01-21 12:21:56,386 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/7000 ligne(s).
+2025-01-21 12:21:56,387 - AdsLogger - INFO - 7000 ligne(s) lue(s).
+2025-01-21 12:21:56,573 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/8000 ligne(s).
+2025-01-21 12:21:56,574 - AdsLogger - INFO - 8000 ligne(s) lue(s).
+2025-01-21 12:21:56,772 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/9000 ligne(s).
+2025-01-21 12:21:56,773 - AdsLogger - INFO - 9000 ligne(s) lue(s).
+2025-01-21 12:21:56,960 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 12:21:56,960 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-01-21 12:21:56,960 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 1.9370 secondes
+2025-01-21 12:21:56,962 - AdsLogger - INFO - Temps d'exécution de run: 2.2421 secondes.
+2025-01-21 12:24:10,187 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:24:10,187 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:24:10,294 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 12:24:10,295 - AdsLogger - INFO - Temps d'exécution de connect: 0.1075 secondes.
+2025-01-21 12:24:10,316 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:24:10,316 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0213 secondes.
+2025-01-21 12:24:10,351 - AdsLogger - INFO - Batch 1: 100 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 12:24:10,351 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.0352 secondes.
+2025-01-21 12:24:10,352 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:24:10,581 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 12:24:10,581 - AdsLogger - INFO - Temps d'exécution de connect: 0.2290 secondes.
+2025-01-21 12:24:10,581 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 12:24:10,715 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:24:10,715 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1338 secondes.
+2025-01-21 12:24:10,715 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 12:24:10,715 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3633 secondes.
+2025-01-21 12:24:10,939 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 12:24:10,939 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 12:24:11,002 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 12:24:15,436 - AdsLogger - INFO - Batch 1: 100 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 12:24:15,436 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 12:24:15,436 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 4.4427 secondes
+2025-01-21 12:24:15,437 - AdsLogger - INFO - Temps d'exécution de run: 4.7214 secondes.
+2025-01-21 12:24:26,814 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:24:26,814 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:24:26,908 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 12:24:26,908 - AdsLogger - INFO - Temps d'exécution de connect: 0.0930 secondes.
+2025-01-21 12:24:26,929 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:24:26,930 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0227 secondes.
+2025-01-21 12:24:26,964 - AdsLogger - INFO - Batch 1: 100 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 12:24:26,964 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.0336 secondes.
+2025-01-21 12:24:26,964 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:24:27,213 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 12:24:27,214 - AdsLogger - INFO - Temps d'exécution de connect: 0.2495 secondes.
+2025-01-21 12:24:27,214 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 12:24:27,361 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:24:27,361 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1474 secondes.
+2025-01-21 12:24:27,361 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 12:24:27,361 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.3975 secondes.
+2025-01-21 12:24:27,585 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 12:24:27,586 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 12:24:27,663 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 12:24:27,835 - AdsLogger - INFO - Batch 1: 100 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 12:24:27,835 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 12:24:27,836 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1782 secondes
+2025-01-21 12:24:27,836 - AdsLogger - INFO - Temps d'exécution de run: 0.4738 secondes.
+2025-01-21 12:27:02,844 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:27:02,844 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:27:02,920 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 12:27:02,920 - AdsLogger - INFO - Temps d'exécution de connect: 0.0759 secondes.
+2025-01-21 12:27:02,921 - AdsLogger - ERROR - **************************************************
+2025-01-21 12:27:02,921 - AdsLogger - ERROR - Échec de l'exécution de la requête: 'NoneType' object has no attribute 'cursor'
+2025-01-21 12:27:02,921 - AdsLogger - ERROR - **************************************************
+2025-01-21 12:27:25,495 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:27:25,495 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:27:25,748 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 12:27:25,748 - AdsLogger - INFO - Temps d'exécution de connect: 0.2528 secondes.
+2025-01-21 12:27:25,890 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:27:25,890 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1420 secondes.
+2025-01-21 12:29:02,571 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:29:02,572 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:29:02,807 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 12:29:02,808 - AdsLogger - INFO - Temps d'exécution de connect: 0.2359 secondes.
+2025-01-21 12:29:02,950 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:29:02,951 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1429 secondes.
+2025-01-21 12:29:03,082 - AdsLogger - ERROR - **************************************************
+2025-01-21 12:29:03,083 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: schema "dbo" does not exist 
+2025-01-21 12:29:03,083 - AdsLogger - ERROR - **************************************************
+2025-01-21 12:29:03,084 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1332 secondes.
+2025-01-21 12:29:03,085 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:29:03,182 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 12:29:03,182 - AdsLogger - INFO - Temps d'exécution de connect: 0.0969 secondes.
+2025-01-21 12:29:03,182 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 12:29:03,198 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:29:03,199 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0168 secondes.
+2025-01-21 12:29:03,199 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 12:29:03,199 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.1141 secondes.
+2025-01-21 12:29:03,269 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 12:29:03,270 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 12:29:03,624 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 12:29:03,624 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0851 secondes
+2025-01-21 12:29:03,624 - AdsLogger - INFO - Temps d'exécution de run: 0.4249 secondes.
+2025-01-21 12:29:12,532 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:29:12,532 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:29:12,774 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 12:29:12,774 - AdsLogger - INFO - Temps d'exécution de connect: 0.2414 secondes.
+2025-01-21 12:29:12,914 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:29:12,915 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1407 secondes.
+2025-01-21 12:29:13,090 - AdsLogger - INFO - Batch 1: 100 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 12:29:13,090 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.1750 secondes.
+2025-01-21 12:29:13,090 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:29:13,170 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 12:29:13,170 - AdsLogger - INFO - Temps d'exécution de connect: 0.0797 secondes.
+2025-01-21 12:29:13,170 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 12:29:13,185 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:29:13,186 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0156 secondes.
+2025-01-21 12:29:13,186 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 12:29:13,186 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.0956 secondes.
+2025-01-21 12:29:13,259 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 12:29:13,259 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 12:29:13,589 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 12:29:13,625 - AdsLogger - INFO - Batch 1: 100 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 100/100 ligne(s).
+2025-01-21 12:29:13,625 - AdsLogger - INFO - 100 ligne(s) lue(s).
+2025-01-21 12:29:13,625 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.1260 secondes
+2025-01-21 12:29:13,625 - AdsLogger - INFO - Temps d'exécution de run: 0.4400 secondes.
+2025-01-21 12:29:44,055 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:29:44,055 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:29:44,332 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 12:29:44,333 - AdsLogger - INFO - Temps d'exécution de connect: 0.2766 secondes.
+2025-01-21 12:29:44,485 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:29:44,486 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1528 secondes.
+2025-01-21 12:29:44,756 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/10000 ligne(s).
+2025-01-21 12:29:44,937 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/10000 ligne(s).
+2025-01-21 12:29:45,116 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/10000 ligne(s).
+2025-01-21 12:29:45,299 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/10000 ligne(s).
+2025-01-21 12:29:45,483 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/10000 ligne(s).
+2025-01-21 12:29:45,667 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/10000 ligne(s).
+2025-01-21 12:29:45,853 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/10000 ligne(s).
+2025-01-21 12:29:46,036 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/10000 ligne(s).
+2025-01-21 12:29:46,231 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/10000 ligne(s).
+2025-01-21 12:29:46,418 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 12:29:46,418 - AdsLogger - INFO - Temps d'exécution de insertBulk: 1.9245 secondes.
+2025-01-21 12:29:46,418 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:29:46,504 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 12:29:46,505 - AdsLogger - INFO - Temps d'exécution de connect: 0.0861 secondes.
+2025-01-21 12:29:46,505 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 12:29:46,521 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:29:46,521 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0163 secondes.
+2025-01-21 12:29:46,521 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 12:29:46,521 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.1028 secondes.
+2025-01-21 12:29:46,604 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 12:29:46,604 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 12:29:47,164 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 12:29:47,223 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/1000 ligne(s).
+2025-01-21 12:29:47,223 - AdsLogger - INFO - 1000 ligne(s) lue(s).
+2025-01-21 12:29:47,269 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/2000 ligne(s).
+2025-01-21 12:29:47,269 - AdsLogger - INFO - 2000 ligne(s) lue(s).
+2025-01-21 12:29:47,324 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/3000 ligne(s).
+2025-01-21 12:29:47,324 - AdsLogger - INFO - 3000 ligne(s) lue(s).
+2025-01-21 12:29:47,375 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/4000 ligne(s).
+2025-01-21 12:29:47,375 - AdsLogger - INFO - 4000 ligne(s) lue(s).
+2025-01-21 12:29:47,421 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/5000 ligne(s).
+2025-01-21 12:29:47,421 - AdsLogger - INFO - 5000 ligne(s) lue(s).
+2025-01-21 12:29:47,463 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/6000 ligne(s).
+2025-01-21 12:29:47,463 - AdsLogger - INFO - 6000 ligne(s) lue(s).
+2025-01-21 12:29:47,513 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/7000 ligne(s).
+2025-01-21 12:29:47,513 - AdsLogger - INFO - 7000 ligne(s) lue(s).
+2025-01-21 12:29:47,563 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/8000 ligne(s).
+2025-01-21 12:29:47,563 - AdsLogger - INFO - 8000 ligne(s) lue(s).
+2025-01-21 12:29:47,611 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/9000 ligne(s).
+2025-01-21 12:29:47,611 - AdsLogger - INFO - 9000 ligne(s) lue(s).
+2025-01-21 12:29:47,662 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 12:29:47,662 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-01-21 12:29:47,662 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.8160 secondes
+2025-01-21 12:29:47,663 - AdsLogger - INFO - Temps d'exécution de run: 1.1413 secondes.
+2025-01-21 12:31:53,295 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 12:31:53,295 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:31:53,543 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 12:31:53,544 - AdsLogger - INFO - Temps d'exécution de connect: 0.2483 secondes.
+2025-01-21 12:31:53,686 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:31:53,686 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1426 secondes.
+2025-01-21 12:31:53,931 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/10001 ligne(s).
+2025-01-21 12:31:54,111 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/10001 ligne(s).
+2025-01-21 12:31:54,295 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/10001 ligne(s).
+2025-01-21 12:31:54,476 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/10001 ligne(s).
+2025-01-21 12:31:54,658 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/10001 ligne(s).
+2025-01-21 12:31:54,841 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/10001 ligne(s).
+2025-01-21 12:31:55,024 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/10001 ligne(s).
+2025-01-21 12:31:55,209 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/10001 ligne(s).
+2025-01-21 12:31:55,394 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/10001 ligne(s).
+2025-01-21 12:31:55,577 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10000/10001 ligne(s).
+2025-01-21 12:31:55,757 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 12:31:55,759 - AdsLogger - INFO - Temps d'exécution de insertBulk: 2.0673 secondes.
+2025-01-21 12:31:55,759 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 12:31:55,794 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:31:55,794 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0083 secondes.
+2025-01-21 12:31:55,794 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 12:31:55,794 - AdsLogger - INFO - Temps d'exécution de connect: 0.0344 secondes.
+2025-01-21 12:31:55,794 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 12:31:55,807 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 12:31:55,807 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0133 secondes.
+2025-01-21 12:31:55,807 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 12:31:55,808 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.0480 secondes.
+2025-01-21 12:31:55,858 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 12:31:55,858 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 12:31:56,361 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 12:31:56,407 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/1000 ligne(s).
+2025-01-21 12:31:56,407 - AdsLogger - INFO - 1000 ligne(s) lue(s).
+2025-01-21 12:31:56,448 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/2000 ligne(s).
+2025-01-21 12:31:56,448 - AdsLogger - INFO - 2000 ligne(s) lue(s).
+2025-01-21 12:31:56,490 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/3000 ligne(s).
+2025-01-21 12:31:56,490 - AdsLogger - INFO - 3000 ligne(s) lue(s).
+2025-01-21 12:31:56,537 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/4000 ligne(s).
+2025-01-21 12:31:56,537 - AdsLogger - INFO - 4000 ligne(s) lue(s).
+2025-01-21 12:31:56,577 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/5000 ligne(s).
+2025-01-21 12:31:56,577 - AdsLogger - INFO - 5000 ligne(s) lue(s).
+2025-01-21 12:31:56,613 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/6000 ligne(s).
+2025-01-21 12:31:56,613 - AdsLogger - INFO - 6000 ligne(s) lue(s).
+2025-01-21 12:31:56,650 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/7000 ligne(s).
+2025-01-21 12:31:56,650 - AdsLogger - INFO - 7000 ligne(s) lue(s).
+2025-01-21 12:31:56,684 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/8000 ligne(s).
+2025-01-21 12:31:56,684 - AdsLogger - INFO - 8000 ligne(s) lue(s).
+2025-01-21 12:31:56,721 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/9000 ligne(s).
+2025-01-21 12:31:56,721 - AdsLogger - INFO - 9000 ligne(s) lue(s).
+2025-01-21 12:31:56,765 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 12:31:56,765 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-01-21 12:31:56,791 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 12:31:56,792 - AdsLogger - INFO - 10001 ligne(s) lue(s).
+2025-01-21 12:31:56,792 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.7125 secondes
+2025-01-21 12:31:56,792 - AdsLogger - INFO - Temps d'exécution de run: 0.9845 secondes.
+2025-01-21 14:13:06,894 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 14:13:06,895 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:13:07,121 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 14:13:07,122 - AdsLogger - INFO - Temps d'exécution de connect: 0.2270 secondes.
+2025-01-21 14:13:07,263 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:13:07,264 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1421 secondes.
+2025-01-21 14:13:07,500 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/10001 ligne(s).
+2025-01-21 14:13:07,685 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/10001 ligne(s).
+2025-01-21 14:13:07,874 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/10001 ligne(s).
+2025-01-21 14:13:08,066 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/10001 ligne(s).
+2025-01-21 14:13:08,251 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/10001 ligne(s).
+2025-01-21 14:13:08,432 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/10001 ligne(s).
+2025-01-21 14:13:08,614 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/10001 ligne(s).
+2025-01-21 14:13:08,793 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/10001 ligne(s).
+2025-01-21 14:13:08,970 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/10001 ligne(s).
+2025-01-21 14:13:09,164 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10000/10001 ligne(s).
+2025-01-21 14:13:09,335 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 14:13:09,336 - AdsLogger - INFO - Temps d'exécution de insertBulk: 2.0652 secondes.
+2025-01-21 14:13:09,336 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:13:09,440 - AdsLogger - INFO - Connexion établie avec la base de données via pymssql.
+2025-01-21 14:13:09,440 - AdsLogger - INFO - Temps d'exécution de connect: 0.1043 secondes.
+2025-01-21 14:13:09,440 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 14:13:09,463 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:13:09,463 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0222 secondes.
+2025-01-21 14:13:09,463 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 14:13:09,463 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.1272 secondes.
+2025-01-21 14:13:09,547 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 14:13:09,548 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 14:13:10,128 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 14:13:10,188 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/1000 ligne(s).
+2025-01-21 14:13:10,189 - AdsLogger - INFO - 1000 ligne(s) lue(s).
+2025-01-21 14:13:10,235 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/2000 ligne(s).
+2025-01-21 14:13:10,235 - AdsLogger - INFO - 2000 ligne(s) lue(s).
+2025-01-21 14:13:10,282 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/3000 ligne(s).
+2025-01-21 14:13:10,283 - AdsLogger - INFO - 3000 ligne(s) lue(s).
+2025-01-21 14:13:10,334 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/4000 ligne(s).
+2025-01-21 14:13:10,334 - AdsLogger - INFO - 4000 ligne(s) lue(s).
+2025-01-21 14:13:10,379 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/5000 ligne(s).
+2025-01-21 14:13:10,379 - AdsLogger - INFO - 5000 ligne(s) lue(s).
+2025-01-21 14:13:10,420 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/6000 ligne(s).
+2025-01-21 14:13:10,420 - AdsLogger - INFO - 6000 ligne(s) lue(s).
+2025-01-21 14:13:10,462 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/7000 ligne(s).
+2025-01-21 14:13:10,463 - AdsLogger - INFO - 7000 ligne(s) lue(s).
+2025-01-21 14:13:10,507 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/8000 ligne(s).
+2025-01-21 14:13:10,508 - AdsLogger - INFO - 8000 ligne(s) lue(s).
+2025-01-21 14:13:10,559 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/9000 ligne(s).
+2025-01-21 14:13:10,559 - AdsLogger - INFO - 9000 ligne(s) lue(s).
+2025-01-21 14:13:10,613 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 14:13:10,613 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-01-21 14:13:10,637 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 14:13:10,637 - AdsLogger - INFO - 10001 ligne(s) lue(s).
+2025-01-21 14:13:10,637 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.8644 secondes
+2025-01-21 14:13:10,637 - AdsLogger - INFO - Temps d'exécution de run: 1.1735 secondes.
+2025-01-21 14:27:12,049 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 14:27:12,049 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:27:12,298 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 14:27:12,298 - AdsLogger - INFO - Temps d'exécution de connect: 0.2492 secondes.
+2025-01-21 14:27:12,444 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:27:12,444 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1455 secondes.
+2025-01-21 14:27:12,689 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/10001 ligne(s).
+2025-01-21 14:27:12,873 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/10001 ligne(s).
+2025-01-21 14:27:13,065 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/10001 ligne(s).
+2025-01-21 14:27:13,248 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/10001 ligne(s).
+2025-01-21 14:27:13,425 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/10001 ligne(s).
+2025-01-21 14:27:13,608 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/10001 ligne(s).
+2025-01-21 14:27:13,788 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/10001 ligne(s).
+2025-01-21 14:27:13,968 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/10001 ligne(s).
+2025-01-21 14:27:14,148 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/10001 ligne(s).
+2025-01-21 14:27:14,332 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10000/10001 ligne(s).
+2025-01-21 14:27:14,500 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 14:27:14,501 - AdsLogger - INFO - Temps d'exécution de insertBulk: 2.0518 secondes.
+2025-01-21 14:27:14,501 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:27:14,531 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:27:14,531 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0066 secondes.
+2025-01-21 14:27:14,531 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 14:27:14,532 - AdsLogger - INFO - Temps d'exécution de connect: 0.0314 secondes.
+2025-01-21 14:27:14,532 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 14:27:14,547 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:27:14,547 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0144 secondes.
+2025-01-21 14:27:14,547 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 14:27:14,547 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.0464 secondes.
+2025-01-21 14:27:14,575 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 14:27:14,575 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 14:27:15,080 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 14:27:15,125 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/1000 ligne(s).
+2025-01-21 14:27:15,126 - AdsLogger - INFO - 1000 ligne(s) lue(s).
+2025-01-21 14:27:15,170 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/2000 ligne(s).
+2025-01-21 14:27:15,171 - AdsLogger - INFO - 2000 ligne(s) lue(s).
+2025-01-21 14:27:15,212 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/3000 ligne(s).
+2025-01-21 14:27:15,213 - AdsLogger - INFO - 3000 ligne(s) lue(s).
+2025-01-21 14:27:15,255 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/4000 ligne(s).
+2025-01-21 14:27:15,256 - AdsLogger - INFO - 4000 ligne(s) lue(s).
+2025-01-21 14:27:15,298 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/5000 ligne(s).
+2025-01-21 14:27:15,298 - AdsLogger - INFO - 5000 ligne(s) lue(s).
+2025-01-21 14:27:15,336 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/6000 ligne(s).
+2025-01-21 14:27:15,336 - AdsLogger - INFO - 6000 ligne(s) lue(s).
+2025-01-21 14:27:15,372 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/7000 ligne(s).
+2025-01-21 14:27:15,372 - AdsLogger - INFO - 7000 ligne(s) lue(s).
+2025-01-21 14:27:15,410 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/8000 ligne(s).
+2025-01-21 14:27:15,410 - AdsLogger - INFO - 8000 ligne(s) lue(s).
+2025-01-21 14:27:15,451 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/9000 ligne(s).
+2025-01-21 14:27:15,452 - AdsLogger - INFO - 9000 ligne(s) lue(s).
+2025-01-21 14:27:15,501 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 14:27:15,502 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-01-21 14:27:15,518 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 14:27:15,518 - AdsLogger - INFO - 10001 ligne(s) lue(s).
+2025-01-21 14:27:15,518 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.7169 secondes
+2025-01-21 14:27:15,519 - AdsLogger - INFO - Temps d'exécution de run: 0.9721 secondes.
+2025-01-21 14:53:13,592 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 14:53:13,592 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:53:13,833 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 14:53:13,833 - AdsLogger - INFO - Temps d'exécution de connect: 0.2411 secondes.
+2025-01-21 14:53:13,982 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:53:13,983 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1498 secondes.
+2025-01-21 14:53:14,230 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/10001 ligne(s).
+2025-01-21 14:53:14,419 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/10001 ligne(s).
+2025-01-21 14:53:14,604 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/10001 ligne(s).
+2025-01-21 14:53:14,785 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/10001 ligne(s).
+2025-01-21 14:53:14,967 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/10001 ligne(s).
+2025-01-21 14:53:15,151 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/10001 ligne(s).
+2025-01-21 14:53:15,336 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/10001 ligne(s).
+2025-01-21 14:53:15,519 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/10001 ligne(s).
+2025-01-21 14:53:15,702 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/10001 ligne(s).
+2025-01-21 14:53:15,889 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10000/10001 ligne(s).
+2025-01-21 14:53:16,061 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 14:53:16,061 - AdsLogger - INFO - Temps d'exécution de insertBulk: 2.0704 secondes.
+2025-01-21 14:53:16,061 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:53:16,090 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:53:16,090 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0060 secondes.
+2025-01-21 14:53:16,091 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 14:53:16,091 - AdsLogger - INFO - Temps d'exécution de connect: 0.0288 secondes.
+2025-01-21 14:53:16,091 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 14:53:16,105 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:53:16,105 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0141 secondes.
+2025-01-21 14:53:16,105 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 14:53:16,105 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.0434 secondes.
+2025-01-21 14:53:16,138 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 14:53:16,138 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 14:53:16,723 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 14:53:16,726 - AdsLogger - ERROR - **************************************************
+2025-01-21 14:53:16,726 - AdsLogger - ERROR - Échec de l'exécution du pipeline: 'NoneType' object is not iterable
+2025-01-21 14:53:16,726 - AdsLogger - ERROR - **************************************************
+2025-01-21 14:53:35,572 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 14:53:35,572 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:53:35,803 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 14:53:35,803 - AdsLogger - INFO - Temps d'exécution de connect: 0.2309 secondes.
+2025-01-21 14:53:35,948 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:53:35,948 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1445 secondes.
+2025-01-21 14:53:36,190 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/10001 ligne(s).
+2025-01-21 14:53:36,369 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/10001 ligne(s).
+2025-01-21 14:53:36,549 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/10001 ligne(s).
+2025-01-21 14:53:36,731 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/10001 ligne(s).
+2025-01-21 14:53:36,916 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/10001 ligne(s).
+2025-01-21 14:53:37,098 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/10001 ligne(s).
+2025-01-21 14:53:37,290 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/10001 ligne(s).
+2025-01-21 14:53:37,476 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/10001 ligne(s).
+2025-01-21 14:53:37,658 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/10001 ligne(s).
+2025-01-21 14:53:37,841 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10000/10001 ligne(s).
+2025-01-21 14:53:38,010 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 14:53:38,011 - AdsLogger - INFO - Temps d'exécution de insertBulk: 2.0549 secondes.
+2025-01-21 14:53:38,011 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:53:38,043 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:53:38,043 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0057 secondes.
+2025-01-21 14:53:38,043 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 14:53:38,043 - AdsLogger - INFO - Temps d'exécution de connect: 0.0320 secondes.
+2025-01-21 14:53:38,043 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 14:53:38,056 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:53:38,056 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0131 secondes.
+2025-01-21 14:53:38,056 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 14:53:38,056 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.0455 secondes.
+2025-01-21 14:53:38,104 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 14:53:38,105 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 14:53:38,596 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 14:53:38,598 - AdsLogger - ERROR - **************************************************
+2025-01-21 14:53:38,598 - AdsLogger - ERROR - Échec de l'exécution du pipeline: 'NoneType' object is not iterable
+2025-01-21 14:53:38,598 - AdsLogger - ERROR - **************************************************
+2025-01-21 14:55:00,845 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 14:55:00,845 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:55:01,089 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 14:55:01,089 - AdsLogger - INFO - Temps d'exécution de connect: 0.2437 secondes.
+2025-01-21 14:55:01,232 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:55:01,233 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1430 secondes.
+2025-01-21 14:55:01,465 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/10001 ligne(s).
+2025-01-21 14:55:01,647 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/10001 ligne(s).
+2025-01-21 14:55:01,827 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/10001 ligne(s).
+2025-01-21 14:55:02,016 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/10001 ligne(s).
+2025-01-21 14:55:02,199 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/10001 ligne(s).
+2025-01-21 14:55:02,381 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/10001 ligne(s).
+2025-01-21 14:55:02,563 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/10001 ligne(s).
+2025-01-21 14:55:02,745 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/10001 ligne(s).
+2025-01-21 14:55:02,925 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/10001 ligne(s).
+2025-01-21 14:55:03,111 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10000/10001 ligne(s).
+2025-01-21 14:55:03,281 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 14:55:03,282 - AdsLogger - INFO - Temps d'exécution de insertBulk: 2.0436 secondes.
+2025-01-21 14:55:03,282 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:55:03,330 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:55:03,330 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0068 secondes.
+2025-01-21 14:55:03,330 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 14:55:03,330 - AdsLogger - INFO - Temps d'exécution de connect: 0.0483 secondes.
+2025-01-21 14:55:03,330 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 14:55:03,344 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:55:03,344 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0135 secondes.
+2025-01-21 14:55:03,344 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 14:55:03,344 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.0621 secondes.
+2025-01-21 14:55:03,393 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 14:55:03,393 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 14:55:03,906 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 14:55:04,099 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/1000 ligne(s).
+2025-01-21 14:55:04,099 - AdsLogger - INFO - 1000 ligne(s) lue(s).
+2025-01-21 14:55:04,225 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/2000 ligne(s).
+2025-01-21 14:55:04,226 - AdsLogger - INFO - 2000 ligne(s) lue(s).
+2025-01-21 14:55:04,365 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/3000 ligne(s).
+2025-01-21 14:55:04,365 - AdsLogger - INFO - 3000 ligne(s) lue(s).
+2025-01-21 14:55:04,513 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/4000 ligne(s).
+2025-01-21 14:55:04,513 - AdsLogger - INFO - 4000 ligne(s) lue(s).
+2025-01-21 14:55:04,631 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/5000 ligne(s).
+2025-01-21 14:55:04,631 - AdsLogger - INFO - 5000 ligne(s) lue(s).
+2025-01-21 14:55:04,784 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/6000 ligne(s).
+2025-01-21 14:55:04,785 - AdsLogger - INFO - 6000 ligne(s) lue(s).
+2025-01-21 14:55:04,897 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/7000 ligne(s).
+2025-01-21 14:55:04,897 - AdsLogger - INFO - 7000 ligne(s) lue(s).
+2025-01-21 14:55:05,036 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/8000 ligne(s).
+2025-01-21 14:55:05,037 - AdsLogger - INFO - 8000 ligne(s) lue(s).
+2025-01-21 14:55:05,140 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/9000 ligne(s).
+2025-01-21 14:55:05,140 - AdsLogger - INFO - 9000 ligne(s) lue(s).
+2025-01-21 14:55:05,314 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 14:55:05,314 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-01-21 14:55:05,378 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 14:55:05,378 - AdsLogger - INFO - 10001 ligne(s) lue(s).
+2025-01-21 14:55:05,379 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 1.7524 secondes
+2025-01-21 14:55:05,379 - AdsLogger - INFO - Temps d'exécution de run: 2.0356 secondes.
+2025-01-21 14:59:10,701 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 14:59:10,701 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:59:10,930 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 14:59:10,930 - AdsLogger - INFO - Temps d'exécution de connect: 0.2289 secondes.
+2025-01-21 14:59:11,073 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:59:11,074 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1434 secondes.
+2025-01-21 14:59:11,315 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/10001 ligne(s).
+2025-01-21 14:59:11,496 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/10001 ligne(s).
+2025-01-21 14:59:11,681 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/10001 ligne(s).
+2025-01-21 14:59:11,866 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/10001 ligne(s).
+2025-01-21 14:59:12,050 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/10001 ligne(s).
+2025-01-21 14:59:12,233 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/10001 ligne(s).
+2025-01-21 14:59:12,416 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/10001 ligne(s).
+2025-01-21 14:59:12,597 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/10001 ligne(s).
+2025-01-21 14:59:12,778 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/10001 ligne(s).
+2025-01-21 14:59:12,959 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10000/10001 ligne(s).
+2025-01-21 14:59:13,130 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 14:59:13,130 - AdsLogger - INFO - Temps d'exécution de insertBulk: 2.0502 secondes.
+2025-01-21 14:59:13,131 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:59:13,179 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:59:13,179 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0064 secondes.
+2025-01-21 14:59:13,179 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 14:59:13,179 - AdsLogger - INFO - Temps d'exécution de connect: 0.0491 secondes.
+2025-01-21 14:59:13,228 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/10499 ligne(s).
+2025-01-21 14:59:13,266 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/10499 ligne(s).
+2025-01-21 14:59:13,304 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/10499 ligne(s).
+2025-01-21 14:59:13,341 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/10499 ligne(s).
+2025-01-21 14:59:13,375 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/10499 ligne(s).
+2025-01-21 14:59:13,409 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/10499 ligne(s).
+2025-01-21 14:59:13,444 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/10499 ligne(s).
+2025-01-21 14:59:13,485 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/10499 ligne(s).
+2025-01-21 14:59:13,522 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/10499 ligne(s).
+2025-01-21 14:59:13,559 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10499 ligne(s).
+2025-01-21 14:59:13,583 - AdsLogger - INFO - Batch 11: 499 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10499/10499 ligne(s).
+2025-01-21 14:59:13,584 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.3996 secondes.
+2025-01-21 14:59:13,584 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 14:59:13,630 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:59:13,630 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0056 secondes.
+2025-01-21 14:59:13,630 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 14:59:13,630 - AdsLogger - INFO - Temps d'exécution de connect: 0.0461 secondes.
+2025-01-21 14:59:13,630 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 14:59:13,644 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 14:59:13,644 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0141 secondes.
+2025-01-21 14:59:13,644 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 14:59:13,644 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.0605 secondes.
+2025-01-21 14:59:13,692 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 14:59:13,693 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 14:59:14,187 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 14:59:14,322 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/1000 ligne(s).
+2025-01-21 14:59:14,322 - AdsLogger - INFO - 1000 ligne(s) lue(s).
+2025-01-21 14:59:14,455 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/2000 ligne(s).
+2025-01-21 14:59:14,455 - AdsLogger - INFO - 2000 ligne(s) lue(s).
+2025-01-21 14:59:14,598 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/3000 ligne(s).
+2025-01-21 14:59:14,598 - AdsLogger - INFO - 3000 ligne(s) lue(s).
+2025-01-21 14:59:14,739 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/4000 ligne(s).
+2025-01-21 14:59:14,739 - AdsLogger - INFO - 4000 ligne(s) lue(s).
+2025-01-21 14:59:14,852 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/5000 ligne(s).
+2025-01-21 14:59:14,853 - AdsLogger - INFO - 5000 ligne(s) lue(s).
+2025-01-21 14:59:15,003 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/6000 ligne(s).
+2025-01-21 14:59:15,003 - AdsLogger - INFO - 6000 ligne(s) lue(s).
+2025-01-21 14:59:15,103 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/7000 ligne(s).
+2025-01-21 14:59:15,103 - AdsLogger - INFO - 7000 ligne(s) lue(s).
+2025-01-21 14:59:15,252 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/8000 ligne(s).
+2025-01-21 14:59:15,252 - AdsLogger - INFO - 8000 ligne(s) lue(s).
+2025-01-21 14:59:15,356 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/9000 ligne(s).
+2025-01-21 14:59:15,357 - AdsLogger - INFO - 9000 ligne(s) lue(s).
+2025-01-21 14:59:15,525 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 14:59:15,525 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-01-21 14:59:15,595 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 14:59:15,595 - AdsLogger - INFO - 10001 ligne(s) lue(s).
+2025-01-21 14:59:15,595 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 1.6821 secondes
+2025-01-21 14:59:15,596 - AdsLogger - INFO - Temps d'exécution de run: 1.9510 secondes.
+2025-01-21 15:01:52,367 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 15:01:52,367 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 15:01:52,592 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 15:01:52,593 - AdsLogger - INFO - Temps d'exécution de connect: 0.2252 secondes.
+2025-01-21 15:01:52,732 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:01:52,732 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1398 secondes.
+2025-01-21 15:01:52,732 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 15:01:52,782 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:01:52,782 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0060 secondes.
+2025-01-21 15:01:52,782 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 15:01:52,782 - AdsLogger - INFO - Temps d'exécution de connect: 0.0495 secondes.
+2025-01-21 15:01:52,782 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 15:01:52,799 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:01:52,799 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0171 secondes.
+2025-01-21 15:01:52,799 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 15:01:52,799 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.0669 secondes.
+2025-01-21 15:01:53,036 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/10001 ligne(s).
+2025-01-21 15:01:53,217 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/10001 ligne(s).
+2025-01-21 15:01:53,396 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/10001 ligne(s).
+2025-01-21 15:01:53,575 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/10001 ligne(s).
+2025-01-21 15:01:53,761 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/10001 ligne(s).
+2025-01-21 15:01:53,943 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/10001 ligne(s).
+2025-01-21 15:01:54,124 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/10001 ligne(s).
+2025-01-21 15:01:54,308 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/10001 ligne(s).
+2025-01-21 15:01:54,493 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/10001 ligne(s).
+2025-01-21 15:01:54,675 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10000/10001 ligne(s).
+2025-01-21 15:01:54,845 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 15:01:54,847 - AdsLogger - INFO - Temps d'exécution de insertBulk: 2.0421 secondes.
+2025-01-21 15:01:54,847 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 15:01:54,878 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:01:54,878 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0095 secondes.
+2025-01-21 15:01:54,878 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 15:01:54,878 - AdsLogger - INFO - Temps d'exécution de connect: 0.0313 secondes.
+2025-01-21 15:01:54,927 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/10500 ligne(s).
+2025-01-21 15:01:54,962 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/10500 ligne(s).
+2025-01-21 15:01:55,001 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/10500 ligne(s).
+2025-01-21 15:01:55,037 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/10500 ligne(s).
+2025-01-21 15:01:55,076 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/10500 ligne(s).
+2025-01-21 15:01:55,110 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/10500 ligne(s).
+2025-01-21 15:01:55,150 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/10500 ligne(s).
+2025-01-21 15:01:55,184 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/10500 ligne(s).
+2025-01-21 15:01:55,219 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/10500 ligne(s).
+2025-01-21 15:01:55,257 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10500 ligne(s).
+2025-01-21 15:01:55,286 - AdsLogger - INFO - Batch 11: 500 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10500/10500 ligne(s).
+2025-01-21 15:01:55,287 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.4035 secondes.
+2025-01-21 15:01:55,314 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 15:01:55,314 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 15:01:55,817 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 15:01:55,990 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/1000 ligne(s).
+2025-01-21 15:01:55,990 - AdsLogger - INFO - 1000 ligne(s) lue(s).
+2025-01-21 15:01:56,118 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/2000 ligne(s).
+2025-01-21 15:01:56,120 - AdsLogger - INFO - 2000 ligne(s) lue(s).
+2025-01-21 15:01:56,260 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/3000 ligne(s).
+2025-01-21 15:01:56,260 - AdsLogger - INFO - 3000 ligne(s) lue(s).
+2025-01-21 15:01:56,386 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/4000 ligne(s).
+2025-01-21 15:01:56,386 - AdsLogger - INFO - 4000 ligne(s) lue(s).
+2025-01-21 15:01:56,513 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/5000 ligne(s).
+2025-01-21 15:01:56,513 - AdsLogger - INFO - 5000 ligne(s) lue(s).
+2025-01-21 15:01:56,634 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/6000 ligne(s).
+2025-01-21 15:01:56,634 - AdsLogger - INFO - 6000 ligne(s) lue(s).
+2025-01-21 15:01:56,750 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/7000 ligne(s).
+2025-01-21 15:01:56,750 - AdsLogger - INFO - 7000 ligne(s) lue(s).
+2025-01-21 15:01:56,864 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/8000 ligne(s).
+2025-01-21 15:01:56,865 - AdsLogger - INFO - 8000 ligne(s) lue(s).
+2025-01-21 15:01:56,981 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/9000 ligne(s).
+2025-01-21 15:01:56,981 - AdsLogger - INFO - 9000 ligne(s) lue(s).
+2025-01-21 15:01:57,108 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10000/10000 ligne(s).
+2025-01-21 15:01:57,108 - AdsLogger - INFO - 10000 ligne(s) lue(s).
+2025-01-21 15:01:57,185 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 15:01:57,185 - AdsLogger - INFO - 10001 ligne(s) lue(s).
+2025-01-21 15:01:57,185 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 1.6428 secondes
+2025-01-21 15:01:57,186 - AdsLogger - INFO - Temps d'exécution de run: 1.8997 secondes.
+2025-01-21 15:03:25,978 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 15:03:25,978 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 15:03:26,205 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 15:03:26,205 - AdsLogger - INFO - Temps d'exécution de connect: 0.2264 secondes.
+2025-01-21 15:03:26,344 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:03:26,345 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1395 secondes.
+2025-01-21 15:03:26,345 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 15:03:26,374 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:03:26,375 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0065 secondes.
+2025-01-21 15:03:26,375 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 15:03:26,375 - AdsLogger - INFO - Temps d'exécution de connect: 0.0304 secondes.
+2025-01-21 15:03:26,375 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 15:03:26,390 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:03:26,391 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0152 secondes.
+2025-01-21 15:03:26,391 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 15:03:26,391 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.0461 secondes.
+2025-01-21 15:03:26,632 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/10001 ligne(s).
+2025-01-21 15:03:26,850 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/10001 ligne(s).
+2025-01-21 15:03:27,038 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/10001 ligne(s).
+2025-01-21 15:03:27,218 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/10001 ligne(s).
+2025-01-21 15:03:27,410 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/10001 ligne(s).
+2025-01-21 15:03:27,595 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/10001 ligne(s).
+2025-01-21 15:03:27,776 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/10001 ligne(s).
+2025-01-21 15:03:27,956 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/10001 ligne(s).
+2025-01-21 15:03:28,137 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/10001 ligne(s).
+2025-01-21 15:03:28,321 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10000/10001 ligne(s).
+2025-01-21 15:03:28,495 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 10001/10001 ligne(s).
+2025-01-21 15:03:28,495 - AdsLogger - INFO - Temps d'exécution de insertBulk: 2.0993 secondes.
+2025-01-21 15:03:28,522 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 15:03:28,522 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 15:03:29,119 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 15:03:29,121 - AdsLogger - ERROR - **************************************************
+2025-01-21 15:03:29,122 - AdsLogger - ERROR - Échec de l'exécution du pipeline: Aucune opération n'a été réalisée, vérifiez les operation_type et insert_method.
+2025-01-21 15:03:29,122 - AdsLogger - ERROR - **************************************************
+2025-01-21 15:04:19,434 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 15:04:19,434 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 15:04:19,654 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-21 15:04:19,655 - AdsLogger - INFO - Temps d'exécution de connect: 0.2207 secondes.
+2025-01-21 15:04:19,801 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:04:19,801 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1462 secondes.
+2025-01-21 15:04:19,801 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 15:04:19,830 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:04:19,830 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0063 secondes.
+2025-01-21 15:04:19,830 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 15:04:19,830 - AdsLogger - INFO - Temps d'exécution de connect: 0.0295 secondes.
+2025-01-21 15:04:19,831 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 15:04:19,844 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:04:19,845 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0135 secondes.
+2025-01-21 15:04:19,845 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 15:04:19,845 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.0437 secondes.
+2025-01-21 15:04:20,095 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 1000/10001 ligne(s).
+2025-01-21 15:04:20,278 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 2000/10001 ligne(s).
+2025-01-21 15:04:20,461 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 3000/10001 ligne(s).
+2025-01-21 15:04:20,642 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 4000/10001 ligne(s).
+2025-01-21 15:04:20,821 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 5000/10001 ligne(s).
+2025-01-21 15:04:20,988 - AdsLogger - ERROR - **************************************************
+2025-01-21 15:04:20,988 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 6: invalid input syntax for type integer: "ERR" CONTEXT:  COPY insert_test, line 10, column age: "ERR" 
+2025-01-21 15:04:20,988 - AdsLogger - ERROR - **************************************************
+2025-01-21 15:04:21,167 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 6000/10001 ligne(s).
+2025-01-21 15:04:21,349 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 7000/10001 ligne(s).
+2025-01-21 15:04:21,529 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 8000/10001 ligne(s).
+2025-01-21 15:04:21,711 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9000/10001 ligne(s).
+2025-01-21 15:04:21,881 - AdsLogger - INFO - Batch 11: 1 ligne(s) insérée(s) avec succès dans la table insert_test. Total inséré: 9001/10001 ligne(s).
+2025-01-21 15:04:21,881 - AdsLogger - INFO - Temps d'exécution de insertBulk: 2.0295 secondes.
+2025-01-21 15:04:21,928 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 15:04:21,929 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 15:04:22,413 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-21 15:04:22,553 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/1000 ligne(s).
+2025-01-21 15:04:22,553 - AdsLogger - INFO - 1000 ligne(s) lue(s).
+2025-01-21 15:04:22,683 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/2000 ligne(s).
+2025-01-21 15:04:22,684 - AdsLogger - INFO - 2000 ligne(s) lue(s).
+2025-01-21 15:04:22,822 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/3000 ligne(s).
+2025-01-21 15:04:22,823 - AdsLogger - INFO - 3000 ligne(s) lue(s).
+2025-01-21 15:04:22,951 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/4000 ligne(s).
+2025-01-21 15:04:22,951 - AdsLogger - INFO - 4000 ligne(s) lue(s).
+2025-01-21 15:04:23,070 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/5000 ligne(s).
+2025-01-21 15:04:23,070 - AdsLogger - INFO - 5000 ligne(s) lue(s).
+2025-01-21 15:04:23,239 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/6000 ligne(s).
+2025-01-21 15:04:23,239 - AdsLogger - INFO - 6000 ligne(s) lue(s).
+2025-01-21 15:04:23,368 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/7000 ligne(s).
+2025-01-21 15:04:23,368 - AdsLogger - INFO - 7000 ligne(s) lue(s).
+2025-01-21 15:04:23,523 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/8000 ligne(s).
+2025-01-21 15:04:23,523 - AdsLogger - INFO - 8000 ligne(s) lue(s).
+2025-01-21 15:04:23,620 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/9000 ligne(s).
+2025-01-21 15:04:23,620 - AdsLogger - INFO - 9000 ligne(s) lue(s).
+2025-01-21 15:04:23,740 - AdsLogger - INFO - Batch 10: 1 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9001/9001 ligne(s).
+2025-01-21 15:04:23,740 - AdsLogger - INFO - 9001 ligne(s) lue(s).
+2025-01-21 15:04:23,741 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 1.5942 secondes
+2025-01-21 15:04:23,741 - AdsLogger - INFO - Temps d'exécution de run: 1.8523 secondes.
+2025-01-21 15:07:52,019 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-21 15:07:52,030 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-21 15:07:52,064 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:07:52,065 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0105 secondes.
+2025-01-21 15:07:52,065 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-21 15:07:52,065 - AdsLogger - INFO - Temps d'exécution de connect: 0.0359 secondes.
+2025-01-21 15:07:52,065 - AdsLogger - INFO - Création de la table de destination...
+2025-01-21 15:07:52,079 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-21 15:07:52,079 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0139 secondes.
+2025-01-21 15:07:52,079 - AdsLogger - INFO - Table de destination créée.
+2025-01-21 15:07:52,079 - AdsLogger - INFO - Temps d'exécution de create_destination_table: 0.0500 secondes.
+2025-01-21 15:07:52,103 - AdsLogger - INFO - Connexion à test réussie.
+2025-01-21 15:07:52,103 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-21 15:07:52,232 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 1000/1000 ligne(s).
+2025-01-21 15:07:52,361 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 2000/2000 ligne(s).
+2025-01-21 15:07:52,496 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 3000/3000 ligne(s).
+2025-01-21 15:07:52,630 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 4000/4000 ligne(s).
+2025-01-21 15:07:52,749 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 5000/5000 ligne(s).
+2025-01-21 15:07:52,781 - AdsLogger - ERROR - **************************************************
+2025-01-21 15:07:52,781 - AdsLogger - ERROR - Erreur lors de l'insertion du batch 1: ("Échec de la conversion de la valeur nvarchar 'ERR' en type de données int.", None)
+2025-01-21 15:07:52,781 - AdsLogger - ERROR - **************************************************
+2025-01-21 15:07:52,977 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 6000/7000 ligne(s).
+2025-01-21 15:07:53,107 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 7000/8000 ligne(s).
+2025-01-21 15:07:53,277 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 8000/9000 ligne(s).
+2025-01-21 15:07:53,412 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9000/10000 ligne(s).
+2025-01-21 15:07:53,550 - AdsLogger - INFO - Batch 10: 1 ligne(s) insérée(s) avec succès dans la table dbo.insert_test. Total inséré: 9001/10001 ligne(s).
+2025-01-21 15:07:53,551 - AdsLogger - INFO - Temps d'exécution de run: 1.4719 secondes.

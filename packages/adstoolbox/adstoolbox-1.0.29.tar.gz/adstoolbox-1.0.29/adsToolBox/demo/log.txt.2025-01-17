@@ -1,0 +1,42 @@
+2025-01-17 16:39:02,875 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-17 16:39:02,913 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-17 16:39:02,914 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0070 secondes.
+2025-01-17 16:39:02,914 - AdsLogger - INFO - Connexion établie avec la base de données via pytds.
+2025-01-17 16:39:02,914 - AdsLogger - INFO - Temps d'exécution de connect: 0.0393 secondes.
+2025-01-17 16:39:02,932 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-17 16:39:02,932 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0183 secondes.
+2025-01-17 16:39:02,988 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s). Total inséré: 1000/10000 ligne(s).
+2025-01-17 16:39:03,030 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s). Total inséré: 2000/10000 ligne(s).
+2025-01-17 16:39:03,065 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s). Total inséré: 3000/10000 ligne(s).
+2025-01-17 16:39:03,100 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s). Total inséré: 4000/10000 ligne(s).
+2025-01-17 16:39:03,135 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s). Total inséré: 5000/10000 ligne(s).
+2025-01-17 16:39:03,169 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s). Total inséré: 6000/10000 ligne(s).
+2025-01-17 16:39:03,201 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s). Total inséré: 7000/10000 ligne(s).
+2025-01-17 16:39:03,234 - AdsLogger - INFO - Batch 8: 1000 ligne(s) insérée(s). Total inséré: 8000/10000 ligne(s).
+2025-01-17 16:39:03,274 - AdsLogger - INFO - Batch 9: 1000 ligne(s) insérée(s). Total inséré: 9000/10000 ligne(s).
+2025-01-17 16:39:03,307 - AdsLogger - INFO - Batch 10: 1000 ligne(s) insérée(s). Total inséré: 10000/10000 ligne(s).
+2025-01-17 16:39:03,307 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.3710 secondes.
+2025-01-17 16:39:03,309 - AdsLogger - INFO - Récupération des colonnes depuis dbo.insert_test
+2025-01-17 16:39:03,360 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-17 16:39:03,361 - AdsLogger - INFO - 4 lignes lues.
+2025-01-17 16:39:03,361 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0509 secondes
+2025-01-17 16:39:03,367 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-17 16:39:03,367 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0067 secondes.
+2025-01-17 16:39:03,376 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-17 16:39:03,376 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0085 secondes.
+2025-01-17 16:39:03,416 - AdsLogger - INFO - Batch 1: 1000 ligne(s) insérée(s). Total inséré: 1000/7001 ligne(s).
+2025-01-17 16:39:03,448 - AdsLogger - INFO - Batch 2: 1000 ligne(s) insérée(s). Total inséré: 2000/7001 ligne(s).
+2025-01-17 16:39:03,480 - AdsLogger - INFO - Batch 3: 1000 ligne(s) insérée(s). Total inséré: 3000/7001 ligne(s).
+2025-01-17 16:39:03,513 - AdsLogger - INFO - Batch 4: 1000 ligne(s) insérée(s). Total inséré: 4000/7001 ligne(s).
+2025-01-17 16:39:03,551 - AdsLogger - INFO - Batch 5: 1000 ligne(s) insérée(s). Total inséré: 5000/7001 ligne(s).
+2025-01-17 16:39:03,585 - AdsLogger - INFO - Batch 6: 1000 ligne(s) insérée(s). Total inséré: 6000/7001 ligne(s).
+2025-01-17 16:39:03,618 - AdsLogger - INFO - Batch 7: 1000 ligne(s) insérée(s). Total inséré: 7000/7001 ligne(s).
+2025-01-17 16:39:03,633 - AdsLogger - INFO - Batch 8: 1 ligne(s) insérée(s). Total inséré: 7001/7001 ligne(s).
+2025-01-17 16:39:03,633 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.2574 secondes.
+2025-01-17 16:39:03,783 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-17 16:39:03,783 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.1499 secondes.
+2025-01-17 16:39:03,783 - AdsLogger - INFO - 7001 lignes insérée(s)ou mise(s) à jour dans la tables insert_test.
+2025-01-17 16:39:03,790 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-17 16:39:03,790 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0073 secondes.
+2025-01-17 16:39:03,790 - AdsLogger - INFO - Table temporaire supprimée.
+2025-01-17 16:39:03,790 - AdsLogger - INFO - Temps d'exécution de upsertBulk: 0.4815 secondes.
