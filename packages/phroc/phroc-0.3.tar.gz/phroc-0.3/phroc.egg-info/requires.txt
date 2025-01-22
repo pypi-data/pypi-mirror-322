@@ -1,0 +1,6 @@
+numpy
+pandas
+pyside6
+matplotlib
+pyarrow
+openpyxl
