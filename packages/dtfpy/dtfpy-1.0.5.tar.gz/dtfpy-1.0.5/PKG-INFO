@@ -1,0 +1,66 @@
+Metadata-Version: 2.3
+Name: dtfpy
+Version: 1.0.5
+Summary: Dealertower Python Framework for microservices.
+Author: Reza Shirazi
+Author-email: reza@datgate.com
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: SQLAlchemy (==2.0.35)
+Requires-Dist: asyncpg (==0.29.0)
+Requires-Dist: boto3 (==1.35.34)
+Requires-Dist: botocore (==1.35.34)
+Requires-Dist: celery-redbeat (==2.2.0)
+Requires-Dist: celery[redis] (==5.4.0)
+Requires-Dist: fastapi (==0.115.0)
+Requires-Dist: gunicorn (==23.0.0)
+Requires-Dist: httpx (==0.27.2)
+Requires-Dist: paramiko (==3.5.0)
+Requires-Dist: psycopg2 (==2.9.9)
+Requires-Dist: pydantic-settings (==2.5.2)
+Requires-Dist: python-dotenv (==1.0.1)
+Requires-Dist: python-jose (==3.3.0)
+Requires-Dist: python-multipart (==0.0.12)
+Requires-Dist: pytz (==2024.2)
+Requires-Dist: requests (==2.32.3)
+Requires-Dist: uvicorn (==0.31.0)
+Description-Content-Type: text/markdown
+
+# DTFPy (Dealertower Python Framework)
+
+**Version:** 1.0.1  
+**Author:** [Reza Shirazi](mailto:reza@datgate.com)  
+**Requires Python:** >= 3.11  
+
+---
+
+## Overview
+
+**DTFPy** (Dealertower Python Framework) is a lightweight, scalable, and high-performance framework designed to simplify the development and deployment of microservices. Built on top of **FastAPI**, it leverages modern Python libraries and tools to streamline application development while maintaining flexibility and modularity.
+
+---
+
+## Features
+
+- **FastAPI-Based:** Quick and efficient web framework for building APIs.
+- **Database Integration:** Seamless integration with PostgreSQL using SQLAlchemy and asyncpg.
+- **Task Scheduling:** Robust support for asynchronous tasks and periodic scheduling via Celery and Redis.
+- **File Uploads:** Easy handling of multipart data using python-multipart.
+- **Security:** JWT and other authentication methods supported through python-jose.
+- **Cloud Support:** AWS integration with boto3 for scalable cloud operations.
+- **Dependency Management:** Configuration-driven setup using python-dotenv and pydantic-settings.
+- **Logging and Monitoring:** Support for reliable logging and external integrations.
+
+---
+
+## Installation
+
+You can install DTFPy using `pip`:
+
+```bash
+pip install dtfpy
+```
+
