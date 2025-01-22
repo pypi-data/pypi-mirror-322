@@ -1,0 +1,2 @@
+[console_scripts]
+dock-worker = dock_worker.cli:main
