@@ -1,0 +1,17 @@
+term_assist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+term_assist/main.py,sha256=1c8bvM7BehXy9vF4mFzy6sxrXKzu_lZYp1akqzpS7rE,6362
+term_assist/data/config_default.yaml,sha256=oXQpOhiMo9Wv6CUY8dsQZaDLCrQeQq2Rf0DACUpHWAw,1551
+term_assist/data/models.yaml,sha256=FuXWD5rRa9xhw2alVAj8ROrlIEP-Ln9QZNZu1txeIW0,463
+term_assist/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+term_assist/models/anthropic_model.py,sha256=M10_DlNgBZAQF_zdokztP8v9dEpNNl1zBOqW4GOUgkI,1407
+term_assist/models/model.py,sha256=Cky71jlktgWp94jmy8tnWwNEoc9KM63HPT11axX_Oi4,1002
+term_assist/models/openai_model.py,sha256=J8tPyx2aqf4rKB0XWjLdOYzEypsRtry2fMziEL92a7c,1597
+term_assist/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+term_assist/test/base.py,sha256=1oo8URRkl3A_eD_vAtDK3MFlHLjqs6q_zp--k6jeh0U,1420
+term_assist/test/test.py,sha256=kEzbSvav-xVSx3LPEfGUl4ChKiO5eUxswqiVC-2JgbQ,3366
+term_assist-0.6.1.dist-info/COPYING,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+term_assist-0.6.1.dist-info/METADATA,sha256=9JXVn17oi8RXcBG1S1v_ivWmfNUvTjoa6mu_nF-O0ss,54784
+term_assist-0.6.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+term_assist-0.6.1.dist-info/entry_points.txt,sha256=5gPV6Oj0yLT3X1q1WY82X-sZ9e_Qc-yMx-qaQz0uy1w,45
+term_assist-0.6.1.dist-info/top_level.txt,sha256=qmT4xp-7v4VDAHvstJDnxZoTsA1j4R7ZbdLZRIEDRo8,12
+term_assist-0.6.1.dist-info/RECORD,,
