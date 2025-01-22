@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+logo.png
+pyproject.toml
+src/UN8ID/__init__.py
+src/UN8ID/prototype.py
+src/UN8ID.egg-info/PKG-INFO
+src/UN8ID.egg-info/SOURCES.txt
+src/UN8ID.egg-info/dependency_links.txt
+src/UN8ID.egg-info/top_level.txt
+src/UN8ID/utils/__init__.py
+src/UN8ID/utils/getmac.py
