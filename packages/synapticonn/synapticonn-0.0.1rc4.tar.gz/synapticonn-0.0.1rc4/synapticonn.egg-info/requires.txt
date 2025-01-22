@@ -1,0 +1,9 @@
+jupyter
+ipykernel
+numpy
+scipy
+pandas
+matplotlib
+ipympl
+openpyxl
+joblib
