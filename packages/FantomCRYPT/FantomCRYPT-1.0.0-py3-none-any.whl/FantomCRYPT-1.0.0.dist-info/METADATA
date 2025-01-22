@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: FantomCRYPT
+Version: 1.0.0
+Summary: A custom encryption library combining multiple ciphers
+Requires-Dist: cryptography
+Requires-Dist: pycryptodome
+Dynamic: requires-dist
+Dynamic: summary
