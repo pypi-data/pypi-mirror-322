@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: ultraviolet
+Version: 0.0.0
+Summary: The little ASGI library that shines.
+Author-email: Tom Christie <tom@tomchristie.com>
+License-Expression: BSD-3-Clause
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.9
