@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: pychatbgp
+Version: 0.1.13
+Summary: A Python library to get BGP data from the ChatBGP API
+Home-page: https://github.com/yourusername/pychatbgp
+Author: Anonymous
+Author-email: anonymous@anonymous.com
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests>=2.24.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
