@@ -1,0 +1,75 @@
+Metadata-Version: 2.4
+Name: bagua-quant
+Version: 1.0.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Author: <husky-wealths> <husky@wealths.app
+Author-email: <husky-wealths> <husky@wealths.app
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/BaguaQuantify/bagua-quant
+
+# Bagua Quant (八卦量化)
+
+八卦量化是一个用 Rust 编写的高性能量化交易库，提供 Python 绑定。该库旨在为量化交易提供高效、可靠的工具集。
+
+## 特性
+
+- 🚀 高性能：使用 Rust 编写核心功能，确保最佳性能
+- 🐍 Python 友好：通过 PyO3 提供完整的 Python 绑定
+- 🔧 功能丰富：支持多种交易类型和市场数据处理
+- ⚡ 异步支持：基于 Tokio 的异步运行时
+- 📊 数据处理：内置各种数据处理和分析工具
+
+## 安装
+
+确保你的系统已安装 Rust 和 Python。然后可以通过以下方式安装：
+
+```bash
+pip install bagua-quant
+```
+
+## 主要功能
+
+- 交易类型支持：现货、合约等多种交易类型
+- 市场数据处理：K线数据、订单簿等
+- 订单管理：支持多种订单类型和状态追踪
+- 位置管理：实时位置跟踪和管理
+- 工具函数：时间处理、数值计算等辅助功能
+
+## 使用示例
+
+```python
+from bagua import RunMode, TradeType, TradeSide, Pair
+
+# 创建交易对
+pair = Pair("BTC", "USDT")
+
+# 处理时间
+from bagua import now_ms, ms_to_date, str_to_date
+current_time = now_ms()
+date_str = ms_to_date(current_time)
+
+# 数值处理
+from bagua import safe_float
+value = safe_float("123.45")
+```
+
+## 开发
+
+要参与开发，请确保安装了以下依赖：
+
+- Rust (2021 edition)
+- Python 3.7+
+- 必要的系统库
+
+## 许可证
+
+[License Name] - 详见 LICENSE 文件
+
+## 贡献
+
+欢迎提交 Issue 和 Pull Request！
+
