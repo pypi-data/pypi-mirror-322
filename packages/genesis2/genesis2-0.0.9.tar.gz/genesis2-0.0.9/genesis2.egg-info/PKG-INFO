@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: genesis2
+Version: 0.0.9
+Summary: Python wrapper for Genesis2
+Home-page: https://github.com/StanfordVLSI/Genesis2/wiki
+Author: Keyi Zhang
+Author-email: keyi@cs.stanford.edu
+License-File: LICENSE.txt
