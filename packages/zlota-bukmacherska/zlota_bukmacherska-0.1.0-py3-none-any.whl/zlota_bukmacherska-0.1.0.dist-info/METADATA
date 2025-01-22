@@ -1,0 +1,33 @@
+Metadata-Version: 2.2
+Name: zlota_bukmacherska
+Version: 0.1.0
+Summary: Biblioteka do przewidywania correct score i typów zakładów
+Home-page: https://github.com/twoj_repo/zlota_bukmacherska
+Author: Twoje Imię
+Author-email: twojemail@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: lightgbm
+Requires-Dist: stalowa_bukmacherska
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# ZĹ‚ota Bukmacherska
+
+Biblioteka do przewidywania correct score i rĂłĹĽnych typĂłw zakĹ‚adĂłw, wykorzystujÄ…ca modele Machine Learning.
