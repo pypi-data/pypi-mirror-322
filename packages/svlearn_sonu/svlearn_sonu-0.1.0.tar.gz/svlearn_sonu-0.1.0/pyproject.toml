@@ -1,0 +1,15 @@
+[project]
+name = "svlearn_sonu"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "svlearn-bootcamp>=0.1.7",
+]
+
+[tool.hatch]
+packages = "src"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

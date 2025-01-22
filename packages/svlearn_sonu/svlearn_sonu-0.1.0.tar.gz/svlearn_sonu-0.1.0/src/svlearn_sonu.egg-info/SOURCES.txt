@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/hello.py
+src/svlearn_sonu/__init__.py
+src/svlearn_sonu.egg-info/PKG-INFO
+src/svlearn_sonu.egg-info/SOURCES.txt
+src/svlearn_sonu.egg-info/dependency_links.txt
+src/svlearn_sonu.egg-info/requires.txt
+src/svlearn_sonu.egg-info/top_level.txt
