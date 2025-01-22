@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: fantomcryptor
+Version: 0.1
+Summary: A custom encryption algorithm combining Fernet, AES 256 GCM, RSA, and Vigenère Cipher.
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: cryptography
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: summary

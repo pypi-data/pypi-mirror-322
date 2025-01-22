@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+fantomcryptor.egg-info/PKG-INFO
+fantomcryptor.egg-info/SOURCES.txt
+fantomcryptor.egg-info/dependency_links.txt
+fantomcryptor.egg-info/requires.txt
+fantomcryptor.egg-info/top_level.txt
