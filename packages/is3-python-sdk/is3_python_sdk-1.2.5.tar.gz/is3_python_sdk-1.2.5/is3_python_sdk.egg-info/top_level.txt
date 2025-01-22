@@ -1,0 +1,2 @@
+config
+is3_python_sdk
