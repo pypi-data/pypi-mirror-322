@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+pydgeon/__init__.py
+pydgeon/main.py
+pydgeon.egg-info/PKG-INFO
+pydgeon.egg-info/SOURCES.txt
+pydgeon.egg-info/dependency_links.txt
+pydgeon.egg-info/top_level.txt
