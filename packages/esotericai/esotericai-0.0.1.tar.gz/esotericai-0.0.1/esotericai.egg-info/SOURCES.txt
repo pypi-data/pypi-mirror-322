@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+esotericai/__init__.py
+esotericai/circuit.py
+esotericai.egg-info/PKG-INFO
+esotericai.egg-info/SOURCES.txt
+esotericai.egg-info/dependency_links.txt
+esotericai.egg-info/requires.txt
+esotericai.egg-info/top_level.txt
