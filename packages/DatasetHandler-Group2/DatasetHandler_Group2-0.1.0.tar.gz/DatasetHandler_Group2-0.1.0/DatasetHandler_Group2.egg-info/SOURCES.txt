@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+DatasetHandler_Group2/DatasetHandler_Group2.py
+DatasetHandler_Group2/__init__.py
+DatasetHandler_Group2.egg-info/PKG-INFO
+DatasetHandler_Group2.egg-info/SOURCES.txt
+DatasetHandler_Group2.egg-info/dependency_links.txt
+DatasetHandler_Group2.egg-info/requires.txt
+DatasetHandler_Group2.egg-info/top_level.txt
