@@ -1,0 +1,14 @@
+*.pyc
+__pycache__/
+
+version.py
+
+public/
+tmp/
+venv/
+
+/doc/source/*.rst
+!/doc/source/index.rst
+
+.coverage
+htmlcov/
