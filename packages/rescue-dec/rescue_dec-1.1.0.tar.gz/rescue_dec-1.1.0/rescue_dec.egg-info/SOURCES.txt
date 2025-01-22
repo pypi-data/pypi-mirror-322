@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rescue_dec.egg-info/PKG-INFO
+rescue_dec.egg-info/SOURCES.txt
+rescue_dec.egg-info/dependency_links.txt
+rescue_dec.egg-info/requires.txt
+rescue_dec.egg-info/top_level.txt
