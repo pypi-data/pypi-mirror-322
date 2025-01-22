@@ -1,0 +1,3 @@
+include bbmapy/__init__.py
+recursive-include bbmapy *
+recursive-include vendor *
