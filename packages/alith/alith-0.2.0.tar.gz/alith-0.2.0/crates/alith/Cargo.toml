@@ -1,0 +1,59 @@
+[package]
+name = "alith"
+version = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+alith-core.workspace = true
+alith-knowledge.workspace = true
+alith-store.workspace = true
+alith-inference.workspace = true
+alith-tools.workspace = true
+
+llm_client.workspace = true
+async-trait.workspace = true
+tokio.workspace = true
+serde.workspace = true
+anyhow.workspace = true
+schemars.workspace = true
+reqwest.workspace = true
+url.workspace = true
+
+[[example]]
+name = "agent"
+
+[[example]]
+name = "agent_deepseek"
+
+[[example]]
+name = "agent_claude"
+
+[[example]]
+name = "agent_with_tools"
+
+[[example]]
+name = "agent_with_search_tool"
+
+[[example]]
+name = "agent_with_store"
+
+[[example]]
+name = "agent_with_knowledge"
+
+[[example]]
+name = "agent_with_memory"
+
+[[example]]
+name = "agent_with_rag"
+
+[[example]]
+name = "agent_with_qdrant"
+
+[[example]]
+name = "agent_with_cot"
+
+[[example]]
+name = "agent_with_decision"
+
+[features]
+inference = ["alith-core/inference", "alith-inference/inference"]
