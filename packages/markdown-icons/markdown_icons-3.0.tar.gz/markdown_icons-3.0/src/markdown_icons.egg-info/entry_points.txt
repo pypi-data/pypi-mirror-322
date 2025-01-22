@@ -1,0 +1,2 @@
+[markdown.extensions]
+iconfonts = iconfonts:IconFontsExtension
