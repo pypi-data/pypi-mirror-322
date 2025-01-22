@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mytower_sftp_package.egg-info/PKG-INFO
+mytower_sftp_package.egg-info/SOURCES.txt
+mytower_sftp_package.egg-info/dependency_links.txt
+mytower_sftp_package.egg-info/requires.txt
+mytower_sftp_package.egg-info/top_level.txt
+sftp_package/__init__.py
+sftp_package/sftp_client.py
+tests/test_sftp_client.py
