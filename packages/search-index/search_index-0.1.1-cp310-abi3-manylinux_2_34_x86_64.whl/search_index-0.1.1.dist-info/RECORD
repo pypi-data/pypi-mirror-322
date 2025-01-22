@@ -1,0 +1,11 @@
+search_index-0.1.1.dist-info/METADATA,sha256=7nD05xUQ_Iw-IGvP7jnh7vuXm_UPmqDrgFdKcb-0BhA,1571
+search_index-0.1.1.dist-info/WHEEL,sha256=ggwuZdcW4rT-NwVpBTzh0LyHT0jNZsjY77ZZOGRYaIY,107
+search_index-0.1.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+search_index/__init__.py,sha256=sWPE0AXTQPQQK8fyPh_5Ip72_rarAChgw6ibZM4OwsE,243
+search_index/similarity.py,sha256=92SSylkSSFEW7oCh8bMIk8vNxw4MO72ZBnxCYJmnUYI,15288
+search_index/__init__.pyi,sha256=WoRrg8kIeBwvAy3pKhHoDAZeNOnZGKDca_GDu1rBXoI,3483
+search_index/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+search_index/base.py,sha256=uoBmY9I-nExPE9VWBWNdEvITvF0R8O_60F6UzfCCmdo,2005
+search_index/version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+search_index/_internal.abi3.so,sha256=RinDjHD1njm_b7_DKhUTJCvVkKrxtEkv9IIAd9TKNVE,1318016
+search_index-0.1.1.dist-info/RECORD,,
