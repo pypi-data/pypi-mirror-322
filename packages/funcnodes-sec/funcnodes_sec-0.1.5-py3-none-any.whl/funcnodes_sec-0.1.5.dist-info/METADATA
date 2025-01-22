@@ -1,0 +1,24 @@
+Metadata-Version: 2.3
+Name: funcnodes-sec
+Version: 0.1.5
+Summary: 
+License: MIT
+Author: Kourosh Rezaei
+Author-email: kourosh.rezaei@linkdlab.de
+Requires-Python: >=3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: funcnodes
+Requires-Dist: funcnodes-pandas
+Requires-Dist: funcnodes-span
+Project-URL: download, https://pypi.org/project/funcnodes-sec/#files
+Project-URL: homepage, https://github.com/Linkdlab/funcnodes_sec
+Project-URL: source, https://github.com/Linkdlab/funcnodes_sec
+Project-URL: tracker, https://github.com/Linkdlab/funcnodes_sec/issues
+Description-Content-Type: text/markdown
+
+Funcnodes Sec
+
