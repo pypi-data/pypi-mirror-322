@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: liteboty-stream
+Version: 0.1.0
+Summary: 
+Author: yejue
+Author-email: 1145331931@qq.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: PySide6 (>=6.8.1.1,<7.0.0.0)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: pillow (>=11.0.0,<12.0.0)
+Requires-Dist: redis (>=5.2.1,<6.0.0)
+Description-Content-Type: text/markdown
+
+
