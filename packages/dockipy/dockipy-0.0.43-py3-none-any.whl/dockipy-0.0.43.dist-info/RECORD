@@ -1,0 +1,13 @@
+dockipy/__about__.py,sha256=Pdt3f7HaS22WyqUzI9wpWn_Wr08pc7xiHKLh2K2D_r0,156
+dockipy/__init__.py,sha256=SsygTqK7CTnJ7WSMS6Rtz1YbsX5EF2xpP57HN7igRno,133
+dockipy/dockibook.py,sha256=2gT0Jn3zUhb-RVYeDZt6RJhSglDMF_NpzqwnUtZ04hI,1222
+dockipy/dockipy.py,sha256=sndHQv-lkAFAbyA3o_geyniTuZqpF11PtwGphkzQhX8,833
+dockipy/dockishell.py,sha256=kn9bWyjHaxxJy7fkVpQ3AXOMa9gMG39sJFgnXVhhm3A,731
+dockipy/envibook.py,sha256=ZLHGtA2U1yP_3m7sh3MF7jKAzH15xLYuJB2pEIwuWPE,2579
+dockipy/envipy.py,sha256=GawOYCUZJWwm7OyY1p5xHO1X_WVbWwpeM2O0hXTR2ac,2090
+dockipy/utils.py,sha256=PPTREZ-wk5pBO5ZBQAJYXMPmgsHdS33ypjoIJHGroDA,18311
+dockipy-0.0.43.dist-info/METADATA,sha256=Bj6ChMGLTyYuDAQ-3ML3AZ2ofFklg2l3NM9PN2Ah8Ew,5409
+dockipy-0.0.43.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+dockipy-0.0.43.dist-info/entry_points.txt,sha256=IoB7doR7orDWPjmfYBGaEePpXQ7UH51oWBAMYzPEXYI,341
+dockipy-0.0.43.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dockipy-0.0.43.dist-info/RECORD,,
