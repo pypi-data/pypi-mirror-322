@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+
+[dev]
+pytest
+pytest-cov
+flake8
