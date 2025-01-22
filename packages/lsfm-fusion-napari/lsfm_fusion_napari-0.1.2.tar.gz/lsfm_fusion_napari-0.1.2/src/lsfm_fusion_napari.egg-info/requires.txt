@@ -1,0 +1,13 @@
+numpy
+qtpy
+aicsimageio
+lsfm_fuse
+napari[all]
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
