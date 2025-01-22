@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+change_log.txt
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+pidol/__init__.py
+pidol.egg-info/PKG-INFO
+pidol.egg-info/SOURCES.txt
+pidol.egg-info/dependency_links.txt
+pidol.egg-info/not-zip-safe
+pidol.egg-info/requires.txt
+pidol.egg-info/top_level.txt
