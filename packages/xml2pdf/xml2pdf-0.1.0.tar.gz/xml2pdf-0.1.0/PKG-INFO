@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: xml2pdf
+Version: 0.1.0
+Summary: A Python library to convert XML files to PDF
+Home-page: https://github.com/Higgy-debug/xml2pdf
+Author: Hirthickkesh
+Author-email: hirthickkeshpr@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.0
+Requires-Dist: lxml>=4.9.0
+Requires-Dist: weasyprint>=59.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# XML2PDF
+
+A Python library to convert XML files to PDF documents.
+
+## Installation
+
+```bash
+pip install xml2pdf

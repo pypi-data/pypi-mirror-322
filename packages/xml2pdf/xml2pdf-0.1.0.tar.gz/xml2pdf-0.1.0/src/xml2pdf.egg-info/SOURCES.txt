@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/xm2pdf/__init__.py
+src/xm2pdf/cleaner.py
+src/xm2pdf/converter.py
+src/xm2pdf/downloader.py
+src/xm2pdf/xslt_generator.py
+src/xml2pdf.egg-info/PKG-INFO
+src/xml2pdf.egg-info/SOURCES.txt
+src/xml2pdf.egg-info/dependency_links.txt
+src/xml2pdf.egg-info/requires.txt
+src/xml2pdf.egg-info/top_level.txt
+tests/test_conversion.py
