@@ -1,0 +1,11 @@
+README.md
+setup.py
+xxe/__init__.py
+xxe/core.py
+xxe.egg-info/PKG-INFO
+xxe.egg-info/SOURCES.txt
+xxe.egg-info/dependency_links.txt
+xxe.egg-info/entry_points.txt
+xxe.egg-info/not-zip-safe
+xxe.egg-info/requires.txt
+xxe.egg-info/top_level.txt
