@@ -1,0 +1,10 @@
+liblistenbrainz/__init__.py,sha256=wQ1GyX5nkjs6k6mB7BPhCWue5EM-Cc_Ynkknof0H-N4,1355
+liblistenbrainz/client.py,sha256=La1t9Ru3-QHFZfm9MS_2G5e9CXWqGB9Yrpi5a8qgTSI,20429
+liblistenbrainz/errors.py,sha256=IiBnVu8qGG8Thd57TJUI3UC0Q0_fOCAZi-NTdcslJBc,1640
+liblistenbrainz/listen.py,sha256=LW1X7AgpUOHtRojXUoZkKyiBa8Wg8GviRu2nUFXcUPY,6318
+liblistenbrainz/utils.py,sha256=IjESdmbWwQ2nYmUbcSFYyGMbSQwfXTVmxi5lGKTYVk4,2731
+liblistenbrainz-0.5.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+liblistenbrainz-0.5.6.dist-info/METADATA,sha256=Rck52Jq88Or02JnVuMhFI3GudevuWIwqxKSwzGXRh0U,3764
+liblistenbrainz-0.5.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+liblistenbrainz-0.5.6.dist-info/top_level.txt,sha256=s4fQVh_BL49eEbEZcozFCcWX7PRA6IkrNEiyg8JaozE,16
+liblistenbrainz-0.5.6.dist-info/RECORD,,
