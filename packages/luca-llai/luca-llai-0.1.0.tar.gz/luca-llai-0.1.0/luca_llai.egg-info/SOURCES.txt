@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+luca/__init__.py
+luca/luca.py
+luca_llai.egg-info/PKG-INFO
+luca_llai.egg-info/SOURCES.txt
+luca_llai.egg-info/dependency_links.txt
+luca_llai.egg-info/entry_points.txt
+luca_llai.egg-info/requires.txt
+luca_llai.egg-info/top_level.txt
