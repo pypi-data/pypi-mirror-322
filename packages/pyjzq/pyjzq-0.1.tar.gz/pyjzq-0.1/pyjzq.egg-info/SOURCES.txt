@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyjzq/__init__.py
+pyjzq/game.py
+pyjzq.egg-info/PKG-INFO
+pyjzq.egg-info/SOURCES.txt
+pyjzq.egg-info/dependency_links.txt
+pyjzq.egg-info/entry_points.txt
+pyjzq.egg-info/top_level.txt
