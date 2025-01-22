@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: maktab-dl
+Version: 0.1.0
+Summary: A simple downloader videos from maktabkhooneh
+Author: Mohammadreza Shaghouzi
+Author-email: Mohammadreza Shaghouzi <sh.mohammad66@yahoo.com>
+Project-URL: Homepage, https://github.com/softrebel/maktab-dl
+Project-URL: BugTracker, https://github.com/softrebel/maktab-dl/issues
+Project-URL: Repository, https://github.com/softrebel/maktab-dl
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: pydantic>=2.10.5
+Requires-Dist: lxml>=5.3.0
+Requires-Dist: click>=8.1.8
+Requires-Dist: tqdm>=4.67.1
+Dynamic: author
+
+# maktab-dl
+Maktabkhooneh Downloader 
