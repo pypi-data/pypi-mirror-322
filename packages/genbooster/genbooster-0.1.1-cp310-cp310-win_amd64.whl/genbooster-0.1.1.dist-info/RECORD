@@ -1,0 +1,7 @@
+genbooster-0.1.1.dist-info/METADATA,sha256=kybP_QLc-pfE4nTnagsS9btXHlfduBR30IvoSeIy0tQ,2977
+genbooster-0.1.1.dist-info/WHEEL,sha256=nWeKMpvecbFEmBYQM44p2FChzkAyOaqMiofeuspsYro,96
+genbooster-0.1.1.dist-info/licenses/LICENSE,sha256=qV3z89BOt4yBgrNej2IPfgZNaTv1ffdWnocXe2feuec,1716
+genbooster/genbooster.py,sha256=YgHy1m7lzvtt8D5ZRko7hl-6uEXORqLejD8SrR4Bl8c,7909
+genbooster/__init__.py,sha256=EjXisYjc-Iy2GN0DNprPxXCVcs7fYWZrTN3pCh7Mz5I,167
+genbooster/rust_core.cp310-win_amd64.pyd,sha256=oInv3gBwl3p04hkio5J3Oq2ohz0yCwC8ujlV5sDUdWo,415232
+genbooster-0.1.1.dist-info/RECORD,,
