@@ -1,0 +1,9 @@
+minkarr/__init__.py,sha256=Q4WSPk-93jgVHcOoZ6Y1eVx7ssfLHdi3TWs4iL1PIsY,22
+minkarr/globs.py,sha256=72dlnroSE1QgyEg9LX4I9538nw9I_lyCdvGqa5Xgvc0,301
+minkarr/karr.py,sha256=48E7eKgoxShPRlKl1xcT9bgtT1iknmSC4LWhNRdycwA,26864
+minkarr/utils.py,sha256=TQpyD7j4AgOrLyCEoDSyfOc5YRcJbguIaI_p-C2SDyg,3109
+minkarr/data_preprocess/gen_obj_alias_clean_dict.py,sha256=nMzX31qsEKTd_Bi6h6yZ0AcXxSxvpRgDKbtgmLlyr8s,4064
+minkarr/data_preprocess/wikidata_get.py,sha256=zoptOBl4R5TKcmIVDBFut5XlcBdc2n2JKo2Wv6-Hh_w,671
+minkarr-0.1.7.dist-info/METADATA,sha256=kxiwfC7bdT4oIlr2OWaZf1Fgoir5EvB6ng4BuRutA10,2731
+minkarr-0.1.7.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+minkarr-0.1.7.dist-info/RECORD,,
