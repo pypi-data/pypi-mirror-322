@@ -1,0 +1,9 @@
+groq
+wikipedia-api
+youtube_transcript_api
+PyPDF2
+faiss-cpu
+langchain_community
+requests
+beautifulsoup4
+pandas
