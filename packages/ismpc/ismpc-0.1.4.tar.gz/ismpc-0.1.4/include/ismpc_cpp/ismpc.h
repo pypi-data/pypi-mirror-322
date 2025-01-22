@@ -1,0 +1,18 @@
+#pragma once
+
+#include "ismpc_cpp/modules/foot_trajectory_generator.h"
+#include "ismpc_cpp/modules/footstep_plan_provider.h"
+#include "ismpc_cpp/modules/kalman_filter.h"
+#include "ismpc_cpp/modules/model_predictive_controller.h"
+#include "ismpc_cpp/modules/moving_constraint_provider.h"
+#include "ismpc_cpp/modules/reference_provider.h"
+#include "ismpc_cpp/representations/footstep_plan.h"
+#include "ismpc_cpp/representations/frame_info.h"
+#include "ismpc_cpp/representations/reference.h"
+#include "ismpc_cpp/representations/state.h"
+#include "ismpc_cpp/tools/config/config.h"
+#include "ismpc_cpp/tools/config/robot_config.h"
+#include "ismpc_cpp/types/end_effector.h"
+#include "ismpc_cpp/types/optimization.h"
+#include "ismpc_cpp/types/support_phase.h"
+#include "ismpc_cpp/types/tail_type.h"
