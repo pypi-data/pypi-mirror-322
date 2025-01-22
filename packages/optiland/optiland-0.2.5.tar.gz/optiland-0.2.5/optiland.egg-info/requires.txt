@@ -1,0 +1,11 @@
+setuptools
+numpy
+scipy
+pandas
+pyyaml
+matplotlib
+vtk
+tabulate
+numba
+requests
+seaborn
