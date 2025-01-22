@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Topsis-Jasmine-102217225
+Version: 1.0.0
+Summary: A Python package to implement the TOPSIS method.
+Home-page: https://github.com/kjasmine-git/Topsis-Jasmine-102217225
+Author: Jasmine Kaur
+Author-email: jkaur3_be22@thapar.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# Topsis-Jasmine-102217225
+
+This package implements the TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) method.
+
+## Installation
+```bash
+pip install Topsis-Jasmine-102217225
