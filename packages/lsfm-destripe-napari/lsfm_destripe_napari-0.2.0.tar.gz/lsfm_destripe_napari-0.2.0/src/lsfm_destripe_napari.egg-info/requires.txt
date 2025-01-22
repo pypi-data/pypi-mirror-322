@@ -1,0 +1,14 @@
+numpy<2.0
+qtpy
+scikit-image
+aicsimageio
+lsfm_destripe
+napari[all]
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
