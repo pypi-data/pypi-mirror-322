@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rescue-dec
+Version: 1.0.1
+Summary: Resnet model employing scRNA-seq for characterizing cell composition by using expression of whole genome.
+Home-page: https://github.com/xyMa00/Rescue.git
+Author: mxy
+Author-email: xyMa00@126.com
+License: MIT
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.8
+License-File: LICENSE
