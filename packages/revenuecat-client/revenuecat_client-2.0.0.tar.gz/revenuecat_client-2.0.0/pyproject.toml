@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "revenuecat-client"
+version = "2.0.0"
+description = "A client library for accessing RevenueCat API v2"
+authors = ["Yurii Havrylko"]
+readme = "README.md"
+packages = [
+    {include = "revenuecat_client"},
+]
+include = ["CHANGELOG.md", "revenuecat_client/py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = ">=0.20.0,<0.27.0"
+attrs = ">=21.3.0"
+python-dateutil = "^2.8.0"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "3.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.bandit]
+skips = ["B110"]
