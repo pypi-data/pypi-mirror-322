@@ -1,0 +1,4 @@
+dist/
+tokens/
+vscode/
+__pycache__/
