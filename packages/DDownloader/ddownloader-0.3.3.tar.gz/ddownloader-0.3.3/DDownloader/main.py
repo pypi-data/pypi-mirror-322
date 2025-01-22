@@ -1,0 +1,120 @@
+import os, re, logging, coloredlogs, time, json
+from pathlib import Path
+from colorama import Fore, Style
+from DDownloader.modules.helper import download_binaries, detect_platform, get_media_info
+from DDownloader.modules.args_parser import parse_arguments
+from DDownloader.modules.banners import clear_and_print, display_help
+from DDownloader.modules.downloader import DOWNLOADER
+
+logger = logging.getLogger("+ MAIN + ")
+coloredlogs.install(level='DEBUG', logger=logger)
+
+# =========================================================================================================== #
+
+def validate_directories():
+    downloads_dir = 'downloads'
+    if not os.path.exists(downloads_dir):
+        os.makedirs(downloads_dir)
+        logger.debug(f"Created '{downloads_dir}' directory.")
+    return downloads_dir
+
+# =========================================================================================================== #
+
+def process_media_info(directory="downloads", log_dir="logs"):
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+        logger.info(f"Created logs directory: {log_dir}")
+
+    if not os.path.exists(directory):
+        logger.error(f"Directory '{directory}' does not exist. Please create it and add media files.")
+        return
+
+    mp4_files = [os.path.join(directory, f) for f in os.listdir(directory) if f.endswith(".mp4")]
+
+    if not mp4_files:
+        logger.info(f"No .mp4 files found in directory: {directory}")
+        return
+
+    logger.info(f"Found {len(mp4_files)} .mp4 file(s) in '{directory}'. Processing...")
+
+    for file_path in mp4_files:
+        try:
+            media_info = get_media_info(file_path)
+            if media_info:
+                base_name = os.path.splitext(os.path.basename(file_path))[0]
+                log_file_path = os.path.join(log_dir, f"{base_name}.log")
+                with open(log_file_path, "w", encoding="utf-8") as log_file:
+                    json.dump(media_info, log_file, indent=4)
+                logger.info(f"Saved media information to: {log_file_path}")
+                print(Fore.RED + "═" * 80 + Fore.RESET + "\n")
+
+        except Exception as e:
+            logger.error(f"Failed to process {file_path}: {e}")
+
+# =========================================================================================================== #
+
+def main():
+    clear_and_print()
+    platform_name = detect_platform()
+    logger.info("Downloading binaries... Please wait!")
+    print(Fore.MAGENTA + "=" * 100 + Fore.RESET)
+    time.sleep(1)
+    bin_dir = Path(__file__).resolve().parent / "bin"
+    download_binaries(bin_dir, platform_name)
+    clear_and_print()
+
+    downloads_dir = validate_directories()
+    try:
+        args = parse_arguments()
+    except SystemExit:
+        display_help()
+        exit(1)
+
+    downloader = DOWNLOADER()
+
+    if re.search(r"\.mpd\b", args.url, re.IGNORECASE):
+        logger.info("DASH stream detected. Initializing DASH downloader...")
+    elif re.search(r"\.m3u8\b", args.url, re.IGNORECASE):
+        logger.info("HLS stream detected. Initializing HLS downloader...")
+    elif re.search(r"\.ism\b", args.url, re.IGNORECASE):
+        logger.info("ISM (Smooth Streaming) detected. Initializing ISM downloader...")
+    else:
+        logger.error("Unsupported URL format. Please provide a valid DASH (.mpd), HLS (.m3u8), or ISM (.ism) URL.")
+        exit(1)
+
+    downloader.manifest_url = args.url
+    downloader.output_name = args.output
+    downloader.decryption_keys = args.key or []
+    downloader.headers = args.header or []
+    downloader.proxy = args.proxy
+
+    if downloader.proxy:
+        if not downloader.proxy.startswith("http://"):
+            downloader.proxy = f"http://{downloader.proxy}"
+        logger.info(f"Proxy: {downloader.proxy}")
+        print(Fore.RED + "═" * 80 + Fore.RESET + "\n")
+
+    if downloader.headers:
+        logger.info("Headers:")
+        for header in downloader.headers:
+            logger.info(f"  - {header}")
+            print(Fore.RED + "═" * 80 + Fore.RESET + "\n")
+
+    if downloader.decryption_keys:
+        logger.info("Decryption keys:")
+        for key in downloader.decryption_keys:
+            logger.info(f"  - {key}")
+            print(Fore.RED + "═" * 80 + Fore.RESET + "\n")
+
+    try:
+        downloader.drm_downloader()
+    except Exception as e:
+        logger.error(f"An error occurred during the download process: {e}")
+        exit(1)
+
+    process_media_info(downloads_dir)
+
+# =========================================================================================================== #
+
+if __name__ == "__main__":
+    main()
