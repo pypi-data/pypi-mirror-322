@@ -1,0 +1,6 @@
+yagmail
+
+[dev]
+pytest
+pytest-cov
+pre-commit
