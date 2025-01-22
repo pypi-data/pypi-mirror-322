@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: apikee
+Version: 0.0.6
+Summary: ApiKee - A lightweight API key validation library for FastAPI
+Home-page: https://github.com/apikee-dev/apikee-python
+Author: usmhic
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# apikee
+
+`apikee` is a package designed to securely generate and validate API keys using encryption. It supports both local and managed API keys, with encryption-based security and easy validation.
+
+For more information about managed keys, visit [apikee.com](https://apikee.com).
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+  - [Generate API Key](#generate-api-key)
+  - [Validate API Key](#validate-api-key)
+- [Error Handling](#error-handling)
+- [Environment Variables](#environment-variables)
+- [License](#license)
+
+## Installation
+
+To install the `apikee` package, use `pip`:
+
+```bash
+pip install apikee
+```
+
+Here are the updated sections for the `README.md` for both Python and Node.js, reflecting the changes you requested regarding the environment variables, their explanations, and the optional configuration for those who prefer not to use environment variables.
+
+---
+
+## Configuration
+
+Before using the package, configure it with the necessary environment variables. You can either set these in your environment (recommended) or configure them manually in the code.
+
+### Required Environment Variables:
+
+- **`APIKEE_SECRET`**: **(Mandatory)** This is the master secret used for encryption. It is critical to securely derive encryption keys.
+- **`APIKEE_HOST`**: **(Optional)** The host for your API server. This is used for managed keys.
+- **`APIKEE_TOKEN`**: **(Optional)** The token used to authenticate API requests. This is used for managed keys.
+- **`APIKEE_PROJECT`**: **(Optional)** The project ID that your API belongs to. This is used for managed keys.
+
+### Using Environment Variables
+
+Set these variables in your `.env` file (recommended) or in your environment:
+
+```bash
+APIKEE_SECRET=your-secret-here
+APIKEE_HOST=your-api-host
+APIKEE_TOKEN=your-api-token
+APIKEE_PROJECT=your-project-id
+```
+
+### Optional Manual Configuration
+
+If you prefer not to use environment variables, you can manually configure them in your code:
+
+```python
+from apikee import configure_apikee
+
+configure_apikee({
+    'host': 'your-api-host',
+    'token': 'your-api-token',
+    'project': 'your-project-id'
+})
+```
+
+## Usage
+
+### Generate API Key
+
+To generate an API key, you can use the `generate_api_key` function. It supports both local and managed keys.
+
+#### Example:
+
+```python
+from apikee import generate_api_key
+
+result = generate_api_key('my-app-name')
+
+# Output
+print('API Key:', result['apiKey'])
+print('Key ID:', result['keyId'])
+```
+
+- **`name`** (str): The name of your app or service.
+- **`project_id`** (optional, str): The project ID for managed keys.
+- **`endpoint_ids`** (optional, list): A list of endpoint IDs for managed keys.
+
+#### Notes:
+
+- If you provide a `project_id`, it will generate a managed API key using the server.
+- If no `project_id` is provided, it will generate a local key.
+- If you don't specify `endpointIds`, all project endpoints will be considered.
+
+### Validate API Key
+
+To validate an API key, use the `validate_api_key` function. It will check if the provided key matches the expected value, using either the local key or the managed key system.
+
+#### Example:
+
+```python
+from apikee import validate_api_key
+
+is_valid = validate_api_key('your-api-key', key_id='your-key-id')
+
+if is_valid:
+    print('API key is valid')
+else:
+    print('Invalid API key')
+```
+
+- **`apikey`** (str): The API key to validate.
+- **`key_id`** (str): The key ID to validate against for local keys **OR** **`endpoint_id`** (str): The endpoint ID to validate against for managed keys.
+
+### Error Handling
+
+If any validation or encryption steps fail, the functions will raise errors. Ensure you handle these exceptions properly to avoid interruptions in your flow.
+
+#### Example:
+
+```python
+try:
+    result = generate_api_key('my-app-name')
+    # Continue processing with the generated API key
+except ValueError as e:
+    print(f"Error generating API key: {str(e)}")
+```
+
+## License
+
+This package is released under the MIT License. See [LICENSE](LICENSE) for more details.
