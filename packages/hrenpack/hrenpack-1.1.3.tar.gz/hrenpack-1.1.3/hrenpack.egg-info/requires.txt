@@ -1,0 +1,7 @@
+requests>=2.32.3
+screeninfo>=0.8.1
+psutil>=6.1.1
+bs4==0.0.2
+beautifulsoup4==4.12.3
+gps==3.19
+bcrypt==4.2.1
