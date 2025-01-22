@@ -1,0 +1,10 @@
+README.md,sha256=Zk0L1Tk5IM0M7cXI6tCVD8JxQmwahcKXM8_Pb8Gq5KI,816
+requirements.txt,sha256=jlxx-dYKMB9Ym8R-pRt7WsrK6O5zL7nCLsS7BSnk0OA,118
+pysgconnect/__init__.py,sha256=Tlgpr9TWANqzrdjMEJyA40sZq9WzD3ckaOjmwZ9VPvA,187
+pysgconnect/sg_connect_auth.py,sha256=EWVpF0IpEZhH7IqAlkwN7QqkbAAphN9j_Kq1ML-10ss,2105
+pysgconnect/token.py,sha256=sQI-VN4A_VPPhiFj5UQ_QGzj-G7J5vFMQwPxhY0xwtk,629
+pysgconnect-2.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pysgconnect-2.3.dist-info/METADATA,sha256=5A9zL1iBXSTbmBGJ3b9vvIqIU-JJb72IfMWEpD2hs3g,2384
+pysgconnect-2.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pysgconnect-2.3.dist-info/top_level.txt,sha256=QANQzh-nv5EwLpNuSOlEquL2b4DkOfY0AdifeVHQ9Sw,12
+pysgconnect-2.3.dist-info/RECORD,,
