@@ -1,0 +1,62 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mileva"
+version = "0.0.1"
+description = "Python toolkit for symbolic calculations in general relativity."
+readme = "README.md"
+authors = [
+    { name = "Frederik De Ceuster", email = "frederik.deceuster@gmail.com" }
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Astronomy"
+]
+keywords = ["General Relativity", "Astrophysics", "Astronomy"]
+dependencies = [
+    "numpy",
+    "scipy",
+    "numba",
+    "sympy",
+    "matplotlib",
+    "ipywidgets",
+    "astropy",
+    "tqdm",
+    "h5py",
+]
+requires-python = ">=3.7"
+
+[tool.setuptools.packages.find]
+where = [".", "src", "src/mileva", "src/mileva/geometry"]
+include = ["mileva"]
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/Poincare-code/albert"
+
+[tool.bumpver]
+current_version = "0.0.1"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = false
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"src/mileva/__init__.py" = ["{version}"]
+#"conda/meta.yaml" = ['version: "{version}"']
+#"README.md" = ['(version {version})']
+#"docs/src/index.rst" = ['(version {version})']
+
+[tool.pytest.ini_options]
+addopts   = ["--import-mode=importlib"]
+testpaths = ["tests"]
