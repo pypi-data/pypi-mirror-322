@@ -1,0 +1,30 @@
+Metadata-Version: 2.2
+Name: fantomcryptx
+Version: 0.1.0
+Summary: FantomCRYPT: A custom cryptographic algorithm combining AES, RSA, and Vigenère.
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography
+Requires-Dist: pycryptodome
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: summary
+
+# SMProto
+
+This library provides cryptographic functions using ECDSA, ECDH, AES, and HMAC. It includes functionalities such as key generation, signing, message encryption, and integrity verification.
+
+## Installation
+
+To install the library from PyPI:
+
+```bash
+pip install smproto
