@@ -1,0 +1,11 @@
+av>=14.0.1
+pymediainfo>=6.1.0
+mediapipe>=0.10.20
+pillow>=11.1.0
+pillow_heif>=0.21.0
+tqdm>=4.67.1
+wxPython>=4.2.2
+
+[dev]
+autopep8
+pytest
