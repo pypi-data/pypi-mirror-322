@@ -1,0 +1,26 @@
+[project.urls]
+repository = "https://codeberg.org/Cs137/NuPaAc"
+"Bug Tracker" = "https://codeberg.org/Cs137/NuPaAc/issues"
+
+[tool.poetry]
+name = "nupaac"
+version = "0.1.1"
+description = "Pandas Series accessor to handle nuclides."
+authors = ["Christian Schreinemachers (Cs137)"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+radioactivedecay = "^0.6.1"
+pint-pandas = "^0.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
