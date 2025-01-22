@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: stlmc
+Version: 1.0.0.dev3
+Summary: An SMT-based bounded model checker for signal temporal logic
+Keywords: stlmc,model checker,STL,signal temporal logic,bounded model checker
+Author-Email: Geunyeol Yu <rgyen@postech.ac.kr>
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: OS Independent
+Project-URL: Homepage, https://stlmc.github.io/
+Project-URL: Bug tracker, https://github.com/stlmc/stlmc/issues
+Project-URL: Documentation, https://stlmc.github.io/assets/files/stlmc-manual.pdf
+Project-URL: Source code, https://github.com/stlmc/stlmc/
+Requires-Python: >=3.8
+Requires-Dist: termcolor
+Requires-Dist: yices
+Requires-Dist: z3-solver
+Requires-Dist: antlr4-python3-runtime==4.13.2
+Requires-Dist: sympy
+Requires-Dist: numpy
+Requires-Dist: bokeh==3.1.1
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+## STLmc
+
+STLmc is an SMT-based bounded model checker for signal temporal logic (STL) of hybrid systems. The algorithm of the tool is refutationally complete for STL properties of bounded signals. 
+
+For more information about STLmc, please visit our [website](https://stlmc.github.io/)
+
+### Features
+
+* Bounded model checking
+* Generating trajectories that falsify the given STL properties if any exists
+* Supporting various SMT solvers (e.g., Z3, Yices2, dReal3)
