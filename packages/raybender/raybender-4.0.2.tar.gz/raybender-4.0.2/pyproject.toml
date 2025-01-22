@@ -1,0 +1,86 @@
+[build-system]
+requires = ["setuptools>=59.0", "cmake"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raybender"
+version = "4.0.2"
+requires-python = ">=3.9"
+
+authors = [{name = "Mihai Dusmanu", email = "mihai.dusmanu@inf.ethz.ch"}]
+description = "Embree bindings for Python"
+urls = {Homepage = "https://github.com/cvg/raybender"}
+license = {file = "LICENSE"}
+
+dependencies = ["numpy"]
+
+[project.optional-dependencies]
+test = ["pytest", "trimesh", "xatlas", "scipy", "pillow"]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[tool.ruff]
+target-version = "py39"
+line-length = 90
+
+
+# See https://github.com/charliermarsh/ruff#rules for error code definitions.
+
+[tool.ruff.lint]
+select = [
+    # "ANN", # annotations
+    "B", # bugbear
+    "C", # comprehensions
+    "E", # style errors
+    "F", # flakes
+    "I", # import sorting
+    "RUF", # ruff specific rules
+    "UP", # upgrade
+    "W", # style warnings
+    "YTT", # sys.version
+    "ISC002",
+    "NPY201",
+    "TID251"
+]
+
+ignore = [
+  "C901", # Comprehension is too complex (11 > 10)
+  "N802", # Function name should be lowercase
+  "N806", # Variable in function should be lowercase
+  "E501", # Line too long ({width} > {limit} characters)
+  "B904", # raise ... from err
+  "B905", # zip() without an explicit strict= parameter
+  "RUF005", # recommends non-type-aware expansion
+]
+
+# don't allow implicit string concatenation
+flake8-implicit-str-concat = {"allow-multiline" = false}
+
+[tool.ruff.lint.flake8-tidy-imports.banned-api]
+"IPython.embed".msg = "you forgot to remove a debug embed ;)"
+"numpy.empty".msg = "uninitialized arrays are haunted try numpy.zeros"
+
+[tool.codespell]
+skip = "*.js*,./docs/built/*,./docs/generate/*,./models*,*.toml"
+ignore-words-list = "nd,coo,whats,bu,childs,mis,filetests"
+
+
+[tool.cibuildwheel]
+skip =  "pp* *i686 *-win32 *musllinux*"
+manylinux-x86_64-image = "manylinux_2_28"
+test-extras = ["test"]
+test-command = "pytest -v {project}/test"
+before-build = "python {project}/package/fetch-embree.py --install embree4"
+
+[tool.cibuildwheel.windows]
+before-build = "pip install delvewheel && python {project}\\package\\fetch-embree.py --install embree4"
+repair-wheel-command = "delvewheel repair --add-path embree4\\bin --no-mangle tbb12.dll;embree4.dll -w {dest_dir} {wheel}"
+
+[tool.cibuildwheel.macos]
+repair-wheel-command = "MACOSX_DEPLOYMENT_TARGET=13.0 DYLD_LIBRARY_PATH=embree4/lib delocate-wheel -w {dest_dir} -v {wheel}"
+
+[tool.cibuildwheel.linux]
+repair-wheel-command = "LD_LIBRARY_PATH=`realpath embree4/lib`; auditwheel repair -w {dest_dir} {wheel}"
+ 

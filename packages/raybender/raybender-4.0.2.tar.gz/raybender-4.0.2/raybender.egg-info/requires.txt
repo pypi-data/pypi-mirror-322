@@ -1,0 +1,8 @@
+numpy
+
+[test]
+pytest
+trimesh
+xatlas
+scipy
+pillow
