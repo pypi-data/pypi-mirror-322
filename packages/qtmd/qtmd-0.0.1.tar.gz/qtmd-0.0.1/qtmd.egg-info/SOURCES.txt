@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+change_log.txt
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+qtmd/__init__.py
+qtmd.egg-info/PKG-INFO
+qtmd.egg-info/SOURCES.txt
+qtmd.egg-info/dependency_links.txt
+qtmd.egg-info/not-zip-safe
+qtmd.egg-info/requires.txt
+qtmd.egg-info/top_level.txt
