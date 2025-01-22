@@ -1,0 +1,6 @@
+bottle
+bus
+car
+chair
+person
+sofa
