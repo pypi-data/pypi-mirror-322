@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: serbian-text-converter
+Version: 0.1.5
+Summary: A utility package for converting Serbian text between Cyrillic and Latin scripts, and generating slugs.
+Home-page: https://github.com/mladjom/serbian-text-converter
+Author: mladjom
+Author-email: mladenmilentijevic@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django :: 3.2
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=3.2
+
+# Serbian Text Converter
+
+A Python utility for converting Serbian text between Cyrillic and Latin scripts, and generating URL-friendly slugs.
+
+## Installation
+
+```bash
+pip install serbian-text-converter
+```
+
+## Usage
+
+from serbian_text_converter import SerbianTextConverter
+
+### Convert to Latin
+print(SerbianTextConverter.to_latin("Љубав"))  # Output: Ljubav
+
+### Convert to Cyrillic
+print(SerbianTextConverter.to_cyrillic("Ljubav"))  # Output: Љубав
+
+### Normalize for URLs
+print(SerbianTextConverter.normalize("Љубав и Живот"))  # Output: ljubav-i-zivot
+

@@ -1,0 +1,9 @@
+serbian_text_converter/__init__.py,sha256=hm8rFYAgjxBdcsBzWU1ybCZpXmW0ZY2cJzU4i0f1pZo,79
+serbian_text_converter/converter.py,sha256=g4vcQPtrK7dpl022hM8H6ArevTMfUVD0gKFKDYWNxng,5518
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_converter.py,sha256=VhAt8tT3zzU3p8RebpKRy6snhl0oLqdU_cJDwiccbms,538
+serbian_text_converter-0.1.5.dist-info/LICENSE,sha256=X507fUcShri4WNhfOPYRpgudgxotXlW2Y7VblrRdp6E,1063
+serbian_text_converter-0.1.5.dist-info/METADATA,sha256=HLjR8l_5r0aKbgozpTwHAMZEhL1s0wgqUJ1Bgn--mUI,1361
+serbian_text_converter-0.1.5.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+serbian_text_converter-0.1.5.dist-info/top_level.txt,sha256=TUInGNdSwSmIRJcsyk9aQ5IqvFZDwoogEI2ozAchGLw,29
+serbian_text_converter-0.1.5.dist-info/RECORD,,
