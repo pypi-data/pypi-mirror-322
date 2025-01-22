@@ -1,0 +1,2 @@
+[console_scripts]
+diha = diha.commands:cli
