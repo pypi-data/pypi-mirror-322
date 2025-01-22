@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: django_starter
+Version: 0.5.0
+Home-page: https://github.com/v-alex-dev/django_starter
+Author: Vens
+Author-email: vens.dev.freelance@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: django
+Requires-Dist: djangorestframework
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
