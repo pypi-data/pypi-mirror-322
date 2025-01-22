@@ -1,0 +1,11 @@
+CHANGELOG.md
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+visualdsa/__init__.py
+visualdsa.egg-info/PKG-INFO
+visualdsa.egg-info/SOURCES.txt
+visualdsa.egg-info/dependency_links.txt
+visualdsa.egg-info/requires.txt
+visualdsa.egg-info/top_level.txt
