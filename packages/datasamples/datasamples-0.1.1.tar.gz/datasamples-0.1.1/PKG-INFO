@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: datasamples
+Version: 0.1.1
+Summary: Add your description here
+Author-email: Sebastian <peraltas@seas.upenn.edu>
+Requires-Python: >=3.11
