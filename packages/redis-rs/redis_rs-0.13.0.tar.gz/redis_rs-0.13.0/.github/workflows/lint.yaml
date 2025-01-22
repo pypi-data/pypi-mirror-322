@@ -1,0 +1,47 @@
+name: Lint
+
+env:
+  RUSTFLAGS: "-Dwarnings"
+
+on:
+  push:
+    branches:
+      - 'main'
+    tags: [ '*' ]
+  pull_request:
+    branches:
+      - 'main'
+
+jobs:
+  fmt:
+    name: Rustfmt
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt
+      - name: cargo fmt
+        run: cargo fmt --all -- --check
+
+  clippy:
+    name: Rust Clippy
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Clippy
+        run: cargo clippy --all-targets --all-features
+
+  py:
+    name: Python linters
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: pip install ruff mypy
+      - name: Ruff check
+        run: ruff check redis_rs tests
+      - name: Ruff format
+        run: ruff format --check redis_rs tests
+      - name: Run mypy
+        run: mypy redis_rs tests
