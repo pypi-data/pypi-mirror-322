@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: pyKobana
+Version: 0.0.1
+Summary: A simple python client for Kobana API
+Home-page: https://github.com/dolalima/pyKobana
+Author: Dola Lima
+Author-email: dolalima@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# My API Library
+
+A Python library to access an API through HTTP requests.
+
+## Installation
+
+```bash
+pip install .
