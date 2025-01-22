@@ -1,0 +1,37 @@
+[project]
+name = "normie"
+version = "0.5.0a3"
+description = "Accurate and efficient normal distribution statistics."
+authors = [{name = "Jack Grahl", email = "jack.grahl@gmail.com"}]
+license = { text = "MIT" }
+readme = "README.md"
+maintainers = [{name = "Jack Grahl", email = "jack.grahl@gmail.com"}]
+requires-python = ">=3.7"
+dependencies = [ "setuptools (>=56.0.0,<57.0.0)" ]
+
+[tool.poetry]
+homepage = "https://github.com/jwg4/normie"
+repository = "https://github.com/jwg4/normie"
+include = [
+    {path = "src/*.c", format = "sdist"},
+    {path = "src/*.h", format = "sdist"}
+]
+packages = [
+    { include = "normie" }
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.2.3"
+hypothesis = "^6.8.9"
+
+[tool.poetry.build]
+script = "build.py"
+generate-setup-file = true
+
+[project.scripts]
+test = 'tools.run_tests:test'
+doctest = 'tools.run_tests:run_doctest'
+
+[build-system]
+requires = ["setuptools", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
