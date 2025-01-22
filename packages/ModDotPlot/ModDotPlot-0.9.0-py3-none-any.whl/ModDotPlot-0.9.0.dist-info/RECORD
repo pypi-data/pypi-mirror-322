@@ -1,0 +1,14 @@
+moddotplot/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+moddotplot/__main__.py,sha256=B4S0TixQJcpWmr8urNk3sTQqHvZvgKTylG4ktqSjcVg,273
+moddotplot/const.py,sha256=xiylMPGzgo0HhwH-tSG1M8szfxXkS7YQsLV0dG3A3Pw,4656
+moddotplot/estimate_identity.py,sha256=wo5XKddcVdqyKOPhIe00EMEEVKe877leuKjh5eJpMHg,16570
+moddotplot/interactive.py,sha256=Vt_0VrPp4r2M8eNRsrooEhsQl_ElkZOnjq8BLQJsYyg,102889
+moddotplot/moddotplot.py,sha256=IGcnmll_l_6-habiBoAWf01nlVIC3NcwrtDYprS-ewQ,45700
+moddotplot/parse_fasta.py,sha256=2MCbYV-xSugtb6yymQvAGFaVAXk8h_P5EKN-ItBVyU0,5032
+moddotplot/static_plots.py,sha256=5lUw62a0jYMrHHeVj6UtdP4nCybZKS1ejGnxdrf-dOU,39860
+ModDotPlot-0.9.0.dist-info/LICENSE,sha256=Pi4uPKP373x3ediugg8O8zeG7ftat4xw-6vjZv7gjl8,1062
+ModDotPlot-0.9.0.dist-info/METADATA,sha256=k7rQMp3ECNl9SqfinZWb02GZ7BJLkbYE71Q7JEvWhQk,16319
+ModDotPlot-0.9.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ModDotPlot-0.9.0.dist-info/entry_points.txt,sha256=kAsqOwsuRc7g1KMEgC0vr9pxs9AnTjXj7YwKRD3rs9w,56
+ModDotPlot-0.9.0.dist-info/top_level.txt,sha256=gjo8QryXwV1r1tqng5e-Jv4_BVf3Kn2huD9kQ3Jokco,11
+ModDotPlot-0.9.0.dist-info/RECORD,,
