@@ -1,0 +1,27 @@
+name: Test with pytest
+
+on:
+  push:
+    branches:
+      - trunk
+  pull_request:
+    branches:
+      - trunk
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@02dfe76bef7c56154d37003058ae981dff9da26f
+        with:
+          enable-cache: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: pyproject.toml
+      - run: uv sync --group test
+      - run: uv run pytest
