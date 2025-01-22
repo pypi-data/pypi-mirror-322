@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: ardmediathek-cli
+Version: 1.0.2
+Summary: CLI interface for the ardmediathek.de API client library
+Home-page: https://github.com/TheFGFSEagle/ardmediathek-cli
+Author: TheFGFSEagle
+Author-email: thefgfseagle@gmail.com
+License: GPLv3
+Project-URL: Homepage, https://github.com/TheFGFSEagle/ardmediathek-cli
+Project-URL: Bug Tracker, https://github.com/TheFGFSEagle/ardmediathek-cli/issues
+Keywords: flightgear
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ardmediathek
+Requires-Dist: enlighten
+Requires-Dist: requests
+Requires-Dist: appdirs
+Requires-Dist: Pillow
+Requires-Dist: python-dateutil
+Requires-Dist: miniupnpc
+Requires-Dist: coloredlogs
+
+# ardmediathek-cli
+CLI interface for the ardmediathek.de API client library

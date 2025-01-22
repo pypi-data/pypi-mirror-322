@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+ardmediathek_cli/__init__.py
+ardmediathek_cli.egg-info/PKG-INFO
+ardmediathek_cli.egg-info/SOURCES.txt
+ardmediathek_cli.egg-info/dependency_links.txt
+ardmediathek_cli.egg-info/entry_points.txt
+ardmediathek_cli.egg-info/requires.txt
+ardmediathek_cli.egg-info/top_level.txt
