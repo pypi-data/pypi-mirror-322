@@ -1,0 +1,37 @@
+Metadata-Version: 2.2
+Name: diamentowa_bukmacherska
+Version: 0.1.0
+Summary: Zaawansowana biblioteka do analiz bukmacherskich
+Home-page: https://github.com/twoje-repozytorium/diamentowa_bukmacherska
+Author: Twoje Imię
+Author-email: twoj.email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+# Diamentowa Bukmacherska
+
+**Diamentowa Bukmacherska** to zaawansowana biblioteka do analiz bukmacherskich, ktĂłra umoĹĽliwia prognozowanie wynikĂłw sportowych i zdarzeĹ„ meczowych.
+
+## Funkcje
+- Obliczanie przewidywanej liczby bramek.
+- RozkĹ‚ad Poissona do analizy zdarzeĹ„.
+- Zaawansowane modele do prognozowania.
+
+## Instalacja
+Zainstaluj bibliotekÄ™ za pomocÄ… pip:
+```bash
+pip install diamentowa_bukmacherska
