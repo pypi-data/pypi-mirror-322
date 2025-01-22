@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+pills=mkdocs_plugin_pills.plugin:PillsPlugin
+

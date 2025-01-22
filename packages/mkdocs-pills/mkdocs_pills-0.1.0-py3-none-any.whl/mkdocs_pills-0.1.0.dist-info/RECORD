@@ -1,0 +1,12 @@
+mkdocs_plugin_pills/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_plugin_pills/css/pills.css,sha256=-gNz_3-OMonblR8nBMNfNEiMwMkUn4l12Ez10aWgRFw,1891
+mkdocs_plugin_pills/css/regex.svg,sha256=NtmoQQBPGqHlwowxUR4mh--iHJDXYBz6SIXduL_wU0g,581
+mkdocs_plugin_pills/css/unicode.svg,sha256=69CZgFhpB0uF2-dDfwBeIsOVXhBYbFoWVMEu72BVWqs,1137
+mkdocs_plugin_pills/plugin.py,sha256=GsbedFR2LoKs4R47Jv1BafDpQdW80L9X4zh_RmWW7V0,1915
+mkdocs_plugin_pills/regex.py,sha256=U7g7lqDgYGE-7nQVe0HtXQHDVt2DhRMACI87e6dGo9Q,1710
+mkdocs_plugin_pills/unicode.py,sha256=9R55P6iC52HYBHTb1wuSaNtpSALDJy7PmRK4JGoGeTk,1168
+mkdocs_pills-0.1.0.dist-info/LICENSE.md,sha256=s8wUkDHYPsJyrOSZ5iIXxQZuAgClVg2BjZDNx7wFQDw,1067
+mkdocs_pills-0.1.0.dist-info/METADATA,sha256=e7yk-6cIRk5b5VhIgEfoikKhB1Xt6tEpOmoZe2pFZjI,1730
+mkdocs_pills-0.1.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+mkdocs_pills-0.1.0.dist-info/entry_points.txt,sha256=L4qZnkg62qx6eKA_qv3x1CAvPMnXmi3HWeMp6Ntx7LQ,63
+mkdocs_pills-0.1.0.dist-info/RECORD,,
