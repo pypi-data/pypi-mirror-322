@@ -1,0 +1,8 @@
+*.db
+*.swp
+dist
+notes.txt
+Session.vim
+/data
+__pycache__
+.DS_Store
