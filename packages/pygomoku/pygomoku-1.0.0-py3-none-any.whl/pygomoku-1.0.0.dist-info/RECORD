@@ -1,0 +1,15 @@
+pygomoku/__init__.py,sha256=iBfZM2XQr_CaAN-j6Vx8TLljHG3dhrPev_pdeU37bZo,383
+pygomoku/gui.py,sha256=zp-GfVqNF8zjQJ_GXGStP2EYn5hF4ZJ4db8UnVhYH1s,7158
+pygomoku/main.py,sha256=z1fUzu6Opwz66F_x9-9pvrXCJ7fHp9qSNl4AJVhKq6Q,624
+pygomoku/score.py,sha256=CBAfvWMV2-wJ8HQnP__5urFahGOHyXPbWp4sJZQxfug,2776
+pygomoku/board/__init__.py,sha256=A7mLA3RZPZ4QuhoWLS2f-hG95LS0JGXm_y7IlHpUiYY,148
+pygomoku/board/abstract.py,sha256=E9OHuCZEVKM-B6TY_c-Ydlm7CZ2EBjwIoIr6qEL7WNA,8688
+pygomoku/board/alpha.py,sha256=vqh9_Ualk8Lphz38bq7GEDaLglBEGWcQPn0e0SU60jY,2420
+pygomoku/board/heuristic.py,sha256=1ZZWk3B48yE8fvwH3Hq4pqEtU_DbsosnJNYsg-9Hif0,2616
+pygomoku/board/mcts.py,sha256=5IjWAUHRiJmTWsXKr0Dx1oLRjWSM9vTHgoIBovqr5W4,7901
+pygomoku/board/minmax.py,sha256=bJGzFzZ8fFMjO0L5s46hreQG84QvUKC96WvEbqe65d0,4201
+pygomoku/board/simple.py,sha256=qJBXLt1xz05vpdYGMjvadRaUAtHcufqlAHZLvMn_eM4,673
+pygomoku-1.0.0.dist-info/LICENSE,sha256=ObgVXmhLUjj0z7VwJFXdLQHdkt_xOzYctHCbs2ZuWFI,1063
+pygomoku-1.0.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+pygomoku-1.0.0.dist-info/METADATA,sha256=KEvWAQnDG01oCSEEELFreEN3IVIbYxQy86NcjZtfwfw,8309
+pygomoku-1.0.0.dist-info/RECORD,,
