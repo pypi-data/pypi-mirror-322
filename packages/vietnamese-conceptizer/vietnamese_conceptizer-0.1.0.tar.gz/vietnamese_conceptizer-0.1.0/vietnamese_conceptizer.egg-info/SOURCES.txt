@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tests/test_module.py
+text_preprocessor/__init__.py
+text_preprocessor/processor.py
+vietnamese_conceptizer.egg-info/PKG-INFO
+vietnamese_conceptizer.egg-info/SOURCES.txt
+vietnamese_conceptizer.egg-info/dependency_links.txt
+vietnamese_conceptizer.egg-info/requires.txt
+vietnamese_conceptizer.egg-info/top_level.txt
