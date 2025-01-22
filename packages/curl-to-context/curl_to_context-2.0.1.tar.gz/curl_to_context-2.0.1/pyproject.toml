@@ -1,0 +1,69 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "curl-to-context"
+version = "2.0.1"
+description = "Convert curl commands to Python code for Grab/Context frameworks"
+readme = "README.md"
+requires-python = ">= 3.10.11"
+authors = [
+    { name = "tadeasf", email = "business@tadeasfort.com" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "pyperclip>=1.9.0",
+    "typer>=0.15.1",
+    "rich>=13.9.4",
+    "six>=1.17.0",
+    "prompt-toolkit>=3.0.50",
+]
+
+[project.license]
+text = "GPL-3.0-or-later"
+
+[project.urls]
+Homepage = "https://github.com/tadeasf/curl-to-context"
+Repository = "https://github.com/tadeasf/curl-to-context"
+
+[project.scripts]
+curl-to-context = "curl_to_context.main:app"
+
+[tool.pdm.build]
+includes = [
+    "src/curl_to_context",
+]
+package-dir = "src"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "src/curl_to_context/test",
+]
+python_files = [
+    "test_*.py",
+]
+addopts = "-v --cov=curl_to_context"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+]
+
+[tool.rye.scripts]
+convert = "curl-to-context"
