@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: segment_annotation_manager
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/pypa/segment_annotation_manager
+Project-URL: Issues, https://github.com/pypa/segment_annotation_manager/issues
+Author-email: Alexander Rausch <arausch335@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Segment Annotation Manager
+
+This package manages segment annotations for image segmentation and computer vision.
+Annotations can be loaded in many formats, such as MS COCO, YOLO, or VIA. 
