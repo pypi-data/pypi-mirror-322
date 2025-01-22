@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+wandagents/__init__.py
+wandagents/eco.py
+wandagents/gov.py
+wandagents/network.py
+wandagents/university.py
+wandagents.egg-info/PKG-INFO
+wandagents.egg-info/SOURCES.txt
+wandagents.egg-info/dependency_links.txt
+wandagents.egg-info/requires.txt
+wandagents.egg-info/top_level.txt
