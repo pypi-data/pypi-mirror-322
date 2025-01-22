@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/STEM_EDX.egg-info/PKG-INFO
+src/STEM_EDX.egg-info/SOURCES.txt
+src/STEM_EDX.egg-info/dependency_links.txt
+src/STEM_EDX.egg-info/requires.txt
+src/STEM_EDX.egg-info/top_level.txt
+tests/test_decomposition.py
