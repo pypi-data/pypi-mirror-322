@@ -1,0 +1,7 @@
+Metadata-Version: 2.3
+Name: jinja_filters
+Version: 0.1.0
+Summary: This module provides filters that can be used for jinja2 formatting.
+Author-email: Shin Jin <jin.shin@singtel.com>
+Requires-Python: >=3.10, <4.0
+Classifier: License :: OSI Approved :: MIT License
