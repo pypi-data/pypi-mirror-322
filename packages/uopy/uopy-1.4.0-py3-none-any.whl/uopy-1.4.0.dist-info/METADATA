@@ -1,0 +1,84 @@
+Metadata-Version: 2.2
+Name: uopy
+Version: 1.4.0
+Summary: UniObjects for Python (UOPY) is a Python package by Rocket Software.
+Home-page: https://www.rocketsoftware.com/products/rocket-multivalue-application-development-platform/rocket-uopy
+Author: Rocket Software
+Author-email: support@rocketsoftware.com
+License: Rocket Software EULA
+Project-URL: Documentation, https://rocketsoftware.github.io/uopy-demo/docs/uopy.html
+Project-URL: Changelog, https://github.com/RocketSoftware/uopy-demo/blob/master/CHANGELOG.md
+Keywords: MultiValue,MV,uopy,database
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
+# UniObjects for Python (UOPY)
+
+[![UOPY Forum](https://img.shields.io/badge/UOPY-Forum-brightgreen)](https://community.rocketsoftware.com/forums/multivalue?CommunityKey=dd45d00d-59db-4884-b3eb-2b0647af231b)
+[![UOPY API Docs](https://img.shields.io/badge/UOPY-%20API%20Docs-brightgreen)](https://rocketsoftware.github.io/uopy-demo/docs/uopy.html)
+[![PyPI](https://img.shields.io/pypi/v/uopy)](https://pypi.org/project/uopy/)
+![PyPI - Downloads](https://img.shields.io/pypi/dw/uopy)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
+
+UniObjects for Python (UOPY) is a Python package by Rocket Software. It is a client API that allows Python applications to access Rocket MV Databases over the network.
+
+## Installation
+
+### Install from PyPI
+
+```bash
+$ pip install uopy
+```
+
+## Quick start
+
+**Before using UOPY to connect to an MV Database, you must be running either a [UniVerse](https://www.rocketsoftware.com/products/rocket-universe-0/rocket-universe) or [UniData](https://www.rocketsoftware.com/products/rocket-unidata-0/rocket-unidata) server.**
+
+The following example uses UOPY to connect to UniVerse on Windows.
+
+```python
+>>> import uopy
+>>> ses = uopy.connect(host='localhost', user='username', password='password', account='XDEMO')
+>>> cmd = uopy.Command("LIST LOCATIONS")
+>>> cmd.run()
+>>> print(cmd.response)
+
+LIST LOCATIONS 01:58:07pm  13 Oct 2020  PAGE    1
+LOCATIONS.    Location Name............
+
+WHSE1         Main warehouse
+WHSE2         Secondary warehouse
+WHSE3         Tertiary Warehouse
+
+3 records listed.
+```
+
+## Resources
+
+| Name | Link  |
+|---|---|
+| GitHub UOPY examples repository | [home](https://github.com/RocketSoftware/uopy-demo)  |
+| UOPY: Intro to UOPY, UniObjects for Python | [video](https://www.youtube.com/watch?v=m26_b0qD8zM) |
+| UOPY: GUI examples | [video](https://www.youtube.com/watch?v=el20qZC89t8), [code](https://github.com/RocketSoftware/uopy-demo/tree/master/examples/uopy_tkexample) |
+| UOPY: Webserver app demo | [video](https://www.youtube.com/watch?v=Q7w-pQJdLDg), [code](https://github.com/RocketSoftware/uopy-demo/tree/master/examples/uopy_web) |
+| UOPY: Android Demo | [video](https://www.youtube.com/watch?v=3NfgQrPNtSM) |
+
+## API Reference
+
+* [Doc site](https://rocketsoftware.github.io/uopy-demo/docs/uopy.html)

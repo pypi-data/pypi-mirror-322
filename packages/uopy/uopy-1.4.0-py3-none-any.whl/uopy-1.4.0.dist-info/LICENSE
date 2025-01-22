@@ -1,0 +1,377 @@
+ROCKET END USER LICENSE AGREEMENT
+
+IMPORTANT - THIS IS A LEGAL AGREEMENT BETWEEN YOU, ON BEHALF OF YOUR
+ORGANIZATION ("LICENSEE" OR "CUSTOMER") AND ROCKET SOFTWARE, INC. OR
+ITS SUBSIDIARY ("ROCKET") THAT CREATES FULLY ENFORCEABLE OBLIGATIONS
+SUBJECT TO THESE TERMS. BY CLICKING AN "I ACCEPT" BUTTON OR DOWNLOADING
+THE SOFTWARE, YOU AGREE TO THIS END USER LICENSE AGREEMENT ("EULA" or
+"Agreement") AND YOU REPRESENT THAT YOU ARE AUTHORIZED TO ACCEPT THIS EULA
+ON BEHALF OF YOUR ORGANIZATION. This EULA governs the Rocket proprietary
+software ("Software") that Rocket, or a Rocket authorized distributor
+("Distributor"), provides with the EULA, and related Rocket user manuals
+and training materials ("Documentation"), including all revisions and
+updates that replace or supplement the Software or Documentation. These terms
+govern your use of the Software and Documentation except to the extent that it
+is subject to conflicting terms in a written license agreement Licensee has
+executed with Rocket or its Distributor.
+
+1. LICENSE/USE
+a. Rocket grants to the Customer to whom the Software is first delivered a
+non-exclusive, non-transferable right to use ("License") the Software and
+Documentation for which Customer has paid the required License fees, solely for
+Customer's internal business operations, within the country to which the
+Software is first provided ("Territory"), according to the Documentation
+and the EULA. Software is Licensed, not sold, for the time period, number and
+type of users, transactions, copies, seats, sessions, ports, IP addresses,
+central processing unit cycles, instructions per second or other quantity or
+measure specified in an order document and license key with Rocket or
+Distributor ("Measured License"). Customer may make one copy of the
+Software for non-production backup purposes. If you are not the original
+Customer to which Rocket or Distributor delivered the Software, or do not have
+an executed order document with Rocket or Distributor for the Software, you may
+not use the Software or Documentation. Your actual use will not decrease (but
+may increase) the scope of the License granted and the Software fees you owe.
+b. You will not: (i) rent, lease, or sublicense the Software, or use the
+Software as a service bureau or for hosting as an application service provider;
+(ii) permit any third party to access or use the Software or Documentation;
+(iii) transfer or use the Software or Documentation outside the Territory; (iv)
+use the Software except as specified in the Documentation; (v) translate, modify
+or make derivative works of the Software or Documentation; (vi) reverse
+engineer, decompile or disassemble the Software, except to the extent this
+restriction is superseded by local law, after you have disclosed your intended
+activity in writing to Rocket; (vii) use the Software in excess of the Measured
+License that Customer purchased; (viii) use the Software in production if
+provided under a testing, evaluation, development or other non-production
+License; (ix) alter the Software's copyright or other intellectual property
+rights notices; or (x) infringe or misappropriate Rocket's or its
+licensors' Intellectual Property.
+c. Rocket may provide the Software for evaluation, demonstration or other
+limited time use ("Restricted Use"). The terms of this EULA apply to any
+Software for Restricted Use. In addition, evaluation is limited to 10 calendar
+days from the first day Customer has access to the Software ("Restricted Use
+Period"). Rocket may, at its option, extend the Restricted Use Period. Prior
+to the end of the Restricted Use Period, Customer must purchase a License for
+continued use or the Restricted Use Period terminates and Customer must cease
+using the Software. A Restricted Use License is not for production use.
+
+2. VERIFICATION AND AUDIT.
+a. Upon Rocket's request, but not more frequently than annually for the same
+Software without reasonable cause, Customer shall furnish Rocket with a signed
+statement (the "Verification Statement") verifying that the Software is
+being used pursuant to the provisions of this Agreement.  Customer agrees to
+provide the Verification Statement within fifteen (15) days of Rocket's
+written request. Customer's Verification Statement shall include all relevant
+details of Customer's installation and/or usage of the Software including but
+not limited to (i) the location, model, and serial number of any and all
+equipment on which the Software is currently or previously installed and/or
+used, (ii) the total number of users, and where applicable the total number of
+concurrent users, who had access to the Software in the prior year—inclusive
+of the name of, geographical location of, and period of available access for
+each user, and (iii) for any Software that is subject to capacity, sub-capacity,
+or session restrictions, the peak and average usage of MIPS/ MSUs/CPCs
+(sometimes referred to as "CPUs")/ sessions or other applicable licensing
+metric in the prior year, as appropriate to the Software in scope of the review.
+Should Rocket have questions about the information provided in, or missing from,
+the Verification Statement, Customer agrees to cooperate with Rocket, including
+by providing additional information to Rocket, to complete Rocket's full
+understanding of the Software installation and/or use.  For Software licensed
+for mainframe systems, Customer shall provide copies of the Sub Capacity
+Reporting Tool ("SCRT"), Resource Management Facility ("RMF")
+Partition Data Report, and/or other such system reports as Rocket requests
+covering the previous year of mainframe usage.  For Software licensed by
+sessions, if requested by Rocket Customer shall provide copies of applicable log
+files.
+b. In addition to or in place of the Verification Statement, at Rocket's
+option, Rocket may audit Customer's installation and/or use of the Software
+upon ten (10) days written notice but not more frequently than annually for the
+same Software without reasonable cause (the "Audit").  Audit procedures
+shall be determined by Rocket based on the Software in scope of such a review.
+Audits may be conducted remotely with Customer's cooperation, on site at
+Customer's office(s), or a combination of both.  Customer shall provide
+reasonable and timely access to the historical records, computer systems, and
+Customer employees needed to assess Customer's compliance with this
+Agreement.  Unless agreed otherwise between Rocket and Customer, Audit
+procedures shall be conducted during normal business hours and in a manner to
+not unduly disrupt Customer's business.  At Rocket's option, Rocket or a
+third-party auditing firm operating under a non-disclosure agreement with both
+Rocket and the Customer, may conduct the Audit.  Rocket shall bear its costs to
+conduct an Audit, inclusive of fees payable to a third-party, provided, however,
+that Customer shall reimburse Rocket for all expenses related to the Audit
+should the Audit reveal underpayment of licenses and/or Maintenance fees in
+excess of five percent (5%) of the total fees previously paid to Rocket over the
+course of this Agreement.
+c. Should the Verification Statement or Audit reveal an underpayment and/or
+non-payment of fees by Customer to Rocket, Customer shall pay the following fees
+to Rocket within fifteen (15) days of written notification from Rocket (the
+"Resolution Date"): (i) new license fees for the difference between the
+Customer's licensed deployment and the Customer's actual deployment, which
+shall be calculated based on Rocket's then-current list price (with no
+discounts applied) for the Licensed Product(s) (the "New License Fees"),
+(ii) incremental Maintenance fees calculated at twenty percent (20%), or as
+otherwise stated in the applicable Product Schedule, of the New License Fees for
+the period from the first date of installation of the license(s) in question
+through one year subsequent to the Resolution Date (the "Incremental
+Maintenance Fees"), (iii) interest on both the New License Fees and
+Incremental Maintenance Fees at the rate of one and one half percent (1.5%) per
+month for the period since first installation of the Licensed Product(s) in
+question through the Resolution Date, and (iv) any applicable tax(es) on the
+foregoing fees.
+
+3. TERMINATION
+a. Customer's License will terminate (i) immediately without notice if
+Customer infringes or misappropriates Rocket's intellectual property in the
+Software or Documentation or fails to comply with this Agreement; or (ii) as
+specified in the Warranty terms.
+b. Customer may terminate this Agreement upon thirty (30) days' notice to
+Rocket. Upon termination, any rights Customer had to use the Software will
+terminate.
+c. Upon termination Customer will immediately return or destroy the Software
+and, upon Rocket's request, provide written certification of destruction.
+
+4. LIMITED WARRANTY
+a. Rocket warrants that the Software will perform substantially according to
+Rocket's current published technical specifications, when used according to
+the Documentation, for 90 days from the date Rocket delivers the Software to
+Customer or your Distributor ("Warranty"). Customer or Distributor must
+provide a written claim to Rocket within the Warranty period. Rocket will repair
+or replace Software not conforming to the Warranty, or, at its option, refund
+the part of the fees paid to Rocket (if any) for the Software, and the Software
+License terminates. Replacement Software is warranted for the remainder of the
+original Warranty period. THIS WARRANTY IS ROCKET'S SOLE LIABILITY AND
+CUSTOMER'S EXCLUSIVE REMEDY FOR A SOFTWARE CLAIM, ROCKET'S BREACH OF THE
+AGREEMENT OR ANY OTHER LIABILITY RELATING TO THE SOFTWARE. Except for a refund
+elected by Rocket, YOU ARE NOT ENTITLED TO ANY DAMAGES, INCLUDING BUT NOT
+LIMITED TO CONSEQUENTIAL DAMAGES if the Software does not conform under
+Rocket's limited Warranty, to the maximum extent allowed by law, even if any
+remedy fails of its essential purpose. NOTWITHSTANDING ANY PROVISION TO THE
+CONTRARY, ROCKET PROVIDES SOFTWARE FOR RESTRICTED USE ON AN "AS IS" BASIS,
+WITHOUT SUPPORT, WARRANTY OR INDEMNITY OF ANY KIND. ROCKET IS NOT LIABLE FOR ANY
+LOSS OR DAMAGES, DIRECT OR INDIRECT, RESULTING FROM USE OR ATTEMPTED USE OF
+RESTRICTED USE SOFTWARE DURING AND AFTER THE RESTRICTED USE PERIOD.
+b. Warranty does not cover problems caused by: (i) misuse, alteration,
+enhancements, neglect, accident, unauthorized repair or installation, or acts or
+omissions of any party other than Rocket, including virus or hacker attacks;
+(ii) Customer's hardware, software, networks, systems, content, application
+programming, servers, materials, scripts, data, or files; (iii) Customer not
+using Software according to Rocket's current Documentation; (iv) Customer
+configuration changes; (v) Customer's failure to comply with Rocket's
+security and upgrade policies; or (vi) circumstances beyond Rocket's
+reasonable control.
+c. ROCKET AND ITS LICENSORS DISCLAIM ALL OTHER WARRANTIES, REPRESENTATIONS AND
+GUARANTEES, EXPRESS OR IMPLIED, ORAL OR WRITTEN, FOR DOCUMENTATION AND SOFTWARE,
+THEIR USE, SUFFICIENCY, RELIABILITY, TIMELINESS, QUALITY, SECURITY, SUITABILITY,
+TRUTH, COMPLETENESS OR ACCURACY, WHETHER STATUTORY, EXPRESS, IMPLIED, ORAL,
+WRITTEN OR OTHERWISE, INCLUDING WITHOUT LIMITATION, IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, OR THAT
+SOFTWARE FUNCTIONS WILL BE UNINTERRUPTED, ERROR FREE, OR OPERATE IN COMBINATION
+WITH ANY OTHER HARDWARE, SOFTWARE, SYSTEM, OR DATA; THAT RESULTS WILL MEET
+CUSTOMER'S REQUIREMENTS OR EXPECTATIONS; ERRORS OR DEFECTS WILL BE CORRECTED;
+OR THE SOFTWARE IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.
+
+5. LIMITATION OF LIABILITY
+a. TO THE MAXIMUM EXTENT PERMITTED BY LAW, ROCKET AND ITS LICENSORS WILL NOT BE
+LIABLE TO ANY PARTY FOR: (i) CONSEQUENTIAL, INDIRECT, SPECIAL, PUNITIVE OR
+INCIDENTAL DAMAGES; (ii) INTERRUPTION OF BUSINESS OR OPERATIONS, COST OF COVER,
+GOODWILL, TOLL FRAUD, OR LOSS OF DATA, CONFIDENTIAL INFORMATION, PROFITS,
+REVENUE, OR PRIVACY; (iii) FAILURE TO MEET ANY DUTY INCLUDING GOOD FAITH OR
+REASONABLE CARE; (iv) OTHER LOSS RELATED TO USE OF OR INABILITY TO USE THE
+SOFTWARE, CONTENT THROUGH THE SOFTWARE, OR ARISING OUT OF THIS AGREEMENT; (v)
+FAULT, TORT, NEGLIGENCE, MISREPRESENTATION, STRICT LIABILITY, BREACH OF CONTRACT
+OR BREACH OF WARRANTY OF ROCKET OR ITS LICENSORS; AND EVEN IF ROCKET OR ITS
+LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+b. The entire liability of Rocket and its licensors under this EULA and your
+exclusive remedy (including repair or replacement elected by Rocket for the
+Limited Warranty) is limited to the actual damages you incur up to the amount
+paid to Rocket for the Software. ROCKET'S FAILURE TO EXERCISE A RIGHT OR
+REMEDY IS NOT A WAIVER.
+
+6. INTELLECTUAL PROPERTY OWNERSHIP
+"Intellectual Property" means all intellectual property, including
+inventions, patents, copyrights, trademarks, service marks, trade names, trade
+secrets, know-how, moral rights, licenses, and any other intangible proprietary
+or property rights, whether or not patentable or otherwise subject to legally
+enforceable restrictions or protections against unauthorized third party usage
+or whether arising by statute or common law. Rocket or its licensors own and
+retain all right, title and interest to and in all Intellectual Property in the
+Software and Documentation, developments, research data, designs, layout,
+models, formulae, documents, drawings, plans, specifications and other Rocket
+information, proprietary materials and all derivative works. To the extent that
+any right, title or interest in or to any Rocket Intellectual Property may not
+automatically vest in Rocket by operation of law, Customer irrevocably
+transfers, assigns and conveys all right, title, and interest therein to Rocket.
+At Rocket's request and expense Customer will promptly take any action and
+execute any documents necessary to vest full title in Rocket or its licensors.
+
+7. CONFIDENTIALITY
+a. "Confidential Information" means any material, data or information, in
+any form or media, that is proprietary or confidential to Rocket and is marked
+as confidential, or not marked but by its nature or treatment by Rocket should
+reasonably be considered to be confidential. Confidential Information includes
+the EULA, Documentation and Software, Rocket's Intellectual Property,
+specifications, manuals, product roadmaps, financial data, pricing, and results
+of benchmark tests. Confidential Information does not include information that
+is: (i) publicly available without breach of the EULA; (ii) reasonably shown to
+Rocket's satisfaction to have been known by Customer prior to disclosure by
+Rocket; (iii) independently developed by Customer prior to Rocket's
+disclosure without breach of the EULA or reference to any Rocket Confidential
+Information; or (iv) obtained by Customer from a third party without
+confidentiality obligation. Software is not deemed to be placed in the public
+domain by Rocket. Customer will promptly notify Rocket if it is compelled by a
+court or legal process to disclose Confidential Information and will take any
+reasonable action requested by Rocket to maintain the confidentiality of the
+Confidential Information.
+b. Customer will use best efforts to prevent disclosure to Rocket of any
+personally identifiable information (PII) regarding Customer's employees or
+customers. Customer is solely responsible for complying with any requirements
+regarding PII disclosed to Rocket. Customer will use Rocket's Confidential
+Information solely to perform its obligations under the EULA. Customer will take
+commercially reasonable steps to safeguard Rocket's Confidential Information,
+including no less than the steps taken to protect its own Confidential
+Information. Customer will not disclose Rocket's Confidential Information except
+to its employees bound by written confidentiality obligations no less
+restrictive than this provision. Customer must promptly notify Rocket in writing
+of unauthorized use or disclosure of Confidential Information. Customer, at its
+expense, must take all reasonable actions to recover Confidential Information
+and prevent further unauthorized use or disclosure, including action for seizure
+and injunctive relief. If Customer fails to do so in a timely manner, Rocket may
+do so at Customer's expense, and Customer will reasonably cooperate.
+
+8. U.S. GOVERNMENT USERS
+The Software and Documentation include "Commercial Computer Software" and
+"Commercial Computer Software Documentation." In accordance with Section
+12.212 of the Federal Acquisition Regulations (FAR) and Sections 227.7202-1
+through 227.7202-4 of the Defense Federal Acquisition Regulation Supplement
+(DFARS), any use, duplication or disclosure of the Software or Documentation by
+the U.S. Government or any of its agencies will be governed by and subject to
+the EULA. Use of the Software or Documentation is the U.S. Government's
+agreement that the Software or Documentation includes "commercial computer
+software" and "commercial computer software documentation" and acceptance of the
+rights and restrictions in the EULA. If for any reason the Software or
+Documentation is not considered commercial or the EULA is otherwise deemed not
+to apply, the Software or Documentation will be deemed to be provided with
+"Restricted Rights" as defined in FAR 52.227-14(a) and FAR 52.227-14(g)(4)
+(Alt III), or DFARS 252.227-7014(a)(15) and DFARS 252.227-7014(b)(3), as
+applicable.
+
+9. MISCELLANEOUS
+a. Maintenance Support Service. Rocket will not provide any maintenance support
+services under this EULA. This EULA does not give you any rights to updates or
+upgrades to the Software or to any extensions or enhancements to the Software
+developed by Rocket at any time in the future. Rocket may offer support services
+separately. Any supplemental software code or related materials that Rocket
+provides to you as part of maintenance support services are considered to be
+part of the Software and are subject to the EULA.
+b. Assignment. Customer may not assign this License or its obligations, rights
+or remedies, in whole or in part, without Rocket's prior written consent in
+its sole discretion.
+c. Compliance with Laws; Export. Customer must comply with U.S., foreign, and
+international laws and regulations. Customer agrees: (i) that the export,
+re-export, transfer, re-transfer, sale, supply, access to, or use of the
+Software to or in a country other than the country in which the Software was
+first provided to Customer, or to, by, or for a different end user or end use,
+may require a U.S. or other government license or authorization; and (ii) not
+to, directly or indirectly, export, re-export, transfer, re-transfer, sell,
+supply, or allow access to or use of the Software to, in, by, or for sanctioned,
+embargoed, or prohibited countries, persons, or end uses under U.S. or other law
+(collectively, "Prohibited Use"). Customer is responsible for screening
+for Prohibited Use and obtaining any required license or other authorization and
+shall indemnify Rocket for any violation by Customer of any export control
+and/or economic sanctions laws and regulations. Rocket may terminate the EULA
+and Licenses immediately if Rocket determines, in its sole discretion, that
+Customer has breached or intends to breach any of the terms in this clause.
+d. Choice of Law; Jurisdiction; Venue:
+North and South America. For customers located in North or South America, the
+following terms apply:
+Governing Law; Jurisdiction and Venue. Massachusetts laws govern the Agreement
+excluding conflict of law principles that would apply the law of any other
+jurisdiction. Each party waives the right to jury trial for a claim in law or
+equity. The United Nations Convention on Contracts for the International Sale of
+Goods and the Uniform Computer Information Transaction Act, as adopted, do not
+apply. The parties submit to the exclusive jurisdiction of the federal and state
+courts located in Boston, Massachusetts.
+UK, IE, Middle East, Africa, Russia, and India. For customers located in the
+Republic of Ireland, the United Kingdom, British Crown Dependencies, British
+Overseas Territories, Middle East, Africa, Russia, and India the following terms
+apply:
+Governing Law; Jurisdiction and Venue. This Agreement is governed by the laws of
+England and Wales and the parties submit to the exclusive jurisdiction and venue
+of courts located in England.
+Germany, Austria, and Switzerland ("DACH"). For customers located in DACH,
+the following terms apply:
+Governing Law; Jurisdiction and Venue. This Agreement is governed by the laws of
+Germany and the parties submit to the exclusive jurisdiction and venue of courts
+located in Germany.
+Clarification on Liability Cap under Section 10 (Limitation of Liability). THE
+PARTIES AGREE THAT THE LIABILITY CAP IN SECTION 10 APPLIES FOR SLIGHTLY
+NEGLIGENT INFRINGEMENT OF A MATERIAL CONTRACTUAL OBLIGATION, WHOSE FULFILLMENT
+IS ESSENTIAL IN ACCOMPLISHING THE CONTRACT AND ON WHOSE FULFILLMENT THE OTHER
+PARTY CAN REGULARLY DEPEND ("CARDINAL DUTY"/ "KARDINALPFLICHT"). THE
+PARTIES SPECIFICALLY AGREE THAT THE TYPICAL FORESEEABLE DAMAGE AND BREACHES OF A
+CARDINAL DUTY WILL NOT EXCEED IN AGGREGATE THE LIABILITY CAP SET OUT IN SECTION 10.
+Additional Exceptions on Liability under Section 10. NONE OF THE LIMITATIONS IN
+SECTION 10 EXCLUDES EITHER PARTY'S LIABILITY FOR DAMAGES DIRECTLY RESULTING
+FROM: (I) INTENT; (II) GROSS NEGLIGENCE; (III) CULPABLE INJURY TO LIFE, BODY AND
+HEALTH; (IV) IN CASE OF A BREACH OF GUARANTEE, WHICH MUST BE EXPLICITLY NAMED A
+"GUARANTEE"; OR (V) MANDATORY LIABILITIES UNDER THE PRODUCT LIABILITY ACT.
+Netherlands and Rest of Europe. For customers located in the Netherlands and
+European countries not covered by other region-specific terms above, the
+following terms apply:
+Governing Law; Jurisdiction and Venue. This Agreement is governed by the laws of
+the Netherlands and the parties submit to the exclusive jurisdiction and venue
+of court located in Rotterdam. Any court proceedings will be conducted in
+English, to the extent available.
+Additional Exceptions on Liability under Section 10(Limitation on Liability).
+NONE OF THE LIMITATIONS IN SECTION 10 EXCLUDES EITHER PARTY'S LIABILITY FOR
+INTENT OR GROSS NEGLIGENCE (OPZET OF BEWUSTE ROEKELOOSHEID) OF THAT PARTY OR ITS
+MANAGERIAL STAFF.
+Australia, New Zealand and Asia Pacific. For customers located in Australia and
+New Zealand and Asia Pacific the following terms apply:
+Governing Law; Jurisdiction and Venue. This Agreement is governed by the laws of
+Australia and New South Wales and the parties submit to the exclusive
+jurisdiction and venue of courts located in Sydney
+e. Waiver. Each party waives the right to jury trial for any legal action, in
+law or equity. The United Nations Convention on Contracts for the International
+Sale of Goods and the Uniform Computer Information Transaction Act, as adopted,
+do not apply.
+f. EULA Terms. If any EULA term is illegal, invalid, or unenforceable, the other
+EULA terms remain in full force and effect. Any EULA term that by its nature is
+intended to survive the EULA expiration or termination will survive. The EULA
+may be superseded by an agreement executed by both parties.
+g. Distributors. If you are a Distributor using Software or Documentation for
+your own internal use and not for further distribution, you agree to this EULA
+as an end user according to the references to "Customer" in these terms.
+Distributors are not authorized to make on behalf of Rocket, and Rocket is not
+bound by, any representation or warranty made by a Distributor, and Distributor
+is not authorized as an agent for Rocket.
+h. The parties agree that this Agreement is between Licensee and Rocket only and
+third-party marketplaces are not a party to the Agreement. Rocket is solely
+responsible for the Licensed Application and the content thereof. Any terms of
+this Agreement which are in conflict with the third-party marketplace terms of
+service shall not apply.
+
+10. EXCLUDED COMPONENTS
+The provisions of this paragraph do not apply to the extent they are held to be
+invalid or unenforceable under the law that governs this EULA. Notwithstanding
+any of the terms in the EULA or any other agreement Licensee may have with
+Rocket:
+(a) the third-party providers of certain components to Rocket (the "Suppliers")
+provide the components ("Excluded Components") WITHOUT WARRANTIES OF ANY
+KIND and, such Suppliers DISCLAIM ANY AND ALL EXPRESS AND IMPLIED WARRANTIES AND
+CONDITIONS INCLUDING, BUT NOT LIMITED TO, THE WARRANTY OF TITLE,
+NON-INFRINGEMENT OR INTERFERENCE AND THE IMPLIED WARRANTIES AND CONDITIONS OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO THE
+EXCLUDED COMPONENTS;
+(b) the Suppliers shall not be liable for any direct, indirect, incidental,
+special, exemplary, punitive or consequential damages, including but not limited
+to lost data, lost savings, and lost profits, with respect to the Excluded
+Components; and,
+(c) neither Rocket nor the Suppliers shall be liable to Licensee for any claims
+arising directly or indirectly from or related to the Excluded Components.
+(d) Notices with respect to the Excluded Components, including instructions for
+obtaining source code (as applicable) for certain Excluded Components, may be
+found in the NOTICES or README file included in the Software.
+(e) Licensee use of the Excluded Components is governed by the terms of the EULA
+and not by any terms that may be contained in the NOTICES section. Future
+Software updates may contain additional Excluded Components. Such additional
+Excluded Components, and related notices and information, if any, will be listed
+in the NOTICES file that accompanies the Software update.
