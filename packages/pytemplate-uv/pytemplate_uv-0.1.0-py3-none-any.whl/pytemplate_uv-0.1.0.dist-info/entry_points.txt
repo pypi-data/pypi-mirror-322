@@ -1,0 +1,3 @@
+[console_scripts]
+create-project = pytemplate.main:app
+pytemplate = pytemplate.main:app
