@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+asciimj/__init__.py
+asciimj/asciimj.py
+asciimj.egg-info/PKG-INFO
+asciimj.egg-info/SOURCES.txt
+asciimj.egg-info/dependency_links.txt
+asciimj.egg-info/requires.txt
+asciimj.egg-info/top_level.txt
