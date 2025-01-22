@@ -1,0 +1,4 @@
+Pillow>=10.4.0
+DLMS-SPODES<0.83,>=0.82.0
+DLMSComProf>=0.0.3
+tKot>=0.7.3
