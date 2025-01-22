@@ -1,0 +1,16 @@
+.coverage
+.venv
+build
+dist
+ld
+codespell.egg-info
+*.pyc
+*.orig
+.cache/
+.coverage.*
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+codespell_lib/_version.py
+junit-results.xml
+*.egg-info/
