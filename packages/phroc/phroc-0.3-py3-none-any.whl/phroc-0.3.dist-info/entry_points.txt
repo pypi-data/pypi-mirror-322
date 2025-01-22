@@ -1,0 +1,2 @@
+[console_scripts]
+phroc = phroc:phroc_run

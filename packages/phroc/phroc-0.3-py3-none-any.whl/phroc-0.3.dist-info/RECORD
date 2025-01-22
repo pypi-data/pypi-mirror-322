@@ -1,0 +1,17 @@
+phroc/__init__.py,sha256=ci4waRf85ILhuLKY48gRqT7-n09GYNRF_NTL_8Ka3uA,338
+phroc/gui.py,sha256=tQLkX_Dhi8foUZsggvV33vzwEuLdZr6DaO6104Z1sGQ,33550
+phroc/meta.py,sha256=gC_vjQphfSjNkG-s-FgrcHynuqNUdc6DTvivQauapU8,20
+phroc/run.py,sha256=NlP0Z_klfMZ8TRLKHLOq5Y-x9YIDRYLkN-5ywZTjqfI,217
+phroc/process/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phroc/process/parameters.py,sha256=ZLoilnfMx1SdXZ5N5gY-GQFECIEna6fHp8zquA-vg58,3154
+phroc/process/qc.py,sha256=pSEi45LiG07vC4BvV5WT9Lex3LRozqjI_Eo2szN2f-w,2144
+phroc/process/read.py,sha256=bFKqTeGoRovFLnxmMq_W0siB85i6BnsFM8r-TS7jMLc,1423
+phroc/process/read_raw.py,sha256=80tib05CM1NitCIhjyKo1POjBKAXYTgc1tHr4MVCAvM,8598
+phroc/process/usd.py,sha256=iFM_g6SRk2sxFO1ohzYJeDxXiVEjOKxIRGy447DQG14,9753
+phroc/process/write.py,sha256=SX1dDvbtjWE-BRc0uUo0nklkjXbg2IlRhK38CBM1mVg,1500
+phroc-0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+phroc-0.3.dist-info/METADATA,sha256=XsHG9ll3yNL-kqRKe0NDNZDt093WK923fpaTe3Z4N84,2279
+phroc-0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+phroc-0.3.dist-info/entry_points.txt,sha256=hsow5kArhOeAe93Kuhq8aKSKKa2cXqsyZUr8JXQGpXI,42
+phroc-0.3.dist-info/top_level.txt,sha256=NwbGwAkFWxMgQ6pgq6Mu50kgBPTADVpbONZbVaHCLlY,6
+phroc-0.3.dist-info/RECORD,,
