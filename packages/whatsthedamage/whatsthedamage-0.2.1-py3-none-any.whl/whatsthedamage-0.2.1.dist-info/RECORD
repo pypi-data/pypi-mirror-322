@@ -1,0 +1,17 @@
+whatsthedamage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whatsthedamage/__main__.py,sha256=OG8bpOz1nIoP_VTQIDy5caRWUxl7iYCTWC50AuzrePM,78
+whatsthedamage/cli.py,sha256=iHnzi-EskWW8ON3ph7jNmNdInkPRbvEU7pSpZjPikN4,147
+whatsthedamage/csv_file_reader.py,sha256=8fsLGQTgs2fO9Y1xbSl2c-NLvcF2N4ZRvMeDO4itnPU,1998
+whatsthedamage/csv_row.py,sha256=_JcJbVnoQR8SFTt4-QO3IXBhIf2eWV-7_KVS3twSCqY,669
+whatsthedamage/date_converter.py,sha256=J01T2wG7p7mWkMCQxF6upcE1VwomFRP7J8b7fTzlU2E,2370
+whatsthedamage/row_enrichment.py,sha256=yHmlTRnrd-LkC6U-b63W4bhuLqRt5eQjzuQOlOTedXw,3612
+whatsthedamage/row_filter.py,sha256=eeVAc3O8vD_noYvrGKp2VMEvw6XxOhdn_z4AqXfsokE,2959
+whatsthedamage/row_summarizer.py,sha256=w9OCeRrNENsMl2cJBqX1nNXG_1QWq93s1BZCNduZjok,1410
+whatsthedamage/whatsthedamage.py,sha256=oJlCalsJCrIQ241T9HIatOyezoPaTrbeTHq8ROuzDxs,9318
+whatsthedamage-0.2.1.data/data/share/doc/whatsthedamage/config.json.default,sha256=4d8v3Ir8Q0m9cAsSISPwE4FhWB7cOVyRzhLm0rEDdzc,2294
+whatsthedamage-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+whatsthedamage-0.2.1.dist-info/METADATA,sha256=WS89vPRwcHJsPx7MFrth-l6NJwhoI3oPIYQdNKRSUME,8166
+whatsthedamage-0.2.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+whatsthedamage-0.2.1.dist-info/entry_points.txt,sha256=X2RMSHNNBTj3PqVHJZbw06jhR5N6DSSRRIRlQkbD5Qo,59
+whatsthedamage-0.2.1.dist-info/top_level.txt,sha256=jOrXFTlLkZo5hGVK0CrCDKGN_2DOVds-ePtWbEX2PLY,15
+whatsthedamage-0.2.1.dist-info/RECORD,,
