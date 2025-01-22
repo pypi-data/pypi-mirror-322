@@ -1,0 +1,40 @@
+[package]
+name = "editdistancek"
+version = "0.1.0"
+authors = ["Nikolai Karpov <kimaska@gmail.com>", "Joshix"]
+description = "Algorithm for computing edit distance"
+repository = "https://github.com/Joshix-1/editdistancek"
+documentation = "https://github.com/Joshix-1/editdistancek"
+readme = "README.md"
+license = "MIT"
+keywords = ["text", "distance", "edit"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dev-dependencies]
+quickcheck = { version = "^1.0.3" }
+levenshtein = { version = "^1.0.5" }
+rand = { version = "^0.8.5" }
+criterion = { version = "^0.5.1" }
+triple_accel = { version = "^0.4.0" }
+
+[[bench]]
+harness = false
+name = "benchmarks"
+
+[profile.release]
+codegen-units = 1
+panic = "abort"
+opt-level = 3
+lto = true
+strip = true
+
+[dependencies]
+pyo3 = { version = "0.23.4", features = [
+    "extension-module",
+    "abi3",
+    "abi3-py312",
+    "experimental-inspect",
+] }
