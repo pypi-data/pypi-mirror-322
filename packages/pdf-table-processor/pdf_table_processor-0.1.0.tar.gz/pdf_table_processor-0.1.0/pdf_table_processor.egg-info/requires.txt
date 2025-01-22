@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+pandasai
+gmft
+matplotlib
+pillow
+PyPDF2
+torch

@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: pdf_table_processor
+Version: 0.1.0
+Summary: A library to process tables from PDFs into csv and json formats.
+Home-page: https://github.com/klncgty/Pdf_Table_Extractor
+Author: Çağatay
+Author-email: cgtyklnc@gmail.com
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pandas
+Requires-Dist: pandasai
+Requires-Dist: gmft
+Requires-Dist: matplotlib
+Requires-Dist: pillow
+Requires-Dist: PyPDF2
+Requires-Dist: torch
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
