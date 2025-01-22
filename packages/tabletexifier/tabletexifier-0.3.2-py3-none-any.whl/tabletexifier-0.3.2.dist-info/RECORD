@@ -1,0 +1,12 @@
+tabletexifier/Cell.py,sha256=pJhfkC_iM5kmpSXGWwrdLb6fdA_9HxBaSFnSlQxeY2I,3258
+tabletexifier/Table.py,sha256=AWElj_WlJIGK3-HfCRlkZ8EVN-dffaldhbrdSALDHIk,11216
+tabletexifier/__init__.py,sha256=VoAExeX1BQrq3pKjIni9W53B5mfobDRNUzwlTx9wCu0,24
+tabletexifier/exceptions.py,sha256=cFMPPsU3Jrgdzwx6MRBk6bzvulUG0BLcMp-pukigWZ8,118
+tabletexifier/table_styles.py,sha256=ZpwTJquQIsrDkbk_0vq_hPOAf3NpjUvKnFZ8ozysCBo,4881
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_basic_functions.py,sha256=qiIDhChiX48LjPBGTW8N_qOgm2tb08Wcc_Xz_Zj9Kwg,3867
+test/test_table_styles.py,sha256=RKjl06d_xkCu7yC6iBh-ZwYk2Sm5g7caxi-iPDIUWCI,125
+tabletexifier-0.3.2.dist-info/METADATA,sha256=QaIeuDGmZ_2-zQ8vkHUCP9SqiFf4_1uMBLWvS5hZtcM,988
+tabletexifier-0.3.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+tabletexifier-0.3.2.dist-info/top_level.txt,sha256=4f8DVO2mpZKPipRkLWNPa7y7P7kKE-hz3_WTdILXopY,19
+tabletexifier-0.3.2.dist-info/RECORD,,
