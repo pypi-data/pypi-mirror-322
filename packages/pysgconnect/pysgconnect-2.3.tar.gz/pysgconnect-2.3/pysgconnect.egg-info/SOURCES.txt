@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pysgconnect/__init__.py
+pysgconnect/sg_connect_auth.py
+pysgconnect/token.py
+pysgconnect.egg-info/PKG-INFO
+pysgconnect.egg-info/SOURCES.txt
+pysgconnect.egg-info/dependency_links.txt
+pysgconnect.egg-info/requires.txt
+pysgconnect.egg-info/top_level.txt
+pysgconnect/../README.md
+pysgconnect/../requirements.txt
+tests/test_token.py

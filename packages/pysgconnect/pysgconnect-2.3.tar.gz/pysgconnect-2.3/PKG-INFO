@@ -1,0 +1,89 @@
+Metadata-Version: 2.2
+Name: pysgconnect
+Version: 2.3
+Summary: Utilities to interact with SGConnect
+Home-page: https://github.com/societe-generale/pysgconnect
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
+Classifier: Natural Language :: French
+Classifier: Natural Language :: English
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: Environment :: OpenStack
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Environment :: Other Environment
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: Other/Proprietary License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: build
+Requires-Dist: wheel
+Requires-Dist: setuptools
+Requires-Dist: pydantic>=2.7.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: typing_extensions>=4.11.0
+Requires-Dist: pytest>=8.2.0
+Requires-Dist: requests-mock>=1.12.0
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: platform
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# pysgconnect
+
+Python package to interact with SGConnect
+
+## Install
+
+You can install this package by using Pypi:
+
+```sh
+pip install pysgconnect
+```
+
+## Usage
+
+### Protect HTTP requests
+
+```python
+from pysgconnect import SGConnectAuth
+from requests import Session
+
+session = Session()
+# Do not hardcode your credential directly in your scripts, use a secure Vault solution instead
+client_id = 
+client_secret =
+
+session.auth = SGConnectAuth(client_id, client_secret, scopes=['myscope'], env='PRD')
+
+request = session.get('https://api.sgmarkets.com/foo/v1/bar')
+```
+
+#### Corporate proxy
+
+By default, no proxies are configured.
+
+```python
+proxies = {'https': '...', 'http': '...'}
+session.auth = SGConnectAuth(client_id, client_secret, scopes=['...'], proxies=proxies)
+```
+
+### Development
+
+```sh
+pip install -e .
+```
