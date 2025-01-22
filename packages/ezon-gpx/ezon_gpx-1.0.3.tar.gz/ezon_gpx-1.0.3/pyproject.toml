@@ -1,0 +1,49 @@
+[project]
+name = "ezon-gpx"
+authors = [{ name = "uiolee" }]
+maintainers = [{ name = "uiolee" }]
+description = "convert Ezon gpx files."
+keywords = ["ezon", "gpx", "xml", "running_page"]
+readme = "README.md"
+license = { text = "MPL 2.0" }
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+
+    "Environment :: Console",
+
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    'Intended Audience :: Healthcare Industry',
+
+    "Topic :: Text Processing :: Markup :: XML",
+    "Topic :: File Formats",
+    "Topic :: Utilities",
+
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+
+    "Natural Language :: English",
+
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+
+    "Programming Language :: Python :: 3.11",
+]
+
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/uiolee/ezon-gpx"
+Repository = "https://github.com/uiolee/ezon-gpx.git"
+Issues = "https://github.com/uiolee/ezon-gpx/issues"
+
+[project.scripts]
+ezon-gpx = "cli:cli"
+
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+local_scheme = 'no-local-version'

@@ -1,0 +1,2 @@
+[console_scripts]
+ezon-gpx = cli:cli

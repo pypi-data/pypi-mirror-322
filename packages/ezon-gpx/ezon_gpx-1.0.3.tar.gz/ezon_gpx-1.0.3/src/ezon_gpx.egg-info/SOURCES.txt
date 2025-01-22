@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/ci.yml
+.github/workflows/publish.yml
+src/cli.py
+src/main.py
+src/ezon_gpx.egg-info/PKG-INFO
+src/ezon_gpx.egg-info/SOURCES.txt
+src/ezon_gpx.egg-info/dependency_links.txt
+src/ezon_gpx.egg-info/entry_points.txt
+src/ezon_gpx.egg-info/top_level.txt
+test/cli.test.sh
+test/test.gpx
