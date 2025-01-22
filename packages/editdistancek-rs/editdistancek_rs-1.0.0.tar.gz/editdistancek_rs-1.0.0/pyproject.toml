@@ -1,0 +1,21 @@
+[build-system]
+requires = ["maturin>=1,<2"]
+build-backend = "maturin"
+
+[project]
+name = "editdistancek-rs"
+requires-python = ">=3.12"
+classifiers = ["Programming Language :: Rust"]
+dynamic = ["version"]
+license = "MIT"
+
+
+[tool.maturin]
+bindings = "pyo3"
+compatibility = "manylinux_2_28"
+profile = "release"
+strip = true
+python-source = "python"
+module-name = "editdistancek_rs._native"
+
+# building wheel with: podman run --rm -v .:/io ghcr.io/pyo3/maturin build --release
