@@ -1,0 +1,11 @@
+tamga/__init__.py,sha256=aI-wEDd2bNdQz44R3CLO1N3xgKw_cpvy7q7Mb1r9GRg,25
+tamga/main.py,sha256=jvK8Ox39_PMEykkXoZ3tkqnedj1XKVGNXUB1F5NfUrc,13567
+tamga/utils/__init__.py,sha256=-OnnxjwJxtM9Jr2AmlIjNDs7j0AlDxJTO_Vtj_F3qlw,29
+tamga/utils/colors.py,sha256=-2n287_XMjYnIuchT_DUegNy6EXonsteIBvvNHXtsYM,2956
+tamga/utils/mail.py,sha256=H7Hge79r0JtRBumYJQsTea0MTjoK5Ukinb2Z3oFkNPA,4655
+tamga/utils/time.py,sha256=taTA98cz0KzHViIniKoa_tUSSL6A_HnXD2NuvoPBrkE,318
+tamga-0.1.7.dist-info/LICENSE,sha256=zTraWxy_dkYyfjxNV_VOWiktL280hnJ6UE9ZvP5FpW4,1093
+tamga-0.1.7.dist-info/METADATA,sha256=2pinIehjMJArfYScbH6D8BfPaghgLqKeGuraPtCrIxY,4057
+tamga-0.1.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+tamga-0.1.7.dist-info/top_level.txt,sha256=y-CG9_hjAwCI7mP-5RDxfSnFkFbO-t1dCnln8RZPgIg,6
+tamga-0.1.7.dist-info/RECORD,,
