@@ -1,0 +1,12 @@
+__pycache__
+.ipynb_checkpoints
+.pyc
+.swp
+*.egg-info
+certs
+dist
+.DS_Store
+# *.exe
+outputs/
+docs/build
+_version.py
