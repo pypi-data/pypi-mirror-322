@@ -1,0 +1,11 @@
+segment_annotation_manager/__init__.py,sha256=ArukS3BIKqBKgrY1g0WUHn2QRECaOSS_B821cWNA0tM,145
+segment_annotation_manager/annotation.py,sha256=IfCZl2B1W-bjOposGkDc9McdhKAwdULNq3KpiEDGUPg,36770
+segment_annotation_manager/config.py,sha256=rCRMapxqw64xFIwAEERydceU0uIbD-4JigBx5HDBUoY,6594
+segment_annotation_manager/data_objects.py,sha256=e1oftX1qSwUWaq3jShlxXgYjysrIoWtBr4zxUGoXJ8s,1162
+segment_annotation_manager/dataset.py,sha256=zBHNcVh8qxf5wjfpzgOTUWJUHvXPpT4DmrROOc5ZhGU,11812
+segment_annotation_manager/environment.py,sha256=svRzBUeE87DLYFXDCwfYIBI6Yqr7iXCoTpPr6RHt3dc,1247
+segment_annotation_manager/utils.py,sha256=KtPE5nlWeIRo18ONQbTl-HL3UTdeDyCqbG2Wgp6Akn4,2615
+segment_annotation_manager-0.0.2.dist-info/METADATA,sha256=_ZETDRgHQFS3V0sT3J3ilxIC0tOux5SZoyygR67BchU,1083
+segment_annotation_manager-0.0.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+segment_annotation_manager-0.0.2.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+segment_annotation_manager-0.0.2.dist-info/RECORD,,
