@@ -1,0 +1,12 @@
+absence/__init__.py,sha256=2Gtu81NGm5Dl_zjvBCoT9159Bwz3nh0UbD0FKl8gi4I,1514
+absence/exceptions.py,sha256=1T4dZ_e1C72_V21y2l1dekY_P_Uv9SV-P6xh20hz1ak,2027
+absence/installers.py,sha256=hzL2hb9IIAAjm0viPDSJOEHdQCqD2Nxgd0ast8KIhGw,2173
+absence/objects.py,sha256=ERk1irigF1X2ZfhSC-pX6T9l6eO5gSdnxB9k1WMcZ4A,3891
+absence/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+absence/__/__init__.py,sha256=ePhl96Rf76I-WiJdXH8YtLDmr0DGjTve1GwopUYwM28,1441
+absence/__/immutables.py,sha256=dRwBsWt5dqRka0_ATEq6RsqFfApnUQ3wQh68P5uoYKY,10587
+absence/__/imports.py,sha256=EqpSFiz0mKzeiDLcaX9HwELtsCzYEUOxFYimCGtC0sE,1565
+absence-1.0.1.dist-info/METADATA,sha256=x53dQ4k-ZzRkMmf41Y4xqRYaVgI76_2TUwwcLgHtV70,9608
+absence-1.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+absence-1.0.1.dist-info/licenses/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+absence-1.0.1.dist-info/RECORD,,
