@@ -1,0 +1,24 @@
+BaseScreen {
+    align: center middle;
+}
+#tagset-dialog {
+    keyline: heavy green;
+}
+#tagset-dialog {
+    height: 80%;
+    width: 80%;
+/*    border: double green; */
+}
+#widget-container {
+    height: 1fr;
+}
+#message-box {
+    text-align: center;
+}
+#message {
+    max-height: 40%;
+    dock: bottom;
+}
+Input, Button {
+    border: solid yellow;
+}
