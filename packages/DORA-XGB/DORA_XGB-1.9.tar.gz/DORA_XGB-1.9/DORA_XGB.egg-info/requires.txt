@@ -1,0 +1,10 @@
+setuptools
+networkx>=2.2
+numpy
+mhfp
+xgboost==1.6.2
+rdkit
+mordred
+pandas
+scikit-learn
+tmap==1.2.1
