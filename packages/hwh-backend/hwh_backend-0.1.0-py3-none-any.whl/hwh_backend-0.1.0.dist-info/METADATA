@@ -1,0 +1,86 @@
+Metadata-Version: 2.2
+Name: hwh-backend
+Version: 0.1.0
+Summary: Setuptools based backend supporting Cython extensions
+Author-email: Mathias von Essen <3090690+mkgessen@users.noreply.github.com>
+License: MIT
+Project-URL: Repository, https://github.com/mkgessen/hwh-backend.git
+Keywords: cython,build,backend,pep517
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Cython
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools>=68.0
+Requires-Dist: wheel>=0.40.0
+Requires-Dist: Cython<3.0.0
+Requires-Dist: pyproject-metadata>=0.7.0
+Provides-Extra: test
+Requires-Dist: pytest>=7.0; extra == "test"
+Requires-Dist: pytest-cov>=4.0; extra == "test"
+Requires-Dist: coverage>=7.0; extra == "test"
+Requires-Dist: build>=1.0.0; extra == "test"
+Requires-Dist: tomli-w; extra == "test"
+Provides-Extra: dev
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: isort>=5.0.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: ruff>=0.1.0; extra == "dev"
+
+# Halway House backend 
+
+Provides [PEP-517](https://peps.python.org/pep-0517/) build hooks for building Cython extensions with setuptools.
+Currently supports Cython 0.29. 
+
+Ideally similar functionality would be provided an actual setuptools backend.
+
+## Intended use
+
+```toml pyproject.toml
+[build-system]
+requires = ["hwh-backend", "Cython<3.0.0"]
+build-backend = "hwh_backend.build"
+
+[project]
+name = "mylib"
+version = "1.0.0"
+
+[tool.hwh.cython.modules]
+include_dirs = ["first", "second"]
+runtime_library_dirs = ["/usr/lib"]
+library_dirs = ["/usr/lib", "/home/user/lib"]
+sources = ["foo.pyx", "bar.pyx"]
+exclude_dirs = ["this", "that"]
+
+[tool.hwh.cython]
+language="c"
+annotate=false
+nthreads=1
+force=false
+
+[tool.hwh.cython.compiler_directives]
+# Cython compiler directives
+binding = false  # Generate Python wrapper functions
+boundscheck = false  # Array bounds checking
+wraparound = false  # Negative indexing
+initializedcheck = false  # Check if extension types are initialized
+nonecheck = false  # Generate checks for null Python references
+overflowcheck = false  # Check for C integer overflows
+embedsignature = false  # Include docstrings in the C code
+cdivision = false  # Division by zero checking
+cdivision_warnings = false  # Division by zero warning
+profile = false  # Enable profiling
+linetrace = false  # Enable line tracing
+type_version_tag = true  # Enable CPython's type attribute cache
+
+# All cython modules go here
+[tool.hwh_backend.cython.modules]
+sources = [mylib/*.pyx]
+```
