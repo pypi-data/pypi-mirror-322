@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+change_log.txt
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+mindmaster/__init__.py
+mindmaster.egg-info/PKG-INFO
+mindmaster.egg-info/SOURCES.txt
+mindmaster.egg-info/dependency_links.txt
+mindmaster.egg-info/not-zip-safe
+mindmaster.egg-info/requires.txt
+mindmaster.egg-info/top_level.txt
