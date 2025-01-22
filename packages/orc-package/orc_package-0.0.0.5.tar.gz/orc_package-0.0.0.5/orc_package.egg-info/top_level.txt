@@ -1,0 +1,5 @@
+astro_package
+build
+dist
+htmlcov
+tests
