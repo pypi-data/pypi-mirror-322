@@ -1,0 +1,38 @@
+Metadata-Version: 2.3
+Name: dtfpy
+Version: 1.0.0
+Summary: Dealertower Python Framework for microservices.
+Author: Reza Shirazi
+Author-email: reza@datgate.com
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: SQLAlchemy (==2.0.35)
+Requires-Dist: asyncpg (==0.29.0)
+Requires-Dist: boto3 (==1.35.34)
+Requires-Dist: botocore (==1.35.34)
+Requires-Dist: celery-redbeat (==2.2.0)
+Requires-Dist: celery[redis] (==5.4.0)
+Requires-Dist: fastapi (==0.115.0)
+Requires-Dist: gunicorn (==23.0.0)
+Requires-Dist: httpx (==0.27.2)
+Requires-Dist: paramiko (==3.5.0)
+Requires-Dist: psycopg2 (==2.9.9)
+Requires-Dist: pydantic-settings (==2.5.2)
+Requires-Dist: python-dotenv (==1.0.1)
+Requires-Dist: python-jose (==3.3.0)
+Requires-Dist: python-multipart (==0.0.12)
+Requires-Dist: pytz (==2024.2)
+Requires-Dist: requests (==2.32.3)
+Requires-Dist: uvicorn (==0.31.0)
+Description-Content-Type: text/markdown
+
+# Dealer Tower FastAPI
+## Overview
+This repository contains a prototype for a FastAPI application. FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints.
+
+## Getting Started
+- Ensure you have Python 3.11 or higher installed.
+
