@@ -1,0 +1,4 @@
+recursive-include StreamingCommunity *.py
+recursive-include StreamingCommunity *.md
+recursive-include StreamingCommunity *.txt
+recursive-include Test *
