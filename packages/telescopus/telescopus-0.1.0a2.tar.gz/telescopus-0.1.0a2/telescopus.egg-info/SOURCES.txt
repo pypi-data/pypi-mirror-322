@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+telescopus/__init__.py
+telescopus.egg-info/PKG-INFO
+telescopus.egg-info/SOURCES.txt
+telescopus.egg-info/dependency_links.txt
+telescopus.egg-info/top_level.txt
+telescopus/binaries/telescopus.cp313-win_amd64.pyd

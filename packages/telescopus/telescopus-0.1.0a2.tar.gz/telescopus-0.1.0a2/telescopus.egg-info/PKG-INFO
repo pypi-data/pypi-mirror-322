@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: telescopus
+Version: 0.1.0a2
+Summary: A Python profiler with a rich UI
+Home-page: https://www.softanics.com/python/profiler/
+Author: Softanics
+License: Proprietary
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+Telescopus is a powerful Python profiler designed for developers, offering in-depth insights into application performance. Capture call stacks, monitor CPU usage, and analyze execution flow to optimize your code efficiently.

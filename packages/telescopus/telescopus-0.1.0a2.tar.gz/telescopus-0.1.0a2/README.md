@@ -1,0 +1,1 @@
+Telescopus is a powerful Python profiler designed for developers, offering in-depth insights into application performance. Capture call stacks, monitor CPU usage, and analyze execution flow to optimize your code efficiently.
