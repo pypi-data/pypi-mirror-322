@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+wagtail_linksnippet/__init__.py
+wagtail_linksnippet/richtext.py
+wagtail_linksnippet/richtext_utils.py
+wagtail_linksnippet/utils.py
+wagtail_linksnippet/views_utils.py
+wagtail_linksnippet.egg-info/PKG-INFO
+wagtail_linksnippet.egg-info/SOURCES.txt
+wagtail_linksnippet.egg-info/dependency_links.txt
+wagtail_linksnippet.egg-info/not-zip-safe
+wagtail_linksnippet.egg-info/requires.txt
+wagtail_linksnippet.egg-info/top_level.txt
+wagtail_linksnippet/static/wagtail_linksnippet/js/modelChooser.js
