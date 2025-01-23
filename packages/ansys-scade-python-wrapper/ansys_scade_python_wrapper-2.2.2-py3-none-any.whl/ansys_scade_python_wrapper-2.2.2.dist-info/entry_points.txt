@@ -1,0 +1,7 @@
+[ansys.scade.registry]
+srg=ansys.scade.python_wrapper:srg
+
+[console_scripts]
+ansys_scade_python_wrapper_swanpython=ansys.scade.python_wrapper.swanpython:main
+register_ansys_scade_python_wrapper=ansys.scade.python_wrapper.register:main
+
