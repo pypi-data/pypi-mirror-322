@@ -1,0 +1,11 @@
+french_cities/__init__.py,sha256=Rbt69015nm6Ljt2D46rHLe-bzUPSfIwWU_Ebd_uAG9Y,386
+french_cities/city_finder.py,sha256=hzxKh-yb-rIlf-u8p_k9bKiQ70iPEpNZa84xSGQ1wMc,42933
+french_cities/config.py,sha256=Wcr9x5SToGi_iamuiaytZHUvDRFUJTPNibMSSLW7sGg,319
+french_cities/departement_finder.py,sha256=hSZ_5sGDAeG2IZ7tuzijN9od0dBlrgQkwOqaISCrGPU,17060
+french_cities/pynsee_patch.py,sha256=-8wXE5XFtz005GTd-EoXHa1fXZhrC20j7vU6pNj7Lx0,4284
+french_cities/ultramarine_pseudo_cog.py,sha256=QlXvtF3-2ZVADKEN1_mYGnZyQ_t0zrxSP9BVz9MFM7g,5190
+french_cities/utils.py,sha256=P2UHTXHnqZ9bziejMF_kpoJsr23EOIl7UlHaF_VoV0Q,1422
+french_cities/vintage.py,sha256=urvg-82ofxetW5toG21XX0cWDQoKuTqz_LrIUlFBc3o,14242
+french_cities-1.0.3.dist-info/METADATA,sha256=odAVaBiVEFBOgCTVS8rWgQ9zfauIX3ST88BCLwjqxGs,10861
+french_cities-1.0.3.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+french_cities-1.0.3.dist-info/RECORD,,
