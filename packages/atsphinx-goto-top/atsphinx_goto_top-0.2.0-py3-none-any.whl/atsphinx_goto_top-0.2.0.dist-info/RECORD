@@ -1,0 +1,13 @@
+atsphinx/goto_top/__init__.py,sha256=FupxDCTvHFHDphZY0BkcEBJYXCQU_E0_f2ILMetsw-o,2363
+atsphinx/goto_top/locales/ja/LC_MESSAGES/atsphinx.goto_top.mo,sha256=Tk6LO7mbCNBYPNYbdS29kIEyHV-ti9aEWCc3ft9X0lI,493
+atsphinx/goto_top/locales/ja/LC_MESSAGES/atsphinx.goto_top.po,sha256=MBvhT6G_FgXvJQxbxvblwCZH8PgZ1TlWlAsnC7LpMck,751
+atsphinx/goto_top/static/goto-top/arrow-up-to-line.svg,sha256=2yHqzjdSSIXRT5kBUwZ6SXq9ujhN4BpzY6KPrfq8Ws4,335
+atsphinx/goto_top/static/goto-top/main.js_t,sha256=xlgYCxkrhVyFvG9T0d5VvTbaQQh5GG0XEWCBRED-Yc4,372
+atsphinx/goto_top/static/goto-top/style.css_t,sha256=1E1bOxCpCbiUQs5pUoNESysIj_yjLQlAXv2vwj8qlw8,156
+atsphinx/goto_top/templates/goto-top/navigation-image.html,sha256=WrKlM7zuHDQC228vZwXNSE_SXM5aasdVhWTxVLsCb4Q,269
+atsphinx/goto_top/templates/goto-top/navigation-text.html,sha256=WX9waTXzplsgz7jaZ5HGFwqPkwdaomyv-lUiRmjVv4E,90
+atsphinx/goto_top/templates/goto-top/navigation.html,sha256=GwUERi4JvHvqf20jgqMRgW2bdEx7rwwhVwTuqC108_E,77
+atsphinx_goto_top-0.2.0.dist-info/METADATA,sha256=4znRwQywv7cak6QFX4jH3Bg7n9gud4GcnZ3lcAS4LKg,1854
+atsphinx_goto_top-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+atsphinx_goto_top-0.2.0.dist-info/licenses/LICENSE,sha256=ieEKJ-VczfHpbzAARBk5cBwN-Qfu4_jjKLNpnH1JyAg,9161
+atsphinx_goto_top-0.2.0.dist-info/RECORD,,
