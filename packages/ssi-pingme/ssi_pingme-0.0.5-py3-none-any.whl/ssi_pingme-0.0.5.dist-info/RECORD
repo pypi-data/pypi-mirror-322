@@ -1,0 +1,14 @@
+pingme/__init__.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+pingme/_modidx.py,sha256=MVI2zQbV4zLyVaunN6HDw_AUS4ylgUt_5lYFU-HI2Ss,4811
+pingme/api.py,sha256=te-fY5Vsq-zVjpcIzJSr20MNoAxzwjlIjRBJaVkRKQ8,2529
+pingme/core.py,sha256=-pYjJTqLMYlTq_ymYKcTJo436vSI_hxe_T2-JhfPqR4,9836
+pingme/hello_world.py,sha256=U4EnmU44kUApMNGt6AGJHlPgIUxr0cBptRzieWAF0Sg,1915
+pingme/pingme_class.py,sha256=qKHuFHIIDGvXdr4e9MMiiLxQ-VUchWRgEBlQl-PR5OM,9011
+pingme/config/config.default.env,sha256=BDBqJIPOUIzXZupFvzgFJc7Njz7vVvP1SYAZuc2iWUs,1409
+pingme/config/config.default.yaml,sha256=lZNIhFOiFcDxuO6o_KjZF2dtTHHztM3UR8DhpHHeo1w,2458
+ssi_pingme-0.0.5.dist-info/LICENSE,sha256=p6aTb6QIfqyZ2Uux2VjV4F2zthdUSHZOjB4mfwGc7fo,1094
+ssi_pingme-0.0.5.dist-info/METADATA,sha256=KVJSudkpXBiSNACekxEJ83C2pABph5ahL-Vq6pt4VJg,2128
+ssi_pingme-0.0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ssi_pingme-0.0.5.dist-info/entry_points.txt,sha256=WJvsvvbIYRmXLUY18MQanH7c4lj79YgKZnL601y4y5w,169
+ssi_pingme-0.0.5.dist-info/top_level.txt,sha256=6yOrK9WHfsSX3Hu1Dl8CxCt07F1AeqM2_EkJRtvhMco,43
+ssi_pingme-0.0.5.dist-info/RECORD,,
