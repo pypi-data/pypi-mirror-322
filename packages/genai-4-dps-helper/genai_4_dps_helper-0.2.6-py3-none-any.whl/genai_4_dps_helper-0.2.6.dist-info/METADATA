@@ -1,0 +1,38 @@
+Metadata-Version: 2.2
+Name: genai_4_dps_helper
+Version: 0.2.6
+Summary: A common library for reusable and repeated code for the GenAI4DPS Training Courses.
+Author: Benjamin Janes
+Author-email: "Benjamin A. Janes" <benjamin.janes@se.ibm.com>
+Project-URL: Homepage, https://github.com/Nniol/genai_4_dps_helper
+Project-URL: Issues, https://github.com/Nniol/genai_4_dps_helper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+
+# genai_4_dps_helper
+Common functions for the GenAI 4 DPS Course
+
+### Instructions for deploymet
+https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/
+
+### VS Code settings.json for _ruff_ config
+```
+{
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.organizeImports": "explicit"
+    },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    }
+  }
+  ```
