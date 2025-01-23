@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+sensor_routing.egg-info/PKG-INFO
+sensor_routing.egg-info/SOURCES.txt
+sensor_routing.egg-info/dependency_links.txt
+sensor_routing.egg-info/top_level.txt
