@@ -1,0 +1,27 @@
+Metadata-Version: 2.2
+Name: refpy
+Version: 0.1.2
+Summary: Library of pipeline calculations
+Home-page: https://github.com/refpy/refpy
+Author: ismael-ripoll
+License: GNU General Public License v3.0
+Project-URL: Documentation, https://refpy.github.io/refpy
+Project-URL: Source, https://github.com/refpy/refpy
+Project-URL: Tracker, https://github.com/refpy/refpy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
+# refpy
