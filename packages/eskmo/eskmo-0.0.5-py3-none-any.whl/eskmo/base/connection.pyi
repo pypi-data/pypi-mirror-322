@@ -1,0 +1,16 @@
+from eskmo.base.mvtype import *
+from _typeshed import Incomplete
+from eskmo.connection.base import mvConnection as mvConnection
+from eskmo.utils.logger import Logger as Logger
+from eskmo.utils.misc import threadStart as threadStart
+
+class RunnerLoggingConnection(mvConnection):
+    def __init__(self) -> None: ...
+    def listen(self, conns, queues) -> None: ...
+
+class RunnerEmitConnection(mvConnection):
+    stores: Incomplete
+    handler: Incomplete
+    def __init__(self, handler, stores, threads: int = 10) -> None: ...
+    def listen(self, conns, queues) -> None: ...
+    def listenOnEvent(self, event) -> None: ...

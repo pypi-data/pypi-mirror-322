@@ -1,0 +1,3 @@
+from eskmo.const.skcom import *
+
+def getAccountDict(accountDataStr, printFn=...): ...

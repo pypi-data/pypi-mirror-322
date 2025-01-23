@@ -1,0 +1,1 @@
+APP_PRODUCT_KEY: int
