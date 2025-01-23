@@ -1,0 +1,8 @@
+readfcs/__init__.py,sha256=rDHd7O4fLXoKf45DRb-zFjde-ydbn_X_TCadZKBEfGE,275
+readfcs/_core.py,sha256=ti8F6exhrhtvbfKPu5z2n420frsGI6cvJKXkeKVB6U8,10786
+readfcs/datasets/__init__.py,sha256=BO3uCVxWZl3zaphOzurCz1HK4ogsZYH9f7HPcCrNVLg,178
+readfcs/datasets/_datasets.py,sha256=yWmjFHygrHq1Dho2sRwADcHGVeRFO6UA3Xz7adKSRAY,1674
+readfcs-2.0.1.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+readfcs-2.0.1.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+readfcs-2.0.1.dist-info/METADATA,sha256=Dm7PhC6l7nOhUwguNEzAqJqQ1zZK3U4dt9hsWwhU_00,1849
+readfcs-2.0.1.dist-info/RECORD,,
