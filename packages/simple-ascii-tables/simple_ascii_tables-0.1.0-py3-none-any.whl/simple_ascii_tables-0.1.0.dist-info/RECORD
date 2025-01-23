@@ -1,0 +1,10 @@
+LICENSE,sha256=L_dZAaP9lG4CVV-txeGK7HZ6oJMzAn5BYzvZMF4eV2o,1102
+simple_ascii_tables/__init__.py,sha256=4L8Re6reK9xfEJt6cmMXmdmi6iywA5124gTRDcX4Jvc,202
+simple_ascii_tables/ascii_table.py,sha256=QWezhwX5PqznZyIfdUlBlWF1oCMz5TqxXUsTtocAwiw,12259
+simple_ascii_tables/build.py,sha256=z03n8qxv-ApshSAq4AGth81iwHVxLEDZ4hh27dGHPbo,5028
+simple_ascii_tables/terminal_io.py,sha256=hKmsjo8YFxeNc1fAFxXMacjSizazBQEs87zr-Iemrww,248
+simple_ascii_tables/width_and_alignment.py,sha256=DDz5su3SaymI-drVROEWMB-c5ygkgF0HonR210ZYqUc,6629
+simple_ascii_tables-0.1.0.dist-info/LICENSE,sha256=L_dZAaP9lG4CVV-txeGK7HZ6oJMzAn5BYzvZMF4eV2o,1102
+simple_ascii_tables-0.1.0.dist-info/METADATA,sha256=omJ55iP6PPLW27HF9AuM6ZroE1Wx9dG6n4sdijBdl9w,2295
+simple_ascii_tables-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+simple_ascii_tables-0.1.0.dist-info/RECORD,,
