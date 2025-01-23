@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dns-poisoning-detector
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: scapy
+Requires-Dist: reportlab
+Requires-Dist: PyYAML
