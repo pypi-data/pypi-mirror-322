@@ -1,0 +1,10 @@
+pyxid2==1.0.8
+
+[docs]
+psychopy
+sphinx
+furo
+
+[tests]
+psychopy
+pytest
