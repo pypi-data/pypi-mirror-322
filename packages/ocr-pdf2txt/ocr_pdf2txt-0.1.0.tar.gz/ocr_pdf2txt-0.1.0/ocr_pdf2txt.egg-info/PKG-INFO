@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: ocr_pdf2txt
+Version: 0.1.0
+Summary: OCR library with layout reconstruction, anonymization, and summarization
+Home-page: https://github.com/yourusername/ocr_pdf2txt
+Author: Piyush Acharya
+Author-email: hey@piyushacharya.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytesseract
+Requires-Dist: pdf2image
+Requires-Dist: spacy
+Requires-Dist: nltk
+Requires-Dist: Pillow
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# ocr_pdf2txt
+
+A Python library for OCR-based text extraction with advanced features like layout reconstruction, anonymization, and summarization.
