@@ -1,0 +1,10 @@
+aeon_ancestry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aeon_ancestry/aeon.py,sha256=HWkc4Fq6039YBEdFrXhv5S9Ooxbm2bI_GLw2YKkHMHk,5155
+aeon_ancestry/estimatorModels.py,sha256=sisgOsneS9xdX1wD343NrAs7Nv29nSX4yAcgCsAMz6w,10202
+aeon_ancestry/genotype_from_vcf.py,sha256=j5Uucndn4Vr6J6NQEdn5-j1ZayuRyw3QozbIYPzVoO8,4212
+aeon_ancestry/visualisePCA.py,sha256=bRSaL8lDbzU_dRcAvmQJgXgco4icPe-b_fjWG235p9A,5426
+aeon_ancestry-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aeon_ancestry-1.0.1.dist-info/METADATA,sha256=EimIS7D0sDu9VQcNlq8CGWAgwtyAwfSYVabh4iVaVyw,17398
+aeon_ancestry-1.0.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+aeon_ancestry-1.0.1.dist-info/entry_points.txt,sha256=xrAN1yGWnRMzY1g8o-f3Loh_abCOZyW7bJ82tAWJUPo,48
+aeon_ancestry-1.0.1.dist-info/RECORD,,
