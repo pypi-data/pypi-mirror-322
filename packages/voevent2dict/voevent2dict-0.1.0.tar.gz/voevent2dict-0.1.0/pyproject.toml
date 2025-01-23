@@ -1,0 +1,46 @@
+[project]
+authors = [{name = "Paul Hancock", email = "Mr.Paul.Hancock@gmail.com"}]
+name = "voevent2dict"
+version = "0.1.0"
+description = "Convert VOEvents from their native .xml format into Python dictionaries."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["xmltodict>=0.14.2"]
+classifiers=[
+'Development Status :: 4 - Beta',
+'Intended Audience :: Developers',
+'Intended Audience :: Science/Research',
+'License :: OSI Approved :: Academic Free License (AFL)',
+'Programming Language :: Python',
+'Programming Language :: Python :: 3',
+'Programming Language :: Python :: 3.8',
+'Programming Language :: Python :: 3.9',
+'Programming Language :: Python :: 3.10',
+'Programming Language :: Python :: 3.11',
+'Topic :: Software Development :: Libraries',
+'Topic :: Scientific/Engineering :: Astronomy',
+]
+
+keywords=[
+'voevent',
+'xml',
+'dictionary',
+'astronomy',
+]
+
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[project.optional-dependencies]
+dev = ["pytest>=6.0", "black", "gcn-kafka>=0.3.3","python-dotenv>=1.0.1","pytest>=8.3.4"]
+
+[project.urls]
+homepage = "https://github.com/paulhancock/voevent2dict"
+repository = "https://github.com/paulhancock/voevent2dict"
+documentation = "https://voevent2dict.readthedocs.io"
+

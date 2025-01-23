@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: voevent2dict
+Version: 0.1.0
+Summary: Convert VOEvents from their native .xml format into Python dictionaries.
+Author-email: Paul Hancock <Mr.Paul.Hancock@gmail.com>
+Project-URL: homepage, https://github.com/paulhancock/voevent2dict
+Project-URL: repository, https://github.com/paulhancock/voevent2dict
+Project-URL: documentation, https://voevent2dict.readthedocs.io
+Keywords: voevent,xml,dictionary,astronomy
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Academic Free License (AFL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: xmltodict>=0.14.2
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: gcn-kafka>=0.3.3; extra == "dev"
+Requires-Dist: python-dotenv>=1.0.1; extra == "dev"
+Requires-Dist: pytest>=8.3.4; extra == "dev"
+
+# VO2Dict
+
+Convert VOEvents from their native .xml format into Python dictionaries.

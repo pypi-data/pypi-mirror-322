@@ -1,0 +1,8 @@
+xmltodict>=0.14.2
+
+[dev]
+pytest>=6.0
+black
+gcn-kafka>=0.3.3
+python-dotenv>=1.0.1
+pytest>=8.3.4

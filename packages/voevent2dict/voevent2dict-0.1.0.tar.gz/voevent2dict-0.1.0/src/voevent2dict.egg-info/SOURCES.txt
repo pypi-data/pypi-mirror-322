@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/vo2dict.py
+src/voevent2dict.egg-info/PKG-INFO
+src/voevent2dict.egg-info/SOURCES.txt
+src/voevent2dict.egg-info/dependency_links.txt
+src/voevent2dict.egg-info/requires.txt
+src/voevent2dict.egg-info/top_level.txt
+tests/test_vo2dict.py
