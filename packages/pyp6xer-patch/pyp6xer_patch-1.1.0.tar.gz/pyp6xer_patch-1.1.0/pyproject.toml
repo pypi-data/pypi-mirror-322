@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "PyP6Xer-patch"
+version = "1.1.0"
+description = "Parser for XER written in Python"
+readme = "README.md"
+license = { text = "GNU Lesser General Public License v3 or later (LGPLv3+)" }
+authors = [
+    { name = "BlackSmithSoft", email = "info@blacksmithsoft.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    # Add runtime dependencies here (e.g., "numpy>=1.21.0")
+]
+classifiers = [
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/blacksmithsoft/PyP6Xer"
+
+[tool.setuptools.packages.find]
+where = ["xerparser"]
