@@ -1,0 +1,65 @@
+path: "C:\\Users\\Alexander\\PycharmProjects\\YOLOv8\\YOLOv8\\data\\yolo_dataset"
+train: train\images
+val: val\images
+test: test\images
+
+# Classes
+names:
+  - Right Ventricle
+  - Left Ventricle
+  - Right Atrium
+  - Aorta
+  - Pulmonary Artery
+  - Superior Vena Cava
+nc: 6
+
+name: 'config'
+
+Image Preprocessing:
+  - hist_eq
+
+Image Augmentation:
+  - contrast
+  - brightness
+  - noise
+  - rotate
+  - crop
+  - shear
+
+Training Parameters:
+  format: 'engine'
+  epochs: 500
+  verbose: True
+  optimizer: 'SGD'
+  plots: True
+  profile: True
+
+Predict Parameters:
+  conf: 0.85
+  max_det: 6
+  half: False
+  save: True
+  save_txt: True
+  classes:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+
+Dataset Parameters:
+  LoadInitialAnnotations:
+    Images:
+      keep: 'all'
+    Categories:
+      drop: []
+  MergeAutoAnnotations:
+    Categories:
+      keep:
+        - Right Ventricle
+        - Left Ventricle
+        - Right Atrium
+        - Aorta
+        - Pulmonary Artery
+        - Superior Vena Cava

@@ -1,0 +1,11 @@
+name: augmentation_comparison
+
+variables:
+  - augmentation
+    - 
+
+trials: 3
+
+max_sample_size: 10
+
+positive_control: config.yaml
