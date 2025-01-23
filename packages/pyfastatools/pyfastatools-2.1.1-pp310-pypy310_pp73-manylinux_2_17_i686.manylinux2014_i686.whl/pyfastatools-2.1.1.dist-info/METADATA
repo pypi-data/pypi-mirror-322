@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: pyfastatools
+Version: 2.1.1
+Summary: Simple FASTA file tools to parse, edit, subset, split, and perform stats on FASTA files
+Author-Email: Cody Martin <codycmar10@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Cody Martin
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Homepage, https://github.com/cody-mar10/fasta-tools
+Project-URL: Bug tracker, https://github.com/cody-mar10/fasta-tools/issues
+Requires-Python: >=3.9
+Requires-Dist: more-itertools>=8.2
+Description-Content-Type: text/markdown
+
+# C++ bindings for FASTA file parsing
+
+## Installation
+
+```bash
+pip install pyfastatools
+```
+
+## Usage
+
+The `pyfastatools.Parser` object is the primary API that parses FASTA files and yields `pyfastatools.Record` objects.
+
+If you have a FASTA file called `proteins.faa` that looks like this:
+
+```txt
+>seq_1
+MSKFKKIPL
+>seq_2
+MQSSSKTCN
+>seq_3
+MEDNMITIY
+```
+
+Then you can parse this file in python like this:
+
+```python
+from pyfastatools import Parser
+
+for record in Parser("proteins.faa"):
+    print(record.name, record.seq)
+```
+
+which will print:
+
+```python
+>>> 'seq_1 MSKFKKIPL'
+>>> 'seq_2 MQSSSKTCN'
+>>> 'seq_3 MEDNMITIY'
+```
