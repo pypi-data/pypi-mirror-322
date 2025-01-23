@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: CATK
+Version: 0.0.1
+Summary: The Classical Atlas Toolkit
+Project-URL: Homepage, https://github.com/LOREL-Lab/CATK
+Project-URL: Issues, https://github.com/LOREL-Lab/CATK/issues
+Author-email: "Annie K. Lamar" <aklamar@ucsb.edu>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9

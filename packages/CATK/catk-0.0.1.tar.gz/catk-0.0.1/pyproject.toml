@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "CATK"
+version = "0.0.1"
+authors = [
+  { name="Annie K. Lamar", email="aklamar@ucsb.edu" },
+]
+description = "The Classical Atlas Toolkit"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/LOREL-Lab/CATK"
+Issues = "https://github.com/LOREL-Lab/CATK/issues"
