@@ -1,0 +1,13 @@
+src/__init__.py,sha256=VgbHVFpgU7bzDmtpM4p36b0RHNScvSawc8J76FBI_uk,101
+src/detector.py,sha256=lLPkJO55-UrEyAtCvoy3cEzrChQwbqpu5KldbPGZenI,844
+src/report_generator.py,sha256=2powT4xkh7DPzXALSLXs2X5VNX9gUE7_cxcNcJq8GN8,1783
+src/utils.py,sha256=Eh46DUOWkqFjakx6T0atM6a1R0dDmtvFCU4AbjamHbo,909
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_detector.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_report_generator.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dns_poisoning_detector-0.1.0.dist-info/LICENSE,sha256=wfqT209Nw7UT8ZC4ZYeGwB_uItl9mgzoKCKLN6ofytQ,1088
+dns_poisoning_detector-0.1.0.dist-info/METADATA,sha256=q8ZAHVwuubpZ8WHXyM5YECW714usVW-6OdLbUOPvKfs,157
+dns_poisoning_detector-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+dns_poisoning_detector-0.1.0.dist-info/entry_points.txt,sha256=QpTVyYcbSRe2bBms_K3GyUYD7Wr_TzWPOHe4NBBQLag,53
+dns_poisoning_detector-0.1.0.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+dns_poisoning_detector-0.1.0.dist-info/RECORD,,
