@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RedXSecurePayments"
+version = "1.0.0"
+description = "A flexible and secure payment collection system using Stripe"
+authors = [
+    { name = "RedX", email = "RedXDevelopment1998@gmail.com" }
+]
+requires-python = ">=3.7"
+dependencies = [
+    "stripe>=7.0.0",
+    "flask>=2.0.0",
+    "setuptools>=68.0.0",
+    "build>=1.1.1",
+    "twine>=4.0.2",
+]
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://pypi.org/project/RedXSecurePayments/"
+Repository = "https://github.com/RedXSecurePayments/RedXSecurePayments"
