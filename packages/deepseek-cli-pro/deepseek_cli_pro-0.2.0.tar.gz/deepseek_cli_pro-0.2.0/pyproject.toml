@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepseek-cli-pro"
+version = "0.2.0"
+description = "Rich-powered CLI interface for DeepSeek AI models"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "rich>=13.0.0",
+    "click>=8.0.0",
+    "openai>=1.0.0"
+]
+authors = [
+    {name = "Sifat Hasan", email = "sihabhossan633@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/Pro-Sifat-Hasan/deepseek-cli"
+
+[project.scripts]
+deepseek = "deepseek_cli.cli:cli"
