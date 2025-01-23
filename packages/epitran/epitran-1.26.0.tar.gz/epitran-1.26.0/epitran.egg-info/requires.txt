@@ -1,0 +1,9 @@
+setuptools
+regex
+panphon>=0.20
+marisa-trie
+requests
+jamo
+
+[:python_version<"3.0"]
+subprocess32
