@@ -1,0 +1,11 @@
+reference_spectra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reference_spectra/get_spectra.py,sha256=ZodGka25jt75RfhhYoU52iyAeAR8igvP5NxlzcVDp_A,479
+reference_spectra/_spectra/f74113.nc,sha256=7rqxjF9FFWXdNzm9iYPRdBol-yfzAl0RcGCwLaJGFSE,264049
+reference_spectra/_spectra/f76ref.nc,sha256=nGEBWlrv38saKIld_5dX5u1c3QTmM-iP8jZDLEh_Gmk,297615
+reference_spectra/_spectra/r74113.nc,sha256=SCzKihaQCsU8z2sD94WCphWNoE-rgYoWVNbV1pQXsIQ,182953
+reference_spectra/_spectra/sc21refw.nc,sha256=zauKD5PtUeVH10UAHupcsGsLvrX7OUFnnM4D5GwF2us,259055
+reference_spectra-0.0.1b0.dist-info/LICENSE.txt,sha256=ok_fp0IJxClhQH47Lt6AT9vKzAUD1xoSLZkaRHHWzaU,616
+reference_spectra-0.0.1b0.dist-info/METADATA,sha256=KTVQD4uqbhpP6f761vzYEod3_WO3jKdpO7akko5Rlyw,1034
+reference_spectra-0.0.1b0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+reference_spectra-0.0.1b0.dist-info/top_level.txt,sha256=Z6SxK_kQDg8NWS7TGO-Qw0v3H0iBh7n00OxIF0ss3jg,18
+reference_spectra-0.0.1b0.dist-info/RECORD,,
