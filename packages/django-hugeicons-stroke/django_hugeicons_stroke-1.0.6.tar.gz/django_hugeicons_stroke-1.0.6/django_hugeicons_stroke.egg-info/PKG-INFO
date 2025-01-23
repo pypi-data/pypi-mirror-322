@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: django-hugeicons-stroke
+Version: 1.0.6
+Summary: A Django templatetag library for using hugeicons free stroke icons
+Home-page: 
+Author: Kyvex
+Author-email: developer.gdean@proton.me
+License: GPL
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
