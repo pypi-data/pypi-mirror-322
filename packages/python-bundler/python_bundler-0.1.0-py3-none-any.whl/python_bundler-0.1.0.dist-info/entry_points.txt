@@ -1,0 +1,3 @@
+[console_scripts]
+python_bundler=python_bundler.__main__:main
+
