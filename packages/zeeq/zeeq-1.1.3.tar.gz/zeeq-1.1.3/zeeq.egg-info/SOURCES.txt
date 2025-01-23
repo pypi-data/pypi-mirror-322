@@ -1,0 +1,9 @@
+README.md
+setup.py
+zeeq/__init__.py
+zeeq/interpreter.py
+zeeq.egg-info/PKG-INFO
+zeeq.egg-info/SOURCES.txt
+zeeq.egg-info/dependency_links.txt
+zeeq.egg-info/requires.txt
+zeeq.egg-info/top_level.txt
