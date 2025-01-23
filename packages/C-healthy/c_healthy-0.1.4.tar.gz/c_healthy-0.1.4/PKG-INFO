@@ -1,0 +1,50 @@
+Metadata-Version: 2.2
+Name: C_healthy
+Version: 0.1.4
+Summary: A library for calculating body index include: [BMI, BMR, TDEE, WHR, LBM, BFP, NW, IBW, MA]
+Author: Nguyen Truong Chinh
+Author-email: chinhcuber@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
+
+# C_healthy
+
+C_healthy là thư viện Python để tính toán các chỉ số sức khỏe (BMI, BMR, TDEE) 
+
+## Cách cài đặt
+```bash
+pip install C_healthy
+
+## Cách sử dụng
+```python
+from C_healthy import BMI, BMR, TDEE, WHR, LBM, BFP, NW, IBW, MA
+
+bmi = BMI(70, 1.75)
+bmr = BMR("nam", 60, 1.75, 18)
+tdee = TDEE("nam", 60, 1.75, 18, 3)
+lbm = LBM("nam", 70, 1.75) 
+bfp = BFP("nam", 70, 1.75, 20)
+ibw = IBW("nam", 1.75)
+whr = WHR("nam", 85, 95)
+nw = NW(60)
+ma = MA("nam", 70, 1.7, 18)
+print("BMI:", bmi)
+print("BMR:", bmr)
+print("TDEE:", tdee)
+print("LBM:", lbm)
+print("BFP:", bfp)
+print("WHR:", whr)
+print("IBW:", ibw)
+print("NW:", nw)
+print("MA:", ma)
