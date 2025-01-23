@@ -1,0 +1,200 @@
+Metadata-Version: 2.1
+Name: clonearmy
+Version: 0.2.2
+Summary: Analyze haplotypes from Illumina paired-end amplicon sequencing
+Author: Jason D Limberis
+Author-email: Jason D Limberis <Jason.Limberis@ucsf.edu>
+License: MIT
+Project-URL: Documentation, https://github.com/username/clonearmy#readme
+Project-URL: Source, https://github.com/username/clonearmy
+Keywords: bioinformatics,sequencing,amplicon,haplotype
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pysam>=0.21.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: click>=8.0.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: biopython>=1.81
+Requires-Dist: jinja2>=3.0.0
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: seaborn>=0.11.0
+Requires-Dist: networkx>=2.6.0
+Requires-Dist: scipy>=1.7.0
+
+# CloneArmy
+
+CloneArmy is a modern Python package for analyzing haplotypes from Illumina paired-end amplicon sequencing data. It provides a streamlined workflow for processing FASTQ files, aligning reads, identifying sequence variants, and performing comparative analyses between samples.
+
+## Features
+
+- Fast paired-end read processing using BWA-MEM
+- Quality-based filtering of bases and alignments
+- Haplotype identification and frequency analysis
+- Statistical comparison between samples with FDR correction
+- Interactive visualization of mutation frequencies
+- Rich command-line interface with progress tracking and tabular output
+- Comprehensive HTML reports
+- Multi-threading support
+- Support for full-length sequence analysis
+- Real-time progress monitoring with progress bars
+- Exportable results in multiple formats (CSV, JSON, Excel)
+
+## Installation
+
+```bash
+pip install clone-army
+```
+
+### Requirements
+
+- Python ≥ 3.8
+- BWA (must be installed and available in PATH)
+- Samtools (must be installed and available in PATH)
+
+## Usage
+
+### Command Line Interface
+
+#### Basic Analysis
+
+```bash
+# Basic usage with progress tracking
+clone-army run /path/to/fastq/directory reference.fasta
+
+# With all options
+clone-army run /path/to/fastq/directory reference.fasta \
+    --threads 8 \
+    --output results \
+    --min-base-quality 20 \
+    --min-mapping-quality 30 \
+    --format [csv|json|excel] \  # Output format selection
+    --no-report  # Skip HTML report generation
+```
+
+#### Comparative Analysis
+
+```bash
+# Compare two samples
+clone-army compare \
+    /path/to/sample1/fastq \
+    /path/to/sample2/fastq \
+    reference.fasta \
+    --threads 8 \
+    --output comparison_results \
+    --min-base-quality 20 \
+    --min-mapping-quality 30 \
+    --format [csv|json|excel] \  # Output format selection
+    --full-length-only  # Only consider full-length sequences
+```
+
+### Output Examples
+
+#### Sample Analysis Results
+```
+╒════════════════╤══════════╤════════════╤══════════════╕
+│ Haplotype      │ Count    │ Frequency  │ Mutations    │
+╞════════════════╪══════════╪════════════╪══════════════╡
+│ ATCG...        │ 1000     │ 0.45       │ 2           │
+│ ATTG...        │ 800      │ 0.36       │ 1           │
+│ ATCC...        │ 420      │ 0.19       │ 3           │
+╘════════════════╧══════════╧════════════╧══════════════╛
+```
+
+#### Comparative Analysis Results
+```
+╒══════════╤════════════╤════════════╤═══════════╤═══════════╕
+│ Position │ Sample 1 % │ Sample 2 % │ P-value   │ FDR       │
+╞══════════╪════════════╪════════════╪═══════════╪═══════════╡
+│ 123 A>T  │ 45.2      │ 12.3       │ 0.001     │ 0.003     │
+│ 456 G>C  │ 33.1      │ 28.9       │ 0.042     │ 0.063     │
+╘══════════╧════════════╧════════════╧═══════════╧═══════════╛
+```
+
+### Python API
+
+```python
+from pathlib import Path
+from clone_army.processor import AmpliconProcessor
+from clone_army.comparison import run_comparative_analysis
+
+# Initialize processor with progress tracking
+processor = AmpliconProcessor(
+    reference_path="reference.fasta",
+    min_base_quality=20,
+    min_mapping_quality=30,
+    show_progress=True  # Enable progress bars
+)
+
+# Process samples
+results1 = processor.process_sample(
+    fastq_r1="sample1_R1.fastq.gz",
+    fastq_r2="sample1_R2.fastq.gz",
+    output_dir="results/sample1",
+    threads=4,
+    output_format="csv"  # or "json" or "excel"
+)
+
+results2 = processor.process_sample(
+    fastq_r1="sample2_R1.fastq.gz",
+    fastq_r2="sample2_R2.fastq.gz",
+    output_dir="results/sample2",
+    threads=4,
+    output_format="csv"
+)
+
+# Perform comparative analysis
+comparison_results = run_comparative_analysis(
+    results1={"sample1": results1},
+    results2={"sample2": results2},
+    reference_seq="ATCG...",  # Reference sequence string
+    output_path="comparison_results.csv",
+    full_length_only=False,
+    show_progress=True  # Enable progress tracking
+)
+
+# Results are returned as pandas DataFrames
+print(results1.to_markdown())  # Pretty print sample 1 haplotypes
+print(comparison_results.to_markdown())  # Pretty print comparison
+```
+
+## Output Files
+
+### Single Sample Analysis
+- Sorted BAM file with alignments
+- Results file in chosen format (CSV/JSON/Excel) containing:
+  - Sequence
+  - Read count
+  - Frequency
+  - Number of mutations
+  - Full-length status
+  - Quality metrics
+- Interactive HTML report (optional)
+- Console output with summary statistics and progress bars
+
+### Comparative Analysis
+- Results file in chosen format with statistical comparisons:
+  - Mutation positions and types
+  - Frequencies in each sample
+  - Statistical significance (p-values)
+  - FDR-corrected p-values
+  - Effect sizes
+- Interactive HTML plot showing mutation frequency differences
+- Console output with significant mutations in tabular format
+- Progress tracking for long-running operations
+
+## License
+
+MIT License - See LICENSE file for details
+
+## Citation
+
+If you use CloneArmy in your research, please cite:
+[Citation information to be added]
