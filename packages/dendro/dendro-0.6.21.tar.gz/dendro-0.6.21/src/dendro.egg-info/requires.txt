@@ -1,0 +1,11 @@
+click
+simplejson
+numpy
+PyYAML
+pydantic
+psutil
+requests
+
+[compute-client]
+pubnub
+boto3

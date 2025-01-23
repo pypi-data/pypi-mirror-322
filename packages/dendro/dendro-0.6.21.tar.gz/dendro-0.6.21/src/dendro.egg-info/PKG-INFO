@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: dendro
+Version: 0.6.21
+Summary: Python client for the Dendro compute platform
+Author: Luiz Tauffer, Alessio Buccino, Ben Dichter
+Author-email: Jeremy Magland <jmagland@flatironinstitute.org>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/magland/dendro
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: simplejson
+Requires-Dist: numpy
+Requires-Dist: PyYAML
+Requires-Dist: pydantic
+Requires-Dist: psutil
+Requires-Dist: requests
+Provides-Extra: compute-client
+Requires-Dist: pubnub; extra == "compute-client"
+Requires-Dist: boto3; extra == "compute-client"
+
+# dendro
