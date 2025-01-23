@@ -1,0 +1,17 @@
+pyarmor/cli/core/alpine/__init__.py,sha256=LL_X4jI4ZWLA3ugf5aiJCkbzyQt9oxXayAen55KvLbw,22
+pyarmor/cli/core/alpine/aarch64/pyarmor_runtime.so,sha256=Zwv51n73aLzYaLuiCzlKQrfwypV-qw1X-0d8ZuF_j8E,662992
+pyarmor/cli/core/alpine/aarch64/pytransform3.so,sha256=kM89dP0Px_a6kurJGyUhcyLInhcENZg7cB9AXM3A0j8,514656
+pyarmor/cli/core/alpine/mips32el/pyarmor_runtime.so,sha256=Qed4iBQq4mI-i5LbI_NHNB5WhN7e-_o9kdhrzB7SLIo,1483852
+pyarmor/cli/core/alpine/mips32el/pytransform3.so,sha256=3aeZH2v0OGB3dp58fsGHa5Xbu0GfwCZd4w58iprRmiA,1325184
+pyarmor/cli/core/alpine/mips64el/pyarmor_runtime.so,sha256=bjb_z08ZrKjo2nb22AxQ0QYSY0nOBUMJeUxv16iqqho,1745876
+pyarmor/cli/core/alpine/mips64el/pytransform3.so,sha256=btsFGdIi5q2dRi9zSpDQusC7Hcq4gEK3cK3D8t4NYUY,1587216
+pyarmor/cli/core/alpine/ppc64le/pyarmor_runtime.so,sha256=g6Hyv1RzZh0SLoxcmVLuofZ1hzy9SKyjTy-v54JDA2k,1068584
+pyarmor/cli/core/alpine/ppc64le/pytransform3.so,sha256=Y78iHWTdXmRGJZoY_uME_w8qWIeLzx0O-FH5QeRxkgk,854728
+pyarmor/cli/core/alpine/riscv64/pyarmor_runtime.so,sha256=0tixhXriFKJKPC83yro1eR5MfVJhP6Pe93B1vdvONCc,760088
+pyarmor/cli/core/alpine/riscv64/pytransform3.so,sha256=ZhHMhJwtDdsYImsEhtdyC2b0sWT6IwJ-rg_hw-tD0Gk,569712
+pyarmor/cli/core/alpine/x86_64/pyarmor_runtime.so,sha256=JOofHf-6fD6OlkUb_bkXXE6xb6LSjd3ipsSEpFdRjbM,685104
+pyarmor/cli/core/alpine/x86_64/pytransform3.so,sha256=saHL56pBY-N2sj359EMd0cEvD27t0ePxAqHIKUzCTBk,471128
+pyarmor.cli.core.alpine-7.6.3.dist-info/METADATA,sha256=H3iQYiaiVcej87SurFZhuMBK6JTAE5gCxVIOUbV36uU,807
+pyarmor.cli.core.alpine-7.6.3.dist-info/WHEEL,sha256=55-fghyi0f0SXlCxex9Aw9Xe-STHlmIwt8we534u_Iw,94
+pyarmor.cli.core.alpine-7.6.3.dist-info/top_level.txt,sha256=UE1ovZ_90YzwF_lZ3LV7o8HKLe-RgzUaUUvdH5UTUus,8
+pyarmor.cli.core.alpine-7.6.3.dist-info/RECORD,,
