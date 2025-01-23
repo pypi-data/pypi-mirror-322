@@ -1,0 +1,3 @@
+[console_scripts]
+mod2sbml = sbmlsh.mod2sbml:main
+sbml2mod = sbmlsh.sbml2mod:main

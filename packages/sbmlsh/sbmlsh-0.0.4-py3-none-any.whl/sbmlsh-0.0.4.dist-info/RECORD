@@ -1,0 +1,11 @@
+sbmlsh/__init__.py,sha256=8zf6mt3shNLnIsxaPIpoYgVaJ2_VSw99D4AndJMUJn0,71
+sbmlsh/mod2sbml.py,sha256=7MtdwK3QlvlmCeoTtFUCHkB41TNgARFANaOOreaS1Os,21007
+sbmlsh/roundtrip.py,sha256=847boTL0D_UzwNWR5O7Z4NM8OuzVDyRpSsAgMXS-euY,1069
+sbmlsh/sbml-latex-extract.py,sha256=UmkG9t_vMRVidMtXRl5Bmsy_Hc0TKem7zTmcHZ_GzVo,504
+sbmlsh/sbml2latex.py,sha256=3vjIsN6G9eTix3fUjv7wgEgLCgXV_X_9xbJMg_51CfI,9713
+sbmlsh/sbml2mod.py,sha256=07vFeQaguTb4qWzbD36dyYqPSEALBYHyl2BmgNWE74c,12548
+sbmlsh-0.0.4.dist-info/METADATA,sha256=Iwz97gQncK9f4hIV77LG52sjLYxswU-c9P2wklqCB7s,2970
+sbmlsh-0.0.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+sbmlsh-0.0.4.dist-info/entry_points.txt,sha256=BYDSReCNHh7Y072eYNtDBEvi2cRM6jfm_vEUrBQcuhI,82
+sbmlsh-0.0.4.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sbmlsh-0.0.4.dist-info/RECORD,,
