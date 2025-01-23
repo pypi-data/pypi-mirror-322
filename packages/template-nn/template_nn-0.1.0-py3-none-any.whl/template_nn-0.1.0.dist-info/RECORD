@@ -1,0 +1,10 @@
+template_nn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+template_nn/shallow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+template_nn/shallow/fnn.py,sha256=Gn1Jh7dbl7-9SVX4y5tzErXwgYBGXzicwa15dDgGucA,1702
+template_nn/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+template_nn/utils/gpu.py,sha256=FWByv5E9JGyd6NtYxqNDDpaJ5YL69YT36ZqzZPUszCw,881
+template_nn-0.1.0.dist-info/LICENSE,sha256=RtJki7nuiFRDKSjx-zGb4QccCFgyv6Sj5G2nTrrZ6a0,1071
+template_nn-0.1.0.dist-info/METADATA,sha256=SokckSsrCkxnaC6UkjXl4vM_2Tr2nMU8D26k1CjWwP0,591
+template_nn-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+template_nn-0.1.0.dist-info/top_level.txt,sha256=pRsE0Av778862tRjdVHJKX0uORX3VSUOPKWmWQp60eo,12
+template_nn-0.1.0.dist-info/RECORD,,
