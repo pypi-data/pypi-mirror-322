@@ -1,0 +1,3 @@
+from pandas import Series as pdSeries
+
+def detect_characteristics(columns: dict[str, pdSeries], threshold: float) -> dict: ...

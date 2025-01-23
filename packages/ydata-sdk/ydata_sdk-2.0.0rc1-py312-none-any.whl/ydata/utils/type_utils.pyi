@@ -1,0 +1,3 @@
+from decimal import Context
+
+def float_to_str(f: float, ctx: Context) -> str: ...

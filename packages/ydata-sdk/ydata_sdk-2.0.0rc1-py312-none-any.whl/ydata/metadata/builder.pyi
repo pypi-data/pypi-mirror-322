@@ -1,0 +1,16 @@
+from _typeshed import Incomplete
+from typing import Any
+
+logger: Incomplete
+TRUTHY_STR_VALUES: Incomplete
+FALSY_STR_VALUES: Incomplete
+ERROR_MARGIN: float
+
+class MetadataConfigurationBuilder:
+    config: Incomplete
+    def __init__(self, config: dict[str, Any] = None) -> None: ...
+    def add_column(self, column: str, datatype: str, vartype: str, characteristic: str | None = None, **options): ...
+    def remove_column(self, column: str): ...
+    @staticmethod
+    def load(file_path: str) -> MetadataConfigurationBuilder: ...
+    def save(self, file_path: str): ...

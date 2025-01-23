@@ -1,0 +1,3 @@
+from ydata.utils.data_types import DataType as DataType
+
+def generate_function_map(base_methods: dict, method_to_enum: dict, enabled_datatypes: list[DataType], datatype_to_function: dict) -> dict: ...
