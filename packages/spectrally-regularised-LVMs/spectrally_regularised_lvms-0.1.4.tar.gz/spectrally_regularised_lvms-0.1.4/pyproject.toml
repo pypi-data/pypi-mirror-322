@@ -1,0 +1,80 @@
+[project]
+name = "spectrally-regularised-LVMs"
+description = "A framework of linear LVMs with spectral regularisation."
+authors = [
+    {name = "Ryan Balshaw", email = "ryanbalshaw81@gmail.com"}
+]
+
+maintainers = [
+    {name = "Ryan Balshaw", email = "ryanbalshaw81@gmail.com"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+homepage = "https://github.com/RyanBalshaw/spectrally-regularised-LVMs"
+repository = "https://github.com/RyanBalshaw/spectrally-regularised-LVMs"
+documentation = "https://spectrally-regularised-lvms.readthedocs.io/en/latest/"
+keywords = ["Linear LVMs", "Spectral regularisation", "Python"]
+include = ["LICENSE"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: Implementation",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy>=1.23.1,<2.0",
+    "matplotlib>=3.5.2",
+    "scipy>=1.8.1",
+    "scikit-learn>=1.1.2",
+    "tqdm>=4.64.1",
+    "sympy>=1.11.1,<1.13"
+]
+dynamic = []
+version = "0.1.4"
+
+
+[tool.poetry]
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.2"
+black = "^23.3.0"
+isort = "^5.12.0"
+pytest = "^7.3.1"
+ruff = "^0.0.263"
+jupyterlab = "^3.6.3"
+interrogate = "^1.5.0"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+myst-parser = ">=0.16"
+sphinx = ">=4.0"
+sphinx-autobuild = ">=2021.0"
+sphinx-rtd-theme = ">=1.0"
+numpydoc = "^1.5.0"
+autodocsumm = "^0.2.11"
+sphinx-book-theme = "^1.0.1"
+furo = "^2023.5.20"
+
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "semver"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[project.urls]
+"Bug tracker" = "https://github.com/RyanBalshaw/spectrally-regularised-LVMs/issues"
+
+[tool.poetry.requires-plugins]
+poetry-dynamic-versioning = { version = ">=1.0.0,<2.0.0", extras = ["plugin"] }
