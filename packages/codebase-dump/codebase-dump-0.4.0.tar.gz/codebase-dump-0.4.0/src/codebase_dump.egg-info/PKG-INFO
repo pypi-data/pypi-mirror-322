@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: codebase-dump
+Version: 0.4.0
+Summary: Generate a single-file dump of your repository, so you can use it as LLM input
+Author: Mirek Stanek, Kamil Stanuch
+Author-email: mirek@practicalengineering.management, kamil@stanuch.eu
+Requires-Python: >=3.7
+Provides-Extra: dev
+License-File: LICENSE
