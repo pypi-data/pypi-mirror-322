@@ -1,0 +1,14 @@
+
+[uvicorn_config.application]
+app = "main:app"
+
+[uvicorn_config.production]
+workers = 4
+
+[uvicorn_config.http]
+set_default_forwarded_allow_ips = "false"
+forwarded_allow_ips = [ '*' ]
+
+[uvicorn_config.socket_binding]
+host = "localhost"
+port = 6543
