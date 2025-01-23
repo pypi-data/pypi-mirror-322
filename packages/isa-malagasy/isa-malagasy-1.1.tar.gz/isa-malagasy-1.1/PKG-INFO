@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: isa-malagasy
+Version: 1.1
+Summary: Une bibliothèque pour convertir les nombres en lettres en malagasy.
+Home-page: https://github.com/Daylamiy06
+Author: Day Lamiy
+Author-email: hatsudai1@gmail.com
+License: Propriétaire
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Isa Malagasy
+Isa Malagasy est une bibliothèque python qui permet de convertir des nombres en lettres en malagasy.
+Elle supporte les entiers et les nombres décimaux, avec ou sans unité.
+
+Copyright © 2025 [Day Lamiy](https://www.facebook.com/day.lamiy.1)
+
+## Installation
+Pour installer la bibliothèque, exécutez cette commande : 
+```bash
+pip install isa-malagasy
+```
+
+## Utilisation
+### Exemple de base
+```python
+from isa_malagasy import num2wordsmalagasy
+
+print(num2wordsmalagasy(83)) 
+# Affiche "telo amby valopolo"
+
+print(num2wordsmalagasy(111.19)) 
+# Affiche "iraika ambin'ny folo amby zato faingo sivy ambin'ny folo"
+
+print(num2wordsmalagasy(499.998)) 
+# Affiche "dimampolo faingo aotra"
+```
+
+### Exemple avec une unité
+``` python
+from isa_malagasy import num2wordsmalagasy
+
+print(num2wordsmalagasy(2500, "Ariary")) 
+# Affiche "dimanjato sy roa arivo Ariary"
+
+print(num2wordsmalagasy(900.60, "Ar.")) 
+# Affiche "sivinjato faingo enimpolo Ar."
+
+print(num2wordsmalagasy(150.495, "MGA")) 
+# Affiche "dimampolo amby zato faingo dimampolo MGA"
+```
+
+### Syntaxe
+```bash
+Résultat = num2wordsmalagasy(Nombre à transformer [, Unité])
+```
+
+- `Résultat` : <*str*>
+
+    Nombre exprimé en lettres.
+
+- `Nombre à transformer` : <*int, float*>
+
+    Nombre à transformer en chaîne de caractères.
+
+    Le nombre à exprimer en lettres a les caractéristiques suivantes :
+    
+    18 chiffres significatifs : 12 chiffres maximum pour la partie entière, 6 chiffres maximum pour la partie décimale.
+
+- `Unité` : <*str optionnelle*>
+
+    Unité à utiliser dans le résultat : ariary, fmg, MGA, euro, ...
+
+
+## Limites
+La bibliothèque supporte les nombres jusqu'à 999 999 999 999. Au-delà, un message d'erreur sera affiché.
+Les nombres en chaîne de caracrères ne sont pas pris en charge.
+
+## Remarque
+La partie décimale est arrondie à 2 chiffres.
