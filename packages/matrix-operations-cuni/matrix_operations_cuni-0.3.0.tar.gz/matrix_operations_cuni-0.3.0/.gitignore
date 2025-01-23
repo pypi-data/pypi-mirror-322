@@ -1,0 +1,6 @@
+.venv
+.idea
+build
+dist
+matrix_operations_cuni.egg-info
+matrix_operations_cuni/__pyccache__
