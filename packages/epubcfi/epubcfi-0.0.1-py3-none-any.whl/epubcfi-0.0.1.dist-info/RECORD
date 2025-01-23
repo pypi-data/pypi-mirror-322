@@ -1,0 +1,12 @@
+epubcfi/__init__.py,sha256=jetT4zmx86qDHy62D9PW9demnrIV9j55te9QEFt6Un4,319
+epubcfi/assertion.py,sha256=DS4cF43JGzzPC51kHuD2je49S5nRQ9geApga8sY1P-E,1424
+epubcfi/cfi.py,sha256=IPPs4TMphL07YLK0naRNVdrvNGsuMUsm3osGHbhcdrE,872
+epubcfi/error.py,sha256=-IHmqMLQsvTxX3TmKZNXkxZjCQHFBohEsqfyoaPsHZg,195
+epubcfi/parser.py,sha256=E-iZ0Hhu3tMlTx6CT2RncwzoVdkOMTcblj96sgPvXm4,2987
+epubcfi/path.py,sha256=5gsBQ1y8q_AuDnsun2HeM9weJ5g1CHFipi-4E30PaUw,5218
+epubcfi/token.py,sha256=bOMKL1uN4YlC9rf6qfAI8lf56orrOjdrBQCA0SnlDFs,5437
+epubcfi/tokenizer.py,sha256=GHAm6g7A0CnmhHAdXIp0zq53VkBmVIvf5-CL2kYTIWc,4463
+epubcfi-0.0.1.dist-info/METADATA,sha256=L5PyuTcrLSkxjymV8xu7Lr9buppwVSNSPUnXXdwxed0,393
+epubcfi-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+epubcfi-0.0.1.dist-info/top_level.txt,sha256=2Dzt2EG8u5oBnTi4NwIZ8MSLouKBUoVaISfvyhUV59w,8
+epubcfi-0.0.1.dist-info/RECORD,,
