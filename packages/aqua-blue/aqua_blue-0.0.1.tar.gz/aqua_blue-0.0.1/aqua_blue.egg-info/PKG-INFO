@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: aqua_blue
+Version: 0.0.1
+Summary: Lightweight and basic reservoir computing library
+Home-page: https://github.com/Chicago-Club-Management-Company/aqua-blue
+Author: Jacob Jeffries
+Author-email: jacob.jeffries@chicagoclubteam.org
+License: MIT
+Keywords: reservoir computing,prediction,machine learning,forecasting,time series
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# aqua-blue
+Lightweight and basic reservoir computing library
