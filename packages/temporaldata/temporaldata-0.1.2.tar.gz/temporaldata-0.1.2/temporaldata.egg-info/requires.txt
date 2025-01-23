@@ -1,0 +1,10 @@
+setuptools>=60.0.0
+numpy>=1.14.0
+pandas>=1.0.0
+h5py>=3.0.0
+
+[dev]
+pytest
+black==24.2.0
+pre-commit>=3.5.0
+flake8
