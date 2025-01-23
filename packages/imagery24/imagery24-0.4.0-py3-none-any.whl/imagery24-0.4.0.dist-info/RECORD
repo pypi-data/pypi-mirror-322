@@ -1,0 +1,13 @@
+imagery24/__init__.py,sha256=WshYbO2wasbqRw_fmY2kvikIl8xEDacU60ZoVfavGdI,202
+imagery24/extract.py,sha256=-2Jn4t9JERsRdYKpew52Xnch4XqMCAUdNw0mTmSAnyE,940
+imagery24/georeference.py,sha256=mjXYSz-cpoQPJ0ruiIQ0cyBeNTywT0CtjXT9tUywU0s,1286
+imagery24/kml_to_geotiff.py,sha256=kQ6Wd917h3nw7rOAXmSE2W4f_wzpPbYwxpdwV50lJMw,7607
+imagery24/main.py,sha256=zRXjV5ekqu_X6ErM6QUXKgNbxk0-6uVqpQDidNVmaEc,2134
+imagery24/tags.py,sha256=Ia13IjQFQavteT2CuZ8weRQOB6g6BWSkaonFqpetU8k,2774
+imagery24/tiff.py,sha256=QguOD1eMCAXBjgH0a8JrlJRt4Yxm_48-hzDXEzwTDNY,1966
+imagery24/tiles.py,sha256=Y8ti9a07--mJBdm7e9Q7SOgePQoOGJpPkZ8POo2YQK0,825
+imagery24-0.4.0.dist-info/METADATA,sha256=KI2ZpoC_iNO4BtIT-XyUEOBypwgo2ypLDieLgnu4yt0,660
+imagery24-0.4.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+imagery24-0.4.0.dist-info/top_level.txt,sha256=cgJogYz-xZSSadvhQ2ZzmEgh5sHgttVR9bILgKecQ7k,10
+imagery24-0.4.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+imagery24-0.4.0.dist-info/RECORD,,
