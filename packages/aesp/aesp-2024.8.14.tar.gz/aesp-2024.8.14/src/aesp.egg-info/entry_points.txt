@@ -1,0 +1,2 @@
+[console_scripts]
+aesp = aesp.entrypoint.main:main
