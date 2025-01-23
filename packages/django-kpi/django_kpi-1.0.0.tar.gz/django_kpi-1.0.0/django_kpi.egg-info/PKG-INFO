@@ -1,0 +1,99 @@
+Metadata-Version: 2.2
+Name: django-kpi
+Version: 1.0.0
+Summary: designed to create flexible Key Performance Indicators (KPIs) for your projects.
+Author-email: Mohammed CHAHBOUN <mchahboun@majaracapital.com>
+Project-URL: Homepage, https://github.com/M97Chahboun/django_kpi
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: django>=3.2
+
+# django_kpi
+
+> ⚠️ **Note:** This package is currently in active development.
+
+`django_kpi` is a Django package designed to create flexible Key Performance Indicators (KPIs) for your projects. This package allows you to define, track, and manage KPIs with ease.
+
+## Features
+
+- Define custom KPIs
+- Track KPI performance over time (WIP)
+- Flexible configuration options
+- Easy integration with existing Django projects
+
+## Installation
+
+To install `django_kpi`, use pip:
+
+```bash
+pip install django_kpi
+```
+
+## Usage
+
+1. Add `django_kpi` to your `INSTALLED_APPS` in your Django settings:
+
+    ```python
+    INSTALLED_APPS = [
+        ...
+        'django_kpi',
+    ]
+    ```
+
+2. Update your `urls.py` to include the `django_kpi` URLs:
+
+    ```python
+    from django.urls import path, include
+
+    urlpatterns = [
+        ...
+        path('kpi/', include('django_kpi.urls')),
+    ]
+    ```
+
+3. Run the migrations to create the necessary database tables:
+
+    ```bash
+    python manage.py migrate
+    ```
+
+4. Define your KPIs in the Django admin interface or through the provided API.
+
+5. Use KpiCards on your views check [example](./django_kpi_example/kpi_example/views.py)
+
+## Screenshots
+
+### Input
+
+![Input](input.png)
+
+### Output
+
+![Output](output.png)
+
+## Contributing
+
+Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or support, please contact [mchahboun@majaracapital.com](mailto:mchahboun@majaracapital.com).
+
