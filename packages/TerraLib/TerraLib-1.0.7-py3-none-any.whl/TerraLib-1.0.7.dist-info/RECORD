@@ -1,0 +1,12 @@
+TerraLib/BaseConversion.py,sha256=6TVrV7hn2gntO12HYOQG6T1fetsW21qkdcEgCgpmPBk,8842
+TerraLib/Excel.py,sha256=nVMbdhWyq9_Kaf_8xWrHNHLsLoAqOKDd6s7GK8E9hSE,17790
+TerraLib/Git.py,sha256=xlyHCThfwIa36wUR_eTTKamzDCVyuxYtMiGG-IrzQXQ,10603
+TerraLib/SubProcess.py,sha256=VMWvOse8w8lTHMwH81MWU7gJcXOZRNy_bic8ANqCMXk,3095
+TerraLib/Svn.py,sha256=gjJQtcpkpsxGta16vfPLOA8PXPFum_UfZ0qlePme00g,19568
+TerraLib/Time.py,sha256=vrGyq9vGQh5kKDFps2WDnN6AirvxtPMyVhZ97uTtcBY,2844
+TerraLib/__init__.py,sha256=EkPYTqMuISCwQtK5zCmWatHUPcxIlDZCuTb8ta0ticM,33
+TerraLib-1.0.7.dist-info/LICENSE.md,sha256=jT7kChpA-BHCg_VH3fayqOyu6FOrhL90cAd07PYqP18,1070
+TerraLib-1.0.7.dist-info/METADATA,sha256=r6TD3o9Asi4eoh4WDJKKD7Tn1z_-G3efFpNRn6wPr9U,2856
+TerraLib-1.0.7.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+TerraLib-1.0.7.dist-info/top_level.txt,sha256=oI-snjHEQg4KAP5makdknC716_Uzf6BILBFj6JdEszI,9
+TerraLib-1.0.7.dist-info/RECORD,,
