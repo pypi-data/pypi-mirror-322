@@ -1,0 +1,18 @@
+[project]
+name = "secret-ai-sdk"
+version = "0.1.1"
+description = "Secret AI Confidential VM SDK"
+authors = [
+    {name = "Alex H",email = "alexh@scrtlabs.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "secret-sd (>=1.8.1)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
