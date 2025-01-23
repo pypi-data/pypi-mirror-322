@@ -1,0 +1,13 @@
+imgscraper/__init__.py,sha256=k-9PW8yGB8sLgB37t_Xaq4xTvWnzOVfCl6-i43NfSns,325
+imgscraper/scraper_constructor.py,sha256=ck9Rbhni6OXyQx8geDLOkVGRK5_UHMeJLMrR7xsx_uw,1569
+imgscraper/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imgscraper/src/core.py,sha256=c13S0VRqByqQx9DSNeBXOUN1KkRQFFeHlFx06djpkAQ,3321
+imgscraper/src/models.py,sha256=fnYLE9WGYfMOn9H5hnU41t-YuMHoOxXc6IHmkYYWA6Q,725
+imgscraper/src/scrapers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imgscraper/src/scrapers/bs4_scraper.py,sha256=cPaN3Ax8Xun9mij9QnmTHIDfRVExA6c0k2yw_TVUV5k,7519
+imgscraper/src/scrapers/scraper.py,sha256=D90ArjgWJCAswMmIFcAUeqcTXJav-1ltFE4ImAgkc_Y,1386
+imgscraper-0.3.0.dist-info/LICENSE,sha256=P2JaltW2I8bivuZ5JQZNU4m_amnCieMdNnzsGsag0wk,1072
+imgscraper-0.3.0.dist-info/METADATA,sha256=p76ylHltqwYR4Rh3MK8jCC53MnNENfRB-cUDrmqzfqk,6379
+imgscraper-0.3.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+imgscraper-0.3.0.dist-info/top_level.txt,sha256=QadhyHb-thdOw_EB4EvvWb8vWHoD_5bQcfe8N2YmnPA,11
+imgscraper-0.3.0.dist-info/RECORD,,
