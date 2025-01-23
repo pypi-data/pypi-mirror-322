@@ -1,0 +1,7 @@
+pyproject.toml
+hero_server.egg-info/PKG-INFO
+hero_server.egg-info/SOURCES.txt
+hero_server.egg-info/dependency_links.txt
+hero_server.egg-info/requires.txt
+hero_server.egg-info/top_level.txt
+heroserver/py.typed
