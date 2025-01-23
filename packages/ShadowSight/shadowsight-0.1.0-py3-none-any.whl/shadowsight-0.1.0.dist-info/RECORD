@@ -1,0 +1,11 @@
+README.md,sha256=wPZDbFAgPlgMZcwb8r97LncbX79jLPeB1WBofYA3D8U,2389
+shadowsight/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shadowsight/conf_sample.py,sha256=quE0ncpJJXIHtXtHFe3-6F-LiTeoV3Tz2W9j74u8hew,845
+shadowsight/config.py,sha256=PnSOcCZopmzY2FidCyXWMXteh2RoaCIKUNE_v-qi22M,1104
+shadowsight/publish.py,sha256=Ha20jgPfcJ_PDJ7h8vGdPHcvmZVitkqUQLuz5zlFJCY,4729
+shadowsight/shadow.py,sha256=Vdi4CXnLAlfzf6PPz_17DZeLL-Sf1GaRBcplv2Vf9tk,2372
+shadowsight/utils.py,sha256=SLgDMJZoat0RXm74kfOPSYets21OnAt2UQfJq4mzW3U,1884
+shadowsight-0.1.0.dist-info/METADATA,sha256=kvqopjsPyitK2FJ5siyVCpQiBQQHkxZtwRZ2P6mto4g,3581
+shadowsight-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+shadowsight-0.1.0.dist-info/entry_points.txt,sha256=gaP44UHTR-BS5-WEZviFfto5l5QaFxbgV2eAVaHYqCk,56
+shadowsight-0.1.0.dist-info/RECORD,,
