@@ -1,0 +1,2 @@
+[console_scripts]
+enoceanmqtt = enoceanmqtt.enoceanmqtt:main
