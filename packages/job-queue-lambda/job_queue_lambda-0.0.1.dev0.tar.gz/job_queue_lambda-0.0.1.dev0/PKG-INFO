@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: job-queue-lambda
+Version: 0.0.1.dev0
+Summary: 
+License: MIT
+Author: weihong.xu
+Author-email: xuweihong.cn@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# job-queue-lambda
+Use job queue (Slurm, PBS, etc) as a remote function executor.
+
