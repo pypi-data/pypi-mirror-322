@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: anchorpy-idl
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: jsonalias ==0.1.1
+License-File: LICENSE
+Summary: Python bindings for Anchor Rust code
+Author-email: kevinheavey <kevinheavey123@gmail.com>
+License: Apache-2.0
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: documentation, https://kevinheavey.github.io/anchorpy-idl/
+Project-URL: changelog, https://github.com/kevinheavey/anchorpy-idl/blob/main/CHANGELOG.md
+Project-URL: homepage, https://github.com/kevinheavey/anchorpy-idl
+Project-URL: repository, https://github.com/kevinheavey/anchorpy-idl
+
+# anchorpy-idl
+Python bindings for Anchor Rust IDL code. This is the successor
+for [`anchorpy-core`](https://github.com/kevinheavey/anchorpy-core).
+It lives in a separate repo as a separate package because the Anchor v0.30 IDL
+is not backwards compatible, so separating the packages is cleaner in case we ever need
+to make changes to older IDL code.
+
