@@ -1,0 +1,13 @@
+LICENCE
+README.md
+setup.py
+src/aircraft/__init__.py
+src/aircraft/actor_engine.py
+src/aircraft/aircraft.py
+src/aircraft/engine_proxy.py
+src/aircraft/model_desc.py
+src/aircraft/platform_factory.py
+src/aircraft_infer.egg-info/PKG-INFO
+src/aircraft_infer.egg-info/SOURCES.txt
+src/aircraft_infer.egg-info/dependency_links.txt
+src/aircraft_infer.egg-info/top_level.txt
