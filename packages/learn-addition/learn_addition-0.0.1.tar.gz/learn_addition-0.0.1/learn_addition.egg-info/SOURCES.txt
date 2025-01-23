@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+learn_addition/__init__.py
+learn_addition/learn_add.py
+learn_addition/learn_add_advanced.py
+learn_addition.egg-info/PKG-INFO
+learn_addition.egg-info/SOURCES.txt
+learn_addition.egg-info/dependency_links.txt
+learn_addition.egg-info/top_level.txt
