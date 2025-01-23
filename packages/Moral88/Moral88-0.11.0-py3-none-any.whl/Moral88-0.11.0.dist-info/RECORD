@@ -1,0 +1,11 @@
+Moral88/__init__.py,sha256=Z7iEZUqslxRyJU2to6iX6a5Ak1XBZxU3VT4RvOCjsEU,196
+Moral88/regression.py,sha256=WjNMpX0t99KGTrUKMBFg6LccnPvlnWKnjimu65BLrkc,12061
+Moral88/segmentation.py,sha256=N6Pg-220JfTxV01Bwjir8kOFMW3nfI0L_MM9zGrvDvg,6470
+Moral88/utils.py,sha256=4dZ165tRtwCEyz-wESp26-cZp-5Pz8HkSrmNPrKEH38,4534
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_regression.py,sha256=j-XG9j5D24OaJBJT3ROnlvrMDrSR2sH4182U5L3PA5k,3124
+Moral88-0.11.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Moral88-0.11.0.dist-info/METADATA,sha256=I9J_QFmYuvB-Q5YufPayenl5E4-WvCQznIMtoQlNC24,408
+Moral88-0.11.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Moral88-0.11.0.dist-info/top_level.txt,sha256=gg4pKIcQal4JhJAb77H5W6SHC77e-BeLTy4hxfXwmfw,14
+Moral88-0.11.0.dist-info/RECORD,,
