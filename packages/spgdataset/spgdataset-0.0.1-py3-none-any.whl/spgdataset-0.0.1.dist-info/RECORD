@@ -1,0 +1,14 @@
+spgdataset/__init__.py,sha256=HwS45v5SFrH4mNTnIdpshGUOGioRKXhwd2poiXE32mE,134
+spgdataset/audiofileindex.py,sha256=4NdvT79TWPmgQQBxrMv2s5TWQz38s7SsOiUss3_aV8I,13045
+spgdataset/dataset.py,sha256=j3D7t-jiVwlWndt48CGS2Kagcmvn2kqdcRk1cGvLDH4,34101
+spgdataset/dataset_router.py,sha256=IrTi4S9Glt6JHhi3yzUMyyHlMpc2p9dZ_OLwjjkOFaY,3267
+spgdataset/memcache.py,sha256=ploSI-DapD9CRCJf9F3rGgdblcsi8oma--xCY3h9_Jw,6011
+spgdataset/utils.py,sha256=n76WtIyNPYbhbjkWgEzVkk-mJI8yo7RR-zznqLt3F7s,138
+spgdataset/assets/mel_filters.npz,sha256=GN2GNd6gdDOu3dNp7w5s3AENEatBrAx0kWWO3V0ua2k,11230
+spgdataset/audio/__init__.py,sha256=alIDGBnxWH4JvP-UW-7N99seBBi0r1GV1h8f1ERFBec,21
+spgdataset/audio/utils.py,sha256=4p_vfcpUHp1BmYZ3tQHBSL29AiUlFwg5MtCgVHloZms,9160
+spgdataset-0.0.1.dist-info/LICENSE,sha256=xLa5sOkH7LhRY2m7oZjxE8cUxh38KsKjMvCKh6ExZhM,1062
+spgdataset-0.0.1.dist-info/METADATA,sha256=cR1lvf6OgbTJPpbgiMBu_UNs6Tl25lvTLj99whOBcx4,5182
+spgdataset-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+spgdataset-0.0.1.dist-info/top_level.txt,sha256=XniBbsd-OZNsLTkSxEeAZt96kc3-onHnhsfY6ZbhWPQ,11
+spgdataset-0.0.1.dist-info/RECORD,,
