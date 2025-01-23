@@ -1,0 +1,10 @@
+stdl>=0.5.6
+objinspect>=0.2.14
+
+[dev]
+black
+pytest
+ruff
+
+[test]
+pytest
