@@ -1,0 +1,12 @@
+dagster_delta/__init__.py,sha256=7AvdHR_k97hF8lu0wpvwzAh2phOLL21XhwkXoVuWQ_c,1218
+dagster_delta/config.py,sha256=0g3Vx4324AKdudQW6pbCAxSLJhX_X0iW0Es4iwRUXC0,6514
+dagster_delta/dbiomanager_fixed.py,sha256=-HZAqp18uCVSQIHgk13tQ6IfSJsllOgtY1G5D2W5NNI,5663
+dagster_delta/handler.py,sha256=fd-N1YSVjKmW8Gtg6Dr6iSZb00GSvgL6JZZbYKtJ1d0,23808
+dagster_delta/io_manager.py,sha256=1c7_Gqfy8LnLl3akG-iVmA5650Aw5bAyHISj46YBZW8,10872
+dagster_delta/py.typed,sha256=mDShSrm8qg9qjacQc2F-rI8ATllqP6EdgHuEYxuCXZ0,7
+dagster_delta/resource.py,sha256=Zw4UfRH_n8MdIaECJGqCFv22s3UZiRe_bbBij7N3isg,2411
+dagster_delta-0.1.5.dist-info/LICENSE,sha256=nWmdUIo4A2kf1kIjb2l0sX5zR2Jyejb0qULa2RCTFMc,11350
+dagster_delta-0.1.5.dist-info/METADATA,sha256=VpgPzkB1_CXwSch02z6iT45KfsDYMbh2sG4Ugscpifs,726
+dagster_delta-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dagster_delta-0.1.5.dist-info/top_level.txt,sha256=1giWkDpdYff4utNiCcZ1gDfwhyWEkYcOScbghMafCLY,14
+dagster_delta-0.1.5.dist-info/RECORD,,
