@@ -1,0 +1,11 @@
+.gitignore,sha256=RVSan_2ZY_hV1ygp6XijHAW4KJSxSx2PvdQwg7IMLYY,3
+service_wrapper-0.0.1.dist-info/METADATA,sha256=j6KVNxzr0LSWWXP8KrbmUlHcGWx_m_qayD1Ds7oX4wA,2771
+service_wrapper-0.0.1.dist-info/WHEEL,sha256=r6SZnO8dXJuHh7WZM6tHblPUtFKzydPzO5Uds86mDPo,100
+service_wrapper-0.0.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+service_wrapper/__init__.py,sha256=Giem1SfKd9s1bOpwDnLJzZjQkRtQ4eWo0wuBNgf02EM,2851
+service_wrapper/base_service.py,sha256=p53c_HJKocu4jAzBg_2yqz3JTGgT1xLwVsPJqEtEn7g,751
+service_wrapper/ext.py,sha256=JuRoW5j6muQx00KHimjXBcpRJ0c_uF3syzwrKuXOnOY,1082
+service_wrapper/service_tools.py,sha256=izM1Ikg8JsNmhHX7t2cMNAU7h-py0_xSx7cPtjbE-RM,1619
+service_wrapper/service_wrapper.py,sha256=hkBzThqQQcnI3lvvDfQKlldKbKAn2DDdm0kUFNRnH6I,1565
+service_wrapper/utils.py,sha256=XYEI9UmZFZHvd1SofIiuwNmnTkoO-iPsWKHDTrStTIM,816
+service_wrapper-0.0.1.dist-info/RECORD,,
