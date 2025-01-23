@@ -1,0 +1,16 @@
+uvicorn
+starlette==0.41.3
+python-multipart
+pymysql
+sqlmodel
+click
+rq
+bleach
+rich
+textual
+psutil
+requests
+pydantic
+schema
+redis
+Jinja2
