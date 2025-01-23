@@ -1,0 +1,67 @@
+Metadata-Version: 2.2
+Name: ocr_pdf2txt
+Version: 0.1.1
+Summary: OCR library with advanced PDF to text, layout visuals, and audio generation
+Home-page: https://github.com/VerisimilitudeX/ocr_pdf2txt
+Author: Piyush Acharya
+Author-email: hey@piyushacharya.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytesseract
+Requires-Dist: pdf2image
+Requires-Dist: spacy
+Requires-Dist: nltk
+Requires-Dist: Pillow
+Requires-Dist: gTTS
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# ocr_pdf2txt
+
+This library extracts text from PDF files using OCR, automatically discovers poppler and Tesseract dependencies, and even allows you to visualize recognized text, generate audio, and detect broad semantic topics. 
+
+## Features
+- Cross-platform (Mac, Windows, Linux) with automatic detection of Tesseract.
+- HTML visualization of recognized text on each page.
+- Audio file generation for reading PDF content aloud.
+- Semantic topic detection leveraging spaCy’s named entity recognition.
+
+## Installation
+
+```bash
+pip install ocr_pdf2txt
+```
+
+## Usage
+
+```python
+from ocr_pdf2txt import ocr_pdf_to_text
+
+pdf_path = "sample.pdf"
+output_folder = "output_dir"
+
+ocr_pdf_to_text(
+    pdf_path=pdf_path,
+    output_folder=output_folder,
+    visualize=True,      # Show OCR overlay in HTML
+    audio_output=True,   # Generate an MP3 of recognized text
+    semantic_topics=True # Print out recognized semantic topics
+)
+```
+
+Make sure you have Tesseract and Poppler installed on your machine. Check documentation for your operating system if you run into issues.
+
+## License
+
+MIT. See [LICENSE](LICENSE) for more information.
