@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: >-
+  Recommendation ITU-R P.2108, Python Wrapper
+message: Please cite this software using these metadata.
+type: software
+authors:
+  - given-names: Anthony W.
+    family-names: Romaniello
+    email: aromaniello@ntia.gov
+    affiliation: >-
+      U.S. Department of Commerce, National
+      Telecommunications and Information Administration,
+      Institute for Telecommunication Sciences
+    orcid: 'https://orcid.org/0000-0001-8437-6504'
+  - name: >-
+      U.S. Department of Commerce, National
+      Telecommunications and Information Administration,
+      Institute for Telecommunication Sciences
+    address: 325 Broadway
+    city: Boulder
+    country: US
+    post-code: '80305'
+    region: Colorado
+    alias: NTIA/ITS
+    email: code@ntia.gov
+    website: 'https://its.ntia.gov'
+repository-code: 'https://github.com/NTIA/p2108-python'
+url: 'https://ntia.github.io/propagation-library-wiki/models/P2108/'
+keywords:
+  - propagation
+  - rf
+  - clutter
+  - itu
+version: 1.0.0
