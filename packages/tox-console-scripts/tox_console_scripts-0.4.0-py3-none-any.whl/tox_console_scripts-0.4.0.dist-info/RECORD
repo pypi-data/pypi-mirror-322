@@ -1,0 +1,9 @@
+tox_console_scripts/__init__.py,sha256=H8O5V2zHPHZXwbCbz1hzd4xi8UPYUwREcVIc3Gp-rFI,72
+tox_console_scripts/plugin.py,sha256=AayupULiFD1WnGo7E162kFkhIrU33mur3uzZLdnz7H0,2915
+tox_console_scripts/version.py,sha256=yhiWOz0HoJGRRI9-JQ2eh_0AbByy-6psK08-kpTSHJw,18
+tox_console_scripts-0.4.0.dist-info/LICENSE,sha256=lfnvlXZ500MSgJ8gxnuswEvLOB-aP6wZKZmAtp6FpRw,1024
+tox_console_scripts-0.4.0.dist-info/METADATA,sha256=xAnTfLB_5UsQiOiJJsokkw1aAcVtqT3-HwCDHdJTTSM,2324
+tox_console_scripts-0.4.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+tox_console_scripts-0.4.0.dist-info/entry_points.txt,sha256=qLz15ohkbOeKGERtav7osm6yFw8xc_Y-6hp8_BQbI0k,55
+tox_console_scripts-0.4.0.dist-info/top_level.txt,sha256=up-bJ-vbuguvfb2MLONq5gumGgze4OIeA_zKbiLz-v4,20
+tox_console_scripts-0.4.0.dist-info/RECORD,,
