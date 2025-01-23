@@ -1,0 +1,8 @@
+README.rst
+iptcinfo3.py
+setup.cfg
+setup.py
+IPTCInfo3Plus.egg-info/PKG-INFO
+IPTCInfo3Plus.egg-info/SOURCES.txt
+IPTCInfo3Plus.egg-info/dependency_links.txt
+IPTCInfo3Plus.egg-info/top_level.txt
