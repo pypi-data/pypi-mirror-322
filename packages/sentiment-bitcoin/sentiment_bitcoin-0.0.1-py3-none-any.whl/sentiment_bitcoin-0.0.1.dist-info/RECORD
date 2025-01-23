@@ -1,0 +1,9 @@
+"sentiment_bitcoin/Model_F_2,4_Acc97.h5",sha256=5fkjx7_uu7uSOA1ZlMDlRKPipONjy1GiQXDe11fXWds,101386072
+"sentiment_bitcoin/Model_T_2,4_Acc97.pkl",sha256=-Nqt8hPntVTrX5THeihpIgsHlmzsKuTPOGgPTIEKjxs,3536873
+sentiment_bitcoin/__init__.py,sha256=f_ouCyqulG1bU-uYY-OwRmRUHrqbdDAix3RUnzCKvP4,719
+sentiment_bitcoin/package.py,sha256=tKOnBcV9i8dpUvRstGr21coWJ7FydWvUy740tgcBTrU,4654
+sentiment_bitcoin-0.0.1.dist-info/LICENCE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+sentiment_bitcoin-0.0.1.dist-info/METADATA,sha256=D2fhYFZCHHMpk0CKTCB8gN95mj80-C-KD8j9tbF5Wbk,4659
+sentiment_bitcoin-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sentiment_bitcoin-0.0.1.dist-info/top_level.txt,sha256=GJYUvA77KNrOtrBdb0ChngRQJO1jn4KtQdXmmrlyxe4,18
+sentiment_bitcoin-0.0.1.dist-info/RECORD,,

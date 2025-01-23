@@ -1,0 +1,147 @@
+Metadata-Version: 2.2
+Name: sentiment_bitcoin
+Version: 0.0.1
+Summary: sentiment btc prediction with BiLSTM
+Author-email: Komang Nitay Prasaddas <nitay06@students.amikom.ac.id>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Keywords: prediction,bitcoin,ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: opencv-contrib-python
+
+## SentimenX-BTC Package untuk menganalisis sentimen Bitcoin dari teks menggunakan preprocessing, tokenization, dan model machine learning. 
+
+## Fitur Utama 
+- Membersihkan teks dari noise seperti tanda baca dan angka. 
+- Tokenisasi teks dengan padding otomatis. 
+- Analisis sentimen menggunakan model machine learning terlatih. 
+- Mendukung klasifikasi sentimen positif dan negatif. 
+
+## Instalasi Gunakan pip untuk menginstal package ini: pip install sentimentX-btc 
+
+# How to Use?
+
+## 1. **`preprocessing(text)`**
+### Deskripsi:
+Fungsi ini digunakan untuk membersihkan teks dari simbol atau karakter yang tidak diinginkan, mengubah teks menjadi huruf kecil, dan menghapus kata-kata berhenti (stop words). Fungsi ini mendukung input berupa string, pandas Series, atau list.
+
+### Parameter:
+- **`text`**: Input berupa string, pandas Series, atau list teks mentah yang akan diproses.
+
+### Output:
+- Mengembalikan teks yang telah diproses dalam bentuk pandas Series.
+
+### Contoh Penggunaan:
+```python
+text = "Hello, world! This is a test."
+processed_text = preprocessing(text)
+print(processed_text)
+```
+
+---
+
+## 2. **`tokenize_and_padding(text, max_len=0)`**
+### Deskripsi:
+Fungsi ini melakukan tokenisasi (mengubah teks menjadi token angka) dan padding (menyesuaikan panjang token agar seragam). Panjang padding dapat ditentukan secara manual atau dihitung otomatis.
+
+### Parameter:
+- **`text`**: Input berupa string, pandas Series, atau list teks yang akan ditokenisasi dan dipad.
+- **`max_len`** *(opsional)*: Panjang maksimum padding. Jika 0, panjang akan dihitung otomatis.
+
+### Output:
+- Mengembalikan numpy array berisi token yang telah dipad.
+
+### Contoh Penggunaan:
+```python
+text = ["This is a test", "Another example"]
+padded_sequences = tokenize_and_padding(text)
+print(padded_sequences)
+```
+
+---
+
+## 3. **`only_prediction(tokenized)`**
+### Deskripsi:
+Fungsi ini melakukan prediksi sentimen berdasarkan token yang telah diproses menggunakan model. Hasilnya berupa probabilitas dan label sentimen (positif/negatif).
+
+### Parameter:
+- **`tokenized`**: Numpy array atau list token yang telah dipad.
+
+### Output:
+- DataFrame dengan kolom:
+  - **`prediction`**: Probabilitas prediksi.
+  - **`sentiment`**: Label sentimen (1 = positif, 0 = negatif).
+
+### Contoh Penggunaan:
+```python
+tokenized = [[1, 2, 3, 4], [5, 6, 7, 0]]
+result = only_prediction(tokenized)
+print(result)
+```
+
+---
+
+## 4. **`full_prediction(text, pad=0)`**
+### Deskripsi:
+Fungsi ini melakukan proses lengkap mulai dari preprocessing, tokenisasi, padding, hingga prediksi sentimen untuk teks mentah.
+
+### Parameter:
+- **`text`**: Input berupa string atau pandas Series yang akan diproses.
+- **`pad`** *(opsional)*: Panjang padding. Jika 0, panjang akan dihitung otomatis.
+
+### Output:
+- DataFrame dengan kolom:
+  - **`text`**: Teks yang telah diproses.
+  - **`padded`**: Token hasil padding.
+  - **`prediction`**: Probabilitas prediksi.
+  - **`sentiment`**: Label sentimen (1 = positif, 0 = negatif).
+
+### Contoh Penggunaan:
+```python
+text = "This is a great day!"
+result = full_prediction(text)
+print(result)
+```
+
+---
+
+## 5. **`detokenized(sequences)`**
+### Deskripsi:
+Fungsi ini mengubah token angka hasil tokenisasi kembali menjadi teks asli berdasarkan mapping `tokenizer.index_word`.
+
+### Parameter:
+- **`sequences`**: List dua dimensi berisi token angka.
+
+### Output:
+- List teks hasil detokenisasi.
+
+### Contoh Penggunaan:
+```python
+sequences = [[1, 2, 3, 4], [5, 6, 0, 0]]
+detokenized_text = detokenized(sequences)
+print(detokenized_text)
+```
+
+---
+
+---
+
+**Selamat menganalisis! Semoga bermanfaat!** 😄
+
+
+
+## Dependencies Package ini membutuhkan library berikut: 
+- Python 3.7+ 
+- TensorFlow 
+- Numpy 
+- Pandas 
+- Scikit-learn 
+- Joblib  
+
+## Lisensi Project ini dirilis di bawah lisensi MIT. 
+## Kontak Jika memiliki pertanyaan atau feedback, silakan hubungi saya: Komang Nitay Prasaddas Email: nitay06@students.amikom.ac.id
