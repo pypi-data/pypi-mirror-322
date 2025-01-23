@@ -1,0 +1,5 @@
+__author__ = "Jan Krupa"
+__email__ = "jan.krupa@cesnet.cz"
+__version__ = "0.0.3"
+__description__ = "prda_middleware"
+__name__ = "prda_middleware"
