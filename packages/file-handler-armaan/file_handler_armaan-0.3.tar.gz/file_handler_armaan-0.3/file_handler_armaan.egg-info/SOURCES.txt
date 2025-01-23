@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+file_handler/__init__.py
+file_handler/file_converter.py
+file_handler/file_reader.py
+file_handler/file_writer.py
+file_handler_armaan.egg-info/PKG-INFO
+file_handler_armaan.egg-info/SOURCES.txt
+file_handler_armaan.egg-info/dependency_links.txt
+file_handler_armaan.egg-info/top_level.txt
+tests/test_file_converter.py
+tests/test_file_reader.py
+tests/test_file_writer.py
