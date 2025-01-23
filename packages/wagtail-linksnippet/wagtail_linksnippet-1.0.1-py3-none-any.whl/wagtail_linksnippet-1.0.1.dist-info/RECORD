@@ -1,0 +1,11 @@
+wagtail_linksnippet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_linksnippet/richtext.py,sha256=t3E2cvaQ1yjFemWmKiMrISzicvTPbRTiXl6BKgMMklc,1620
+wagtail_linksnippet/richtext_utils.py,sha256=Sh7k5ZYSIwR_4tfVZT4JQppgCNvQXxeM_-77kVnFv0A,3826
+wagtail_linksnippet/utils.py,sha256=1J-HX8Ogmcac19MTFr3PM5diPVJysntGpiqpqL5qu5g,196
+wagtail_linksnippet/views_utils.py,sha256=gK_mYCL2_xzJ4_bqAiNHO0VzXG4RQwsT6OScelBR0RU,986
+wagtail_linksnippet/static/wagtail_linksnippet/js/modelChooser.js,sha256=7aJj04L4Rwv3t4uRvYvLymmqSX_BhnPZxKOkjeqMn1Q,9038
+wagtail_linksnippet-1.0.1.dist-info/LICENSE,sha256=8pMzonFwBk-9Uk67eRfYeBCcIyh8pTIaIApFaZHCsAo,1063
+wagtail_linksnippet-1.0.1.dist-info/METADATA,sha256=90Ad052j24aiyBqt82F-W-UGE11hP2DbCsQGrMN7bIg,2397
+wagtail_linksnippet-1.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+wagtail_linksnippet-1.0.1.dist-info/top_level.txt,sha256=AdzoMtb1-l0s_RIOZS6eNjdg3lD-zQ_hwoj-Im8McfE,20
+wagtail_linksnippet-1.0.1.dist-info/RECORD,,
