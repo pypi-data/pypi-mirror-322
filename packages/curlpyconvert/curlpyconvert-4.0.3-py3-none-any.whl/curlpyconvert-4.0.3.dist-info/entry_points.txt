@@ -1,0 +1,9 @@
+[console_scripts]
+c2c = curlpyconvert.main:c2c
+c2g = curlpyconvert.main:c2g
+curl2context = curlpyconvert.main:curl2context
+curl2grab = curlpyconvert.main:curl2grab
+curlpyconvert = curlpyconvert.main:app
+
+[gui_scripts]
+
