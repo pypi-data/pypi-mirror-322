@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: shdp
+Version: 1.0.0
+Summary: A new way to interact with web servers
+Home-page: https://github.com/StanyslasBouchon/shdp-py
+Author: Devling
+Author-email: Stanyslas Bouchon <startpimp47@gmail.com>
+Project-URL: Homepage, https://github.com/StanyslasBouchon/shdp-py
+Project-URL: Issues, https://github.com/StanyslasBouchon/shdp-py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
