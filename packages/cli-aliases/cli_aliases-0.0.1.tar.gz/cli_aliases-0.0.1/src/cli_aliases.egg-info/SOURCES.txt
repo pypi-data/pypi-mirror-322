@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cli_aliases.egg-info/PKG-INFO
+src/cli_aliases.egg-info/SOURCES.txt
+src/cli_aliases.egg-info/dependency_links.txt
+src/cli_aliases.egg-info/requires.txt
+src/cli_aliases.egg-info/top_level.txt
+src/cmd_aliases/__init__.py
+src/cmd_aliases/aliased_group.py
+src/cmd_aliases/config.py

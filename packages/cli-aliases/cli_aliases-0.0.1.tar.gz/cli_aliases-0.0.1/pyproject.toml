@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cli-aliases"
+version = "0.0.1"
+authors = [
+    {name = "Jeff Wang", email = "jkwang@usc.edu"},
+]
+description = "`cli-aliases` implements command line aliases using the Click package."
+readme = "README.md"
+requires-python = ">=3.12"
+keywords = ["cli", "Click"]
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3.13",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    " Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "Click"
+]
+
+[project.urls]
+"Source" = "https://github.com/jeffkwang/cli-aliases"
+"Tip Me" = "https://buymeacoffee.com/jeffkwang"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["cmd_aliases"]
