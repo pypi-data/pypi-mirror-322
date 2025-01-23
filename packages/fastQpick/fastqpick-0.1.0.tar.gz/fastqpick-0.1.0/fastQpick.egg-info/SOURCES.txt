@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+fastQpick/__init__.py
+fastQpick/_version.py
+fastQpick/main.py
+fastQpick/utils.py
+fastQpick.egg-info/PKG-INFO
+fastQpick.egg-info/SOURCES.txt
+fastQpick.egg-info/dependency_links.txt
+fastQpick.egg-info/entry_points.txt
+fastQpick.egg-info/requires.txt
+fastQpick.egg-info/top_level.txt
+tests/test_fastQpick.py
