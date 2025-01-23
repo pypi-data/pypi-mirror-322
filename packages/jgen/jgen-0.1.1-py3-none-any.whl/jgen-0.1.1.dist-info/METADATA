@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: jgen
+Version: 0.1.1
+Summary: Json generator.
+License: MIT
+Author: Dmitriy Lyssov
+Author-email: mr.lyssov.dmitriy@gmail.com
+Requires-Python: >=3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: faker (==33.3.1)
+Requires-Dist: python-dateutil (==2.9.0.post0)
+Requires-Dist: six (==1.17.0)
+Requires-Dist: typing-extensions (==4.12.2)
+Description-Content-Type: text/markdown
+
+# JSON Generator
+
+Generate JSON file from template.
+
