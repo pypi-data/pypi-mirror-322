@@ -1,0 +1,37 @@
+{
+    "upload_type": "dataset",
+    "publication_date": "2024-12-11",
+    "title": "Test Data for the NTIA/ITS Implementations of Recommendation ITU-R P.2108",
+    "creators": [
+        {
+            "name": "Romaniello, Anthony W.",
+            "affiliation": "U.S. Department of Commerce, National Telecommunications and Information Administration, Institute for Telecommunication Sciences",
+            "orcid": "0000-0001-8437-6504"
+        }
+    ],
+    "description": "This repository contains a dataset used to test the NTIA/ITS implementations of Recommendation ITU-R P.2108.",
+    "access_right": "open",
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/NTIA/p2108",
+            "relation": "isSupplementTo",
+            "resource_type": "software"
+        },
+        {
+            "identifier": "https://github.com/NTIA/p2108-dotnet",
+            "relation": "isSupplementTo",
+            "resource_type": "software"
+        },
+        {
+            "identifier": "https://github.com/NTIA/p2108-matlab",
+            "relation": "isSupplementTo",
+            "resource_type": "software"
+        },
+        {
+            "identifier": "https://github.com/NTIA/p2108-python",
+            "relation": "isSupplementTo",
+            "resource_type": "software"
+        }
+    ],
+    "version": "1"
+}
