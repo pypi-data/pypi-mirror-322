@@ -1,0 +1,13 @@
+ohpygossh/__init__.py,sha256=iQytCVlRvyR-k3-A3hF4y56wYf9f7bHeQa0rIruw9w0,25
+ohpygossh/_gohpygossh.cpython-311-darwin.h,sha256=HXn2wtYc5HwfZHh2DRUbS6UEZXlwkLJx9CM94wUHNW0,11984
+ohpygossh/_gohpygossh.cpython-311-darwin.so,sha256=-evYh24kSkWSdZbM4ceyVKpYBLeimVYcu_Ve31siOvY,4172064
+ohpygossh/build.py,sha256=lQgSf6u2u5WqyYg7KQ5FvwYnR0GgpJnGIeoFIROGVZ4,15108
+ohpygossh/go.py,sha256=ZHuRc3DQ8C2l3fWcftKXcJF_buhnVX3Mpf105WsZjOY,49667
+ohpygossh/gohpygossh.c,sha256=EbsSNen8TGyGM0fpZCzUgH-SZyb4nv4ea0oY2Fuih7Y,106638
+ohpygossh/gohpygossh.go,sha256=2-ieCt_wP7nlD3y4f-8kIdg78tIuhpO1EKGkVcPV8NU,37366
+ohpygossh/gohpygossh.py,sha256=xnrwuSOT_In6Sv9VXpcQcCCe6ky9FWquCwpooNKuF5g,8651
+ohpygossh/gohpygossh_go.h,sha256=HXn2wtYc5HwfZHh2DRUbS6UEZXlwkLJx9CM94wUHNW0,11984
+ohpygossh-0.0.10.dist-info/METADATA,sha256=oR58eK8aNLUPxh5oz0BBWh80_2xVrN8UEegyoBDmKV0,2446
+ohpygossh-0.0.10.dist-info/WHEEL,sha256=38gKh4ciura0Qr0EhFttwRGApTkeI2HunUgfZoFA5_0,110
+ohpygossh-0.0.10.dist-info/top_level.txt,sha256=gfqK33tjMKFGXx4AhMISbnCLLvtfGJwMADTTlZkBsDE,10
+ohpygossh-0.0.10.dist-info/RECORD,,
