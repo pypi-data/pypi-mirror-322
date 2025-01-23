@@ -1,0 +1,5 @@
+[console_scripts]
+gui-banana=vmcompact.gui.banana:run
+gui-basic=vmcompact.gui.basic:run
+gui-potato=vmcompact.gui.potato:run
+
