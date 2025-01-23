@@ -1,0 +1,73 @@
+Metadata-Version: 2.2
+Name: judobase
+Version: 0.1.0
+Summary: Python Judobase API async client
+Home-page: https://github.com/DavidDzgoev/judobase
+Author: ddzgoev
+Author-email: ddzgoev@gmail.com
+License: MIT
+Keywords: judobase,wrapper,client,async,api
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: aioresponses>=0.7.7
+Requires-Dist: aiohttp>=3.11.11
+Requires-Dist: pydantic>=2.10.5
+Requires-Dist: setuptools>=75.6.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+## Judobase API Client
+This is a async Python client for the Judobase API.
+
+## Installation
+
+To install the package, use pip:
+
+```bash
+pip install judobase
+```
+
+## Usage
+
+Here is an example of how to use the Judobase API client:
+
+```python
+import asyncio
+
+from judobase import JudoBase
+
+async def main():
+    async with JudoBase() as api:
+        contests = await api.get_all_contests()
+        print(len(contests))
+
+asyncio.run(main())
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request on GitHub.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
