@@ -1,0 +1,11 @@
+lintian_codeclimate/__init__.py,sha256=PnpkUfBWVk3kyfxWvEnLxc52RhjSf9v57tPUCjFy26U,337
+lintian_codeclimate/__main__.py,sha256=X3O77gXJVQoLkGCCJxHIvo35YDiIQXHcMA0GQd58yrs,273
+lintian_codeclimate/_version.py,sha256=4gL0W4-u58XR5lRLpeoIPrGhcewTk0-527de6uTNmkg,411
+lintian_codeclimate/parser.py,sha256=5pUXgGJA7wwAJT6WgTaUNTUy2-oNmMs2g3gfTsqsrlI,10004
+lintian_codeclimate/tests/__init__.py,sha256=_rPPaWR547kv_AivkcQqdFmMwg0wPviIzAyBlBa3W1g,164
+lintian_codeclimate/tests/test_parser.py,sha256=9dzwyYFd_WQHQ8cfe10kHbeVWyeSyI9mI-_Np1UGJOk,6379
+lintian_codeclimate-0.2.4.dist-info/LICENSE,sha256=zN0uTzFar3k-lTcmHSH8CoTUQd55gqCw-6-nBErw_hQ,1083
+lintian_codeclimate-0.2.4.dist-info/METADATA,sha256=6FpKM4e5Ma9TuoztR_WWVwWZheTaZbPVNMA24utYSlU,1265
+lintian_codeclimate-0.2.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+lintian_codeclimate-0.2.4.dist-info/top_level.txt,sha256=ic0BikO5gS8TfZJfm2Tk_8MrIhHfaoGajNMxSPa7KmU,20
+lintian_codeclimate-0.2.4.dist-info/RECORD,,
