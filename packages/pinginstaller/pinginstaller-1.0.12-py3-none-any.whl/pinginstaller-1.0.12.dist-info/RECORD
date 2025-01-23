@@ -1,0 +1,11 @@
+pinginstaller/Install_Update_PINGMapper.py,sha256=KcZ7nigwjF1_65FzZkX0OCDhBt94_SvPt-ZbL1yIPkQ,4410
+pinginstaller/__init__.py,sha256=wuqEjQxl8rIzh_vwnDN5zNfos1TWhgtg1kEeNXKv1ww,34
+pinginstaller/__main__.py,sha256=_SeuAMln-N4LnZ57C4ogwzZ3UsXy2ly8ryzHIjhRlWw,717
+pinginstaller/check_available_updates.py,sha256=7iVIZh9uf47JMEgSu-NH3SSdcuXlf5ZfboBc1js88gw,1504
+pinginstaller/download_yml.py,sha256=bvd_B9TVerlKWMKJFxK77k5Z6v4HXLJ5qKgxPAYWQDc,482
+pinginstaller/version.py,sha256=1RpFP3dsMJv4zmNN5qRNM1L_PWcCDzFHWBE19ZzWO3A,22
+pinginstaller-1.0.12.dist-info/LICENSE,sha256=e1msmChkqLNv3MljTU25M3MRnJp8HWLl4zUjI0IrvAg,1092
+pinginstaller-1.0.12.dist-info/METADATA,sha256=CPuq3Tq5bwlom_o8A_JBwqUvkKLyods51_Kw7xqTK-E,3753
+pinginstaller-1.0.12.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pinginstaller-1.0.12.dist-info/top_level.txt,sha256=ZB64i0OZzlnBJPf-5v7Wm-NGBowAlsiR0vg8AvUgJ7s,14
+pinginstaller-1.0.12.dist-info/RECORD,,
