@@ -1,0 +1,10 @@
+ampapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ampapi/ampapi.py,sha256=4Dum7mJI844xzYWOeyLRzsn0FuqJDUCbXm8oAi5OpUo,828
+ampapi/auth.py,sha256=4I8MZRrViHKHnYWkaENIdjHZ2YCPQEVD4_awiLaAs-Y,17813
+ampapi/modules.py,sha256=_0PStw1s64CNywbVVBUtU-IjbhlC4iHoPnYiinGDidM,5830
+ampapi/plugins.py,sha256=rFsL0fgFyqqnT-KNPsfPxvmaXBHCnGJc32R8TeQhpCo,185311
+ampapi/types.py,sha256=jFr_sTb9f8Zgi7ZZCbOyiDst8McaaIn8EcRdHm2qHp8,76503
+ampapi-2608.4.4.dist-info/METADATA,sha256=XFX_3IxDCJzzcgzZzROUMT-hvwyeBvh-JSKzJ_GQzfE,6747
+ampapi-2608.4.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ampapi-2608.4.4.dist-info/top_level.txt,sha256=U8egEfZTfjf1olY4sXpHBInr8fa8pAdFOI3EFDDCVug,7
+ampapi-2608.4.4.dist-info/RECORD,,
