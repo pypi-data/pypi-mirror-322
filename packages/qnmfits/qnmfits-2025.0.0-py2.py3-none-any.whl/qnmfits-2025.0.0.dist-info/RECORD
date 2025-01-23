@@ -1,0 +1,12 @@
+qnmfits/__init__.py,sha256=Fu9mVxw3Fkeclsgf1aPuNNJ0E_Brjs6zqkhBLd6dqW0,148
+qnmfits/cce copy.py,sha256=2kFBcLAd9sGMACf4PQKHSyosbt_a16dMYJFMekXeAEI,4025
+qnmfits/cce.py,sha256=U2dlpdwejfBWQZ2wRuN99HIJYeDPsqqz3Tp7vlsZzCM,3850
+qnmfits/qnmfits.py,sha256=0t_vZhkVruDA3pQs0Uee8AKeHkrOMu4Hr8OOSByl0F0,30540
+qnmfits/read_qnms.py,sha256=cPXoioDn-kYsyOGXU0VU7H5zS-yMxdgJ4akul8RyBf0,2134
+qnmfits/utils.py,sha256=C4yL6feZg4nZmNf0_AWlsyWgD4oBQ9fNLED3Gfd3xOw,12877
+qnmfits/data/cce-catalog.json,sha256=ER0OO3XKGEPyruZJSL3odnRbPa7n3zm1Ags1XZe9h1A,1757
+qnmfits/data/w228table.dat,sha256=_7jIXlQq6ZLzlsTifjjo19jhcVLzwaW7Eo8dY1jce5g,710222
+qnmfits-2025.0.0.dist-info/METADATA,sha256=WPP-SFm4nMV_mmwc6nsh5T3Y9JdBpCgUvn3-dN0rTqg,5187
+qnmfits-2025.0.0.dist-info/WHEEL,sha256=tkmg4JIqwd9H8mL30xA7crRmoStyCtGp0VWshokd1Jc,105
+qnmfits-2025.0.0.dist-info/licenses/LICENSE,sha256=3IneHg0SIkoN_6omMe4sf1fyG0oaliuzlDycQFcPfHY,1086
+qnmfits-2025.0.0.dist-info/RECORD,,
