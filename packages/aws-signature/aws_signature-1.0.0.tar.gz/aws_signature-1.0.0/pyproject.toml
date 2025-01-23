@@ -1,0 +1,29 @@
+[project]
+name = "aws-signature"
+version = "1.0.0"
+description = "A Python Library to Authenticate Request to the AWS API using the AWS Signatures"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+keywords = ["aws", "requests", "api"]
+authors = [
+    { name = "Felix Cusson", email = "felixcusson@gmail.com" },
+]
+dependencies = [
+    "requests>=2.32.3",
+]
+
+[project.urls]
+"Bug Reports" = "https://github.com/fcusson/aws-sig/issues"
+"Source" = "https://github.com/fcusson/aws-sig"
+
+# [project.scripts]
+# aws = "aws.__main__:app"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "./src/" }
+
