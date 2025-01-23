@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+slides=mkdocs_slides:SlidesPlugin
+
