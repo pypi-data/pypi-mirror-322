@@ -1,0 +1,3 @@
+[console_scripts]
+ukr_numbers=ukr_numbers.__main__:main
+
