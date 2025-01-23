@@ -1,0 +1,7 @@
+click>=8.0.0
+rich>=10.0.0
+requests
+pyyaml
+jmespath
+streamlit
+jaf
