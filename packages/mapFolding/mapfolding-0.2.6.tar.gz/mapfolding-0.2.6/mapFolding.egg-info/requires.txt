@@ -1,0 +1,15 @@
+numba
+numpy
+Z0Z-tools
+
+[benchmark]
+pandas
+jupyter
+ipywidgets
+tqdm
+
+[testing]
+pytest
+pytest-cov
+pytest-env
+pytest-xdist
