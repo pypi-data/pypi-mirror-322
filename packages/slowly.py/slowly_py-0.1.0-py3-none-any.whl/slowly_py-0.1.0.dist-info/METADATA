@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: slowly.py
+Version: 0.1.0
+Summary: 
+Author: tiagovla
+Author-email: tiagovla@gmail.com
+Requires-Python: >=3.13,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohttp (>=3.11.11,<4.0.0)
+Requires-Dist: uuid (>=1.30,<2.0)
+Description-Content-Type: text/markdown
+
+# Unofficial Async API for Slowly App
+
+This project provides an **unofficial asynchronous API** for interacting with the Slowly app. The Slowly app is a unique platform that connects people from around the world via pen-pal style letters.
+
+This repository offers Python classes and functions that allow you to interact with the Slowly API in an asynchronous manner, making it easy to fetch letters, retrieve user data, and perform other operations asynchronously.
+
+## Features
+
+- **AsyncIterator** for fetching letters in an asynchronous manner.
+- **Pagination handling**: Automatically fetches additional pages of data if available.
+- **Flatten method**: Easily collect all letters into a list using `flatten()`.
+- **Async interaction**: Perform asynchronous API calls without blocking your main program.
+
+## Installation
+

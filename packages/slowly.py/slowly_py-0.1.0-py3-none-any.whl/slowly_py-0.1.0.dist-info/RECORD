@@ -1,0 +1,14 @@
+slowly/__init__.py,sha256=sMgqvgJ0ARrQQI766DYWQVI7eluAKKSyBRh0R50UZYY,267
+slowly/auth.py,sha256=3deZNn8BWS3Uk8Fa3XaKzwXGcyQPbPiGJCDgI0nrkmI,240
+slowly/client.py,sha256=CUYbptuDlCP7ZlF-NMp8_Xya12BtbJ7dV3sDcKSnnoU,6597
+slowly/errors.py,sha256=6PtL3pb4cpr0ySqdW6BstVll9g60Xs4XeyvILm08rdo,648
+slowly/http.py,sha256=1L7l9AljKBOK5qs0-_eVbsWgDQWd7M7krN7dpYbObxw,5519
+slowly/models/__init__.py,sha256=hYMfrTnviei8qMVg4aGdz5bO859jogEhZ4IJRdE9dIA,50
+slowly/models/abc.py,sha256=iugE1BeeO3TNylL5WFEVM4VAEDrLy7h0JaRKuA1ZpJs,751
+slowly/models/letter.py,sha256=Px6S7Q2CW8-XjtonOL1zAW3Qn4bevIuL1Fo3HtgDGXo,2645
+slowly/models/user.py,sha256=xWsS3D0-5giQD0UjUqRZzv0StB_NRyxXI-McfVdH4YY,2229
+slowly/state.py,sha256=I0TGX8ypAAobR547vf9e5DUgLDpNRZ-aV8PRiM0b5No,816
+slowly/types.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slowly_py-0.1.0.dist-info/METADATA,sha256=NTt4vm5p92eHgKk1GstXt1E54YJRw7jf9-Y_772UeWM,1182
+slowly_py-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+slowly_py-0.1.0.dist-info/RECORD,,
