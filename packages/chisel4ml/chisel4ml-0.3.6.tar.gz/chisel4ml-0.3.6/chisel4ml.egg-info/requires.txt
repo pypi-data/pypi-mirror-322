@@ -1,0 +1,17 @@
+qonnx
+onnxoptimizer
+ortools
+grpcio>1.0.0
+
+[audio]
+tensorflow-datasets
+librosa
+
+[dev]
+tox<4
+tox-run-before
+pytest<8
+pytest-xdist
+grpcio-tools
+pre-commit
+brevitas
