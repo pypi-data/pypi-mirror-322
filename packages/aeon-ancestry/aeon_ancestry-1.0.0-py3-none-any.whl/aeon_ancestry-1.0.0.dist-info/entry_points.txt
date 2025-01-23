@@ -1,0 +1,3 @@
+[console_scripts]
+aeon=aeon.aeon:main
+
