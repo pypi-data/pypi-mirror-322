@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python_edubase_api"
+version = "0.0.2"
+dependencies = [
+  "requests",
+]
+requires-python = ">=3.8"
+authors = [
+  { name="Semyon Terebenin", email="semenchik02@gmail.com" },
+]
+description = "Python 3 пакет для взаимодействия с edubase-api"
+readme = "README.md"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+
+[project.urls]
+Homepage = "http://gitea.shgpi/aneri/python_edubase_api"
+Issues = "http://gitea.shgpi/aneri/python_edubase_api/issues"
