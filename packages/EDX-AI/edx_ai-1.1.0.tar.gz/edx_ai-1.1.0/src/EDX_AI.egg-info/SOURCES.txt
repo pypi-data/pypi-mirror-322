@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/EDX_AI.egg-info/PKG-INFO
+src/EDX_AI.egg-info/SOURCES.txt
+src/EDX_AI.egg-info/dependency_links.txt
+src/EDX_AI.egg-info/entry_points.txt
+src/EDX_AI.egg-info/requires.txt
+src/EDX_AI.egg-info/top_level.txt
+src/STEM_EDX/__init__.py
+src/STEM_EDX/colorscales.py
+src/STEM_EDX/main.py
+src/STEM_EDX/mainwindow.py
+src/STEM_EDX/stem.py
+src/STEM_EDX/utils.py
+tests/test_decomposition.py

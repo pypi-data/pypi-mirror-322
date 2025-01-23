@@ -1,0 +1,2 @@
+[console_scripts]
+EDX_AI = STEM_EDX.main:main
