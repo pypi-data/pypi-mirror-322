@@ -1,0 +1,13 @@
+mangagraph/__init__.py,sha256=xmZ63lXH3cRkZj1HVTTx0XXT0RzwyihrNGDQYrmaNhw,286
+mangagraph/__main__.py,sha256=0g3iknXOS9gZUcpL_trgAcuCJnZZKjdsT_xt61WOVb4,60
+mangagraph/cli.py,sha256=aTlu30Jlr7xsUsuIqLnVLIZpRKuDLOk3GJ1a1Y-AGYE,1399
+mangagraph/exceptions.py,sha256=O5N38q_xCoFtQmAcT8f9kbgtzl5bi94_05e3IvovG6w,492
+mangagraph/models.py,sha256=RQbAn9m8jR-cWtPeFXAsOjmZYa26UdaoGCk-_8wQ2uw,652
+mangagraph/parser.py,sha256=aKdG3Ukid4twcfC2OYsuni2s1TkuC_D8EVfNmYv_jB4,14481
+mangagraph/utils.py,sha256=wYEwBJVh8pA1CL6aAdB-tvAX2peF3FPSkmvjI44X42I,1748
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mangagraph-0.0.2.dist-info/METADATA,sha256=Zh6IiUiFzcVUach62DwB3y6MDdA_c74TDRH1U5dNiO0,660
+mangagraph-0.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mangagraph-0.0.2.dist-info/entry_points.txt,sha256=eQSK112FJYlpZktP6h-vafO2xBV7bA8-4FK8s_CCrwg,51
+mangagraph-0.0.2.dist-info/top_level.txt,sha256=SQBWdE_2ty2EvRzW3XNZ_chfnTWZcicoqq3EKajSfvM,17
+mangagraph-0.0.2.dist-info/RECORD,,
