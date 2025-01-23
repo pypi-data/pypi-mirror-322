@@ -1,0 +1,3 @@
+[console_scripts]
+easymaker=easymaker.cli.cli:main
+
