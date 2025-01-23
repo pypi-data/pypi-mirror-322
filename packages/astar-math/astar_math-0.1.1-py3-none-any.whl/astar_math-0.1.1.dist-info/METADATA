@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: astar-math
+Version: 0.1.1
+Summary: Python math
+Home-page: https://gitee.com/hoops/astar-mathtool
+Author: A.Star
+Author-email: astar@snowland.ltd
+Maintainer: A.Star
+Maintainer-email: astar@snowland.ltd
+License: Apache v2.0 License
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+Requires-Dist: astartool (>=0.1.0)
+Requires-Dist: astar-devopstool (>=0.0.7)
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: liepack
+Requires-Dist: matplotlib
+
+astar-mathtool
+============================
+
+|version| |gitee| |download| |wheel| |status|
+
+
+
+
+参考资料
+~~~~~~~~
+
+[1] https://github.com/ASTARCHEN/astartool
+
+[2] https://github.com/astar-club/astar-devopstool-python
+
+.. |version| image:: https://img.shields.io/pypi/v/astar-math.svg
+   :target: https://pypi.python.org/pypi/astar-math
+.. |gitee| image:: https://gitee.com/hoops/astar-mathtool/badge/star.svg
+   :target: https://gitee.com/hoops/astar-mathtool/stargazers
+.. |download| image:: https://img.shields.io/pypi/dm/astar-math.svg
+   :target: https://pypi.org/project/astar-math
+.. |wheel| image:: https://img.shields.io/pypi/wheel/astar-math.svg
+   :target: https://pypi.python.org/pypi/astar-math
+.. |status| image:: https://img.shields.io/pypi/status/astar-math.svg
+
+    
