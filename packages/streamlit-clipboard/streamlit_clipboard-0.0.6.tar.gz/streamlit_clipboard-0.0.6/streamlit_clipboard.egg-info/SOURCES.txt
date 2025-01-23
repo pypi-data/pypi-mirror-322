@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+clipboard_component/__init__.py
+clipboard_component/frontend/build/asset-manifest.json
+clipboard_component/frontend/build/index.html
+clipboard_component/frontend/build/static/js/main.69e0f7ca.js
+clipboard_component/frontend/build/static/js/main.69e0f7ca.js.LICENSE.txt
+clipboard_component/frontend/build/static/js/main.69e0f7ca.js.map
+streamlit_clipboard.egg-info/PKG-INFO
+streamlit_clipboard.egg-info/SOURCES.txt
+streamlit_clipboard.egg-info/dependency_links.txt
+streamlit_clipboard.egg-info/requires.txt
+streamlit_clipboard.egg-info/top_level.txt
