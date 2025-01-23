@@ -1,0 +1,89 @@
+{% for decorator in decorators -%}
+{{ decorator }}
+{% endfor -%}
+{%- if is_list %}
+{{ class_name }} = ResourceList["{{ class_name.replace('List', '') }}"]
+{%- else %}
+{%- if is_gvk %}
+class {{ class_name }}(Resource):{% if comment is defined %}  # {{ comment }}{% endif %}
+{%- else %}
+class {{ class_name }}(BaseModel):{% if comment is defined %}  # {{ comment }}{% endif %}
+{%- endif %}
+{%- if description %}
+    """
+    {{ description | indent(4) }}
+    """
+{%- endif %}
+    class Builder(BaseBuilder):
+            
+        def build(self) -> "{{ class_name }}":
+            return {{ class_name }}(**self._attrs)
+
+    {%- for field in fields %}
+        {%- set field_setter_name = field.name if field.name != "build" else "build_" %}
+        {%- if field.data_type.data_types and field.data_type.data_types[0].is_list  %}
+        {%- set item_type = field.data_type.data_types[0].data_types[0] %}
+        {%- if item_type.reference is not none %}
+        def {{ field_setter_name }}(self, value_or_callback: Union[{{ field.type_hint }}, Callable[[Type[{{ item_type.type_hint }}]], List[{{ item_type.type_hint }}]]]) -> Self:
+            value = value_or_callback
+            if callable(value_or_callback):
+                value = value_or_callback({{ item_type.type_hint }})
+            return self._set("{{ field.name }}", value)
+        {%- else %}
+        def {{ field_setter_name }}(self, value: {{ field.type_hint }}) -> Self:
+            return self._set("{{ field.name }}", value)
+        {%- endif %}
+        {%- else %}
+        {%- if field.data_type.reference is not none %}
+        def {{ field_setter_name }}(self, value_or_callback: Union[{{ field.type_hint }}, Callable[[Type[{{ field.data_type.type_hint }}]], {{ field.data_type.type_hint }}]]) -> Self:
+            value = value_or_callback
+            if callable(value_or_callback):
+                value = value_or_callback({{ field.data_type.type_hint }})
+            return self._set("{{ field.name }}", value)
+        {%- else %}
+        def {{ field_setter_name }}(self, value: {{ field.type_hint }}) -> Self:
+            return self._set("{{ field.name }}", value)
+        {%- endif %}
+        {%- endif %}
+    {%- endfor %}
+
+    @classmethod
+    def builder(cls) -> Builder:
+        return cls.Builder()
+
+    @classmethod
+    def list_builder(cls) -> ListBuilder[Self]:
+        return ListBuilder[cls]()  # type: ignore[valid-type]
+
+
+{%- if not fields and not description %}
+    pass
+{%- endif %}
+{%- if config %}
+{%- filter indent(4) %}
+{% include 'ConfigDict.jinja2' %}
+{%- endfilter %}
+{%- endif %}
+{%- for field in fields -%}
+    {%- if not field.annotated and field.field %}
+    {{ field.name }}: {{ field.type_hint }} = {{ field.field }}
+    {%- else %}
+    {%- if field.annotated %}
+    {{ field.name }}: {{ field.annotated }}
+    {%- else %}
+    {{ field.name }}: {{ field.type_hint }}
+    {%- endif %}
+    {%- if not (field.required or (field.represented_default == 'None' and field.strip_default_none)) or field.data_type.is_optional
+            %} = {{ field.represented_default }}
+    {%- endif -%}
+    {%- endif %}
+    {%- if field.docstring %}
+    """
+    {{ field.docstring | indent(4) }}
+    """
+    {%- endif %}
+{%- for method in methods -%}
+    {{ method }}
+{%- endfor -%}
+{%- endfor -%}
+{%- endif -%}
