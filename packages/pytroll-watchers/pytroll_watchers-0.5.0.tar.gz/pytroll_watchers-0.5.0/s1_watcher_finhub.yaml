@@ -1,0 +1,18 @@
+backend: dhus
+fs_config:
+  server: https://finhub.nsdc.fmi.fi/
+  filter_params:
+    - substringof('IW_GRDH',Name)
+  polling_interval:
+    seconds: 10
+  start_from:
+    hours: 6
+publisher_config:
+  name: s1_watcher
+message_config:
+  subject: /segment/s1/l1b/
+  atype: dataset
+  unpack: zip
+  aliases:
+    sensor:
+      SAR: SAR-C

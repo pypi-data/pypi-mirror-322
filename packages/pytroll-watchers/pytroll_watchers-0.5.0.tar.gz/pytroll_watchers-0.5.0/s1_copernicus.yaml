@@ -1,0 +1,23 @@
+backend: dataspace
+fs_config:
+  filter_string: "contains(Name,'IW_GRDH')"
+  dataspace_auth:
+    netrc_host: catalogue.dataspace.copernicus.eu
+  storage_options:
+    profile: copernicus
+  polling_interval:
+    seconds: 10
+  start_from:
+    hours: 1
+publisher_config:
+  name: s1_watcher
+  nameservers: false
+  port: 3000
+message_config:
+  unpack: directory
+  include_dir_in_uid: true
+  subject: /segment/s1/l1b/
+  atype: file
+  aliases:
+    sensor:
+      SAR: SAR-C

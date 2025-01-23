@@ -1,0 +1,19 @@
+backend: datastore
+fs_config:
+  server: https://colhub.met.no
+  filter_params:
+    - substringof('IW_GRDH',Name)
+  polling_interval:
+    seconds: 10
+  start_from:
+    hours: 2
+publisher_config:
+  name: s1_watcher
+  nameservers: false
+  port: 3000
+message_config:
+  subject: /segment/s1/l1b/
+  atype: file
+  aliases:
+    sensor:
+      SAR: SAR-C

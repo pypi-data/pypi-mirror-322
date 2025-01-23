@@ -1,0 +1,22 @@
+backend: datastore
+fs_config:
+  search_params:
+    collection: "EO:EUM:DAT:0905"
+  polling_interval:
+    minutes: 5
+  start_from:
+    hours: 6
+  ds_auth:
+    netrc_host: api.eumetsat.int
+
+publisher_config:
+  name: awsat_eum_ds_watcher
+  nameservers: false
+  port: 4000
+message_config:
+  subject: /awsat/l1b/eumetsat/global/
+  atype: file
+  data:
+    sensor: aws
+    platform_name: AWS1
+    variant: GDS

@@ -1,0 +1,262 @@
+responses:
+- response:
+    auto_calculate_content_length: false
+    body: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<feed xmlns=\"http://www.w3.org/2005/Atom\"\
+      \ xmlns:os=\"http://a9.com/-/spec/opensearch/1.1/\">\n  <title type=\"text\"\
+      >PANDA Catatalogue Service</title>\n  <subtitle type=\"text\">This feed is generated\
+      \ to satisfy a customer request</subtitle>\n  <generator uri=\"http://www.telespazio.com\"\
+      \ version=\"1.0.0\">TELESPAZIO SPA</generator>\n  <updated>2024-11-15T16:08:46.978Z</updated>\n\
+      \  <id>http://xxx.xxx.xxx.xxx:xx/atom/</id>\n  <author>\n    <name>TELESPAZIO\
+      \ SPA</name>\n  </author>\n  <link\n    href=\"http://xxx.xxx.xxx.xxx:xx/atom/?start=2024-11-14T00:00:00.000Z&amp;instrument=SAR\"\
+      \n    length=\"0\" rel=\"self\" type=\"application/atom+xml\"/>\n  <link\n \
+      \   href=\"http://xxx.xxx.xxx.xxx:xx/atom/?start=2024-11-14T00:00:00.000Z&amp;instrument=SAR\"\
+      \n    length=\"0\" rel=\"alternate\" type=\"application/atom+xml\"/>\n  <os:totalResults>6</os:totalResults>\n\
+      \  <os:itemsPerPage>50</os:itemsPerPage>\n  <os:startIndex>0</os:startIndex>\n\
+      \  <os:Query role=\"request\" startIndex=\"0\"/>\n  <entry xmlns:eop=\"http://www.opengis.net/eop/2.0\"\
+      \n    xmlns:gml=\"http://www.opengis.net/gml/3.2\"\n    xmlns:om=\"http://www.opengis.net/om/2.0\"\
+      \n    xmlns:opt=\"http://www.opengis.net/opt/2.0\"\n    xmlns:swe=\"http://www.opengis.net/swe/1.0\"\
+      \n    xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\
+      \ xsi:schemaLocation=\"http://www.opengis.net/opt/2.0 ../xsd/opt.xsd\">\n  \
+      \  <id>urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_045920_0076_SCWA_HHHV_SGF_1171032_8611_95243246</id>\n\
+      \    <title type=\"text\">urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_045920_0076_SCWA_HHHV_SGF_1171032_8611_95243246</title>\n\
+      \    <published>2024-11-15T16:08:46.979Z</published>\n    <updated>2024-11-15T16:08:46.979Z</updated>\n\
+      \    <link\n      href=\"http://xxx.xxx.xxx.xxx:xx/atom/?eopIdentifier=urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_045920_0076_SCWA_HHHV_SGF_1171032_8611_95243246\"\
+      \n      length=\"0\" rel=\"alternate\" type=\"application/atom+xml\"/>\n   \
+      \ <link\n      href=\"https://cdsdata.copernicus.eu/pd-desk/prismDownload/dXJuOmVvcDpSUzAyOlNBUl9TRUFfSUNFOlJTMl8yMDI0MTExNF8wNDU5MjBfMDA3Nl9TQ1dBX0hISFZfU0dGXzExNzEwMzJfODYxMV85NTI0MzI0Ng==/1/productName/UlMwMl9TQVJfU1dfU0NXXzIwMjQxMTE0VDA0NTkyMF8yMDI0MTExNFQwNTAwMzZfVFJTXzg4MzE3XzAwMDAudGFy\"\
+      \n      length=\"0\" rel=\"enclosure\" type=\"application/binary\"/>\n    <eop:EarthObservation>\n\
+      \      <om:phenomenonTime>\n        <gml:TimePeriod>\n          <gml:beginPosition>2024-11-14T04:59:20.000Z</gml:beginPosition>\n\
+      \          <gml:endPosition>2024-11-14T05:00:36.000Z</gml:endPosition>\n   \
+      \     </gml:TimePeriod>\n      </om:phenomenonTime>\n      <om:resultTime>\n\
+      \        <gml:TimeInstant>\n          <gml:timePosition>2024-11-14T05:12:09.000Z</gml:timePosition>\n\
+      \        </gml:TimeInstant>\n      </om:resultTime>\n      <om:procedure>\n\
+      \        <eop:EarthObservationEquipment>\n          <eop:platform>\n       \
+      \     <eop:Platform>\n              <eop:shortName>RS02</eop:shortName>\n  \
+      \          </eop:Platform>\n          </eop:platform>\n          <eop:sensor>\n\
+      \            <eop:Sensor>\n              <eop:sensorType>RADAR</eop:sensorType>\n\
+      \            </eop:Sensor>\n          </eop:sensor>\n          <eop:acquisitionParameters>\n\
+      \            <eop:Acquisition>\n              <eop:orbitNumber>88317</eop:orbitNumber>\n\
+      \            </eop:Acquisition>\n          </eop:acquisitionParameters>\n  \
+      \      </eop:EarthObservationEquipment>\n      </om:procedure>\n      <om:observedProperty\
+      \ xlink:href=\"#params1\"/>\n      <om:featureOfInterest>\n        <eop:Footprint>\n\
+      \          <eop:multiExtentOf>\n            <gml:MultiSurface srsName=\"EPSG:4326\"\
+      >\n              <gml:surfaceMember>\n                <gml:Polygon>\n      \
+      \            <gml:exterior>\n                    <gml:LinearRing>\n        \
+      \              <gml:posList>\n\t\t\t\t\t\t\t\t\t\t\t\t\t78.23 46.04 81.66 63.2\
+      \ 84.33 30.29 80.01 22.67 78.23 46.04 \n\t\t\t\t\t\t\t\t\t\t\t</gml:posList>\n\
+      \                    </gml:LinearRing>\n                  </gml:exterior>\n\
+      \                </gml:Polygon>\n              </gml:surfaceMember>\n      \
+      \      </gml:MultiSurface>\n          </eop:multiExtentOf>\n        </eop:Footprint>\n\
+      \      </om:featureOfInterest>\n      <om:result>\n        <opt:EarthObservationResult/>\n\
+      \      </om:result>\n      <eop:metaDataProperty>\n        <eop:EarthObservationMetaData>\n\
+      \          <eop:identifier>urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_045920_0076_SCWA_HHHV_SGF_1171032_8611_95243246</eop:identifier>\n\
+      \          <eop:parentIdentifier>[SAR_SEA_ICE/RS02/Eurarctic]</eop:parentIdentifier>\n\
+      \          <eop:acquisitionType>NOMINAL</eop:acquisitionType>\n          <eop:productType>SAR_SW_SCW</eop:productType>\n\
+      \          <eop:status>ARCHIVED</eop:status>\n        </eop:EarthObservationMetaData>\n\
+      \      </eop:metaDataProperty>\n    </eop:EarthObservation>\n  </entry>\n  <entry\
+      \ xmlns:eop=\"http://www.opengis.net/eop/2.0\"\n    xmlns:gml=\"http://www.opengis.net/gml/3.2\"\
+      \n    xmlns:om=\"http://www.opengis.net/om/2.0\"\n    xmlns:opt=\"http://www.opengis.net/opt/2.0\"\
+      \n    xmlns:swe=\"http://www.opengis.net/swe/1.0\"\n    xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+      \n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"\
+      http://www.opengis.net/opt/2.0 ../xsd/opt.xsd\">\n    <id>urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_050423_0076_SCWA_HHHV_SGF_1171033_8612_95243258</id>\n\
+      \    <title type=\"text\">urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_050423_0076_SCWA_HHHV_SGF_1171033_8612_95243258</title>\n\
+      \    <published>2024-11-15T16:08:46.983Z</published>\n    <updated>2024-11-15T16:08:46.983Z</updated>\n\
+      \    <link\n      href=\"http://xxx.xxx.xxx.xxx:xx/atom/?eopIdentifier=urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_050423_0076_SCWA_HHHV_SGF_1171033_8612_95243258\"\
+      \n      length=\"0\" rel=\"alternate\" type=\"application/atom+xml\"/>\n   \
+      \ <link\n      href=\"https://cdsdata.copernicus.eu/pd-desk/prismDownload/dXJuOmVvcDpSUzAyOlNBUl9TRUFfSUNFOlJTMl8yMDI0MTExNF8wNTA0MjNfMDA3Nl9TQ1dBX0hISFZfU0dGXzExNzEwMzNfODYxMl85NTI0MzI1OA==/1/productName/UlMwMl9TQVJfU1dfU0NXXzIwMjQxMTE0VDA1MDQyM18yMDI0MTExNFQwNTA1MzlfVFJTXzg4MzE3XzAwMDAudGFy\"\
+      \n      length=\"0\" rel=\"enclosure\" type=\"application/binary\"/>\n    <eop:EarthObservation>\n\
+      \      <om:phenomenonTime>\n        <gml:TimePeriod>\n          <gml:beginPosition>2024-11-14T05:04:23.000Z</gml:beginPosition>\n\
+      \          <gml:endPosition>2024-11-14T05:05:39.000Z</gml:endPosition>\n   \
+      \     </gml:TimePeriod>\n      </om:phenomenonTime>\n      <om:resultTime>\n\
+      \        <gml:TimeInstant>\n          <gml:timePosition>2024-11-14T05:14:40.000Z</gml:timePosition>\n\
+      \        </gml:TimeInstant>\n      </om:resultTime>\n      <om:procedure>\n\
+      \        <eop:EarthObservationEquipment>\n          <eop:platform>\n       \
+      \     <eop:Platform>\n              <eop:shortName>RS02</eop:shortName>\n  \
+      \          </eop:Platform>\n          </eop:platform>\n          <eop:sensor>\n\
+      \            <eop:Sensor>\n              <eop:sensorType>RADAR</eop:sensorType>\n\
+      \            </eop:Sensor>\n          </eop:sensor>\n          <eop:acquisitionParameters>\n\
+      \            <eop:Acquisition>\n              <eop:orbitNumber>88317</eop:orbitNumber>\n\
+      \            </eop:Acquisition>\n          </eop:acquisitionParameters>\n  \
+      \      </eop:EarthObservationEquipment>\n      </om:procedure>\n      <om:observedProperty\
+      \ xlink:href=\"#params1\"/>\n      <om:featureOfInterest>\n        <eop:Footprint>\n\
+      \          <eop:multiExtentOf>\n            <gml:MultiSurface srsName=\"EPSG:4326\"\
+      >\n              <gml:surfaceMember>\n                <gml:Polygon>\n      \
+      \            <gml:exterior>\n                    <gml:LinearRing>\n        \
+      \              <gml:posList>\n\t\t\t\t\t\t\t\t\t\t\t\t\t61.45 24.28 65.79 27.23\
+      \ 66.8 15.76 62.38 14.45 61.45 24.28 \n\t\t\t\t\t\t\t\t\t\t\t</gml:posList>\n\
+      \                    </gml:LinearRing>\n                  </gml:exterior>\n\
+      \                </gml:Polygon>\n              </gml:surfaceMember>\n      \
+      \      </gml:MultiSurface>\n          </eop:multiExtentOf>\n        </eop:Footprint>\n\
+      \      </om:featureOfInterest>\n      <om:result>\n        <opt:EarthObservationResult/>\n\
+      \      </om:result>\n      <eop:metaDataProperty>\n        <eop:EarthObservationMetaData>\n\
+      \          <eop:identifier>urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_050423_0076_SCWA_HHHV_SGF_1171033_8612_95243258</eop:identifier>\n\
+      \          <eop:parentIdentifier>[SAR_SEA_ICE/RS02/Baltic]</eop:parentIdentifier>\n\
+      \          <eop:acquisitionType>NOMINAL</eop:acquisitionType>\n          <eop:productType>SAR_SW_SCW</eop:productType>\n\
+      \          <eop:status>ARCHIVED</eop:status>\n        </eop:EarthObservationMetaData>\n\
+      \      </eop:metaDataProperty>\n    </eop:EarthObservation>\n  </entry>\n  <entry\
+      \ xmlns:eop=\"http://www.opengis.net/eop/2.0\"\n    xmlns:gml=\"http://www.opengis.net/gml/3.2\"\
+      \n    xmlns:om=\"http://www.opengis.net/om/2.0\"\n    xmlns:opt=\"http://www.opengis.net/opt/2.0\"\
+      \n    xmlns:swe=\"http://www.opengis.net/swe/1.0\"\n    xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+      \n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"\
+      http://www.opengis.net/opt/2.0 ../xsd/opt.xsd\">\n    <id>urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_082014_0076_SCWA_HHHV_SGF_1171048_8616_95243249</id>\n\
+      \    <title type=\"text\">urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_082014_0076_SCWA_HHHV_SGF_1171048_8616_95243249</title>\n\
+      \    <published>2024-11-15T16:08:46.987Z</published>\n    <updated>2024-11-15T16:08:46.987Z</updated>\n\
+      \    <link\n      href=\"http://xxx.xxx.xxx.xxx:xx/atom/?eopIdentifier=urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_082014_0076_SCWA_HHHV_SGF_1171048_8616_95243249\"\
+      \n      length=\"0\" rel=\"alternate\" type=\"application/atom+xml\"/>\n   \
+      \ <link\n      href=\"https://cdsdata.copernicus.eu/pd-desk/prismDownload/dXJuOmVvcDpSUzAyOlNBUl9TRUFfSUNFOlJTMl8yMDI0MTExNF8wODIwMTRfMDA3Nl9TQ1dBX0hISFZfU0dGXzExNzEwNDhfODYxNl85NTI0MzI0OQ==/1/productName/UlMwMl9TQVJfU1dfU0NXXzIwMjQxMTE0VDA4MjAxNF8yMDI0MTExNFQwODIxMzBfVFJTXzg4MzE5XzAwMDAudGFy\"\
+      \n      length=\"0\" rel=\"enclosure\" type=\"application/binary\"/>\n    <eop:EarthObservation>\n\
+      \      <om:phenomenonTime>\n        <gml:TimePeriod>\n          <gml:beginPosition>2024-11-14T08:20:14.000Z</gml:beginPosition>\n\
+      \          <gml:endPosition>2024-11-14T08:21:30.000Z</gml:endPosition>\n   \
+      \     </gml:TimePeriod>\n      </om:phenomenonTime>\n      <om:resultTime>\n\
+      \        <gml:TimeInstant>\n          <gml:timePosition>2024-11-14T08:29:45.000Z</gml:timePosition>\n\
+      \        </gml:TimeInstant>\n      </om:resultTime>\n      <om:procedure>\n\
+      \        <eop:EarthObservationEquipment>\n          <eop:platform>\n       \
+      \     <eop:Platform>\n              <eop:shortName>RS02</eop:shortName>\n  \
+      \          </eop:Platform>\n          </eop:platform>\n          <eop:sensor>\n\
+      \            <eop:Sensor>\n              <eop:sensorType>RADAR</eop:sensorType>\n\
+      \            </eop:Sensor>\n          </eop:sensor>\n          <eop:acquisitionParameters>\n\
+      \            <eop:Acquisition>\n              <eop:orbitNumber>88319</eop:orbitNumber>\n\
+      \            </eop:Acquisition>\n          </eop:acquisitionParameters>\n  \
+      \      </eop:EarthObservationEquipment>\n      </om:procedure>\n      <om:observedProperty\
+      \ xlink:href=\"#params1\"/>\n      <om:featureOfInterest>\n        <eop:Footprint>\n\
+      \          <eop:multiExtentOf>\n            <gml:MultiSurface srsName=\"EPSG:4326\"\
+      >\n              <gml:surfaceMember>\n                <gml:Polygon>\n      \
+      \            <gml:exterior>\n                    <gml:LinearRing>\n        \
+      \              <gml:posList>\n\t\t\t\t\t\t\t\t\t\t\t\t\t79.97 2.45 82.89 26.16\
+      \ 86.33 -10.7 82.09 -25.02 79.97 2.45 \n\t\t\t\t\t\t\t\t\t\t\t</gml:posList>\n\
+      \                    </gml:LinearRing>\n                  </gml:exterior>\n\
+      \                </gml:Polygon>\n              </gml:surfaceMember>\n      \
+      \      </gml:MultiSurface>\n          </eop:multiExtentOf>\n        </eop:Footprint>\n\
+      \      </om:featureOfInterest>\n      <om:result>\n        <opt:EarthObservationResult/>\n\
+      \      </om:result>\n      <eop:metaDataProperty>\n        <eop:EarthObservationMetaData>\n\
+      \          <eop:identifier>urn:eop:RS02:SAR_SEA_ICE:RS2_20241114_082014_0076_SCWA_HHHV_SGF_1171048_8616_95243249</eop:identifier>\n\
+      \          <eop:parentIdentifier>[SAR_SEA_ICE/RS02/Eurarctic]</eop:parentIdentifier>\n\
+      \          <eop:acquisitionType>NOMINAL</eop:acquisitionType>\n          <eop:productType>SAR_SW_SCW</eop:productType>\n\
+      \          <eop:status>ARCHIVED</eop:status>\n        </eop:EarthObservationMetaData>\n\
+      \      </eop:metaDataProperty>\n    </eop:EarthObservation>\n  </entry>\n  <entry\
+      \ xmlns:eop=\"http://www.opengis.net/eop/2.0\"\n    xmlns:gml=\"http://www.opengis.net/gml/3.2\"\
+      \n    xmlns:om=\"http://www.opengis.net/om/2.0\"\n    xmlns:opt=\"http://www.opengis.net/opt/2.0\"\
+      \n    xmlns:swe=\"http://www.opengis.net/swe/1.0\"\n    xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+      \n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"\
+      http://www.opengis.net/opt/2.0 ../xsd/opt.xsd\">\n    <id>urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_060928_0076_SCWA_HHHV_SGF_1171257_8637_95302322</id>\n\
+      \    <title type=\"text\">urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_060928_0076_SCWA_HHHV_SGF_1171257_8637_95302322</title>\n\
+      \    <published>2024-11-15T16:08:46.992Z</published>\n    <updated>2024-11-15T16:08:46.992Z</updated>\n\
+      \    <link\n      href=\"http://xxx.xxx.xxx.xxx:xx/atom/?eopIdentifier=urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_060928_0076_SCWA_HHHV_SGF_1171257_8637_95302322\"\
+      \n      length=\"0\" rel=\"alternate\" type=\"application/atom+xml\"/>\n   \
+      \ <link\n      href=\"https://cdsdata.copernicus.eu/pd-desk/prismDownload/dXJuOmVvcDpSUzAyOlNBUl9TRUFfSUNFOlJTMl8yMDI0MTExNV8wNjA5MjhfMDA3Nl9TQ1dBX0hISFZfU0dGXzExNzEyNTdfODYzN185NTMwMjMyMg==/1/productName/UlMwMl9TQVJfU1dfU0NXXzIwMjQxMTE1VDA2MDkyOF8yMDI0MTExNVQwNjEwNDRfVFJTXzg4MzMyXzAwMDAudGFy\"\
+      \n      length=\"0\" rel=\"enclosure\" type=\"application/binary\"/>\n    <eop:EarthObservation>\n\
+      \      <om:phenomenonTime>\n        <gml:TimePeriod>\n          <gml:beginPosition>2024-11-15T06:09:28.000Z</gml:beginPosition>\n\
+      \          <gml:endPosition>2024-11-15T06:10:44.000Z</gml:endPosition>\n   \
+      \     </gml:TimePeriod>\n      </om:phenomenonTime>\n      <om:resultTime>\n\
+      \        <gml:TimeInstant>\n          <gml:timePosition>2024-11-15T06:24:25.000Z</gml:timePosition>\n\
+      \        </gml:TimeInstant>\n      </om:resultTime>\n      <om:procedure>\n\
+      \        <eop:EarthObservationEquipment>\n          <eop:platform>\n       \
+      \     <eop:Platform>\n              <eop:shortName>RS02</eop:shortName>\n  \
+      \          </eop:Platform>\n          </eop:platform>\n          <eop:sensor>\n\
+      \            <eop:Sensor>\n              <eop:sensorType>RADAR</eop:sensorType>\n\
+      \            </eop:Sensor>\n          </eop:sensor>\n          <eop:acquisitionParameters>\n\
+      \            <eop:Acquisition>\n              <eop:orbitNumber>88332</eop:orbitNumber>\n\
+      \            </eop:Acquisition>\n          </eop:acquisitionParameters>\n  \
+      \      </eop:EarthObservationEquipment>\n      </om:procedure>\n      <om:observedProperty\
+      \ xlink:href=\"#params1\"/>\n      <om:featureOfInterest>\n        <eop:Footprint>\n\
+      \          <eop:multiExtentOf>\n            <gml:MultiSurface srsName=\"EPSG:4326\"\
+      >\n              <gml:surfaceMember>\n                <gml:Polygon>\n      \
+      \            <gml:exterior>\n                    <gml:LinearRing>\n        \
+      \              <gml:posList>\n\t\t\t\t\t\t\t\t\t\t\t\t\t81.57 44.61 83.62 76.68\
+      \ 88.07 50.54 84.2 12.02 81.57 44.61 \n\t\t\t\t\t\t\t\t\t\t\t</gml:posList>\n\
+      \                    </gml:LinearRing>\n                  </gml:exterior>\n\
+      \                </gml:Polygon>\n              </gml:surfaceMember>\n      \
+      \      </gml:MultiSurface>\n          </eop:multiExtentOf>\n        </eop:Footprint>\n\
+      \      </om:featureOfInterest>\n      <om:result>\n        <opt:EarthObservationResult/>\n\
+      \      </om:result>\n      <eop:metaDataProperty>\n        <eop:EarthObservationMetaData>\n\
+      \          <eop:identifier>urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_060928_0076_SCWA_HHHV_SGF_1171257_8637_95302322</eop:identifier>\n\
+      \          <eop:parentIdentifier>[SAR_SEA_ICE/RS02/Eurarctic]</eop:parentIdentifier>\n\
+      \          <eop:acquisitionType>NOMINAL</eop:acquisitionType>\n          <eop:productType>SAR_SW_SCW</eop:productType>\n\
+      \          <eop:status>ARCHIVED</eop:status>\n        </eop:EarthObservationMetaData>\n\
+      \      </eop:metaDataProperty>\n    </eop:EarthObservation>\n  </entry>\n  <entry\
+      \ xmlns:eop=\"http://www.opengis.net/eop/2.0\"\n    xmlns:gml=\"http://www.opengis.net/gml/3.2\"\
+      \n    xmlns:om=\"http://www.opengis.net/om/2.0\"\n    xmlns:opt=\"http://www.opengis.net/opt/2.0\"\
+      \n    xmlns:swe=\"http://www.opengis.net/swe/1.0\"\n    xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+      \n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"\
+      http://www.opengis.net/opt/2.0 ../xsd/opt.xsd\">\n    <id>urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_061035_0077_SCWA_HHHV_SGF_1171257_8638_95302328</id>\n\
+      \    <title type=\"text\">urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_061035_0077_SCWA_HHHV_SGF_1171257_8638_95302328</title>\n\
+      \    <published>2024-11-15T16:08:46.995Z</published>\n    <updated>2024-11-15T16:08:46.995Z</updated>\n\
+      \    <link\n      href=\"http://xxx.xxx.xxx.xxx:xx/atom/?eopIdentifier=urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_061035_0077_SCWA_HHHV_SGF_1171257_8638_95302328\"\
+      \n      length=\"0\" rel=\"alternate\" type=\"application/atom+xml\"/>\n   \
+      \ <link\n      href=\"https://cdsdata.copernicus.eu/pd-desk/prismDownload/dXJuOmVvcDpSUzAyOlNBUl9TRUFfSUNFOlJTMl8yMDI0MTExNV8wNjEwMzVfMDA3N19TQ1dBX0hISFZfU0dGXzExNzEyNTdfODYzOF85NTMwMjMyOA==/1/productName/UlMwMl9TQVJfU1dfU0NXXzIwMjQxMTE1VDA2MTAzNV8yMDI0MTExNVQwNjExNTJfVFJTXzg4MzMyXzAwMDAudGFy\"\
+      \n      length=\"0\" rel=\"enclosure\" type=\"application/binary\"/>\n    <eop:EarthObservation>\n\
+      \      <om:phenomenonTime>\n        <gml:TimePeriod>\n          <gml:beginPosition>2024-11-15T06:10:35.000Z</gml:beginPosition>\n\
+      \          <gml:endPosition>2024-11-15T06:11:52.000Z</gml:endPosition>\n   \
+      \     </gml:TimePeriod>\n      </om:phenomenonTime>\n      <om:resultTime>\n\
+      \        <gml:TimeInstant>\n          <gml:timePosition>2024-11-15T06:24:55.000Z</gml:timePosition>\n\
+      \        </gml:TimeInstant>\n      </om:resultTime>\n      <om:procedure>\n\
+      \        <eop:EarthObservationEquipment>\n          <eop:platform>\n       \
+      \     <eop:Platform>\n              <eop:shortName>RS02</eop:shortName>\n  \
+      \          </eop:Platform>\n          </eop:platform>\n          <eop:sensor>\n\
+      \            <eop:Sensor>\n              <eop:sensorType>RADAR</eop:sensorType>\n\
+      \            </eop:Sensor>\n          </eop:sensor>\n          <eop:acquisitionParameters>\n\
+      \            <eop:Acquisition>\n              <eop:orbitNumber>88332</eop:orbitNumber>\n\
+      \            </eop:Acquisition>\n          </eop:acquisitionParameters>\n  \
+      \      </eop:EarthObservationEquipment>\n      </om:procedure>\n      <om:observedProperty\
+      \ xlink:href=\"#params1\"/>\n      <om:featureOfInterest>\n        <eop:Footprint>\n\
+      \          <eop:multiExtentOf>\n            <gml:MultiSurface srsName=\"EPSG:4326\"\
+      >\n              <gml:surfaceMember>\n                <gml:Polygon>\n      \
+      \            <gml:exterior>\n                    <gml:LinearRing>\n        \
+      \              <gml:posList>\n\t\t\t\t\t\t\t\t\t\t\t\t\t78.53 29.2 81.92 47.54\
+      \ 84.71 13.67 80.36 5.2 78.53 29.2 \n\t\t\t\t\t\t\t\t\t\t\t</gml:posList>\n\
+      \                    </gml:LinearRing>\n                  </gml:exterior>\n\
+      \                </gml:Polygon>\n              </gml:surfaceMember>\n      \
+      \      </gml:MultiSurface>\n          </eop:multiExtentOf>\n        </eop:Footprint>\n\
+      \      </om:featureOfInterest>\n      <om:result>\n        <opt:EarthObservationResult/>\n\
+      \      </om:result>\n      <eop:metaDataProperty>\n        <eop:EarthObservationMetaData>\n\
+      \          <eop:identifier>urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_061035_0077_SCWA_HHHV_SGF_1171257_8638_95302328</eop:identifier>\n\
+      \          <eop:parentIdentifier>[SAR_SEA_ICE/RS02/Eurarctic]</eop:parentIdentifier>\n\
+      \          <eop:acquisitionType>NOMINAL</eop:acquisitionType>\n          <eop:productType>SAR_SW_SCW</eop:productType>\n\
+      \          <eop:status>ARCHIVED</eop:status>\n        </eop:EarthObservationMetaData>\n\
+      \      </eop:metaDataProperty>\n    </eop:EarthObservation>\n  </entry>\n  <entry\
+      \ xmlns:eop=\"http://www.opengis.net/eop/2.0\"\n    xmlns:gml=\"http://www.opengis.net/gml/3.2\"\
+      \n    xmlns:om=\"http://www.opengis.net/om/2.0\"\n    xmlns:opt=\"http://www.opengis.net/opt/2.0\"\
+      \n    xmlns:swe=\"http://www.opengis.net/swe/1.0\"\n    xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+      \n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"\
+      http://www.opengis.net/opt/2.0 ../xsd/opt.xsd\">\n    <id>urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_075206_0076_SCWA_HHHV_SGF_1171272_8644_95302333</id>\n\
+      \    <title type=\"text\">urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_075206_0076_SCWA_HHHV_SGF_1171272_8644_95302333</title>\n\
+      \    <published>2024-11-15T16:08:46.999Z</published>\n    <updated>2024-11-15T16:08:46.999Z</updated>\n\
+      \    <link\n      href=\"http://xxx.xxx.xxx.xxx:xx/atom/?eopIdentifier=urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_075206_0076_SCWA_HHHV_SGF_1171272_8644_95302333\"\
+      \n      length=\"0\" rel=\"alternate\" type=\"application/atom+xml\"/>\n   \
+      \ <link\n      href=\"https://cdsdata.copernicus.eu/pd-desk/prismDownload/dXJuOmVvcDpSUzAyOlNBUl9TRUFfSUNFOlJTMl8yMDI0MTExNV8wNzUyMDZfMDA3Nl9TQ1dBX0hISFZfU0dGXzExNzEyNzJfODY0NF85NTMwMjMzMw==/1/productName/UlMwMl9TQVJfU1dfU0NXXzIwMjQxMTE1VDA3NTIwNl8yMDI0MTExNVQwNzUzMjJfVFJTXzg4MzMzXzAwMDAudGFy\"\
+      \n      length=\"0\" rel=\"enclosure\" type=\"application/binary\"/>\n    <eop:EarthObservation>\n\
+      \      <om:phenomenonTime>\n        <gml:TimePeriod>\n          <gml:beginPosition>2024-11-15T07:52:06.000Z</gml:beginPosition>\n\
+      \          <gml:endPosition>2024-11-15T07:53:22.000Z</gml:endPosition>\n   \
+      \     </gml:TimePeriod>\n      </om:phenomenonTime>\n      <om:resultTime>\n\
+      \        <gml:TimeInstant>\n          <gml:timePosition>2024-11-15T08:04:26.000Z</gml:timePosition>\n\
+      \        </gml:TimeInstant>\n      </om:resultTime>\n      <om:procedure>\n\
+      \        <eop:EarthObservationEquipment>\n          <eop:platform>\n       \
+      \     <eop:Platform>\n              <eop:shortName>RS02</eop:shortName>\n  \
+      \          </eop:Platform>\n          </eop:platform>\n          <eop:sensor>\n\
+      \            <eop:Sensor>\n              <eop:sensorType>RADAR</eop:sensorType>\n\
+      \            </eop:Sensor>\n          </eop:sensor>\n          <eop:acquisitionParameters>\n\
+      \            <eop:Acquisition>\n              <eop:orbitNumber>88333</eop:orbitNumber>\n\
+      \            </eop:Acquisition>\n          </eop:acquisitionParameters>\n  \
+      \      </eop:EarthObservationEquipment>\n      </om:procedure>\n      <om:observedProperty\
+      \ xlink:href=\"#params1\"/>\n      <om:featureOfInterest>\n        <eop:Footprint>\n\
+      \          <eop:multiExtentOf>\n            <gml:MultiSurface srsName=\"EPSG:4326\"\
+      >\n              <gml:surfaceMember>\n                <gml:Polygon>\n      \
+      \            <gml:exterior>\n                    <gml:LinearRing>\n        \
+      \              <gml:posList>\n\t\t\t\t\t\t\t\t\t\t\t\t\t76.26 -2.3 80.02 10.08\
+      \ 82.16 -17.5 77.8 -22.29 76.26 -2.3 \n\t\t\t\t\t\t\t\t\t\t\t</gml:posList>\n\
+      \                    </gml:LinearRing>\n                  </gml:exterior>\n\
+      \                </gml:Polygon>\n              </gml:surfaceMember>\n      \
+      \      </gml:MultiSurface>\n          </eop:multiExtentOf>\n        </eop:Footprint>\n\
+      \      </om:featureOfInterest>\n      <om:result>\n        <opt:EarthObservationResult/>\n\
+      \      </om:result>\n      <eop:metaDataProperty>\n        <eop:EarthObservationMetaData>\n\
+      \          <eop:identifier>urn:eop:RS02:SAR_SEA_ICE:RS2_20241115_075206_0076_SCWA_HHHV_SGF_1171272_8644_95302333</eop:identifier>\n\
+      \          <eop:parentIdentifier>[SAR_SEA_ICE/RS02/Eurarctic]</eop:parentIdentifier>\n\
+      \          <eop:acquisitionType>NOMINAL</eop:acquisitionType>\n          <eop:productType>SAR_SW_SCW</eop:productType>\n\
+      \          <eop:status>ARCHIVED</eop:status>\n        </eop:EarthObservationMetaData>\n\
+      \      </eop:metaDataProperty>\n    </eop:EarthObservation>\n  </entry>\n</feed>\n"
+    content_type: text/plain
+    headers:
+      Keep-Alive: timeout=5, max=100
+      Transfer-Encoding: chunked
+    method: GET
+    status: 200
+    url: http://panda.copernicus.eu/Mc3OpenSearch/webapi/Services/getProducts/?instrument=SAR&start=2024-11-14T00%3A00%3A00.000Z

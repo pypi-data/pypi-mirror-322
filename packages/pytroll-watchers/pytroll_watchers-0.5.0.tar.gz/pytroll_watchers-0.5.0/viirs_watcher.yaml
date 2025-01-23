@@ -1,0 +1,13 @@
+backend: minio
+fs_config:
+  endpoint_url: satobjectstore-tst.smhi.se
+  bucket_name: satellite-data-norrkoping-viirs
+  storage_options:
+    profile: smhi-tst
+publisher_config:
+  name: viirs_watcher
+message_config:
+  subject: /segment/viirs/l1b/
+  atype: file
+  data:
+    sensor: viirs

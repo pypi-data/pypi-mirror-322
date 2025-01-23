@@ -1,0 +1,18 @@
+  backend: local
+  fs_config:
+    #directory: /local_disk/tellicast/received/MSGHRIT/
+    directory: /tmp
+    file_pattern: "H-000-{platform_name:4s}__-{platform_name:4s}_{variant:3s}____-{channel:_<9s}-{segment:_<9s}-{nominal_time:%Y%m%d%H%M}-{compression:1s}_"
+    protocol: ssh
+    storage_options:
+      host: tercast1-tst
+  publisher_config:
+    name: hrit_watcher
+    port: 10101
+  message_config:
+    subject: /1b/hrit-segment/0deg
+    atype: file
+    aliases:
+      variant:
+        "___": "0DEG"
+# {"sensor": "seviri", "variant": "0DEG", "series": "MSG3", "platform_name": "MSG3", "channel": "IR_016", "segment": "000004", "nominal_time": "2024-11-21T11:45:00", "compressed": "C", "uri": "/local_disk/eumetcast/received/unpacked/H-000-MSG3__-MSG3________-IR_016___-000004___-202411211145-__", "uid": "H-000-MSG3__-MSG3________-IR_016___-000004___-202411211145-__", "request_address": "172.18.0.249:9094", "destination": "ftp://lxserv2317.smhi.se/san1/geo_in/0deg/"}

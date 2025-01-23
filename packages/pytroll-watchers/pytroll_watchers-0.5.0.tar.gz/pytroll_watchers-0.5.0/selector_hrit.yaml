@@ -1,0 +1,11 @@
+selector_config:
+  ttl: 30
+publisher_config:
+  name: hrit_selector
+subscriber_config:
+  addresses:
+    - tcp://tercast1-tst:9294
+    #- tcp://satmottag2:9011
+  nameserver: false
+  topics:
+    - /1b/hrit-segment/0deg
