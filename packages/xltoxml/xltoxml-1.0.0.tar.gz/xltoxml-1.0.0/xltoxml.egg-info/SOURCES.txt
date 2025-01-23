@@ -1,0 +1,10 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+XmlXL/__init__.py
+XmlXL/converter.py
+xltoxml.egg-info/PKG-INFO
+xltoxml.egg-info/SOURCES.txt
+xltoxml.egg-info/dependency_links.txt
+xltoxml.egg-info/requires.txt
+xltoxml.egg-info/top_level.txt
