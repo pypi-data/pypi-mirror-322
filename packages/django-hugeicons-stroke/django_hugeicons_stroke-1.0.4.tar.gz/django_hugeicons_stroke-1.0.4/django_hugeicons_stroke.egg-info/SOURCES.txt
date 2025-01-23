@@ -1,0 +1,11 @@
+README.md
+setup.py
+django_hugeicons_stroke.egg-info/PKG-INFO
+django_hugeicons_stroke.egg-info/SOURCES.txt
+django_hugeicons_stroke.egg-info/dependency_links.txt
+django_hugeicons_stroke.egg-info/not-zip-safe
+django_hugeicons_stroke.egg-info/top_level.txt
+migrations/__init__.py
+templatetags/__init__.py
+templatetags/hugeicons_stroke.py
+templatetags/stroke_icons.py
