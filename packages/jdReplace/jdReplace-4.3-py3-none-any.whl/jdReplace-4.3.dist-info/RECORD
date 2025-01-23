@@ -1,0 +1,15 @@
+jdReplace/Logo.svg,sha256=bOsVxNoHk_Kqr2D6W_xH95ZC_-cxWu_NSQIQBByXlQo,9169
+jdReplace/__init__.py,sha256=bsk_kejObSlwELF654AtBCRl3M5t4IDR5P_XPC-k2ZQ,12441
+jdReplace/__main__.py,sha256=p6X_7Aaf3kS-ur8oCd7PHOhmgK_M9ZUiz753IhrAKe0,25
+jdReplace/version.txt,sha256=umOat5x0cMZ1_HjJ9wK8r-BI9E7wNGixL4HwU5PRgDs,4
+jdReplace/translations/jdReplace_de.qm,sha256=a1BYhQ_3xppsqdCefHuOpmjSkNLNLTLcm9YZk4hnn5s,2629
+jdReplace/translations/jdReplace_et.qm,sha256=yRWdw3R0dU1fHgsqU5Zwnh0ZCK7KPqAns0fUa6YUru4,2713
+jdReplace/translations/jdReplace_fr.qm,sha256=KPcwc7ZssS8KkUSe_zZ4tiYeXW7WImkrc2xe7Z4cWW8,2615
+jdReplace/translations/jdReplace_it.qm,sha256=OGK24pt9Qo7QFdTGz15ixdlVLhSAGXZawiSrT7WtRmA,2489
+jdReplace/translations/jdReplace_nl.qm,sha256=BUFMt1VGiGtRGXT9ADytPE1xF7fVe9exnjdb6LGHggQ,2551
+jdReplace-4.3.dist-info/LICENSE,sha256=QBuH0pRulkxh5CopnEcLUFK9JsnV2SzvdzI-0RUNMfU,35075
+jdReplace-4.3.dist-info/METADATA,sha256=GOMz83kyzbCAB-Eg7QA0_mSgMOKszvtlwG5aYehx0-0,4797
+jdReplace-4.3.dist-info/WHEEL,sha256=pW-t1Ciyb1Edf-5Pdlnt_fLiuM68S60CWNSbLItW93w,88
+jdReplace-4.3.dist-info/entry_points.txt,sha256=yRj-QMvHHcSxfoz5ChIyWrJX7LFlm0Qd8BCBmyBdhUo,41
+jdReplace-4.3.dist-info/top_level.txt,sha256=_Pqc7HDhwiSIYNFz0I7nWrntRM82zSFhnnXrwEKpeE8,10
+jdReplace-4.3.dist-info/RECORD,,
