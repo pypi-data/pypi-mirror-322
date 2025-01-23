@@ -1,0 +1,16 @@
+autobigsst/engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autobigsst/engine/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autobigsst/engine/data/local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autobigsst/engine/data/local/csv.py,sha256=96xIxabpZN21BRD4AUymi_wTIM1T8-JCKSSn3QlV5uM,1717
+autobigsst/engine/data/local/fasta.py,sha256=dR_3gr6hy3nEpKaUcoBzU4tvTB743qBHHFvTvBK4tgI,728
+autobigsst/engine/data/remote/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autobigsst/engine/data/remote/databases/bigsdb.py,sha256=ZOEWJTJp5HA6bNYvwPmCeNRL10RNPklr9F5Jn8Ry6WA,8603
+autobigsst/engine/data/structures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autobigsst/engine/data/structures/genomics.py,sha256=lA1z6VhyAth_C-4pfESsUt6PWu4llWxrXhb3-OH73OU,3050
+autobigsst/engine/data/structures/mlst.py,sha256=179Ps3BPD8oxabrU8HAoLauZuYF3eJena1ov_JqCcmY,505
+autobigsst/engine/exceptions/database.py,sha256=bKmRkBtP_Hb_ID769_ai4S80VCDZ7WHM7j3HHPInbIU,1064
+autobigsst.engine-0.6.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+autobigsst.engine-0.6.0.dist-info/METADATA,sha256=b0Sofh9-FjlzHYmGzKh6TMvyiFHNJbZmV4ftI0pEmLs,1941
+autobigsst.engine-0.6.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+autobigsst.engine-0.6.0.dist-info/top_level.txt,sha256=Qhac5tgqwdUdAbo8k3efXsD9nsMMVJ3EzROH5LsfORg,11
+autobigsst.engine-0.6.0.dist-info/RECORD,,
