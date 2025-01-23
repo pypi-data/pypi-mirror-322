@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: neuroscangen
+Version: 0.0.2
+Summary: Generative AI with brain CT-scans.
+Author-email: Thomas Boulier <tboulier@chu-grenoble.fr>
+License: MIT
+Project-URL: Repository, https://github.com/tomboulier/neuroscangen
+Keywords: generative ai,ai,genai,gen ai,ct-scan,brain,neuroscience
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: <4.0,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NeuroScanGen
+
+[![Main](https://github.com/tomboulier/neuroscangen/actions/workflows/main.yml/badge.svg)](https://github.com/tomboulier/neuroscangen/actions/workflows/main.yml)
+[![codecov](https://codecov.io/github/tomboulier/neuroscangen/graph/badge.svg?token=HW6X2PD23T)](https://codecov.io/github/tomboulier/neuroscangen)
+
+Generative AI with brain CT-scans.
