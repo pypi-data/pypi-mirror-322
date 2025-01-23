@@ -1,0 +1,17 @@
+odoo/addons/fieldservice_sale_agreement/README.rst,sha256=3W5TkWsGcqbCKvvjmfy81x2I_8WQ-HavJdgXCpAYFxY,3324
+odoo/addons/fieldservice_sale_agreement/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/fieldservice_sale_agreement/__manifest__.py,sha256=kETwJRmuu-vwP62IeVyP25iKc6fN8QacUS6tbuk9klI,623
+odoo/addons/fieldservice_sale_agreement/i18n/fieldservice_sale_agreement.pot,sha256=vrWX5Isxa82UEJTAYJuDH6oXakZHh5dWWVgIcf6UN9o,512
+odoo/addons/fieldservice_sale_agreement/i18n/it.po,sha256=df8iGovmCpEjplE1Ykzn-8ZV9rtg9NfLi9NrzQSWh04,687
+odoo/addons/fieldservice_sale_agreement/models/__init__.py,sha256=LsPoCIAYodIFzh85VEjY5GiuzDQDQpiF38txDw10qT0,25
+odoo/addons/fieldservice_sale_agreement/models/sale_order.py,sha256=qCoLTjYeWawxuRZhZHRFwpqQQPHKNwEy56DwbCvBbW0,454
+odoo/addons/fieldservice_sale_agreement/readme/CONTRIBUTORS.md,sha256=H0fOZ55mmWA1pVmkFWTEz69wiMAJQOT-8cbJUqAbA2o,99
+odoo/addons/fieldservice_sale_agreement/readme/DESCRIPTION.md,sha256=lFc_rgumckKaNXAZrUPGNKuZjXDrYekzV-LkQ3mo-ow,138
+odoo/addons/fieldservice_sale_agreement/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/fieldservice_sale_agreement/static/description/index.html,sha256=PVWXTmtAsBcmA4GUfH3mtc86pzPPmiudeczJiK5d43c,12784
+odoo/addons/fieldservice_sale_agreement/tests/__init__.py,sha256=fr2C3w-I2AqAGmMCxHQrARVuhJd1-cXkYuCdNMEaNwY,38
+odoo/addons/fieldservice_sale_agreement/tests/test_fsm_sale_agreement.py,sha256=HES6GZZ-AK0vphVHu2DgktKVkSUFDX9BxT07V6GUc9I,1978
+odoo_addon_fieldservice_sale_agreement-17.0.1.0.0.4.dist-info/METADATA,sha256=79iXdhiZFJr0eqsqbF77zqcYoFLa5JoplO4sCqCPTPI,4061
+odoo_addon_fieldservice_sale_agreement-17.0.1.0.0.4.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_fieldservice_sale_agreement-17.0.1.0.0.4.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_fieldservice_sale_agreement-17.0.1.0.0.4.dist-info/RECORD,,
