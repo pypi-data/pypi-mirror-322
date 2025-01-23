@@ -1,0 +1,40 @@
+Metadata-Version: 2.2
+Name: dtarot
+Version: 2.3
+Summary: Discordian Tarot reading generator
+Home-page: https://github.com/lorimbrius/dtarot
+Author: Lord Imbrius the Despondent
+Author-email: darthferrett@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: summary
+
+# dtarot
+Discordian Tarot program
+
+## Usage
+dtarot [-m]
+
+Prints your (or someone else's) super-helpful Discordian Tarot reading.
+Adding the -m argument also provides putative meanings for the cards, for those
+ unfamiliar with this deck. Of course, you're free to add whatever meaning
+ you'd like; all things are true|false|meaningless anyway.
+
+## Credits
+Original Discordian Tarot Deck by Max Flax Beeblewax and (boing!) Cnoocy Mosque O'Witz (marc@suberic.net).
+(NOTE: I have no idea if that e-mail address still works.)
+
+Python program by Lord Imbrius the Despondent (darthferrett@gmail.com).
+(NOTE: I also have no idea if that e-mail address still works - e-mail me and find out!)
+
+## Note
+For further enlightenment, consult your pineal gland.
