@@ -1,0 +1,9 @@
+setup.py
+jin/__init__.py
+jin/hello.py
+jin/a/__init__.py
+jin/a/saya.py
+jmz_test_202502231822.egg-info/PKG-INFO
+jmz_test_202502231822.egg-info/SOURCES.txt
+jmz_test_202502231822.egg-info/dependency_links.txt
+jmz_test_202502231822.egg-info/top_level.txt
