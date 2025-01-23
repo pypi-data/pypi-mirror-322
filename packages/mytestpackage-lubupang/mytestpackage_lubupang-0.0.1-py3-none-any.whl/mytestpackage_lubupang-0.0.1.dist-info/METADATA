@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: mytestpackage_lubupang
+Version: 0.0.1
+Summary: A small example package
+Author-email: lubupang <lubupang@bupang.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
