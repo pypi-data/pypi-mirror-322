@@ -1,0 +1,14 @@
+jax
+jaxlib
+
+[benchmarking]
+tmm-fast
+
+[dev]
+matplotlib
+pytest
+wheel
+build
+twine
+sphinx
+black
