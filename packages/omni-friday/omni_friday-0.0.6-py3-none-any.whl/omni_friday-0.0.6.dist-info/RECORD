@@ -1,0 +1,12 @@
+friday.py,sha256=C9k0qlvGg9IUuGDMFrZ2EAkgHzd8COhRlaEt1B4aLpo,383
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/common/aws.py,sha256=mwUaKHEjsxGbJwvHjyMztk-OGt5wzvAHeJDBvP8FDAM,999
+app/common/composer.py,sha256=qibowL2QlRRPTGBxXgAdItKwvCk2pHwqmCETbX-_nX8,1132
+app/common/config.py,sha256=c3JtWR3WX5xsNDfnU9iHLwOrXV42G_SqWbEGmBL_YTY,379
+omni_friday-0.0.6.dist-info/LICENSE,sha256=zI5EBHOn74vYDuaRL53h7bgy_BIq0r4Pzh4bX6yvks4,1064
+omni_friday-0.0.6.dist-info/METADATA,sha256=4PoLM88BCmuR-cjr8c_Os_ASlvj7yHAX2Z7scFhkDd8,4275
+omni_friday-0.0.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+omni_friday-0.0.6.dist-info/entry_points.txt,sha256=TtD2pxXoLOcTanDBiUFOe5fi3bSToksIhRzazhX4GWI,38
+omni_friday-0.0.6.dist-info/top_level.txt,sha256=6C-UA5hdK_e6lKd4Q1j1XkuUOoQ5BEr4g2oaLWIClBE,11
+omni_friday-0.0.6.dist-info/RECORD,,
