@@ -1,0 +1,3 @@
+[console_scripts]
+basic=examples.basic:main
+
