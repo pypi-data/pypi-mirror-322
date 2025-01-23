@@ -1,0 +1,11 @@
+cloneArmy/__init__.py,sha256=jqnomrOQ0kBquejpMybMzkLkcwnvfITkeMrtSc0fFvw,759
+cloneArmy/cli.py,sha256=XrWAvv2r86HKBQvbscci95SKaEhv68qI5uk6-4o-Ero,10798
+cloneArmy/comparison.py,sha256=pcP3ajSTlnON7ShiSvs7dRW17Wwr49FH2Rc6Hh1-Tgg,9236
+cloneArmy/processor.py,sha256=ST5WQSCD_LE_PG_kMbnHUMnwmoqcSB7dyYhsIfvwH4c,16243
+cloneArmy/report.py,sha256=RXK0okW3tt8zb0GGsnW8diczYxnAouC7FjFmkUl4ieM,15724
+cloneArmy/utils.py,sha256=N1HHXVWjt8kOk5QdpBMsZFkMoXvd4Xkrpo3qR7EDTm4,8005
+clonearmy-0.2.3.dist-info/METADATA,sha256=L3uzmr40p6LkFaod464aFcP7X538ma1nXJzqNNLeftE,6939
+clonearmy-0.2.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+clonearmy-0.2.3.dist-info/entry_points.txt,sha256=tSJunYsTZSNWmB97j7z4kkPGeg1XwaByoHuGK3Mq03E,48
+clonearmy-0.2.3.dist-info/top_level.txt,sha256=5vLBxTNVOqORuy7wxZ17vmOWxhiEKgagcDx7w6bMzPw,10
+clonearmy-0.2.3.dist-info/RECORD,,
