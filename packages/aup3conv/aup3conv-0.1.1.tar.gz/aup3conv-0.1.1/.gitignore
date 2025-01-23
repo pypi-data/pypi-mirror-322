@@ -1,0 +1,8 @@
+*.raw
+*.so
+.ipynb_checkpoints
+.python-version
+.vimrc
+/data
+/target
+__pycache__
