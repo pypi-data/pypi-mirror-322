@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/lzkit/__init__.py
+src/lzkit/cli.py
+src/lzkit.egg-info/PKG-INFO
+src/lzkit.egg-info/SOURCES.txt
+src/lzkit.egg-info/dependency_links.txt
+src/lzkit.egg-info/entry_points.txt
+src/lzkit.egg-info/requires.txt
+src/lzkit.egg-info/top_level.txt
+tests/test_cli.py
