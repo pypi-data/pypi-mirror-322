@@ -1,0 +1,66 @@
+Metadata-Version: 2.3
+Name: langchain-payman-tool
+Version: 0.1.1
+Summary: An integration package connecting PaymanAI and LangChain
+License: MIT
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: langchain-core (>=0.3.15,<0.4.0)
+Requires-Dist: paymanai (>=2.2.0,<3.0.0)
+Project-URL: Repository, https://github.com/langchain-ai/langchain
+Project-URL: Release Notes, https://github.com/langchain-ai/langchain/releases?q=tag%3A%22payman-tool%3D%3D0%22&expanded=true
+Project-URL: Source Code, https://github.com/langchain-ai/langchain/tree/master/libs/partners/payman-tool
+Description-Content-Type: text/markdown
+
+# langchain-payman-tool
+
+This package contains the LangChain integration with PaymanAI
+
+## Installation
+
+```bash
+pip install -U langchain-payman-tool
+```
+
+And you should configure credentials by setting the following environment variables:
+
+* TODO: fill this out
+
+## Chat Models
+
+`ChatPaymanAI` class exposes chat models from PaymanAI.
+
+```python
+from langchain_payman_tool import ChatPaymanAI
+
+llm = ChatPaymanAI()
+llm.invoke("Sing a ballad of LangChain.")
+```
+
+## Embeddings
+
+`PaymanAIEmbeddings` class exposes embeddings from PaymanAI.
+
+```python
+from langchain_payman_tool import PaymanAIEmbeddings
+
+embeddings = PaymanAIEmbeddings()
+embeddings.embed_query("What is the meaning of life?")
+```
+
+## LLMs
+`PaymanAILLM` class exposes LLMs from PaymanAI.
+
+```python
+from langchain_payman_tool import PaymanAILLM
+
+llm = PaymanAILLM()
+llm.invoke("The meaning of life is")
+```
+
