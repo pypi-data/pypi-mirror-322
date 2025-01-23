@@ -1,0 +1,13 @@
+memento/__init__.py,sha256=Om0SasKe-EZPAWia-ZR9nVob371fCJZYelwmAMC7G-w,375
+memento/bootstrap.py,sha256=AKiJ0YhpbRF5a3Vbg7arZvmZED91Uclt4FkZUKdWXnM,4484
+memento/estimator.py,sha256=JJSiBAHoJM319_gYphP6AsMoj4wNj2qkaxpYkqkhI4s,13408
+memento/hypothesis_test.py,sha256=Tj6czZNcPkuQt2wQcxvoMEpuwXkpiV2FESnhvml9nds,20091
+memento/main.py,sha256=KFOlvsfLceKLZH_iZnCfFV2uTJ9Anj4wJbcTQJUoyYw,33493
+memento/simulate.py,sha256=zL8Oj8czEbe0gFnDMWgqm1wuSc0g4Ic_g8i8dpw1Sr8,3729
+memento/util.py,sha256=BeNwIMhvV49mu-rGm1PJ4SJi-ohiKsMShNftz81e2z0,2195
+memento/wrappers.py,sha256=I7orv9ThXUNnf8ria-r-oFLi9TV27MqOV91YROtr0n8,3869
+memento_de-0.1.1.dist-info/LICENSE,sha256=4a-1OdY5ciHUvglzG3RncVeXnucgw69wj5mbsdgqix8,1070
+memento_de-0.1.1.dist-info/METADATA,sha256=o_vZvWA8IqGPUSugo8L8zw35nh8JspbsWsz9SWHf9wc,263
+memento_de-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+memento_de-0.1.1.dist-info/top_level.txt,sha256=kOQvQu-nppWlZmTNHpi_kACgoIzqAChsn6ltuK2CoxY,8
+memento_de-0.1.1.dist-info/RECORD,,

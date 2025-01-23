@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: memento-de
+Version: 0.1.1
+Summary: Hypothesis testing for scRNA-seq
+Home-page: https://github.com/yelabucsf/scrna-parameter-estimation.git
+Author: Min Cheol Kim
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: summary
