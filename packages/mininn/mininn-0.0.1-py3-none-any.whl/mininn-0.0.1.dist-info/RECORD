@@ -1,0 +1,7 @@
+mininn/__init__.py,sha256=ixYMiLiFwh4f6T97JsDrm9m5vSE_0FAvigVDNxxnDbU,32
+mininn/mininn_capi.so,sha256=c5eZaV-FPfDGCnZn6UXJ0yGvz1LqcobFGz8hQYMsHHM,688160
+mininn/predictor.py,sha256=2UeMXJnQy5cz-rrZPxgwpWqCSnYlnstw3ULsOf6kisA,648
+mininn-0.0.1.dist-info/METADATA,sha256=x42NCFkNLobJn4VSX5nj9G9UJJ3yawOIxN7FaZVR7rc,198
+mininn-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mininn-0.0.1.dist-info/top_level.txt,sha256=2PSp-lT5dmwKJe5Vy1ni2eOkjH3MQ8qjtlsXuOQE4l4,7
+mininn-0.0.1.dist-info/RECORD,,

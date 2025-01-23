@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mininn
+Version: 0.0.1
+Summary: python interface of MiniNN
+Author: masteryi-0018
+Author-email: <1536474741@qq.com>
+
+Build a deep learning inference framework from scratch
