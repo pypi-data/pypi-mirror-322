@@ -1,0 +1,2 @@
+[console_scripts]
+confluence-rag-indexer = confluence_rag_indexer.indexer:main
