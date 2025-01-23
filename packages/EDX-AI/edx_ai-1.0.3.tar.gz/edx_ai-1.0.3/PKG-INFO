@@ -1,0 +1,94 @@
+Metadata-Version: 2.2
+Name: EDX-AI
+Version: 1.0.3
+Summary: A package for STEM-EDX data processing and analysis
+Home-page: https://github.com/yourusername/STEM-EDX
+Author: Anthony Pecquenard
+Author-email: Anthony Pecquenard <anthony.pecquenard@ens-lyon.fr>
+License: MIT License
+        
+        Copyright (c) 2025 Anthony Pecquenard
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Documentation, https://anthony-pecquenard.gitlab.io/edx-ai/
+Project-URL: Source Code, https://gitlab.com/Anthony-Pecquenard/edx-ai
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: PySide6
+
+# STEM-EDX ML  
+
+**Full documentation available here :** https://edx-ai-84a865.gitlab.io/
+
+## Description  
+STEM-EDX ML is a graphical application designed for managing and analyzing STEM-EDX (Scanning Transmission Electron Microscopy - Energy Dispersive X-ray Spectroscopy) data using machine learning algorithms.  
+
+The graphical user interface, built with PySide6, allows users to:  
+- Load STEM-EDX data files (.pts)  
+- Visualize images and spectra  
+- Apply decomposition algorithms such as PCA (Principal Component Analysis) and NMF (Non-negative Matrix Factorization)  
+- Interact with results through dynamic graphs  
+
+## Features  
+- Load and manage STEM-EDX data files  
+- Select and display analyzed objects  
+- Apply and visualize PCA and NMF results  
+- Interactive and responsive user interface  
+
+## Scientific Context  
+This project is based on STEM-EDX measurement results. The full study framework and experimental details can be found in the "Report" (in French) located in the `Presentations` folder.  
+
+## Installation  
+### Prerequisites  
+- Python 3.x  
+- [Hyperspy](https://hyperspy.org/) for spectral analysis
+- Exspy (exspy) for TEM-EELS data type managment
+- PySide6 for the graphical interface  
+
+### Installation of Hyperspy and Exspy
+Run the following commands:
+```bash
+conda install hyperspy -c conda-forge
+conda install exspy
+```
+
+## Usage  
+Run the application with the following command:  
+```bash
+python mainwindow.py
+```
+
+## Project structure
+STEM-EDX-ML/  
+│── mainwindow.py   # Main graphical interface  
+│── STEM_EDX.py     # STEM-EDX data management and ML algorithms  
+│── utils.py        # Utility functions and widget management  
+│── README.md       # Project documentation  
+│── requirements.txt # Dependency list  
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Author
+
+Anthony Pecquenard, 2025.
