@@ -1,0 +1,7 @@
+.env
+.python-version
+uv.lock
+**/__pycache__/**
+slack_config.json
+*.jsonl
+logs/*
