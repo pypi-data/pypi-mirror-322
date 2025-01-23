@@ -1,0 +1,10 @@
+pollux_application/__init__.py,sha256=OxZOXAgc85ZvtZipY_xdzN1tQUrBorWVVFzf4WdoDr8,24
+pollux_application/application_abstract.py,sha256=s3c8QWvcrdxp2-g8rlxeAcerYTjaOUR2e_K5rCiqt9I,877
+pollux_application/power2heat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pollux_application/power2heat/p2heat_solver.py,sha256=jbWd4nuMRHjABu6QokaWnTKajlyYyI7cjZqqK2ECiBw,18475
+pollux_application/power2hydrogen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pollux_application/power2hydrogen/p2h2_solver.py,sha256=N0P0r5OlJYfWudia9Uh_iEvsRcUH5woJkwEFYq50AlU,23709
+pollux_application-0.2.2.dist-info/LICENSE,sha256=Y_zDMUosI56de95GVglpC19GilDg_0qu5kgmy4XiwKE,33092
+pollux_application-0.2.2.dist-info/METADATA,sha256=EDGgVJlVavCyAg-lrQgySL7HLs1oww_tzyV3hZUhSB0,2479
+pollux_application-0.2.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pollux_application-0.2.2.dist-info/RECORD,,
