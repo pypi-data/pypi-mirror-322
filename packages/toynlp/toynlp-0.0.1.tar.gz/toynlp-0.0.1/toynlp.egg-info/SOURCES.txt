@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_hello.py
+toynlp/__init__.py
+toynlp/hello.py
+toynlp/py.typed
+toynlp.egg-info/PKG-INFO
+toynlp.egg-info/SOURCES.txt
+toynlp.egg-info/dependency_links.txt
+toynlp.egg-info/requires.txt
+toynlp.egg-info/top_level.txt
+toynlp.egg-info/zip-safe
