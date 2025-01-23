@@ -1,0 +1,30 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% load netbox_themes_template_filters %}
+
+{% block head %}
+   {{ block.super }}
+   <style>
+     {{ '' | return_custom_css  }}
+   </style>
+{% endblock %}
+{% block javascript %}
+   {{ block.super }}
+   <script>
+     const themeName = "{{ '' | theme_name }}";
+     const baseThemeName = "{{ '' | return_base_theme }}";
+     const colorModeToggles = document.querySelectorAll('.color-mode-toggle');
+
+     if (themeName == 'default') { 
+       console.log(`Active theme: default (${themeName}), base theme ${baseThemeName}`);
+     } else if (baseThemeName == 'toggle') {
+       console.log(`Active theme: custom (${themeName}), base theme ${baseThemeName}`);
+     } else {
+       colorModeToggles.forEach(toggle => {
+         toggle.style.display = 'none';
+       });
+       localStorage.setItem("netbox-color-mode", baseThemeName);
+       console.log(`Active theme: custom (${themeName}), base theme ${baseThemeName}`);
+     };
+   </script>
+{% endblock %}
