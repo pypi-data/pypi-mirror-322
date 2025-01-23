@@ -1,0 +1,2 @@
+[console_scripts]
+bkeys = moldy:command_entry_point
