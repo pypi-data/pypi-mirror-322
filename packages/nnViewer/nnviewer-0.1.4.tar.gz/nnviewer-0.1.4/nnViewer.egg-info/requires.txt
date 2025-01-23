@@ -1,0 +1,8 @@
+torch
+pygraphviz==1.14
+PyQt5==5.15.11
+graphviz
+scipy
+
+[visualization]
+pygraphviz==1.14
