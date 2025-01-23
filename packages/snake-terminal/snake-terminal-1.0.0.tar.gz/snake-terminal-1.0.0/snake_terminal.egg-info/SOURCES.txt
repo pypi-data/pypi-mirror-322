@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+snake_terminal.egg-info/PKG-INFO
+snake_terminal.egg-info/SOURCES.txt
+snake_terminal.egg-info/dependency_links.txt
+snake_terminal.egg-info/entry_points.txt
+snake_terminal.egg-info/requires.txt
+snake_terminal.egg-info/top_level.txt
+snaketerm/__init__.py
+snaketerm/game.py
+snaketerm/main.py
+snaketerm/snake.py
