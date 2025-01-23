@@ -1,0 +1,13 @@
+ohpygossh-0.0.10.dist-info/METADATA,sha256=N9Itl8j0ufUyv3R_hqmQrO-1Aqm6LmEkiqoeQV4vvcE,2319
+ohpygossh-0.0.10.dist-info/RECORD,,
+ohpygossh-0.0.10.dist-info/top_level.txt,sha256=gfqK33tjMKFGXx4AhMISbnCLLvtfGJwMADTTlZkBsDE,10
+ohpygossh-0.0.10.dist-info/WHEEL,sha256=1xuwdrbeIuHvQX3uMggPJqjJpR5WLor7jKc2zZeYNs0,224
+ohpygossh/gohpygossh_go.h,sha256=YKDnoRkItD-kAWlJT835WW96h87DQPrZ6ynTz46Nz1U,12666
+ohpygossh/_gohpygossh.cpython-311-x86_64-linux-gnu.so,sha256=du79FApTGz57fJPEMWi0BXEuzU3uZJ5xFU--KTEN0Hc,5995880
+ohpygossh/go.py,sha256=EACbdzmqXakS7BT_LWLsRGwxdJOTZAxrZcN3jPaezc8,49634
+ohpygossh/__init__.py,sha256=iQytCVlRvyR-k3-A3hF4y56wYf9f7bHeQa0rIruw9w0,25
+ohpygossh/gohpygossh.go,sha256=bpludG-gZ71k1ds5v2rfNGGd_okQA7RsoeHY8Pk_fXw,37214
+ohpygossh/gohpygossh.py,sha256=p3-t9zDqzFx4AYbL6V1UfmE6l9vsQHr1_uyZY5INuWs,8618
+ohpygossh/build.py,sha256=AM79rufBKJjSIyKs7e2dR3BrHbVRmkwdiWdJm28K6Ds,15075
+ohpygossh/gohpygossh.c,sha256=Qh7R4mFJkpYKCFbSU9pAp3icIFevufT-BDAxBYjroOo,106638
+ohpygossh/_gohpygossh.cpython-311-x86_64-linux-gnu.h,sha256=YKDnoRkItD-kAWlJT835WW96h87DQPrZ6ynTz46Nz1U,12666
