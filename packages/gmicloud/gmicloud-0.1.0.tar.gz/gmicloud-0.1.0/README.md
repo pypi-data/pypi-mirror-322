@@ -1,0 +1,191 @@
+# GMICloud
+
+## Overview
+
+This project is an open-source SDK for interacting with the GMICLOUD platform. It provides functionalities to manage
+artifacts, tasks, and usage data efficiently.
+
+## Features
+
+- Create and manage artifacts
+- Create and manage tasks
+- Fetch usage data
+- Integration with OpenAI for chat completions
+
+## Installation
+
+To install the SDK, use pip:
+
+```bash
+pip install gmicloud-sdk
+```
+
+## Usage
+
+### Initialize the Client
+
+```python
+from gmicloud import Client
+
+client = Client(username="your_username", password="your_password")
+```
+
+### Create an Artifact with a File
+
+```python
+artifact_id = client.artifact_manager.create_artifact_with_file(
+    artifact_name="Llama3.1 8B",
+    artifact_file_path="./files/Llama-3.1-8B-Instruct.zip",
+    description="This is a test artifact",
+    tags=['example', 'test']
+)
+```
+
+### Create an Artifact from a Template
+
+```python
+artifact_id = client.artifact_manager.create_artifact_from_template(
+    artifact_template_id="template_id"
+)
+```
+
+### Create and Start a Task
+
+```python
+task_id = client.task_manager.create_task(Task(
+    config=TaskConfig(
+        ray_task_config=RayTaskConfig(
+            ray_version="2.40.0-py310-gpu",
+            file_path="serve",
+            artifact_id=artifact_id,
+            deployment_name="app",
+            replica_resource=ReplicaResource(
+                cpu=2,
+                ram_gb=128,
+                gpu=2,
+            ),
+        ),
+        task_scheduling=TaskScheduling(
+            scheduling_oneoff=OneOffScheduling(
+                trigger_timestamp=int(datetime.now().timestamp()) + 60,
+                min_replicas=1,
+                max_replicas=10,
+            )
+        ),
+    ),
+))
+
+client.task_manager.start_task(task_id)
+```
+
+### Call Chat Completion
+
+```python
+from openai import OpenAI
+
+task = client.task_manager.get_task(task_id)
+open_ai = OpenAI(
+    api_key="YOUR_API_KEY",
+    base_url=task.info.endpoint
+)
+
+completion = open_ai.chat.completions.create(
+    model="meta-llama/Llama-3.1-8B-Instruct",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "Translate the sentences to Chinese"},
+    ],
+    max_tokens=200,
+    temperature=0.7
+)
+
+print(completion.choices[0].message.content)
+```
+
+## Configuration
+
+### One-off Task Configuration
+
+`examples/config/one-off_task.json`:
+
+```json
+{
+  "config": {
+    "ray_task_config": {
+      "ray_version": "2.40.0",
+      "file_path": "serve",
+      "deployment_name": "string",
+      "replica_resource": {
+        "cpu": 2,
+        "ram_gb": 12,
+        "gpu": 1
+      }
+    },
+    "task_scheduling": {
+      "scheduling_oneoff": {
+        "min_replicas": 1,
+        "max_replicas": 1
+      }
+    }
+  }
+}
+```
+
+### Daily Task Configuration
+
+`examples/config/daily_task.json`:
+
+```json
+{
+  "config": {
+    "ray_task_config": {
+      "ray_version": "2.40.0-py310-gpu",
+      "file_path": "serve",
+      "deployment_name": "string",
+      "replica_resource": {
+        "cpu": 6,
+        "ram_gb": 64,
+        "gpu": 2
+      }
+    },
+    "task_scheduling": {
+      "scheduling_daily": {
+        "triggers": [
+          {
+            "timezone": "UTC",
+            "Hour": 0,
+            "minute": 10,
+            "second": 0,
+            "min_replicas": 1,
+            "max_replicas": 2
+          },
+          {
+            "timezone": "UTC",
+            "Hour": 0,
+            "minute": 10,
+            "second": 30,
+            "min_replicas": 1,
+            "max_replicas": 4
+          }
+        ]
+      }
+    }
+  }
+}
+```
+
+## Running Tests
+
+To run the unit tests, use the following command:
+
+```bash
+pytest
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
