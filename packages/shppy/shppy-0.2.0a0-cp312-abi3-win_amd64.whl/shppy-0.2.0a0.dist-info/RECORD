@@ -1,0 +1,16 @@
+shppy/__init__.py,sha256=0wsAF5D3jnqwBO0Cmjic0h3jj6WCgi9NkmC6g1s40l4,42
+shppy/_C.py,sha256=OiiRmd-m-Sfy6cDqkVB3hQJEzaGWgOUXUWOM-GGNTvs,622
+shppy/_core/hello.cpp,sha256=4Y0x1dYtrsS2xzzEmDC9JnhN_4or-BSt1580k84cuUw,266
+shppy/_core/main.cpp,sha256=hkDhSqCt_daYjZ5kDKDiKeuxYEwGA0JKdcGP69pGRRk,97
+shppy/_types.py,sha256=XRkON4ebq1wrbt6BwD1Z0eEn40glvsUbWGgcgDdJ1bw,105
+shppy/atom/__init__.py,sha256=masEMR1ajfoHoeOKWVHa-EWPDv7xornTGqiOWj0GmIo,290
+shppy/atom/__init__.pyi,sha256=wGvgklHqayYN_YnawSS9CpIVldtcyx86F58-s_C3FT0,1162
+shppy/atom/basic.py,sha256=FJNMEzxqI3tctzuhzc7awdKoIxGWNGLVM7_UfbRUsQc,42
+shppy/io/__init__.py,sha256=u7djKRczvocG4zhZhoGQvXWDszTknEFrAzRYFNZFY_0,60
+shppy/io/lammpstraj.py,sha256=ulnvN6RSApU4Ng9VCXQeo49Ft3jPzDJmgelwhEe8It8,8181
+shppy/io/lammpstraj.pyi,sha256=1AoeCtpXcOt8n0VWIg267O7h4qyLkdbS9v2N1lYFy_g,488
+shppy/libshppy.dll,sha256=pkSO-Oua6NjdW_88qKQsrow3vFBWX51bAGQv4Z0VHyM,10240
+shppy/utils.py,sha256=_MUE5a06QZYIYG7HPS8ZgDkvq6QtFEAHP2RxI2FcFac,135
+shppy-0.2.0a0.dist-info/METADATA,sha256=56o-M3UJJLrJ0CvvNaTzlL7g6XLOv5Al6SS-ag3Yxj0,762
+shppy-0.2.0a0.dist-info/WHEEL,sha256=vEC2vgcau_KDUVRc0oMmm7glP6seg7dDCI6B0KGHsOk,105
+shppy-0.2.0a0.dist-info/RECORD,,
