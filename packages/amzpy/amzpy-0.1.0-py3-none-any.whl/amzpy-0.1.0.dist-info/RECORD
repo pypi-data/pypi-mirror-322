@@ -1,0 +1,11 @@
+amzpy/__init__.py,sha256=D_HAyk3vKeexDTiuLozKEHMPqpWDX_hecvXdGsRL9LE,535
+amzpy/engine.py,sha256=5ZyzdaQnxEZorYZMxav-qJTPdnRHXFyimwDJvicjtbI,1171
+amzpy/parser.py,sha256=yLiJsFxPElTM7muvw7EicB6bjfv5d_uf23IX-LimWbA,2348
+amzpy/scraper.py,sha256=FmuIKkllHau384nVp1AqnYVk6k8FOaz8nFbGHILo0d4,1692
+amzpy/utils.py,sha256=iyrAnhDB_1Lnn49CVYEowFZ1QZhonl8U23ZltR_WyZ4,1132
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_scraper.py,sha256=XVbRrjM-b8ihuPjx5XezEU5o5twJ7xSBwp1ez28OcKs,582
+amzpy-0.1.0.dist-info/METADATA,sha256=B_jsC5mTALBpXwIMox5dNhEupQhcIogIhNOfy3UvOLI,2632
+amzpy-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+amzpy-0.1.0.dist-info/top_level.txt,sha256=Srr5VxRSsZN9fziW9RLJtXt4o0dXk-b64YMijWr4y4Y,12
+amzpy-0.1.0.dist-info/RECORD,,
