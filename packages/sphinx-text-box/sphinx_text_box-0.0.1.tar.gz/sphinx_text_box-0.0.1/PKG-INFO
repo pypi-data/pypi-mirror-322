@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: sphinx-text-box
+Version: 0.0.1
+Summary: A sphinx text box in the style of a note without title requirements.
+Author-email: Stan Ulbrych <stanulbrych@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+# sphinx-text-box
