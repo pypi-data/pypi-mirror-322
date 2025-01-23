@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "suid-interpreter"
+version = "0.1.0"
+description = "Translates objects identified in an image into useful information."
+authors = ["Henrycke Bozza Schenberk <oschenberk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-contrib-python = ">=4.9.0,<4.10.0"
+suid-core = "^1.2.2"
+numpy = ">=1.26.0,<1.27.0"
+matplotlib = "^3.9.4"
+pygame = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
