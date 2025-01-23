@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+XLXml/__init__.py
+XLXml/converter.py
+xlxml.egg-info/PKG-INFO
+xlxml.egg-info/SOURCES.txt
+xlxml.egg-info/dependency_links.txt
+xlxml.egg-info/requires.txt
+xlxml.egg-info/top_level.txt
