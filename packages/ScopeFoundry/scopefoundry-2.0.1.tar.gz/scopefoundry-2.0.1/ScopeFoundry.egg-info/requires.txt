@@ -1,0 +1,9 @@
+numpy
+h5py
+qtpy
+uuid7
+
+[all]
+qtconsole
+pyqtdarktheme
+qtpy6
