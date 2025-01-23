@@ -1,0 +1,6 @@
+rasterio
+Pillow
+imagecodecs
+geopandas
+matplotlib
+pykml
