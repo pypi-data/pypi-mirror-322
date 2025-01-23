@@ -1,0 +1,7 @@
+TELUS_NFV_Taranis/__init__.py,sha256=bxzEnPJ-uuQ_HWdpr7T-VNCQQjjrkg0NcBQnyt5xMus,682
+TELUS_NFV_Taranis/dispatcher.py,sha256=uL4DZXAubHHSJeqtjooQBaMtkNqMjfRcO6VNvrJ0V8g,1827
+TELUS_NFV_Taranis/message_schemas.py,sha256=G9ylgTAlZ87e9eu7dTd4pN5Ex3YHcP3YHMyF6xNGddI,1656
+telus_nfv_taranis-0.0.9.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+telus_nfv_taranis-0.0.9.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+telus_nfv_taranis-0.0.9.dist-info/METADATA,sha256=gXYJrMwN9too1FJHSeEQwFXJ5YR_58WWmw8S2OewJxc,929
+telus_nfv_taranis-0.0.9.dist-info/RECORD,,
