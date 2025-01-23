@@ -1,0 +1,17 @@
+dmsp_to_aacgm/__init__.py,sha256=OjKoX5KfZlZSFEuGNe1MsWs_1F5c6eqOVlvir08senM,73
+dmsp_to_aacgm/cli.py,sha256=s_zG_MmafOtDynom3whV7IPsS_7fmIN_PaeDdXmPsQo,1162
+dmsp_to_aacgm/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dmsp_to_aacgm/lib/utils.py,sha256=wP2KSwFlVCPtAgsxuvjlFJXib6F7m3lrqFvIb8S6DdI,1137
+dmsp_to_aacgm/lib/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dmsp_to_aacgm/lib/datasets/factory.py,sha256=ACVkbsVJanOlc4NnNT3bIIs4K5nbAm1ZTCxjODXr2E8,460
+dmsp_to_aacgm/lib/datasets/model.py,sha256=jLVgBLumr1ydNDTDoB205F90b_A8NqtdPki4_2qa_8A,279
+dmsp_to_aacgm/lib/datasets/hdf5/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dmsp_to_aacgm/lib/datasets/hdf5/factory.py,sha256=L1qSinWmc0X3g7qdDaz6zq8K-Jyoz5_ksrsc8GiWjQg,820
+dmsp_to_aacgm/lib/datasets/hdf5/flux.py,sha256=GM4WFQ-MKXLRdnE097PaNHmJJCW-7HOyqSSQAnCXyUk,2072
+dmsp_to_aacgm/lib/datasets/hdf5/mag.py,sha256=6Z4rmayKeOpsed6scNrODn4p4NHy0xdnYzUFTfU9Luc,1797
+dmsp_to_aacgm-0.2.0.dist-info/LICENSE,sha256=lafTDQRH7oPgMBPbHJYsze5jNjedtvb82UQ7WnWJQlQ,1070
+dmsp_to_aacgm-0.2.0.dist-info/METADATA,sha256=aUkNUoaPlsenAUzZG9lXxNllEGIxR-MlbjuXbhQr1ac,1058
+dmsp_to_aacgm-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dmsp_to_aacgm-0.2.0.dist-info/entry_points.txt,sha256=j9UUzhj3mKheaNXzrNxnrJt9Tk6jBXq1duyI5H4Ud4o,56
+dmsp_to_aacgm-0.2.0.dist-info/top_level.txt,sha256=fTbMHw_Y0wExUN0mdBnkwuaxfAFZqYwxJPiJgqBzUXM,14
+dmsp_to_aacgm-0.2.0.dist-info/RECORD,,
