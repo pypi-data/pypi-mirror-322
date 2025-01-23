@@ -1,0 +1,7 @@
+LICENCE
+README.md
+setup.py
+aircraft_infer.egg-info/PKG-INFO
+aircraft_infer.egg-info/SOURCES.txt
+aircraft_infer.egg-info/dependency_links.txt
+aircraft_infer.egg-info/top_level.txt
