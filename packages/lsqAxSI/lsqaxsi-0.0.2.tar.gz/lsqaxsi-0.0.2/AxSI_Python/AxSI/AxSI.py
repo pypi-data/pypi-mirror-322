@@ -1,0 +1,62 @@
+# The main file for running AxCaliber analysis
+# Use DTI1000, shellDTI and AxSI
+import logging
+import os
+import time
+from multiprocessing import Pool
+from pathlib import Path
+
+from AxSI import config
+from AxSI.ax_dti import dti
+from AxSI.calc_axsi import calc_axsi
+from AxSI.mri_scan import Scan
+
+logger = logging.getLogger(__name__)
+
+
+def init_axsi(subj_folder: Path, file_names, *params) -> Scan:
+    logger.info("Starting AxSI")
+    subf = os.path.join(subj_folder, 'AxSI')
+    # make dir subj_folder
+    if not os.path.exists(subf):
+        os.mkdir(subf)
+
+    scan = Scan(file_names, *params)  # init Scan object
+    return scan
+
+
+def axsi_main(subj_folder: Path, file_names, *params) -> None:
+    tic = time.time()
+    # initialize analysis
+    scan = init_axsi(subj_folder, file_names, *params)  # return Scan object
+    toc = time.time()
+    logger.debug("Computation time initialization = " + str((toc - tic)) + " sec.")
+
+    shell_dti = []  # array for DTI objects for each bvalue
+    bval_shell = scan.get_shell()  # array of unique nonzero bvalues
+
+    logger.info('Starting DTI-1000')
+    # run DTI1000
+    tic = time.time()
+    dti1000 = dti(scan, 1.0, is1000=True, subj_folder=subj_folder)
+    toc = time.time()
+    logger.debug("Computation time DTI-1000 = " + str((toc - tic)) + " sec.")
+    logger.info('Starting DTI-shell')  # Refael
+    if config.NUM_PROCESSES > 1:
+        tic = time.time()
+        # run parallelly
+        num_proc = min(config.NUM_PROCESSES, len(bval_shell))
+        logger.info(f'Run DTI-shell parallely with {num_proc} processes/threads')
+        with Pool(num_proc) as p:  # run volume_dti parallelly
+            shell_dti = p.starmap(dti, [(scan, bval_shell[i]) for i in range(len(bval_shell))])
+        toc = time.time()
+    else:
+        for i in range(len(bval_shell)):
+            ax_dti = dti(scan, bval_shell[i])  # run DTI
+            shell_dti.append(ax_dti)  # store result object in array
+
+    logger.debug("Computation time DTI-shell = " + str((toc - tic)) + " sec.")
+
+    # run AxSI analysis
+    logger.info('Starting AxSI')
+    calc_axsi(scan, dti1000, shell_dti, subj_folder)

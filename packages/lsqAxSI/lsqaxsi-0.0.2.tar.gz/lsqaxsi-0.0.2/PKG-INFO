@@ -1,0 +1,47 @@
+Metadata-Version: 2.2
+Name: lsqAxSI
+Version: 0.0.2
+Summary: Nonlinear least-squares optimization for AxSI
+Home-page: 
+Author: Hila Gast
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Python version
+--------------
+
+This project is currently using Python 3.8
+
+Installation
+------------
+
+It is recommended to use **virtualenv** to create a clean python environment.
+
+To install lsqAxSI, use **pip**:
+
+    pip install lsqAxSI
+
+
+
+Execution
+---------
+
+The main script shipped with this project is **lsq_AxSI.py**, see its options by running:
+
+    lsq_AxSI.py -h
+
