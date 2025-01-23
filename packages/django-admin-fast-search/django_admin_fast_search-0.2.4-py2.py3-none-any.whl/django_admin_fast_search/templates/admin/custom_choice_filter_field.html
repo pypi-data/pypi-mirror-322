@@ -1,0 +1,15 @@
+{% load static %}
+{% load i18n %}
+
+<h3>{% blocktrans with filter_title=title %} {{ filter_title }} {% endblocktrans %}</h3>
+
+<ul class="fast-filter-list">
+  <select name="{{ spec.parameter_name }}">
+    <option value="" {% if spec.value|stringformat:"s" == "" or spec.value is None %}selected{% endif %}>{% trans "Any" %}</option>
+    {% for value, label in spec.lookup_choices %}
+    <option value="{{ value }}" {% if value|stringformat:"s" == spec.value|stringformat:"s" %}selected{% endif %}>{{ label }}
+    </option>
+    {% endfor %}
+  </select>
+</ul>
+
