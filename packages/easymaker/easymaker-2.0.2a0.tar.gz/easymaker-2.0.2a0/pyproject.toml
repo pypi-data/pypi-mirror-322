@@ -1,0 +1,33 @@
+[tool.black]
+line-length = 500
+include = '\.pyi?$'
+
+[tool.poetry]
+name = "easymaker"
+version = "2.0.2a0"
+description = "AI EasyMaker SDK for Python."
+authors = ["NHN Cloud AI EasyMaker Services"]
+license = "Apache License 2.0"
+readme = "docs/README.md"
+homepage = "https://www.nhncloud.com"
+keywords = ["NHN Cloud", "AI EasyMaker", "Machine Learning"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+setuptools = "^75.8.0"
+requests = "^2.32.3"
+argparse = "^1.4.0"
+pydantic = "^2.10.5"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+isort = "^5.13.2"
+pytest = "^8.3.4"
+
+[tool.poetry.scripts]
+easymaker = "easymaker.cli.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
