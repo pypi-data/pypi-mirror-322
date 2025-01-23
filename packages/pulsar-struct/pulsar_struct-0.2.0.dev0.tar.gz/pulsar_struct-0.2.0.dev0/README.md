@@ -1,0 +1,124 @@
+# Pulsar: Structured LLM Output Parser
+
+Pulsar is the today and next-generation tool to build AI applicatios by providing structured output parsing. It allow use with any model hosted in an API compatible with OpenAIAPI, even if that doesn't support json, or function calling (OpenAI o1, Qwen QwQ, DeepSeek R1 ..) and models multi-modal.
+
+## Installation
+
+```bash
+pip install pulsar-struct
+```
+
+## Quick Start
+
+```python
+from pulsar.client import Client
+from pydantic import BaseModel
+
+# Define your output structure
+class UserInfo(BaseModel):
+    name: str
+    age: int
+    interests: List[str]
+
+# Initialize client
+client = Client()
+
+# Get structured response
+response, metadata = client.chat_completion(
+    messages=[{"role": "user", "content": "Extract: John, 25 years old, likes reading and hiking"}],
+    model="openai/gpt-4o-mini",
+    response_type=UserInfo
+)
+
+print(response)  # UserInfo(name='John', age=25, interests=['reading', 'hiking'])
+```
+
+## Provider Configuration
+Current supported providers:
+- OpenAI
+- Anthropic
+- Gemini
+- Groq
+- OpenRouter
+- Ollama
+- OpenAIAPILike  
+
+Each provider can be configured with specific options:
+
+```python
+# Anthropic
+client = AnthropicClient(api_key="your-anthropic-key")
+
+# OpenAI
+client = OpenAIClient(api_key="your-openai-key")
+
+# Groq
+client = GroqClient(api_key="your-groq-key")
+
+# Ollama
+client = OllamaClient() # or set the enpoint using base_url="http://host:port" 
+                        # default is "http://localhost:11434"
+```
+
+## Advanced Usage
+Structured output parsing handle all in background for you:
+- Convert LLM responses to Pydantic models
+- Automatic type coercion
+- Handle imperfect JSON responses
+- Support for complex data types (enums, literals, nested models)
+
+### Custom Response Types
+
+```python
+from typing import List, Optional
+from pydantic import BaseModel
+from enum import Enum
+
+class Sentiment(Enum):
+    POSITIVE = "positive"
+    NEGATIVE = "negative"
+    NEUTRAL = "neutral"
+
+class Analysis(BaseModel):
+    sentiment: Sentiment
+    confidence: float
+    keywords: List[str]
+    summary: Optional[str]
+
+response, metadata = client.chat_completion(
+    system="Analyse the products",
+    messages=[{"role": "user", "content": "Analyze: Great product, highly recommend!"}],
+    model="claude-2",
+    response_type=Analysis
+)
+```
+
+### Endpoint Retries
+
+```python
+response, _ = client.chat_completion(
+    messages=[...],
+    model="gpt-4",
+    max_retries=3
+)
+```
+
+### Streaming Support
+
+```python
+client = Client()
+for chunk, _ in client.chat_completion(
+    messages=[...],
+    model="groq/llama-3.3-70b-versatile",
+    stream=True
+):
+    print(chunk, end="")
+```
+
+## JSON Parsing Features
+
+- Handle unquoted strings
+- Fix missing commas and brackets
+- Support for partial objects (streaming)
+- Automatic type coercion
+- Handle embedded type information

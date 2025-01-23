@@ -1,0 +1,6 @@
+pydantic
+pytest
+requests
+pre-commit
+python-dotenv
+jinja2
