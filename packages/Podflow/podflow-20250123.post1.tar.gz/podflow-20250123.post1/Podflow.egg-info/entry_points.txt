@@ -1,0 +1,2 @@
+[console_scripts]
+Podflow = Podflow.main:main
