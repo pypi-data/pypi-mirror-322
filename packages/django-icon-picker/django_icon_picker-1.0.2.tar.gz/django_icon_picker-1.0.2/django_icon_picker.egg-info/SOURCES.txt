@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+django_icon_picker/__init__.py
+django_icon_picker/apps.py
+django_icon_picker/field.py
+django_icon_picker/urls.py
+django_icon_picker/views.py
+django_icon_picker/widgets.py
+django_icon_picker.egg-info/PKG-INFO
+django_icon_picker.egg-info/SOURCES.txt
+django_icon_picker.egg-info/dependency_links.txt
+django_icon_picker.egg-info/requires.txt
+django_icon_picker.egg-info/top_level.txt
+django_icon_picker/static/django_icon_picker/css/icon_picker.css
+django_icon_picker/static/django_icon_picker/js/icon_picker.js
+django_icon_picker/templates/django_icon_picker/icon_picker.html

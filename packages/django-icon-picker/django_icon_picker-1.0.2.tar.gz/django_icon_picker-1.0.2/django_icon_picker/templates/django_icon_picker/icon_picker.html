@@ -1,0 +1,25 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'django_icon_picker/css/icon_picker.css' %}">
+
+<div class="icon-picker-container">
+  <div class="icon-picker-wrapper">
+    <div class="icon-picker-input" style="display: flex; align-items: center;">
+      <img class="icon-preview" id="selectedIcon" class="{{ widget.attrs.selected_icon }}" style="margin-right: 10px;">
+      {% include "django/forms/widgets/text.html" %}
+      <input class="{{ widget.attrs.class }}" id="color" value="{{ default_color|default:"#006166" }}" type="text" data-coloris style="margin-left: 10px;">
+    </div>
+    <div id="results"></div>
+  </div>
+</div>
+<script src="{% static 'django_icon_picker/js/icon_picker.js' %}"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new IconPicker({
+      searchInputId: "{{ widget.attrs.id }}",
+      savePath: "{{ save_path }}",
+      model: "{{ widget.attrs.model_name }}",
+      objectId: "{{ object_id }}",
+    });
+  });
+</script>
