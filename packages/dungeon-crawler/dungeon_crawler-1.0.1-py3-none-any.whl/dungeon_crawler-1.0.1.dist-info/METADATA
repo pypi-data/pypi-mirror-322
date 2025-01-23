@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: dungeon-crawler
+Version: 1.0.1
+Summary: A hand gesture-controlled dungeon-crawler game
+Home-page: https://design-lab.agh.zymon.org/design-lab/dungeon-crawler
+Author: Kamil Kras, Mateusz Purol, Konrad Włodarczyk
+Author-email: mateuszpurol@student.agh.edu.pl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pygame==2.6.1
+Requires-Dist: opencv-python==4.10.0.84
+Requires-Dist: mediapipe==0.10.18
+Requires-Dist: numpy==1.26.4
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
