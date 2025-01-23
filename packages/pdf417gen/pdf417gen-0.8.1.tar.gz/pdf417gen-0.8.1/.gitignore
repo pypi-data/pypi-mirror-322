@@ -1,0 +1,12 @@
+*.egg-info/
+*.pyc
+.cache/
+.pypirc
+/.coverage
+/.env
+build/
+dist/
+env*/
+tmp/
+/pyrightconfig.json
+/uv.lock

@@ -1,0 +1,11 @@
+Pillow>=3.3.0
+
+[dev]
+build
+twine
+
+[test]
+mock
+pytest
+pytest-cov
+vermin
