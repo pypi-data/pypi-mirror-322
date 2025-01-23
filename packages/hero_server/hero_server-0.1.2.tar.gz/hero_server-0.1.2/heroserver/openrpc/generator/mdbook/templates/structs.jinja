@@ -1,0 +1,9 @@
+# Classes
+
+{% for class_name in sorted_classes %}
+- {{ schema_dict[class_name]['title'] }}
+{% for prop_name, prop in schema_dict[class_name]['properties'].items() %}
+  - {{ prop_name }} ({{ get_pydantic_type(prop)}}): {{ prop['description'] }}
+{% endfor %}
+
+{% endfor %}

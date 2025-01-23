@@ -1,0 +1,28 @@
+pub fn (mut executor {{ actor_executor_name }}) {{variable_name}}_get_internal(id string) !{{type_name}}{
+    json_str := executor.db.indexer.get_json(id, backend.RootObject{
+        name: '{{type_name}}'
+    })!
+    
+    return json.decode({{type_name}}, json_str)!
+}
+
+pub fn (mut executor {{ actor_executor_name }}) {{variable_name}}_set_internal({{variable_name}} {{type_name}}) !{
+    if {{variable_name}}.oid != ''{
+        executor.db.indexer.set(backend.RootObject{
+            id: {{variable_name}}.oid
+            name: '{{type_name}}'
+        })!
+    }
+
+    executor.db.indexer.new(backend.RootObject{
+        name: '{{type_name}}'
+    })!
+}
+
+pub fn (mut executor {{ actor_executor_name }}) {{variable_name}}_delete_internal(id string) !{
+    executor.db.indexer.delete(id, backend.RootObject{
+        name: '{{type_name}}'
+    })!
+}
+
+

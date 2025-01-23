@@ -1,0 +1,16 @@
+## Methods
+
+{% for method in methods %}
+- {{ method['name'] }}: {{ method.get('description', '') }}
+  - Parameters:
+      {% for param in method.get('params', []) %}
+        {{ param['name'] }}: {{ get_pydantic_type(param['schema'])}}
+      {% endfor %}
+  
+  - Return Type:
+      {{ get_return_type(method['result']) }}
+  
+  - Example:
+      {{ method.get('examples', [{}])[0] }}
+
+{% endfor %}

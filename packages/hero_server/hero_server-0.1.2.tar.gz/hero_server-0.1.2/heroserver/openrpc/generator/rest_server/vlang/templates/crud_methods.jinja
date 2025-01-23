@@ -1,0 +1,32 @@
+@['/:circleguid/{{variable_name}}_manager/{{variable_name}}/:id'; get]
+pub fn (mut v_server_app VServerApp) {{variable_name}}_get(circleguid int, id str) vweb.Result{
+    res := {{variable_name}}_get_internal(circleguid, id) or {
+        v_server_app.set_status(500, '')
+        return v_server_app.text('HTTP 500: Internal Server Error')
+    }
+    return v_server_app.json(res)
+}
+
+@['/:circleguid/{{variable_name}}_manager/{{variable_name}}'; post]
+pub fn (mut v_server_app VServerApp) {{variable_name}}_set(circleguid int) vweb.Result{
+    {{variable_name}} := json2.decode[{{type_name}}](v_server_app.req.data) or {
+        v_server_app.set_status(400, '')
+        return v_server_app.text('HTTP 400: Bad Request')
+    }
+    res := {{variable_name}}_set_internal(circleguid, {{variable_name}})or {
+        v_server_app.set_status(500, '')
+        return v_server_app.text('HTTP 500: Internal Server Error')
+    }
+    
+    return v_server_app.json(res)
+}
+
+@['/:circleguid/{{variable_name}}_manager/{{variable_name}}/:id'; delete]
+pub fn (mut v_server_app VServerApp) {{variable_name}}_delete(circleguid int, id str) vweb.Result{
+    ##would use osis to delete this objecc
+    res := {{variable_name}}_delete_internal(circleguid, id) or {
+        v_server_app.set_status(500, '')
+        return v_server_app.text('HTTP 500: Internal Server Error')
+    }
+    return v_server_app.json(res)
+}

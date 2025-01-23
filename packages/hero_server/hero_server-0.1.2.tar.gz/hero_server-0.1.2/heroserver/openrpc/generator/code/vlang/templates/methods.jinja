@@ -1,0 +1,75 @@
+{% if method_example -%}
+/*
+Example:
+{{ method_example }}
+*/
+{% endif -%}
+
+{% if method_description -%}
+/*
+{{ method_description }}
+*/
+{% endif -%}
+pub fn {{ function_name }}({{ vlang_code_generator.get_method_params(method_params) }}) {{ method_result }}{
+    mut conn := httpconnection.new(
+		name: 'openrpc_client'
+		url: '{{ base_url }}'
+	)!
+
+    mut params := map[string]json2.Any{}
+    {% for param_name, param_type in method_params.items() -%}
+    {% if vlang_code_generator.is_primitive(param_type) %}
+    params["{{ param_name }}"] = {{ param_name }}
+    {% elif vlang_code_generator.is_vlang_array(param_type) %}
+    mut any_arr := []json2.Any{}
+    for item in {{ param_name }}{
+        {% if vlang_code_generator.is_primitive(param_type[2:]) %}
+        any_arr << item
+        {% else %}
+        any_arr << json2.raw_decode(json2.encode(item))!
+        {% endif %}
+    }
+    params["{{ param_name }}"] = json2.Any(any_arr)
+    {%else %}
+    params["{{ param_name }}"] = json2.raw_decode(json2.encode({{ param_name }}))!
+    {% endif %}
+    {% endfor -%}
+
+    mut payload := map[string]json2.Any{}
+    payload['jsonrpc'] = "2.0"
+    payload['id'] = 0
+    payload['method'] = '{{ method_name }}'
+    payload['params'] = params
+
+    response := conn.send(method: .post, data: json2.encode(payload){% if url_path -%}, prefix: '{{ url_path }}' {% endif -%})!
+	if !response.is_ok() {
+		return error('failed to make rpc request: (${response.code}) ${response.data}')
+	}
+
+    {% if return_type != 'none' %}
+	mp := json2.raw_decode(response.data)!.as_map()
+    res := mp['result'] or {
+        return error('invalid jsonrpc result: ${response.data}')
+    }
+
+    if res is json2.Null{
+        return error('not found')
+    }
+
+    {% if vlang_code_generator.is_primitive(return_type) %}
+    return res as {{return_type}}
+    {% elif vlang_code_generator.is_vlang_array(return_type) %}
+    mut res_arr := {{return_type}}
+    for item in res.arr() {
+        {% if vlang_code_generator.is_primitive(return_type[2:]) %}
+        res_arr << item as {{return_type}}
+        {% else %}
+        res_arr << json2.decode[{{return_type[2:]}}](item.json_str())!
+        {% endif %}
+    }
+    return res_arr
+    {%else %}
+    return json2.decode[{{return_type}}](res.json_str())!
+    {% endif -%}
+    {% endif %}
+}   

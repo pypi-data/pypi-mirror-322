@@ -1,0 +1,18 @@
+{% if is_integer %}
+class {{ type_name }}(Enum):
+    {% for elem in enum -%}
+    {{ number_to_words(elem) }} = {{ elem }}
+    {% endfor %}
+{% else -%}
+class {{ type_name }}(str, Enum):
+    {% for elem in enum -%}
+    {{ elem.upper() }} = '{{ elem }}'
+    {% endfor %}
+{% endif %}
+    {# @classmethod
+    def load(cls, data: Dict[str, Any]) -> "{{type_name}}":
+        return cls(
+            {% for elem in enum -%}
+            {{elem}} = data.get('{{elem}}'),
+            {% endfor %}   
+        ) #}

@@ -1,0 +1,20 @@
+@['/:circleguid/{{function_name}}'; post]
+pub fn (mut v_server_app VServerApp) {{ function_name }}(circleguid int) vweb.Result{
+    body := json2.raw_decode(v_server_app.req.data)!.as_map()
+    {% for param_name, param_tpe in method_params.items() %}
+    {% if rest_server_generator.lang_code_generator.is_primitive(param_type) %}
+    {{param_name}} := body['{{param_name}}'].{{param_type}}()
+    {% else %}
+    {{param_name}} := json2.decode[{{param_type}}](body['{{param_name}}'].json_str()) or {
+        v_server_app.set_status(400, '')
+        return v_server_app.text('HTTP 400: Bad Request')
+    }
+    {% endif %}
+    {% endfor %}
+    res := {{function_name}}_internal(context, circleguid, {{', '.join(method_params.keys())}}) or {
+        v_server_app.set_status(500, '')
+        return v_server_app.text('HTTP 500: Internal Server Error')
+    }
+
+    return v_server_app.json(res)
+}

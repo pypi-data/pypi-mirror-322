@@ -1,0 +1,9 @@
+pub enum {{ type_name }}{
+    {% for elem in enum -%}
+    {% if is_integer -%}
+    {{ number_to_words(elem) }} = {{ elem }}
+    {% else -%}
+    {{ elem }}
+    {% endif -%}
+    {% endfor %}
+}

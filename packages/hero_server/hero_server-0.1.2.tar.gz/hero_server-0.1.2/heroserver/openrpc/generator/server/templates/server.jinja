@@ -1,0 +1,11 @@
+module main
+
+import vweb
+
+struct App {}
+
+fn main() {
+    app := &App{}
+    port := 8080
+    vweb.run(app, port)
+}

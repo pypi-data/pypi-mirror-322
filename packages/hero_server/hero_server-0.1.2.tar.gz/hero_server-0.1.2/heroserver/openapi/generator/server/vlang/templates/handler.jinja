@@ -1,0 +1,50 @@
+struct Handler {
+pub mut:
+    db &backend.Backend
+    redis &redisclient.Redis
+    {% for actor in actors %}
+    {{actor}}_executor {{get_actor_executor_name(actor)}}
+    {%- endfor %}
+}
+
+pub fn new(db_config backend.BackendConfig, redis_addr string) !Handler{
+    db := backend.new(db_config)!
+    mut redis_client := redisclient.new([redis_addr])!
+    redis_client.selectdb(0)!
+    
+    return Handler{
+        db: &db
+        redis: &redis_client
+        {%- for actor in actors %}
+        {{actor}}_executor: {{get_actor_executor_name(actor)}}{
+            db: &db
+            redis: &redis_client
+        }
+        {%- endfor %}
+    }
+}
+
+// handle handles an incoming JSON-RPC encoded message and returns an encoded response
+pub fn (mut handler Handler) handle(id string, method string, params_str string) {
+    actor := method.all_before('.')
+    method_name := method.all_after('.')
+
+    match actor {
+        {%- for actor in actors %}
+        '{{ actor }}' {
+            spawn (&handler.{{actor}}_executor).execute(id, method_name, params_str)
+        }
+        {%- endfor %}
+        else {
+            handler.return_error(id, jsonrpc.method_not_found)
+            return
+        }
+    }
+}
+
+pub fn (mut handler Handler) return_error(rpc_msg_id string, error jsonrpc.InnerJsonRpcError){
+    response := jsonrpc.new_jsonrpcerror(rpc_msg_id, error)
+    handler.redis.lpush(rpc_msg_id, response.to_json()) or {
+        println('failed to push response for ${rpc_msg_id} to redis queue: ${err}')
+    }
+}

@@ -1,0 +1,11 @@
+module main
+
+import freeflowuniverse.crystallib.context
+
+pub fn {{function_name}}(ctx context.Context, circleguid int, {{rest_server_generator.get_method_params(method_params)}}) !{{method_result}}{
+    // context allows us to see who the user is and which groups the user is
+    // context also gives a logging feature
+    // context is linked to 1 circle
+    // context is linked to a DB (OSIS)
+    return 0
+}

@@ -1,0 +1,28 @@
+pub fn {{variable_name}}_get_internal(db &backend.Indexer, circleguid int, id string) !{{type_name}}{
+    json_str := db.get(id, RootObject{
+        name: '{{type_name}}'
+    })!
+    
+    return json.decode({{type_name}}, json_str)!
+}
+
+pub fn {{variable_name}}_set_internal(db &backend.Indexer, circleguid int, id string, {{variable_name}} {{type_name}}) !{
+    if id != ''{
+        db.set(RootObject{
+            id: id
+            name: '{{type_name}}'
+        })!
+    }
+
+    db.new(RootObject{
+        name: '{{type_name}}'
+    })!
+}
+
+pub fn {{variable_name}}_delete_internal(db &backend.Indexer, circleguid int, id string) !{
+    db.delete(id, RootObject{
+        name: '{{type_name}}'
+    })!
+}
+
+

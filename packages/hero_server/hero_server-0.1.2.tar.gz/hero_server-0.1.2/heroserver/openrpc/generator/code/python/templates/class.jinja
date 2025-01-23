@@ -1,0 +1,4 @@
+class {{ class_name }}(BaseModel):
+    {% for prop_name, prop_info in properties.items() -%}
+    {{ prop_name }}: {{prop_info.type_name}} = {{python_code_generator.get_pydantic_field_params(prop_info)}}
+    {% endfor %}

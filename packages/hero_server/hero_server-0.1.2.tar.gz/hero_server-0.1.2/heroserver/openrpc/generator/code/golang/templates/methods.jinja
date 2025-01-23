@@ -1,0 +1,92 @@
+{% if method_example -%}
+/*
+Example:
+{{ method_example }}
+*/
+{% endif -%}
+
+{% if method_description -%}
+/*
+{{ method_description }}
+*/
+{% endif -%}
+func {{ function_name }}({{ generator.get_method_params(method_params) }}) {{ method_result }} {
+    params := map[string]interface{}{}
+    {%- for param_name, param_type in method_params.items() %}
+    params["{{param_name}}"] = {{param_name}}
+    {%- endfor %}
+
+    payload := map[string]interface{}{}
+    payload["jsonrpc"] = "2.0"
+    payload["id"] = 0
+    payload["method"] = "{{ method_name }}"
+    payload["params"] = params
+
+    payloadBytes, err := json.Marshal(payload)
+    if err != nil{
+        return {{generator.get_default_return_with_error(return_type, 'err')}}
+    }
+
+    resp, err := http.Post("{{url}}", "application/json", bytes.NewBuffer(payloadBytes))
+    if err != nil{
+        return {{generator.get_default_return_with_error(return_type, 'fmt.Errorf("failed to make post request: %w", err)')}}
+    }
+
+    if resp.StatusCode >= 400{
+        return {{generator.get_default_return_with_error(return_type, 'fmt.Errorf("request failed with status %d: %s", resp.StatusCode, resp.Status)')}}
+    }
+
+    {%- if return_type != 'nil' %}
+    defer resp.Body.Close()
+    body, err := io.ReadAll(resp.Body)
+    if err != nil{
+        return {{generator.get_default_return_with_error(return_type, 'fmt.Errorf("failed to read response body: %w", err)')}}
+    }
+
+    mp := map[string]interface{}{}
+    if err := json.Unmarshal(body, &mp); err != nil{
+        return {{generator.get_default_return_with_error(return_type, 'fmt.Errorf("failed to decode response body: %w", err)')}}
+    }
+
+    result, ok := mp["result"]
+    if !ok {
+        return {{generator.get_default_return_with_error(return_type, 'fmt.Errorf("invalid jsonrpc result: %v", mp)')}}
+    }
+
+    if result == nil {
+        {%- if return_type == 'nil '%}
+        return {{generator.get_default_return_with_error(return_type, 'nil')}}
+        {%- else %}
+        return {{generator.get_default_return_with_error(return_type, 'fmt.Errorf("invalid jsonrpc result: {{return_type}} was expected but found nil")')}}
+        {%- endif %}
+    }
+
+    {%- if generator.is_primitive(return_type) %}
+    return result.({{return_type}}), nil
+    {%- elif generator.is_array(return_type) %}
+    resSlice := {{return_type}}{}
+    for item := range result.([]intreface{}) {
+        {%- if generator.is_primitive(return_type[2:]) %}
+        resSlice = append(resSlice, item.({{return_type[2:]}}))
+        {%- else %}
+        tmp := {{return_type[2:]}}{}
+        if err := mapstructure.Decode(item, &tmp); err != nil{
+            return {{generator.get_default_return_with_error(return_type, 'fmt.Errorf("failed to decode result: %w", err)')}}
+        }
+
+        resSlice = append(resSlice, tmp)
+        {%- endif %}
+    }
+    return resSlice, nil
+    {%- else %}
+    ret := {{return_type}}{}
+    if err := mapstructure.Decode(result, &ret); err != nil{
+        return {{generator.get_default_return_with_error(return_type, 'fmt.Errorf("failed to decode result: %w", err)')}}
+    }
+
+    return ret, nil
+    {%- endif %}
+    {%- else %}
+    return nil
+    {%- endif %}
+}   

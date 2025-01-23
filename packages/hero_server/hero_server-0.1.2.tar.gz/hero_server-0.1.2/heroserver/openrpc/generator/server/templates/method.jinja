@@ -1,0 +1,20 @@
+@['/:{{function_name}}'; post]
+pub fn (mut app App) {{ function_name }}() vweb.Result{
+    body := json2.raw_decode(app.req.data)!.as_map()
+    {% for param_name, param_tpe in method_params.items() %}
+    {% if rest_server_generator.lang_code_generator.is_primitive(param_type) %}
+    {{param_name}} := body['{{param_name}}'].{{param_type}}()
+    {% else %}
+    {{param_name}} := json2.decode[{{param_type}}](body['{{param_name}}'].json_str()) or {
+        app.set_status(400, 'Bad Request: ${err}')
+        return v_server_app.text('HTTP 400: Bad Request')
+    }
+    {% endif %}
+    {% endfor %}
+    res := {{function_name}}_internal({{', '.join(method_params.keys())}}) or {
+        app.set_status(500, '')
+        return app.text('HTTP 500: Internal Server Error')
+    }
+
+    return app.json(res)
+}

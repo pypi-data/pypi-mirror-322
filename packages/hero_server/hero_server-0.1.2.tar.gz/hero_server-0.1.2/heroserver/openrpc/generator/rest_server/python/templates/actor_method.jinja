@@ -1,0 +1,7 @@
+@app.post("/$circleguid/{{function_name}}")
+def {{ function_name }}(circleguid: int, {{ rest_server_generator.get_method_params(method_params) }}){% if method_result %} -> {{ method_result }}{% endif %}:
+    {% if mock %}
+        return {{function_name}}_internal_mock(context, circleguid, {{', '.join(method_params.keys())}})
+    {% else %}
+        return {{function_name}}_internal(context, circleguid, {{', '.join(method_params.keys())}})
+    {% endif %}

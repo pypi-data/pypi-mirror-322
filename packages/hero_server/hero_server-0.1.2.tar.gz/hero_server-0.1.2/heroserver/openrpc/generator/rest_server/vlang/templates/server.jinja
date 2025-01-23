@@ -1,0 +1,73 @@
+module main
+
+import freeflowuniverse.crystallib.baobab.backend
+import freeflowuniverse.crystallib.clients.redisclient
+import net.http
+
+struct RPCServer {
+pub mut:
+    backend &backend.Backend
+    redis &redisclient.Redis
+}
+
+fn main() {
+    rpc_server := new_server() or{
+        eprintln('failed to create server: ${err}')
+        exit(1)
+    }
+
+    rpc_server.listen_and_serve(8000) or {
+        eprintln('server error: ${err}')
+        exit(1)
+    }
+}
+
+
+fn new_server() !RPCServer{
+     db := start_new_backend_conn()!
+    redis_client := redisclient.new(['localhost:6379'])!
+    return RPCServer{
+        backend: &db
+        redis: &redis_client
+    }
+}
+
+fn (mut s RPCServer) listen_and_serve(port int) !{
+    mut server := &http.Server{
+        addr: 'localhost:${port}'
+        handler: s.handler
+    }
+
+    server.listen_and_serve()!
+}
+
+fn (mut s RPCServer) handler(req http.Request) http.Response{
+    if req.method != .post || req.url != '/'{
+        return http.Response{
+            status: 400
+            status_msg: 'Bad Request. invalid method or path'
+        }
+    }
+
+    body := req.data
+    id := id := jsonrpc.decode_request_id(body) or { 
+        return http.Response(status: 400, status_msg: 'Bad Request. Cannot decode request.id ${msg}') 
+    }
+    method := jsonrpc.jsonrpcrequest_decode_method(body) or { 
+        return http.Response(status: 400, status_msg: 'Bad Request. Cannot decode request.method ${msg}') 
+    }
+    params_str := jsonrpc.request_params(body) or {
+        return http.Response(status: 400, status_msg: 'Bad Request. Cannot decode request.params ${msg}')
+    }
+
+    s.handle_rpc(id, method, params_str)
+
+    response_body := s.redis.brpop([id]) or {
+        return http.Response(status: 500, status_msg: 'Internal Server Error: Serer timed-out while waiting for a response')
+    }
+
+    return http.Response{
+        status: 200
+        body: response_body
+    }
+}

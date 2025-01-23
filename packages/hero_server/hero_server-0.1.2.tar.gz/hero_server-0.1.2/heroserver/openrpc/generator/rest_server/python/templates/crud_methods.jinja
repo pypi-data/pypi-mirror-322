@@ -1,0 +1,16 @@
+{% if mock %}
+    {% set suffix = '_mock' %}
+{% else %}
+    {% set suffix = '' %}
+{% endif %}
+@app.get("/{circleguid}/{{variable_name}}_manager{{suffix}}/{{variable_name}}/{id}")
+def {{variable_name}}_get(circleguid: int, id: str)-> {{type_name}}:
+    return {{variable_name}}_get_internal{{suffix}}(circleguid, id)
+
+@app.post("/{circleguid}/{{variable_name}}_manager{{suffix}}/{{variable_name}}")
+def {{variable_name}}_set(circleguid: int, {{variable_name}}: {{type_name}})-> bool:
+    return {{variable_name}}_set_internal{{suffix}}(circleguid, {{variable_name}})
+
+@app.delete("/{circleguid}/{{variable_name}}_manager{{suffix}}/{{variable_name}}/{id}")
+def {{variable_name}}_delete(circleguid: int, id: str)-> bool:
+    return {{variable_name}}_delete_internal{{suffix}}(circleguid, id)

@@ -1,0 +1,5 @@
+pub struct {{method_param_struct_name}}{
+    {% for param_name, param_type in params.items()%}
+    {{param_name}} {{param_type}}
+    {%- endfor %}
+}

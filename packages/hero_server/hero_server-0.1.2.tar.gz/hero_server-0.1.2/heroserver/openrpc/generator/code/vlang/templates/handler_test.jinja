@@ -1,0 +1,31 @@
+module myhandler
+
+import x.json2
+import rand
+import freeflowuniverse.crystallib.baobab.backend
+
+fn test_handler(){
+	db_config := backend.BackendConfig{
+		name:   'myhandler'
+		secret: 'secret'
+		reset: true
+		db_type: .postgres
+	}
+
+	mut handler := new(db_config, '127.0.0.1:6379')!
+	{% for method_name in method_names %}
+	do_request(mut handler, '{{method_name}}')!
+	{%- endfor %}
+}
+
+fn do_request(mut handler Handler, method_name string) ! {
+	// TODO: edit input parameters
+	mut params := []json2.Any{}
+	params << "objid"
+	params << "blabla_name"
+	params_str := json2.Any(params).json_str()
+	
+	id := rand.string(6)
+	handler.handle(rand.string(6), method_name, json2.Any(params).json_str())
+	println('request id: ${id}')
+}

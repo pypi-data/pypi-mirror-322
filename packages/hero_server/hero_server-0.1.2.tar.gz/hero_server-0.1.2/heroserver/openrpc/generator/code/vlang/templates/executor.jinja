@@ -1,0 +1,77 @@
+pub struct {{ actor_executor_name }}{
+pub mut:
+    db &backend.Backend
+    redis &redisclient.Redis
+}
+
+pub fn (mut executor {{ actor_executor_name }}) execute(rpc_msg_id string, rpc_msg_method string, rpc_msg_params_str string) {
+    raw_params := json2.raw_decode(rpc_msg_params_str) or{
+        executor.return_error(rpc_msg_id, jsonrpc.invalid_params)
+        return
+    }
+
+    params_arr := raw_params.arr()
+
+    match rpc_msg_method {
+        {%- for method in methods %}
+        '{{method.name}}' {
+            {%- for param in method.params %}
+            {%- if generator.is_primitive(generator.get_param_type(method.name, param))%}
+            {{param.name}} := params_arr[{{loop.index0}}] as {{generator.get_param_type(method.name, param)}}
+            {%- else %}
+            {{param.name}} := json.decode({{generator.get_param_type(method.name, param)}}, params_arr[{{loop.index0}}].json_str()) or {
+                executor.return_error(rpc_msg_id, jsonrpc.invalid_request)
+                return
+            }
+            {%- endif %}
+            {%- endfor %}
+
+            {%- if generator.get_method_return_type(method) == 'none' %}
+            executor.{{method.name}}_internal({{generator.get_method_params_as_args(method)}}) or {
+                executor.return_error(rpc_msg_id, jsonrpc.InnerJsonRpcError{
+                    code: 32000
+                    message: '${err}'
+                })
+                return
+            }
+
+            response := jsonrpc.JsonRpcResponse[string]{
+                jsonrpc: '2.0.0'
+                id: rpc_msg_id
+                result: ''
+            }
+            {%- else %}
+            result := executor.{{method.name}}_internal({{generator.get_method_params_as_args(method)}}) or {
+                executor.return_error(rpc_msg_id, jsonrpc.InnerJsonRpcError{
+                    code: 32000
+                    message: '${err}'
+                })
+                return
+            }
+
+            response := jsonrpc.JsonRpcResponse[{{generator.get_method_return_type(method)}}]{
+                jsonrpc: '2.0.0'
+                id: rpc_msg_id
+                result: result
+            }
+            {%- endif %}
+
+            // put response in response queue
+            executor.redis.lpush(rpc_msg_id, response.to_json()) or {
+                println('failed to push response for ${rpc_msg_id} to redis queue: ${err}')
+            }
+        }
+        {%- endfor %}
+        else {
+            executor.return_error(rpc_msg_id, jsonrpc.method_not_found)
+            return
+        }
+    }
+}
+
+pub fn (mut executor {{actor_executor_name}}) return_error(rpc_msg_id string, error jsonrpc.InnerJsonRpcError){
+    response := jsonrpc.new_jsonrpcerror(rpc_msg_id, error)
+    executor.redis.lpush(rpc_msg_id, response.to_json()) or {
+        println('failed to push response for ${rpc_msg_id} to redis queue: ${err}')
+    }
+}

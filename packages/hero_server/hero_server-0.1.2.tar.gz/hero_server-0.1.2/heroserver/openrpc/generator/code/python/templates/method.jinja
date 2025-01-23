@@ -1,0 +1,30 @@
+{% if method_example != "" -%}
+# Example:
+# {{ method_example }}
+{% endif -%}
+def {{ function_name }}({{ python_code_generator.get_method_params(method_params) }}){% if method_result %} -> {{ method_result }}{% endif %}:
+    {% if method_description != "" -%}
+    """
+    {{ method_description }}
+    """
+    {% endif -%}
+    url = "{{base_url}}"
+    headers = {"content-type": "application/json"}
+
+    params = {
+        {% for param_name, param_type in method_params.items() -%}
+        '{{ param_name }}': {{ param_name }},
+        {% endfor -%}
+}
+
+    response = requests.post(url, json={"jsonrpc": "2.0", "id": 0, 'method': '{{ method_name  }}', 'params': params}, headers=headers).json()
+
+    {% if return_type -%}
+    {% if python_code_generator.is_primitive(return_type) -%}
+    return response['result']
+    {% else -%}
+    return {{return_type}}(response['result'])
+    {% endif -%}
+    {% else -%}
+    response.raise_for_status()
+    {% endif -%}

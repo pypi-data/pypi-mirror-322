@@ -1,0 +1,12 @@
+{% if mock %}
+    {% set suffix = '_mock' %}
+{% else %}
+    {% set suffix = '' %}
+{% endif %}
+from fastapi import FastAPI
+from pydantic import BaseModel, Field
+from typing import List
+from enum import Enum
+{% if import_models %}from models import *{% endif %}
+{% if import_crud %}from crud{{suffix}} import *{% endif %}
+{% if import_openapi %}from open_api import *{% endif %}
