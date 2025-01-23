@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% from "components/cards.html" import basic_card %}
+{% from "macros/forms.html" import render_form %}
+
+{% block main %}
+
+    <div class="container">
+        {% call basic_card() %}
+            {{ render_form(form) }}
+        {% endcall %}
+    </div>
+
+{% endblock %}
