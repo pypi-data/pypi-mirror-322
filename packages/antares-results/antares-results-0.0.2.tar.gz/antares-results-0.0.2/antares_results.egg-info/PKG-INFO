@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: antares-results
+Version: 0.0.2
+Summary: Spinor Helicity Amplitudes
+Home-page: https://github.com/GDeLaurentis/antares-results
+Author: Giuseppe De Laurentis
+Author-email: g.dl@hotmail.it
+License: GNU General Public License v3.0
+Download-URL: https://github.com/GDeLaurentis/antares-results/archive/v0.0.2.tar.gz
+Project-URL: Documentation, https://gdelaurentis.github.io/antares-results/
+Project-URL: Issues, https://github.com/GDeLaurentis/antares-results/issues
+Keywords: Spinor Helicity,Scattering Amplitudes
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# antares-results
+A repository for spinor-helicity amplitudes reconstructed from numerical evaluations
+
+[![DOI](https://zenodo.org/badge/905853539.svg)](https://doi.org/10.5281/zenodo.14536697)
+
+
