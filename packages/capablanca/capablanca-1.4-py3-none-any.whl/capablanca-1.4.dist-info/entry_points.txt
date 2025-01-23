@@ -1,0 +1,3 @@
+[console_scripts]
+batch_jaque = capablanca.test:main
+jaque = capablanca.app:main
