@@ -1,0 +1,10 @@
+moldy/__init__.py,sha256=SkbetE0i7xT4GYmsEWm-gH1wZyhggpOmnmY2m17nqMU,1237
+moldy/__main__.py,sha256=8gEzCy3YjZosY669hUoO-f5NAh8x9nPwDOgizAxPwgA,40
+moldy/logging.py,sha256=dv8F1ds_mB1dgYrVx-tGeThzRWqpRAyuVW9R0-DWgm0,998
+moldy/molding.py,sha256=PHbSFNWOOcjQO5KZ91s2QJionm9BPNv_vPBB4-0rPfc,2069
+moldy/terminal_formatting.py,sha256=sur389eC9Kfs_5rxM-A6nYz1FM0R3Bf-QTaZxzUz1RQ,404
+moldy-2025.1.24.dist-info/METADATA,sha256=FCvVioq_3uCv4TPkQlmslXXU0-YXVrCRqwJAN5o7EOI,543
+moldy-2025.1.24.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+moldy-2025.1.24.dist-info/entry_points.txt,sha256=22l-QDm7r9XAXIzMhJ1yE1FBxjcRYwK3Dw0WHNHGMNU,52
+moldy-2025.1.24.dist-info/licenses/LICENSE.txt,sha256=UwRDb0aJevoo8R22YZYzqgaLN5vkZ-rG1DILOchn62E,1068
+moldy-2025.1.24.dist-info/RECORD,,
