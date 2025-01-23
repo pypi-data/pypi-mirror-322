@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: file-server-ez
+Version: 0.1.0
+Summary: Simple video file server
+Author-Email: tadeasf <business@tadeasfort.com>
+Requires-Python: >=3.12
+Requires-Dist: typer>=0.15.1
+Requires-Dist: prompt-toolkit>=3.0.50
+Requires-Dist: aiofiles>=24.1.0
+Requires-Dist: python-multipart>=0.0.20
+Requires-Dist: uvicorn>=0.34.0
+Requires-Dist: fastapi>=0.115.7
+Description-Content-Type: text/markdown
+
+# file-server
+
+Describe your project here.
