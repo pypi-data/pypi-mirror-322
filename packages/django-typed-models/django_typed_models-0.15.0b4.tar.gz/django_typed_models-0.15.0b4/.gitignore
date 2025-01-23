@@ -1,0 +1,13 @@
+build
+.pytest_cache
+.cache
+/.tox
+*.pyc
+*.pyo
+dist
+MANIFEST
+.coverage
+pip-log.txt
+*.egg-info
+*~
+.vscode
