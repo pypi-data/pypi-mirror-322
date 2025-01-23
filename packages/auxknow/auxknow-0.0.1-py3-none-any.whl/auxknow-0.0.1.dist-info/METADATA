@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: auxknow
+Version: 0.0.1
+Summary: A simple, powerful and highly-configurable Answer Engine.
+Home-page: https://github.com/AdiPat/nuclear-news-py
+Author: Aditya Patange (AdiPat)
+Author-email: contact.adityapatange@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: pydantic==2.10.4
+Requires-Dist: pydantic-settings==2.7.1
+Requires-Dist: pydantic_core==2.27.2
+Requires-Dist: firecrawl-py==1.8.0
+Requires-Dist: markdownify==0.14.1
+Requires-Dist: rich==13.9.4
+Requires-Dist: openai==1.59.9
+Requires-Dist: watchdog==6.0.0
