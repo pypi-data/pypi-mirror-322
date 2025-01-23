@@ -1,0 +1,11 @@
+curl_adapter/__init__.py,sha256=aR6vzaftY_NUJBSQNz89XEntjQA4sVxXIgTXU9SfOX4,312
+curl_adapter/base_adapter.py,sha256=g-2p8hUMPTIwajQBy0ublS0-00BH_fzdxE8Mp3EDKw0,18325
+curl_adapter/curl_cffi.py,sha256=S-sCQsYtzUQKOcFrA_hADZRfaDKTTlT93-OK8Qxdo94,6025
+curl_adapter/pycurl.py,sha256=csECIctSwDmg6DRiOo8RMm2sYKkDSJ47aUldK1Gmruo,1993
+curl_adapter/stream/handler.py,sha256=XfeHaTrqU8Ch-02HGegAKuOKIvors0wqitksDyTsBL4,6425
+curl_adapter/stream/response.py,sha256=YQA3kN6EEbdi7heR-95HHkTEqdpUi4yCTwReS5CArQo,6676
+curl_adapter-1.0.0.post2.dist-info/LICENSE,sha256=a7NAV9teHP4_Z7TgO3VdkTujlTDRTsOZ8jvg1Yo6ckw,1083
+curl_adapter-1.0.0.post2.dist-info/METADATA,sha256=AD1Uadioo4IrZXwhxLLIwZF6iMPyxU4v5EuOfWOY9FI,5509
+curl_adapter-1.0.0.post2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+curl_adapter-1.0.0.post2.dist-info/top_level.txt,sha256=0GXC6IqJwXEAyABNcZaKMSz5LtGsDHa1JqYx9AI06vc,13
+curl_adapter-1.0.0.post2.dist-info/RECORD,,
