@@ -1,0 +1,8 @@
+packageit/PackageIt.ini,sha256=dnPCZzH6bb_VCdXmme8aYVRb_hFkTlR_qDXdhqHR9BE,135
+packageit/README_body.rst,sha256=OpivT8mKlxyi3iIvB3fnqRx4vRJOhUrQRu7AdgVlBVM,1782
+packageit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packageit/packageit.py,sha256=ZMKK85Xjc5GtCndaGhF_nZSpfidXxI3zu_m_pam2hL8,100763
+packageit-3.4.0.dist-info/LICENSE,sha256=TTDPhbiey0coEVvQKOrC8w7qmxQDsZYIhf_2TdvW10Q,1094
+packageit-3.4.0.dist-info/METADATA,sha256=In5W81X5PJCBCu9zYRrP57BVffqlLYl1F5h0ChWveB8,6031
+packageit-3.4.0.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+packageit-3.4.0.dist-info/RECORD,,
