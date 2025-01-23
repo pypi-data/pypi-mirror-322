@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lmdlang"
+version = "0.1.0"
+description = "The simplest functional programming language"
+authors = []
+license = "MIT"
+readme = "README.md"
+exclude = ["**/__pycache__"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.scripts]
+lmdlang = "lmdlang.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
