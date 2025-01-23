@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]  # Required tools for building
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esseppi"  # Use a valid Python package name
+version = "0.4.3"
+description = "A shared utilities library for data processing, analysis, and interpretation."
+readme = "README.md"  # Path to your README file
+license = { file = "LICENSE" }
+authors = [
+    { name = "Esseppi Zeta", email = "lozingaro@duck.com" }
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "psutil",
+    "logging",
+    "joblib"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.7"
+
+[project.urls]
+homepage = "https://github.com/lozingaro/esseppi"
