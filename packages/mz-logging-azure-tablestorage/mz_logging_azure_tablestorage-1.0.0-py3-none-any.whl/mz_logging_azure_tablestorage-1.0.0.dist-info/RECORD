@@ -1,0 +1,10 @@
+mz_logging_azure_tablestorage/__init__.py,sha256=aOr15repuOUjVBYEZVhzvnxyJxv9hogc6cFdmiIDRIE,201
+mz_logging_azure_tablestorage/interfaces.py,sha256=kSE4ZXT8X34Y2fWl2-qyVnLx8BTUQFb2gHZqBJ4jhYM,1984
+mz_logging_azure_tablestorage/logger.py,sha256=DrrMdgiRVd9LArF-MDjTl4xC_Xpqg1OriHVpBO-Ybpo,4587
+mz_logging_azure_tablestorage/models.py,sha256=poxc4SYAv5Ly2IV-LPHnQJWzKRy1QW2LBZ37vDh3kvA,1067
+mz_logging_azure_tablestorage/storage.py,sha256=ZMOc3wDN84nk6L6MZFQf6Ptq3mK1zKQ42MDLaj0NVOQ,7498
+mz_logging_azure_tablestorage-1.0.0.dist-info/LICENSE,sha256=0F9vi7y-_ghzS4haLKtxyDcWJsVx0em7nH7Y2uTBE6Y,1083
+mz_logging_azure_tablestorage-1.0.0.dist-info/METADATA,sha256=03c2vrYOj4CJGPUOVZvBTELEJuZeFPq3wUmXz3JQpEw,4406
+mz_logging_azure_tablestorage-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mz_logging_azure_tablestorage-1.0.0.dist-info/top_level.txt,sha256=l0xHVrqyZoSdtWOLUdnlwv5DlcSVF9T4L190IOvvdFg,30
+mz_logging_azure_tablestorage-1.0.0.dist-info/RECORD,,
