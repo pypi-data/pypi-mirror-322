@@ -1,0 +1,33 @@
+from __future__ import annotations
+
+from collections.abc import AsyncGenerator
+
+import pytest_asyncio
+from fastapi import FastAPI
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from tabbit.asgi import setup_app
+from tabbit.database.models import Base
+from tests.util import get_test_session_manager
+
+
+@pytest_asyncio.fixture(loop_scope="function")
+async def session() -> AsyncGenerator[AsyncSession]:
+    """Yield an in-memory SQLite database session.
+
+    Initializes a database with no data.
+    """
+    session_manager = get_test_session_manager()
+    async with session_manager.engine.connect() as conn:
+        await conn.run_sync(Base.metadata.create_all)
+        async with session_manager.sessionmaker() as session:
+            yield session
+
+
+@pytest_asyncio.fixture(loop_scope="function")
+async def app() -> AsyncGenerator[FastAPI]:
+    session_manager = get_test_session_manager()
+    async with session_manager.engine.connect() as conn:
+        await conn.run_sync(Base.metadata.create_all)
+        app = setup_app(session_manager)
+        yield app

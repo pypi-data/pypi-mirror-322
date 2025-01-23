@@ -1,0 +1,129 @@
+[build-system]
+requires = ["hatch"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tabbit"
+version = "0.0.0-rc.1"
+description = "Debate tournament software"
+readme = "README.md"
+authors = [
+  { name = "Tom Kuson", email = "mail@tjkuson.me" },
+]
+requires-python = ">=3.13"
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.13",
+  "Typing :: Typed",
+]
+dependencies = [
+  "aiosqlite>=0.20.0",
+  "fastapi[standard]>=0.115.7",
+  "httpx>=0.28.1",
+  "pydantic>=2.10.5",
+  "pydantic-settings>=2.7.1",
+  "python-dotenv>=1.0.1",
+  "sqlalchemy[asyncio]>=2.0.37",
+]
+
+[project.urls]
+Repository = "https://github.com/tjkuson/tabbit"
+Releases = "https://github.com/tjkuson/tabbit/releases"
+Changelog = "https://github.com/tjkuson/tabbit/blob/main/CHANGELOG.md"
+
+[dependency-groups]
+dev = [
+  "coverage>=7.6.10",
+  "mypy>=1.14.1",
+  "pytest>=8.3.4",
+  "pytest-asyncio>=0.25.2",
+]
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+fail_under = 100
+skip_covered = true
+skip_empty = true
+show_missing = true
+
+[tool.mypy]
+strict = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_return_any = true
+warn_unreachable = true
+plugins = [
+  "pydantic.mypy",
+]
+
+[tool.pytest.ini_options]
+addopts = [
+  "--strict-markers",
+  "--strict-config",
+]
+filterwarnings = [
+  "error",
+]
+pythonpath = [
+  "src",
+]
+xfail_strict = true
+
+[tool.ruff.lint]
+select = [
+  "F",
+  "E",
+  "W",
+  "I",
+  "N",
+  "UP",
+  "YTT",
+  "ANN",
+  "ASYNC",
+  "BLE",
+  "FBT",
+  "B",
+  "A",
+  "C4",
+  "DTZ",
+  "T10",
+  "EXE",
+  "FA",
+  "ISC",
+  "ICN",
+  "LOG",
+  "G",
+  "INP",
+  "PIE",
+  "T20",
+  "PYI",
+  "PT",
+  "RSE",
+  "SLF",
+  "SLOT",
+  "SIM",
+  "TID",
+  "ARG",
+  "ERA",
+  "PGH",
+  "PL",
+  "FLY",
+  "FAST",
+  "PERF",
+  "RUF",
+  "FURB",
+]
+
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.isort]
+force-single-line = true
+
+[tool.ruff.lint.pycodestyle]
+max-doc-length = 72

@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: tabbit
+Version: 0.0.0rc1
+Summary: Debate tournament software
+Project-URL: Repository, https://github.com/tjkuson/tabbit
+Project-URL: Releases, https://github.com/tjkuson/tabbit/releases
+Project-URL: Changelog, https://github.com/tjkuson/tabbit/blob/main/CHANGELOG.md
+Author-email: Tom Kuson <mail@tjkuson.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Typing :: Typed
+Requires-Python: >=3.13
+Requires-Dist: aiosqlite>=0.20.0
+Requires-Dist: fastapi[standard]>=0.115.7
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: pydantic-settings>=2.7.1
+Requires-Dist: pydantic>=2.10.5
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: sqlalchemy[asyncio]>=2.0.37
+Description-Content-Type: text/markdown
+
+# Tabbit
+
+> [!WARNING]
+> Tabbit is in early development. Expect breaking changes and bugs.
+
+## Versioning
+
+Tabbit does not yet have a stable API. Thus, current versions are `0.x.x`, which
+reflects that even a patch release may contain breaking changes. This adheres to
+[Semantic Versioning] conventions.
+
+## Contributing
+
+If you are interested in helping with Tabbit, read the [contributing guide] to
+get started.
+
+[Semantic Versioning]: https://semver.org/
+[contributing guide]:
+  https://github.com/tjkuson/tabbit/blob/main/CONTRIBUTING.md

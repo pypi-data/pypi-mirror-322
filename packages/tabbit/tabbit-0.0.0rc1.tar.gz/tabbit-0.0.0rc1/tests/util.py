@@ -1,0 +1,10 @@
+from __future__ import annotations
+
+from tabbit.database.session import SessionManager
+
+
+def get_test_session_manager() -> SessionManager:
+    """Get an in-memory SQLite session manager for testing."""
+    return SessionManager(
+        database_url="sqlite+aiosqlite:///:memory:",
+    )

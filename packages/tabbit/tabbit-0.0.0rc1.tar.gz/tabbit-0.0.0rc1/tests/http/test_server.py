@@ -1,0 +1,22 @@
+from __future__ import annotations
+
+import http
+
+import httpx
+import pytest
+
+from tabbit.asgi import app
+from tabbit.schemas.enums import ServerHealth
+from tabbit.schemas.root import ServerHealthResponse
+
+
+@pytest.mark.asyncio
+async def test_ping() -> None:
+    async with httpx.AsyncClient(
+        transport=httpx.ASGITransport(app=app),
+        base_url="http://test",
+    ) as client:
+        response = await client.get("/ping")
+        parsed_response = ServerHealthResponse.model_validate(response.json())
+        assert response.status_code == http.HTTPStatus.OK
+        assert parsed_response.status is ServerHealth.READY

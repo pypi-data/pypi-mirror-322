@@ -1,0 +1,9 @@
+from __future__ import annotations
+
+import pydantic
+
+from tabbit.schemas.enums import ServerHealth
+
+
+class ServerHealthResponse(pydantic.BaseModel):
+    status: ServerHealth = ServerHealth.READY

@@ -1,0 +1,85 @@
+> from __future__ import annotations
+  
+> import http
+  
+> import httpx
+> import pytest
+> from fastapi import FastAPI
+  
+  
+> @pytest.mark.asyncio
+> async def test_int_tournament_crud(app: FastAPI) -> None:
+>     NAME = "World Universities Debating Championships 2025"
+>     ABBREVIATION = "WUDC 2025"
+  
+>     async with httpx.AsyncClient(
+>         transport=httpx.ASGITransport(app=app),
+>         base_url="http://test",
+>     ) as client:
+          # Create
+>         response = await client.post("/v1/tournaments/create", json={"name": NAME})
+>         assert response.status_code == http.HTTPStatus.OK
+>         tournament_id = response.json()["id"]
+  
+          # Read
+>         response = await client.get(f"/v1/tournaments/{tournament_id}")
+>         assert response.status_code == http.HTTPStatus.OK
+>         assert response.json() == {
+>             "id": tournament_id,
+>             "name": NAME,
+>             "abbreviation": None,
+>         }
+  
+          # Update
+>         response = await client.patch(
+>             f"/v1/tournaments/{tournament_id}",
+>             json={"abbreviation": ABBREVIATION},
+>         )
+>         assert response.status_code == http.HTTPStatus.OK
+>         assert response.json() == {
+>             "id": tournament_id,
+>             "name": NAME,
+>             "abbreviation": ABBREVIATION,
+>         }
+  
+          # Read (to check the update persists)
+>         response = await client.get(f"/v1/tournaments/{tournament_id}")
+>         assert response.status_code == http.HTTPStatus.OK
+>         assert response.json() == {
+>             "id": tournament_id,
+>             "name": NAME,
+>             "abbreviation": ABBREVIATION,
+>         }
+  
+          # Update with None (cf. unset)
+>         response = await client.patch(
+>             f"/v1/tournaments/{tournament_id}",
+>             json={"abbreviation": None},
+>         )
+>         assert response.status_code == http.HTTPStatus.OK
+>         assert response.json() == {
+>             "id": tournament_id,
+>             "name": NAME,
+>             "abbreviation": None,
+>         }
+  
+          # Read (to check the update persists)
+>         response = await client.get(f"/v1/tournaments/{tournament_id}")
+>         assert response.status_code == http.HTTPStatus.OK
+>         assert response.json() == {
+>             "id": tournament_id,
+>             "name": NAME,
+>             "abbreviation": None,
+>         }
+  
+          # Delete
+>         response = await client.delete(f"/v1/tournaments/{tournament_id}")
+>         assert response.status_code == http.HTTPStatus.NO_CONTENT
+  
+          # Read (to check the deleted tournament cannot be found)
+>         response = await client.get(f"/v1/tournaments/{tournament_id}")
+>         assert response.status_code == http.HTTPStatus.NOT_FOUND
+  
+          # Delete (to check the deleted tournament cannot be found)
+>         response = await client.delete(f"/v1/tournaments/{tournament_id}")
+>         assert response.status_code == http.HTTPStatus.NOT_FOUND
