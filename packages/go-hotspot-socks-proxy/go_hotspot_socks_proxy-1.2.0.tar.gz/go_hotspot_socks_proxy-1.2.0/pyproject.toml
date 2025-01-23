@@ -1,0 +1,35 @@
+[project]
+name = "go-hotspot-socks-proxy"
+version = "1.2.0"
+description = "SOCKS proxy for routing traffic through WiFi interface"
+authors = [
+    { name = "tadeasf", email = "business@tadeasfort.com" },
+]
+dependencies = [
+    "typer>=0.15.1",
+    "prompt-toolkit>=3.0.48",
+    "rich>=13.9.4",
+    "psutil>=6.1.0",
+    "pyperclip>=1.9.0",
+    "dnspython>=2.7.0",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[project.scripts]
+hotspot-proxy = "go_hotspot_socks_proxy.cmd.cli:app"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.build]
+includes = [
+    "src/go_hotspot_socks_proxy",
+]
+package-dir = "src"
