@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tests/test_module.py
+vietnamese_conceptizer/__init__.py
+vietnamese_conceptizer/processor.py
+vietnamese_conceptizer.egg-info/PKG-INFO
+vietnamese_conceptizer.egg-info/SOURCES.txt
+vietnamese_conceptizer.egg-info/dependency_links.txt
+vietnamese_conceptizer.egg-info/requires.txt
+vietnamese_conceptizer.egg-info/top_level.txt
