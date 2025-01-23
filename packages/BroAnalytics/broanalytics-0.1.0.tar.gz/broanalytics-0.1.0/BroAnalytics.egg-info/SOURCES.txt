@@ -1,0 +1,6 @@
+pyproject.toml
+BroAnalytics/__init__.py
+BroAnalytics.egg-info/PKG-INFO
+BroAnalytics.egg-info/SOURCES.txt
+BroAnalytics.egg-info/dependency_links.txt
+BroAnalytics.egg-info/top_level.txt

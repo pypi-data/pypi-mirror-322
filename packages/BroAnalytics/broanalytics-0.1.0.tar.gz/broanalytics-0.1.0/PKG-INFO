@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: BroAnalytics
+Version: 0.1.0
+Summary: Streamlit app to plot tracked sport
+Author-email: Ella Bahry <bellonet@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/bellonet/broanalytics
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
