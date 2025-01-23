@@ -1,0 +1,16 @@
+CATK/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CATK/location.py,sha256=E7F5OoEKYhf6uSnlDwWwqCAnWJ4aCv2pfi5bB4lqEhE,11006
+CATK/name.py,sha256=O-FZthWco1XuVmszxx0sXbCQXxj2wv34OBxiVRBuGME,6119
+CATK/pleiad.py,sha256=4-YTdszlmyXc6u-yf66NTsz4FdVgKcuiY00pFD_78e4,19186
+CATK/pleiades_wrangler.py,sha256=GjeoLLF__12zzfVaNs_XEbBeQIBUJZhxy3LW12_lKbI,7590
+CATK/topos_tool_kit.py,sha256=qnuf1HPazrFf74JVH-kyaJsUvZOT-vZnLK5Nnfp4Dug,4961
+CATK/utils.py,sha256=iD0qACssDj20tSRqnrYmoNut6rQ02nFutityKKJvQtc,2139
+CATK/data/ToposTextGazetteer.jsonld,sha256=_1p4nhWQUOWnh-HjRmMSbWsDdziGyj7ZbXhdib2NXTM,9331965
+CATK/data/classical_place_refs.csv,sha256=Y4pxpTxQXhC5vpjitoGK4KmG6dm0yGmNaFkosiFBybM,11349180
+CATK/data/pleiades-places-latest.json.gz,sha256=kxkITtWndVKMXoQIO39FaMzrGAy5I9vvCictu-BZf-o,46249202
+CATK/data/topos_data.csv,sha256=dO3KlCxvXV1F0JapVhqdpJMJyuYmNJgpaXMdlNjVF9E,2119051
+CATK/data/topos_text_htms/topos_text_gazeteer.jsonld,sha256=u_diflm-53T8djmYMHr6_hTgVmfMn1mroik61ncNkVA,8945101
+catk-0.0.1.dist-info/METADATA,sha256=m7DevaTZIx7Asvu1CETjddGskTFksvZvFk5bGzcK33w,394
+catk-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+catk-0.0.1.dist-info/licenses/LICENSE,sha256=5F6bzcm_36tilVvlD5Il6X8vQLHWh6z2606IO6VlQKc,1092
+catk-0.0.1.dist-info/RECORD,,
