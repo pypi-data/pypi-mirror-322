@@ -1,0 +1,2 @@
+include prediction_btc\Model_F_2,4_Acc97.h5
+include rediction_btc\Model_T_2,4_Acc97.pkl
