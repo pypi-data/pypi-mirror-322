@@ -1,0 +1,35 @@
+{
+  "metadata_instances": [
+    {
+      "snippet": {
+        "id": "earthly.egov-demo-snippets.collectors.go-test-run@main",
+        "name": "Go version",
+        "language": "node",
+        "using": null,
+        "inline": false
+      },
+      "event": {
+        "bin": "/home/me/actions-runner/_work/_tool/go/1.23.4/x64/bin/go",
+        "args": [
+          "go",
+          "test",
+          "./..."
+        ],
+        "envs": [
+          "MY_COOL_VAR=123",
+          "MY_OTHER_VAR=456"
+        ],
+        "phase": 1
+      },
+      "execution": {
+        "collected_at": "2024-12-18T22:46:25.246268133-07:00",
+        "duration": 7548565904,
+        "scope": 3,
+        "execution_id": "f2b01af1-7d19-456f-a476-0812393e736e"
+      },
+      "payload": {
+        "test_true": true
+      }
+    }
+  ]
+}
