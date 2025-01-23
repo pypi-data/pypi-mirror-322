@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: suid-machine
+Version: 0.1.0
+Summary: GCODE interface package for object manipulation with SUID system
+Author: Henrycke Bozza Schenberk
+Author-email: oschenberk@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pymodbustcp (>=0.3.0,<0.4.0)
+Requires-Dist: pyserial (>=3.5,<4.0)
+Requires-Dist: suid-core (>=1.2.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+

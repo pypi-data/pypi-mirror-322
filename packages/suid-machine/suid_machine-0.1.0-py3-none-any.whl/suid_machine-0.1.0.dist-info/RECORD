@@ -1,0 +1,8 @@
+suid_machine/__init__.py,sha256=VSp5W5GcJliiZYlp6jdWhRSRrzzVIkZ-xJx-sx-6AT0,181
+suid_machine/client.py,sha256=YWBGA6iC8V3y1jS_r1iK_aDUvZxk4jJVLjhURwH4rlc,1939
+suid_machine/interface.py,sha256=VTP9VlgweV1L-RkalHHtyvd96SzD-NAI1sf7-NjJnEs,598
+suid_machine/machine.py,sha256=EIJZeDpjZMMEHzAR0nSb-wBBHPG-4LWxsQiLrijUw3s,5086
+suid_machine/server.py,sha256=--L_qJd36-WY-1_GD82UVLytFtfhFVlqeoQd1k2wErY,2825
+suid_machine-0.1.0.dist-info/METADATA,sha256=5yLCphlfhVMb3u6s3_dMVEzv-BkaTrEkb06BQrgF9nY,593
+suid_machine-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+suid_machine-0.1.0.dist-info/RECORD,,
