@@ -1,0 +1,15 @@
+koboldapi/__init__.py,sha256=3OPdozAOnLE04CCU-nAvldc3KaMQPtDyFB50R2w3aCA,736
+koboldapi/chunking/__init__.py,sha256=X_8Z_aeur717gmtqXj2GcqK-m3GqTUN4YfAgzDRkuAg,75
+koboldapi/chunking/chunker_regex.py,sha256=6AQ1sfigmIHPVNF6Of3gBDAGY---C5E_bQklD-MVLks,5775
+koboldapi/chunking/processor.py,sha256=jFjWDTlzSVNf82nSwkULUNpJvBcQ6GrSimFZjuBECxM,3094
+koboldapi/core/__init__.py,sha256=97uJnIKEAFH5xgqaJesLFGIBFM6CsQVCI6XnfReOtA4,221
+koboldapi/core/api.py,sha256=TllmnyoRS7eBE8V-FrkYhajNIWIZ99iwWb7m65rSER4,10229
+koboldapi/core/core.py,sha256=oGrqHXa3Exc71GlF5I-d5As2i0wO4a6kyLLygN3Eh8I,1346
+koboldapi/core/default_templates.py,sha256=m7dl6Rt7WBp85yk-leJlHbbHL7AyfWlSj26W-2z4HSc,18480
+koboldapi/core/templates.py,sha256=Umbeg9iePc9rRoIIL25lKwxBm-0V5IbZ58jd8i5kq7w,6428
+koboldapi/image/__init__.py,sha256=RplzOrd4XDm9jv9by4x0ylCdKR7SShPPIu5a1xsbUtU,69
+koboldapi/image/processor.py,sha256=fveScr_SsZxTqsdgIpiMUcucUBcOKQZdguNyuhsFDi0,5669
+koboldapi-0.5.0.dist-info/METADATA,sha256=E8kWp0GAtH3DAw_fKQUMa7Q3yepxkBocS4fqZ94KOTU,6772
+koboldapi-0.5.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+koboldapi-0.5.0.dist-info/top_level.txt,sha256=z7B1q7mK8PrI9_dRDz7oQ_ezJGc1r4ARIMhtVuWb_dE,10
+koboldapi-0.5.0.dist-info/RECORD,,
