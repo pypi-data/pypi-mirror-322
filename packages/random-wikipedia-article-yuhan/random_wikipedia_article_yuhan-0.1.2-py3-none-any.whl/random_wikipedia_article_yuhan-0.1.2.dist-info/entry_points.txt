@@ -1,0 +1,2 @@
+[console_scripts]
+random-wikipedia-article = wiki_displayer.wiki:main
