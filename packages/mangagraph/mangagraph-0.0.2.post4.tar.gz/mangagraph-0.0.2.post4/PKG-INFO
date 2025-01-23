@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: mangagraph
+Version: 0.0.2.post4
+Summary: Async manga parser-converter from mangalib to telegraph pages
+Home-page: https://github.com/damirTAG/mangagraph
+Author: damirTAG
+Author-email: damirtagilbayev17@gmail.com
+Keywords: mangalib,mangalib-parser,manga,telegraph
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: aiohttp
+Requires-Dist: sqlalchemy
+Requires-Dist: telegraph
+Requires-Dist: asyncio
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
