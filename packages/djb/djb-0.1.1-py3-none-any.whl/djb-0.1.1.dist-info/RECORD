@@ -1,0 +1,17 @@
+djb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djb/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djb/cli/click_util.py,sha256=KC-fgcxS9EPRL-EoCnbnqUxRgnEq8kzo0C6thWp2t8s,728
+djb/cli/constants.py,sha256=6zGhB1hVaQGdrrZ0gj_jKBoxxVWHsR8ltxWLlZN0S_w,193
+djb/cli/create.py,sha256=dqr7-inAKPVDx-lUtGq-YenwvgtCvM_WgoV_mmJsDaE,3641
+djb/cli/djb-create,sha256=cTDF2RIKaQngzCL1rGOL0tP-hrebI45x9kpehwJZfQ4,1707
+djb/cli/djb.py,sha256=iUtvzhwt3yxlgQRJY55XE5QFA1kcCkDJ7UKP7FGSNjc,1261
+djb/cli/djbrc.py,sha256=5VO0Sp2bkDv9GqJL9QfURwwO6GVwIoGdf4-wcgYY910,1147
+djb/cli/install.py,sha256=9JhxRo9Pi4c8e3t_Y1NQt46jXsVPJrDBT7b8qNvtHp4,9615
+djb/cli/up.py,sha256=7fIiUhrNZ0IS6-HxaXU8l_4gbija4kzh-82tUw5frks,942
+djb-0.1.1.data/scripts/djb-create,sha256=cTDF2RIKaQngzCL1rGOL0tP-hrebI45x9kpehwJZfQ4,1707
+djb-0.1.1.dist-info/LICENSE,sha256=nAubXOfYslHELlOHMIj29aYqn-Dm6KVWekB3Dyy6sGI,1063
+djb-0.1.1.dist-info/METADATA,sha256=Y4vhE1hi_mNkxxUYC6J1eWRvuB_a9f_LzI9S4L8ljr4,4142
+djb-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+djb-0.1.1.dist-info/entry_points.txt,sha256=3XVowygcohVCF6984q3aFBW_5P4GlXMYomp0x20oLRw,41
+djb-0.1.1.dist-info/top_level.txt,sha256=CRxJyeXZa0NS5LICCg6fdP4OqY4e8JrkNjiZ46dqEk8,4
+djb-0.1.1.dist-info/RECORD,,
