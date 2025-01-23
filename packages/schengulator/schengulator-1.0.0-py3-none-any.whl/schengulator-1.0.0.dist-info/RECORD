@@ -1,0 +1,14 @@
+schengulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schengulator/check_days_left.py,sha256=rH3K2czVIh0SqiYkIHRbnTmORGT4NGMUIBc71GS73bo,3349
+schengulator/check_stay.py,sha256=117I-ql60CQQcOr0MUJSGpMzrOvUV62A2bkscBLwaqI,1249
+schengulator/example_stays.csv,sha256=_1oL9OiSvE13wzBn1JU_XrYpv7f39b0O3uSsBFQtQuE,275
+schengulator/get_date.py,sha256=kWtkCbUAGElNJbd8BLgcPGA6gTjEoail2iJ79oaWhZ8,628
+schengulator/schengenstay.py,sha256=cfknBa7CDKeQzL0vvrgvcxu9v7-RWUffsxvUOfN-bzI,3298
+schengulator/stay.py,sha256=LzwsMJN60WaLU23E8X3e9vbYqTQ1iBUHQA0Hj3cLexY,2543
+schengulator/stays_from_csv.py,sha256=7sIul4OAxtJx0SIN08rZezfrkkhlypY09_mMrkqRgV4,942
+schengulator/test.py,sha256=vDghrmrceV2RzOzWJ_ddyExxXHo4OvafbANcgfAWd7g,2694
+schengulator-1.0.0.dist-info/LICENSE,sha256=D98SruX9HXntfpBoCVzS6FQ9UhWJkH1PSjS8CKTvqaI,1066
+schengulator-1.0.0.dist-info/METADATA,sha256=2oSi9-7msF-CRxEtUG4iWsMnhFtIySUX0WjApnFV3wk,5020
+schengulator-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+schengulator-1.0.0.dist-info/top_level.txt,sha256=JdUGDcFPxkSioWt_A4VQJZovITxXgFc7Wz9WP-zteUw,13
+schengulator-1.0.0.dist-info/RECORD,,
