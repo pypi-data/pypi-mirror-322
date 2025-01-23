@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: taior
+Version: 1.0.3
+Summary: The Amnesic Incognito Oblivious Routing
+Home-page: https://github.com/taiorproject/taior
+Author: Taior Project
+Author-email: livrasand@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: pycryptodome
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="screenshots/taior%20light.png" width="100%">
+  <source media="(prefers-color-scheme: light)" srcset="screenshots/taior%20dark.png" width="100%">
+  <img src="screenshots/taior%20dark.png" alt="Taior Logo" width="100%">
+</picture>
+
+> The Amnesic Incognito Oblivious Routing
+
+## What is Taior?
+
+**Taior** is an advanced, cutting-edge decentralized network that redefines the way we think about **secure** and **anonymous** communication. Built for those who demand privacy, it enables peer-to-peer (P2P) file transfers and data exchanges free from surveillance, censorship, or centralized control.
+
+With **Taior**, your communications are encrypted with military-grade cryptography, routed through a dynamic mesh network, and kept completely **anonymous**. Whether you're sharing sensitive files, communicating with peers, or simply want to disappear into the digital noise â€” Taior makes it possible.
+
+## Why Choose Taior?
+
+Taior isn't just another privacy tool. Itâ€™s a **system built by privacy advocates, for privacy advocates**, designed to be as secure, scalable, and efficient as the real-world demands of todayâ€™s digital society. Below are the core features that make **Taior** the **ultimate choice for those who prioritize security**:
+
+## Key Features
+
+- **Complete Anonymity**  
+  Communication between nodes is shielded from eavesdropping, maintaining **absolute privacy**. Only you and your intended recipient have the decryption keys, ensuring full anonymity even against sophisticated adversaries.
+  
+- **End-to-End Encryption**  
+  With **AES-256** encryption, your data is locked down with military-grade security from the moment it leaves your machine, ensuring that nobody â€” not even us â€” can access it.
+
+- **Distributed, Decentralized**  
+  Forget central servers â€” Taiorâ€™s fully decentralized architecture ensures there are no weak points, no single points of failure, and no way for your data to be intercepted or tampered with.
+
+- **Cryptographically Secure Routing**  
+  Using the **X25519** algorithm for key exchange and the **SHA-256** hash function for integrity verification, Taior ensures that your communication is not only private, but also protected against attacks.
+
+- **Peer-to-Peer Mesh Network**  
+  Build a resilient network without reliance on centralized infrastructure. Nodes in Taior form a self-healing mesh, automatically optimizing routing paths for **maximum efficiency** and **security**.
+
+- **CLI for Advanced Control**  
+  Taior's Command Line Interface (CLI) allows full control of your node and network configurations. Whether you're an admin, a power user, or a privacy-conscious individual, Taior gives you the tools to **customize** and **optimize** your experience.
+
+## Installation
+
+Ready to take control of your digital privacy? Install Taior easily with pip:
+
+```sh
+pip install taior
+```
+
+To upgrade to the latest version:
+
+```sh
+pip install --upgrade taior
+```
+
+To uninstall Taior:
+
+```sh
+pip uninstall taior
+```
+
+To ensure you completely remove the package, use:
+
+```sh
+pip uninstall -y taior
+```
+
+## How Taior Works
+
+Taior operates on a powerful, flexible framework designed to maximize privacy and minimize exposure:
+
+- **Server & Client Modes**  
+  Start as a server to receive incoming connections or act as a client to send files securely to other peers. Itâ€™s entirely up to you â€” you decide your role on the network.
+
+- **Key Generation & Authentication**  
+  Each node generates unique cryptographic keys (private and public), enabling secure authentication and the establishment of encrypted communication channels.
+
+- **File Encryption & Decryption**  
+  Files are encrypted using a shared secret key generated from the public keys of communicating nodes. Only the intended recipient can decrypt the files with their private key.
+
+- **Peer Discovery & Persistence**  
+  Nodes keep track of known peers via a JSON-based registry, facilitating seamless connection to other peers, and ensuring easy expansion of your trusted network.
+
+## Security Features
+
+Security is woven into the very fabric of Taior. Hereâ€™s how we make sure your data stays safe:
+
+- **AES-256 Encryption**  
+  File contents are encrypted using AES-256 to prevent unauthorized access â€” no backdoors, no exceptions.
+
+- **X25519 for Key Exchange**  
+  Securely exchange keys between peers with the elliptic curve **X25519** â€” a trusted algorithm for protecting communication against future quantum threats.
+
+- **SHA-256 Integrity Check**  
+  Every file sent through Taior is verified using **SHA-256**, ensuring that no tampering occurs during transmission.
+
+- **Decentralized Network Design**  
+  Taior operates without central control, ensuring that your communication is never at risk from a single compromised point.
+
+## Project Vision
+
+- **Mission**  
+  Taior was created with a single mission: to give users control over their privacy in a world where surveillance is omnipresent. We believe that freedom of communication is a fundamental right, and Taior was built to ensure that right remains unbroken, even in the face of increasing global censorship and control.
+
+- **Future Commitment**  
+  As digital threats evolve, Taior evolves. With advanced cryptography, a robust P2P architecture, and constant innovation, weâ€™re committed to providing a solution that scales with the needs of users who care deeply about their privacy.
+
+## Get Involved
+
+The Taior project is open-source and driven by a passionate community. If you want to contribute to building the future of secure and anonymous communication, visit our repository and join the movement.
