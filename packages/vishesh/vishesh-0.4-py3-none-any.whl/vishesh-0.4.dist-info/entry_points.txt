@@ -1,0 +1,2 @@
+[console_scripts]
+vishesh = vishesh.main:main
