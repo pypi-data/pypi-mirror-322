@@ -1,0 +1,1 @@
+Update bitbucket pipelines to use common scripts for checking for changelog snippets and verifying doc builds.
