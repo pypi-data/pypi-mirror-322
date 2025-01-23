@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+mymathpack/__init__.py
+mymathpack/math_operations.py
+mymathpack.egg-info/PKG-INFO
+mymathpack.egg-info/SOURCES.txt
+mymathpack.egg-info/dependency_links.txt
+mymathpack.egg-info/top_level.txt
