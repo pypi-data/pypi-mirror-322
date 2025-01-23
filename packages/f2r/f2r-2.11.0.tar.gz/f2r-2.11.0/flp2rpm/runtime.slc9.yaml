@@ -1,0 +1,51 @@
+OpenSSL:
+  - openssl
+opengl:
+  - mesa-libGLU-devel
+Xdevel:
+  - libX11
+  - libXpm
+  - libXext
+  - libXft
+MySQL:
+  - mysql-libs
+abseil:
+  - abseil-cpp
+  - abseil-cpp-devel
+AliEn-CAs:
+  - zlib  # as there is nothing to install for AliEn-CAs, we must fake an equivalent system RPM
+motif:
+  - motif
+system-apr:
+  - apr
+  - apr-devel
+system-apr-util:
+  - apr-util
+  - apr-util-devel
+system-cyrus-sasl:
+  - cyrus-sasl
+  - cyrus-sasl-devel
+  - cyrus-sasl-md5
+system-subversion:
+  - subversion
+  - subversion-devel
+Python:
+  - python3
+  - python3-pip
+  - python3-setuptools
+FreeType:
+  - freetype
+libuv:
+  - libuv
+lz4:
+  - lz4
+zlib:
+  - zlib
+libpng:
+  - libpng
+GLFW:
+  - glfw
+lzma:
+  - xz-libs
+libxml2:
+  - libxml2
