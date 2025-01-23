@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python_PixelArt
+Version: 0.3.3
+Summary: Une bibliothèque qui fait des Pixel Arts. / A library that makes Pixel Arts.
+Author: Léonor Leclerc
+Author-email: leo-nor7777@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE_FR
+Requires-Dist: Pillow
+Requires-Dist: numpy
+
+🇫🇷 - python_PixelArt est une bibliothèque Python qui convertit une image en Pixel Art.
+
+🇬🇧 - python_PixelArt is a Python library that convert an image to a Pixel Art.
