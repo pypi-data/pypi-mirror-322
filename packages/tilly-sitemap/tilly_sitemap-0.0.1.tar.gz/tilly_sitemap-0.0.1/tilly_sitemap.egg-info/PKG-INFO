@@ -1,0 +1,33 @@
+Metadata-Version: 2.2
+Name: tilly-sitemap
+Version: 0.0.1
+Summary: Tilly plugin creating a sitemap.xml
+Home-page: https://github.com/tilly-pub/tilly-sitemap
+Author: Ronald Luitwieler
+Author-email: ronald.luitwieler@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: tilly
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# tilly-sitemap
+
+Generate sitemap.xml for tilly sites.
+
+## robots.txt
+
+This plugin adds a robots.txt file pointing to the sitemap:
+
+Sitemap: http://example.com/sitemap.xml
+
