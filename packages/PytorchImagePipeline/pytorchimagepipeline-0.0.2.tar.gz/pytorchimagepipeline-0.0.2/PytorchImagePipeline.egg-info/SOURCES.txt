@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+PytorchImagePipeline.egg-info/PKG-INFO
+PytorchImagePipeline.egg-info/SOURCES.txt
+PytorchImagePipeline.egg-info/dependency_links.txt
+PytorchImagePipeline.egg-info/top_level.txt
+tests/test_foo.py
