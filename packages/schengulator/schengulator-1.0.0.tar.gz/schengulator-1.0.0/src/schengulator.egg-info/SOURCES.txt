@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/schengulator/__init__.py
+src/schengulator/check_days_left.py
+src/schengulator/check_stay.py
+src/schengulator/example_stays.csv
+src/schengulator/get_date.py
+src/schengulator/schengenstay.py
+src/schengulator/stay.py
+src/schengulator/stays_from_csv.py
+src/schengulator/test.py
+src/schengulator.egg-info/PKG-INFO
+src/schengulator.egg-info/SOURCES.txt
+src/schengulator.egg-info/dependency_links.txt
+src/schengulator.egg-info/top_level.txt
