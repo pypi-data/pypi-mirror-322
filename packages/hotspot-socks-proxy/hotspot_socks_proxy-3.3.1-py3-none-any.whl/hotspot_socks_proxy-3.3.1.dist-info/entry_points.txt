@@ -1,0 +1,5 @@
+[console_scripts]
+hotspot-proxy = hotspot_socks_proxy.cmd.cli:app
+
+[gui_scripts]
+
