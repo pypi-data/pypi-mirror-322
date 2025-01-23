@@ -1,0 +1,3 @@
+[console_scripts]
+lmdlang=lmdlang.main:main
+
