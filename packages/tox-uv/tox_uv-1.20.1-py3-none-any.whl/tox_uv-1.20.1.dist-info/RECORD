@@ -1,0 +1,15 @@
+tox_uv/__init__.py,sha256=zB4HY7F50nWzf0FqqsE9qp-MTdhgwNYxx8w8kyDMNyg,149
+tox_uv/_installer.py,sha256=EOYKAOOwP9-_sTTzN5gEBAgBsNeQdnW3wbWKWNdM9Is,6156
+tox_uv/_package.py,sha256=9BHs-X_4H2z8Gaz2dSSpMU6aW4BN7TfA6pQIu2A8Oqc,545
+tox_uv/_run.py,sha256=JJaVR3uxHy-xremYZg95wV50MC8oNUMnkpwdv0Q7t3E,856
+tox_uv/_run_lock.py,sha256=0cePRaNd154XaZ6GWkx1fIFHwS3jIZ6HjIeD-oYPCJU,3381
+tox_uv/_venv.py,sha256=oqsdw_w7g4gonRGW-XiDgSLHI9zq6gjaiwj_OZP4sPI,11490
+tox_uv/_venv_query.py,sha256=7Vfot8BAzX2IHQVyhcMjFjJTUA46kOl8t6ZCk6iifaY,321
+tox_uv/plugin.py,sha256=jc0XTfrmTfTTlR1TEbGYyqmvKT0G5GcXnlfNIIymXrI,813
+tox_uv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tox_uv/version.py,sha256=CpybKmOjAAXVn9xeRIO8CzXm6W0x2lWNzRrlDbLJM9k,413
+tox_uv-1.20.1.dist-info/METADATA,sha256=XPNiKyVCr739ZmcGCmZvn9oNiTJB09ybBzarchJBxxw,8414
+tox_uv-1.20.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+tox_uv-1.20.1.dist-info/entry_points.txt,sha256=NdbZYEUAq47Yh77-tuEOWa6m9D-vMYag5qOiENTwZUk,29
+tox_uv-1.20.1.dist-info/licenses/LICENSE,sha256=kOJeH68qSq6o2V7o5_VziwUqGswMnFgGgQH5Mahr1Yg,1023
+tox_uv-1.20.1.dist-info/RECORD,,
