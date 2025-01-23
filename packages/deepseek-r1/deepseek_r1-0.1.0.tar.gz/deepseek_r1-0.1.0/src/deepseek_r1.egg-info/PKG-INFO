@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: deepseek-r1
+Version: 0.1.0
+Summary: Your project description
+Requires-Python: >=3.8
+Requires-Dist: openai
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: rich
+Requires-Dist: prompt_toolkit
