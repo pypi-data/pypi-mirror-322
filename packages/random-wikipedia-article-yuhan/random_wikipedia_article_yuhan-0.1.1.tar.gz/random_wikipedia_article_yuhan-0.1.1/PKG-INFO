@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: random-wikipedia-article-yuhan
+Version: 0.1.1
+Summary: A simple tool to display random Wikipedia articles
+Author-email: Your Name <your.email@example.com>
+Requires-Python: >=3.8
+Requires-Dist: requests
