@@ -1,0 +1,61 @@
+import pytest
+import pyperclip
+from typer.testing import CliRunner
+from ..main import app
+
+runner = CliRunner()
+
+def test_convert_grab():
+    curl_cmd = """curl 'https://api.example.com/data'"""
+    pyperclip.copy(curl_cmd)
+    
+    result = runner.invoke(app, ["convert", "-f", "grab", "--test-mode"])
+    assert result.exit_code == 0
+    assert "has been copied to clipboard" in result.stdout
+
+def test_convert_context():
+    curl_cmd = """curl 'https://api.example.com/data'"""
+    pyperclip.copy(curl_cmd)
+    
+    result = runner.invoke(app, ["convert", "-f", "context", "--test-mode"])
+    assert result.exit_code == 0
+    assert "has been copied to clipboard" in result.stdout
+
+def test_show_output():
+    curl_cmd = """curl 'https://api.example.com/data'"""
+    pyperclip.copy(curl_cmd)
+    
+    result = runner.invoke(app, ["convert", "-f", "grab", "-v", "--test-mode"])
+    assert result.exit_code == 0
+    assert "self.g.go('https://api.example.com/data')" in pyperclip.paste()
+
+def test_invalid_curl():
+    pyperclip.copy("not a curl command")
+    
+    result = runner.invoke(app, ["convert", "-f", "grab", "--test-mode"])
+    assert result.exit_code == 1
+    assert "Invalid curl command" in str(result.stdout)
+
+def test_version():
+    result = runner.invoke(app, ["--version"])
+    assert result.exit_code == 0
+    assert "curl-to-context version:" in result.stdout
+
+def test_convert_interactive(monkeypatch):
+    # Mock clipboard content
+    curl_cmd = """curl 'https://api.example.com/data'"""
+    pyperclip.copy(curl_cmd)
+    
+    result = runner.invoke(app, ["convert", "--test-mode"])
+    assert result.exit_code == 0
+    assert "has been copied to clipboard" in result.stdout
+
+def test_help():
+    result = runner.invoke(app, ["--help"])
+    assert result.exit_code == 0
+    assert "Convert cURL commands" in result.stdout
+
+def test_convert_help():
+    result = runner.invoke(app, ["convert", "--help"])
+    assert result.exit_code == 0
+    assert "Framework to use" in result.stdout 
