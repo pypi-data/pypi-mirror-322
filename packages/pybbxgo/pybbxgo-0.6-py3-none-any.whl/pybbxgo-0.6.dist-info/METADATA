@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pybbxgo
+Version: 0.6
+Summary: A Python library for controlling the XGO robot using the BitBlock 
+Home-page: http://www.moyalab.com
+Download-URL: https://www.moyalab.com
+Author: devdio
+Author-email: devdio.kei@gmail.com
+License: GNU GPLv3
+Keywords: Bitblock,XGO,Robot,AI
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Education
+Requires-Python: >=3.10, <=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: termcolor
+Requires-Dist: pyserial==3.5
+
+# Python Library for XGO Bitblock Board
+
+```python
+from pybbxgo import *
+
+
+robot = XGO('COM8', 57600)
+ret = robot.connect()
+
+if not ret:
+    exit()
+
+print('Hello XGO!')
+# 0 ~ 100 사이의 값 설정
+robot.forward(self, 50)
+# 1000ms
+robot.wait(1000)
+robot.backward(self, 50)
+robot.wait(1000)
+robot.disconnect()
+```
