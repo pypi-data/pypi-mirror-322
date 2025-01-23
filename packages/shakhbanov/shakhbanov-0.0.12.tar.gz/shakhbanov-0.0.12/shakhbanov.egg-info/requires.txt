@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+tqdm
+xgboost
+lightgbm
+catboost
+joblib
+holidays
+scikit-learn
+scipy
+utilsforecast
+statsmodels
