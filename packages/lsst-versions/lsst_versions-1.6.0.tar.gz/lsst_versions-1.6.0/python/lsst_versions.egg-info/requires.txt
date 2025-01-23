@@ -1,0 +1,15 @@
+setuptools>=46.0
+tomli>1.0.0
+GitPython>=3.1
+packaging
+
+[dev]
+pytest>=3.2
+flake8>=3.7.5
+pytest-cov>=5.0
+pytest-flake8>=1.0.4
+hatchling>=1.27.0
+
+[typing]
+mypy>=1.14
+types-setuptools>=75
