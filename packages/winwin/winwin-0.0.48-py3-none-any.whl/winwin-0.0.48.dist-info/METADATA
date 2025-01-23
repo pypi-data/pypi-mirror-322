@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: winwin
+Version: 0.0.48
+Summary: Add your description here
+Author-email: 赵斌 <zhaobin@brandct.com>
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: pynvml>=12.0.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: pyyaml>=6.0.2
+Description-Content-Type: text/markdown
+
+# winwin
+
+## 安装说明
+
+```
+pip install winwin
+```
+
+## 使用说明
+
+```
+import winnwin
+winwin.__version__
+```
