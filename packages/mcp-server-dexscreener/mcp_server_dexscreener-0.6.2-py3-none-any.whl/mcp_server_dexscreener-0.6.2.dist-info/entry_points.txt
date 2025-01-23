@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-dexscreener = mcp_server_dexscreener:main
