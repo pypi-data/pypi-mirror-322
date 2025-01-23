@@ -1,0 +1,13 @@
+fastcore
+setuptools
+pydantic-settings
+pydantic
+uvicorn
+python-dotenv
+envyaml
+pandas
+requests
+fastapi
+httpx
+
+[dev]
