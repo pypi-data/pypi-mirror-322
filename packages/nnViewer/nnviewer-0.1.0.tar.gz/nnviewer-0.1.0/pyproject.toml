@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nnViewer"
+version = "0.1.0"
+description = "A neural network visualization tool"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    { name = "PBDESG", email = "pbdesg@gmail.com" },
+]
+requires-python = ">=3.6"
+keywords = ["neural networks", "visualization", "torch", "PyQt5", "graphviz"]
+
+dependencies = [
+    "torch==2.2.2",
+    "pygraphviz==1.14",
+    "PyQt5==5.15.11",
+    "graphviz"
+]
+
+[project.optional-dependencies]
+visualization = ["pygraphviz==1.14"]
