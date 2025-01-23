@@ -1,0 +1,22 @@
+[project]
+name = "pyKobana"
+version = "0.0.4"
+authors = [
+{ name = "Dola Lima", email = "dolalima@gmail.com"}
+]
+description = "A Python client for the Elasticsearch REST API"
+readme = "README.md"
+
+classifiers = [
+"Development Status :: 3 - Alpha"
+]
+
+dependencies = [ "requests" ]
+requires-python = ">=3.8"
+
+#license = "MIT"
+#license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/dolalima/pyKobana"
+Issues = "https://github.com/dolalima/pyKobana/issues"
