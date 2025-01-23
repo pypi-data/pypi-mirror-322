@@ -1,0 +1,86 @@
+Metadata-Version: 2.2
+Name: IPTCInfo3Plus
+Version: 2.1.5
+Summary: Fork of IPTCInfo3, a Python module for extracting IPTC metadata from images.
+Home-page: https://github.com/jamesacampbell/iptcinfo3
+Download-URL: https://github.com/jamesacampbell/iptcinfo3
+Author: Sanyam Khurana
+Author-email: sanyam@sanyamkhurana.com
+Maintainer: Sanyam Khurana
+Maintainer-email: sanyam@sanyamkhurana.com
+License: http://www.opensource.org/licenses/gpl-license.php
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Artistic License
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Utilities
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: platform
+Dynamic: summary
+
+``IPTCINFO 3 Plus``
+===================
+
+`Build Status <https://api.travis-ci.org/crccheck/iptcinfo3.png>`_
+
+Like IPTCInfo but finally compatible for Python 3
+-------------------------------------------------
+
+
+Ported from Josh Carter's Perl IPTCInfo-1.9.pm by Tamas Gulacsi. This fork is maintained by Sanyam Khurana.
+
+Ever wish you add information to your photos like a caption, the place
+you took it, the date, and perhaps even keywords and categories? You
+already can. The International Press Telecommunications Council (IPTC)
+defines a format for exchanging meta-information in news content, and
+that includes photographs. You can embed all kinds of information in
+your images. The trick is putting it to use.
+
+That's where this IPTCInfo Python module comes into play. You can embed
+information using many programs, including Adobe Photoshop, and
+IPTCInfo will let your web server -- and other automated server
+programs -- pull it back out. You can use the information directly in
+Python programs, export it to XML, or even export SQL statements ready
+to be fed into a database.
+
+Usage
+-----
+
+``from iptcinfo3 import IPTCInfo``
+
+
+Create new info object
+``info = IPTCInfo('doge.jpg')``
+
+Print list of keywords, supplemental categories, contacts
+``print(info['keywords'])``
+``print(info['supplementalCategories'])``
+``print(info['contacts'])``
+
+Get specific attributes...
+``caption = info['caption/abstract']``
+
+Create object for file that may not have IPTC data
+``info = IPTCInfo('such_iptc.jpg', force=True)``
+
+Add/change an attribute
+``info['caption/abstract'] = 'Witty caption here'``
+``info['supplemental category'] = ['portrait']``
+
+Lists for keywords, so you can just append!
+``info['keywords']).append('cool')``
+
+Save new info to file
+``info.save()``
+``info.save_as('very_meta.jpg')``
