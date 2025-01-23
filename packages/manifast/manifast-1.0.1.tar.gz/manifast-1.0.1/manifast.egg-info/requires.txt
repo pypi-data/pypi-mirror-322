@@ -1,0 +1,14 @@
+progressbar
+autopep8
+flake8
+tqdm
+loguru
+pandas
+easydict
+matplotlib
+Pillow
+opencv-contrib-python
+opencv-python
+jupyter_nbextensions_configurator
+jupyter_contrib_nbextensions
+numpy
