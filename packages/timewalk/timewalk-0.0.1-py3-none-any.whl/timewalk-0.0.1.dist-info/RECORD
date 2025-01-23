@@ -1,0 +1,10 @@
+timewalk/__init__.py,sha256=lStrfB-UQ0TG7qdB-PXezi5TMf6Sy4riUE0k38IO4J8,145
+timewalk/backtest.py,sha256=iYUMyqpWxGusBYXUMn7FZcgbulaLWNuALSS_r2CIOlc,9092
+timewalk/feature_builder.py,sha256=6YLV1FDRTbLib08K6K9yoOPxgqHKVOnUlBXQSd7NfR4,4530
+timewalk/strategy_classes.py,sha256=8DRfdYg_3rKp-9NwziFOYbtQOwoBA5QuRuiuJ5Uf9mQ,3636
+timewalk/yf_helper.py,sha256=zcexulVOXS2BFuo7HmW193rUmX9dHRFtD_-y1mfUmO0,1017
+timewalk-0.0.1.dist-info/LICENSE,sha256=whnNPTrwb1auF0MifI5NFMbJndP9VX1QAk86M81xhfU,1069
+timewalk-0.0.1.dist-info/METADATA,sha256=vMbxJCHy1_P9SPnSiLQ08XByy_JKHqJZDmgu3zcBUew,4145
+timewalk-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+timewalk-0.0.1.dist-info/top_level.txt,sha256=_VzQua7mwlVcrd8qx43o3H1HuDh8npwdaZn7vvFivRw,9
+timewalk-0.0.1.dist-info/RECORD,,
