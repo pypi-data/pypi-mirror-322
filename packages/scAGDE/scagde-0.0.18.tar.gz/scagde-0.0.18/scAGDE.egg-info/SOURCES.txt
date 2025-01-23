@@ -1,0 +1,22 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+data/Forebrain.h5ad
+scAGDE/__init__.py
+scAGDE/layer.py
+scAGDE/loss.py
+scAGDE/mclust.py
+scAGDE/model.py
+scAGDE/trainer.py
+scAGDE/utils.py
+scAGDE.egg-info/PKG-INFO
+scAGDE.egg-info/SOURCES.txt
+scAGDE.egg-info/dependency_links.txt
+scAGDE.egg-info/top_level.txt
+tutorials/Tutorial 1_End-to-end scATAC-seq analysis.ipynb
+tutorials/Tutorial 2_Step-by-Step scATAC-seq analysis.ipynb
+tutorials/Tutorial 3_Imputation analysis.ipynb
+tutorials/Tutorial 4_Peak selection analysis.ipynb
+tutorials/Tutorial 5_Batch-learning on large-scale dataset.ipynb
