@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/langmem/__init__.py
+src/langmem.egg-info/PKG-INFO
+src/langmem.egg-info/SOURCES.txt
+src/langmem.egg-info/dependency_links.txt
+src/langmem.egg-info/requires.txt
+src/langmem.egg-info/top_level.txt
