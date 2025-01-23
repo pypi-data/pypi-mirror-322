@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: esseppi
+Version: 0.4.2
+Summary: A shared utilities library for data processing, analysis, and interpretation.
+Author: Esseppi Zeta
+Author-email: lozingaro@duck.com
+License: Creative Common
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: psutil
+Requires-Dist: joblib
+Requires-Dist: shap
+Requires-Dist: scikit-learn
