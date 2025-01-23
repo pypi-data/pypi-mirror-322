@@ -1,0 +1,12 @@
+django_hugeicons_stroke/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_hugeicons_stroke/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_hugeicons_stroke/apps.py,sha256=__9uXRUBXZm6jOsPXWrsuHIhnl8TYHkTENaApS5aZe4,176
+django_hugeicons_stroke/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+django_hugeicons_stroke/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_hugeicons_stroke/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_hugeicons_stroke/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_hugeicons_stroke/templatetags/hugeicons_stroke.py,sha256=ajJXL6-SB_g62K57lhzvWa0WbwetSdQ_pZFMcMq5fQg,607
+django_hugeicons_stroke-1.0.2.dist-info/METADATA,sha256=8xSIs5acuLq7NYx5Yn9-bbdNBeS-Vkj3MRcMTLE3RcQ,223
+django_hugeicons_stroke-1.0.2.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+django_hugeicons_stroke-1.0.2.dist-info/top_level.txt,sha256=HzqMOFmWYgMDQAm9A2Qnf_IqEZITaNDFrhcA6zUo21E,24
+django_hugeicons_stroke-1.0.2.dist-info/RECORD,,
