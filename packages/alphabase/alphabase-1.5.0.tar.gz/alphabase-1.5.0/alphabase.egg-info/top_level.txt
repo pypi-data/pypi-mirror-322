@@ -1,0 +1,9 @@
+alphabase
+dist
+docs
+misc
+nbs_tests
+requirements
+scripts
+test_data
+tests
