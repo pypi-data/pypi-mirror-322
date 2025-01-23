@@ -1,0 +1,2 @@
+[console_scripts]
+iconlib-cli = iconlib.__main__:main
