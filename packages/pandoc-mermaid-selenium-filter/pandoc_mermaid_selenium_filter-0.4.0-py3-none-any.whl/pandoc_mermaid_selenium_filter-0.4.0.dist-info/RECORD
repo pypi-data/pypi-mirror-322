@@ -1,0 +1,8 @@
+pandoc_mermaid_selenium_filter/__init__.py,sha256=XB7eDRAAnzmEcWS6wKyZwOKhrASU9V4s1fSHFvLTuss,38
+pandoc_mermaid_selenium_filter/filter.py,sha256=vaE0IsB8odpw7Vpe9LkyKdJ6LsFtpzJdvSZPvo5D2J0,2016
+pandoc_mermaid_selenium_filter/mermaid_converter.py,sha256=kPuWKqg6u-OUPaQdOfEbOxUGG3Gtvgq9Q59Kqr-fwJQ,6664
+pandoc_mermaid_selenium_filter-0.4.0.dist-info/METADATA,sha256=hJAUqGIOPuG16PftOCGjSrordqt5Z6fPWZ8hRTUYHlQ,4983
+pandoc_mermaid_selenium_filter-0.4.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pandoc_mermaid_selenium_filter-0.4.0.dist-info/entry_points.txt,sha256=4cQEAtTHm3eXVtcgRnZbVKgWAuFQV5LBmYR55sjp_X0,94
+pandoc_mermaid_selenium_filter-0.4.0.dist-info/licenses/LICENSE,sha256=aJ3d0TclRcwBs3Q1Ws_o-9KowtZD5NJvUytxINJQbOQ,1062
+pandoc_mermaid_selenium_filter-0.4.0.dist-info/RECORD,,
