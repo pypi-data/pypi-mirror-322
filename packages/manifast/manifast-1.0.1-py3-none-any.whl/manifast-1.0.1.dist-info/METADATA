@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: manifast
+Version: 1.0.1
+Summary: A small example package
+Home-page: https://github.com/knightdby/wheel
+Author: Knight
+Author-email: knightdby@163.com
+License: MIT License
+Requires-Python: >=3.6,<3.11
+Description-Content-Type: text/markdown
+Requires-Dist: progressbar
+Requires-Dist: autopep8
+Requires-Dist: flake8
+Requires-Dist: tqdm
+Requires-Dist: loguru
+Requires-Dist: pandas
+Requires-Dist: easydict
+Requires-Dist: matplotlib
+Requires-Dist: Pillow
+Requires-Dist: opencv-contrib-python
+Requires-Dist: opencv-python
+Requires-Dist: jupyter-nbextensions-configurator
+Requires-Dist: jupyter-contrib-nbextensions
+Requires-Dist: numpy
+
+# manifast
