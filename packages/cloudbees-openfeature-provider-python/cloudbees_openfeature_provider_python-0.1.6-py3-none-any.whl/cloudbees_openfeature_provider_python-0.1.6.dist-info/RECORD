@@ -1,0 +1,8 @@
+cloudbees/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudbees/_version.py,sha256=L9DFp_i-1xztMRdin6ZHqLFMlDKUn5bsVgheqXFwTTc,411
+cloudbees/provider.py,sha256=dmsEdbF79NX9YgNAof6_xLwBj1xSecFfXl4N3y2TAQM,2999
+cloudbees_openfeature_provider_python-0.1.6.dist-info/LICENSE.txt,sha256=yVuuHRzgI17MzTVgt3LsHvuX80innw--CmNPDCzO_iw,11358
+cloudbees_openfeature_provider_python-0.1.6.dist-info/METADATA,sha256=9eeMLlU_nJzt_QRZ8WTOicceUvcBJqTb4wMY6QFWFyA,2760
+cloudbees_openfeature_provider_python-0.1.6.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+cloudbees_openfeature_provider_python-0.1.6.dist-info/top_level.txt,sha256=y8Qe2jgJtMjdjIh2G14rMIoLnp4t4n0IjowScorhtl0,10
+cloudbees_openfeature_provider_python-0.1.6.dist-info/RECORD,,
