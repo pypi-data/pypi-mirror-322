@@ -1,0 +1,11 @@
+CHANGELOG.md,sha256=G9oAU7knCHCRFpSBoRTMiW6Tf4wfOrCZsX3lSQqjBf0,492
+LICENSE,sha256=UB3yGN2tyoQPAL-dG8RTFgw5DZsUhIGPMK5fowzRyaA,1091
+README.md,sha256=Ma78ZP92GiztMA0MDFBlVsU9TNWKX8Z6BmM1EXdFlcE,1546
+uvicorn_configurable/__init__.py,sha256=5AcYGSPV1ih0S8Ek9ejtaK0uGgXRDt1Xnltudl9v0T0,273
+uvicorn_configurable/_version.py,sha256=eg2fwakDzD7pu-wwqasnuwH8-0GywLWlf6xW4lwAyEQ,130
+uvicorn_configurable/config.py,sha256=MFTrxKGkKZbw5fS6gnXKmgXuUuszwq7AzPoZilQ34jY,16793
+uvicorn_configurable/py.typed,sha256=bGD5UrdyV_saa5ISOCeHtHPzB1GvB2xON3LbrE2lxcQ,49
+uvicorn_configurable-0.1.0.dist-info/LICENSE,sha256=UB3yGN2tyoQPAL-dG8RTFgw5DZsUhIGPMK5fowzRyaA,1091
+uvicorn_configurable-0.1.0.dist-info/METADATA,sha256=skOzNZFHQrUJPwLpuMCZrjOhbjgcwp-KIGTKbYL1p9A,2662
+uvicorn_configurable-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+uvicorn_configurable-0.1.0.dist-info/RECORD,,
