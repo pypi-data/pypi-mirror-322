@@ -1,0 +1,13 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+sentiment_bitcoin/Model_F_2,4_Acc97.h5
+sentiment_bitcoin/Model_T_2,4_Acc97.pkl
+sentiment_bitcoin/__init__.py
+sentiment_bitcoin/package.py
+sentiment_bitcoin.egg-info/PKG-INFO
+sentiment_bitcoin.egg-info/SOURCES.txt
+sentiment_bitcoin.egg-info/dependency_links.txt
+sentiment_bitcoin.egg-info/requires.txt
+sentiment_bitcoin.egg-info/top_level.txt
