@@ -1,0 +1,13 @@
+ae/kivy_user_prefs/__init__.py,sha256=ZH6GzUEdZRjMk5mZEMmW0CWepnOm0emtZu26zE6Cu1s,5156
+ae/kivy_user_prefs/user_prefs.kv,sha256=ZgNdvQQbymZiK5HgOzMBHldSDOXeLyqVKl7gesWawYw,9679
+ae/kivy_user_prefs/img/font_size.png,sha256=2CqRJUSTZ9wi0_ghH-zXbvx8HPT2enJjtup0y1GvQAg,10051
+ae/kivy_user_prefs/img/open_user_preferences.png,sha256=oBnKOGIvh18slxgKfZ8-CfXg_dP5Mc7PDIiZpRlRKgw,16921
+ae/kivy_user_prefs/img/vibration.png,sha256=xi2449Of_wBoqiTwmBvlUPBcte9kSysMaCMmSUAFSVI,14199
+ae/kivy_user_prefs/img/light_1/font_size.png,sha256=ZK9RmWTsMveg9DR_zCbd3SxxrD-tfYUOm3Q4lqSUioU,6278
+ae/kivy_user_prefs/img/light_1/open_user_preferences.png,sha256=YIiJrfsDorsGs5dFvSf2U2CAfSxMW9hwk6V_eON27Ws,10365
+ae/kivy_user_prefs/img/light_1/vibration.png,sha256=YeuJrBXjiG08sHI__U41he3RveY6bHWMNZmyFkyVXLQ,11252
+ae_kivy_user_prefs-0.3.33.dist-info/LICENSE.md,sha256=uoIIfORuk4V8ZeNh6SN0EUhiU79RC-indIMFqePKVhY,35002
+ae_kivy_user_prefs-0.3.33.dist-info/METADATA,sha256=e4HlGsZroXhkztELu912I1XP6FxA7RztsOM-51oVeFs,6316
+ae_kivy_user_prefs-0.3.33.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ae_kivy_user_prefs-0.3.33.dist-info/top_level.txt,sha256=vUdgAslSmhZLXWU48fm8AG2BjVnkOWLco8rzuW-5zY0,3
+ae_kivy_user_prefs-0.3.33.dist-info/RECORD,,
