@@ -1,0 +1,8 @@
+typst-0.12.3.dist-info/METADATA,sha256=vkg0Tx4yJLhIoogt3Vn_QoNqO32KgWC330I-VRHn2Ok,1783
+typst-0.12.3.dist-info/WHEEL,sha256=mYDPFrpmO1_UhonyEoMo2i0zHOwqc92hj_Q3CYuEBdM,94
+typst-0.12.3.dist-info/licenses/LICENSE,sha256=IP57AOkE7WkOO5_WBzeE0_xCgUHb0QuBwB_RQ9B5f1g,9899
+typst/py.typed,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+typst/__init__.py,sha256=PH-FFHcL7oAQGXqPEco6YVCB_BF0BKSflQlEceo1Voo,79
+typst/__init__.pyi,sha256=xcJFasc5kqmrjE8hIfB2dnI7r7FLMcKqMLa2Hyeu3DM,5474
+typst/_typst.pyd,sha256=Qk_c42jPiRGgM-_ni8vbU8TuePDIahHn28JXvpQ5Io8,36732928
+typst-0.12.3.dist-info/RECORD,,
