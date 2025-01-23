@@ -1,0 +1,15 @@
+mindrove_gesture/__init__.py,sha256=tRZVipM0sVCv_2P7nV8sV23k04Ar2IKb2mDZWac-ayU,119
+mindrove_gesture/fine_tune.py,sha256=ulJ31-jNkS-bT_fJsbb32-j-C1fg_rL9-YYiJJZTQzI,2487
+mindrove_gesture/inference.py,sha256=B5YzrMhL_qs5J1gusjesy2VsARSfuR06xobPkJ3z_Oo,4750
+mindrove_gesture/record.py,sha256=BjFbHEbkkEq8gQimDwfrHDLTfy_0O25gXMDHwipF084,5130
+mindrove_gesture/utils.py,sha256=7hd2y_7mVutBiG0UtrMHIjyTDVz2K-6rxW9STtQLKbk,6286
+mindrove_gesture/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mindrove_gesture/data/og_fine_tune.h5,sha256=3FUrXE3ieAfLBRQ6cUC3GEpFqpb00QEs3KBy74amcmo,65136600
+mindrove_gesture/data/recorded_data.pkl,sha256=dTX--kOB8eKWhjJKUovtdLG2m9VDtbfqeJArgf93zQI,4664903
+mindrove_gesture/data/scaler.pkl,sha256=Sa4ccoSyYZlW7pSToHkt50M1Nwz3M1lybMDejZqhwcI,25038
+mindrove_gesture/data/svm_model.pkl,sha256=jC6xXWbj8wQhx08L2epjeU03pXvhtzQGL7I2CkKDsU4,1550154
+mindrove_gesture-0.1.1.dist-info/METADATA,sha256=X4bKl6Mfxs_TNcxI02LTJTfK9nNSR_zj8HBVAiaxjgY,680
+mindrove_gesture-0.1.1.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+mindrove_gesture-0.1.1.dist-info/entry_points.txt,sha256=M6ORugQwFkfd17AIZhNPJGdWrswXU-FriVHWr1Q22l8,180
+mindrove_gesture-0.1.1.dist-info/top_level.txt,sha256=A5VVN97i1Y-aophmJl2zT1jUN7sj4nnldKiiQZ1g7N4,17
+mindrove_gesture-0.1.1.dist-info/RECORD,,
