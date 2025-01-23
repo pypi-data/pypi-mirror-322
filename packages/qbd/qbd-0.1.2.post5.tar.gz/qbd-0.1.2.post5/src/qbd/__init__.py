@@ -1,0 +1,1 @@
+from .qbd import main
