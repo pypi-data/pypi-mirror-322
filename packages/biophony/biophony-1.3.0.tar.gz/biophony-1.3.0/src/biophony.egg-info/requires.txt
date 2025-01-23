@@ -1,0 +1,13 @@
+Mutation-Simulator
+colorlog
+
+[docs]
+sphinx
+sphinx-autoapi
+furo
+
+[tests]
+pytest
+pylint
+mypy
+coverage

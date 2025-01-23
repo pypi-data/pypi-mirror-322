@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biophony"
+version = "1.3.0"
+authors = [
+    { name = "Pierrick ROGER", email = "pierrick.roger@cea.fr" }
+]
+description = "Random generation of genetic files"
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: CeCILL-C Free Software License Agreement (CECILL-C)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'Mutation-Simulator',
+    'colorlog'
+]
+keywords = ['genomic', 'gene', 'genetic', 'mutation', 'VCF', 'BED', 'FASTA']
+
+[tool.setuptools.package-data]
+"biophony" = ["py.typed"]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/cnrgh/databases/biophony"
+"Repository" = "https://gitlab.com/cnrgh/databases/biophony"
+"Bug Tracker" = "https://gitlab.com/cnrgh/databases/biophony/issues"
+"Documentation" = "https://cnrgh.gitlab.io/databases/biophony/"
+"Changelog" = "https://gitlab.com/cnrgh/databases/biophony/-/blob/main/CHANGELOG.md"
+
+[project.scripts]
+gen-cov = "biophony:covgen_cli"
+gen-fasta = "biophony:fastagen_cli"
+gen-fastavar = "biophony:fastavargen_cli"
+gen-fastq = "biophony:fastqgen_cli"
+gen-vcf = "biophony:vcfgen_cli"
+
+[project.optional-dependencies]
+tests = [
+    'pytest',
+    'pylint',
+    'mypy',
+    'coverage'
+]
+docs = [
+    "sphinx",
+    "sphinx-autoapi",
+    "furo"
+]
