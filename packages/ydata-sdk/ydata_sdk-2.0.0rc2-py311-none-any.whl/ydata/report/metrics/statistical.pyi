@@ -1,0 +1,6 @@
+from ydata.report.metrics.base_metric import BaseMetric
+
+class StatisticalSimilarity(BaseMetric):
+    def __init__(self, formatter=...) -> None: ...
+    @property
+    def name(self) -> str: ...

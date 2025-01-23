@@ -1,0 +1,3 @@
+from pandas import DataFrame as DataFrame
+
+def calculate_missing_percentages(data: DataFrame) -> dict: ...
