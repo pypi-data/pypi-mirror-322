@@ -1,0 +1,10 @@
+[console_scripts]
+c2py = curlpyconvert.main:curl2py
+curl2ctx = curlpyconvert.main:curl2ctx
+curl2dog = curlpyconvert.main:curl2dog
+curl2grab = curlpyconvert.main:curl2grab
+curl2py = curlpyconvert.main:curl2py
+curlpyconvert = curlpyconvert.main:app
+
+[gui_scripts]
+
