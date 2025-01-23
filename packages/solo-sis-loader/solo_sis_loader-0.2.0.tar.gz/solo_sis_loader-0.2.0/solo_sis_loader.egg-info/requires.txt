@@ -1,0 +1,10 @@
+cdflib
+numpy
+sunpy[net]
+sunpy-soar
+xarray
+
+[test]
+pytest
+pytest-astropy
+pytest-sugar
