@@ -1,0 +1,2 @@
+include startgarlic/.env
+recursive-include startgarlic * 
