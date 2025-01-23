@@ -1,0 +1,11 @@
+[aiida.calculations]
+fans = aiida_fans.calculations:FANSCalculation
+
+[aiida.cmdline.data]
+fans = aiida_fans.cli:data_cli
+
+[aiida.data]
+fans = aiida_fans.data:FANSParameters
+
+[aiida.parsers]
+fans = aiida_fans.parsers:FANSParser

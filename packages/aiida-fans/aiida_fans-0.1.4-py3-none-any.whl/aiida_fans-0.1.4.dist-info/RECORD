@@ -1,0 +1,11 @@
+aiida_fans/__init__.py,sha256=P9Zbc7NZuDhwBh7X_TAFHfPmDntQSQeTeCnmxXi7VW0,78
+aiida_fans/_version.py,sha256=9GTNkADgEYZ6fEjCvZZUdKyqxiPIgtskLFZNJz7nq_U,411
+aiida_fans/calculations.py,sha256=BsJwcSN_bwo41YdcDe415teckjJEu8hjXUeIUiLfF4k,10566
+aiida_fans/helpers.py,sha256=YHiaj5H5jyLVo7WouHUmc2ZgYptV81wGYTPQb3-E_O8,911
+aiida_fans/parsers.py,sha256=TunLsQWwC0TI8GhNoKQcRhY1LZ5V-_Uv39LkUrHi_Yg,1231
+aiida_fans-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+aiida_fans-0.1.4.dist-info/METADATA,sha256=Lm8kO3M7QzAH_ongfhwSznsIz1eMI_X7QVC5KKew34I,44789
+aiida_fans-0.1.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+aiida_fans-0.1.4.dist-info/entry_points.txt,sha256=UUDUiqbAcHH7RC1Woab_enixct17_xEtyem8az_Ev6I,227
+aiida_fans-0.1.4.dist-info/top_level.txt,sha256=ZfDxBCAyAszpR5mFTK8I8ASeYdmPvZ13cDY6bjrq4Ao,11
+aiida_fans-0.1.4.dist-info/RECORD,,
