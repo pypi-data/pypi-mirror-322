@@ -1,0 +1,8 @@
+[tool.pytest.ini_options]
+pythonpath = ["onvif"]
+log_cli="true"
+log_level="NOTSET"
+
+
+[build-system]
+requires = ['setuptools>=65.4.1', 'wheel']
