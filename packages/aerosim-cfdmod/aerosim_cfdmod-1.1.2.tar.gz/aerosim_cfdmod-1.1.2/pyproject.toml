@@ -1,0 +1,139 @@
+[tool.poetry]
+name = "aerosim-cfdmod"
+version = "1.1.2"
+description = "Tools for analysis of CFD cases"
+authors = ["Waine Oliveira Jr <waine@aerosim.io>", "Pablo Penas <pablo@aerosim.io>"]
+readme = "README.md"
+license = "Apache-2.0"
+repository = "https://github.com/AeroSim-CFD/cfdmod"
+homepage = "https://github.com/AeroSim-CFD/cfdmod"
+
+packages = [{ include = "cfdmod" }]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.0"
+scipy = "^1.11.2"
+pandas = "^2.1.0"
+pydantic = "^2.3"
+ruamel-yaml = "^0.18.5"
+tables = "^3.9.1"
+colorama = "^0.4.6"
+matplotlib = "^3.7.3"
+pyarrow = "^15.0.0"
+
+# **************************************** LNAS *******************************************
+aerosim-lnas = { version = "^0.6.0", optional = true }
+# *****************************************************************************************
+
+# ************************************** Geometry *****************************************
+pymeshlab = { version = "^2023", optional = true }
+trimesh = { version = "^3.23.5", optional = true }
+# *****************************************************************************************
+
+# **************************************** Docs *******************************************
+sphinx-book-theme = { version = "^1.0.1", optional = true }
+myst-parser = { version = "^2.0.0", optional = true }
+sphinx-autobuild = { version = "^2021.3.14", optional = true }
+nbsphinx = { version = "^0.9.3", optional = true }
+sphinxcontrib-bibtex = { version = "^2.6.1", optional = true }
+# *****************************************************************************************
+
+# ************************************** Notebook *****************************************
+jupyter = { version = "^1.0.0", optional = true }
+ipython = { version = "^8.15.0", optional = true }
+ipykernel = { version = "^6.25.2", optional = true }
+# *****************************************************************************************
+
+# ***************************************** VTK *******************************************
+vtk = { version = "^9.2.6", optional = true }
+pyvista = { version = "^0.43.1", optional = true }
+# *****************************************************************************************
+
+[tool.poetry.extras]
+lnas = ["lnas"]
+geometry = ["pymeshlab", "trimesh"]
+docs = [
+  "sphinx-book-theme", 
+  "myst-parser", 
+  "sphinx-autobuild", 
+  "nbsphinx", 
+  "sphinxcontrib-bibtex"
+]
+notebook = ["jupyter", "ipython", "ipykernel"]
+vtk = ["vtk", "pyvista"]
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["jupyter"], version = "^23.7.0"}
+isort = {extras = ["jupyter"], version = "^5.12.0"}
+tox = "^4.18.0"
+autoflake = "^2.2.1"
+json-schema-for-humans = "^1.0.2"
+pytest = "^8.3.2"
+setuptools = "^74.1.2"
+ruff = "^0.6.8"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
+
+[tool.black]
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+include = '(\.pyi?$|\.ipynb)'
+line-length = 99
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 99
+src_paths = ["cfdmod", "tests", "notebooks"]
+skip_glob = ["**/__init__.py"] # avoid circular imports
+
+[tool.ruff]
+lint.fixable = ["ALL"]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    "consulting",
+    "paraview",
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+line-length = 99
+target-version = "py310"
