@@ -1,0 +1,7 @@
+streamlit
+pandas
+logzero
+networkx
+graphviz
+tableauhyperapi
+xhtml2pdf
