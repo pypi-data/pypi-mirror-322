@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: PyDataLens
+Version: 0.1
+Summary: A Python package for automatic EDA, data cleaning, and visualization.
+Author: Your Name
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
