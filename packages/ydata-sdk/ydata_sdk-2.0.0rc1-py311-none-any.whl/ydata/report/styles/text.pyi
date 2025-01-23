@@ -1,0 +1,9 @@
+from _typeshed import Incomplete
+
+class TextFormatter:
+    @staticmethod
+    def int_to_string(n: int): ...
+    @staticmethod
+    def float_to_pct(n: float, decimals: int = 1): ...
+    @staticmethod
+    def format_float(n: float, decimals: Incomplete | None = None): ...
