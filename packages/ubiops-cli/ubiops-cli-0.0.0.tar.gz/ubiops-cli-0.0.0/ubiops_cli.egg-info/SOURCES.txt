@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+pyproject.toml
+setup.py
+ubiops_cli.egg-info/PKG-INFO
+ubiops_cli.egg-info/SOURCES.txt
+ubiops_cli.egg-info/dependency_links.txt
+ubiops_cli.egg-info/requires.txt
+ubiops_cli.egg-info/top_level.txt
