@@ -1,0 +1,9 @@
+geometry/__init__.py,sha256=AgUF4YCY1OxNHshWYOSWxxrHX7bKVnzJMsolDv55mcc,30
+geometry/examples.py,sha256=srGjGGguX6jiO8hYXeXE4QAnPFdGIrVmWlaWhdRHsf0,3084
+geometry/geometry.py,sha256=SLowIVv1_eYB487_DeSgUHhjRc7HJGbC0wQUCHf5U3A,13175
+mileva/__init__.py,sha256=aWsEE_9hMEnPCDkZVPKUbKYgVOFs15XPiSgtQwESUX8,54
+mileva-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mileva-0.0.3.dist-info/METADATA,sha256=6cPs9s7qTLLlMhhqWKM7b0T7AdB5inash626NKj_Ji8,42584
+mileva-0.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mileva-0.0.3.dist-info/top_level.txt,sha256=BueWPB80gUkqd-p_auezYz5BCPbKo1ki-YBY0DouO04,16
+mileva-0.0.3.dist-info/RECORD,,
