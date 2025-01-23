@@ -1,0 +1,16 @@
+NOTICE
+README.md
+pyproject.toml
+setup.cfg
+src/sztpd/LICENSE
+src/sztpd/__init__.py
+src/sztpd/__main__.py
+src/sztpd/rfc8572.py
+src/sztpd/sztpd.py
+src/sztpd/yl.py
+src/sztpd.egg-info/PKG-INFO
+src/sztpd.egg-info/SOURCES.txt
+src/sztpd.egg-info/dependency_links.txt
+src/sztpd.egg-info/entry_points.txt
+src/sztpd.egg-info/requires.txt
+src/sztpd.egg-info/top_level.txt
