@@ -1,0 +1,61 @@
+Metadata-Version: 2.2
+Name: ipyslurm
+Version: 2.3.0
+Summary: Python interface to Slurm Workload Manager.
+Author: Ali Uneri
+Project-URL: Homepage, https://auneri.github.io/ipyslurm
+Project-URL: Repository, https://github.com/auneri/ipyslurm
+Classifier: Framework :: IPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: ipython>=7
+Requires-Dist: paramiko>=2.5
+Requires-Dist: tqdm>=4
+Provides-Extra: flake8
+Requires-Dist: flake8; extra == "flake8"
+Requires-Dist: flake8-bugbear; extra == "flake8"
+Requires-Dist: flake8-builtins; extra == "flake8"
+Requires-Dist: flake8-comprehensions; extra == "flake8"
+Requires-Dist: flake8-docstrings; extra == "flake8"
+Requires-Dist: flake8-import-order; extra == "flake8"
+Requires-Dist: flake8-mutable; extra == "flake8"
+Requires-Dist: flake8-pyproject; extra == "flake8"
+Requires-Dist: flake8-quotes; extra == "flake8"
+Requires-Dist: flake8-use-fstring; extra == "flake8"
+Requires-Dist: flake8-use-pathlib; extra == "flake8"
+Requires-Dist: pep8-naming; extra == "flake8"
+Provides-Extra: interactive
+Requires-Dist: ipywidgets>=7; extra == "interactive"
+
+# ipyslurm
+
+Python interface to [Slurm Workload Manager](https://slurm.schedmd.com).
+
+[![license](https://img.shields.io/github/license/auneri/ipyslurm)](https://github.com/auneri/ipyslurm/blob/main/LICENSE.md)
+[![build](https://img.shields.io/github/actions/workflow/status/auneri/ipyslurm/main.yml)](https://github.com/auneri/ipyslurm/actions)
+[![pypi](https://img.shields.io/pypi/v/ipyslurm)](https://pypi.org/project/ipyslurm)
+[![conda-forge](https://img.shields.io/conda/vn/conda-forge/ipyslurm)](https://anaconda.org/conda-forge/ipyslurm)
+
+## Getting started
+
+Install using `pip install ipyslurm` or `conda install -c conda-forge ipyslurm`.
+
+See [example notebooks](https://github.com/auneri/ipyslurm/tree/main/examples) for different use cases.
+
+## Magic commands
+
+Line magics: `sinteract`, `slogin`, `slogout`, `stail`  
+Cell magics: `scommand`, `sbatch`, `sftp`, `swritefile`
+
+Use [?](http://ipython.readthedocs.io/en/stable/interactive/tutorial.html#exploring-your-objects) to get help on individual commands.
+
+## Releasing a new version
+
+1. Update `project.version` in `pyproject.toml` and `CHANGELOG` with commit message "Release vX.X.X".
+2. Add tag vX.X.X with message "Release vX.X.X".
+3. Push the tag and create a new release on [ipyslurm](https://github.com/auneri/ipyslurm).
+4. Merge the auto-generated pull request on [ipyslurm-feedstock](https://github.com/conda-forge/ipyslurm-feedstock).

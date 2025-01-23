@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+pyproject.toml
+ipyslurm/__init__.py
+ipyslurm/magic.py
+ipyslurm/sftp.py
+ipyslurm/slurm.py
+ipyslurm/ssh.py
+ipyslurm/util.py
+ipyslurm/version.py
+ipyslurm.egg-info/PKG-INFO
+ipyslurm.egg-info/SOURCES.txt
+ipyslurm.egg-info/dependency_links.txt
+ipyslurm.egg-info/requires.txt
+ipyslurm.egg-info/top_level.txt
