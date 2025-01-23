@@ -1,0 +1,27 @@
+{% extends 'admin/change_list.html' %}
+{% load i18n %}
+{% load admin_list %}
+{% load static %}
+
+{% block search %}{% endblock %}
+
+{% block filters %}
+  {% if cl.has_filters %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/django_admin_fast_search.css' %}">
+
+    <div id="changelist-filter">
+      <h2>{% trans 'Filter' %}</h2>
+      {% if cl.has_active_filters %}
+      <h3 id="changelist-filter-clear">
+        <a href="{{ cl.clear_all_filters_qs }}">&#10006; {% translate "Clear all filters" %}</a>
+      </h3>
+      {% endif %}
+      <form method="get">
+        {% for spec in cl.filter_specs %}{% admin_list_filter cl spec %}{% endfor %}
+        <ul id="fast-filter-action-list">
+          <input type="submit" value="Filter">
+        </ul>
+      </form>
+    </div>
+  {% endif %}
+{% endblock %}
