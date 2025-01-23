@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+streamlit_ollama_agent/__init__.py
+streamlit_ollama_agent/agent.py
+streamlit_ollama_agent/app.py
+streamlit_ollama_agent.egg-info/PKG-INFO
+streamlit_ollama_agent.egg-info/SOURCES.txt
+streamlit_ollama_agent.egg-info/dependency_links.txt
+streamlit_ollama_agent.egg-info/requires.txt
+streamlit_ollama_agent.egg-info/top_level.txt

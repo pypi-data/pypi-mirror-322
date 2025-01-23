@@ -1,0 +1,134 @@
+# Streamlit Ollama Agent
+
+A reusable Python package that provides a Streamlit-based chat interface for Ollama models using PydanticAI. This package makes it easy to create chat applications with streaming responses and conversation history.
+
+## Features
+
+- 🚀 Easy-to-use Streamlit chat interface
+- 📝 Streaming responses with real-time updates
+- 💬 Conversation history support
+- 🔄 Compatible with any Ollama model
+- 🛠 Built on PydanticAI for robust type safety
+- ⚡ Dual streaming modes: OpenAI compatibility or direct Ollama
+
+## Installation
+
+```bash
+# From PyPI (once published)
+pip install streamlit-ollama-agent
+
+```
+
+## Quick Start
+
+1. Make sure you have Ollama running locally:
+```bash
+ollama run llama2  # or your preferred model
+```
+
+2. Create a new Python file (e.g., `chat_app.py`):
+```python
+import streamlit as st
+from streamlit_ollama_agent import OllamaAgent
+
+# Initialize the agent (using OpenAI compatibility mode)
+agent = OllamaAgent(
+    model_name="llama2",  # or your preferred model
+    base_url="http://localhost:11434/v1"
+)
+
+# Or use direct Ollama streaming
+agent = OllamaAgent(
+    model_name="llama2",
+    use_direct_streaming=True  # Bypass OpenAI compatibility for direct Ollama streaming
+)
+
+# Create your chat interface
+st.title("Chat with Ollama")
+
+# Use the built-in Streamlit app
+from streamlit_ollama_agent import create_chat_app
+create_chat_app(agent)
+```
+
+3. Run your app:
+```bash
+streamlit run chat_app.py
+```
+
+## Advanced Usage
+
+### Streaming Modes
+
+The package supports two streaming modes:
+
+1. **OpenAI Compatibility Mode** (default):
+   - Uses OpenAI's API format
+   - Compatible with other OpenAI-like APIs
+   - More standardized approach
+```python
+agent = OllamaAgent(
+    model_name="llama2",
+    base_url="http://localhost:11434/v1",  # Ollama's OpenAI-compatible endpoint
+    api_key="ollama"  # Not required for Ollama
+)
+```
+
+2. **Direct Ollama Streaming**:
+   - Connects directly to Ollama's native API
+   - Potentially faster
+   - Access to Ollama-specific features
+```python
+agent = OllamaAgent(
+    model_name="llama2",
+    use_direct_streaming=True
+)
+```
+
+### Custom Chat Interface
+
+You can create your own custom chat interface using the `OllamaAgent` directly:
+
+```python
+import asyncio
+from streamlit_ollama_agent import OllamaAgent
+
+agent = OllamaAgent()
+
+async def get_response(prompt, history=None):
+    async for chunk in agent.stream_response(prompt, history):
+        # Handle each chunk of the response
+        yield chunk
+```
+
+### Configuration Options
+
+```python
+agent = OllamaAgent(
+    model_name="your-model",      # Choose your Ollama model
+    base_url="your-url",          # Custom Ollama API URL (OpenAI mode)
+    api_key="your-key",           # If needed (OpenAI mode)
+    use_direct_streaming=False    # Choose streaming mode
+)
+```
+
+## Project Structure
+
+```
+streamlit-ollama-agent/
+├── streamlit_ollama_agent/
+│   ├── __init__.py
+│   ├── agent.py          # OllamaAgent implementation
+│   └── app.py           # Streamlit app implementation
+├── setup.py
+├── README.md
+└── requirements.txt
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
