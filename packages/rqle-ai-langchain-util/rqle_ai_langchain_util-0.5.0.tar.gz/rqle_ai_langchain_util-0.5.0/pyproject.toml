@@ -1,0 +1,62 @@
+[project]
+name = "rqle-ai-langchain-util"
+version = "0.5.0"
+description = "Library facilitating the integration of different LLM providers in LangChain (e.g. `ollama`, `Google Gemini`, etc)."
+license = "Apache-2.0"
+requires-python = ">=3.11,<3.12"
+authors = [
+    {name = "RQle.ai"},
+    {name = "Quentin Reul", email = "Quentin.H.Reul@gmail.com>" }
+]
+readme = "README.md"
+keywords = ["langchain", "generative ai", "llm"]
+classifiers = [
+    "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://www.linkedin.com/company/102641077"
+Repository = "https://github.com/RQledotai/rqle-ai-langchain-util.git"
+"Bug Tracker" = "https://github.com/RQledotai/rqle-ai-langchain-util/issues"
+
+[tool.poetry.dependencies]
+boto3 = "^1.36"
+coverage-badge = "^1"
+google-generativeai = "^0.8"
+huggingface-hub = "^0.27"
+langchain = "^0.3"
+langchain-core = "^0.3"
+langchain-community = "^0.3"
+langchain-aws = "^0.2"
+langchain-google-genai = "^2"
+langchain-ollama = "^0.2"
+langchain_openai = "^0.3"
+llm-guard = "^0.3"
+moviepy = "^2"
+oci="^2.139"
+plotly = "^5.20"
+pocketsphinx = "^5"
+pydub = "^0.25"
+python-dotenv = "^1"
+pytube = "^15"
+speechrecognition = "^3.10"
+streamlit = "^1.32"
+streamlit-tags = "^1.2"
+traceloop-sdk = "^0.33"
+vosk = "^0.3"
+
+[tool.poetry.group.test.dependencies]
+coverage = "*"
+mock = "*"
+parameterized = "*"
+pytest = "^7"
+pytest-mock = "*"
+
+[tool.coverage.run]
+omit = [
+    "tests/*"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
