@@ -1,0 +1,11 @@
+README.md
+setup.py
+nonsql/__init__.py
+nonsql/cli.py
+nonsql/database.py
+nonsql.egg-info/PKG-INFO
+nonsql.egg-info/SOURCES.txt
+nonsql.egg-info/dependency_links.txt
+nonsql.egg-info/entry_points.txt
+nonsql.egg-info/requires.txt
+nonsql.egg-info/top_level.txt
