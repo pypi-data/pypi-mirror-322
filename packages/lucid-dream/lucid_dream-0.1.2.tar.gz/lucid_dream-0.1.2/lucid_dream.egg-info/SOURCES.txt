@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+lucid-dream/__init__.py
+lucid-dream/lucid.py
+lucid_dream.egg-info/PKG-INFO
+lucid_dream.egg-info/SOURCES.txt
+lucid_dream.egg-info/dependency_links.txt
+lucid_dream.egg-info/top_level.txt

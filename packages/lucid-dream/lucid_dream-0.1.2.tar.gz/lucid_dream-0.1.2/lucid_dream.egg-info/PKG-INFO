@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: lucid-dream
+Version: 0.1.2
+Summary: A package for simulating and enhancing lucid dreaming experiences.
+Home-page: https://github.com/ishanoshada/lucid-dream
+Author: Ishan Oshada
+Author-email: ishan.kodithuwakku.offcial@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Lucid Dream
+
+The `lucid-dream` Python package provides a simple and interactive way to simulate and enhance the experience of lucid dreaming. It includes features such as meditation techniques, lucid dream initiation, and reality checks.
+
+## Features
+
+- **Enter and Exit Lucid Dream**: Control the state of your lucid dream.
+- **Meditation Techniques**: Guide the user through meditation to enhance lucid dreaming.
+- **Reality Checks**: Includes a simple reality check method to confirm lucid dreaming.
+- **Lucid Dreaming Techniques**: Provides tips to improve the likelihood of having a lucid dream.
+
+## Installation
+
+You can install the package via pip:
+
+```
+pip install lucid-dream
+```
+
+## Usage
+
+```python
+from lucid_dream.lucid import LucidDream
+
+# Create a LucidDream instance
+lucid = LucidDream()
+
+# Enter lucid dreaming state
+print(lucid.enter_lucid_dream())
+# Output: You are now lucid dreaming!
+
+# Check if currently lucid dreaming
+print(lucid.is_lucid())
+# Output: True
+
+# Set meditation time
+print(lucid.set_meditation_time(10))
+# Output: Meditation time set to 10 minutes.
+
+# Start meditation
+print(lucid.meditate())
+# Output: Meditation complete. You are relaxed and focused.
+
+# Use lucid dream technique for better results
+print(lucid.lucid_dream_technique())
+# Output: Instructions on how to enhance your lucid dreaming experience.
+
+# Exit lucid dream state
+print(lucid.exit_lucid_dream())
+# Output: You have exited the lucid dream.
+```
+
+## Functions
+
+- **`enter_lucid_dream()`**: Initiates the lucid dream.
+- **`exit_lucid_dream()`**: Ends the lucid dream.
+- **`is_lucid()`**: Checks if the user is currently lucid dreaming.
+- **`set_meditation_time(minutes)`**: Sets the meditation duration (in minutes).
+- **`meditate()`**: Guides the user through a meditation technique.
+- **`lucid_dream_technique()`**: Provides a technique to enhance lucid dreaming.
+
+## License
+
+This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+
+
+**Repository Views** ![Views](https://profile-counter.glitch.me/lucidream/count.svg)
