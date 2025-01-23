@@ -1,0 +1,10 @@
+pled-0.1.0.dist-info/METADATA,sha256=9bnsQK8MXUAk16dZ-dETiDDebXPU_Icg81LYlPXM3qY,4557
+pled-0.1.0.dist-info/WHEEL,sha256=3ql-R3KpjljqSj3X3ZcyNMjRI-rs1D5Swo2VMXkRyVo,104
+pled-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pled/execute.py,sha256=SM8Ua075Ei_4HbECGSJaUHxKrB6OpG26eAVLkmqDqIM,7312
+pled/__init__.py,sha256=HiXZEMHz09ozoNrK2NMFOzdSmjMI8cSgck5SCGUcvg4,90
+pled/_pled.pyi,sha256=4-U3qUT87MfVkOQxreESUlbswH_Bi2unxR4tfkmNkR4,2593
+pled/transform.py,sha256=yQf5HLl8TIYiTixMatbSmNUylfjd7aR-1L2a-pvFHS0,18976
+pled/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pled/_pled.cpython-310-darwin.so,sha256=kam3-7-Y3N0o5dJpPzNs7h4Y8LHdCTPCneYoP8qBABs,661904
+pled-0.1.0.dist-info/RECORD,,
