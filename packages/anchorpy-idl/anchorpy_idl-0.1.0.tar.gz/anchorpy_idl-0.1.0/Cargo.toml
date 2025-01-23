@@ -1,0 +1,22 @@
+[package]
+name = "anchorpy_idl"
+version = "0.1.0"
+edition = "2021"
+include = ["/src", "/LICENSE", "/pyproject.toml"]
+description = "Python bindings for Anchor Rust code"
+license = "Apache-2.0"
+repository = "https://github.com/kevinheavey/anchorpy-idl"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "anchorpy_idl"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+anchor-lang-idl-spec = "0.1.0"
+pyo3 = { version = "0.17.2", features = ["extension-module", "abi3-py37"] }
+solders-macros = "0.6.0"
+derive_more = "0.99.17"
+serde = { version = "1.0.147", features = ["derive"] }
+solders-traits = "0.9.3"
+serde_json = "1.0.87"
