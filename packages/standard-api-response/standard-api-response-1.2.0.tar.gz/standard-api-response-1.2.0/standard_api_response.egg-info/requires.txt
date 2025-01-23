@@ -1,0 +1,4 @@
+pydantic
+fastapi
+inflection
+advanced-python-singleton
