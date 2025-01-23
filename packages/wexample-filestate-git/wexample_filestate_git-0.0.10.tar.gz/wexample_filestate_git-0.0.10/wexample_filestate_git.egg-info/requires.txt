@@ -1,0 +1,8 @@
+pydantic
+pip-tools
+pytest
+requests
+wexample-filestate
+wexample-helpers
+wexample-helpers-git
+wexample-prompt
