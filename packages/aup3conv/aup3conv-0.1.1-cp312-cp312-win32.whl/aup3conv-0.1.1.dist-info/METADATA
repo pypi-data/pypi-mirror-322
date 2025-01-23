@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: aup3conv
+Version: 0.1.1
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
+Classifier: Topic :: Multimedia :: Sound/Audio
+License-File: LICENSE
+Summary: Scrape Audacity project files
+Keywords: audio,analysis,audacity,parsing
+Author-email: Michael Blaß <m.blass@uke.de>
+License: LICENSE
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: source, https://github.com/UKEIAM/aup3conv
+
+# aup3conv
+
+Scrape Audacity project files ... without actually running Audacity.
+
+# Notes
+
+aup3conv builds upon [rusqlite](https://github.com/rusqlite/rusqlite). In order
+to support Windows, rusqlite builds its own sqlite library and links against it
+using the "bundled" feature. So, it does not use the same sqlite version that
+you may have preinstalled on you device.
+
