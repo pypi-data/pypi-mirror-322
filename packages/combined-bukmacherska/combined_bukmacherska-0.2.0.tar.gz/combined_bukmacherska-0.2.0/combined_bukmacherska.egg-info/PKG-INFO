@@ -1,0 +1,68 @@
+Metadata-Version: 2.2
+Name: combined_bukmacherska
+Version: 0.2.0
+Summary: Biblioteka łącząca funkcjonalności bukmacherska i bukmacherska_crystal
+Home-page: https://github.com/twoj_repo/combined_bukmacherska
+Author: Twoje Imię
+Author-email: twojemail@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: lightgbm
+Requires-Dist: kivy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# combined_bukmacherska
+
+combined_bukmacherska to biblioteka Ĺ‚Ä…czÄ…ca funkcjonalnoĹ›ci bibliotek `bukmacherska` i `bukmacherska_crystal`. 
+
+## Funkcje
+
+- Funkcje gamma i beta
+- Funkcje pomocnicze do obliczeĹ„
+- Modele maszynowego uczenia
+- Funkcje rysujÄ…ce wykresy
+
+## Instalacja
+
+Aby zainstalowaÄ‡ bibliotekÄ™, uĹĽyj poniĹĽszego polecenia:
+
+```sh
+pip install combined_bukmacherska
+
+
+import combined_bukmacherska as cb
+
+# PrzykĹ‚ad uĹĽycia funkcji poisson_probability
+beta = 2
+alpha = 3
+probability = cb.poisson_probability(beta, alpha)
+print(f"Poisson Probability: {probability}")
+
+# Trening modeli
+X_train = ...
+y_train = ...
+models = cb.train_models(X_train, y_train)
+
+# Predykcje
+X_test = ...
+predictions = cb.predict_with_models(models, X_test)
+
+# Rysowanie wykresĂłw
+cb.plot_results(predictions, team1_lambda, team2_lambda, team1_avg_conceded, team2_avg_conceded)
