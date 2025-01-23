@@ -1,0 +1,7 @@
+event_transforms_polars/__init__.py,sha256=pAGUPS0Pwranl32vk3m1N3E6BcdmoL59722xEajIJwY,37
+event_transforms_polars/coalesce.py,sha256=adQMLkmlratKcvUc7F-WwxauErvEGNeQ3eH3NlVLM-g,2953
+event_transforms_polars-0.0.1.dist-info/LICENCE,sha256=CxPDGMFLafCLBbbElq7XncBaLVkhNn_nrUoWMpwAJ_o,1086
+event_transforms_polars-0.0.1.dist-info/METADATA,sha256=Ihzqv_iftLmtLbcydz7UgQtRI2kzEVRrhPKo1-zrthc,778
+event_transforms_polars-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+event_transforms_polars-0.0.1.dist-info/top_level.txt,sha256=y1GMksEcRW--4NMWofEQd_iNVntWbTSJis-1up01AJs,24
+event_transforms_polars-0.0.1.dist-info/RECORD,,

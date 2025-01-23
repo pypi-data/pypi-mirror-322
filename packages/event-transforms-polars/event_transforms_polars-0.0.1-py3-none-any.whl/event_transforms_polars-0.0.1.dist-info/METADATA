@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: event_transforms_polars
+Version: 0.0.1
+Summary: Transformation utilies for data with event start/end times in Polars.
+Author-email: Ja-Jet Loh <jajet.codes@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: polars>=1.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+
+# Event Transforms (Polars)
+
+Efficient utility functions for wrangling DataFrames with event start/end times for rows, using built-in Polars operations.
+
+- ``coalesce_events`` combines overlapping events into single events
