@@ -1,0 +1,44 @@
+# base-api-utils
+DRF common utilities
+
+## Virtual Env
+
+````bash
+$ python3 -m venv env
+
+$ source env/bin/activate
+````
+
+## python setup
+
+````bash
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt-get -y -f install python3.7 python3-pip python3.7-dev python3.7-venv libpython3.7-dev python3-setuptools
+sudo -H pip3 --default-timeout=50 install --upgrade pip
+sudo -H pip3 install virtualenv
+````
+
+## Install reqs
+
+````
+pip install -r requirements.txt 
+````
+
+## Packaging
+
+python3 -m pip install --upgrade build
+python3 -m build
+
+## Uploading ( Test Py Pi)
+
+python3 -m pip install --upgrade twine
+python3 -m twine upload --repository testpypi dist/*
+
+## Publish to PyPI
+twine upload dist/*
+
+## Install locally
+pip install -i https://test.pypi.org/simple/ base-api-utils --no-deps
+
+## Install from GitHub
+pip install git+https://github.com/fntechgit/base-api-utils
