@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+partisan_cat.egg-info/PKG-INFO
+partisan_cat.egg-info/SOURCES.txt
+partisan_cat.egg-info/dependency_links.txt
+partisan_cat.egg-info/top_level.txt
