@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: cloudcoil.models.kubernetes
+Version: 1.32.1.0
+Summary: Versioned Kubernetes models for cloudcoil
+Project-URL: Homepage, https://github.com/cloudcoil/cloudcoil
+Project-URL: Documentation, https://cloudcoil.github.io/cloudcoil
+Project-URL: Repository, https://github.com/cloudcoil/models-kubernetes
+Project-URL: Issues, https://github.com/cloudcoil/models-kubernetes/issues
+Project-URL: Changelog, https://github.com/cloudcoil/models-kubernetes/releases
+Author-email: Sambhav Kothari <sambhavs.email@gmail.com>
+Maintainer-email: Sambhav Kothari <sambhavs.email@gmail.com>
+License: Apache-2.0
+License-File: LICENSE
+Keywords: async,cloud-native,kubernetes,pydantic,python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Requires-Dist: cloudcoil>=0.0.21
+Description-Content-Type: text/markdown
+
+# cloudcoil-models-kubernetes
+
+Versioned Kubernetes models for cloudcoil.
