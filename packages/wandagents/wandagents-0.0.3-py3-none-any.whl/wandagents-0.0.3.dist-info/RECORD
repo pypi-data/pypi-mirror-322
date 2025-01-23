@@ -1,0 +1,11 @@
+wandagents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wandagents/community.py,sha256=1C9KfMZPOu-PsLx4xpE4AU-DkjT_fxmcBYsCgoR_7kE,2328
+wandagents/eco.py,sha256=hLCe4CnXAPfq496mLWvy3qRzfxr9OH1_kLwauec3dBI,916
+wandagents/gov.py,sha256=TzGrypE3EmQA5gx3KXn9O1nW31c1c5CLztZPP0Uz4Xw,4911
+wandagents/network.py,sha256=Fj9GVtNm_VOAlx5s87eR_Z8CixfFTDGSUYfIXSnLPzY,4563
+wandagents/university.py,sha256=WItghkJtZm3ACy8lcnqTWyvDwY_gwZQxgQA_jUaScfY,1754
+wandagents-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wandagents-0.0.3.dist-info/METADATA,sha256=tE1tRe3X6E4EpiPyes0fkNneZZBqhF8p0FsPLs7yua0,904
+wandagents-0.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+wandagents-0.0.3.dist-info/top_level.txt,sha256=FTQ3Z09vVbrDUdkAIhl4PhgOjWi-uke6qb94irKojjE,11
+wandagents-0.0.3.dist-info/RECORD,,
