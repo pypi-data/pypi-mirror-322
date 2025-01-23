@@ -1,0 +1,5 @@
+[console_scripts]
+fine_tune = mindrove_gesture.fine_tune:fine_tune_svm
+inference = mindrove_gesture.inference:real_time_inference
+record = mindrove_gesture.record:record_gestures
+
