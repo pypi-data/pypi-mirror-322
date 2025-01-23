@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dsi-schema-assurance"
+version = "0.0.5"
+description = "Package for schema assurance."
+authors = ["Joao Nisa <joao.nisa@mesh-ai.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rdflib = "7.1.1"
+setuptools = "68.2.2"
+requests = "2.32.3"
+pyshacl = "0.29.0"
+
+[build-system]
+requires = ["poetry-core", "setuptools", "rdflib", "requests", "pyshacl"]
+build-backend = "poetry.core.masonry.api"
