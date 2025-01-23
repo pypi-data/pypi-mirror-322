@@ -1,0 +1,14 @@
+[project]
+name = "mytestpackage_lubupang"
+version = "0.0.1"
+authors = [
+  { name="lubupang", email="lubupang@bupang.com" },
+]
+description = "A small example package"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+

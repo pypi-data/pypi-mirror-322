@@ -1,0 +1,6 @@
+pyproject.toml
+src/mytestpackage_lubupang/__init__.py
+src/mytestpackage_lubupang.egg-info/PKG-INFO
+src/mytestpackage_lubupang.egg-info/SOURCES.txt
+src/mytestpackage_lubupang.egg-info/dependency_links.txt
+src/mytestpackage_lubupang.egg-info/top_level.txt
