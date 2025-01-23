@@ -1,0 +1,11 @@
+rclone/__init__.py,sha256=Y8uMBJFKDk-99JWClEYQMuaT0SzTsFr8-VmfD9IX0hM,2082
+rclone/base32768.py,sha256=LqLAslZ3bomctFNK4GO56q1cw6trD0P82SOwk05mDqQ,3712
+rclone/eme.py,sha256=frKSs0mn1GKx4rgsQVA6NXhfxMplOmfVT1OPvftEqtM,4454
+rclone/file_cipher.py,sha256=ZZw98tJ75UF32Ut2Sv0C_OLJFZhzGuksBzAE00oeGS8,6619
+rclone/name_cipher.py,sha256=hqTRKL4RkAYGps6mnQa8C4hckVNvjyg4tMaJfTf7ghE,8049
+rclone/util.py,sha256=il9Wu6r0wViMIkHSPtmx7rXnJTlR9fY80Y55Tz_WjZM,2146
+rclone_crypt-1.2.0.dist-info/LICENSE,sha256=jNLp51C5CgS32C27yjkwxpauAwnXwQRk-QpE9FdUzQQ,1095
+rclone_crypt-1.2.0.dist-info/METADATA,sha256=dAgtefeELV9dDlSf9Hh0IWyfpUUikkSenXt37zykeJI,3210
+rclone_crypt-1.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+rclone_crypt-1.2.0.dist-info/top_level.txt,sha256=nvY-EON4u2hGC0xOZS5tO1GESPJROTYRvSfqtvkq__Q,7
+rclone_crypt-1.2.0.dist-info/RECORD,,
