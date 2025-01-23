@@ -1,0 +1,10 @@
+[console_scripts]
+pytroll-selector = pytroll_watchers.selector:cli
+pytroll-watcher = pytroll_watchers.main_interface:cli
+
+[pytroll_watchers.backends]
+dataspace = pytroll_watchers.dataspace_watcher
+datastore = pytroll_watchers.datastore_watcher
+dhus = pytroll_watchers.dhus_watcher
+local = pytroll_watchers.local_watcher
+minio = pytroll_watchers.minio_notification_watcher
