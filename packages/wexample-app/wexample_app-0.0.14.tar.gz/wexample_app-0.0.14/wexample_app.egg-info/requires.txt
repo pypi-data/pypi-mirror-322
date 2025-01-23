@@ -1,0 +1,7 @@
+python-dotenv
+pydantic
+wexample-filestate
+wexample-helpers
+wexample-prompt
+wexample-yaml
+wexample-wex-addon-app
