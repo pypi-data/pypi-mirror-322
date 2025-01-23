@@ -1,0 +1,16 @@
+shppy/_types.py,sha256=ilp1zi3rWSra4Mg2KU1z1dpB4DvtucP74bMlrJHhjIo,101
+shppy/__init__.py,sha256=KS2Z7ipmusVbx1q_hZ2kMNO119--4e4EvlMsQF43_54,41
+shppy/utils.py,sha256=5oMgqjnKT0vTQKcBNY38qtkCSVGySvIrmNtwb2uLQ4c,129
+shppy/_C.py,sha256=_ihmdOKlVTOQ_Q8uhiMNY391H6XxWhgWcXfPMwJc7EU,597
+shppy/libshppy.so,sha256=ihD1rpx3IkzVEUddei4QbCmpx4cfK1FVXdPojSGSj-g,15872
+shppy/atom/__init__.py,sha256=feyhHQpqnC4r7yY2CJVt8UXO83koDS2aISFpJRoBDk4,276
+shppy/atom/basic.py,sha256=6abP7ExA8IYO-rLsv6M7MSFWvYdyGTBP3X4h83HMM7E,39
+shppy/atom/__init__.pyi,sha256=uA2BpnIFjGk23BXCBP-eQi9YpK-6epsfCVyMBA0Ha2M,1117
+shppy/_core/main.cpp,sha256=NhX8Pv00sUCBm927Zr_aq2Xji1XX7XkHhi_IfEz8-W4,90
+shppy/_core/hello.cpp,sha256=Vb9a1GcyB2UkOAtJAFyKLRJ5PZHGnDUdmJqdEG8je0M,253
+shppy/io/lammpstraj.pyi,sha256=Bbnaak_alwFQ3fMmEej98d2-yVyTgiJjERxsJPqd4C4,475
+shppy/io/__init__.py,sha256=u7djKRczvocG4zhZhoGQvXWDszTknEFrAzRYFNZFY_0,60
+shppy/io/lammpstraj.py,sha256=wQQkeyfymdMqhnNiLMtd1XqMuosn9YUddpIzkT1y_Oc,7982
+shppy-0.2.0a0.dist-info/METADATA,sha256=56o-M3UJJLrJ0CvvNaTzlL7g6XLOv5Al6SS-ag3Yxj0,762
+shppy-0.2.0a0.dist-info/RECORD,,
+shppy-0.2.0a0.dist-info/WHEEL,sha256=JcrmcK-ZoJpMgj973yfylcHih1RPYOhcw92AjQUlhLo,229
