@@ -1,0 +1,7 @@
+materialx>=1.39.2
+pygltflib
+
+[dev]
+jupyter
+pytest
+sphinx
