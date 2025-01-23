@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+otto64/__init__.py
+otto64/otto64.py
+otto64.egg-info/PKG-INFO
+otto64.egg-info/SOURCES.txt
+otto64.egg-info/dependency_links.txt
+otto64.egg-info/top_level.txt
+test/test.py
