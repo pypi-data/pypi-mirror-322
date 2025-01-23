@@ -1,0 +1,16 @@
+pyroll/freiberg_spreading/__init__.py,sha256=5adBFaBNnrvvIfqCWn2CTll1xuxe5t9-1sU8F0utKdM,355
+pyroll/freiberg_spreading/coefficients_lib.py,sha256=Uj0x57nVUVwIEtQWAwiKNjHkwBJGgVf-Fm5ZSAK4UcE,2066
+pyroll/freiberg_spreading/freiberg_spreading.py,sha256=QhlbQVmaGkJT4tazV_LL15B2Q4v9cZvAPPG69xp94N0,1404
+pyroll/freiberg_spreading/hookspecs.py,sha256=DPZZE4upvd7scx2DDFMNHYJw6_CYpuI7eFP2ZfKK9JA,694
+pyroll/freiberg_spreading/materials.py,sha256=3IalULM-xLALfgCDfiZZ3NnYffgmdpVIYn48P0551to,1531
+pyroll/freiberg_spreading/passes/__init__.py,sha256=Z0ecurlWWCTOmXVPYRPMGx28YG8i7nM481s97f0-YiY,192
+pyroll/freiberg_spreading/passes/diamond_diamond.py,sha256=uS7qT7Pm0D-MohJEZ_FeD4Bu3hfa850VXXIlrRIdLaI,1546
+pyroll/freiberg_spreading/passes/diamond_square.py,sha256=er5DxOwngbL_AG3VWHuByoKhqkO5D3knnlLnz1FRCnU,1563
+pyroll/freiberg_spreading/passes/oval_round.py,sha256=yGQTgBcLBIW4O0CdPx9Rpoi4uMqVZ1QFx7sWAW-THzU,1538
+pyroll/freiberg_spreading/passes/oval_square.py,sha256=Nx2wRHKlo0k9GoOuegNPU8ltWIn34SBqWqTonbOEvJI,1529
+pyroll/freiberg_spreading/passes/round_oval.py,sha256=LtljUiwXo9O_ts1b7v98ZA_k1d70u42ewYdkxeRvXbo,1537
+pyroll/freiberg_spreading/passes/square_diamond.py,sha256=Mw0_eKiSa7oGvBbkJIaLNEF4w-24bA8tbBoQl9nnr1k,1539
+pyroll/freiberg_spreading/passes/square_oval.py,sha256=80qC-3mxU-su8f-PSKv3amrhIvAko_QIcpUMNdiAsNM,1531
+pyroll_freiberg_spreading-2.0.2.dist-info/METADATA,sha256=4zuIYLTCf7Zr7QHdMeXbm_zvqYdBdNmx4OafINw2fVY,1495
+pyroll_freiberg_spreading-2.0.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pyroll_freiberg_spreading-2.0.2.dist-info/RECORD,,
