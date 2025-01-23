@@ -1,0 +1,14 @@
+codebase2prompt/__init__.py,sha256=mB6VGr9QvvC7R-whuBxRd1nF1PCGAQJzT-VdBcfgSe8,147
+codebase2prompt/__main__.py,sha256=3QM80IT6XoPbV2HI4aP4DtBKim3zMOtl8HrpYAdhV6Q,135
+codebase2prompt/cli.py,sha256=sTmem47hXmISjprt4gDH7pbdHhP3n8hTjRFqY7eu2Iw,7691
+codebase2prompt/cli_commands.py,sha256=voxuqkeJ8tuWAFpKvD4IHHFlfe7UHbLBOcy2yVpPxR0,2537
+codebase2prompt/config.py,sha256=jVdEfiSenFg_tqDua8-KtiRqZeUM55sK65XM0FMw_wU,3641
+codebase2prompt/formatter.py,sha256=WIvnl0R6OsqlA8qveNAgB0jWNRmw7GIYAOSkoOls7io,5439
+codebase2prompt/javascript_parser.py,sha256=clTpFQ-WLd5gQDAjJTS11kWyUXpUtFb2XUBPieJRngs,2733
+codebase2prompt/parser.py,sha256=TSi8omzTWk5ekJH9Uj2b4fAbvqZ1-YUCwccMKzZh7Yo,3415
+codebase2prompt/scanner.py,sha256=dU2xrCKQG1pYos6afOIXcUIfHnGAuFoEi2Lo8RGISJQ,7629
+codebase2prompt-0.1.2.dist-info/entry_points.txt,sha256=nrI1cpHEH2K1cHUg155Yyf3rdwAOpXYpb-wx4Uuj_MA,47
+codebase2prompt-0.1.2.dist-info/LICENSE,sha256=Xd4mIqfiS5Qwt9qJNTwcvo5P_o404AKS0SA5FYIAxeY,1089
+codebase2prompt-0.1.2.dist-info/METADATA,sha256=Gk919NrN_-k1mGlrOtlYvVIEWpXFZd0QETh-gqP7pcA,4884
+codebase2prompt-0.1.2.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+codebase2prompt-0.1.2.dist-info/RECORD,,
