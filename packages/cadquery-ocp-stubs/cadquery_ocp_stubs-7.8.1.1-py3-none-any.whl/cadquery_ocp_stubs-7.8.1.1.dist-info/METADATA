@@ -1,0 +1,6 @@
+Metadata-Version: 2.2
+Name: cadquery-ocp-stubs
+Version: 7.8.1.1
+Summary: API stubs for cadquery-ocp
+Author-email: Bernhard Walter <b_walter@arcor.de>
+Requires-Python: >=3.10
