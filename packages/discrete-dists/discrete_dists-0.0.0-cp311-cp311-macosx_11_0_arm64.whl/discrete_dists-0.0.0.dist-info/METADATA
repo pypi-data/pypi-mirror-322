@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: discrete-dists
+Version: 0.0.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: numpy >=1.23, <3.0
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: maturin ; extra == 'dev'
+Requires-Dist: pip ; extra == 'dev'
+Requires-Dist: pytest-benchmark ~=5.0 ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: pyright ; extra == 'dev'
+Requires-Dist: commitizen ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: dev
+Author-email: Andy Patterson <andnpatterson@gmail.com>
+Requires-Python: >=3.8
