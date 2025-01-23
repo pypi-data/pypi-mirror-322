@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: wexample-helpers-api
+Version: 0.0.4
+Summary: Some python basic helpers for apis.
+Author-email: weeger <contact@wexample.com>
+License: MIT
+Project-URL: homepage, https://github.com/wexample/python-helpers-api
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: wexample_helpers
+Requires-Dist: wexample_prompt
+Requires-Dist: pytest
+Requires-Dist: pip-tools
