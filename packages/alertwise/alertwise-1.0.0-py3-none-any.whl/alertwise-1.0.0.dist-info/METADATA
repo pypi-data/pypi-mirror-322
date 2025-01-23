@@ -1,0 +1,113 @@
+Metadata-Version: 2.2
+Name: alertwise
+Version: 1.0.0
+Summary: Wagtail based weather warnings composing and dissemination tool
+Author-email: Erick Otenyo <otenyo.erick@gmail.com>, Grace Amondi <miswa.grace@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/wmo-raf/alertwise
+Project-URL: Bug Tracker, https://github.com/wmo-raf/alertwise/issues
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Django
+Classifier: Framework :: Wagtail
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: adm-boundary-manager==0.2.4
+Requires-Dist: anyascii==0.3.2
+Requires-Dist: asgiref==3.8.1
+Requires-Dist: attrs==24.2.0
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: brotli==1.1.0
+Requires-Dist: capvalidator==0.1.0.dev4
+Requires-Dist: certifi==2024.8.30
+Requires-Dist: cffi==1.17.1
+Requires-Dist: charset-normalizer==3.4.0
+Requires-Dist: click==8.1.7
+Requires-Dist: click-plugins==1.1.1
+Requires-Dist: cligj==0.7.2
+Requires-Dist: cryptography==43.0.3
+Requires-Dist: cssselect2==0.7.0
+Requires-Dist: defusedxml==0.7.1
+Requires-Dist: django==4.2.16
+Requires-Dist: django-countries==7.6.1
+Requires-Dist: django-countries-geoextent==0.0.1
+Requires-Dist: django-filter==24.3
+Requires-Dist: django-modelcluster==6.3
+Requires-Dist: django-permissionedforms==0.1
+Requires-Dist: django-taggit==6.1.0
+Requires-Dist: django-treebeard==4.7.1
+Requires-Dist: djangorestframework==3.15.2
+Requires-Dist: djangorestframework-xml==2.0.0
+Requires-Dist: draftjs-exporter==5.0.0
+Requires-Dist: et-xmlfile==2.0.0
+Requires-Dist: feedparser==6.0.11
+Requires-Dist: filetype==1.2.0
+Requires-Dist: fiona==1.10.1
+Requires-Dist: fonttools[woff]==4.55.0
+Requires-Dist: geopandas==1.0.1
+Requires-Dist: idna==3.10
+Requires-Dist: importlib-metadata==8.5.0
+Requires-Dist: l18n==2021.3
+Requires-Dist: laces==0.1.1
+Requires-Dist: loguru==0.7.2
+Requires-Dist: lxml==5.3.0
+Requires-Dist: numpy==2.0.2
+Requires-Dist: openpyxl==3.1.5
+Requires-Dist: packaging==24.2
+Requires-Dist: paho-mqtt==2.1.0
+Requires-Dist: pandas==2.2.3
+Requires-Dist: pdf2image==1.17.0
+Requires-Dist: pillow==10.4.0
+Requires-Dist: pillow-heif==0.20.0
+Requires-Dist: pycparser==2.22
+Requires-Dist: pydyf==0.11.0
+Requires-Dist: pyogrio==0.10.0
+Requires-Dist: pyphen==0.15.0
+Requires-Dist: pyproj==3.6.1
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: python-magic==0.4.27
+Requires-Dist: pytz==2024.2
+Requires-Dist: requests==2.32.3
+Requires-Dist: sgmllib3k==1.0.0
+Requires-Dist: shapely==2.0.6
+Requires-Dist: signxml==4.0.2
+Requires-Dist: six==1.16.0
+Requires-Dist: soupsieve==2.6
+Requires-Dist: sqlparse==0.5.2
+Requires-Dist: telepath==0.3.1
+Requires-Dist: tinycss2==1.4.0
+Requires-Dist: tinyhtml5==2.0.0
+Requires-Dist: typing-extensions==4.12.2
+Requires-Dist: tzdata==2024.2
+Requires-Dist: urllib3==2.2.3
+Requires-Dist: wagtail==6.3.1
+Requires-Dist: wagtail-cache==2.5.1
+Requires-Dist: wagtail-font-awesome-svg==1.0.1
+Requires-Dist: wagtail-humanitarian-icons==2.0.0
+Requires-Dist: wagtail-icon-chooser==0.0.7
+Requires-Dist: wagtail-lazyimages==0.1.5
+Requires-Dist: wagtail-metadata==5.0.0
+Requires-Dist: wagtail-modeladmin==2.1.0
+Requires-Dist: wagtail-modelchooser==4.0.1
+Requires-Dist: weasyprint==63.0
+Requires-Dist: webencodings==0.5.1
+Requires-Dist: willow[heif]==1.9.0
+Requires-Dist: xmltodict==0.14.2
+Requires-Dist: zipp==3.21.0
+Requires-Dist: zopfli==0.2.3.post1
+
+A [Wagtail](https://wagtail.io/)
+based [Common Alerting Protocol](https://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html) (CAP) Warning
+Composer.
+
+This is a web-based tool for creating and managing CAP alerts. It is designed to be used by National Meteorological and
+Hydrological Services (NMHSs) ,disaster management agencies, and other organizations that have the authority to publish
+and disseminate CAP alerts.
+
+For more details, see [https://github.com/wmo-raf/alertwise](https://github.com/wmo-raf/alertwise)
+
