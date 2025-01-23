@@ -1,0 +1,5 @@
+setup.py
+Utils_SSCHA_MLIP.egg-info/PKG-INFO
+Utils_SSCHA_MLIP.egg-info/SOURCES.txt
+Utils_SSCHA_MLIP.egg-info/dependency_links.txt
+Utils_SSCHA_MLIP.egg-info/top_level.txt

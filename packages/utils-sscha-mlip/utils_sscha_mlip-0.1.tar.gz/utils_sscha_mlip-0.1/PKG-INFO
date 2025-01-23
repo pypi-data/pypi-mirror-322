@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Utils_SSCHA_MLIP
+Version: 0.1
+Summary: MTP package for SSCHA
+Author: Francesco Belli
+Author-email: <bellifra93@gmail.com>
+Keywords: python,SSCHA_MLIP
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+
+reworked a bit the cluster handling part and implemented the MTP package to include the SSCHA and MLIP
