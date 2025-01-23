@@ -1,0 +1,3 @@
+alist
+dist
+docs
