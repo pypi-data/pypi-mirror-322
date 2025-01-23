@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: bitscrunch_sdk_unleashnft_v2
+Version: 0.1.0
+Summary: A Python SDK for interacting with the bitsCrunch API
+Author: Anupama
+Author-email: anupamarawat71@gmail.com
+Requires-Dist: requests
