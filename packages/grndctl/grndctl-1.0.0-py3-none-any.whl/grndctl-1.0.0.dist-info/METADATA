@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: grndctl
+Version: 1.0.0
+Summary: A tool for syncing Jira tickets with local files
+Author: Brad Edwards
+Author-email: j.bradley.edwards@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: jira (>=3.8.0,<4.0.0)
