@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: wexample-helpers-git
+Version: 0.0.18
+Summary: Some python basic helpers for git.
+Author-email: weeger <contact@wexample.com>
+License: MIT
+Project-URL: homepage, https://github.com/wexample/python-helpers-git
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: gitpython
+
+# helpers
+
+Some python basic helpers and constants for git operations
