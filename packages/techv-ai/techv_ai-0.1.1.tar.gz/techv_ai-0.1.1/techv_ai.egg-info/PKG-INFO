@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: techv_ai
+Version: 0.1.1
+Summary: Techvantage AI Developer Toolkit for Deepseek
+Author: Techvantage
+License-File: LICENCE
+Requires-Dist: openai
+Requires-Dist: requests
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary
