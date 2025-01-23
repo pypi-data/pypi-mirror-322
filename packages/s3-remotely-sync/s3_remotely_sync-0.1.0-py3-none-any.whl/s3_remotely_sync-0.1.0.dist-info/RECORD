@@ -1,0 +1,13 @@
+s3sync/__init__.py,sha256=E8Q93KRhy_D5BzO4CcuPPHkzDuN6Mlu-A9s18P4mWHw,167
+s3sync/cli.py,sha256=LxVh4y9s38ICEpS28uEqPY_uZIVcMK5VQLxZPoFrE1c,8436
+s3sync/config.py,sha256=EI79RC7ujQf7id_YSwz9K1QK1WUMuVJ-DD-J6-Oot5Q,5472
+s3sync/lock.py,sha256=h2mb-LlO3yj-yhkU2BtIqdWkgleE_Lg4-KPny7dwhr0,3385
+s3sync/metadata.py,sha256=lElazBdPWhpt6oDfDJXs4azTuyoObJFCjtBWpq8jH3Y,1087
+s3sync/s3sync.py,sha256=I6KyloyG1MjksPbPqbtq1PLydrS3MeeB7WjkAfJWU_Y,6890
+s3sync/utils.py,sha256=bknBmDGi8jJqQkNEPNbCBVYPca76tm5a_TNj9UGDz8c,1245
+s3_remotely_sync-0.1.0.dist-info/LICENSE,sha256=FyuBsNr3YLXHPRQfWIpCAC4brUeSdYelr01V-Fkog8U,1066
+s3_remotely_sync-0.1.0.dist-info/METADATA,sha256=86vjrddquzx4cIjMX6BcjoeVocxvempp-N2siDcnbrc,3102
+s3_remotely_sync-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+s3_remotely_sync-0.1.0.dist-info/entry_points.txt,sha256=5DPg3xqYKOGusHR0LV0n_rQkJkRh_XyXbdwRu2YoSXA,41
+s3_remotely_sync-0.1.0.dist-info/top_level.txt,sha256=xVBZwP6Kl4xIu3HgxFEGMBJbY5lOzwX3MSHkjj2Be6M,7
+s3_remotely_sync-0.1.0.dist-info/RECORD,,
