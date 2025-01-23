@@ -1,0 +1,2 @@
+[console_scripts]
+peblar = peblar.cli:cli
