@@ -1,0 +1,15 @@
+mlx_use/logging_config.py,sha256=xwNUMn7cSgkPFwI05GM40a0UtOV0hUIxvbrg2BZlF5g,4031
+mlx_use/agent/prompts.py,sha256=aY7lKaOXlwUvzDwdP7W__nX7ANivFB6r8iaqX9QBgzY,7980
+mlx_use/agent/service.py,sha256=ezcYvBA61WJb5C5-h48IIQPoViOYVz3Ig_XGrJlIKa8,35888
+mlx_use/agent/views.py,sha256=_qYZ7vptfOlz8LK8GPSD7wRbO1X2PDXkIas9Z28llaA,8241
+mlx_use/agent/message_manager/service.py,sha256=9rhSbGjT8hzVU1EBJGOkrZ_0GTOAyenT3JFmR-MgkAw,8500
+mlx_use/controller/service.py,sha256=riorHXxCk06KGuQocoXWK2AKlhkimyION_wEw8rCBQ0,17941
+mlx_use/controller/registry/service.py,sha256=DP3oEKYg4fss6K3p6eavDG99oc2TXwYCqgJcenc2TwU,4505
+mlx_use/mac/browser.py,sha256=F5T3cH5snTKd_sdwHkOM-THvXZ4z_RSNAqOVbSdLCAY,7415
+mlx_use/mac/context.py,sha256=2E5de2t_-ZpSH_ar8lzjo-LqgLVlEYDG1YFwxSodmTo,29827
+mlx_use/mac/views.py,sha256=-V47BoR-t-KARDcwxaK0aSWwSX_AJEsFEBwM81Z8It0,1079
+mlx_use/telemetry/views.py,sha256=_sHThqUgq8gemuvEb_2Or_mgXrY_YWs9sfWVnjhX0WQ,1215
+mlx_use-0.0.1.dist-info/METADATA,sha256=8NStb8rwHjFZlzNoO5Q-I2H7m4wETERdns27y-lkks0,7048
+mlx_use-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mlx_use-0.0.1.dist-info/licenses/LICENSE,sha256=nwiXKkHHVnDmTKunlru8IUiGoVN4yH8XGYWyCHu3fUI,1124
+mlx_use-0.0.1.dist-info/RECORD,,
