@@ -1,0 +1,9 @@
+[console_scripts]
+c2c = curl_to_context.main:c2c
+c2g = curl_to_context.main:c2g
+curl-to-context = curl_to_context.main:app
+curl2context = curl_to_context.main:curl2context
+curl2grab = curl_to_context.main:curl2grab
+
+[gui_scripts]
+
