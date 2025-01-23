@@ -1,0 +1,7 @@
+setup.py
+mininn/__init__.py
+mininn/predictor.py
+mininn.egg-info/PKG-INFO
+mininn.egg-info/SOURCES.txt
+mininn.egg-info/dependency_links.txt
+mininn.egg-info/top_level.txt
