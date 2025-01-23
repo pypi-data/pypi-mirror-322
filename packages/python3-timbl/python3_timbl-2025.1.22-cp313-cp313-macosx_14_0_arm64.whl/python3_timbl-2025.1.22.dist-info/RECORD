@@ -1,0 +1,16 @@
+timbl.py,sha256=hk-JEwddWYGNMvaR-CU_kjFxKlPgZj9mMLt7akYb8ww,13097
+timblapi.cpython-313-darwin.so,sha256=09Ymg9B439IoBRl_5h3iBQ071TFkJirqQzgQUMIfTRQ,253872
+python3_timbl-2025.1.22.dist-info/RECORD,,
+python3_timbl-2025.1.22.dist-info/WHEEL,sha256=wajf2RmtLcyDhlr_PKgNyLmxD2pJHORwHzFCayrprrU,109
+python3_timbl-2025.1.22.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+python3_timbl-2025.1.22.dist-info/top_level.txt,sha256=_RIushqCqMHLfll6YF3ky6-gyp9UwrO_KlbuCO_eg4w,15
+python3_timbl-2025.1.22.dist-info/METADATA,sha256=Pe30pEWRonSZN0ogYlEZbwwDKoEVbQ-JbuEYaLHjINU,824
+python3_timbl.dylibs/libboost_python313.dylib,sha256=yb9FcxOUtyCoPF2zCqgcQXMfM6SHjp3qGF6dhAO4xDM,385440
+python3_timbl.dylibs/libxml2.2.dylib,sha256=-LXX9nIBCaQRDuTgfxPPUjJi_tcywBxf7EcPRHf8ytg,1116928
+python3_timbl.dylibs/libticcutils.10.dylib,sha256=HjeoL6PUSEWAib9tGEfXBHchaePJHk2Ouhhjs8_rMiA,478736
+python3_timbl.dylibs/libicuuc.76.1.dylib,sha256=A_JeGCk_UaOE247n6ZpoGqPFW-bgy8OoBiTqJFYlIwk,1838240
+python3_timbl.dylibs/libicudata.76.1.dylib,sha256=tL2dTw_G8wOC_30cuooCZNn4EUihfUi2Kvjp_lo1jwE,32134224
+python3_timbl.dylibs/libz.1.3.1.dylib,sha256=UQhcqihWnXbebzUMJ1SW8q4rFEL0oZ1lJsxxJHMVdX8,108224
+python3_timbl.dylibs/libicuio.76.1.dylib,sha256=PKH_PT1z4bB5kL0pcrxUNhuXTlkmT1FKBioqnJq3Y2M,101168
+python3_timbl.dylibs/libicui18n.76.1.dylib,sha256=qJAX-iymzh0CIOxWCobwtEHKWhxVfA67_zqXGhUzkhk,3146032
+python3_timbl.dylibs/libtimbl.7.dylib,sha256=fv_iIKcR9eeolJ9Cnixi-ogKThs_ZpplYXPKy2tpRuk,744624
