@@ -1,0 +1,6 @@
+numpy
+scipy
+astropy
+tifffile
+matplotlib
+lmfit
