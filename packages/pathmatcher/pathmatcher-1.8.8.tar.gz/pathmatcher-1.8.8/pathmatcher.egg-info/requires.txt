@@ -1,0 +1,15 @@
+chardet>=3.0.4
+tqdm>=4.46.0
+scandir>=1.10.0
+future
+
+[test]
+pytest
+pytest-cov
+py3make
+
+[testmeta]
+build
+twine
+validate-pyproject
+rstcheck
