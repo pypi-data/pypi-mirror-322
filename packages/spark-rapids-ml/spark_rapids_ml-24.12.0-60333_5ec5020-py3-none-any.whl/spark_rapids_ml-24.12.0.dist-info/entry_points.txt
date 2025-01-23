@@ -1,0 +1,2 @@
+[console_scripts]
+spark-rapids-submit = spark_rapids_ml.spark_rapids_submit:main_cli
