@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: NR_Python
+Version: 0.0.1
+Summary: Just a package that make python easier and simple, and its add few packages in 1, like files and more
+Author: NR_5tudio
+Keywords: Python,Simple,easy,File,time,short,shortcuts
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: mouse
+Requires-Dist: keyboard
