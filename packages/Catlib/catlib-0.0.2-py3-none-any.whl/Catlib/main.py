@@ -1,0 +1,2 @@
+def printcatname():
+   return "catik"
