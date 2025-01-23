@@ -1,0 +1,9 @@
+firestore_cli/__init__.py,sha256=xUZ7lUb5_eUYP-77iOJbBk8R9Uu3i6_FoHSZPLbKYy0,30
+firestore_cli/fsquery.py,sha256=iMQJXoMERqcQ4u5HG3n1A9yHYvqYGW7wvYIfGQN_REM,3391
+firestore_cli/fsupdate.py,sha256=tQeNJSgUaqa6uqUYq5DLGko-1Cq8bbqa5MeTcJsoYE8,2022
+firestore_cli-0.1.3.dist-info/LICENSE,sha256=bexJrh53eAyEFjpavdzftEb9f3QQfSLVtyPtyVfOdjA,1066
+firestore_cli-0.1.3.dist-info/METADATA,sha256=--zWFOyzxIZ1ITrJgwF1hruI911xPYY9_yfZYnt9AuI,3493
+firestore_cli-0.1.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+firestore_cli-0.1.3.dist-info/entry_points.txt,sha256=5ACvpoMxKo-EBAaC4TBNsRS0A7UbCF2p0hgISafs0eY,94
+firestore_cli-0.1.3.dist-info/top_level.txt,sha256=YLsuPfsCRJWFFdAMDz8rEgpYtlR29Eb5Ylm1nzJ1vcs,14
+firestore_cli-0.1.3.dist-info/RECORD,,
