@@ -1,0 +1,29 @@
+[build]
+packages = [
+    "pyroll"
+]
+
+[version]
+path = "pyroll/freiberg_spreading/__init__.py"
+
+[envs.default]
+path = ".venv"
+dependencies = [
+    "ipython ~= 8.0",
+    "pytest ~= 7.0",
+    "pyroll-report ~= 2.0",
+]
+
+[envs.test]
+path = ""
+dependencies = [
+    "pytest ~= 7.0",
+    "matplotlib ~= 3.6",
+]
+
+[[envs.test.matrix]]
+python = ["3.9", "3.10", "3.11"]
+
+[envs.test.scripts]
+all = "pytest tests"
+solve = "pytest tests/test_solve.py"
