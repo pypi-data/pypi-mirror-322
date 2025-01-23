@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pyjokers/__init__.py
+pyjokers/pyjokers.py
+pyjokers.egg-info/PKG-INFO
+pyjokers.egg-info/SOURCES.txt
+pyjokers.egg-info/dependency_links.txt
+pyjokers.egg-info/top_level.txt
