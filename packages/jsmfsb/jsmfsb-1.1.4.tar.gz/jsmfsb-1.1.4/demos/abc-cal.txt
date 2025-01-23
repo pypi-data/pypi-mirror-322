@@ -1,0 +1,9 @@
+ABC with calibrated summary stats
+Pilot run
+(100000, 3)
+(100000, 11)
+[ 8.957569   10.026864    0.43793792  0.45351416  0.45099875  8.79049
+  9.825622    0.43266636  0.4815386   0.4895993   0.4128965 ]
+Main run with calibrated summary stats
+6286 3
+All done.
