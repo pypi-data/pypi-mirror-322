@@ -1,0 +1,36 @@
+[project]
+name = "spgdataset"
+version = "0.0.1"
+authors = [
+  { name = "Sergey Skrebnev", email = "sergey.skrebnev@gmail.com" },
+]
+description = "SpectrogramDataset"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy>=1.21.0",
+  "soundfile>=0.10",
+  "torch>=2.1.0",
+  "tqdm"
+]
+license = { file = "LICENSE" }
+
+[project.urls]
+Homepage = "https://github.com/skrbnv/spgdataset"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+spgdataset = ["assets/*"]
+
+[tool.dependencies]
+pytest = "^7.0.0"
