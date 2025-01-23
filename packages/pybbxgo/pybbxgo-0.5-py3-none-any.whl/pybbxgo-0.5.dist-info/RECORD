@@ -1,0 +1,9 @@
+pybbxgo/__init__.py,sha256=zJS0EB1qdW0UFRoinT5rN8V3sNdH7osW0nswTddV7xU,148
+pybbxgo/constants.py,sha256=mQ4m7sZngPvSYJgd1hajk5Avu2pK2v38et7wMP2PEKA,9785
+pybbxgo/maqueen.py,sha256=QVnFGmEcLz-LefmMc27xnobI4I266TpeuCyrdQcH8Zg,26595
+pybbxgo/utils.py,sha256=6RA0_CswJW7VGCmkjJhjeKWOwqTMVQ5uYF1Mv0_dX7k,2197
+pybbxgo/xgo.py,sha256=5RIdgFvVJSKEQoTXyhsjMpgtvWOrcl2QhmW3qVrgBWo,35512
+pybbxgo-0.5.dist-info/METADATA,sha256=-xOLRD-a04oE2K6kklMCAa_Zda-b-jm_HWbSYIBC2rI,953
+pybbxgo-0.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pybbxgo-0.5.dist-info/top_level.txt,sha256=sf5GS689-9-_rQtVRvi9ahrObmIE3Ka2GddMYwRRAcU,8
+pybbxgo-0.5.dist-info/RECORD,,
