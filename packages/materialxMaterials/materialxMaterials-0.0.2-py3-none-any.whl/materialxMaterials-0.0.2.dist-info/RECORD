@@ -1,0 +1,14 @@
+materialxMaterials/GPUOpenLoader.py,sha256=SRkwglkjAvkoZrB924pCLLIhLF1A9jndWpU0HfmVdzs,14577
+materialxMaterials/GPUOpenLoaderCmd.py,sha256=ugd9-ljBuXIBm1Y409jy0OY1nl6qMOSfwNNhcLaiZwk,4372
+materialxMaterials/__init__.py,sha256=C6RViiH3NC8DOfqgF04ShdR_Ei33cxGlhzPJ41Qr7jQ,23
+materialxMaterials/__main__.py,sha256=xo4SajLryrda8cMP8awRip0d-K_fNLl5KMN5Dr1MFmY,1126
+materialxMaterials/ambientCGLoader.py,sha256=PwuYGG-4ogRY8k2vNzhdtDt3UdM4Pn1TD9V3tlqkgsg,15779
+materialxMaterials/ambientCGLoaderCmd.py,sha256=YwVacV4LhYLwI-MpbXcskoVHn_PUv8Dsvfx86dSyRGk,5138
+materialxMaterials/physicallyBasedMaterialX.py,sha256=zD902ffEX5ClDi70aM3d29D-SefulWv1ts6y6opr4ko,18280
+materialxMaterials/physicallyBasedMaterialXCmd.py,sha256=mxoRAd_5lEScSvBrAB0eoarQDqYzEGHTKQZlYJS_OH0,5726
+materialxMaterials-0.0.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+materialxMaterials-0.0.2.dist-info/METADATA,sha256=IeQ67hc5VQer-T2QE26QXhg4PTjI5504OxeUc4w8bjw,24458
+materialxMaterials-0.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+materialxMaterials-0.0.2.dist-info/entry_points.txt,sha256=vHb82J_-OjmEDP1FiQGyDTFkSE-5kIxIrDBh8M-OBAw,72
+materialxMaterials-0.0.2.dist-info/top_level.txt,sha256=OGyIwLkECA8Is9U3KD6j0_UZHEnKJiAUbkW2hiP27II,19
+materialxMaterials-0.0.2.dist-info/RECORD,,
