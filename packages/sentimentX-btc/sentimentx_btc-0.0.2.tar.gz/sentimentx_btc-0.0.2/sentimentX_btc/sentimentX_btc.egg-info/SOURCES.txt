@@ -1,0 +1,11 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+sentimentX_btc/model/Model_F_2,4_Acc97.h5
+sentimentX_btc/model/Model_T_2,4_Acc97.pkl
+sentimentX_btc/sentimentX_btc.egg-info/PKG-INFO
+sentimentX_btc/sentimentX_btc.egg-info/SOURCES.txt
+sentimentX_btc/sentimentX_btc.egg-info/dependency_links.txt
+sentimentX_btc/sentimentX_btc.egg-info/requires.txt
+sentimentX_btc/sentimentX_btc.egg-info/top_level.txt
