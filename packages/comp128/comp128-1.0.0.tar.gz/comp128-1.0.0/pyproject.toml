@@ -1,0 +1,42 @@
+[project]
+name = "comp128"
+description = "A Python implementation of the COMP128 GSM authentication algorithms."
+version = "1.0.0"
+
+readme = "README.md"
+maintainers = [{name = "Lennart Rosam", email = "hello@takuto.de"}]
+authors = [{name = "Lennart Rosam", email = "hello@takuto.de"}]
+license = { text = "GPL-2.0-or-later" }
+
+requires-python = ">=3.7"
+
+keywords = ["comp128", "gsm", "2g", "authentication", "algorithms", "crypto", "cryptography"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3 :: Only",
+
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Security :: Cryptography",
+]
+
+[project.urls]
+Repository = "https://github.com/Takuto88/comp128-python.git"
+HomePage = "https://github.com/Takuto88/comp128-python"
+
+[build-system]
+requires = ["setuptools >= 61.2"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = ["parameterized >= 0.7.2"]

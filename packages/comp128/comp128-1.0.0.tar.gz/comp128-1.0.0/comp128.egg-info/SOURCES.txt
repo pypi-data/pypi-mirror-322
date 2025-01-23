@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+comp128/__init__.py
+comp128/comp128v1.py
+comp128/comp128v23.py
+comp128.egg-info/PKG-INFO
+comp128.egg-info/SOURCES.txt
+comp128.egg-info/dependency_links.txt
+comp128.egg-info/requires.txt
+comp128.egg-info/top_level.txt
+tests/test_comp128v1.py
+tests/test_comp128v2v3.py
