@@ -1,0 +1,37 @@
+[tool.pdm.build]
+includes = [
+    "src/pymorphy_spacy_disambiguation",
+]
+
+[tool.uv.sources.uk-core-news-sm]
+url = "https://github.com/explosion/spacy-models/releases/download/uk_core_news_sm-3.8.0/uk_core_news_sm-3.8.0-py3-none-any.whl"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+authors = [
+    { name = "Hamotskyi, Serhii", email = "serhii@serhii.net" },
+]
+requires-python = "<4.0,>=3.7"
+dependencies = [
+    "pip>=24.0",
+    "pymorphy3>=2.0.2",
+    "pymorphy3-dicts-uk>=2.4.1.1.1663094765",
+    "russian-tagsets>=0.6",
+    "spacy>=3.7.5",
+]
+name = "pymorphy-spacy-disambiguation"
+version = "0.1.5"
+description = "Use spacy to disambiguate pymorphy3 morphology analyses."
+readme = "README.md"
+
+[dependency-groups]
+dev = [
+    "pdbpp>=0.10.3",
+    "uk-core-news-sm",
+    "pytest>=7.4.4",
+]
