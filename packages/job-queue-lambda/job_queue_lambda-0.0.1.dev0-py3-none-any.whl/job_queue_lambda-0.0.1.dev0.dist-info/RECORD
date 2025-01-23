@@ -1,0 +1,5 @@
+job_queue_lambda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+job_queue_lambda-0.0.1.dev0.dist-info/LICENSE,sha256=Jtp6imu_Vcv_V6SIMnM4KhooSenQ4cdko2PPQ0DAaNM,1063
+job_queue_lambda-0.0.1.dev0.dist-info/METADATA,sha256=Z618Yd2S5kxDTAYXkpyAiiHnyeGBhBpHoeWYhyh0My0,598
+job_queue_lambda-0.0.1.dev0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+job_queue_lambda-0.0.1.dev0.dist-info/RECORD,,
