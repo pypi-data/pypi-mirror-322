@@ -1,0 +1,11 @@
+pyramid_sampler/__init__.py,sha256=3UlgtULPEXOZrqQWq9saJ5dgk67TgrT-DU_nbOcvPB4,326
+pyramid_sampler/_logging.py,sha256=fD8kxdi2G7rVID-6n1SOvPnHgR4HoIXgwORvI-NfPr8,348
+pyramid_sampler/_version.py,sha256=hB095avW4HuDZxn8qPHRG1UMzSSonb8ZDAsLxt9hmk8,411
+pyramid_sampler/_version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+pyramid_sampler/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyramid_sampler/sampler.py,sha256=Rv8lt-7Gi_tWnyMPHcYsYh7hGg5imSqivVlMAinIJJA,10009
+pyramid_sampler-0.0.3.dist-info/LICENSE,sha256=4Qslpp3Dy42D-1UWEy2K5zHIQJ8LcmGFuZAFqee5Qwc,1544
+pyramid_sampler-0.0.3.dist-info/METADATA,sha256=kV24SfpZwIMGdIYc7JQskRBUiNSBgs2AFUr4jgLQUR8,7077
+pyramid_sampler-0.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pyramid_sampler-0.0.3.dist-info/top_level.txt,sha256=bsMZJKIEdGXeBOSJkV16OfrBKttpT1E_MnkHqQMMBEI,16
+pyramid_sampler-0.0.3.dist-info/RECORD,,
