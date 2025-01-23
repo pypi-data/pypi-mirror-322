@@ -1,0 +1,6 @@
+[project]
+name = "xltoxml_conv"  # Correct package name
+version = "1.0.0"
+description = "Convert Excel files to XML format"
+dependencies = ["openpyxl"]
+
