@@ -1,0 +1,2 @@
+[tox]
+tox_console_scripts = tox_console_scripts.plugin

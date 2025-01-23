@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/tox_console_scripts/__init__.py
+src/tox_console_scripts/plugin.py
+src/tox_console_scripts/version.py
+src/tox_console_scripts.egg-info/PKG-INFO
+src/tox_console_scripts.egg-info/SOURCES.txt
+src/tox_console_scripts.egg-info/dependency_links.txt
+src/tox_console_scripts.egg-info/entry_points.txt
+src/tox_console_scripts.egg-info/requires.txt
+src/tox_console_scripts.egg-info/top_level.txt
+tests/test_plugin.py

@@ -1,0 +1,2 @@
+tox>4
+pyproject-installer>=0.4.0
