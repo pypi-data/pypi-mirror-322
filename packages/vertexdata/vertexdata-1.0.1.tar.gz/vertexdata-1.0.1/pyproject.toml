@@ -1,0 +1,25 @@
+[project]
+name = "vertexdata"
+version = "1.0.1"
+description = "For parsing obj files to be suitable to feed to a vertex buffer."
+authors = [
+    {name = "alternyxx", email = "alternyxx@gmail.com"}
+]
+maintainers = [
+  {name = "alternyxx", email = "alternyxx@gmail.com" }
+]
+license = {text = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+[project.scripts]
+vertexdata = "vertexdata.main:main"
+
+[project.urls]
+repository = "https://github.com/alternyxx/VertexData/"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
