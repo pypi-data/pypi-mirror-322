@@ -1,0 +1,3 @@
+[console_scripts]
+stt = sttpy.__main__:main
+sttpy = sttpy.__main__:main
