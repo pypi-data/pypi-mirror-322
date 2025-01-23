@@ -1,0 +1,33 @@
+[build-system]
+requires = ['setuptools', 'setuptools-scm']
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "node-and-date"
+
+[tools.setuptools.packages.find]
+where = ["src"]
+
+[project]
+name = "iso2web"
+dynamic = ["version"]
+readme = "README.md"
+description = "Tool to Send Proofpoint Isolation Data to a Webhook"
+license = { text = "MIT" }
+requires-python = ">3.9"
+dependencies = [
+    'python-dateutil',
+    'requests',
+    'cryptography',
+    'pysocks'
+]
+
+[project.urls]
+repository = "https://github.com/pfptcommunity/iso2web"
+homepage = "https://www.proofpoint.com/us/products/cloud-security/isolation"
+documentation = "https://proofpoint.my.site.com/community/s/article/Proofpoint-Isolation-API-Guide"
+#changelog = "https://github.com/pfptcommunity/iso2web"
+
+[project.scripts]
+iso2web = "iso2web:main"
