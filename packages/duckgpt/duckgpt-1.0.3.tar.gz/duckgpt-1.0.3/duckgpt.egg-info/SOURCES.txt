@@ -1,0 +1,8 @@
+README.md
+setup.py
+duckgpt/__init__.py
+duckgpt.egg-info/PKG-INFO
+duckgpt.egg-info/SOURCES.txt
+duckgpt.egg-info/dependency_links.txt
+duckgpt.egg-info/requires.txt
+duckgpt.egg-info/top_level.txt
