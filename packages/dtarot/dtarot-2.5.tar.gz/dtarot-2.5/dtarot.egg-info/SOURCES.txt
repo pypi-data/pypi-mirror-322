@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+dtarot
+setup.py
+dtarot.egg-info/PKG-INFO
+dtarot.egg-info/SOURCES.txt
+dtarot.egg-info/dependency_links.txt
+dtarot.egg-info/top_level.txt
+man/man1/dtarot.1
