@@ -1,0 +1,10 @@
+spectrally_regularised_lvms/__init__.py,sha256=HxRs7rZzVb8eMUn4aVTEX1TEf7RiUEJUandNQiNk-XQ,1149
+spectrally_regularised_lvms/cost_functions.py,sha256=A5cbMQVS5aL8k1lg6MHHrppK9-6TMzxB99vIV2I9k48,37580
+spectrally_regularised_lvms/helper_methods.py,sha256=RQWTI15KV7xrEQ23zAMDO35dkA_XTc0Y_w38Y4LoJxg,21016
+spectrally_regularised_lvms/negen_approx.py,sha256=1Qdjk4L2q4pWJpWIbVLDXg3ZHqIg6tizs54f612HyXc,14334
+spectrally_regularised_lvms/spectral_regulariser.py,sha256=zbiUxooKbmbamnikuEwxykQMjxg4G-Tm9X8oASZwUdo,16814
+spectrally_regularised_lvms/spectrally_regularised_model.py,sha256=qQ7Aw0HiiX9ykt3mjCWUcmLM1vg66cxGg4n-sIAScQY,55096
+spectrally_regularised_lvms-0.1.4.dist-info/LICENSE,sha256=F6sbJcq0xroj28a3tK-ycbQlXhCMFFNK-5gMmj9mN30,1069
+spectrally_regularised_lvms-0.1.4.dist-info/METADATA,sha256=K5OGHVobz_S_slQKJoQMwRrrtQ48iGhbeZMM6T3cVko,5428
+spectrally_regularised_lvms-0.1.4.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+spectrally_regularised_lvms-0.1.4.dist-info/RECORD,,
