@@ -1,0 +1,3 @@
+[console_scripts]
+uffutils=uffutils.__main__:main
+
