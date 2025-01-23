@@ -1,0 +1,19 @@
+{% macro collapsible_sidebar_menu(icon, header) %}
+
+    <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <a class="collapsible-header">
+                    <i class="material-icons">{{ icon }}</i>
+                    {{ header }}
+                </a>
+                <div class="collapsible-body">
+                    <ul>
+                        {{ caller() }}
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
+
+{% endmacro %}
