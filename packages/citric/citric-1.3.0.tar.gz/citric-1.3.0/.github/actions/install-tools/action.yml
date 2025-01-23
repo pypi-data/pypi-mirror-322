@@ -1,0 +1,30 @@
+name: Install tools
+description: Install tools for Python projects
+
+inputs:
+  constraints:
+    default: "${{ github.workspace }}/requirements/requirements-ci.txt"
+    description: "Path to pip constraints file"
+    required: true
+  os:
+    default: "ubuntu-latest"
+    description: "Operating system"
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+  - name: Install uv
+    # TODO: Update this manually until
+    # https://github.com/davidism/gha-update/issues/6
+    uses: astral-sh/setup-uv@180f8b44399608a850e1db031fa65c77746566d3 # v5.0.1
+    with:
+      version: "0.5.x"
+
+  - name: Install Nox
+    shell: bash
+    env:
+      UV_CONSTRAINT: "${{ inputs.constraints }}"
+    run: |
+      uv tool install nox
+      nox --version
