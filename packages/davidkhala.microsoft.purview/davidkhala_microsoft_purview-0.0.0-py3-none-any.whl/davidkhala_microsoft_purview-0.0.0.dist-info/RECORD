@@ -1,0 +1,15 @@
+davidkhala/microsoft/purview/__init__.py,sha256=6A7TeC-qRpZmOrGr_AGCIwudsgPVTHTSLRgAbDZdFRY,1673
+davidkhala/microsoft/purview/const.py,sha256=IvW2ibAAQQ7YPrC3Fygu2OBUE1Dx5aExtkITXDMKTIY,630
+davidkhala/microsoft/purview/databricks/__init__.py,sha256=JzfUiuCPLK9rWGo1WFIJOnuCkLp1vtvtVdpCVHCRcWI,2568
+davidkhala/microsoft/purview/databricks/lineage.py,sha256=rMOPpkvSiNNO_Pvbqqp_0F_Qtx9wDMiv1kl2VIwdC44,2296
+davidkhala/microsoft/purview/entity.py,sha256=nZK-pOHpHncMwyC-DvsmNonFgsWJb-CY-ImGSNtN87o,2986
+davidkhala/microsoft/purview/fabric/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+davidkhala/microsoft/purview/fabric/powerbi.py,sha256=x6lym0Sd0F7KclXwO6pRu-_8WxrXXUT1dGSzynELw_Y,2517
+davidkhala/microsoft/purview/lineage/__init__.py,sha256=sqDY6h8SbPZgdQRZAlw2nfz8bi-B9s_GUiZ59j_-5aI,1538
+davidkhala/microsoft/purview/lineage/weaver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+davidkhala/microsoft/purview/lineage/weaver/powerbi.py,sha256=9bIC9RwahoLBqMrNnlYywLhyEEaid2QskjzaIg8vKr0,2812
+davidkhala/microsoft/purview/relationship.py,sha256=MJHOT7lBOu7rEcqNiRv8s7jCoObV8SI1saoBqVPp2c0,119
+davidkhala/microsoft/purview/scan/__init__.py,sha256=l2AsI682Jx4245N5OpuAoXxrlc1e5WIYaeLlEjKu8pw,3192
+davidkhala_microsoft_purview-0.0.0.dist-info/METADATA,sha256=vHbEkO7Ffth0s0B8CX2KcNjPTD_BBVFfzJF8AKpS6Qg,789
+davidkhala_microsoft_purview-0.0.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+davidkhala_microsoft_purview-0.0.0.dist-info/RECORD,,
