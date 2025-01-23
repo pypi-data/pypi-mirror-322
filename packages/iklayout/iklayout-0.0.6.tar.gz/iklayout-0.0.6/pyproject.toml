@@ -1,0 +1,24 @@
+[project]
+name = "iklayout"
+version = "0.0.6"
+description = ""
+authors = [
+    {name = "Jacob Windsor",email = "jwindsor@axiomatic-ai.com"}
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+klayout = "^0.29.11"
+matplotlib = "^3.10.0"
+pillow = "^11.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+gdsfactory = "^8.30.3"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
