@@ -1,0 +1,94 @@
+[project]
+name = "yumako"
+version = "0.1.12"
+description = ""
+authors = [{ name="Nanw1103", email="nanw1103@gmail.com" }]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+homepage = "https://github.com/nanw1103/yumako"
+repository = "https://github.com/nanw1103/yumako"
+documentation = "https://github.com/nanw1103/yumako#readme"
+"Bug Tracker" = "https://github.com/nanw1103/yumako/issues"
+
+keywords = ["util", "vanilla", "for humans"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+packages = [
+    { include = "yumako", from = "src", format = ["sdist"] }
+]
+exclude = ["tests", "tests.*", "examples"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+black = "^23.11.0"
+isort = "^5.12.0"
+mypy = "^1.7.1"
+ruff = "^0.1.6"
+tomlkit = "^0.12.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+include = '\.pyi?$'
+extend-exclude = '''
+# A regex preceded with ^/ will apply only to files and directories
+# in the root of the project.
+^/.venv
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 120
+skip = [".venv"]
+src_paths = ["src", "tests"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+exclude = [
+    ".venv"
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+select = ["E", "F", "I", "N", "W", "B", "UP"]
+exclude = [
+    ".venv",
+    "__init__.py"
+]
+src = ["src", "tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra -q"
+filterwarnings = [
+    "error",
+    "ignore::DeprecationWarning",
+    "ignore::UserWarning",
+]
+
+[tool.poetry-dynamic-versioning]
+enable = true
+vcs = "git"
+style = "pep440"
+pattern = "^(?P<base>\\d+\\.\\d+\\.\\d+)"
+
