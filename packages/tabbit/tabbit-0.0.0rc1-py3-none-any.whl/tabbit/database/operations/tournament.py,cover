@@ -1,0 +1,81 @@
+> from __future__ import annotations
+  
+> from sqlalchemy.ext.asyncio import AsyncSession
+  
+> from tabbit.database import models
+> from tabbit.schemas.tournament import Tournament
+> from tabbit.schemas.tournament import TournamentCreate
+> from tabbit.schemas.tournament import TournamentPatch
+  
+  
+> async def create_tournament(
+>     session: AsyncSession,
+>     tournament_create: TournamentCreate,
+> ) -> int:
+>     """Create a tournament.
+  
+>     Returns:
+>         The ID of the created tournament.
+>     """
+>     tournament_model = models.Tournament(
+>         name=tournament_create.name,
+>         abbreviation=tournament_create.abbreviation,
+>     )
+>     session.add(tournament_model)
+>     await session.commit()
+>     return tournament_model.id
+  
+  
+> async def get_tournament(
+>     session: AsyncSession,
+>     tournament_id: int,
+> ) -> Tournament | None:
+>     """Get a tournament via its ID.
+  
+>     Returns:
+>         The tournament if found, None otherwise.
+>     """
+>     tournament_model = await session.get(models.Tournament, tournament_id)
+>     if tournament_model is None:
+>         return None
+>     else:
+>         return Tournament.model_validate(tournament_model)
+  
+  
+> async def delete_tournament(
+>     session: AsyncSession,
+>     tournament_id: int,
+> ) -> int | None:
+>     """Delete a tournament via its ID.
+  
+>     Returns:
+>         The tournament ID if deleted, None if the tournament was not
+>         found.
+>     """
+>     tournament_model = await session.get(models.Tournament, tournament_id)
+>     if tournament_model is None:
+>         return None
+>     await session.delete(tournament_model)
+>     return tournament_id
+  
+  
+> async def patch_tournament(
+>     session: AsyncSession,
+>     tournament_id: int,
+>     tournament_patch: TournamentPatch,
+> ) -> Tournament | None:
+>     """Patch a tournament.
+  
+>     Returns:
+>         The updated tournament, None if no tournament was found with
+>         given ID.
+>     """
+>     tournament_model = await session.get(models.Tournament, tournament_id)
+  
+>     if tournament_model is None:
+!         return None
+>     else:
+>         update_data = tournament_patch.model_dump(exclude_unset=True)
+>         for key, val in update_data.items():
+>             setattr(tournament_model, key, val)
+>         return Tournament.model_validate(tournament_model)
