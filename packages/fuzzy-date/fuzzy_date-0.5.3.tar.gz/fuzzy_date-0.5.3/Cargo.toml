@@ -1,0 +1,12 @@
+[package]
+name = "fuzzydate"
+version = "0.5.3"
+edition = "2021"
+
+[lib]
+name = "fuzzydate"
+crate-type = ["cdylib"]
+
+[dependencies]
+chrono = "0.4.39"
+pyo3 = { version = "0.23.4", features = ["chrono"] }
