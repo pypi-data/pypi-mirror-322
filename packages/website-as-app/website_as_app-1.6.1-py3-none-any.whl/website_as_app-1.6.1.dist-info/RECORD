@@ -1,0 +1,15 @@
+websiteapp/__init__.py,sha256=pA1_nXqR7o_4b2Mzpi4QRe2MDhHs1A_5Q-RivRcmO1g,440
+websiteapp/about.py,sha256=SvvMPsTy0KM-8ZHOvFbXg9xYxSMA92TDJCfFda1HtE8,3029
+websiteapp/const.py,sha256=81aGd8mTvuQHXyImlJGqdUa5PA0vrv3mVfHLBskRZgU,1239
+websiteapp/toolbar.py,sha256=QZw64q1rp7gO_69W_FPiy_WQmvFUSs36Ba0WH9O-0pc,6913
+websiteapp/utils.py,sha256=-zqrEujNeGgJrzBKp_wY0XQLYkh5cy14r03ZCiTCB-E,5991
+websiteapp/webapp.py,sha256=yerC5Mfm0PzkcTxW54LBG8mm0ZVrpyvX765hFWNtmJI,13904
+websiteapp/webengine.py,sha256=8fffMti9kSvUtEhgSUhixek_XzjpUtC-MChcSWYDDrc,7770
+websiteapp/icons/default.png,sha256=l6He2OikhjF5hjazH77GZ8Sul6U6LWKNS_6UegLotZc,192458
+websiteapp/icons/logo.png,sha256=xLgJ1K5o-ie6L-iLyRSwJ-5Q6VUaiP-5Lro9YfnecEo,75775
+website_as_app-1.6.1.dist-info/LICENSE.md,sha256=DHzOIoPYQaKg3vzoyEOSsrx4oYUSXQePRfcJEQ6KgcU,1106
+website_as_app-1.6.1.dist-info/METADATA,sha256=5nFkEtLxpzvujGiWY7tN1TNLdH7nj2QsHOxfgKk87m0,2846
+website_as_app-1.6.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+website_as_app-1.6.1.dist-info/entry_points.txt,sha256=wDaHueZVjGzrXZKduPhHjZtYQi6eoXj8UBO7nSlyFeA,96
+website_as_app-1.6.1.dist-info/top_level.txt,sha256=sIuGI3fNulZizRCK8JBjKOZgVY3bpkymo8eLrBLdnqA,11
+website_as_app-1.6.1.dist-info/RECORD,,
