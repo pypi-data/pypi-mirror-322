@@ -1,0 +1,10 @@
+README.md
+setup.py
+danielj/__init__.py
+danielj/plot_utils.py
+danielj/weather_forecast.py
+danielj.egg-info/PKG-INFO
+danielj.egg-info/SOURCES.txt
+danielj.egg-info/dependency_links.txt
+danielj.egg-info/requires.txt
+danielj.egg-info/top_level.txt

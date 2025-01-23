@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: danielj
+Version: 1.0.0
+Summary: A library for weather forecasting and plotting tools.
+Home-page: https://github.com/yourusername/danielj
+Author: Your Name
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+
+# danielj
+
+danielj is a Python library for weather forecasting and plotting tools. It predicts weather for the next 7 days and visualizes the data using simple charts.
