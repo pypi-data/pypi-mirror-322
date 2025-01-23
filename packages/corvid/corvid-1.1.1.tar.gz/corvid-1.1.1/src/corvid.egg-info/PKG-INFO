@@ -1,0 +1,138 @@
+Metadata-Version: 2.2
+Name: corvid
+Version: 1.1.1
+Summary: An opinionated simple static site generator
+Home-page: https://github.com/di/corvid
+Author: Dustin Ingram
+Author-email: di@python.org
+Keywords: static markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click<=8.0,>=7.0
+Requires-Dist: python-frontmatter>=0.5.0
+Requires-Dist: Markdown>=3.1
+Requires-Dist: jinja2>=2.10
+Requires-Dist: watchdog>=0.9.0
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: tox; extra == "test"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# corvid
+
+corvid is an opinionated simple static site generator.
+
+It processes Markdown files, static assets and directories producing a 1:1 hierarchy of compiled content.
+
+It includes a reloadable local development server, supports custom markdown frontmatter and Jinja templates.
+
+## Installation
+
+```
+$ pip install corvid
+```
+
+## Running
+
+By default corvid expects to be run in a directory with an `input` directory. With no parameters, corvid will process all files in this directory into the `output` directory and exit.
+
+```
+Usage:
+$ corvid [OPTIONS]
+
+For help:
+$ corvid --help
+
+Options:
+  -l, --listen          Enable live reloading
+  -b, --bind TEXT       Host to bind to
+  -p, --port INTEGER    Port to run on
+  -i, --input TEXT      Input directory
+  -o, --output TEXT     Output directory
+  -t, --templates TEXT  Templates directory
+  --help                Show this message and exit.
+```
+
+## Example
+
+Given the following directory layout:
+
+```
+├── input
+│   └── index.md
+└── templates
+    └── default.html
+```
+With the following file contents:
+
+`input/index.md`
+```
+---
+title: This is the Index
+---
+
+Welcome
+```
+
+`templates/default.html`
+```html
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        {{ content }}
+    </body>
+</html>
+```
+
+Running `corvid` will produce the additional `output` directory:
+
+```
+.
+├── input
+│   └── index.md
+├── output
+│   └── index.html
+└── templates
+    └── default.html
+```
+
+And the contents of the file will be:
+
+`output/index.html`
+```html
+<html>
+    <head>
+        <title>This is the Index</title>
+    </head>
+    <body>
+        <p>Welcome</p>
+    </body>
+</html>
+```
+
+## Using templates
+
+Custom templates can be set by specifying the path to the template (inside the `templates` directory) as the `template` frontmatter in an individual page. See [`bar.md`](https://raw.githubusercontent.com/di/corvid/master/example/input/foo/bar.md) for an example.
+
+See [`/example`](https://github.com/di/corvid/blob/master/example) for the full `input` -> `template` -> `output` folder structure.

@@ -1,0 +1,2 @@
+[console_scripts]
+corvid = corvid:cli
