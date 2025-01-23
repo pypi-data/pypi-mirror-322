@@ -1,0 +1,6 @@
+ipython
+graphviz
+
+[nltk]
+nltk
+pillow
