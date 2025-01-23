@@ -1,0 +1,180 @@
+Change log for mrcfile
+======================
+
+Version 1.5.4 (2025-01-21)
+--------------------------
+
+* Fix rare bug in mmap alignment with certain extended header sizes
+* Add test and documentation code to source distribution
+* Add support for Python 3.13 and numpy 2.1 & 2.2
+
+Version 1.5.3 (2024-07-24)
+--------------------------
+
+* Fix opening of large files in numpy 2.0 (in general this time, not just for
+  mmap)
+* Raise errors if data or extended header arrays are too large for their
+  dimensions to be stored in the header
+* Validate header statistics only if they are set
+
+Version 1.5.2 (2024-07-18)
+--------------------------
+
+* Fix opening of very large files with mmap in numpy 2.0 (thanks to Hanjin
+  Liu)
+
+Version 1.5.1 (2024-07-11)
+--------------------------
+
+* Add support for numpy 2.0
+
+Version 1.5.0 (2024-01-10)
+--------------------------
+
+* Add new 'indexed_extended_header' attribute to access the indexed part of
+  the extended header if it exists (thanks to David Waterman). Note that this
+  introduces a change in behaviour: code that used the 'extended_header'
+  attribute directly to access items in FEI1- and FEI2-type extended headers
+  will need to be updated to use 'indexed_extended_header' instead.
+* Add support for numpy 1.24, 1.25 and 1.26 and Python 3.12
+
+Version 1.4.3 (2022-09-22)
+--------------------------
+
+* Add helper functions for working with header labels.
+* Update header statistics calculation to use float32 instead of float64. This
+  is about twice as fast and uses less memory, but does make the calculations
+  slightly less accurate and will overflow (to 'inf') if the data array
+  contains very large values (larger than approximately 1e19).
+
+Version 1.4.2 (2022-07-14)
+--------------------------
+
+* Add support for passing file names as pathlib Path objects.
+
+Version 1.4.1 (2022-07-12)
+--------------------------
+
+* Add file names to mrcfile-header output
+* Improvements to validation functions (mrcfile-validate command and the
+  mrcfile.validate() function):
+  * Add a message with the file name of each file processed, to enable valid
+    and invalid files to be identified.
+  * Add a message confirming that valid files are valid.
+  * Ensure that all files are processed when validating multiple files, even
+    if some are invalid or raise exceptions on opening.
+* Add support for numpy 1.23 and Python 3.10 and 3.11
+
+Version 1.4.0 (2022-07-02)
+--------------------------
+
+* Change default MRC format version from 20140 to 20141 and update validation
+  to allow files with both format numbers as valid.
+* Add mrcfile.read() and mrcfile.write() functions for quick one-off accesses
+  to the MRC data array without needing to keep an MrcFile object open (thanks
+  to Alister Burt).
+* Allow the extended header to be set when creating a file with
+  mrcfile.new_mmap() (thanks to James Parkhurst).
+* Add file size checks to avoid allocating huge amounts of memory when opening
+  corrupt or non-MRC files in permissive mode.
+* Update numpy and Python version compatibility to drop support for Python
+  3.4 and 3.5 and numpy < 1.16, and add support for numpy 1.21 and 1.22.
+* Fix bug intepreting FEI extended headers on big-endian hardware.
+* Documentation updates.
+
+Version 1.3.0 (2021-02-18)
+--------------------------
+
+* Add support for the new proposed data mode 12 (numpy float16). Note that
+  this causes a change in behaviour: previously float16 arrays would be
+  widened to float32 and saved in mode 2; now they will be kept in float16 and
+  saved in mode 12, which could be incompatible with other software.
+* Issue Python warnings if NaN or infinite values are found when a new data
+  array is passed to set_data() (or if update_header_stats() is called).
+* Update numpy version compatibility to include numpy 1.20
+* Minor updates to documentation
+
+Version 1.2.0 (2020-11-30)
+--------------------------
+
+* mrcfile is now available through conda-forge (thanks to Billy Poon)
+* Add support for FEI2-format extended headers (thanks to Michael Saur)
+* Add nstart property for convenient access to the header nxstart, nystart and
+  nzstart fields in the same style as the existing voxel_size property
+* Read files without the final ' ' space in the map ID field (for example, as
+  written by MotionCor2) without errors
+* Add help text for mrcfile-header and mrcfile-validate command line programs
+* Fix bug in stats calculations when an empty array is passed to set_data()
+* Update Python and numpy version compatibility. Now works with Python 2.7
+  and 3.4 - 3.9, and numpy 1.12 - 1.19
+* Minor updates to documentation
+
+Version 1.1.2 (2019-01-23)
+--------------------------
+
+* Fix incompatibility with numpy 1.16 by reading files into mutable bytearrays
+  instead of immutable bytes objects. Note this will cause slower reading of
+  bzip2-compressed files on Python 2 because Python 2's bz2 module does not
+  support reading directly into a bytearray and therefore the data must be
+  copied.
+* Check that the file is large enough when reading the extended header.
+  (Previously, the size was only checked for reading the data array.)
+
+Version 1.1.1 (2019-01-17)
+--------------------------
+
+* Add automated tests for numpy 1.15 and Python 3.7
+* Set maximum numpy version to 1.15 to avoid known incompatibility with 1.16
+
+Version 1.1.0 (2018-11-21)
+--------------------------
+
+* Add open_async() function for background file loading
+* Add new_mmap() function for fast creation of large files
+* Speed up mrcfile-header command line tool by reading headers only, not data
+* Allow opening of files with incorrect machine stamps in permissive mode
+* Fix bug in validation of exttyp field in Python 3 (thanks to Holger Kohr)
+* Fix bug in opening files with misleading exttyp information
+* Update documentation to point to Python 3.6 instead of 2.7, and fix all
+  cross-references
+* Other documentation improvements
+
+Version 1.0.4 (2018-01-22)
+--------------------------
+
+* Add command-line tools ('mrcfile-validate' and 'mrcfile-header') for easy MRC
+  file validation and header viewing
+
+Version 1.0.3 (2018-01-19)
+--------------------------
+
+* Fix bugs due to changed behaviour in numpy 1.14
+* Add automated tests for numpy 1.13 and 1.14
+
+Version 1.0.2 (2018-01-18)
+--------------------------
+
+* Add support for FEI-format extended headers
+* Documentation improvements
+
+Version 1.0.1 (2017-10-09)
+--------------------------
+
+* Add automated tests for Python 3.4 and 3.6
+* Documentation improvements
+
+Version 1.0.0 (2017-05-22)
+--------------------------
+
+Initial stable release
+
+Main features:
+* Clean, simple API for access to MRC files
+* Easy to install and use
+* Validation of files according to the MRC2014 format
+* Seamless support for gzip and bzip2 files
+* Memory-mapped file option for fast random access to very large files
+* Runs in Python 2 & 3, on Linux, Mac OS X and Windows
+
+Automatically tested on Linux and Mac OS X for Python versions 2.7 and 3.5
+and numpy versions 1.11 and 1.12
