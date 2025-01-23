@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "winwin"
+version = "0.0.47"
+description = "CodeLibrary.algo.winwin"
+authors = ["赵斌 <zhaobin@winwin-inc.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyodps = "^0.11.4.1"
+pandas = "^2.1.3"
+oss2 = "^2.18.3"
+nebula3-python = "^3.4.0"
+pyyaml = "^6.0.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

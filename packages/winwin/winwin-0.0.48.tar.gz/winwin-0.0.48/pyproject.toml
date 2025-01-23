@@ -1,0 +1,22 @@
+[project]
+name = "winwin"
+version = "0.0.48"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "赵斌", email = "zhaobin@brandct.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2.3",
+    "python-dotenv>=1.0.1",
+    "pyyaml>=6.0.2",
+    "pynvml>=12.0.0",
+]
+
+[project.scripts]
+winwin = "winwin:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
