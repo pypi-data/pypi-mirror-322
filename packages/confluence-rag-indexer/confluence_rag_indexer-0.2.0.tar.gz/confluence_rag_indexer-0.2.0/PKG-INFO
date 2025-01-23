@@ -1,0 +1,93 @@
+Metadata-Version: 2.4
+Name: confluence-rag-indexer
+Version: 0.2.0
+Summary: A tool to index Confluence content for RAG
+Project-URL: Repository, https://github.com/gmr/confluence-rag-indexer.git
+Author-email: "Gavin M. Roy" <gavinmroy@gmail.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2025, AWeber Communications, Gavin M. Roy
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Database
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.12
+Requires-Dist: httpx
+Requires-Dist: markdownify
+Requires-Dist: pgvector-rag>=0.4.0
+Provides-Extra: dev
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Description-Content-Type: text/markdown
+
+confluence-rag-indexer
+======================
+Index confluence into a RAG database using pg_vector.
+
+Categorizes documents prior to indexing and allows you to skip specific classifications like "Meeting Notes".
+
+Installation
+------------
+```bash
+pip install confluence-rag-indexer
+```
+
+Usage
+-----
+```bash
+usage: Confluence to Rag Indexer [-h] [--cutoff CUTOFF] [--confluence-domain CONFLUENCE_DOMAIN] [--confluence-email CONFLUENCE_EMAIL]
+                                 [--confluence-api-key CONFLUENCE_API_KEY] [--openai-api-key OPENAI_API_KEY]
+                                 [--ignore-classifications IGNORE_CLASSIFICATIONS [IGNORE_CLASSIFICATIONS ...]] [--postgres-url POSTGRES_URL] [-v]
+                                 [space ...]
+
+positional arguments:
+  space                 The Confluence space(s)
+
+options:
+  -h, --help            show this help message and exit
+  --cutoff CUTOFF       The cutoff date for Confluence content
+  --confluence-domain CONFLUENCE_DOMAIN
+                        The Confluence domain
+  --confluence-email CONFLUENCE_EMAIL
+                        The Confluence email
+  --confluence-api-key CONFLUENCE_API_KEY
+                        The Confluence API key
+  --openai-api-key OPENAI_API_KEY
+                        The OpenAI API key
+  --ignore-classifications IGNORE_CLASSIFICATIONS [IGNORE_CLASSIFICATIONS ...]
+                        Ignore documents with these classifications
+  --postgres-url POSTGRES_URL
+                        The PostgreSQL URL
+  -v, --verbose
+```
