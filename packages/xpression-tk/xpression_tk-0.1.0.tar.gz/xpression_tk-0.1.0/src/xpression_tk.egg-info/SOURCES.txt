@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/xpression_tk.egg-info/PKG-INFO
+src/xpression_tk.egg-info/SOURCES.txt
+src/xpression_tk.egg-info/dependency_links.txt
+src/xpression_tk.egg-info/top_level.txt
+src/xtk/__init__.py
+src/xtk/rewriter.py
+tests/test_evaluate.py
+tests/test_extend_dictionary.py
+tests/test_instantiate.py
+tests/test_matcher.py
+tests/test_simplifier.py
+tests/test_utils.py
