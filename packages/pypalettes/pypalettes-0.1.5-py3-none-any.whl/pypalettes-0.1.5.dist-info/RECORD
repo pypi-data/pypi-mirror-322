@@ -1,0 +1,11 @@
+pypalettes/__init__.py,sha256=FyEfOCdOkneCF38IrUHWxlsxTFaTRxDgDQBsN1aCEd8,593
+pypalettes/deprecated.py,sha256=7l_tJ0s8pa8aRnFtV43bPpkHW6d6CkKJ3qp_ITvxNQU,2841
+pypalettes/get_colors.py,sha256=Jgr3Eal2zG-_4H3YRHEbtHbS8HVh8c_Hz6s5hMlcw44,6189
+pypalettes/main.py,sha256=qtJYUkkxDoA68aiUPYi_PnR0BINQkqbkdrnTXW8QD_o,2016
+pypalettes/make.py,sha256=fnSI0DpL_Ld4cIRTx8h8WO9-PsUCvdvHvZmXvcITm-k,1206
+pypalettes/palettes.csv,sha256=32nEdbjdbHygSVJdYE8lKfkbAYwhSqx2AW05pj7I97M,1333304
+pypalettes-0.1.5.dist-info/LICENSE.note,sha256=TqP0yN35f1wLg95IHPU3hSrXIQRzhKo9AcaAhyewON4,9987
+pypalettes-0.1.5.dist-info/METADATA,sha256=p9bWuu4poqkJ1xkzyQCL5n_p2SzkYiaVmAqwFOq7wHk,7165
+pypalettes-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pypalettes-0.1.5.dist-info/top_level.txt,sha256=FMw1oIhA6skpE1M6ZqslkWHXrNatkVhtL-Rr9pmNB0g,11
+pypalettes-0.1.5.dist-info/RECORD,,
