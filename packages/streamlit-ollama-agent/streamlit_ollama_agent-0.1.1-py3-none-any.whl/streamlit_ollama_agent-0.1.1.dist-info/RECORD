@@ -1,0 +1,8 @@
+streamlit_ollama_agent/__init__.py,sha256=YgWI3CNkEoC6HzanhPCS_9GjFI7ADmerElxxzxXiFkM,132
+streamlit_ollama_agent/agent.py,sha256=PRI7P9VhryGpMlLLMhZsatvAGTiwI4cBMgtQTnXVmNo,4240
+streamlit_ollama_agent/app.py,sha256=pSuYHiO5MPM3SiC5E33XR5Kebq6mCuR1AIAUETzMFLs,1693
+streamlit_ollama_agent-0.1.1.dist-info/LICENSE,sha256=FyuBsNr3YLXHPRQfWIpCAC4brUeSdYelr01V-Fkog8U,1066
+streamlit_ollama_agent-0.1.1.dist-info/METADATA,sha256=gRHYe3KFBRgLrZHQO8Rm4bHMrckcSh6507fIOPqzaq8,4371
+streamlit_ollama_agent-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+streamlit_ollama_agent-0.1.1.dist-info/top_level.txt,sha256=4snpKt3UEKWkxpz8tcTH2FTph1ndTfmKAFNd-GOFNYg,23
+streamlit_ollama_agent-0.1.1.dist-info/RECORD,,
