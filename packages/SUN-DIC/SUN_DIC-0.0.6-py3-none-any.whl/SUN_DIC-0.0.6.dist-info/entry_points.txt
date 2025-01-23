@@ -1,0 +1,2 @@
+[gui_scripts]
+sundic = sundic.gui.sundic_gui:main
