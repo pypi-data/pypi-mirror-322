@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: ezcache
+Version: 0.1.2
+Summary: A Python library to easily create and manage caches of various types
+Project-URL: Homepage, https://github.com/vangauthic/ezcache/
+Author-email: Andrew Petty <andrewtpetty03@gmail.com>
+License: MIT
+License-File: LICENSE
+Requires-Python: >=3.7
