@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: hotspot-socks-proxy
+Version: 2.3.9
+Summary: SOCKS proxy for routing traffic through WiFi interface
+Author-Email: tadeasf <business@tadeasfort.com>
+Requires-Python: >=3.10
+Requires-Dist: typer>=0.15.1
+Requires-Dist: prompt-toolkit>=3.0.48
+Requires-Dist: rich>=13.9.4
+Requires-Dist: psutil>=5.9.0
+Requires-Dist: pyperclip>=1.9.0
+Requires-Dist: dnspython>=2.7.0
+Description-Content-Type: text/markdown
+
+# hotspot-socks-proxy
+
+A high-performance SOCKS5 proxy server designed to route traffic through WiFi interfaces. Perfect for scenarios where you need to ensure traffic goes through a specific network interface.
+
+## Features
+
+- SOCKS5 proxy server with multi-process support
+- Automatic WiFi interface detection
+- Built-in DNS resolution with fallback options
+- Real-time monitoring interface
+- Clipboard integration for easy proxy configuration sharing
+- Support for both Windows and Unix-like systems
+
+## Installation
+
+```bash
+pip install hotspot-socks-proxy
+```
+
+## Usage
+
+Run the proxy server (requires root/admin privileges):
+
+Options:
+
+- `--processes/-p`: Number of proxy processes (default: CPU count)
+- `--port`: Port to listen on (default: 9050)
+
+## Requirements
+
+- Python >= 3.12
+- Root/Administrator privileges for proper operation
+
+## License
+
+This project is licensed under the GPL-3.0 License.
