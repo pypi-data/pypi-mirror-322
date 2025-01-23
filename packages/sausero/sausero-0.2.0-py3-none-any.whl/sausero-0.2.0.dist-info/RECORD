@@ -1,0 +1,16 @@
+SAUSERO/Color_Codes.py,sha256=XUkR_cby68R__5Au5K6WGYN550JqYOr2IjtScy16izM,1868
+SAUSERO/OsirisDRP.py,sha256=-5hy2rskAj8bMbYg53U4gwkN07Hx8C5CJXClA1RwtrQ,17259
+SAUSERO/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SAUSERO/aligning_osirisplus.py,sha256=di1ULXXHEM86mriF9vujhIyqS99q7f0UN6xVv7bhSHE,5924
+SAUSERO/astrometry_osirisplus.py,sha256=reJjNKK879dpmwEQkJQrDFiqqCPTXvpiA_CGW4uo8lE,5257
+SAUSERO/check_files.py,sha256=NtTFWYYGRkI-bi2ETie9qv_Br6vkAGG9_FpXAB7larE,1990
+SAUSERO/photometry_osirisplus.py,sha256=jSsAJrKSTTla2QlLgQN0Hz7tLXAqv1RQWY2M95STs-E,9881
+SAUSERO/reduction_osirisplus.py,sha256=AvxxC7TN1cedSqt_O6Q36pLjl5a3jlpNs3GdtDvWBTs,23286
+SAUSERO/BPM/BPM_OSIRIS_PLUS.fits,sha256=OJrZTdWFrfV2SUlbK4r--DGmZcSeOZE0zXEPQrnwklE,34102080
+SAUSERO/config/configuration.json,sha256=OhbNy3QMet9J3yunADQeE19ZcVJ5HU3QfRCCCgUyTkk,965
+sausero-0.2.0.dist-info/LICENSE,sha256=DM7RcTnMy4nltdm6JW5iU7bvOrmcrii3OtO299cZ0V4,35209
+sausero-0.2.0.dist-info/METADATA,sha256=D5HBD7i4dBymp0nYAw6WylMEGXBVcUXRnlcTF8JwRYc,7482
+sausero-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sausero-0.2.0.dist-info/entry_points.txt,sha256=hn3VGbsC0ogNknPVUIdOWwXO3d7TRICnD4MYG0nNL50,50
+sausero-0.2.0.dist-info/top_level.txt,sha256=v3N3BDwDO_CpZ61B1coqPBa3lJAxtXHb_ex_93GM2-I,8
+sausero-0.2.0.dist-info/RECORD,,
