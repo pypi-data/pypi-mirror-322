@@ -1,0 +1,36 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools >= 61.0.0",
+  "wheel",
+]
+
+[project]
+authors = [
+  { name = "Nimrod Adar", email = "nimrod@shore.co.il"},
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+]
+dependencies = [
+]
+description = "A simple Terraform wrapper to use variable definition files if they match the workspace name."
+dynamic = [
+  "version",
+]
+keywords = [
+  "terraform",
+]
+license = {file = "LICENSE.txt"}
+name = "terraformation"
+readme = "README.rst"
+
+[project.scripts]
+tf = "tf:wrapper"
+
+[project.urls]
+homepage = "https://git.shore.co.il/nimrod/tf"
+
+[tool.setuptools.dynamic]
+version = {attr = "tf.__version__"}
