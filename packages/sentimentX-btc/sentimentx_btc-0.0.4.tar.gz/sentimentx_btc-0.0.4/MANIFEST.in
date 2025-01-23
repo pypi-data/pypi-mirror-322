@@ -1,0 +1,2 @@
+include sentimentX_btc\model\Model_F_2,4_Acc97.h5
+include sentimentX_btc\model\Model_T_2,4_Acc97.pkl

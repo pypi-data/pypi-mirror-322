@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentimentX_btc"
+version = "0.0.4"
+authors = [
+  { name="Komang Nitay Prasaddas", email="nitay06@students.amikom.ac.id" },
+]
+description = "sentiment btc prediction with BiLSTM"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ['opencv-contrib-python']
+keywords = ['prediction','bitcoin','ai']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["sentimentX_btc"]
+
+[tool.setuptools.package-data]
+model = [
+  "*.h5", 
+  "*.pkl"
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
