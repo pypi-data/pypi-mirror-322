@@ -1,0 +1,17 @@
+operator_learning/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+operator_learning/linalg.py,sha256=YzfWiSh5rvUFwLaBUlhmo_RYk_PByb7ripun1wmz7O0,2960
+operator_learning/structs.py,sha256=MxAYjwIaxDKIvGKpSKeLRabItkprXRqXVJFQfAPjtAU,369
+operator_learning/utils.py,sha256=eVncSbn7d2mAnEKfCdz_dbaoY3ggL5zJ9GGDPwAQZ1I,3802
+operator_learning/kernel/__init__.py,sha256=333kaeHIy2_WKn8G4CpheqwHDB0R5gV0jtFqZ4Z0XLo,135
+operator_learning/kernel/base.py,sha256=m_-8nleEF18L6or3M65GnMx4nXpHs1wYdip6Q2cmlak,3270
+operator_learning/kernel/principal_components.py,sha256=-7OYk9-bzqX-S7MQxi90wi-IpnuSP8fm7-VQlh8P1_M,4331
+operator_learning/kernel/reduced_rank.py,sha256=n3aPR1imagkLojovigElA5sx5hIYaXkPBYTpAM0Xo4Q,9559
+operator_learning/nn/__init__.py,sha256=XhKkTG43kW9GFioIDHgcE0dscRVMxzJBsCDcKe7CwbA,138
+operator_learning/nn/base.py,sha256=PAalSk7oSizW_nUD9NphhDxSjkFd2W4UztjWWQkcx10,2607
+operator_learning/nn/functional.py,sha256=eA5yRy5GF-DHhH8QnrfMLgi107h8RMGp613o-Zmv39c,4259
+operator_learning/nn/linalg.py,sha256=pAn0SmLKBgbdkJgZNBoYhKMj7ooZMDKRvGSAFsP5tps,1840
+operator_learning/nn/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+operator_learning/nn/modules/losses.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+operator_learning-0.1.0.dist-info/METADATA,sha256=o-XM0Bb7Rwu-RCcmorzpqG1SH9_cjyvVAmLxbj7PU9Y,1820
+operator_learning-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+operator_learning-0.1.0.dist-info/RECORD,,
