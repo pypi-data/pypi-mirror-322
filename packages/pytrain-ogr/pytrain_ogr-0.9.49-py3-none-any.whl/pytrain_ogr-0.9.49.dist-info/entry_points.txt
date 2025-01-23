@@ -1,0 +1,4 @@
+[console_scripts]
+install = pytrain.cli.install:main
+piconfig = pytrain.cli.piconfig:main
+pytrain = pytrain:main
