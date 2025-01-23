@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/lesslines/__init__.py
+src/lesslines.egg-info/PKG-INFO
+src/lesslines.egg-info/SOURCES.txt
+src/lesslines.egg-info/dependency_links.txt
+src/lesslines.egg-info/requires.txt
+src/lesslines.egg-info/top_level.txt
+src/lesslines/misc/__init__.py
+src/lesslines/misc/info.py
