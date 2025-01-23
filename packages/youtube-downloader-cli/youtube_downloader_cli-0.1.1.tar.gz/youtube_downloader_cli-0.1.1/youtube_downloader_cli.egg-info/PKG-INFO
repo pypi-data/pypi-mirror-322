@@ -1,0 +1,92 @@
+Metadata-Version: 2.2
+Name: youtube-downloader-cli
+Version: 0.1.1
+Summary: CLI tool for download from YouTube
+Author-email: duong <dotungduong2@gmail.com>
+License: This is free and unencumbered software released into the public domain.
+        
+        Anyone is free to copy, modify, publish, use, compile, sell, or
+        distribute this software, either in source code form or as a compiled
+        binary, for any purpose, commercial or non-commercial, and by any
+        means.
+        
+        In jurisdictions that recognize copyright laws, the author or authors
+        of this software dedicate any and all copyright interest in the
+        software to the public domain. We make this dedication for the benefit
+        of the public at large and to the detriment of our heirs and
+        successors. We intend this dedication to be an overt act of
+        relinquishment in perpetuity of all present and future rights to this
+        software under copyright law.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+        IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+        OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+        ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+        OTHER DEALINGS IN THE SOFTWARE.
+        
+        For more information, please refer to <http://unlicense.org/>
+Project-URL: Home, https://github.com/duong-dt/youtube-downloader
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyperclip==1.9.0
+Requires-Dist: pytubefix>=8.12
+Requires-Dist: questionary==2.1.0
+Requires-Dist: rich>=13.9
+Provides-Extra: dev
+Requires-Dist: black>=24.10.0; extra == "dev"
+Requires-Dist: flake8>=7.1.1; extra == "dev"
+
+# YouTube Downloader
+
+1. YouTube Video download
+   * Single video or All videos from a playlist
+   * Download caption option available
+   * Highest .mp4 resolution
+
+2. YouTube Audio download
+   * Single video or All videos from a playlist
+   * Download audio only track to .mp3 file
+
+# Installation
+1. Using `pip`
+   ```commandline
+   pip install youtube-downloader-cli
+   ```
+
+2. Using `uv`
+   ```commandline
+   uv tool install youtube-downloader-cli
+   ```
+
+# CLI Application
+
+## Step 1. Enter YouTube video URL (auto-detect from clipboard)
+
+## Step 2. Choose options
+
+### Available options:
+
+1. Download audio only (mp3)
+2. Download video and audio (mp4)
+3. Download video with caption (srt)
+4. Bulk download audios from playlist
+5. Bulk download videos from playlist
+
+## Step 3. Choose a directory to save file(s)
+
+Note: If PyTubeFix failed to connect to YouTube, it may need to be upgraded to the newest version.
+Using `pip`: `pip install --upgrade pytubefix`. Or using `uv`: `uv install youtube-downloader-cli --upgrade --reinstall`. 
+
+# Dependencies
+1. For CLI Application
+   * pyperclip
+   * pytubefix
+   * questionary
+   * rich
+
+2. Of `pytubefix`
+   * NodeJS (make sure that NodeJS is available for POTOKEN generation from `pytubefix`)
