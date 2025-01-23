@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+TorchImageClass/__init__.py
+TorchImageClass/image_class.py
+torchtmageclass.egg-info/PKG-INFO
+torchtmageclass.egg-info/SOURCES.txt
+torchtmageclass.egg-info/dependency_links.txt
+torchtmageclass.egg-info/requires.txt
+torchtmageclass.egg-info/top_level.txt
