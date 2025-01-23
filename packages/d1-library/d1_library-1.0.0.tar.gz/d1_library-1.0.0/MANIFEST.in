@@ -1,0 +1,1 @@
+include d1_library/sql_tools/sql_scripts/*.sql

@@ -1,0 +1,158 @@
+# D1-Pack: Trading Platform Library
+
+D-one Trading Platform Library - это Python библиотека для алгоритмической торговли, анализа данных и управления портфелем.
+
+## Установка
+
+<details> <!-- d1_library Submodule -->
+		<summary><b>d1_library</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/MANIFEST.in'>MANIFEST.in</a></b></td>
+				<td>- MANIFEST.in within the d1_library directory ensures the inclusion of all SQL scripts located in the sql_tools/sql_scripts subdirectory into the distribution package<br>- This is crucial for the project's functionality as it guarantees the necessary SQL scripts are packaged and available for use in the application's database operations.</td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/pyproject.toml'>pyproject.toml</a></b></td>
+				<td>- The 'pyproject.toml' in the 'd1_library' directory outlines the build system and project metadata for the D-one Trading Platform Library<br>- It specifies the required Python version, build dependencies, and the backend used for building<br>- Additionally, it lists the project's dependencies, ensuring the correct packages are installed for successful operation.</td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/setup.py'>setup.py</a></b></td>
+				<td>- The 'setup.py' in the 'd1_library' directory configures the D-one Trading Platform Library<br>- It specifies the library's metadata, required Python version, dependencies, and included package data<br>- This setup file is crucial for the library's distribution and installation, ensuring the correct environment for the trading platform's operation.</td>
+			</tr>
+			</table>
+			<details>
+				<summary><b>d1_library</b></summary>
+				<blockquote>
+					<table>
+					<tr>
+						<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/requirements.txt'>requirements.txt</a></b></td>
+						<td>- The requirements.txt in the d1_library directory specifies the necessary libraries for the project<br>- It includes trading APIs, data processing tools, database utilities, and other utilities<br>- These libraries enable the project to interact with trading platforms, process data, manage databases, and perform other utility functions.</td>
+					</tr>
+					</table>
+					<details>
+						<summary><b>strategies</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/strategies/portfolio.py'>portfolio.py</a></b></td>
+								<td>- OptimizationPortfolio in portfolio.py manages the optimization of a financial portfolio<br>- It calculates the efficient frontier, allocates assets discretely based on the latest prices, and provides the new portfolio<br>- It also determines which stocks to buy or sell<br>- This is integral to the project's financial analysis and investment strategy formulation.</td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/strategies/momentum.py'>momentum.py</a></b></td>
+								<td>- Momentum.py, located in the d1_library/strategies directory, is a crucial component of the project<br>- It calculates the momentum score of financial time series data, filters data by date, and identifies top performing symbols based on momentum<br>- This module aids in the selection of optimal portfolio components within the broader codebase architecture.</td>
+							</tr>
+							</table>
+						</blockquote>
+					</details>
+					<details>
+						<summary><b>stock_parser</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/stock_parser/fmp_fetcher.py'>fmp_fetcher.py</a></b></td>
+								<td>- FMPFetcher, located in the d1_library/stock_parser directory, serves as a data fetcher and parser for stock market data from the Financial Modeling Prep (FMP) API<br>- It retrieves historical and daily stock data, handles rate limits, and prepares the data for database insertion.</td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/stock_parser/stock_list_fetcher.py'>stock_list_fetcher.py</a></b></td>
+								<td>- StockListFetcher, located in the d1_library/stock_parser directory, fetches and parses information about companies traded on 'NYSE', 'NASDAQ', 'AMEX' markets<br>- It retrieves data from the NASDAQ API, processes it into a pandas DataFrame, and filters it based on selected columns, providing a streamlined dataset for further analysis.</td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/stock_parser/rapid_fetcher.py'>rapid_fetcher.py</a></b></td>
+								<td>- Rapid_fetcher.py, located in the stock_parser directory, serves as a data fetcher from the Alpha Vantage API<br>- It retrieves daily adjusted stock data for specified symbols, including opening, closing, high, and low prices, volume, dividends, and split coefficients<br>- The data is returned as a Pandas DataFrame, supporting the project's data analysis and visualization tasks.</td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/stock_parser/tdameritrade_fetcher.py'>tdameritrade_fetcher.py</a></b></td>
+								<td>- TdameritradeFetcher, located in the d1_library, interacts with the TD Ameritrade API to fetch stock market data<br>- It checks if the market is open, retrieves daily data for specified symbols, and organizes the data into a pandas DataFrame<br>- The module dynamically loads credentials from a specified secrets file.</td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/stock_parser/yahoo_fetcher.py'>yahoo_fetcher.py</a></b></td>
+								<td>- YahooFinanceFetcher, located in the stock_parser directory, serves as a market status checker for a specific stock symbol<br>- It fetches the trading history of the symbol from Yahoo Finance and determines whether the market is open based on the latest trading date<br>- This functionality is integral to the overall project's ability to interact with real-time stock market data.</td>
+							</tr>
+							</table>
+						</blockquote>
+					</details>
+					<details>
+						<summary><b>sql_tools</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/sql_tools/db_fetcher.py'>db_fetcher.py</a></b></td>
+								<td>- DatabaseFetcher in db_fetcher.py establishes a connection to a PostgreSQL database using provided credentials<br>- It executes SQL scripts to fetch daily data, specific daily data, exchange IDs, vendor IDs, symbol IDs, and actual symbols<br>- It also provides functionality to close the database connection.</td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/sql_tools/db_insert.py'>db_insert.py</a></b></td>
+								<td>- DatabaseInsert in db_insert.py facilitates data loading into a database<br>- It dynamically loads secrets for database credentials, constructs a database engine URL, and executes SQL queries to insert data<br>- It also handles the insertion of symbols and daily data, with error handling and connection disposal included.</td>
+							</tr>
+							</table>
+							<details>
+								<summary><b>sql_scripts</b></summary>
+								<blockquote>
+									<table>
+									<tr>
+										<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/sql_tools/sql_scripts/daily_spec_data.sql'>daily_spec_data.sql</a></b></td>
+										<td>- The daily_spec_data.sql script within the SQL tools of the D1 library retrieves specific daily data for a given symbol within a specified date range<br>- It forms a crucial part of the project's data extraction and manipulation process, enabling targeted data analysis and decision-making.</td>
+									</tr>
+									<tr>
+										<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/sql_tools/sql_scripts/exchange_id.sql'>exchange_id.sql</a></b></td>
+										<td>- The 'exchange_id.sql' script, located in the 'sql_tools/sql_scripts' directory of the 'd1_library', retrieves the unique identifier of a specific exchange from the 'exchange' table in the database<br>- This is achieved by matching the provided abbreviation, thereby facilitating the identification and management of different exchanges within the system.</td>
+									</tr>
+									<tr>
+										<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/sql_tools/sql_scripts/symbols.sql'>symbols.sql</a></b></td>
+										<td>- In the context of the entire codebase architecture, the script located at d1_library/d1_library/sql_tools/sql_scripts/symbols.sql serves to extract unique symbols from a database<br>- It specifically retrieves symbols that have been updated since a specified date, ensuring the most recent data is always utilized.</td>
+									</tr>
+									<tr>
+										<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/sql_tools/sql_scripts/insert_symbols.sql'>insert_symbols.sql</a></b></td>
+										<td>- The insert_symbols.sql script in the d1_library/sql_tools/sql_scripts directory updates the 'symbols' table in the database<br>- It populates the table with data from a temporary table, handling any conflicts by updating existing records<br>- The script also removes the temporary table after the operation.</td>
+									</tr>
+									<tr>
+										<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/sql_tools/sql_scripts/vendor_id.sql'>vendor_id.sql</a></b></td>
+										<td>- Vendor_id.sql within the sql_scripts directory of the d1_library retrieves the unique identifier of a specific data vendor from the data_vendor table<br>- This operation is crucial for linking vendor-specific data across the entire codebase, ensuring accurate data tracking and management.</td>
+									</tr>
+									<tr>
+										<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/sql_tools/sql_scripts/symbol_id.sql'>symbol_id.sql</a></b></td>
+										<td>- Symbol_id.sql, located in the sql_scripts subdirectory of the d1_library, retrieves the id and ticker from the symbols table<br>- This operation is integral to the project's overall functionality, enabling the identification and tracking of different symbols within the system.</td>
+									</tr>
+									<tr>
+										<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/sql_tools/sql_scripts/daily_data.sql'>daily_data.sql</a></b></td>
+										<td>- Daily_data.sql, located in the sql_scripts directory under the sql_tools of the d1_library, retrieves the closing price of a specific symbol between two dates<br>- This script plays a crucial role in the codebase architecture by providing time-bound financial data for further analysis or processing.</td>
+									</tr>
+									<tr>
+										<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/sql_tools/sql_scripts/insert_daily_data.sql'>insert_daily_data.sql</a></b></td>
+										<td>- The SQL script in the d1_library/sql_tools/sql_scripts directory serves to update the daily_data table with new stock market data<br>- It pulls this data from a temporary table, handles any conflicts with existing entries based on a unique key, and then removes the temporary table.</td>
+									</tr>
+									</table>
+								</blockquote>
+							</details>
+						</blockquote>
+					</details>
+					<details>
+						<summary><b>telegram_bot</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/telegram_bot/notificationsender.py'>notificationsender.py</a></b></td>
+								<td>- Notificationsender.py, located in the telegram_bot directory of the d1_library, is responsible for interacting with the Telegram API<br>- It retrieves updates from a specific bot using a unique token, enabling the system to receive and process incoming messages from the Telegram platform.</td>
+							</tr>
+							</table>
+						</blockquote>
+					</details>
+					<details>
+						<summary><b>terminal</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/terminal/ibkr.py'>ibkr.py</a></b></td>
+								<td>- IBAPI, located in the terminal directory, serves as an interface to the Interactive Brokers (IB) trading platform<br>- It establishes a connection, handles requests, and manages trading operations such as retrieving account details, positions, portfolio, and news, as well as submitting orders<br>- It leverages the ib_insync library to interact with the IB's API, ensuring seamless trading operations.</td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/reraaaaa/D-one-Trading-Platform.git/blob/master/d1_library/d1_library/terminal/alpaca.py'>alpaca.py</a></b></td>
+								<td>- AlpacaTrader, located in the terminal directory of the d1_library, interfaces with the Alpaca Trade API<br>- It initializes the API, retrieves position data, and submits orders<br>- The class also validates order side input and optionally includes average entry price in position data<br>- This component plays a crucial role in managing and executing trades within the larger codebase.</td>
+							</tr>
+							</table>
+						</blockquote>
+					</details>
+				</blockquote>
+			</details>
+		</blockquote>
+	</details>
