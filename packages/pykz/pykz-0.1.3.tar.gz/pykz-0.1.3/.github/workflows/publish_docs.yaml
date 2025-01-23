@@ -1,0 +1,52 @@
+name: Build and Deploy Documentation
+
+on:
+  push:
+    branches: [ main ]  # or your default branch
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:  # allows manual triggering
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # fetch all history for .git information
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install TeX Live
+      run: |
+       sudo apt-get update
+       sudo apt-get install -y texlive-latex-extra
+
+    - name: Install Poppler
+      run: | 
+        sudo apt-get install -y poppler-utils
+        
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -e ".[dev]"
+
+    - name: Build Documentation
+      run: |
+        cd docs
+        make html
+        touch build/html/.nojekyll  # prevent GitHub Pages from ignoring files that begin with an underscore
+
+    - name: Deploy to GitHub Pages
+      if: github.event_name != 'pull_request'  # only deploy on push to main, not on PRs
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: docs/build/html
+        clean: true  # automatically remove deleted files from the deploy branch

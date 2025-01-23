@@ -1,0 +1,22 @@
+__pycache__
+venv
+test-basic-plot.log
+test-basic-plot.aux
+*.pyc
+**/*.pyc
+pykz/__pycache__ tests/__pycache__
+test-basic-plot.pdf
+.venv
+examples/basics/DoE.py
+dist
+*.pdf
+*.aux 
+*.log
+docs/build/
+docs/source/gallery
+docs/source/auto_examples
+docs/source/sg_execution_times.rst
+examples/*.tex
+.DS_Store
+**/.DS_Store
+
