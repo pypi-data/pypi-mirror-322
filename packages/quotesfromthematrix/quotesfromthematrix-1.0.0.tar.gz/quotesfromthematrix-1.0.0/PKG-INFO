@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: quotesfromthematrix
+Version: 1.0.0
+Summary: A library that quotes Morpheus from The Matrix.
+Author: Regina
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
+
+A simple library that prints a famous quote from The Matrix.
