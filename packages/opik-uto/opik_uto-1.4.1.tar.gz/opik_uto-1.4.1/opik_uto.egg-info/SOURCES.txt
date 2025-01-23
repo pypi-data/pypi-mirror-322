@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+opik_uto.egg-info/PKG-INFO
+opik_uto.egg-info/SOURCES.txt
+opik_uto.egg-info/dependency_links.txt
+opik_uto.egg-info/requires.txt
+opik_uto.egg-info/top_level.txt

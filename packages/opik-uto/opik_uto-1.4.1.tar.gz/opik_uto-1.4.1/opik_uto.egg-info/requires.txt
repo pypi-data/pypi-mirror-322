@@ -1,0 +1,5 @@
+levenshtein==0.25.1
+python-dateutil==2.9.0.post0
+pandas==2.2.3
+rapidfuzz==3.11.0
+uuid7==0.1.0
