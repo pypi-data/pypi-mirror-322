@@ -1,0 +1,15 @@
+coordop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coordop/bibliography.py,sha256=07TTI7-dN1LMgE16G9yQv1k8MXMMCHMNXiqo2Z925Cw,1475
+coordop/operation.py,sha256=RSsXwNUH_MPMxortohmxZzJrdD6vM_KsYOtHNy3B77I,2882
+coordop/surface.py,sha256=bv344uA1iQBtXuhqKuWvZITnxxl2peibgZ7pRSq3CrI,11417
+coordop/projection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coordop/projection/epsg.py,sha256=MLtZfAw0sK3_HjcViyICi7JpetLZQIrmPpFW5jnFew8,37952
+coordop/projection/map_projections.py,sha256=PJWE9DtFmBCLWhHsphRSNAX9eNS2466hHirndIL2UII,870
+coordop/projection/mercator_spherical.py,sha256=wtjcYHB46l9fPUjX10uhUcbCCP1QYxd15XBn_GjiKt8,1374
+coordop/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coordop/util/integral.py,sha256=N03s_-QIUTDkoyry6qPBfG4gUqz86P1Tn-oQfRZnp_w,427
+coordop-0.19.2.dist-info/LICENSE.md,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+coordop-0.19.2.dist-info/METADATA,sha256=nkYDdWNbFyaaguvPt-q5Qh3FpMoLkAskAGh5xQce5ck,3400
+coordop-0.19.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+coordop-0.19.2.dist-info/top_level.txt,sha256=vhVwE3XWFbuGiz5_osp4kxmZr-D43fkjXz8oEBWan1c,8
+coordop-0.19.2.dist-info/RECORD,,
