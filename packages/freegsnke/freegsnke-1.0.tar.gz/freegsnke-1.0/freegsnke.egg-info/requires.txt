@@ -1,0 +1,17 @@
+scipy~=1.9
+numpy~=1.22
+matplotlib~=3.5
+h5py~=3.7
+deepdiff~=7.0
+notebook~=7.2
+
+[dev]
+build
+twine
+pytest
+pre-commit
+black==24.1.1
+isort==5.13.2
+
+[freegs4e]
+freegs4e~=0.4
