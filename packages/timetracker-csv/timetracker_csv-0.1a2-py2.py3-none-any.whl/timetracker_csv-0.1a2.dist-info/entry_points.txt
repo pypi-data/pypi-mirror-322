@@ -1,0 +1,2 @@
+[console_scripts]
+trkr = timetracker.trkr:main
