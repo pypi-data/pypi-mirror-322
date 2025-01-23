@@ -1,0 +1,4 @@
+gitpython
+groq
+python-dotenv
+click
