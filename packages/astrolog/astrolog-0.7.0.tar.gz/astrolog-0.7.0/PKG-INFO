@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: astrolog
+Version: 0.7.0
+Summary: High-level astrology methods based on Swiss Ephemeris
+License: BSD-4-Clause
+Keywords: astronomy,swisseph,astrology,swissephemeris
+Author: Ign. Aiom Ominous
+Author-email: aiom.ominous@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: dms2dec (>=0.1,<0.2)
+Requires-Dist: pyswisseph (>=2.10.3.0,<3.0.0.0)
+Project-URL: repository, https://github.com/astro-pro/astrolog
