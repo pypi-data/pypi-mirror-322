@@ -1,0 +1,4 @@
+colorama
+inquirerpy
+pydantic
+rich
