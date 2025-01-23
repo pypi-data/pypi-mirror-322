@@ -1,0 +1,9 @@
+setup.py
+DeskPerformance/__init__.py
+DeskPerformance/pf.py
+pc_metrics_collector.egg-info/PKG-INFO
+pc_metrics_collector.egg-info/SOURCES.txt
+pc_metrics_collector.egg-info/dependency_links.txt
+pc_metrics_collector.egg-info/entry_points.txt
+pc_metrics_collector.egg-info/requires.txt
+pc_metrics_collector.egg-info/top_level.txt
