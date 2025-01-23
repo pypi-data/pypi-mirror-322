@@ -1,0 +1,6 @@
+[project]
+name = "xmltoxl"  # Correct package name
+version = "1.0.0"
+description = "Convert Xml format to Excel format"
+dependencies = ["openpyxl"]
+
