@@ -1,0 +1,2 @@
+[console_scripts]
+crimson-solana = crimson_solana_toolkit.cli:main
