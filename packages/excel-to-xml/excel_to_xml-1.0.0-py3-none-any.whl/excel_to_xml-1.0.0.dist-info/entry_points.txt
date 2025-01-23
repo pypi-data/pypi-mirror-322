@@ -1,0 +1,2 @@
+[console_scripts]
+excel_to_xml = excel_to_xml.converter:main
