@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: mkinf
+Version: 0.1.1
+Summary: mkinf python SDK
+Author: mkinf
+Author-email: info@mkinf.io
+Requires-Python: >=3.13,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: langchain-core (==0.3.31)
+Requires-Dist: pydantic (==2.10.2)
+Requires-Dist: python-dotenv (==1.0.1)
+Requires-Dist: requests (==2.32.3)
+Description-Content-Type: text/markdown
+
+# mkinf python SDK
+
+mkinf python SDK
+
+## Installation
+```bash
+pip install mkinf
+```
