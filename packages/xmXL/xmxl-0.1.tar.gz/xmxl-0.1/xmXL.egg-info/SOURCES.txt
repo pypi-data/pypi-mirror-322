@@ -1,0 +1,6 @@
+setup.py
+xmXL.egg-info/PKG-INFO
+xmXL.egg-info/SOURCES.txt
+xmXL.egg-info/dependency_links.txt
+xmXL.egg-info/requires.txt
+xmXL.egg-info/top_level.txt
