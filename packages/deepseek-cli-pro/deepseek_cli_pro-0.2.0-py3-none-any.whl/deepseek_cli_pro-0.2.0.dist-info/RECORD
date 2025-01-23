@@ -1,0 +1,11 @@
+deepseek_cli/__init__.py,sha256=AmtbcIjwex75u9AqG4eya7UV9sCkKqPok3o2EPsS5WU,419
+deepseek_cli/api.py,sha256=VwLkSfmCty-kje1wU7eSvJQk8yEsJbv_4r8b7xgTKGA,716
+deepseek_cli/cli.py,sha256=2QXuUNlA6GeKkbL-jwKbx4R419XQWrioLEksHlhDgdA,4591
+deepseek_cli/config.py,sha256=44VbA_zfZE3zRZN6fAmE87_8yH79KDMVHPG7cckoIJE,766
+deepseek_cli/formatter.py,sha256=MXJsBM3IRuX7Um2c7gXiLT5iVxyyxSh0z2dXHeDmqKc,812
+deepseek_cli_pro-0.2.0.dist-info/LICENSE,sha256=I2CGUS0Euy-Jd4g-rz6MP3XwK7psE5cbCiRCbrvXJoM,1087
+deepseek_cli_pro-0.2.0.dist-info/METADATA,sha256=o5NTebrQ64PJpog7N9H32C-knWJjNcJcscQTNpEweQ4,1956
+deepseek_cli_pro-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+deepseek_cli_pro-0.2.0.dist-info/entry_points.txt,sha256=9Cs03uyORcRMbm8JQ8-yUaCeKN4NxawzmNGu_nfKmMo,50
+deepseek_cli_pro-0.2.0.dist-info/top_level.txt,sha256=EOwfDEzDMaDBSiANWDVmS0jQWcfXm13BcdrfdI6N_rg,13
+deepseek_cli_pro-0.2.0.dist-info/RECORD,,
