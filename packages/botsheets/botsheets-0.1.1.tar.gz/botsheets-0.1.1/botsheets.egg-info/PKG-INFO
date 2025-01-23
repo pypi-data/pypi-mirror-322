@@ -1,0 +1,50 @@
+Metadata-Version: 2.2
+Name: botsheets
+Version: 0.1.1
+Summary: Class integrate with google sheets for RPA
+Home-page: https://github.com/botlorien/botsheets
+Author: Ben-Hur P. B. Santos
+Author-email: botlorien@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: gspread
+Requires-Dist: oauth2client
+Requires-Dist: botenv
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# BotSheets
+
+Pacote para integração de RPA com planilhas privadas do google sheets
+
+## Instalação:
+ ```bash
+ pip install botsheets
+ ```
+
+## Exemplo de uso:
+```python
+from botsheets import Gsheets
+url_sheet = 'https://docs.google.com/spreadsheets/d/<sheetid>/...'
+gsh = Gsheets()
+# Na variavel ambiente solicitada no terminal informe o caminho do arquivo json com as credenciais de acesso obtida no google console
+gsh.login()
+gsh.acess_spreadsheet(url_sheet)
+gsh.set_sheet_name('Página1')
+print(gsh.get_all_records())
+gsh.set_sheet_name('Página2')
+print(gsh.get_all_records())
+gsh.clear_sheet()
+```

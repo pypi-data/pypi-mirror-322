@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+botsheets/__init__.py
+botsheets/gsheets.py
+botsheets.egg-info/PKG-INFO
+botsheets.egg-info/SOURCES.txt
+botsheets.egg-info/dependency_links.txt
+botsheets.egg-info/requires.txt
+botsheets.egg-info/top_level.txt
