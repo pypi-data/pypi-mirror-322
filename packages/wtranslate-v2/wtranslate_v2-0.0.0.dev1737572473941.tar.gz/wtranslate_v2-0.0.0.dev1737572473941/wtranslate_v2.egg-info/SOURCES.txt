@@ -1,0 +1,6 @@
+module.py
+setup.py
+wtranslate_v2.egg-info/PKG-INFO
+wtranslate_v2.egg-info/SOURCES.txt
+wtranslate_v2.egg-info/dependency_links.txt
+wtranslate_v2.egg-info/top_level.txt
