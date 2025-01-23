@@ -1,0 +1,16 @@
+types_aiobotocore_kendra/__init__.py,sha256=IRkycym-COzQ11xLiGwpIIo_zHdb2ULlyiRpIh-22eo,466
+types_aiobotocore_kendra/__init__.pyi,sha256=ScGmsr1boYbBsgW-BoIvhpExRhf6OIxrJdM_EW1CbGw,465
+types_aiobotocore_kendra/__main__.py,sha256=8mYzD47d-1kG11Ygm_9nVTKo_ClFQSG7QuyaqmQhomk,995
+types_aiobotocore_kendra/client.py,sha256=7Bly8SzhSARWMfSpE_CQASZwvwdVN6uAq6Os6dMN3Hg,46674
+types_aiobotocore_kendra/client.pyi,sha256=W9MFVfI6vCOg-WhXcLGJwcMeioS-deUKIjXxW5Rxlvc,46671
+types_aiobotocore_kendra/literals.py,sha256=NuN9rIxvMDKnvS8KsCQ362rff9gUm3I68nc0Be1_QDo,16719
+types_aiobotocore_kendra/literals.pyi,sha256=YHxHAXtsYejD3a9Jt_SPNrQUtvjhv_yymmdl-OXMywI,16717
+types_aiobotocore_kendra/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+types_aiobotocore_kendra/type_defs.py,sha256=i9bLde0NJPSjimOVc8mhlU1uPR1k8_w03-QZMYJv7x8,106405
+types_aiobotocore_kendra/type_defs.pyi,sha256=QpjMlGINMzcqywM2adpjirLmLRJM4MlCBekg7Jrsr7I,106070
+types_aiobotocore_kendra/version.py,sha256=p-hGlwIFdvetvXuIQA0tr3U2zr2g6PMVzFKpQRDQkSw,92
+types_aiobotocore_kendra-2.19.0.dist-info/LICENSE,sha256=4jNgB8jJbXtUVJkeygwhUQi--6lAG8DIisfE-h_RiUU,1070
+types_aiobotocore_kendra-2.19.0.dist-info/METADATA,sha256=MuA25_nh24UEHqEeGE_BCpPpv5QIuvqsufUc47M9Yk8,14439
+types_aiobotocore_kendra-2.19.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+types_aiobotocore_kendra-2.19.0.dist-info/top_level.txt,sha256=7HEnLKkSBaasX6b_yqmwnJ8ZaWFWTsdILO2aXNYuOAw,25
+types_aiobotocore_kendra-2.19.0.dist-info/RECORD,,
