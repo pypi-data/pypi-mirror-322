@@ -1,0 +1,30 @@
+Metadata-Version: 2.2
+Name: capeditor
+Version: 0.6.6
+Summary: Wagtail based CAP composer
+Home-page: https://github.com/wmo-raf/cap-composer
+Author: Grace Amondi, Erick Otenyo
+Author-email: miswa.grace@gmail.com, otenyo.erick@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: alertwise>=1.0.0
+
+## ⚠️ Important Note
+
+This package has been deprecated in favor of [Alertwise](https://github.com/wmo-raf/alertwise).
+
+Please follow the instructions in the [Alertwise](https://github.com/wmo-raf/alertwise) repository to install the new
+package.
+
+
