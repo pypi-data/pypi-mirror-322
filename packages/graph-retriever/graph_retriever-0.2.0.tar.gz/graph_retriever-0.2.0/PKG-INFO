@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: graph-retriever
+Version: 0.2.0
+Summary: Retriever combining unstructured similarity and structured document traversal.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Graph Retrievers
+
+Retrievers combining vector (similarity search over unstructured data) and graph
+(structured relationships).
