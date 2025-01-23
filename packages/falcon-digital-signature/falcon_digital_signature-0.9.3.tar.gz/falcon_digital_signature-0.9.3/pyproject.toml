@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "falcon-digital-signature"
+version = "0.9.3"
+description = "A python implementation of the signature scheme Falcon with packaging "
+authors = ["Thomas Prest <thomas.prest@ens.fr>", "Yoann Piétri <Yoann.Pietri@lip6.fr>"]
+readme = "README.md"
+license = "MIT"
+packages = [{ include = "falcon" }]
+
+[tool.poetry.dependencies]
+python = ">=3.7, <3.14"
+numpy = [
+    {version="^1.21.5", python=">=3.7, <3.9"},
+    {version="^1.26.0", python=">=3.9, <3.11"},
+    {version="^2.2.0", python=">=3.11, <3.14"},
+]
+pycryptodome = "^3.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
