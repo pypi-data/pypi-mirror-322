@@ -1,0 +1,3 @@
+[console_scripts]
+tasty-agent = server:mcp.run
+tasty-setup = src.tastytrade_api.setup_auth:setup_tastytrade_auth
