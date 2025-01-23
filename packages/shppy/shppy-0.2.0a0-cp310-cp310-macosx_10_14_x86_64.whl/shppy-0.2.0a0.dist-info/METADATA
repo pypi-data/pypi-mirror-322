@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: shppy
+Version: 0.2.0a0
+Summary: A tool library for the ice research
+Keywords: Numerical computing,High-performance computing
+Author-Email: Season Lo <chlo-mo@outlook.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: numba
+Requires-Dist: networkx
+Requires-Dist: pytest; extra == "test"
+Provides-Extra: test
+Description-Content-Type: text/markdown
