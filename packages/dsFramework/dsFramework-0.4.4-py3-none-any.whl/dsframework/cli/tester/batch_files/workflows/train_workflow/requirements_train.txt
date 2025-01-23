@@ -1,0 +1,1 @@
+-r ../../../trainer/requirements_trainer.txt
