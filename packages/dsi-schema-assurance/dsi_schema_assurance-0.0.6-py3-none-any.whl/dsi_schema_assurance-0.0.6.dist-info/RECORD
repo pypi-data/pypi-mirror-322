@@ -1,0 +1,12 @@
+dsi_schema_assurance/__init__.py,sha256=lO413J9CtqxCt1bidyf2cVR5BXb6_yXV_jWJggUcmEs,116
+dsi_schema_assurance/detectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsi_schema_assurance/detectors/ddl.py,sha256=sNA1-0CfpWiYq0tKM6sOCA3BLH78kBQEUdBECQek49I,2391
+dsi_schema_assurance/detectors/ontology.py,sha256=eHhZVkt7dcQ9Gvdt_Ok8YeC1aI2vfFjQlNfYvmzmstQ,7827
+dsi_schema_assurance/detectors/shacl.py,sha256=AxYpaeQ5Ouf4FH9r4RNsvZEoGPItSOYFQmnd678dF00,1876
+dsi_schema_assurance/injector.py,sha256=2Ubsw1_7ZFnBVvpa_BFsOPrB48H1_4rbp3rN9ZNT4WM,2559
+dsi_schema_assurance/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsi_schema_assurance/utils/pandas.py,sha256=K67ZJrtHqNgB9hJW-gAVVVriViewF2ypDykcf_DR7eU,5024
+dsi_schema_assurance/validator.py,sha256=-ilmaRakRZ9dVwhWUM0BjeGHUfhpG25jfDQzvkzbpY8,10989
+dsi_schema_assurance-0.0.6.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+dsi_schema_assurance-0.0.6.dist-info/METADATA,sha256=QWHZB57_RbU4C1Wiel3UFo6_T0VSqi52WVQMrqwX2u4,8840
+dsi_schema_assurance-0.0.6.dist-info/RECORD,,
