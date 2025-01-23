@@ -1,0 +1,13 @@
+textual_englyph/__init__.py,sha256=gnjVeZXiQ7Wp3tUJehxZrdFPMj4oJMewxqDlJt_C9w4,129
+textual_englyph/englyph.py,sha256=_f4ic9Zt2xjgPAzGSpAQ5REdoQZkTZQd80vvZgoX_rA,8766
+textual_englyph/main_demo.py,sha256=PcbZsjsjxHMjrrBUOftg8zQvyaYDA4RgRTglWvPGx3Y,1612
+textual_englyph/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textual_englyph/toglyxels.py,sha256=qUJ1wkrYx-dWTM5YBVZauhKI5QLT-6vC1ztE8dj61qg,8678
+textual_englyph/assets/DepartureMono-Regular.woff,sha256=1KyaHrCde5t5NpWBhqN7JACsS5aJzbixn13aW2_wbuA,15776
+textual_englyph/assets/RobotoMono-Italic-VariableFont_wght.ttf,sha256=xAUGliJukGjyiK9tA8xHOz_WQv1d1TMWoO4DD-Nmu8k,197012
+textual_englyph/assets/RobotoMono-VariableFont_wght.ttf,sha256=FzoUoNYIUHLLZVo4Gq55SWEsDXbB5954Aoi3STk2P9s,184172
+textual_englyph/assets/TerminusTTF-4.46.0.ttf,sha256=rEse8eve_2zyAAHp_bzd4oxbTWSNxRq1GRLxopVzMFw,440944
+textual_englyph-0.4.0.dist-info/METADATA,sha256=lJQww-W7fJ-czsd9CsKh19ifTU03l3s_xZlBkQBq5Bk,1692
+textual_englyph-0.4.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+textual_englyph-0.4.0.dist-info/entry_points.txt,sha256=N7cbsGnzALy1o366KZt_oI6TQEJePvFrkXPPByBK_SA,69
+textual_englyph-0.4.0.dist-info/RECORD,,
