@@ -1,0 +1,22 @@
+[package]
+name = "rnzb"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+name = "rnzb"
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = 3
+codegen-units = 1
+lto = "fat"
+
+[dependencies]
+chrono = "0.4.39"
+nzb-rs = "0.2.0"
+pyo3 = { version = "0.23.3", features = [
+    "extension-module",
+    "chrono",
+    "generate-import-lib",
+] }
