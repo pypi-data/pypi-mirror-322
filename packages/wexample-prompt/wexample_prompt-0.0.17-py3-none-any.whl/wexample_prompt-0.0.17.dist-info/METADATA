@@ -1,0 +1,29 @@
+Metadata-Version: 2.2
+Name: wexample-prompt
+Version: 0.0.17
+Summary: Helper for your tty interactions
+Author-email: weeger <contact@wexample.com>
+License: MIT
+Project-URL: homepage, https://github.com/wexample/python-prompt
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: colorama
+Requires-Dist: inquirerpy
+Requires-Dist: pydantic
+Requires-Dist: rich
+
+# wexample-prompt
+
+CLI prompt utilities for Python applications with rich terminal output support.
+
+## License
+
+MIT License - See LICENSE file for details.
+
+## Links
+
+- [GitHub Repository](https://github.com/wexample/python-prompt)
+- [Issues](https://github.com/wexample/python-prompt/issues)
