@@ -1,0 +1,48 @@
+Metadata-Version: 2.2
+Name: fastapi-app-plus
+Version: 0.1.1
+Summary: The extended function library of fastapi can be read README.md
+Home-page: https://github.com/hgz1989/fastapi-app-plus
+Author: HanGuangZheng
+Author-email: hanguangzheng@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi>=0.111.0
+
+# FastAPI AppExt
+
+---
+
+**Source Code**: <a href="https://github.com/hgz1989/fastapi-app-plus" target="_blank">https://github.com/hgz1989/fastapi-app-plus</a>
+
+---
+
+Installation
+------------
+
+``pip install fastapi-app-plus``
+
+
+Hello World Example
+-------------------
+
+.. code:: python
+
+    from fastapi import FastAPI
+    from fastapi-app-plus import app_plus
+
+    app = FastAPI(title='Hello World Example')
+    app_plus(app,cors=True)
+
+    @app.get('/')
+    async def index():
+        return {'hello': 'world'}
+
+    if __name__ == '__main__':
+        import uvicorn
+
+        uvicorn.run(app)
