@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: excel_to_xml
+Version: 1.0.0
+Summary: A utility to convert Excel files to XML format
+Author: Yagna
+Author-email: yagna781@gmail.com
+Requires-Dist: openpyxl
