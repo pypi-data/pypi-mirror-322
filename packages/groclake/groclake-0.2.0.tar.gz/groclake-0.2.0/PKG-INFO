@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: groclake
+Version: 0.2.0
+Requires-Dist: requests
+Requires-Dist: mysql-connector-python
+Requires-Dist: redis
+Requires-Dist: elasticsearch<9.0.0,>=8.11.0
+Dynamic: requires-dist

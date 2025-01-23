@@ -1,0 +1,4 @@
+requests
+mysql-connector-python
+redis
+elasticsearch<9.0.0,>=8.11.0
