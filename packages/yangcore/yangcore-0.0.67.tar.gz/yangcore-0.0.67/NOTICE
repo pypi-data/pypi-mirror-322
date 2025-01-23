@@ -1,0 +1,332 @@
+
+Code Components bundled/distributed with YANGcore (without modificiation)
+=========================================================================
+
+/src/yangcore/yang/iana-crypt-hash@2014-08-06.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2014 IETF Trust and the persons identified as authors of the code.
+Licensed under the Simplified BSD License
+
+/src/yangcore/yang/ietf-crypto-types@2024-10-10.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+/src/yangcore/yang/ietf-datastores@2018-02-14.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2018 IETF Trust and the persons identified as authors of the code.
+Licensed under the Simplified BSD License
+
+/src/yangcore/yang/ietf-inet-types@2013-07-15.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2013 IETF Trust and the persons identified as authors of the code.
+Licensed under the Simplified BSD License
+
+/src/yangcore/yang/ietf-keystore@2024-10-10.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+/src/yangcore/yang/ietf-netconf-acm@2018-02-14.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2012 - 2018 IETF Trust and the persons identified as authors of the code.
+Licensed under the Simplified BSD License
+
+/src/yangcore/yang/ietf-restconf@2017-01-26.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2017 IETF Trust and the persons identified as authors of the code.
+Licensed under the Simplified BSD License
+
+/src/yangcore/yang/ietf-tcp-client@2024-10-10.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+/src/yangcore/yang/ietf-tcp-common@2024-10-10.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+/src/yangcore/yang/ietf-tcp-server@2024-10-10.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+/src/yangcore/yang/ietf-tls-common@2024-10-10.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+/src/yangcore/yang/ietf-tls-server@2024-10-10.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+/src/yangcore/yang/ietf-truststore@2024-10-10.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+/src/yangcore/yang/ietf-x509-cert-to-name@2014-12-10.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2014 IETF Trust and the persons identified as authors of the code.
+Licensed under the Simplified BSD License
+
+/src/yangcore/yang/ietf-yang-library@2016-06-21.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2016 IETF Trust and the persons identified as authors of the code.
+Licensed under the Simplified BSD License
+
+/src/yangcore/yang/ietf-yang-library@2019-01-04.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2019 IETF Trust and the persons identified as authors of the code.
+Licensed under the Simplified BSD License
+
+/src/yangcore/yang/ietf-yang-types@2013-07-15.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2013 IETF Trust and the persons identified as authors of the code.
+Licensed under the Simplified BSD License
+
+/src/yangcore/yang/iana-tls-cipher-suite-algs@2024-10-16.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+/src/yangcore/yang/ietf-udp-server@2024-10-15.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+/src/yangcore/yang/ietf-http-server@2024-12-23.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+/src/yangcore/yang/ietf-restconf-server@2024-12-23.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2024 IETF Trust and the persons identified as authors of the code.
+Licensed under the Revised BSD License
+
+
+
+
+Code Components bundled/distributed with YANGcore (with modificiation)
+======================================================================
+
+/src/yangcore/yang4errors/ietf-restconf@2017-01-26.yang
+https://www.iana.org/assignments/yang-parameters/
+Copyright (c) 2017 IETF Trust and the persons identified as authors of the code.
+Licensed under the Simplified BSD License
+
+/src/yangcore/db_utils.py
+https://github.com/kvesteri/sqlalchemy-utils
+https://github.com/kvesteri/sqlalchemy-utils/tree/master/sqlalchemy_utils/functions/database.py
+https://github.com/kvesteri/sqlalchemy-utils/tree/master/sqlalchemy_utils/functions/orm.py
+Copyright (c) 2012, Konsta Vesterinen
+Licensed under the BSD License
+
+
+
+
+Direct Dependencies (YANGcore imports but does not distribute these packages)
+=============================================================================
+
+aiohttp
+https://pypi.org/project/aiohttp
+https://github.com/aio-libs/aiohttp
+Copyright aio-libs contributors
+Licensed under the Apache License, Version 2.0
+
+basicauth
+https://pypi.org/project/basicauth/
+No copyright
+Licensed under the Unlicense License
+
+cryptography
+https://pypi.org/project/cryptography
+https://github.com/pyca/cryptography
+Copyright (c) Individual contributors
+Licensed under both the Apache Software License and the BSD License, 3-Clause
+
+fifolock
+https://pypi.org/project/fifolock
+https://github.com/michalc/fifolock
+Copyright (c) 2018 Michal Charemza
+Licensed under the MIT License
+
+passlib
+https://pypi.org/project/passlib
+https://foss.heptapod.net/python-libs/passlib
+Copyright (c) 2008-2020 Assurance Technologies, LLC.
+Licensed under the BSD License
+
+pem
+https://pypi.org/project/pem/
+https://github.com/hynek/pem
+Copyright (c) 2013 Hynek Schlawack and the pem contributors
+Licensed under the MIT License
+
+pyasn1
+https://pypi.org/project/pyasn1
+https://github.com/pyasn1/pyasn1
+Copyright (c) 2005-2020, Ilya Etingof <etingof@gmail.com>
+Licensed under the BSD 2-Clause "Simplified" License
+
+pyasn1-modules
+https://pypi.org/project/pyasn1-modules
+https://github.com/pyasn1/pyasn1-modules
+Copyright (c) 2005-2020, Ilya Etingof <etingof@gmail.com>
+Licensed under the BSD 2-Clause "Simplified" License
+
+python
+https://www.python.org
+https://github.com/python/cpython
+Copyright (c) 2001 Python Software Foundation; All Rights Reserved
+Licensed under the Python Software Foundation License (PSFL)
+
+sqlalchemy
+https://pypi.org/project/sqlalchemy
+https://github.com/sqlalchemy/sqlalchemy
+Licensed under the MIT License
+
+yangson
+https://pypi.org/project/yangson
+https://github.com/CZ-NIC/yangson
+Copyright (c) 2016–2023 CZ.NIC, z. s. p. o.
+Licensed under the GNU Lesser General Public License v3 (LGPLv3)
+
+
+
+
+Transient Dependencies (YANGcore neither imports nor distributes these packages)
+================================================================================
+
+
+aiohappyeyeballs
+https://pypi.org/project/aiohappyeyeballs
+https://github.com/aio-libs/aiohappyeyeballs
+Copyright (c) 2023, J. Nick Koston
+Licensed under the Python Software Foundation License (PSFL)
+
+aiosignal
+https://pypi.org/project/aiosignal
+https://github.com/aio-libs/aiosignal
+Copyright (c) 2013-2019, aiosignal contributors
+Licensed under the Apache License 2.0
+
+asn1crypto
+https://pypi.org/project/asn1crypto
+https://github.com/wbond/asn1crypto
+Copyright (c) 2015-2022 Will Bond <will@wbond.net>
+Licensed under the MIT License
+
+attrs
+https://pypi.org/project/attrs
+https://github.com/python-attrs/attrs
+Copyright (c) 2015 Hynek Schlawack and the attrs contributors
+Licensed under the MIT License
+
+certifi
+https://pypi.org/project/certifi
+https://github.com/certifi/python-certifi
+No copyright
+Licensed under the Mozilla Public License, 2.0
+
+charset-normalizer
+https://pypi.org/project/charset-normalizer
+https://github.com/jawah/charset_normalizer
+Copyright (c) 2019 TAHRI Ahmed R.
+Licensed under the MIT License
+
+cffi
+https://pypi.org/project/cffi
+https://github.com/python-cffi/cffi
+Copyright (c) 2012-2018, Armin Rigo, Maciej Fijalkowski
+Licensed under the MIT License
+
+elementpath
+https://pypi.org/project/elementpath
+https://github.com/sissaschool/elementpath
+Copyright (c), 2018-2021, SISSA (Scuola Internazionale Superiore di Studi Avanzati)
+Licensed under the MIT License
+
+frozenlist
+https://pypi.org/project/frozenlist
+https://github.com/aio-libs/frozenlist
+Copyright (c) 2013, frozenlist contributors
+Licensed under the Apache License 2.0
+
+idna
+https://pypi.org/project/idna
+https://github.com/kjd/idna
+Copyright (c) 2013-2024, Kim Davies and contributors.
+Licensed under the BSD 3-Clause License
+
+multidict
+https://pypi.org/project/multidict
+https://github.com/aio-libs/multidict
+Copyright 2016 Andrew Svetlov and aio-libs contributors
+Licensed under the Apache License 2.0
+
+oscrypto
+https://pypi.org/project/oscrypto
+https://github.com/wbond/oscrypto
+Copyright (c) 2015-2022 Will Bond <will@wbond.net>
+Licensed under the MIT License
+
+propcache
+https://pypi.org/project/propcache
+https://github.com/aio-libs/propcache
+Copyright 2016-2021, Andrew Svetlov and aio-libs team
+Licensed under the Apache License 2.0
+
+pycparser 
+https://pypi.org/project/pycparser
+https://github.com/eliben/pycparser
+Copyright (c) 2008-2022, Eli Bendersky
+Licensed under the BSD 3-Clause License
+
+pymysql
+https://pypi.org/project/pymysql
+https://github.com/pymysql/pymysql
+Copyright (c) 2010, 2013 PyMySQL contributors
+Licensed under the MIT License
+
+pysqlite3
+https://pypi.org/project/pysqlite3
+https://github.com/coleifer/pysqlite3
+Copyright (c) 2004-2007 Gerhard Häring
+Licensed under the zlib License
+
+pyyaml
+https://pypi.org/project/pyyaml
+https://github.com/yaml/pyyaml
+Copyright (c) 2017-2021 Ingy döt Net
+Copyright (c) 2006-2016 Kirill Simonov
+Licensed under the MIT License
+
+setuptools
+https://pypi.org/project/setuptools
+https://github.com/pypa/setuptools
+Copyright (c) Donald Stufft and individual contributors
+Licensed under both the BSD 2-Clause License and Apache License, Version 2.0
+
+typing-extensions
+https://pypi.org/project/typing-extensions
+https://github.com/python/typing_extensions
+2023, Guido van Rossum and others
+Licensed under the Python Software Foundation License (PSFL)
+
+urllib3
+https://pypi.org/project/urllib3
+https://github.com/urllib3/urllib3
+Copyright (c) 2008-2020 Andrey Petrov and contributors.
+Licensed under the MIT License
+
+yarl
+https://pypi.org/project/yarl
+https://github.com/aio-libs/yarl
+Copyright 2016-2021, Andrew Svetlov and aio-libs team
+Licensed under the Apache License, Version 2.0
+
+
