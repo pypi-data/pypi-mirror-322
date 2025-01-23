@@ -1,0 +1,127 @@
+# GitLab MLOps Python Client
+
+A Python client for integrating GitLab's MLOps features, specifically designed to leverage GitLab's [experiment tracking](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/) and [model registry](https://docs.gitlab.com/ee/user/project/ml/model_registry/) capabilities. This client simplifies the management of machine learning workflows by combining MLflow's flexibility with GitLab's powerful MLOps tools.
+
+![Build Status](https://gitlab.com/gitlab-org/modelops/mlops/gitlab-mlops/badges/main/pipeline.svg)
+![Latest Release](https://img.shields.io/pypi/v/gitlab-mlops)
+
+## Features
+
+- **GitLab Experiment Tracking**: Easily track machine learning experiments within GitLab.
+- **Model Registry Integration**: Register and manage models in GitLab's model registry.
+- **Experiment Management**: Create and manage experiments directly from the client.
+- **Run Tracking**: Initiate and monitor training runs with ease.
+- **Model Lifecycle Management**: Promote runs to model versions effortlessly.
+
+## Feedback
+
+The MLOPs Python client is currently in Beta. We welcome feedback and feature requests either in [this repository's issue tracker](https://gitlab.com/gitlab-org/modelops/mlops/gitlab-mlops/-/issues/new) or on our [feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/514543)
+
+## Installation
+
+Install the client using [pip](https://pip.pypa.io/):
+
+```bash
+pip install gitlab-mlops
+```
+
+Alternatively, to install the latest version from the source, use [Poetry](https://python-poetry.org/):
+
+```bash
+# Clone the repository
+git clone https://gitlab.com/gitlab-org/modelops/mlops/gitlab-mlops.git
+cd gitlab-mlops
+
+# Install dependencies
+poetry install
+```
+
+## Usage
+
+### Configuration
+
+Configure the client using environment variables or initialization arguments.
+
+**Using Environment Variables:**
+
+```bash
+export MLFLOW_TRACKING_URI="https://gitlab.com/api/v4/projects/<project_id>/mlflow"
+export MLFLOW_TRACKING_TOKEN="your_access_token"
+```
+
+```python
+from gitlab_mlops import Client
+
+client = Client()
+```
+
+**Using Initialization Arguments:**
+
+```python
+from gitlab_mlops import Client
+
+client = Client(
+    tracking_uri="https://gitlab.com/api/v4/projects/<project_id>/mlflow",
+    gitlab_token="your_access_token"
+)
+```
+
+### Create a New Experiment
+
+```python
+from gitlab_mlops import Client
+
+client = Client()
+experiment = client.create_experiment("Experiment Name")
+```
+
+### Create a New Run
+
+```python
+from gitlab_mlops import Client
+
+client = Client()
+experiment = client.get_experiment(name="Experiment Name")
+run = experiment.create_run()
+```
+
+### Log Parameters, Metrics, and Model artifacts
+
+```python
+from gitlab_mlops import Client
+
+client = Client()
+
+run = client.get_run(run_id="19e547d3-8de7-42c3-9575-fae1142dec69")
+
+run.log_param(key="param_name", value="value")
+run.log_metric(key="metric_name", value=0.95)
+run.log_artifact(
+    local_path="<path to the model file or directory>",
+    artifact_path="<optional relative path to log the artifact(s) at>"
+)
+```
+
+### Create a New Model
+
+```python
+from gitlab_mlops import Client
+
+client = Client()
+model = client.create_model(name="Model Name", description="Model Description")
+```
+
+### Create a New Model Version
+
+```python
+from gitlab_mlops import Client
+
+client = Client()
+
+model = client.get_model(name="Model Name")
+
+model_version = model.create_version(description="New version", version="1.0.0")
+
+model_version.log_param(key="param_name", value="value")
+model_version.log_text("How to run this model [...]", "README.md")
+```
