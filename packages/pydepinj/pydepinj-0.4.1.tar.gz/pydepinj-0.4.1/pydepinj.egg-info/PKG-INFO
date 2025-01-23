@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: pydepinj
+Version: 0.4.1
+Summary: A basic dependency injection framework
+Home-page: https://github.com/thebmw/pydepinj
+Author: Brynn Warner
+Author-email: brynn@brynnsoft.com
+License: MIT
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary

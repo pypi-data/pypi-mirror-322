@@ -1,0 +1,7 @@
+setup.py
+pydepinj/__init__.py
+pydepinj/dependency_injection.py
+pydepinj.egg-info/PKG-INFO
+pydepinj.egg-info/SOURCES.txt
+pydepinj.egg-info/dependency_links.txt
+pydepinj.egg-info/top_level.txt
