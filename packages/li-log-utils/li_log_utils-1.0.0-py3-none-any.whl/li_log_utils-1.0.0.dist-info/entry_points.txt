@@ -1,0 +1,2 @@
+[console_scripts]
+data-process-utils = data_process_utils.log_utils.py:save_json
