@@ -1,0 +1,6 @@
+BaseXClient
+alpino-query>=2.1.8
+pandas
+pivottablejs
+requests
+sastadev>=0.1.4
