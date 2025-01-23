@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+prda_middleware/__init__.py
+prda_middleware/middleware.py
+prda_middleware/version.py
+prda_middleware.egg-info/PKG-INFO
+prda_middleware.egg-info/SOURCES.txt
+prda_middleware.egg-info/dependency_links.txt
+prda_middleware.egg-info/not-zip-safe
+prda_middleware.egg-info/top_level.txt
