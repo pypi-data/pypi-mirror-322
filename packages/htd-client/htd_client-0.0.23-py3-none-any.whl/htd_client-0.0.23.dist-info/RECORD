@@ -1,0 +1,11 @@
+htd_client/__init__.py,sha256=EFcgI1M4SHfvBRYQjo9ETjiMKs2Zdivq5NaXPMPZfwc,2839
+htd_client/base_client.py,sha256=ELpgshv0z48Fog7oj0ceOhmvXz93Ym1XR1RV3BAVHvw,19349
+htd_client/constants.py,sha256=ToNAzRhluRhin_anSWI5X4j1OQWlbQgxOWDYfnQzowk,7141
+htd_client/lync_client.py,sha256=IDxHJuQSTn9lqPCq2SsRtBbSwAl6c00ddG2lBlzARGQ,12868
+htd_client/mca_client.py,sha256=73OruZqPbsChNetqjLaB68eSeyFXDfo6B0d21vyrc4E,12883
+htd_client/models.py,sha256=eDyDU8nSiTtjWAJxZ5H8Ei15IZu-CRSRR-0Ec1yI3YQ,940
+htd_client/utils.py,sha256=X-nUo7g5PElS30yjh7RMgnYSX3ZDUFCMItX16HuofyU,6010
+htd_client-0.0.23.dist-info/LICENSE,sha256=dUhuoK-TCRQMpuLEAdfme-qPSJI0TlcH9jlNxeg9_EQ,1056
+htd_client-0.0.23.dist-info/METADATA,sha256=wJnIpL6WPacQU4cZ5YEglUuLaSXjHX1M3nlrpMW0GaY,1520
+htd_client-0.0.23.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+htd_client-0.0.23.dist-info/RECORD,,
