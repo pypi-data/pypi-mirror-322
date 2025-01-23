@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/neuroscangen/__init__.py
+src/neuroscangen/foo.py
+src/neuroscangen.egg-info/PKG-INFO
+src/neuroscangen.egg-info/SOURCES.txt
+src/neuroscangen.egg-info/dependency_links.txt
+src/neuroscangen.egg-info/top_level.txt
+tests/test_foo.py
