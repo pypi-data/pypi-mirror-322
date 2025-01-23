@@ -1,0 +1,13 @@
+LICENCE
+README.md
+setup.py
+src/infercraft/__init__.py
+src/infercraft/actor_engine.py
+src/infercraft/aircraft.py
+src/infercraft/engine_proxy.py
+src/infercraft/model_desc.py
+src/infercraft/platform_factory.py
+src/infercraft.egg-info/PKG-INFO
+src/infercraft.egg-info/SOURCES.txt
+src/infercraft.egg-info/dependency_links.txt
+src/infercraft.egg-info/top_level.txt

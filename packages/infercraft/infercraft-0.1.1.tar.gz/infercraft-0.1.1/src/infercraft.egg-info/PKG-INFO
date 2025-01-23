@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: infercraft
+Version: 0.1.1
+Summary: A python framework for distributed inference by arbitrary platform
+Home-page: 
+Author: WD
+Author-email: 
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENCE
