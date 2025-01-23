@@ -1,0 +1,9 @@
+snaketerm/__init__.py,sha256=kCHOXK1GWP6fC0muZYDeWLfSiCZ3mAPzaR5pddWY_Sw,70
+snaketerm/game.py,sha256=4v4GvrBpdbyFGSNxWviwb1OrC9RK6Qy_LQRwgSI1sWU,2937
+snaketerm/main.py,sha256=bQya5KfOHyMpyoTu1KcQiF3EAD2qpd6D3lWCSLHq6bA,520
+snaketerm/snake.py,sha256=4qCq5v7ygAFH8ZZT2FmTojlYseYGxJ36TVir-APocBg,2614
+snake_terminal-1.0.0.dist-info/METADATA,sha256=PPEjRDb7kaocjhDwcPsbHUsx4WcYpRUnhHHC9aeQb3Q,606
+snake_terminal-1.0.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+snake_terminal-1.0.0.dist-info/entry_points.txt,sha256=jYdvjpv_39s690VllkQXAFX8V7H-VlPPwYFwogvlMPk,56
+snake_terminal-1.0.0.dist-info/top_level.txt,sha256=Wnv-pWxMi70xZ0BdPWRcEG-pK8aIRneEF-PzYKFm0YU,10
+snake_terminal-1.0.0.dist-info/RECORD,,
