@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+TraceSpanTree/Log.py
+TraceSpanTree/MultiNestDict.py
+TraceSpanTree/SpanTree.py
+TraceSpanTree/TraceGen.py
+TraceSpanTree/__init__.py
+TraceSpanTree.egg-info/PKG-INFO
+TraceSpanTree.egg-info/SOURCES.txt
+TraceSpanTree.egg-info/dependency_links.txt
+TraceSpanTree.egg-info/top_level.txt
+tests/__init__.py
+tests/test_demo1.py
+tests/test_demo2.py
