@@ -1,0 +1,6 @@
+astartool>=0.1.0
+astar-devopstool>=0.0.7
+numpy
+scipy
+liepack
+matplotlib
