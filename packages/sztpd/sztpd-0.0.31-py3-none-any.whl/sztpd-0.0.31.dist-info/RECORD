@@ -1,0 +1,12 @@
+sztpd/LICENSE,sha256=Z9pWO4VfxAmjcf-7YnFhiuzA52QlvgnGTSn4qLAPKig,18565
+sztpd/__init__.py,sha256=WXwsCil0PkA4daLmG5BhtMk5l7nb1XHCbdS_Knf9LJw,85
+sztpd/__main__.py,sha256=FnOrwhbL3rHNpp-BKfSHMi-6fB2Zws96NLJN7rwpMas,2745
+sztpd/rfc8572.py,sha256=b5YMtXIOfoeD7rTspCIlGxa4apa-IFlkWle4mvjGErY,29721
+sztpd/sztpd.py,sha256=Qjjkk8tr5hixFU7PoI6wu9gXQuMBmQYmEKfTu6vwOBQ,6226
+sztpd/yl.py,sha256=FXiMquP_g7G5k2TKY4Gb5zSNMMrAfg7TXsz5tSOtdZ8,442
+sztpd-0.0.31.dist-info/METADATA,sha256=W4eVDIOOG-b1Acy-dxTySSBDdfP9LPbck-GbMxhGaaI,2545
+sztpd-0.0.31.dist-info/NOTICE,sha256=A3QS6ckiKeg8qNWi4ORU4-xSvlY-ldFJKODBxo93bfY,7976
+sztpd-0.0.31.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sztpd-0.0.31.dist-info/entry_points.txt,sha256=I7RNYZQAzhgJwPLXsI22IeqW7iMGyGE7a9JZ7_maomA,46
+sztpd-0.0.31.dist-info/top_level.txt,sha256=F3DmRRS1YvskWV1TAkWXrfJUhAXCUxBeWcRCghHwU2Y,6
+sztpd-0.0.31.dist-info/RECORD,,
