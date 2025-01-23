@@ -1,0 +1,117 @@
+Metadata-Version: 2.2
+Name: timewalk
+Version: 0.0.1
+Summary: A simple backtesting library for market strategies
+Author-email: Deni Rakovic <deni.rakovic23@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2025 Deni Rakovic
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/drakovic23/timewalk
+Project-URL: Issues, https://github.com/drakovic23/timewalk/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: yfinance>=0.2.52
+Requires-Dist: numba>=0.60.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.4; extra == "dev"
+
+<table border=1 cellpadding=10><tr><td>
+
+#### \*\*\* IMPORTANT LEGAL DISCLAIMER! \*\*\*
+
+---
+
+This is a fun project I am writing to simulate/backtest basic strategies.
+It should not be used with real capital. I am not responsible for any
+monetary losses. You should not make decisions based solely on basic strategies such as technical indicators anyways.
+
+</td></tr></table>
+
+---
+### Install
+```angular2html
+pip install timewalk
+```
+## Main components
+
+- `FeatureBuilder`: A class that handles feature generation such as RSI, MACD etc.
+- `IStrategy`: An abstract class used to implement strategies
+- `BackTester`: A class used to run strategies and load data
+
+## Usage
+Create the backtester and run a strategy:
+```angular2html
+import timewalk as tw
+from timewalk.strategy_classes import *
+
+bt = tw.BackTester()
+results = (bt.load_data("TSLA", "1d")
+ .run(RsiStrategy(rsi_window=20)))
+```
+BackTester().run() returns a Pandas dataframe with various details on the strategy
+___
+You can also implement your own strategies by implementing the IStrategy interface in your class:
+```angular2html
+# Implement your own strategies:
+class MyRsiStrat(IStrategy):
+    def __init__(self, rsi_window: int):
+        self.rsi_window = rsi_window
+        config = StrategyConfig(
+            name="My strategy",
+            parameters={
+                "rsi_window": rsi_window,
+            }
+        )
+        super().__init__(config)
+        self.required_features = [f'rsi_{rsi_window}']
+
+    # Prepare your features with the feature builder
+    def prepare_features(self, builder: FeatureBuilder) -> FeatureBuilder:
+        ret = builder.with_rsi(window=self.rsi_window)
+        return ret
+
+    def name(self):
+        return self.config.name
+
+    def on_bar(self, bar): # On bar processing
+        pass
+
+    def should_buy(self, row: pd.Series): # Should buy signal
+        if row[self.required_features[0]] <= 30: # Buy when our feature (RSI) is <= than 30
+            return True
+
+
+    def should_sell(self, row: pd.Series): # Should sell signal
+        if row[self.required_features[0]] >= 70: # Sell when our feature is >= 70
+            return True
+        pass
+
+# Run our strategy
+bt.load_data("TSLA", "1d").run(MyRsiStrat(rsi_window=20))
+```
+
+
