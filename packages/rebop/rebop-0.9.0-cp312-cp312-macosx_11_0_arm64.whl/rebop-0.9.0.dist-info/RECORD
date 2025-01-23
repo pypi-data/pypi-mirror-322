@@ -1,0 +1,8 @@
+rebop-0.9.0.dist-info/METADATA,sha256=21qdNMnMlmAuRDMbsS5S5L6PYyhoCJLhKrcrg31Mg8Q,9991
+rebop-0.9.0.dist-info/WHEEL,sha256=lWK3-Bgk0WnWBByE5b3Cq5VR1998HCQ2lZtuFHoBwss,104
+rebop-0.9.0.dist-info/licenses/LICENSE,sha256=Za1R6XQR0OF01bmnfqlH5wr7G-JUFPi02Q9W92drctY,1073
+rebop/__init__.py,sha256=cteR-iJ71Qdlzdv56t7I-BgbprJhRtWDf0mUUQ-Xxq8,113
+rebop/gillespie.py,sha256=Olzz8K27KBOwLYAA3YC9icLO-9Cs8Om2TTppdhLS1P8,4350
+rebop/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rebop/_lib.cpython-312-darwin.so,sha256=FXyhiv0ZJxWdy0toHaCcv5uzT_8kPRf1lDoeSgQn_xA,572256
+rebop-0.9.0.dist-info/RECORD,,
