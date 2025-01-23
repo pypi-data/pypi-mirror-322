@@ -1,0 +1,10 @@
+django_hugeicons_stroke/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_hugeicons_stroke/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_hugeicons_stroke/apps.py,sha256=__9uXRUBXZm6jOsPXWrsuHIhnl8TYHkTENaApS5aZe4,176
+django_hugeicons_stroke/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_hugeicons_stroke/templatetags/hugeicons_stroke.py,sha256=Tl8rnunSHMPhcgVqG5vamLGsja7ob_lUFpVcM8maiyk,595
+django_hugeicons_stroke/templatetags/stroke_icons.py,sha256=VuKvaJlcSDtPrA191rsZHy4oKYVzgPzioKBePr6U4hA,500
+django_hugeicons_stroke-1.0.8.dist-info/METADATA,sha256=xqOD3ozTJyv4rGYM6UeOc-lDa2x-R8wBpk0sOUl2LkY,2045
+django_hugeicons_stroke-1.0.8.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+django_hugeicons_stroke-1.0.8.dist-info/top_level.txt,sha256=HzqMOFmWYgMDQAm9A2Qnf_IqEZITaNDFrhcA6zUo21E,24
+django_hugeicons_stroke-1.0.8.dist-info/RECORD,,
