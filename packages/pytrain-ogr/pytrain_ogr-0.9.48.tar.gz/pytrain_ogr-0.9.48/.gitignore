@@ -1,0 +1,11 @@
+dist/
+src/*.egg-info/
+src/pytrain/_version.py
+.idea/
+.tox/
+__pycache__
+ *.pyc
+/pytrain.log*
+.DS_Store
+/pytrain.history
+/replay.txt
