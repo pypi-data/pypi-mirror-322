@@ -1,0 +1,6 @@
+[ansys.scade.registry]
+srg=ansys.scade.pyhg:srg
+
+[ansys.scade.test.thg]
+PYHG266=ansys.scade.pyhg.pyhg
+
