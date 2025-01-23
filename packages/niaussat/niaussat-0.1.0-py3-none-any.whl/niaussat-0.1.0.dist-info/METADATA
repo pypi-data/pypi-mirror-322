@@ -1,0 +1,119 @@
+Metadata-Version: 2.3
+Name: niaussat
+Version: 0.1.0
+Summary: Niaussat, the new math package for complex calculus
+License: MIT
+Keywords: math,calculus,complex,mathematics,science
+Author: Your Name
+Author-email: you@example.com
+Maintainer: Your Name
+Maintainer-email: you@example.com
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: numpy (>=1.21.0)
+Description-Content-Type: text/markdown
+
+# Niaussat
+
+**Niaussat** est une bibliothèque Python légère et performante permettant de [décrire brièvement les fonctionnalités du package ici]. Son objectif est de faciliter [décrire l'objectif global du package] de manière intuitive et rapide.
+
+## Table des matières
+
+- [Niaussat](#niaussat)
+  - [Table des matières](#table-des-matières)
+  - [Description](#description)
+  - [Caractéristiques](#caractéristiques)
+  - [Installation](#installation)
+- [Exemple d'utilisation simple](#exemple-dutilisation-simple)
+- [Effectuer une tâche](#effectuer-une-tâche)
+- [Utiliser une autre fonctionnalité](#utiliser-une-autre-fonctionnalité)
+    - [Explications supplémentaires](#explications-supplémentaires)
+
+## Description
+
+Niaussat est conçu pour aider les développeurs à [décrire le but du package, par exemple : résoudre un problème spécifique, simplifier un processus, intégrer une API, etc.]. En utilisant Niaussat, vous bénéficiez de [avantages, par exemple : des performances accrues, une interface utilisateur simplifiée, une compatibilité multiplateforme, etc.].
+
+## Caractéristiques
+
+- **Efficacité** : Utilise des algorithmes avancés pour maximiser les performances tout en minimisant la consommation de mémoire.
+- **Facilité d'utilisation** : Une interface simple qui permet d'intégrer Niaussat facilement dans vos projets.
+- **Extensibilité** : Niaussat est conçu pour être extensible, vous pouvez ajouter de nouvelles fonctionnalités ou personnaliser l'existant.
+- **Documentation complète** : Des tutoriels détaillés et des exemples de code pour vous aider à commencer rapidement.
+
+## Installation
+
+Vous pouvez installer Niaussat de plusieurs manières. La méthode la plus simple est d'utiliser `pip` :
+
+```bash
+pip install niaussat
+```
+
+Installation depuis le code source
+Si vous souhaitez obtenir la dernière version en développement, vous pouvez cloner le repository et installer le package manuellement :
+
+bash
+Copier
+git clone https://github.com/nom-utilisateur/niaussat.git
+cd niaussat
+pip install .
+Utilisation
+Une fois installé, vous pouvez utiliser Niaussat dans votre code Python comme suit :
+
+python
+Copier
+import niaussat
+
+# Exemple d'utilisation simple
+resultat = niaussat.effectuer_tache(parametre1, parametre2)
+print(resultat)
+Exemples
+Exemple 1 : [Nom de la fonctionnalité]
+python
+Copier
+import niaussat
+
+# Effectuer une tâche
+niaussat.fonctionnalite_1(parametre)
+Exemple 2 : [Autre fonctionnalité]
+python
+Copier
+import niaussat
+
+# Utiliser une autre fonctionnalité
+niaussat.fonctionnalite_2(parametre1, parametre2)
+Options de configuration
+Niaussat vous permet de personnaliser son comportement via des options de configuration :
+
+python
+Copier
+config = niaussat.Configuration(parametre="valeur")
+niaussat.configurer(config)
+Contribuer
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer Niaussat, veuillez suivre les étapes ci-dessous :
+
+Fork le repository
+Créez une branche pour votre fonctionnalité (git checkout -b nouvelle-fonctionnalité)
+Faites vos modifications et assurez-vous que tous les tests passent
+Soumettez une pull request avec une description claire de vos changements
+Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir une issue !
+
+Licence
+Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
+
+markdown
+Copier
+
+### Explications supplémentaires
+
+- **Table des matières** : Cette section permet aux utilisateurs de naviguer facilement dans le fichier README, en particulier pour les projets avec une documentation détaillée.
+- **Description** : Un résumé de ce que fait le package et de son objectif.
+- **Caractéristiques** : Les points forts du package, qui peuvent être des éléments de différenciation importants.
+- **Installation** : Explication des méthodes d'installation pour rendre l'intégration aussi simple que possible.
+- **Utilisation** : Des exemples de base et avancés de comment utiliser le package dans du code Python.
+- **Contribuer** : Encouragement à contribuer au projet avec des instructions claires.
+- **Licence** : Précise la licence sous laquelle le projet est distribué.
