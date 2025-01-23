@@ -1,0 +1,12 @@
+scAGDE/__init__.py,sha256=JDun2gZDunXcIDLLcT91bHiFscYrStRIshdkpKs-nTk,324
+scAGDE/layer.py,sha256=qJOQj507SFYC5CT6z8ngPOdnqWDd6KqO2mI5O-tB8kA,9484
+scAGDE/loss.py,sha256=UDv1dwOw52w1yDactI5pKUQw8Ma2t9x5ALYVSgskgWY,426
+scAGDE/mclust.py,sha256=w5_Oi3tVz8LNaEZl7SPIHFVmzFy8aRR2ndAavXZjEhQ,1021
+scAGDE/model.py,sha256=6zkNmvBHezeD6JNtOVf6BpGl9G_mt5DkvP4tJU3Nepk,28014
+scAGDE/trainer.py,sha256=yQrDuhQAtFlp0-NZ2GWz_rV39i8U7A0M6S_xckPBhkw,16902
+scAGDE/utils.py,sha256=F4w-8tS9Aqp_6Z2tzjMehUTvkiiExhXD2u-oFiGn-5Y,5893
+scAGDE-0.0.18.dist-info/LICENSE,sha256=ramwoVJCgknGXBNa2DAp_UQdvVOzfhP0JKVucxSGjYs,1085
+scAGDE-0.0.18.dist-info/METADATA,sha256=BfUXmqJZ5RZGV6vfun15dCU9cKpy6WzIVaYJB6Sk3rs,6681
+scAGDE-0.0.18.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+scAGDE-0.0.18.dist-info/top_level.txt,sha256=2yPbmbLN2RItqLqmjxMk4yl3K9DoBZpQB7HHltQobcQ,7
+scAGDE-0.0.18.dist-info/RECORD,,
