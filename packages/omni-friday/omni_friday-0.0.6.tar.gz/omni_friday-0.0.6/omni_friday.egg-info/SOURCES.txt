@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+friday.py
+requirements.txt
+setup.py
+app/__init__.py
+app/common/__init__.py
+app/common/aws.py
+app/common/composer.py
+app/common/config.py
+omni_friday.egg-info/PKG-INFO
+omni_friday.egg-info/SOURCES.txt
+omni_friday.egg-info/dependency_links.txt
+omni_friday.egg-info/entry_points.txt
+omni_friday.egg-info/requires.txt
+omni_friday.egg-info/top_level.txt
