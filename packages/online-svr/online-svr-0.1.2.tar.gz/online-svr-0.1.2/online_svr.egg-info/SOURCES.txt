@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+online_svr/__init__.py
+online_svr/core.py
+online_svr/test.py
+online_svr/utils.py
+online_svr.egg-info/PKG-INFO
+online_svr.egg-info/SOURCES.txt
+online_svr.egg-info/dependency_links.txt
+online_svr.egg-info/requires.txt
+online_svr.egg-info/top_level.txt
