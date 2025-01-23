@@ -1,0 +1,56 @@
+Metadata-Version: 2.3
+Name: html-packager
+Version: 0.1.7
+Summary: Package the data in css, javascript and images inside the .html file
+License: MIT
+Keywords: html,packaging,bundling,css,javascript,images
+Author: Willy Pregliasco
+Author-email: willy.pregliasco@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pillow (>=11.0.0,<12.0.0)
+Description-Content-Type: text/markdown
+
+# HTML-Packager
+
+I would like tu distribute my reports in `html` format, but without 
+complicate the people I send the documents to reply the directory structure and 
+running a local server. 
+
+With this command-line tool, all local references to css, javascript and images, 
+are included inside the `html` file and this is the only file needed to renther the report.
+
+## Quickstart
+
+### Install
+
+```bash
+$ pip install html-packager
+```
+
+This installs a command line tool with the syntax
+
+```bash
+$ html-package myfile.html
+```
+
+this command creates `myfile_pkg.html` in the same directory. 
+
+All the files included are listed on screen. 
+
+---
+
+## Licence
+
+2025 - Rodolfo Pregliasco MIT Licence.

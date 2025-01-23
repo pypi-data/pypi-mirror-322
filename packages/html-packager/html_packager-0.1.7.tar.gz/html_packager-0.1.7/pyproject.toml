@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "html-packager"
+version = "0.1.7"
+description = "Package the data in css, javascript and images inside the .html file"
+authors = ["Willy Pregliasco <willy.pregliasco@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["html", "packaging", "bundling", "css", "javascript", "images"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Text Processing :: Markup :: HTML"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.7"
+pillow = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+html-package = "html_packager:package"
