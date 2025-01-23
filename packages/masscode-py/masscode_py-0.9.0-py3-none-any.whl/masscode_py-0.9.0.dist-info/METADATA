@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: masscode-py
+Version: 0.9.0
+Summary: python wrapper for masscode
+Author-email: ZackaryW <36378555+ZackaryW@users.noreply.github.com>
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: requests>=2.32.3
+Description-Content-Type: text/markdown
+
+# masscode.py
+A Python wrapper for [massCode](https://masscode.io/) - a free and open source code snippets manager for developers.
+
+## Install
+```bash
+pip install masscode-py
+```
+
+## Features
+- api methods
+- dataclasses embeded methods
+- direct file access
+
