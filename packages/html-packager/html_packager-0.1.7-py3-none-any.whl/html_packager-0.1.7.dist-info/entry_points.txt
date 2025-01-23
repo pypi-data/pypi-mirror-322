@@ -1,0 +1,3 @@
+[console_scripts]
+html-package=html_packager:package
+
