@@ -1,0 +1,10 @@
+posecraft/Pose.py,sha256=Y26HlxpS2vEcuRTbwohz3KD7d8O21B6weA4rCCy5n94,3325
+posecraft/__init__.py,sha256=rrg25dkzZLbjd62PF3QSJJ47UtURa9XW6iM9nKY6H2w,374
+posecraft/interpolate.py,sha256=Mt3IryTi6jlS9GWUcK1IuR95q_6sUXMrly1JGp15kYk,2360
+posecraft/transforms.py,sha256=WgLROnmD2-b_5pYAL18rI-Lv-MFwVne6nY3843oe6uw,14965
+posecraft/assets/hands_dict.png,sha256=JM6JZCAUmnudwMBeVHaB4wJ7SmXOOgpsc2hbocxTVJY,159592
+posecraft/assets/pose_dict.png,sha256=yTBjqDrf9NsAwCrsjPBNdESukWmVbI7GfuI1GtvNjA8,123013
+posecraft-1.0.1rc93.post1.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+posecraft-1.0.1rc93.post1.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+posecraft-1.0.1rc93.post1.dist-info/METADATA,sha256=Q3A8Sm-NpaXCb_ECavAcX68A_0tbt7PNPPZIiMHyHdw,5878
+posecraft-1.0.1rc93.post1.dist-info/RECORD,,
