@@ -1,0 +1,6 @@
+click
+httpx
+requests
+ruamel.yaml
+tobiko-cloud-api-client==202504.23.0
+tobiko-cloud-helpers==202504.23.0
