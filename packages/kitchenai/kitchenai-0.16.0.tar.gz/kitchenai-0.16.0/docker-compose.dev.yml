@@ -1,0 +1,110 @@
+services:
+
+
+  kitchenai-setup:
+    image: kitchenai-bundle:latest
+    network_mode: host
+    command: python kitchenai/ init --local && python kitchenai/ manage migrate
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file:
+      - .env
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    network_mode: host
+    command: redis-server --appendonly yes
+
+
+  nats:
+    container_name: nats
+    image: nats:latest
+    command: ["-c", "/etc/nats/nats-server.conf"]
+    ports:
+      - 4222:4222
+      - 8222:8222
+      - 6222:6222
+    # volumes:
+    #   - type: bind
+    #     source: ./config/nats/nats-server.conf
+    #     target: /etc/nats/nats-server.conf
+    #   - type: volume
+    #     source: nats-data
+    #     target: /data
+
+    volumes:
+      - ./config/nats-local.conf:/etc/nats/nats-server.conf
+      - nats-data:/data
+    env_file:
+      - ./config/nats/.env
+    environment:
+      - ADMIN_PASSWORD
+      - SYSTEM_PASSWORD
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8222/healthz"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  postgres:
+    image: pgvector/pgvector:pg17
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    network_mode: host
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    environment:
+      MINIO_ROOT_USER: "minioadmin"
+      MINIO_ROOT_PASSWORD: "minioadmin"
+    volumes:
+      - minio_data:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    network_mode: host
+    command: server /data --console-address ":9001"
+
+  chroma:
+    image: chromadb/chroma:latest
+    volumes:
+      - chroma_data:/chroma/chroma
+    ports:
+      - "8000:8000"
+    network_mode: host
+    environment:
+      - CHROMA_SERVER_HOST=0.0.0.0
+      - CHROMA_SERVER_HTTP_PORT=8000
+      - ALLOW_RESET=true
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/heartbeat"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  redis_data:
+  postgres_data:
+  minio_data:
+  chroma_data:
+  nats-data:
+    driver: local
