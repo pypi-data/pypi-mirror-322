@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: aerosim-lnas
+Version: 0.6.0
+Summary: API for Lagrangian Nassu
+Home-page: https://github.com/AeroSim-CFD/lnas
+License: Apache-2.0
+Author: Waine Oliveira Jr
+Author-email: waine@aerosim.io
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: numpy (>=1.26.2,<2.0.0)
+Requires-Dist: ruamel-yaml (>=0.18.5,<0.19.0)
+Project-URL: Repository, https://github.com/AeroSim-CFD/lnas
+Description-Content-Type: text/markdown
+
+# lnas
+
+API for Lagrangian Nassu (.lnas) geometry
+
+For more details on the format, check [stl2lnas](https://github.com/AeroSim-CFD/stl2lnas)
+
