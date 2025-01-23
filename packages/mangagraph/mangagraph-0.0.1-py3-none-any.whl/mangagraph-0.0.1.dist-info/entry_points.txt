@@ -1,0 +1,2 @@
+[console_scripts]
+mangagraph = mangagraph.cli:main
