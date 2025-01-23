@@ -1,0 +1,6 @@
+from ydata.report.metrics.top_bottom_metric import TopBottomMetric
+
+class MissingValuesSimilarity(TopBottomMetric):
+    def __init__(self, formatter=...) -> None: ...
+    @property
+    def name(self) -> str: ...
