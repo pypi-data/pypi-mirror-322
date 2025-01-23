@@ -1,0 +1,7 @@
+mistralrs_mkl-0.4.0.dist-info/METADATA,sha256=mZ08uGUyggZUene1r5-y0sgCnvvNl9fFE7AVOFP9DUM,1722
+mistralrs_mkl-0.4.0.dist-info/WHEEL,sha256=dFcu9qOsa7YDFSHa8_VgUseX7dlAZ67iGT1C1h1z-T8,95
+mistralrs/__init__.py,sha256=0YdHKOlw3WIyk5q-Uf9XGguTiG4fZu1qy8NTczl2R-8,119
+mistralrs/__init__.pyi,sha256=IqCCfoGAr57xwbVd-wkov1GjP5tpT8ZZq4czZU6OA0M,17974
+mistralrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mistralrs/mistralrs.cp310-win_amd64.pyd,sha256=grqhtPNpq7UhqW7IhsLOb_6dA6tszoaiO0PtBJJyo_Q,59590656
+mistralrs_mkl-0.4.0.dist-info/RECORD,,
