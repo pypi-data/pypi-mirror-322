@@ -1,0 +1,7 @@
+README.md
+hello.py
+pyproject.toml
+anchorpy_idl.egg-info/PKG-INFO
+anchorpy_idl.egg-info/SOURCES.txt
+anchorpy_idl.egg-info/dependency_links.txt
+anchorpy_idl.egg-info/top_level.txt
