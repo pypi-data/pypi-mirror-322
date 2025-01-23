@@ -1,0 +1,7 @@
+matplotlib
+ipython
+pyqt6
+shapely
+
+[dev]
+ruff
