@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "event_transforms_polars"
+version = "0.0.1"
+description = "Transformation utilies for data with event start/end times in Polars."
+authors = [
+    { name = "Ja-Jet Loh", email = "jajet.codes@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    # Add your runtime dependencies here
+    # Example: "requests >= 2.25.1"
+    "polars >= 1.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    # Add your development dependencies here
+    # Example: "pytest >= 6.2.4"
+    "pytest >= 8.0.0"
+]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/**"]
+
+[tool.hatch.build.targets.wheel]
+include = ["src/**"]

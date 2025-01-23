@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+event_transforms_polars/__init__.py
+event_transforms_polars/coalesce.py
+event_transforms_polars.egg-info/PKG-INFO
+event_transforms_polars.egg-info/SOURCES.txt
+event_transforms_polars.egg-info/dependency_links.txt
+event_transforms_polars.egg-info/requires.txt
+event_transforms_polars.egg-info/top_level.txt
+tests/test_coalesce.py
