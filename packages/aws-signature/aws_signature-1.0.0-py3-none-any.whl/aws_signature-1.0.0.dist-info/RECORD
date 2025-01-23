@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_sig/__init__.py,sha256=RoZRFt4_6IA3v5eXziAWSQknFjJWtTVU0lmrZ-AaLs8,149
+aws_sig/_credentials.py,sha256=2s_UAsMA9XhbX-76XIx6Y6N9ikSeKNA7obYyNXh24nE,682
+aws_sig/_utils.py,sha256=xHO6ApROd6qTZ38ydG1mERLsZN4LpE1zCG31NXXCqnU,2343
+aws_sig/exceptions.py,sha256=mAWGrQKtd5Goo0lsKFSu_Wto-aSQZGHWfyT_WQtmtBs,297
+aws_sig/v4.py,sha256=SNNYukuQ07EureEvVBVheXUYHKSEcrP6zYxv_YvihAo,10364
+aws_signature-1.0.0.dist-info/LICENSE,sha256=mOWSTwv8IWBlFtEG9h7XQHeg1fIQVlhuEO1ajhowvio,1069
+aws_signature-1.0.0.dist-info/METADATA,sha256=wjECWHXiVLN-3hqx58Ug0dsOcfggyS9IfeLs_Mthgo8,2765
+aws_signature-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+aws_signature-1.0.0.dist-info/top_level.txt,sha256=oKX-yupYTru5HUsDGMiFv094Op6bwwPwYX9UryqE2aE,17
+aws_signature-1.0.0.dist-info/RECORD,,
