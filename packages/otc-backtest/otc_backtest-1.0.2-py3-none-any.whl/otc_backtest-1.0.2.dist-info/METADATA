@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: otc-backtest
+Version: 1.0.2
+Summary: A package for generating contracts
+Home-page: https://github.com/gjnina/otc_backtest
+Author: gjnina
+Author-email: gjnina726@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: fleet
+
+# otc_backtest
+Generate simulated contracts for backtesting.

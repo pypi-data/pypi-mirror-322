@@ -1,0 +1,16 @@
+otc_backtest/__init__.py,sha256=R7sqTGmpmDMkxSsGBxi7YFH44mhJ5L3A25_1T6l3Ssw,38
+otc_backtest/main.py,sha256=PbJNSqZFqtEz_DV4f029ff8c2TLy8p1C4b2p9HigxPk,681
+otc_backtest/utils.py,sha256=vV1wB4bJPfIvRyNnxV6y8xIIJDpSaZkqoCTAhMUoLN4,4856
+otc_backtest/calendar/China/2021.txt,sha256=ZdJDL676bMMJM0QlqwuJzVWQpQ6KOWz-56um2021vQ0,372
+otc_backtest/calendar/China/2022.txt,sha256=b25d6w0agH-iwgoNqziZeLbKsfOw0MhfQot_Yc9dt3s,372
+otc_backtest/calendar/China/2023.txt,sha256=rdjTSDy2s9tfBsguGlU6HMXbjY66ilH1f6f_ucTx7x8,324
+otc_backtest/calendar/China/2024.txt,sha256=D75lqSU2rtegjO_Ftzy0Xii2iEz20URmewcYVK2jLjI,372
+otc_backtest/calendar/China/2025.txt,sha256=tfmc6F2J0Ph9XYXrTIGR1sLA2OtUG8WbnLrFpXaUzi4,286
+otc_backtest/calendar/China/2026.txt,sha256=4lMTd0HJh3suM18KqoWnIxE0JFvbg-vP3avrSo3m2FY,252
+otc_backtest/calendar/China/2027.txt,sha256=WOJbzL4vht85VwdGjq1WYYbgOz_ZkPfcsiUaYj4auOc,310
+otc_backtest/calendar/China/2028.txt,sha256=9wJetM5f23DztdATCKsvq8w_8tiJdxOYOw7Wh1RYm2I,334
+otc_backtest/data/snowball.csv,sha256=KljmWW47N4GOYQbao9SB9_37u2WMvms_JsrCAQir_Z0,552
+otc_backtest-1.0.2.dist-info/METADATA,sha256=_JsAtruizdOflxy_cCcY7Fo6lvMnnpchuRT4t5uRnmw,511
+otc_backtest-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+otc_backtest-1.0.2.dist-info/top_level.txt,sha256=Fjv8Nl_8NMQmc2jTBPrP3SNOGKol6IiKYNWoK0H7MrY,13
+otc_backtest-1.0.2.dist-info/RECORD,,
