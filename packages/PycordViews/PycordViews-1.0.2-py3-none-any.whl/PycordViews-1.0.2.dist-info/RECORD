@@ -1,0 +1,13 @@
+pycordViews/__init__.py,sha256=mK6mXFXlXBnvJpPjH9UI_iS54ICVh_0H3LEReQNJutU,135
+pycordViews/typeViews.py,sha256=5q_-FTUGMg2QjA7bsjbb2ep41Y4sm2sBPTCOV6b5X1w,122
+pycordViews/pagination/__init__.py,sha256=Z9BcdoTWyC1KXGwQ1_C0tu9rkZpdrrjEHwMmjXsckeE,81
+pycordViews/pagination/errors.py,sha256=CYb5gBcXx0kYDUDkNpfUrqSxQAcJE_qfpomWtUFOsTk,316
+pycordViews/pagination/pagination_view.py,sha256=ppcQ6e3RFlw9YXoRF_mRdVi4Pf4EomHWUMDtGxwTDbI,4267
+pycordViews/views/__init__.py,sha256=yligptZmw-np8tjKLr76SVmi0807Nk6jCyKkKYLhbCY,89
+pycordViews/views/easy_modified_view.py,sha256=7cLMKSx92xqT0c74gssgBfFUNBOsc7M4sSrrXwPmVtc,7835
+pycordViews/views/errors.py,sha256=0NBjBDaSFZChJua1ho9qyfbNzwXy1U6Kcob5CCUxBK8,218
+PycordViews-1.0.2.dist-info/LICENSE,sha256=lNgcw1_xb7QENAQi3uHGymaFtbs0RV-ihiCd7AoLQjA,1082
+PycordViews-1.0.2.dist-info/METADATA,sha256=0L5TlXIHwBlzsFq0FztkoSgimrTJPRCVxu7wppEQbBI,2077
+PycordViews-1.0.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+PycordViews-1.0.2.dist-info/top_level.txt,sha256=oPtEDovMPk2PEh7P6fY3IAXvCbmwnG3sbcFIAyljb-Y,53
+PycordViews-1.0.2.dist-info/RECORD,,
