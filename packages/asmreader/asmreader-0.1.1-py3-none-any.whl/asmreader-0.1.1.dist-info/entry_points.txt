@@ -1,0 +1,3 @@
+[console_scripts]
+asmreader = asmreader.cli:main
+download_model = asmreader.download_model:main

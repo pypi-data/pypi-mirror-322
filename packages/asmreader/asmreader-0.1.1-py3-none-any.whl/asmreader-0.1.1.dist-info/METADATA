@@ -1,0 +1,119 @@
+Metadata-Version: 2.4
+Name: asmreader
+Version: 0.1.1
+Summary: Turn any text into a soothing ASMR-style reading experience
+Author-email: Autoscatto <4utoscatto@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: asmr,pdf,reader,text-to-speech,tts
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Text Processing :: General
+Classifier: Typing :: Typed
+Requires-Python: >=3.11
+Requires-Dist: beautifulsoup4>=4.12.3
+Requires-Dist: ebooklib>=0.18
+Requires-Dist: kokoro-onnx>=0.3.5
+Requires-Dist: lxml[html-clean]>=5.3.0
+Requires-Dist: markdown>=3.7
+Requires-Dist: pypdf>=3.17.1
+Requires-Dist: python-magic>=0.4.27
+Requires-Dist: readability-lxml>=0.8.1
+Requires-Dist: requests>=2.32.3
+Requires-Dist: simpleaudio>=1.0.4
+Requires-Dist: sounddevice>=0.5.1
+Requires-Dist: soundfile>=0.13.0
+Requires-Dist: tdqm>=0.0.1
+Provides-Extra: dev
+Requires-Dist: black>=24.1.1; extra == 'dev'
+Requires-Dist: mypy>=1.8.0; extra == 'dev'
+Requires-Dist: pytest-cov>=4.1.0; extra == 'dev'
+Requires-Dist: pytest>=7.4.0; extra == 'dev'
+Requires-Dist: responses>=0.24.1; extra == 'dev'
+Requires-Dist: ruff>=0.2.1; extra == 'dev'
+Requires-Dist: types-beautifulsoup4; extra == 'dev'
+Requires-Dist: types-markdown; extra == 'dev'
+Requires-Dist: types-requests; extra == 'dev'
+Requires-Dist: types-tqdm>=4.67.0.20241221; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# ASMReader 📧 ✨️
+
+Turn any text into a soothing ASMR-style reading experience. Because sometimes you just want your PDF documentation read in a calming voice.
+
+## Features 🔫
+
+- Converts text from various sources (PDF, TXT, Markdown, Web pages) into speech
+- Blends different voices for a unique ASMR experience
+- Parallel processing for smooth playback
+- Supports chunking for long texts
+- Handles web content with readability extraction
+
+## Installation 🚀
+
+```
+# Clone the repo
+git clone https://github.com/autoscatto/asmreader.git
+cd asmreader
+make install  # Install with development dependencies
+```
+
+## Usage 📣
+
+**Important:** Before using the application, you **MUST** call the `download_model` function to download the necessary files.
+
+```
+make run -- --file path/to/your/2501.00536v2.pdf  # Read a local file
+make run -- --url "https://en.wikipedia.org/wiki/Gigi_D%27Agostino"  # Read a web page
+make run -- --file document.txt --speed 0.8  # Adjust speech speed
+make run -- --file document.pdf --output reading.wav  # Save to file instead of playing
+```
+
+## Development 🦠
+
+To contribute:
+
+1. Fork the repo
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Write tests for your feature
+4. Implement your feature
+5. Run tests: `make test`
+6. Push and create a Pull Request
+
+### Adding New File Formats 📘
+
+1. Create a new reader in `asmreader/readers/`
+2. Inherit from `TextReader`
+3. Implement `supported_mime_types()` and `read()`
+4. Add to `READERS` in `readers/__init__.py`
+
+Example:
+```
+class MyNewReader(TextReader):
+    def supported_mime_types(self, mime: str) -> bool:
+        return mime in ['application/x-my-format']
+    
+    def read(self, file_path: str) -> str:
+        # Your implementation here
+        pass
+```
+
+## License 📘
+
+MIT - Because sharing is caring, and ASMR should be free.
+
+## Why? 🤊
+
+Because sometimes you need your technical documentation read in a soothing voice while you drift off to sleep, dreaming of well-documented code and properly handled edge cases.
+
+## Known Issues 💣
+
+- Side effects include improved understanding of technical documents
+- Not responsible for ASMR addiction
+
+---
+
