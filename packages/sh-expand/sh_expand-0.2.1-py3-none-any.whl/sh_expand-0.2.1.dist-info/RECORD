@@ -1,0 +1,11 @@
+sh_expand/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sh_expand/bash_expand.py,sha256=Ib_RLSYnrNZqd-pDQQbWXwwWNc9PUHYdtG1yEeXIDNg,19430
+sh_expand/bashrc.sh,sha256=I56AFNwg-6TZ-Py2DeLH2uihSmAAznhg7mXPYINGbBQ,45
+sh_expand/env_vars_util.py,sha256=HEydmrfSQXVFlMGYdV3qktZdM2qC7FB1dl9uZBfocBw,10308
+sh_expand/expand.py,sha256=FVVcuqN3X6JV5kG0Zli7NfPTB3A1XSiq0JX1Wmxxep4,17605
+sh_expand/util.py,sha256=zcIG24-Y6CWrEQqIXfktku75qkFBY-vQNJpmP_Ye430,366
+sh_expand-0.2.1.dist-info/LICENSE,sha256=bBzsX4d9vukU7AqWhrODETKuVqaqCDSxzk53_d-r3hw,1073
+sh_expand-0.2.1.dist-info/METADATA,sha256=20WmxavgbPXzl74SGTdD0ZM12EtYPekPXFDETUqEdDw,3320
+sh_expand-0.2.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sh_expand-0.2.1.dist-info/top_level.txt,sha256=XTIK17GrRsabp3YFPkK3_w9ulNrfSXcFgKnNH2OMK9s,10
+sh_expand-0.2.1.dist-info/RECORD,,
