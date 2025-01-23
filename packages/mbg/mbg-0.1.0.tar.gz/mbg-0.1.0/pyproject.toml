@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mbg"
+version = "0.1.0"
+description = "Meise Botanic Garden Python packages namespace"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+
+[project.urls]
+homepage = "https://www.plantentuinmeise.be"
+repository = "https://github.com/AgentschapPlantentuinMeise/mbg"
+documentation = "https://github.com/AgentschapPlantentuinMeise/mbg/docs"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "flake8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true

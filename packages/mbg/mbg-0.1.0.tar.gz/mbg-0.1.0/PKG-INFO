@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: mbg
+Version: 0.1.0
+Summary: Meise Botanic Garden Python packages namespace
+License: MIT
+Project-URL: homepage, https://www.plantentuinmeise.be
+Project-URL: repository, https://github.com/AgentschapPlantentuinMeise/mbg
+Project-URL: documentation, https://github.com/AgentschapPlantentuinMeise/mbg/docs
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+
+# {{project_name }}
+
+{# Template for Python projects
+The sections in between these curcly brackets will not be copied in
+the template but is a comment to explain how to use the template.
+Curly braces are used by jinja2 to inject variable,
+e.g. `project_name` above #}
+
+## Introduction
+
+{{ short_description }}

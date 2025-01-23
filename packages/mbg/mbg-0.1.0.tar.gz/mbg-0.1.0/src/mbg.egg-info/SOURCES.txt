@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/mbg.egg-info/PKG-INFO
+src/mbg.egg-info/SOURCES.txt
+src/mbg.egg-info/dependency_links.txt
+src/mbg.egg-info/requires.txt
+src/mbg.egg-info/top_level.txt
+src/mbg/mbg/__init__.py
