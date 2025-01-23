@@ -1,0 +1,9 @@
+dagster_unity_catalog_polars/__init__.py,sha256=Ybt3rGZefIFa3KNEWyObwuZ5oJMeuCjkP04oPohPMJ4,259
+dagster_unity_catalog_polars/debug_unity_catalog_iomanager.py,sha256=RuRUcYe7gVyUyRV6-YFFjutxmV92YZLWJQ-jKtsAVw4,781
+dagster_unity_catalog_polars/unity_catalog_iomanager.py,sha256=cRAUa9liIaDRU88ovcLlI4BRgoVqew9XPR1bFVnJCGQ,4009
+dagster_unity_catalog_polars/utils.py,sha256=SIZD4d9Wo6hqX7ElAEM1y4O8fky2m3aw76pkbLA7H98,1409
+dagster_unity_catalog_polars-0.1.5.dist-info/LICENSE,sha256=WCBevp7gdsfeLVZjJbQiyYNBeEjMdSIfk7CZx7TGdm8,11372
+dagster_unity_catalog_polars-0.1.5.dist-info/METADATA,sha256=VC12uT_N45s5ZooFymD1IVJvZ-3NZwnq2di-Ewcz6k4,1443
+dagster_unity_catalog_polars-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dagster_unity_catalog_polars-0.1.5.dist-info/top_level.txt,sha256=VGp7Kv1CHGNnHRj862X-ApPOcGb_68TznS6SAMc_qco,29
+dagster_unity_catalog_polars-0.1.5.dist-info/RECORD,,
