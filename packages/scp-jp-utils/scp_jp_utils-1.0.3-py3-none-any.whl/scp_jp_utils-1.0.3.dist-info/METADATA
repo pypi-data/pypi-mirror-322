@@ -1,0 +1,30 @@
+Metadata-Version: 2.2
+Name: scp-jp-utils
+Version: 1.0.3
+Summary: Package Template
+Author-email: ukwhatn <ukwhatn@gmail.com>
+Project-URL: Homepage, https://github.com/ukwhatn/audit-logger-api-client
+Project-URL: Bug Tracker, https://github.com/ukwhatn/audit-logger-api-client/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx>=0.28
+Requires-Dist: fastapi>=0.115.0
+Provides-Extra: build
+Requires-Dist: build; extra == "build"
+Requires-Dist: twine; extra == "build"
+Provides-Extra: lint
+Requires-Dist: flake8; extra == "lint"
+Requires-Dist: mypy; extra == "lint"
+Requires-Dist: isort; extra == "lint"
+Provides-Extra: format
+Requires-Dist: black; extra == "format"
+Requires-Dist: isort; extra == "format"
+
+# SCP-JP Utilities
