@@ -1,0 +1,13 @@
+LICENSE.md
+LICENSE.third-party.md
+MANIFEST.in
+README.md
+VERSION
+git_commit_hash.txt
+pyproject.toml
+setup.py
+mlperf.egg-info/PKG-INFO
+mlperf.egg-info/SOURCES.txt
+mlperf.egg-info/dependency_links.txt
+mlperf.egg-info/requires.txt
+mlperf.egg-info/top_level.txt
