@@ -1,0 +1,27 @@
+Metadata-Version: 2.2
+Name: prc.api
+Version: 0.1.2
+Summary: prc.api is an asynchronous Python wrapper for the PRC API.
+Home-page: https://github.com/Tycho-Systems/prc.api
+Author: tycho
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: AsyncIO
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx
+Requires-Dist: asyncio
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+COMING SOON:TM: TO A TYCHO NEAR YOU
