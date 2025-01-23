@@ -1,0 +1,13 @@
+numpy>=1.7
+scipy>=1.0
+Cython>=0.29
+setuptools>=65
+wheel
+
+[dev]
+pytest>=5.1
+flake8>=3.7
+
+[docs]
+sphinx
+sphinx-rtd-theme
