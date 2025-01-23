@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+adaptive_dbnn.egg-info/PKG-INFO
+adaptive_dbnn.egg-info/SOURCES.txt
+adaptive_dbnn.egg-info/dependency_links.txt
+adaptive_dbnn.egg-info/requires.txt
+adaptive_dbnn.egg-info/top_level.txt
+tests/test_adaptive_cnn_dbnn.py
