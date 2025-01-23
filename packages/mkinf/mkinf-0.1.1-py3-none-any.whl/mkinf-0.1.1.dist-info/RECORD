@@ -1,0 +1,7 @@
+mkinf/__init__.py,sha256=36lZ8cFAYczA4ge3m1C2lcW4BM8Q4wJ5QHABQX9dScg,16
+mkinf/hub/__init__.py,sha256=uYQs57cou9soAhjtb4S1fHdGaYOKvZpejSEw1E1ax3U,31
+mkinf/hub/pull.py,sha256=pwr5az7a8LJpCnkqFgPq3w8vdxyTN3Ui_8LAewTcDU8,1923
+mkinf/mkinf.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkinf-0.1.1.dist-info/METADATA,sha256=dfHJSwsQqZhWjNCIIvvYBDhydv82bSa_KVN5UEAsbRw,520
+mkinf-0.1.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+mkinf-0.1.1.dist-info/RECORD,,
