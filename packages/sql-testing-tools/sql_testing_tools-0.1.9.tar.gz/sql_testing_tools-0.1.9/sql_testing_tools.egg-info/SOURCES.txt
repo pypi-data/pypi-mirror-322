@@ -1,0 +1,7 @@
+README.md
+setup.py
+sql_testing_tools.egg-info/PKG-INFO
+sql_testing_tools.egg-info/SOURCES.txt
+sql_testing_tools.egg-info/dependency_links.txt
+sql_testing_tools.egg-info/requires.txt
+sql_testing_tools.egg-info/top_level.txt
