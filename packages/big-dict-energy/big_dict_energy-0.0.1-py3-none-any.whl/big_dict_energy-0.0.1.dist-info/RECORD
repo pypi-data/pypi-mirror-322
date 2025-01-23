@@ -1,0 +1,12 @@
+big_dict_energy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+big_dict_energy/lm_setup.py,sha256=1V0x5iiRzr_ybOYaAhRbhstDEpX6eacDW-2wslaw9O4,3829
+big_dict_energy/pipeline.py,sha256=aEcs2M1IcAhuqaqfS4qop0qnU4CVv-GrxHuXIkkUbOU,2417
+big_dict_energy/processors.py,sha256=wsQjRGxA0ofVSpCMT9jHK8heJptkn3ZjCTIVIVNrq4o,3374
+big_dict_energy/steps.py,sha256=ob9qrGcuLnWx6I6dwnjfZshO0b1Ut2VPzNPP08yrr4Q,1421
+big_dict_energy/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+big_dict_energy/utils/logging.py,sha256=7-YKK6VCRClevsETGl1jqQfkS4ZZqcjRAAjL-HWUcYc,3918
+big_dict_energy/utils/text_utils.py,sha256=6t8h2DdB59qkQiIYsY3LSb1L-KPErvRyGYWERaWNbUw,2947
+big_dict_energy-0.0.1.dist-info/METADATA,sha256=10VfQeaMvuxa0lhrCDUmEKXbB3aq78ZXN4OU-e7GFpw,3226
+big_dict_energy-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+big_dict_energy-0.0.1.dist-info/top_level.txt,sha256=eeQwgLGTcSQZNQ9wahZOSZ6ei4kR-vbkzR2YG-weyRg,16
+big_dict_energy-0.0.1.dist-info/RECORD,,
