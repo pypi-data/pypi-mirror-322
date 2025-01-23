@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <record id="account_move_demo_oc" model="account.move">
+      <field name="name">BILL/2022/0001</field>
+      <field name="journal_id" ref="somconnexio.consumption_invoices_journal" />
+   </record>
+   <record id="account_move_demo_bi" model="account.move">
+      <field name="name">BILL/2022/0002</field>
+      <field name="journal_id" ref="invoice_somconnexio.customer_services_invoices_journal" />
+   </record>
+   <record id="account_type_demo" model="account.account.type">
+      <field name="name">Bank and Cash</field>
+      <field name="type">receivable</field>
+   </record>
+   <record id="account_demo" model="account.account">
+      <field name="name">Liquidity Transfer</field>
+      <field name="code">Test</field>
+      <field name="user_type_id" ref="invoice_somconnexio.account_type_demo" />
+      <field name="reconcile" eval="True"></field>
+   </record>
+   <record id="invoice_bi_demo" model="account.invoice">
+      <field name="partner_id" ref="somconnexio.res_partner_1_demo" />
+      <field name="type">out_invoice</field>
+      <field name="payment_mode_id" ref="somconnexio.payment_mode_inbound_sepa"/>
+      <field name="payment_term_id" ref="account.account_payment_term_immediate"/>
+      <field name="account_id" ref="invoice_somconnexio.account_demo" />
+      <field name="journal_id" ref="invoice_somconnexio.customer_services_invoices_journal" />
+      <field name="number">SO2024-0001</field>
+      <field name="amount_total">121.00</field>
+      <field name="amount_tax">21.00</field>
+      <field name="amount_untaxed">100.00</field>
+      <field name="date_invoice" eval="datetime.now().date()  - timedelta(days=20)"/>
+      <field name="b2_file_id">1</field>
+      <field name="move_id" ref="invoice_somconnexio.account_move_demo_bi" />
+      <field name="state">open</field>
+   </record>
+   <record id="invoice_bi_line_demo" model="account.invoice.line">
+      <field name="product_id" ref="somconnexio.TrucadesIllimitades20GB" />
+      <field name="quantity">1.0</field>
+      <field name="price_unit">100.0</field>
+      <field name="invoice_id" ref="invoice_somconnexio.invoice_bi_demo" />
+      <field name="name">Il·limitades 20GB</field>
+      <field name="account_id" ref="invoice_somconnexio.account_demo" />
+      <field name="invoice_line_tax_ids" eval="[(6, 0, [ref('l10n_es.1_account_tax_template_s_iva21s')])]"/>
+   </record>
+   <record id="invoice_oc_demo" model="account.invoice">
+      <field name="partner_id" ref="somconnexio.res_partner_1_demo" />
+      <field name="type">out_invoice</field>
+      <field name="payment_mode_id" ref="somconnexio.payment_mode_inbound_sepa"/>
+      <field name="payment_term_id" ref="account.account_payment_term_net"/>
+      <field name="account_id" ref="invoice_somconnexio.account_demo" />
+      <field name="journal_id" ref="somconnexio.consumption_invoices_journal" />
+      <field name="name">SO2024-0002</field>
+      <field name="amount_total">242.00</field>
+      <field name="amount_tax">42.00</field>
+      <field name="amount_untaxed">200.00</field>
+      <field name="date_invoice" eval="datetime.now().date()  - timedelta(days=22)"/>
+      <field name="move_id" ref="invoice_somconnexio.account_move_demo_oc" />
+      <field name="state">paid</field>
+   </record>
+   <record id="invoice_oc_line_demo" model="account.invoice.line">
+      <field name="product_id" ref="somconnexio.TrucadesIllimitades20GB" />
+      <field name="quantity">1.0</field>
+      <field name="price_unit">100.0</field>
+      <field name="invoice_id" ref="invoice_somconnexio.invoice_oc_demo" />
+      <field name="name">Il·limitades 20GB</field>
+      <field name="account_id" ref="invoice_somconnexio.account_demo" />
+      <field name="invoice_line_tax_ids" eval="[(6, 0, [ref('l10n_es.1_account_tax_template_s_iva21s')])]"/>
+   </record>
+</odoo>

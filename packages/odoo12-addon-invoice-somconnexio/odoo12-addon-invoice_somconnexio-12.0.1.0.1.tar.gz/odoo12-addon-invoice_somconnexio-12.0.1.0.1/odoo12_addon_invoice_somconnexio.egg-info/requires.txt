@@ -1,0 +1,5 @@
+b2sdk==2.5.0
+bi_sc_client
+odoo12-addon-somconnexio
+odoo<12.1dev,>=12.0a
+pyopencell==0.4.9
