@@ -1,0 +1,1030 @@
+# OmegaAgents
+
+OmegaAgents is a scalable, production-ready multi-agent framework designed for complex task automation using a ReAct-like approach. It supports parallel agents, ephemeral memory, flexible tool registration, and structured output validation with JSON schemas.
+
+[![PyPI version](https://badge.fury.io/py/omega-agents.svg)](https://badge.fury.io/py/omega-agents)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Usage Examples](#usage-examples)
+  - [Basic Agent](#1-basic-agent-without-tools-and-without-output-schema)
+  - [Using Tools](#2-using-tools-without-output-schema)
+  - [Structured Output](#3-using-output-schema-without-tools)
+  - [Advanced Usage](#4-combining-tools-and-structured-output)
+- [Creating Custom Tools](#creating-custom-tools)
+  - [Tool Components](#tool-components)
+  - [Complete Custom Tool Example](#complete-custom-tool-example)
+- [Output Schema Validation](#output-schema-validation)
+- [Advanced Features](#advanced-features)
+- [Best Practices](#best-practices)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **🎯 Supervisor**: Manages multiple agents and orchestrates their workflows
+- **🧠 Ephemeral Memory**: Isolates agent memory to prevent unintended cross-talk
+- **🛠️ Tools**: Register tools that agents can call at runtime, with flexible parameter handling
+- **📋 JSON Schema Validation**: Enforce structured output using raw JSON schemas
+- **🎭 Custom Goals and Behaviors**: Define agents with specific backgrounds, goals, and system prompts
+- **📝 Logging Modes**: Verbose and debug modes for fine-grained monitoring
+
+## Installation
+
+Install OmegaAgents directly from PyPI:
+
+```bash
+!pip install omega_agents --extra-index-url https://pypi.fury.io/omega/
+
+# Username: 
+# Password: 
+```
+
+## Quick Start
+
+```python
+from omega_agents.supervisor import Supervisor
+
+# Initialize the supervisor
+sup = Supervisor(
+    base_url="https://api.openai.com/v1",
+    api_key="your-api-key",
+    model_name="model",
+    verbose=True
+)
+
+# Create an agent
+agent_id = sup.create_agent(
+    background="I am a general assistant",
+    goal="Answer user questions helpfully."
+)
+
+# Run the agent
+answer = sup.run_agent(agent_id, user_input="What is OmegaAgents?")
+print(answer)
+```
+
+## Usage Examples
+
+### 1. Basic Agent (Without Tools and Without Output Schema)
+
+This example shows a simple agent that produces free-text answers:
+
+```python
+from omega_agents.supervisor import Supervisor
+
+def main():
+    sup = Supervisor(
+        base_url="https://api.openai.com/v1",
+        api_key="your-api-key",
+        model_name="model"
+    )
+
+    agent_id = sup.create_agent(
+        background="I am a general assistant",
+        goal="Answer user questions to the best of my knowledge."
+    )
+
+    answer = sup.run_agent(
+        agent_id, 
+        user_input="What is the capital of Japan?"
+    )
+    print(answer)
+
+if __name__ == "__main__":
+    main()
+```
+
+### 2. Using Tools (Without Output Schema)
+
+Example showing how to use built-in tools:
+
+```python
+from omega_agents.supervisor import Supervisor
+from omega_agents.tools import GoogleSearchTool
+
+def main():
+    SERPER_API_KEY = "*******"
+
+    sup = Supervisor(
+        base_url="https://api.openai.com/v1",
+        api_key="your-api-key"
+    )
+
+    # Register tools
+    search_tool = GoogleSearchTool(api_key=SERPER_API_KEY)
+    sup.register_tool(search_tool)
+
+    agent_id = sup.create_agent(
+        background="I am a healthcare AI agent. My job is to find the correct CPT codes using my internal knowledge.",
+        goal="My job is to find the correct CPT codes using my internal knowledge data.\n\n## Final Response Schema:\n# Final Response: ```json\n{'reasoning': 'reasoning in 1-2 lines', 'cpts': 'CPT codes (comma-separated)'}\n```"
+    )
+
+    answer = sup.run_agent(
+        agent_id,
+        user_input="What is the CPT code for a chest x-ray (1 view)?"
+    )
+    print(answer)
+```
+
+### 3. Using Output Schema (Without Tools)
+
+Example demonstrating structured output validation:
+
+```python
+from omega_agents.supervisor import Supervisor
+
+def main():
+    sup = Supervisor(
+        base_url="https://api.openai.com/v1",
+        api_key="your-api-key"
+    )
+
+    # Define output schema
+    output_schema = output_schema = {
+        "type": "object",
+        "properties": {
+            "reasoning": {
+                "type": "string",
+                "description": "Brief explanation of the CPT code selection"
+            },
+            "cpts": {
+                "type": "string",
+                "description": "CPT codes in comma-separated format"
+            }
+        },
+        "required": ["reasoning", "cpts"]
+    }
+
+    agent_id = sup.create_agent(
+        background="I am a healthcare AI agent. My job is to find the correct CPT codes using my internal knowledge and search engine data.",
+        goal="My job is to find the correct CPT codes using my internal knowledge and search engine data.\n\n"
+        output_schema=output_schema
+    )
+
+    answer = sup.run_agent(
+        agent_id,
+        user_input="What is the CPT code for a chest x-ray (1 view)?",
+        output_schema=output_schema
+    )
+    print(answer)
+```
+
+### 4. Combining Tools and Structured Output
+
+Advanced example using both tools and output validation:
+
+```python
+from omega_agents.supervisor import Supervisor
+from omega_agents.tools import GoogleSearchTool
+
+def main():
+    sup = Supervisor(
+        base_url="https://api.openai.com/v1",
+        api_key="your-api-key"
+    )
+
+    # Register tools
+    search_tool = GoogleSearchTool(api_key=SERPER_API_KEY)
+    sup.register_tool(search_tool)
+
+    # Define output schema
+    output_schema = output_schema = {
+        "type": "object",
+        "properties": {
+            "reasoning": {
+                "type": "string",
+                "description": "Brief explanation of the CPT code selection"
+            },
+            "cpts": {
+                "type": "string",
+                "description": "CPT codes in comma-separated format"
+            }
+        },
+        "required": ["reasoning", "cpts"]
+    }
+
+    agent_id = sup.create_agent(
+        background="I am a healthcare AI agent. My job is to find the correct CPT codes using my internal knowledge and search engine data.",
+        goal="My job is to find the correct CPT codes using my internal knowledge and search engine data.\n\n## Final Response Schema:\n# Final Response: ```json\n{'reasoning': 'reasoning in 1-2 lines', 'cpts': 'CPT codes (comma-separated)'}\n```"
+        output_schema=output_schema
+    )
+
+    answer = sup.run_agent(
+        agent_id,
+        user_input="What should I do in Tokyo today?",
+        output_schema=output_schema
+    )
+    print(answer)
+```
+
+# Default Tools Overview
+
+OmegaAgents supports several built-in tools out of the box. You can register any or all of them with your `Supervisor` to enable your agents to perform different types of searches (web, images, news, etc.) or scraping. Each tool comes with a `ToolSchema` that defines its parameters and usage.
+
+| Tool Name              | Description                                                                                                        |
+|------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **GoogleSearchTool**   | Perform a general Google search for textual results.                                                               |
+| **GoogleImagesTool**   | Perform a Google Image search for image results.                                                                   |
+| **GoogleVideosTool**   | Perform a Google Video search for video links and metadata.                                                        |
+| **GooglePlacesTool**   | Search for place-based results (e.g., addresses, business listings) via Google Places.                             |
+| **GoogleMapsTool**     | Query Google Maps for location or map-based data.                                                                  |
+| **GoogleNewsTool**     | Fetch the latest news articles for a given query via Google News.                                                  |
+| **GoogleShoppingTool** | Look up products and offers through Google Shopping.                                                               |
+| **GoogleLensTool**     | Analyze an image by URL using Google Lens for insights, object detection, and more.                                |
+| **WebpageScrapeTool**  | Scrape the raw HTML/content of a given webpage URL.                                                                |
+| **GoogleJobsTool**     | Find job listings based on a query, location, or other criteria using SerpApi's Google Jobs engine.                |
+| **GoogleShoppingTool** (SerpApi variant) | Search for products via SerpApi’s Google Shopping engine (Note: This is a separate class from the above “GoogleShoppingTool”). |
+| **GoogleTrendsTrendingNowTool** | Retrieve real-time trending searches from Google Trends.                                                  |
+| **GoogleTrendsTool**   | Retrieve data from Google Trends, including related queries and more.                                              |
+| **GoogleLightTool**    | Perform a streamlined (lightweight) Google search with fewer results.                                              |
+| **GoogleFinanceMarketsTool** | Fetch index or market data using SerpApi’s Google Finance engine.                                             |
+| **GoogleReverseImageTool**  | Perform a reverse image search by providing a public image URL.                                               |
+| **GoogleEventsTool**   | Discover events in a particular location or for a specific topic.                                                  |
+| **GoogleFlightsTool**  | Retrieve flight information between specified airports, including dates and currencies.                            |
+| **GoogleHotelsTool**   | Retrieve hotel listings for a destination with check-in/out dates, number of guests, currency, etc.               |
+
+---
+
+# Registering and Using Built-in Tools
+
+Below are short code snippets demonstrating how to **register** and **use** each of these tools in your OmegaAgents environment. 
+
+> **Note**: Each example uses a hypothetical `SUPERVISOR_OBJECT` (an instance of `Supervisor`) and an example `api_key`. Replace these placeholders (`SUPERVISOR_OBJECT`, `SERPER_API_KEY`, `SERPAPI_API_KEY`, etc.) with your actual variable names and API keys.
+
+---
+
+## 1. GoogleSearchTool
+
+Use this tool for a **general text-based Google search**. It returns an array of organic search results.
+
+```python
+from omega_agents.tools import GoogleSearchTool
+
+# Instantiate the tool
+search_tool = GoogleSearchTool(api_key="SERPER_API_KEY")
+
+# Register the tool with your Supervisor
+SUPERVISOR_OBJECT.register_tool(search_tool)
+
+# Example usage in an agent:
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="I am an all-purpose AI agent.",
+    goal="Use GoogleSearchTool to find relevant info about 'coffee beans'."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Find information about the best coffee beans around the world."
+)
+print(answer)
+```
+
+---
+
+## 2. GoogleImagesTool
+
+Use this tool for a **Google Image search**. It returns an array of images matching the query.
+
+```python
+from omega_agents.tools import GoogleImagesTool
+
+images_tool = GoogleImagesTool(api_key="SERPER_API_KEY")
+SUPERVISOR_OBJECT.register_tool(images_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="I search for images",
+    goal="Provide image URLs for a given query using GoogleImagesTool."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Show me pictures of the Eiffel Tower."
+)
+print(answer)
+```
+
+---
+
+## 3. GoogleVideosTool
+
+Use this tool for a **Google Video search**, returning video results (thumbnails, links, etc.).
+
+```python
+from omega_agents.tools import GoogleVideosTool
+
+videos_tool = GoogleVideosTool(api_key="SERPER_API_KEY")
+SUPERVISOR_OBJECT.register_tool(videos_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Video finder agent",
+    goal="Fetch top video results for user queries."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Find popular tutorials on cooking pasta."
+)
+print(answer)
+```
+
+---
+
+## 4. GooglePlacesTool
+
+Use this for **Google Places** queries, typically to find businesses or points of interest near a location.
+
+```python
+from omega_agents.tools import GooglePlacesTool
+
+places_tool = GooglePlacesTool(api_key="SERPER_API_KEY")
+SUPERVISOR_OBJECT.register_tool(places_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Location-based agent",
+    goal="Suggest nearby coffee shops to the user."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Find top-rated coffee shops in Seattle."
+)
+print(answer)
+```
+
+---
+
+## 5. GoogleMapsTool
+
+Use this for **Google Maps** data, such as addresses, geocoding results, or directions.
+
+```python
+from omega_agents.tools import GoogleMapsTool
+
+maps_tool = GoogleMapsTool(api_key="SERPER_API_KEY")
+SUPERVISOR_OBJECT.register_tool(maps_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Travel guide agent",
+    goal="Provide location-based answers using Google Maps results."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="What's the address of the Space Needle?"
+)
+print(answer)
+```
+
+---
+
+## 6. GoogleNewsTool
+
+Use this tool for **Google News** to retrieve the latest articles and headlines on a given topic.
+
+```python
+from omega_agents.tools import GoogleNewsTool
+
+news_tool = GoogleNewsTool(api_key="SERPER_API_KEY")
+SUPERVISOR_OBJECT.register_tool(news_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="News aggregator agent",
+    goal="Give latest headlines using GoogleNewsTool."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Get me the latest technology news headlines."
+)
+print(answer)
+```
+
+---
+
+## 7. GoogleShoppingTool (Serper.dev variant)
+
+Use this to **search for products** (via Serper.dev’s Google Shopping endpoint).
+
+```python
+from omega_agents.tools import GoogleShoppingTool
+
+shopping_tool = GoogleShoppingTool(api_key="SERPER_API_KEY")
+SUPERVISOR_OBJECT.register_tool(shopping_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Shopping assistant",
+    goal="Search for products and provide best deals to the user."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Find me the best price for a 'Nintendo Switch'."
+)
+print(answer)
+```
+
+---
+
+## 8. GoogleLensTool
+
+Use this for **image analysis** with Google Lens (via Serper.dev). Pass a publicly accessible image URL, and it returns insights about objects and scenes.
+
+```python
+from omega_agents.tools import GoogleLensTool
+
+lens_tool = GoogleLensTool(api_key="SERPER_API_KEY")
+SUPERVISOR_OBJECT.register_tool(lens_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Image recognition agent",
+    goal="Analyze images using Google Lens."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Identify objects in this image: https://example.com/sample_image.jpg"
+)
+print(answer)
+```
+
+---
+
+## 9. WebpageScrapeTool
+
+Use this to **scrape raw HTML or text content** from a specified URL.
+
+```python
+from omega_agents.tools import WebpageScrapeTool
+
+scrape_tool = WebpageScrapeTool(api_key="SERPER_API_KEY")
+SUPERVISOR_OBJECT.register_tool(scrape_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Web scraper agent",
+    goal="Retrieve raw HTML/text content from user-specified URLs."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Scrape the content of https://example.com"
+)
+print(answer)
+```
+
+---
+
+## 10. GoogleJobsTool
+
+Use this for **job listings** via SerpApi’s Google Jobs engine.
+
+```python
+from omega_agents.tools import GoogleJobsTool
+
+jobs_tool = GoogleJobsTool(api_key="SERPAPI_API_KEY")
+SUPERVISOR_OBJECT.register_tool(jobs_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Recruitment assistant",
+    goal="Provide job listings for user queries."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Find barista jobs in New York."
+)
+print(answer)
+```
+
+---
+
+## 11. GoogleShoppingTool (SerpApi variant)
+
+This is a **SerpApi**-based **Google Shopping** tool (separate from the one using Serper.dev).
+
+```python
+from omega_agents.tools import GoogleShoppingTool as SerpAPIGoogleShoppingTool
+
+shopping_tool_serpapi = SerpAPIGoogleShoppingTool(api_key="SERPAPI_API_KEY")
+SUPERVISOR_OBJECT.register_tool(shopping_tool_serpapi)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Shopping agent (SerpApi)",
+    goal="Find product listings from Google Shopping using SerpApi."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Search for MacBook M3 deals."
+)
+print(answer)
+```
+
+---
+
+## 12. GoogleTrendsTrendingNowTool
+
+Use this to fetch **real-time trending searches** from Google Trends (via SerpApi).
+
+```python
+from omega_agents.tools import GoogleTrendsTrendingNowTool
+
+trending_now_tool = GoogleTrendsTrendingNowTool(api_key="SERPAPI_API_KEY")
+SUPERVISOR_OBJECT.register_tool(trending_now_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Trends expert",
+    goal="Provide real-time trending topics from Google Trends."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="What are the trending searches in the US right now?"
+)
+print(answer)
+```
+
+---
+
+## 13. GoogleTrendsTool
+
+Use this to retrieve **Google Trends data**, including related queries for a given search term.
+
+```python
+from omega_agents.tools import GoogleTrendsTool
+
+trends_tool = GoogleTrendsTool(api_key="SERPAPI_API_KEY")
+SUPERVISOR_OBJECT.register_tool(trends_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Data and trend analyst",
+    goal="Provide Google Trends data for a given query."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Show me related queries for 'coffee' on Google Trends."
+)
+print(answer)
+```
+
+---
+
+## 14. GoogleLightTool
+
+Use this for a **lightweight Google search** (via SerpApi) with fewer, simpler results.
+
+```python
+from omega_agents.tools import GoogleLightTool
+
+light_tool = GoogleLightTool(api_key="SERPAPI_API_KEY")
+SUPERVISOR_OBJECT.register_tool(light_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Light search agent",
+    goal="Perform quick Google lookups with minimal overhead."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Search 'Coffee' quickly."
+)
+print(answer)
+```
+
+---
+
+## 15. GoogleFinanceMarketsTool
+
+Use this for **finance market data** (indexes, trends) via SerpApi’s Google Finance engine.
+
+```python
+from omega_agents.tools import GoogleFinanceMarketsTool
+
+finance_tool = GoogleFinanceMarketsTool(api_key="SERPAPI_API_KEY")
+SUPERVISOR_OBJECT.register_tool(finance_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Financial analyst",
+    goal="Retrieve market index information for the user."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Show me the current status of the major stock indexes."
+)
+print(answer)
+```
+
+---
+
+## 16. GoogleReverseImageTool
+
+Use this to **reverse image search** via SerpApi’s Google Reverse Image engine.
+
+```python
+from omega_agents.tools import GoogleReverseImageTool
+
+reverse_image_tool = GoogleReverseImageTool(api_key="SERPAPI_API_KEY")
+SUPERVISOR_OBJECT.register_tool(reverse_image_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Reverse image agent",
+    goal="Find matches for an image on the web."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Reverse image search: https://example.com/mystery_pic.jpg"
+)
+print(answer)
+```
+
+---
+
+## 17. GoogleEventsTool
+
+Use this for **event listings** in a given location or around a specific topic.
+
+```python
+from omega_agents.tools import GoogleEventsTool
+
+events_tool = GoogleEventsTool(api_key="SERPAPI_API_KEY")
+SUPERVISOR_OBJECT.register_tool(events_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Events curator",
+    goal="Find interesting events for the user."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input="Find music events in Austin this weekend."
+)
+print(answer)
+```
+
+---
+
+## 18. GoogleFlightsTool
+
+Use this for **flight information** between two airports, including outbound/return dates and currency.
+
+```python
+from omega_agents.tools import GoogleFlightsTool
+
+flights_tool = GoogleFlightsTool(api_key="SERPAPI_API_KEY")
+SUPERVISOR_OBJECT.register_tool(flights_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Travel booking agent",
+    goal="Search flights between given departure and arrival airports."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input=(
+        "Find flights from PEK to AUS, outbound 2025-09-10, return 2025-09-20, currency USD."
+    )
+)
+print(answer)
+```
+
+---
+
+## 19. GoogleHotelsTool
+
+Use this for **hotel listings** in a destination, including check-in/check-out dates, number of adults, and currency.
+
+```python
+from omega_agents.tools import GoogleHotelsTool
+
+hotels_tool = GoogleHotelsTool(api_key="SERPAPI_API_KEY")
+SUPERVISOR_OBJECT.register_tool(hotels_tool)
+
+agent_id = SUPERVISOR_OBJECT.create_agent(
+    background="Hotel booking assistant",
+    goal="Provide hotel options for the user."
+)
+
+answer = SUPERVISOR_OBJECT.run_agent(
+    agent_id,
+    user_input=(
+        "Find hotels in Bali, check-in 2025-05-01, check-out 2025-05-07, for 2 adults, in USD."
+    )
+)
+print(answer)
+```
+
+---
+
+# Tips for Using Tools
+
+1. **API Keys**: Each tool that calls an external service requires an API key. Make sure you have valid keys from Serper.dev or SerpApi and keep them secure.
+2. **Register Tools**: Always call `SUPERVISOR_OBJECT.register_tool(<tool_instance>)` before running the agent, so the agent knows these tools are available.
+3. **Error Handling**: Tools typically return dictionaries. If an error occurs (e.g., invalid parameters, missing API key), the returned dictionary may contain an `"error"` key. Handle these gracefully in your agent’s logic if needed.
+4. **Agent Prompting**: Provide enough context in your agent’s `background` and `goal` so the assistant knows to use a particular tool. The ReAct-based approach will let the agent decide when to call the tool.
+
+## Creating Custom Tools
+
+### Tool Components
+
+Every custom tool requires:
+
+1. A `ToolSchema` defining metadata and parameters
+2. An `execute()` method implementing the functionality
+
+### Basic Template
+
+```python
+from omega_agents.tools import ToolSchema
+from typing import List, Dict, Any
+
+class MyCustomTool:
+    def __init__(self):
+        self.schema = ToolSchema(
+            name="my_tool",
+            description="Tool description",
+            parameters={
+                "param1": {
+                    "type": "string",
+                    "description": "Parameter description"
+                }
+            },
+            required=["param1"],
+            tool=self
+        )
+
+    def execute(
+        self,
+        conversation: List[Dict[str, str]],
+        context: Dict[str, Any],
+        **params
+    ) -> Dict[str, Any]:
+        # Tool logic here
+        return {"result": "value"}
+```
+
+### Complete Custom Tool Example
+
+Here's a complete example that demonstrates creating and using custom tools for a movie recommendation system:
+
+```python
+# custom_tools.py
+from omega_agents.tools import ToolSchema
+from typing import List, Dict, Any
+import requests
+
+class MovieDatabaseTool:
+    def __init__(self, api_key: str):
+        self.api_key = api_key
+        self.schema = ToolSchema(
+            name="movie_search",
+            description="Search for movies and get recommendations",
+            parameters={
+                "query": {
+                    "type": "string",
+                    "description": "Movie title or search term"
+                },
+                "year": {
+                    "type": "integer",
+                    "description": "Release year (optional)"
+                },
+                "genre": {
+                    "type": "string",
+                    "description": "Movie genre (optional)"
+                }
+            },
+            required=["query"],
+            tool=self
+        )
+
+    def execute(
+        self,
+        conversation: List[Dict[str, str]],
+        context: Dict[str, Any],
+        **params
+    ) -> Dict[str, Any]:
+        query = params["query"]
+        year = params.get("year")
+        genre = params.get("genre")
+        
+        # Simulated API call
+        movies = [
+            {"title": f"Movie about {query}", "year": year or 2024, "genre": genre or "Drama"},
+            {"title": f"Another {query} film", "year": year or 2023, "genre": genre or "Action"}
+        ]
+        
+        return {
+            "search_results": movies,
+            "total_results": len(movies)
+        }
+
+class MovieReviewTool:
+    def __init__(self):
+        self.schema = ToolSchema(
+            name="movie_review",
+            description="Get movie reviews and ratings",
+            parameters={
+                "movie_id": {
+                    "type": "string",
+                    "description": "Movie ID to get reviews for"
+                }
+            },
+            required=["movie_id"],
+            tool=self
+        )
+
+    def execute(
+        self,
+        conversation: List[Dict[str, str]],
+        context: Dict[str, Any],
+        **params
+    ) -> Dict[str, Any]:
+        movie_id = params["movie_id"]
+        
+        # Simulated reviews
+        reviews = [
+            {"rating": 4.5, "text": "Great movie!", "author": "Reviewer1"},
+            {"rating": 4.0, "text": "Highly recommended", "author": "Reviewer2"}
+        ]
+        
+        return {
+            "movie_id": movie_id,
+            "average_rating": sum(r["rating"] for r in reviews) / len(reviews),
+            "reviews": reviews
+        }
+
+# main.py
+from omega_agents.supervisor import Supervisor
+from custom_tools import MovieDatabaseTool, MovieReviewTool
+
+def main():
+    # Initialize supervisor
+    sup = Supervisor(
+        base_url="https://api.openai.com/v1",
+        api_key="your-api-key",
+        model_name="model",
+        verbose=True
+    )
+
+    # Create and register custom tools
+    movie_db = MovieDatabaseTool(api_key="movie-db-api-key")
+    movie_review = MovieReviewTool()
+    sup.register_tool(movie_db)
+    sup.register_tool(movie_review)
+
+    # Define output schema for movie recommendations
+    output_schema = {
+        "type": "array",
+        "items": {
+            "properties": {
+                "title": {"type": "string", "description": "Movie title"},
+                "rating": {"type": "number", "description": "Average rating"},
+                "recommendation_reason": {"type": "string", "description": "Why this movie is recommended"}
+            },
+            "required": ["title", "rating", "recommendation_reason"]
+        }
+    }
+
+    # Create movie recommendation agent
+    agent_id = sup.create_agent(
+        background="I am a movie recommendation expert",
+        goal="Recommend movies based on user preferences and provide ratings",
+        output_schema=output_schema,
+        additional_instructions=[
+            "Use both movie search and review tools to make informed recommendations",
+            "Consider both movie metadata and user reviews in recommendations",
+            "Provide specific reasons for each recommendation"
+        ]
+    )
+
+    # Run the agent
+    user_query = "Can you recommend some drama movies about friendship?"
+    answer = sup.run_agent(agent_id, user_input=user_query, output_schema=output_schema)
+    print("\nMovie Recommendations:")
+    print(answer)
+
+if __name__ == "__main__":
+    main()
+```
+
+Expected output:
+```json
+Movie Recommendations:
+[
+  {
+    "title": "Movie about friendship",
+    "rating": 4.25,
+    "recommendation_reason": "Strong drama about friendship with excellent reviews"
+  },
+  {
+    "title": "Another friendship film",
+    "rating": 4.0,
+    "recommendation_reason": "Compelling story and high user ratings"
+  }
+]
+```
+
+## Output Schema Validation
+
+OmegaAgents supports JSON Schema validation for structured outputs:
+
+### Basic Schema Types
+
+```python
+# Object Schema
+schema = {
+    "type": "object",
+    "properties": {
+        "name": {"type": "string"},
+        "age": {"type": "integer"}
+    },
+    "required": ["name"]
+}
+
+# Array Schema
+schema = {
+    "type": "array",
+    "items": {
+        "properties": {
+            "field1": {"type": "string"},
+            "field2": {"type": "number"}
+        }
+    }
+}
+```
+
+### Advanced Schema Features
+
+- Nested objects
+- Array validation
+- Required fields
+- Type validation
+- Custom descriptions
+
+## Advanced Features
+
+### 1. Ephemeral Memory
+- Each agent maintains isolated memory
+- Memory is cleared after session completion
+- Prevents cross-contamination between agents
+
+### 2. Debugging Support
+```python
+sup = Supervisor(
+    base_url="your-url",
+    api_key="your-key",
+    verbose=True,  # Enable normal logging
+    debug=True     # Enable detailed debugging
+)
+```
+
+### 3. Custom Instructions
+```python
+agent_id = sup.create_agent(
+    background="Agent background",
+    goal="Agent goal",
+    additional_instructions=[
+        "Follow specific guideline 1",
+        "Follow specific guideline 2"
+    ]
+)
+```
+
+## Best Practices
+
+### Tool Development
+- Use clear, descriptive names
+- Provide detailed parameter descriptions
+- Handle optional parameters gracefully
+- Implement comprehensive error handling
+- Return well-structured data
+
+### Schema Design
+- Define clear property types
+- Include meaningful descriptions
+- List all required fields
+- Use appropriate validation rules
+
+### Agent Configuration
+- Set focused backgrounds
+- Define clear goals
+- Provide specific instructions
+- Use appropriate logging levels
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
