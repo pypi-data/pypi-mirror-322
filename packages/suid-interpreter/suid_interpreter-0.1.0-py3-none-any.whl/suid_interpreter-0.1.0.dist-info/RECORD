@@ -1,0 +1,16 @@
+suid_interpreter/3D/__init__.py,sha256=VSp5W5GcJliiZYlp6jdWhRSRrzzVIkZ-xJx-sx-6AT0,181
+suid_interpreter/3D/cube.py,sha256=TWKIxdiSKvxDWz29ookZlpLyYSeciLHOL8KE-Vw3g-E,5462
+suid_interpreter/3D/main.py,sha256=DSHRsMkOS4EChzk_5oyFuQbCsh-1s4EEXKGgJBvK2VU,3173
+suid_interpreter/3D/point.py,sha256=uh3CVleuJHgV7FCYhWuOKXGPq4AdKYNejlWHgPptRHc,2037
+suid_interpreter/3D/radioButton.py,sha256=AddPz1OA8vlKrN-PMIkPE4IHlODaVieYDbV8PeBAn14,2156
+suid_interpreter/3D/slider.py,sha256=WH1CVQLCCMO7SI4-0as7r85YFyLRER6x-nNpqVKJ30E,3805
+suid_interpreter/__init__.py,sha256=VSp5W5GcJliiZYlp6jdWhRSRrzzVIkZ-xJx-sx-6AT0,181
+suid_interpreter/cartesian.py,sha256=Gx3IvFRHJqkYKcJRp9KweMFK5-Kj-MfiUPahbKkbkkI,4870
+suid_interpreter/interpreter-OLD.jpg,sha256=B3JaI_nGdi6X6VspF0z6AzhiTH7ezHXclnNFfL7kpYs,198491
+suid_interpreter/interpreter_ar-OLD.jpg,sha256=8p5NGPpaWXqg-Bva6jvAl8wi2s_el6nUlI4MYNH4fJY,297844
+suid_interpreter/plot.py,sha256=P-HWWeMghHOk21--5qkYn3A1z-nM_pjNQSdTR4Xz2oQ,6122
+suid_interpreter/server.py,sha256=YVFxgeoaK59jCR6jU3qjkJqwMyG9Zs0THkyJmq-2LeE,5236
+suid_interpreter/worldmapping.py,sha256=Q8Ysx__KBN7QpL8X-cFneJAZV46cLBNl4njCDMiuBp8,14051
+suid_interpreter-0.1.0.dist-info/METADATA,sha256=HKjraj9aHwmmSgt9aB4ggJMUpGMKaf9wgXf0EV0UA2o,695
+suid_interpreter-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+suid_interpreter-0.1.0.dist-info/RECORD,,

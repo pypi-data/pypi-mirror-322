@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: suid-interpreter
+Version: 0.1.0
+Summary: Translates objects identified in an image into useful information.
+Author: Henrycke Bozza Schenberk
+Author-email: oschenberk@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: matplotlib (>=3.9.4,<4.0.0)
+Requires-Dist: numpy (>=1.26.0,<1.27.0)
+Requires-Dist: opencv-contrib-python (>=4.9.0,<4.10.0)
+Requires-Dist: pygame (>=2.6.1,<3.0.0)
+Requires-Dist: suid-core (>=1.2.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+
