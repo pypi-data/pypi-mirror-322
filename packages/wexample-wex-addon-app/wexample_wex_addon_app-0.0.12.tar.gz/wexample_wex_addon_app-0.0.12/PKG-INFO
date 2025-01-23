@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: wexample-wex-addon-app
+Version: 0.0.12
+Summary: App management with wex
+Author-email: weeger <contact@wexample.com>
+License: MIT
+Project-URL: homepage, https://github.com/wexample/python-wex-addon-app
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: wexample-wex-core
+
+# Wex app default
+
+App management default
