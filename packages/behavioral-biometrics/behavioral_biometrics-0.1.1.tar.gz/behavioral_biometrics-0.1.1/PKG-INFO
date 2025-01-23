@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: behavioral_biometrics
+Version: 0.1.1
+Summary: A Python package that can be used for behavioral anomaly
+Home-page: https://github.com/yourusername/hash_generator
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
