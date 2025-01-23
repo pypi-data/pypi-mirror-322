@@ -1,0 +1,17 @@
+sk8plotlib/__init__.py,sha256=YQvjAbUzXlrq0BGhs9RHQtm6dipXSeIFtgAjIrGma9Q,32
+sk8plotlib/__main__.py,sha256=ocU4TZGblKGC0uoukFtqHrbJ3E6UozZ_4k8QtLkB_QM,122
+sk8plotlib/camera.py,sha256=9c6PBIujYLDsThCT1k8IDiTOD2ep-GtXDt_dBm3pz1w,3111
+sk8plotlib/input.py,sha256=cSW2snf7O3PQhvi_8gqnCCBxBTEpIue08OQ38rWVKbQ,932
+sk8plotlib/matplotlib_hacks.py,sha256=YPdKTMV9RwKi_Uzp4f4k-95rw-ykU4qNXk7oIjigR7Q,661
+sk8plotlib/physics.py,sha256=5ggu7jc-_W6kYRbTKog3KgtnSBoeOl5xwukVwKXBRtc,8130
+sk8plotlib/sk8plotlib.py,sha256=7usZLCEOlJxT-jK3zERqZzfJm4yHcvw3XS0K60g08c4,2306
+sk8plotlib/skater.py,sha256=jAr11GulFnlXUx5uaNd5fVnS_5CAUKcmVVscdka-2I0,1812
+sk8plotlib/variables.py,sha256=LeBi_yWMybLuGTy8n1U7LCxRMJcU5Zxrrgwa0ZeHM44,263
+sk8plotlib/maps/__init__.py,sha256=-UjNy4J3S6rVlRFBHznmAR16M1rqHdbJSejYvPSW5pM,66
+sk8plotlib/maps/sinepark.py,sha256=TpzxrL8GFukk6fzcshrSFGDKT5bVLUId8HuW3QB53jo,1476
+sk8plotlib/maps/thebigsine.py,sha256=4jnRq6wZo0yU5JJyQ1VQPo-M6tZ0Wgk3obqVKh2ykbE,492
+SK8plotlib-0.0.5.dist-info/LICENSE,sha256=tEuElqvsZFzv0Y3NHggxPMSnazTl1_nQ5SwlIPVghmM,1067
+SK8plotlib-0.0.5.dist-info/METADATA,sha256=ixQcfswLeZxPfo7MAv6pC0RGUKKFzBsXjX8panymHJc,3822
+SK8plotlib-0.0.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+SK8plotlib-0.0.5.dist-info/top_level.txt,sha256=24ipQ84sUNCQSmuT0GblKMjRih6TD_SslaPlanLyZq8,11
+SK8plotlib-0.0.5.dist-info/RECORD,,
