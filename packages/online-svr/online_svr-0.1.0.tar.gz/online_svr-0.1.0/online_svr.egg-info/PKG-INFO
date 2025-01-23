@@ -1,0 +1,44 @@
+Metadata-Version: 2.2
+Name: online-svr
+Version: 0.1.0
+Summary: Uma biblioteca para realizar previsões em SVR com aprendizado online
+Home-page: https://github.com/ademirNeto/online-svr
+Author: Ademir Neto
+Author-email: ademir.bsn@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: statsmodels
+Requires-Dist: scipy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# My Library
+
+Uma biblioteca para realizar experimentos com sÃ©ries temporais utilizando **SVR**, **Random Walk**, e **mÃ©tricas de avaliaÃ§Ã£o**. Inclui suporte para prÃ©-processamento de dados, criaÃ§Ã£o de lags, e execuÃ§Ã£o de testes como Diebold-Mariano e mÃ©tricas especÃ­ficas para sÃ©ries temporais.
+
+## Recursos Principais
+
+- **SVR Predict**: PrevisÃµes offline utilizando Suporte a Vetores de RegressÃ£o.
+- **Random Walk Predict**: ImplementaÃ§Ã£o de Random Walk como baseline.
+- **SVR Online**: Aprendizagem incremental com atualizaÃ§Ã£o dinÃ¢mica do modelo.
+- **MÃ©tricas**: CÃ¡lculo de **MSE**, **MAPE**, **U de Theil**, **WPOCID** e testes estatÃ­sticos como **Diebold-Mariano**.
+
+## InstalaÃ§Ã£o
+
+Para instalar a biblioteca, execute:
+
+pip install online-pso
