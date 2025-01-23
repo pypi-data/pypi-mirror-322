@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+deepseek_cli/__init__.py
+deepseek_cli/api.py
+deepseek_cli/cli.py
+deepseek_cli/config.py
+deepseek_cli/formatter.py
+deepseek_cli_pro.egg-info/PKG-INFO
+deepseek_cli_pro.egg-info/SOURCES.txt
+deepseek_cli_pro.egg-info/dependency_links.txt
+deepseek_cli_pro.egg-info/entry_points.txt
+deepseek_cli_pro.egg-info/requires.txt
+deepseek_cli_pro.egg-info/top_level.txt
