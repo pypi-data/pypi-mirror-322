@@ -1,0 +1,1 @@
+mz_logging_azure_tablestorage

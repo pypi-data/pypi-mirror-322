@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/mz_logging_azure_tablestorage/__init__.py
+src/mz_logging_azure_tablestorage/interfaces.py
+src/mz_logging_azure_tablestorage/logger.py
+src/mz_logging_azure_tablestorage/models.py
+src/mz_logging_azure_tablestorage/storage.py
+src/mz_logging_azure_tablestorage.egg-info/PKG-INFO
+src/mz_logging_azure_tablestorage.egg-info/SOURCES.txt
+src/mz_logging_azure_tablestorage.egg-info/dependency_links.txt
+src/mz_logging_azure_tablestorage.egg-info/requires.txt
+src/mz_logging_azure_tablestorage.egg-info/top_level.txt
+tests/test_azure_logger.py
