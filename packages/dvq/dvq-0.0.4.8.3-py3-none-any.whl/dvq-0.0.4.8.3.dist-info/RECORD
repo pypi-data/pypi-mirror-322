@@ -1,0 +1,15 @@
+dvq/__init__.py,sha256=GFDNToHw47vB1ULDHJghI4-NpQJULz0_GAly_jn_vvQ,79
+dvq/statistical/KL_divergence.py,sha256=TyFJKdiIqlqCYzWhlflUpn6eZFOAxWJy3T2600ZSpm8,1339
+dvq/statistical/__init__.py,sha256=RHft0Y75ZigKLt3Y13MKGCfaL74z5xwolDHSgxOY1BA,721
+dvq/statistical/deng_entropy.py,sha256=07ZTXjCdI1WpID0Q5G2CXOtmRdg2V6IgLcTfI3E-tKQ,4547
+dvq/statistical/kmer_representation.py,sha256=4R1EaTJuNo16aI657jbQg2IW8yiD_HZuD3f8BhtPdnw,2968
+dvq/statistical/persistant_homology.py,sha256=o8lIBQKUtsfbHJi80T6MzsKcD7faeR2w9RwQ2FFlsUk,1687
+dvq/statistical/wens_method.py,sha256=r_fqvhYK3n7afBOuOlUCGZ40nek_qWonBPh9VZWg0l4,2565
+dvq/visual/__init__.py,sha256=NwOtEbJs0S2W0aLtMuwCZFvLE36QFcVsm9KHTF2hrLE,227
+dvq/visual/color_square.py,sha256=kl1wPsYAk_funcbMFPsmg5l85mGgvcn4gDo4vx10gls,2468
+dvq/visual/representation_2d.py,sha256=b00xoCzQe5TL3UCdHyZ6kmIAwGqxVXSRZtMDT1AnCqU,8504
+dvq-0.0.4.8.3.dist-info/LICENSE,sha256=8Hc6rVwiqk5OTDsTowgwyrRHXcpDIEBvpJNQFb-m5yM,1090
+dvq-0.0.4.8.3.dist-info/METADATA,sha256=6rCD3y9ItXLkVxsglhJK4PBSJHcL5Tb0QXUDEEUtx6s,2968
+dvq-0.0.4.8.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dvq-0.0.4.8.3.dist-info/top_level.txt,sha256=Pg_S-K2tS-O0TGMiiV-xPY1U3qtg-xG_2FpLjsKz6ZY,4
+dvq-0.0.4.8.3.dist-info/RECORD,,
