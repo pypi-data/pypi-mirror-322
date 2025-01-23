@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sparkplug-foo"
+version = "0.0.1"
+description = "Test package for publishing to pypi"
+authors = ["Sparkplug Marcus <sparkplugmarcus@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sparkplug_foo"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+Django = "~4.2.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
