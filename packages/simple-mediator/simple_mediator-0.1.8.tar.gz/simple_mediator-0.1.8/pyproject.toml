@@ -1,0 +1,119 @@
+[project]
+name = "simple-mediator"
+version = "0.1.8"
+description = "A mediator implementation in Python"
+readme = "README.md"
+authors = [{ name = "Osvaldo Cordova Aburto", email = "oca159@gmail.com" }]
+requires-python = ">=3.8"
+dependencies = ["cantok>=0.0.31", "pydantic>=2.10.5"]
+classifiers = [
+  "Operating System :: OS Independent",
+  'Operating System :: MacOS :: MacOS X',
+  'Operating System :: Microsoft :: Windows',
+  'Operating System :: POSIX',
+  'Operating System :: POSIX :: Linux',
+  'Programming Language :: Python',
+  'Programming Language :: Python :: 3.8',
+  'Programming Language :: Python :: 3.9',
+  'Programming Language :: Python :: 3.10',
+  'Programming Language :: Python :: 3.11',
+  'Programming Language :: Python :: 3.12',
+  'Programming Language :: Python :: 3.13',
+  'License :: OSI Approved :: GNU General Public License (GPL)',
+  'Intended Audience :: Developers',
+  'Topic :: Software Development :: Libraries',
+]
+
+[project.urls]
+Repository = "https://github.com/oca159/simple-mediator"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+  "bandit>=1.7.10",
+  "pre-commit>=3.5.0",
+  "pyright>=1.1.392.post0",
+  "ruff>=0.9.2",
+]
+
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+  ".bzr",
+  ".direnv",
+  ".eggs",
+  ".git",
+  ".git-rewrite",
+  ".hg",
+  ".ipynb_checkpoints",
+  ".mypy_cache",
+  ".nox",
+  ".pants.d",
+  ".pyenv",
+  ".pytest_cache",
+  ".pytype",
+  ".ruff_cache",
+  ".svn",
+  ".tox",
+  ".venv",
+  ".vscode",
+  "__pypackages__",
+  "_build",
+  "buck-out",
+  "build",
+  "dist",
+  "node_modules",
+  "site-packages",
+  "venv",
+]
+
+
+[tool.ruff.lint]
+# Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
+# Unlike Flake8, Ruff doesn't enable pycodestyle warnings (`W`) or
+# McCabe complexity (`C901`) by default.
+select = ["E4", "E7", "E9", "F"]
+ignore = ["E402"]
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+
+[tool.pyright]
+include = ["src"]
+exclude = ["**/node_modules", "**/__pycache__", "**/tests"]
+stubPath = "src/stubs"
+
+reportMissingImports = true
+disableBytesTypePromotions = false
+disableTaggedHints = false
+reportMissingTypeStubs = false
+
+executionEnvironments = [{ root = "." }]
+
+venvPath = "."
+venv = ".venv"
+
+
+[tool.bandit]
+recursive = true
+targets = ["src"]
+exclude_dirs = [".venv", "tests"]
