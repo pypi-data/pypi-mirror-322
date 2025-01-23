@@ -1,0 +1,189 @@
+{
+  "build": "py310h280b8fa_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.22.4,<2.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/quaternion-2022.4.3-py310h280b8fa_1",
+  "files": [
+    "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/LICENSE",
+    "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/METADATA",
+    "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/RECORD",
+    "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/WHEEL",
+    "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/quaternion/__init__.py",
+    "lib/python3.10/site-packages/quaternion/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternion/__pycache__/calculus.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternion/__pycache__/means.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternion/__pycache__/numba_wrapper.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternion/__pycache__/quaternion_time_series.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternion/calculus.py",
+    "lib/python3.10/site-packages/quaternion/means.py",
+    "lib/python3.10/site-packages/quaternion/numba_wrapper.py",
+    "lib/python3.10/site-packages/quaternion/numpy_quaternion.cpython-310-darwin.so",
+    "lib/python3.10/site-packages/quaternion/quaternion_time_series.py"
+  ],
+  "fn": "quaternion-2022.4.3-py310h280b8fa_1.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/quaternion-2022.4.3-py310h280b8fa_1",
+    "type": 1
+  },
+  "md5": "d92d4e4023db712ff76a47f79dc87309",
+  "name": "quaternion",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/quaternion-2022.4.3-py310h280b8fa_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f3d7e14a1abd07d0e5579a2207399a5785dfa97375412237b6cbc224947e8165",
+        "sha256_in_prefix": "f3d7e14a1abd07d0e5579a2207399a5785dfa97375412237b6cbc224947e8165",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e5e865ab8809e6bbae5f91f1d593516d786291f982271eb7732bf6a731fae3fe",
+        "sha256_in_prefix": "e5e865ab8809e6bbae5f91f1d593516d786291f982271eb7732bf6a731fae3fe",
+        "size_in_bytes": 1508
+      },
+      {
+        "_path": "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "50f0bc7fc5a7382b83e61bd603ccff1de9081c1bbac13d89b1ad48b18ed1d00d",
+        "sha256_in_prefix": "50f0bc7fc5a7382b83e61bd603ccff1de9081c1bbac13d89b1ad48b18ed1d00d",
+        "size_in_bytes": 1558
+      },
+      {
+        "_path": "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "45e7832edec9a1636ff2e42cf637287e6881397f8cbe8708803f2424f31fafb3",
+        "sha256_in_prefix": "45e7832edec9a1636ff2e42cf637287e6881397f8cbe8708803f2424f31fafb3",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ed86e6fa723347b736eefc36e4aa6cd62ec557a62b429525a98c03a1dba41383",
+        "sha256_in_prefix": "ed86e6fa723347b736eefc36e4aa6cd62ec557a62b429525a98c03a1dba41383",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/python3.10/site-packages/numpy_quaternion-2022.4.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f953c4e02ee50fedd9cbbb89fa91f958ea64c6b23661c5051a489c558b55634f",
+        "sha256_in_prefix": "f953c4e02ee50fedd9cbbb89fa91f958ea64c6b23661c5051a489c558b55634f",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternion/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c43c24a46b3aee2fd1f5a105e5b5387367acb25e0e3d333d2fb988085841ff5a",
+        "sha256_in_prefix": "c43c24a46b3aee2fd1f5a105e5b5387367acb25e0e3d333d2fb988085841ff5a",
+        "size_in_bytes": 33990
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternion/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c3637a412a09dbb18608ca3e6d92cc27fce115c3b7cfa66dd6c1b1d042413a7",
+        "sha256_in_prefix": "1c3637a412a09dbb18608ca3e6d92cc27fce115c3b7cfa66dd6c1b1d042413a7",
+        "size_in_bytes": 29324
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternion/__pycache__/calculus.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c69400aa8d12e8f8a20a3c928ba9e3737ed96cfa1bafd3705e1388fc62d2fb4",
+        "sha256_in_prefix": "7c69400aa8d12e8f8a20a3c928ba9e3737ed96cfa1bafd3705e1388fc62d2fb4",
+        "size_in_bytes": 13689
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternion/__pycache__/means.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "43b242d0532153facc5ecb27e2d3ecd885babb3947bbc0ba2df9bb8ac69f7f7e",
+        "sha256_in_prefix": "43b242d0532153facc5ecb27e2d3ecd885babb3947bbc0ba2df9bb8ac69f7f7e",
+        "size_in_bytes": 5609
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternion/__pycache__/numba_wrapper.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e9eba6f8daa185258525770ebad0a8056c05a580cbaae3d4dc90f78be32292d",
+        "sha256_in_prefix": "4e9eba6f8daa185258525770ebad0a8056c05a580cbaae3d4dc90f78be32292d",
+        "size_in_bytes": 911
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternion/__pycache__/quaternion_time_series.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b92d07baed34b430b319a9242460cf7e81d40976d3c5e2051c4e957f857e82b",
+        "sha256_in_prefix": "5b92d07baed34b430b319a9242460cf7e81d40976d3c5e2051c4e957f857e82b",
+        "size_in_bytes": 13303
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternion/calculus.py",
+        "path_type": "hardlink",
+        "sha256": "b387b411a0890cc67e83b902e39db4f8168177bfe0606a6e0e7fb8b9adb4f3c0",
+        "sha256_in_prefix": "b387b411a0890cc67e83b902e39db4f8168177bfe0606a6e0e7fb8b9adb4f3c0",
+        "size_in_bytes": 18469
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternion/means.py",
+        "path_type": "hardlink",
+        "sha256": "ef45b5e4928b44612c40e17e30525c3ba83bd2c78b1a0ad7f149557d79c508d3",
+        "sha256_in_prefix": "ef45b5e4928b44612c40e17e30525c3ba83bd2c78b1a0ad7f149557d79c508d3",
+        "size_in_bytes": 6132
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternion/numba_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "590a29dde07244a18fda2f73ac7cac7020b0fa05ca89ad9d41612e4b7a567d11",
+        "sha256_in_prefix": "590a29dde07244a18fda2f73ac7cac7020b0fa05ca89ad9d41612e4b7a567d11",
+        "size_in_bytes": 1194
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternion/numpy_quaternion.cpython-310-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "b4d31b5565e580452e8f1db2f5431dcc7921459b41a070e44f945a1d936fe90e",
+        "sha256_in_prefix": "b4d31b5565e580452e8f1db2f5431dcc7921459b41a070e44f945a1d936fe90e",
+        "size_in_bytes": 111888
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternion/quaternion_time_series.py",
+        "path_type": "hardlink",
+        "sha256": "b6adcc589083fd4767c3e078efaf6b521c3898e72d62bdb8a948dd4a18b8a672",
+        "sha256_in_prefix": "b6adcc589083fd4767c3e078efaf6b521c3898e72d62bdb8a948dd4a18b8a672",
+        "size_in_bytes": 18176
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a2e86570169758b0d101b5e4a51453ffb76ff68bb691fd733a1c9b999f566cbb",
+  "size": 64485,
+  "subdir": "osx-arm64",
+  "timestamp": 1695595867760,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/quaternion-2022.4.3-py310h280b8fa_1.conda",
+  "version": "2022.4.3"
+}

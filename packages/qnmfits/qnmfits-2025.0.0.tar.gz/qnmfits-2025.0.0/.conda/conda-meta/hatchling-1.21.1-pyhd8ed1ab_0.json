@@ -1,0 +1,964 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "editables >=0.3",
+    "importlib-metadata",
+    "packaging >=21.3",
+    "pathspec >=0.10.1",
+    "pluggy >=1.0.0",
+    "python >=3.8",
+    "tomli >=1.2.2",
+    "trove-classifiers"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/hatchling-1.21.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/hatchling-1.21.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/hatchling-1.21.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/hatchling-1.21.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/hatchling-1.21.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/hatchling-1.21.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/hatchling-1.21.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/hatchling-1.21.1.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/hatchling-1.21.1.dist-info/licenses/LICENSE.txt",
+    "lib/python3.10/site-packages/hatchling/__about__.py",
+    "lib/python3.10/site-packages/hatchling/__init__.py",
+    "lib/python3.10/site-packages/hatchling/__main__.py",
+    "lib/python3.10/site-packages/hatchling/bridge/__init__.py",
+    "lib/python3.10/site-packages/hatchling/bridge/app.py",
+    "lib/python3.10/site-packages/hatchling/build.py",
+    "lib/python3.10/site-packages/hatchling/builders/__init__.py",
+    "lib/python3.10/site-packages/hatchling/builders/app.py",
+    "lib/python3.10/site-packages/hatchling/builders/config.py",
+    "lib/python3.10/site-packages/hatchling/builders/constants.py",
+    "lib/python3.10/site-packages/hatchling/builders/custom.py",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/__init__.py",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/custom.py",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/plugin/__init__.py",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/plugin/hooks.py",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/plugin/interface.py",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/version.py",
+    "lib/python3.10/site-packages/hatchling/builders/plugin/__init__.py",
+    "lib/python3.10/site-packages/hatchling/builders/plugin/hooks.py",
+    "lib/python3.10/site-packages/hatchling/builders/plugin/interface.py",
+    "lib/python3.10/site-packages/hatchling/builders/sdist.py",
+    "lib/python3.10/site-packages/hatchling/builders/utils.py",
+    "lib/python3.10/site-packages/hatchling/builders/wheel.py",
+    "lib/python3.10/site-packages/hatchling/cli/__init__.py",
+    "lib/python3.10/site-packages/hatchling/cli/build/__init__.py",
+    "lib/python3.10/site-packages/hatchling/cli/dep/__init__.py",
+    "lib/python3.10/site-packages/hatchling/cli/metadata/__init__.py",
+    "lib/python3.10/site-packages/hatchling/cli/version/__init__.py",
+    "lib/python3.10/site-packages/hatchling/dep/__init__.py",
+    "lib/python3.10/site-packages/hatchling/dep/core.py",
+    "lib/python3.10/site-packages/hatchling/licenses/__init__.py",
+    "lib/python3.10/site-packages/hatchling/licenses/parse.py",
+    "lib/python3.10/site-packages/hatchling/licenses/supported.py",
+    "lib/python3.10/site-packages/hatchling/metadata/__init__.py",
+    "lib/python3.10/site-packages/hatchling/metadata/core.py",
+    "lib/python3.10/site-packages/hatchling/metadata/custom.py",
+    "lib/python3.10/site-packages/hatchling/metadata/plugin/__init__.py",
+    "lib/python3.10/site-packages/hatchling/metadata/plugin/hooks.py",
+    "lib/python3.10/site-packages/hatchling/metadata/plugin/interface.py",
+    "lib/python3.10/site-packages/hatchling/metadata/spec.py",
+    "lib/python3.10/site-packages/hatchling/metadata/utils.py",
+    "lib/python3.10/site-packages/hatchling/ouroboros.py",
+    "lib/python3.10/site-packages/hatchling/plugin/__init__.py",
+    "lib/python3.10/site-packages/hatchling/plugin/exceptions.py",
+    "lib/python3.10/site-packages/hatchling/plugin/manager.py",
+    "lib/python3.10/site-packages/hatchling/plugin/specs.py",
+    "lib/python3.10/site-packages/hatchling/plugin/utils.py",
+    "lib/python3.10/site-packages/hatchling/py.typed",
+    "lib/python3.10/site-packages/hatchling/utils/__init__.py",
+    "lib/python3.10/site-packages/hatchling/utils/constants.py",
+    "lib/python3.10/site-packages/hatchling/utils/context.py",
+    "lib/python3.10/site-packages/hatchling/utils/fs.py",
+    "lib/python3.10/site-packages/hatchling/version/__init__.py",
+    "lib/python3.10/site-packages/hatchling/version/core.py",
+    "lib/python3.10/site-packages/hatchling/version/scheme/__init__.py",
+    "lib/python3.10/site-packages/hatchling/version/scheme/plugin/__init__.py",
+    "lib/python3.10/site-packages/hatchling/version/scheme/plugin/hooks.py",
+    "lib/python3.10/site-packages/hatchling/version/scheme/plugin/interface.py",
+    "lib/python3.10/site-packages/hatchling/version/scheme/standard.py",
+    "lib/python3.10/site-packages/hatchling/version/source/__init__.py",
+    "lib/python3.10/site-packages/hatchling/version/source/code.py",
+    "lib/python3.10/site-packages/hatchling/version/source/env.py",
+    "lib/python3.10/site-packages/hatchling/version/source/plugin/__init__.py",
+    "lib/python3.10/site-packages/hatchling/version/source/plugin/hooks.py",
+    "lib/python3.10/site-packages/hatchling/version/source/plugin/interface.py",
+    "lib/python3.10/site-packages/hatchling/version/source/regex.py",
+    "lib/python3.10/site-packages/hatchling/__pycache__/__about__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/bridge/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/bridge/__pycache__/app.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/__pycache__/build.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/__pycache__/app.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/__pycache__/config.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/__pycache__/constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/__pycache__/custom.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/__pycache__/custom.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/plugin/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/plugin/__pycache__/hooks.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/plugin/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/hooks/__pycache__/version.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/plugin/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/plugin/__pycache__/hooks.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/plugin/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/__pycache__/sdist.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/builders/__pycache__/wheel.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/cli/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/cli/build/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/cli/dep/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/cli/metadata/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/cli/version/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/dep/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/dep/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/licenses/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/licenses/__pycache__/parse.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/licenses/__pycache__/supported.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/metadata/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/metadata/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/metadata/__pycache__/custom.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/metadata/plugin/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/metadata/plugin/__pycache__/hooks.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/metadata/plugin/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/metadata/__pycache__/spec.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/metadata/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/__pycache__/ouroboros.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/plugin/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/plugin/__pycache__/exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/plugin/__pycache__/manager.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/plugin/__pycache__/specs.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/plugin/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/utils/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/utils/__pycache__/constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/utils/__pycache__/context.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/utils/__pycache__/fs.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/scheme/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/scheme/plugin/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/scheme/plugin/__pycache__/hooks.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/scheme/plugin/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/scheme/__pycache__/standard.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/source/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/source/__pycache__/code.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/source/__pycache__/env.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/source/plugin/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/source/plugin/__pycache__/hooks.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/source/plugin/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatchling/version/source/__pycache__/regex.cpython-310.pyc",
+    "bin/hatchling"
+  ],
+  "fn": "hatchling-1.21.1-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/hatchling-1.21.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "06f93e43be153b8de3955bdf636cb0ef",
+  "name": "hatchling",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/hatchling-1.21.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/hatchling-1.21.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/hatchling-1.21.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "58920f5f693d7fc4a502e78524c9ce7bb28dda890b084890daf28e63cb510388",
+        "sha256_in_prefix": "58920f5f693d7fc4a502e78524c9ce7bb28dda890b084890daf28e63cb510388",
+        "size_in_bytes": 3842
+      },
+      {
+        "_path": "site-packages/hatchling-1.21.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e74ff0a4841af7f3a09a6a11d40b1d72b3fd6f7176dde9aa2f776e23e9abe99d",
+        "sha256_in_prefix": "e74ff0a4841af7f3a09a6a11d40b1d72b3fd6f7176dde9aa2f776e23e9abe99d",
+        "size_in_bytes": 10450
+      },
+      {
+        "_path": "site-packages/hatchling-1.21.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling-1.21.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+        "sha256_in_prefix": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/hatchling-1.21.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0dc26b35036bcf33db22a176ff8fdafd6b3e993f7309d5eb79123cc65fd53214",
+        "sha256_in_prefix": "0dc26b35036bcf33db22a176ff8fdafd6b3e993f7309d5eb79123cc65fd53214",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/hatchling-1.21.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "79439ff35915d411dedc6fda7d60a63fdf1bbf2640f9e1f8b313fdc54f37e588",
+        "sha256_in_prefix": "79439ff35915d411dedc6fda7d60a63fdf1bbf2640f9e1f8b313fdc54f37e588",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "site-packages/hatchling-1.21.1.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "7f143a8127ad4873862d70854b5bd2abd0085aa73e64fd2b08704a3b9f5c07fc",
+        "sha256_in_prefix": "7f143a8127ad4873862d70854b5bd2abd0085aa73e64fd2b08704a3b9f5c07fc",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "site-packages/hatchling/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "0dd6c34a1e1c2ce96a5d53fc99d587abf1e88ae5a72cdf6e72dcc47b610a22f6",
+        "sha256_in_prefix": "0dd6c34a1e1c2ce96a5d53fc99d587abf1e88ae5a72cdf6e72dcc47b610a22f6",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "site-packages/hatchling/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "f0e81135f31907f5ec0fc5c6f2a2f9d5b0a13325ead8fb3fb9d08d723a0dc3ec",
+        "sha256_in_prefix": "f0e81135f31907f5ec0fc5c6f2a2f9d5b0a13325ead8fb3fb9d08d723a0dc3ec",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/hatchling/bridge/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/bridge/app.py",
+        "path_type": "hardlink",
+        "sha256": "c0a92910b3bb1df4410bab46a9cfc6f53e30b26a309f885816a968036f46a60a",
+        "sha256_in_prefix": "c0a92910b3bb1df4410bab46a9cfc6f53e30b26a309f885816a968036f46a60a",
+        "size_in_bytes": 3777
+      },
+      {
+        "_path": "site-packages/hatchling/build.py",
+        "path_type": "hardlink",
+        "sha256": "07126750aad98aa8e64eb5cd986b9743db3cd8bdd50179ecf28628794323fd0a",
+        "sha256_in_prefix": "07126750aad98aa8e64eb5cd986b9743db3cd8bdd50179ecf28628794323fd0a",
+        "size_in_bytes": 5460
+      },
+      {
+        "_path": "site-packages/hatchling/builders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/builders/app.py",
+        "path_type": "hardlink",
+        "sha256": "47348731d09f9fc84cb7c7770a4cf2f12fc4e8f0dec94ae3143b8f793d6c671f",
+        "sha256_in_prefix": "47348731d09f9fc84cb7c7770a4cf2f12fc4e8f0dec94ae3143b8f793d6c671f",
+        "size_in_bytes": 7550
+      },
+      {
+        "_path": "site-packages/hatchling/builders/config.py",
+        "path_type": "hardlink",
+        "sha256": "067fed63604da57948a75bc10b6d54e9f7af998b131bbb80284e50fe74e5292a",
+        "sha256_in_prefix": "067fed63604da57948a75bc10b6d54e9f7af998b131bbb80284e50fe74e5292a",
+        "size_in_bytes": 39778
+      },
+      {
+        "_path": "site-packages/hatchling/builders/constants.py",
+        "path_type": "hardlink",
+        "sha256": "28c6eb40e652b7ab640a6cf718552cc23963eaf9d666b6f4792cecd5711c8893",
+        "sha256_in_prefix": "28c6eb40e652b7ab640a6cf718552cc23963eaf9d666b6f4792cecd5711c8893",
+        "size_in_bytes": 652
+      },
+      {
+        "_path": "site-packages/hatchling/builders/custom.py",
+        "path_type": "hardlink",
+        "sha256": "03ef1bfec36faec0835f2527e41208ff62f3f8c51f880d8e51a142ecb555a94f",
+        "sha256_in_prefix": "03ef1bfec36faec0835f2527e41208ff62f3f8c51f880d8e51a142ecb555a94f",
+        "size_in_bytes": 2106
+      },
+      {
+        "_path": "site-packages/hatchling/builders/hooks/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/builders/hooks/custom.py",
+        "path_type": "hardlink",
+        "sha256": "6657b7d4125ab1899f0b580a6b258e994bcc8f71802a7ec8f341b6fa8830067e",
+        "sha256_in_prefix": "6657b7d4125ab1899f0b580a6b258e994bcc8f71802a7ec8f341b6fa8830067e",
+        "size_in_bytes": 1372
+      },
+      {
+        "_path": "site-packages/hatchling/builders/hooks/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/builders/hooks/plugin/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "eb5b7bfe63b334f1e0fdb54dfac803c69013b42ea583c7ae89f2f6e89909af4e",
+        "sha256_in_prefix": "eb5b7bfe63b334f1e0fdb54dfac803c69013b42ea583c7ae89f2f6e89909af4e",
+        "size_in_bytes": 456
+      },
+      {
+        "_path": "site-packages/hatchling/builders/hooks/plugin/interface.py",
+        "path_type": "hardlink",
+        "sha256": "9e241b5f90a4994d24e897467639b8f37a0b3605f4d1a901ab03e9891db09531",
+        "sha256_in_prefix": "9e241b5f90a4994d24e897467639b8f37a0b3605f4d1a901ab03e9891db09531",
+        "size_in_bytes": 3709
+      },
+      {
+        "_path": "site-packages/hatchling/builders/hooks/version.py",
+        "path_type": "hardlink",
+        "sha256": "2fe32fddea34ced26172c2731f9c9fba5cb3673e814e064a4a0c7d827f7c9769",
+        "sha256_in_prefix": "2fe32fddea34ced26172c2731f9c9fba5cb3673e814e064a4a0c7d827f7c9769",
+        "size_in_bytes": 2416
+      },
+      {
+        "_path": "site-packages/hatchling/builders/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/builders/plugin/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "9bb9e9bb6419278a465dd8fa36f85d33e374436657f4f3109e848c8fff68b540",
+        "sha256_in_prefix": "9bb9e9bb6419278a465dd8fa36f85d33e374436657f4f3109e848c8fff68b540",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "site-packages/hatchling/builders/plugin/interface.py",
+        "path_type": "hardlink",
+        "sha256": "a263227830665357cb8209e84e508ed1e2e1ede37ce3245d556c405e8a5ca486",
+        "sha256_in_prefix": "a263227830665357cb8209e84e508ed1e2e1ede37ce3245d556c405e8a5ca486",
+        "size_in_bytes": 15927
+      },
+      {
+        "_path": "site-packages/hatchling/builders/sdist.py",
+        "path_type": "hardlink",
+        "sha256": "8a03a2402211c1f61cdbafb715a4c43ff13c5e6f2aa9b8b9a25f2a8cd10e3e46",
+        "sha256_in_prefix": "8a03a2402211c1f61cdbafb715a4c43ff13c5e6f2aa9b8b9a25f2a8cd10e3e46",
+        "size_in_bytes": 13359
+      },
+      {
+        "_path": "site-packages/hatchling/builders/utils.py",
+        "path_type": "hardlink",
+        "sha256": "c51440811d49ca9c2dae59e3eb0a156ccf7da16d043906d25decfbcfbec49d82",
+        "sha256_in_prefix": "c51440811d49ca9c2dae59e3eb0a156ccf7da16d043906d25decfbcfbec49d82",
+        "size_in_bytes": 3456
+      },
+      {
+        "_path": "site-packages/hatchling/builders/wheel.py",
+        "path_type": "hardlink",
+        "sha256": "32917de414691220627501fc507f5eee741fede1f27356015ca0b9d762fc04c3",
+        "sha256_in_prefix": "32917de414691220627501fc507f5eee741fede1f27356015ca0b9d762fc04c3",
+        "size_in_bytes": 29497
+      },
+      {
+        "_path": "site-packages/hatchling/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2e5cc246414f53ce1b18a5f356b82586140744f96a20bd204238bf1a340f31cc",
+        "sha256_in_prefix": "2e5cc246414f53ce1b18a5f356b82586140744f96a20bd204238bf1a340f31cc",
+        "size_in_bytes": 730
+      },
+      {
+        "_path": "site-packages/hatchling/cli/build/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "45c244df519b2010b0f10a43b41d9d02c3a076a82ed71971f58480849e324131",
+        "sha256_in_prefix": "45c244df519b2010b0f10a43b41d9d02c3a076a82ed71971f58480849e324131",
+        "size_in_bytes": 3799
+      },
+      {
+        "_path": "site-packages/hatchling/cli/dep/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f67fc3054058417a34ad66de62aa021b9995ff1b6c2065b9cc3c61ba9024e6db",
+        "sha256_in_prefix": "f67fc3054058417a34ad66de62aa021b9995ff1b6c2065b9cc3c61ba9024e6db",
+        "size_in_bytes": 1165
+      },
+      {
+        "_path": "site-packages/hatchling/cli/metadata/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "51225ddbf6975e99a800a7f0f94222f83567eaaed51601eb9478b93ae79d9585",
+        "sha256_in_prefix": "51225ddbf6975e99a800a7f0f94222f83567eaaed51601eb9478b93ae79d9585",
+        "size_in_bytes": 1695
+      },
+      {
+        "_path": "site-packages/hatchling/cli/version/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d1480215256fda2f86f788274ecf9c6032bad683e59ed866f187f4aa653240ba",
+        "sha256_in_prefix": "d1480215256fda2f86f788274ecf9c6032bad683e59ed866f187f4aa653240ba",
+        "size_in_bytes": 1597
+      },
+      {
+        "_path": "site-packages/hatchling/dep/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/dep/core.py",
+        "path_type": "hardlink",
+        "sha256": "68f1b12ce07c8806624280e1484a36d00b4b337c2621a7c06b6d7ec78d467250",
+        "sha256_in_prefix": "68f1b12ce07c8806624280e1484a36d00b4b337c2621a7c06b6d7ec78d467250",
+        "size_in_bytes": 5233
+      },
+      {
+        "_path": "site-packages/hatchling/licenses/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/licenses/parse.py",
+        "path_type": "hardlink",
+        "sha256": "bdfbcce6d1d5ae99dd76617c5cda7a6e71b8ef6daeb13061dd14cbb089b60721",
+        "sha256_in_prefix": "bdfbcce6d1d5ae99dd76617c5cda7a6e71b8ef6daeb13061dd14cbb089b60721",
+        "size_in_bytes": 3494
+      },
+      {
+        "_path": "site-packages/hatchling/licenses/supported.py",
+        "path_type": "hardlink",
+        "sha256": "3d425ecbb419dbd6c1b9cf885ecb7efefe849788038121d52a6a95332b54b8a5",
+        "sha256_in_prefix": "3d425ecbb419dbd6c1b9cf885ecb7efefe849788038121d52a6a95332b54b8a5",
+        "size_in_bytes": 35020
+      },
+      {
+        "_path": "site-packages/hatchling/metadata/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/metadata/core.py",
+        "path_type": "hardlink",
+        "sha256": "760a7b38a05b403944d0151a0d1ff3e58d9f97c2f30209d012a84f0579d6284b",
+        "sha256_in_prefix": "760a7b38a05b403944d0151a0d1ff3e58d9f97c2f30209d012a84f0579d6284b",
+        "size_in_bytes": 60049
+      },
+      {
+        "_path": "site-packages/hatchling/metadata/custom.py",
+        "path_type": "hardlink",
+        "sha256": "0b5763eafcd61fbf9e4a35b4f7c5b32b2348f182323f40ce2fb0fd3459d966ca",
+        "sha256_in_prefix": "0b5763eafcd61fbf9e4a35b4f7c5b32b2348f182323f40ce2fb0fd3459d966ca",
+        "size_in_bytes": 1403
+      },
+      {
+        "_path": "site-packages/hatchling/metadata/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/metadata/plugin/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "a75f023b98518a6230c569907c29e5f71d3ace81f772f724e209aae243bd2cf3",
+        "sha256_in_prefix": "a75f023b98518a6230c569907c29e5f71d3ace81f772f724e209aae243bd2cf3",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "site-packages/hatchling/metadata/plugin/interface.py",
+        "path_type": "hardlink",
+        "sha256": "23dc17b50573468624227a1ddad1b7f9693f1a46e76a4f645d76a69205d37305",
+        "sha256_in_prefix": "23dc17b50573468624227a1ddad1b7f9693f1a46e76a4f645d76a69205d37305",
+        "size_in_bytes": 1500
+      },
+      {
+        "_path": "site-packages/hatchling/metadata/spec.py",
+        "path_type": "hardlink",
+        "sha256": "9127d20a2501eb92ecdf3b1c71e73aa4d9f9ed4dccadef77ff53e8be87ae99d2",
+        "sha256_in_prefix": "9127d20a2501eb92ecdf3b1c71e73aa4d9f9ed4dccadef77ff53e8be87ae99d2",
+        "size_in_bytes": 12352
+      },
+      {
+        "_path": "site-packages/hatchling/metadata/utils.py",
+        "path_type": "hardlink",
+        "sha256": "a9367912ca49aefd1b847d6242a2442565477027b0530fa4397d51a4a109b461",
+        "sha256_in_prefix": "a9367912ca49aefd1b847d6242a2442565477027b0530fa4397d51a4a109b461",
+        "size_in_bytes": 2359
+      },
+      {
+        "_path": "site-packages/hatchling/ouroboros.py",
+        "path_type": "hardlink",
+        "sha256": "295bd2e948fae1cddb34d5c5a2ea64d5457d2f83fa0ea7d274081b836a69e63a",
+        "sha256_in_prefix": "295bd2e948fae1cddb34d5c5a2ea64d5457d2f83fa0ea7d274081b836a69e63a",
+        "size_in_bytes": 1413
+      },
+      {
+        "_path": "site-packages/hatchling/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2c9c3a4087c555f72e033557bbd2759429a093e600f77e5838ca49c3c6582674",
+        "sha256_in_prefix": "2c9c3a4087c555f72e033557bbd2759429a093e600f77e5838ca49c3c6582674",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "site-packages/hatchling/plugin/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "bb9ad18317074c3fe49850d18c2f63942aea6150caf5e03ce6bbbf98eddfb8c0",
+        "sha256_in_prefix": "bb9ad18317074c3fe49850d18c2f63942aea6150caf5e03ce6bbbf98eddfb8c0",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "site-packages/hatchling/plugin/manager.py",
+        "path_type": "hardlink",
+        "sha256": "925a30aa0cfa45d16407d14351731fc65b4a11827ae2ba371803c3c169d50068",
+        "sha256_in_prefix": "925a30aa0cfa45d16407d14351731fc65b4a11827ae2ba371803c3c169d50068",
+        "size_in_bytes": 3666
+      },
+      {
+        "_path": "site-packages/hatchling/plugin/specs.py",
+        "path_type": "hardlink",
+        "sha256": "741dd2f56609b65082d14a632a7497b589435ff338bef917b6a73938c9e3f1dd",
+        "sha256_in_prefix": "741dd2f56609b65082d14a632a7497b589435ff338bef917b6a73938c9e3f1dd",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "site-packages/hatchling/plugin/utils.py",
+        "path_type": "hardlink",
+        "sha256": "aa77f4a7b4659599df6346c52b05fa884d679c72af6b9d9864557b7c8fa51c75",
+        "sha256_in_prefix": "aa77f4a7b4659599df6346c52b05fa884d679c72af6b9d9864557b7c8fa51c75",
+        "size_in_bytes": 1616
+      },
+      {
+        "_path": "site-packages/hatchling/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/utils/constants.py",
+        "path_type": "hardlink",
+        "sha256": "c14309316d53df980e7174f333e6e6c9d088c12eac9e0c353039e092723aa759",
+        "sha256_in_prefix": "c14309316d53df980e7174f333e6e6c9d088c12eac9e0c353039e092723aa759",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "site-packages/hatchling/utils/context.py",
+        "path_type": "hardlink",
+        "sha256": "4b9651cfe2d086f767076fed93c0d574336be4219bdb021e88dd91fd3e553175",
+        "sha256_in_prefix": "4b9651cfe2d086f767076fed93c0d574336be4219bdb021e88dd91fd3e553175",
+        "size_in_bytes": 6049
+      },
+      {
+        "_path": "site-packages/hatchling/utils/fs.py",
+        "path_type": "hardlink",
+        "sha256": "95128d57dd3a851179c74207695d47a85c5aa07f9aaeca01838d94ec347b2501",
+        "sha256_in_prefix": "95128d57dd3a851179c74207695d47a85c5aa07f9aaeca01838d94ec347b2501",
+        "size_in_bytes": 575
+      },
+      {
+        "_path": "site-packages/hatchling/version/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/version/core.py",
+        "path_type": "hardlink",
+        "sha256": "881c1aaecc3e37cade9a187194b0d2b0c34bdd05e602625afccbbf44b3b79ad6",
+        "sha256_in_prefix": "881c1aaecc3e37cade9a187194b0d2b0c34bdd05e602625afccbbf44b3b79ad6",
+        "size_in_bytes": 2147
+      },
+      {
+        "_path": "site-packages/hatchling/version/scheme/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/version/scheme/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/version/scheme/plugin/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "831c499eb73ec468e8d0da4b8b1ad0c63acb23b6d61d544506a79d5a63ebc8e6",
+        "sha256_in_prefix": "831c499eb73ec468e8d0da4b8b1ad0c63acb23b6d61d544506a79d5a63ebc8e6",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "site-packages/hatchling/version/scheme/plugin/interface.py",
+        "path_type": "hardlink",
+        "sha256": "c0dcfef3cb70bfdb3c494cec9b5e353ea464e737329fdbeec4d2b4366366d357",
+        "sha256_in_prefix": "c0dcfef3cb70bfdb3c494cec9b5e353ea464e737329fdbeec4d2b4366366d357",
+        "size_in_bytes": 1356
+      },
+      {
+        "_path": "site-packages/hatchling/version/scheme/standard.py",
+        "path_type": "hardlink",
+        "sha256": "f3c6a06440df34be344cf25c99840f49e42078c233d59bdeb4e9ea2e85443c28",
+        "sha256_in_prefix": "f3c6a06440df34be344cf25c99840f49e42078c233d59bdeb4e9ea2e85443c28",
+        "size_in_bytes": 3891
+      },
+      {
+        "_path": "site-packages/hatchling/version/source/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/version/source/code.py",
+        "path_type": "hardlink",
+        "sha256": "bcc81667ed32635e9ef818f9eeff9d862fc5de5e149eb647688daf2382be59a9",
+        "sha256_in_prefix": "bcc81667ed32635e9ef818f9eeff9d862fc5de5e149eb647688daf2382be59a9",
+        "size_in_bytes": 2359
+      },
+      {
+        "_path": "site-packages/hatchling/version/source/env.py",
+        "path_type": "hardlink",
+        "sha256": "9066ac07a5228278512ad424273e68a6ec3689c49748958941e8e1a25132160c",
+        "sha256_in_prefix": "9066ac07a5228278512ad424273e68a6ec3689c49748958941e8e1a25132160c",
+        "size_in_bytes": 936
+      },
+      {
+        "_path": "site-packages/hatchling/version/source/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatchling/version/source/plugin/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "761cf8737a95e8accb71aefd97845c2acb5ad42f395a1ef2ded2e4b912a7e570",
+        "sha256_in_prefix": "761cf8737a95e8accb71aefd97845c2acb5ad42f395a1ef2ded2e4b912a7e570",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "site-packages/hatchling/version/source/plugin/interface.py",
+        "path_type": "hardlink",
+        "sha256": "1aba5b6252794aea03a5c3ed9e1bdd333686e9b879c5e23a0c2099f09cd7e6f1",
+        "sha256_in_prefix": "1aba5b6252794aea03a5c3ed9e1bdd333686e9b879c5e23a0c2099f09cd7e6f1",
+        "size_in_bytes": 1852
+      },
+      {
+        "_path": "site-packages/hatchling/version/source/regex.py",
+        "path_type": "hardlink",
+        "sha256": "864b6b7c286250f9024cdfda2058e53f2e6a4f3fbbc571d2d0031a3f203735fd",
+        "sha256_in_prefix": "864b6b7c286250f9024cdfda2058e53f2e6a4f3fbbc571d2d0031a3f203735fd",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/__pycache__/__about__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/bridge/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/bridge/__pycache__/app.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/__pycache__/build.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/__pycache__/app.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/__pycache__/config.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/__pycache__/constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/__pycache__/custom.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/hooks/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/hooks/__pycache__/custom.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/hooks/plugin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/hooks/plugin/__pycache__/hooks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/hooks/plugin/__pycache__/interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/hooks/__pycache__/version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/plugin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/plugin/__pycache__/hooks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/plugin/__pycache__/interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/__pycache__/sdist.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/builders/__pycache__/wheel.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/cli/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/cli/build/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/cli/dep/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/cli/metadata/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/cli/version/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/dep/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/dep/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/licenses/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/licenses/__pycache__/parse.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/licenses/__pycache__/supported.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/metadata/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/metadata/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/metadata/__pycache__/custom.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/metadata/plugin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/metadata/plugin/__pycache__/hooks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/metadata/plugin/__pycache__/interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/metadata/__pycache__/spec.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/metadata/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/__pycache__/ouroboros.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/plugin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/plugin/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/plugin/__pycache__/manager.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/plugin/__pycache__/specs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/plugin/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/utils/__pycache__/constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/utils/__pycache__/context.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/utils/__pycache__/fs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/scheme/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/scheme/plugin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/scheme/plugin/__pycache__/hooks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/scheme/plugin/__pycache__/interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/scheme/__pycache__/standard.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/source/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/source/__pycache__/code.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/source/__pycache__/env.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/source/plugin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/source/plugin/__pycache__/hooks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/source/plugin/__pycache__/interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatchling/version/source/__pycache__/regex.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/hatchling",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ca648490ba47939ff43b880935a4968ea2b18d2c25281129185bb6b4aa7f1c9b",
+  "size": 58374,
+  "subdir": "noarch",
+  "timestamp": 1706161223000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/hatchling-1.21.1-pyhd8ed1ab_0.conda",
+  "version": "1.21.1"
+}

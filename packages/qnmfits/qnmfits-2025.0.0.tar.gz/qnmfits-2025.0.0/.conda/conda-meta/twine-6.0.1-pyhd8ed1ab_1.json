@@ -1,0 +1,325 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "importlib-metadata >=3.6",
+    "keyring >=15.1",
+    "packaging",
+    "pkginfo >=1.8.1",
+    "python >=3.9",
+    "readme_renderer >=35.0",
+    "requests >=2.20",
+    "requests-toolbelt >=0.8.0,!=0.9.0",
+    "rfc3986 >=1.4.0",
+    "rich >=12.0.0",
+    "urllib3 >=1.26.0"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/twine-6.0.1-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.10/site-packages/twine-6.0.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/twine-6.0.1.dist-info/LICENSE",
+    "lib/python3.10/site-packages/twine-6.0.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/twine-6.0.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/twine-6.0.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/twine-6.0.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/twine-6.0.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/twine-6.0.1.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/twine-6.0.1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/twine/__init__.py",
+    "lib/python3.10/site-packages/twine/__main__.py",
+    "lib/python3.10/site-packages/twine/auth.py",
+    "lib/python3.10/site-packages/twine/cli.py",
+    "lib/python3.10/site-packages/twine/commands/__init__.py",
+    "lib/python3.10/site-packages/twine/commands/check.py",
+    "lib/python3.10/site-packages/twine/commands/register.py",
+    "lib/python3.10/site-packages/twine/commands/upload.py",
+    "lib/python3.10/site-packages/twine/exceptions.py",
+    "lib/python3.10/site-packages/twine/package.py",
+    "lib/python3.10/site-packages/twine/py.typed",
+    "lib/python3.10/site-packages/twine/repository.py",
+    "lib/python3.10/site-packages/twine/settings.py",
+    "lib/python3.10/site-packages/twine/utils.py",
+    "lib/python3.10/site-packages/twine/wheel.py",
+    "lib/python3.10/site-packages/twine/wininst.py",
+    "lib/python3.10/site-packages/twine/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/__pycache__/auth.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/__pycache__/cli.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/commands/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/commands/__pycache__/check.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/commands/__pycache__/register.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/commands/__pycache__/upload.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/__pycache__/exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/__pycache__/package.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/__pycache__/repository.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/__pycache__/settings.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/__pycache__/wheel.cpython-310.pyc",
+    "lib/python3.10/site-packages/twine/__pycache__/wininst.cpython-310.pyc",
+    "bin/twine"
+  ],
+  "fn": "twine-6.0.1-pyhd8ed1ab_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/twine-6.0.1-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "914c226033f944188d45ead62a1ff355",
+  "name": "twine",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/twine-6.0.1-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/twine-6.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/twine-6.0.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "14ed54990120efea26042269885df36e1b53db858bf04b40c8cfc8c5e12f6fb1",
+        "sha256_in_prefix": "14ed54990120efea26042269885df36e1b53db858bf04b40c8cfc8c5e12f6fb1",
+        "size_in_bytes": 9695
+      },
+      {
+        "_path": "site-packages/twine-6.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1ce88df21b6e3cac5a083a463c27f9b2ccfffb4401181cadfe84bedc87f0d1c1",
+        "sha256_in_prefix": "1ce88df21b6e3cac5a083a463c27f9b2ccfffb4401181cadfe84bedc87f0d1c1",
+        "size_in_bytes": 3674
+      },
+      {
+        "_path": "site-packages/twine-6.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a18bffb01aa2b6c37a5f4ad7a598e41e33bd8a36753fdece31a6e1d7ee192cd0",
+        "sha256_in_prefix": "a18bffb01aa2b6c37a5f4ad7a598e41e33bd8a36753fdece31a6e1d7ee192cd0",
+        "size_in_bytes": 2725
+      },
+      {
+        "_path": "site-packages/twine-6.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/twine-6.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/twine-6.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "be14ca0afc13566d8729fd21e7de2d30740aa037ffab04633214666e87f624eb",
+        "sha256_in_prefix": "be14ca0afc13566d8729fd21e7de2d30740aa037ffab04633214666e87f624eb",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/twine-6.0.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "8190f32849f4e5367b8a54ce788bef99972e1640b35c41bf8f959b59b7d87511",
+        "sha256_in_prefix": "8190f32849f4e5367b8a54ce788bef99972e1640b35c41bf8f959b59b7d87511",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "site-packages/twine-6.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4d0240d9aa3af4f923f0a93739b950c1fea4d7a76efa0df9c51e5679947f368c",
+        "sha256_in_prefix": "4d0240d9aa3af4f923f0a93739b950c1fea4d7a76efa0df9c51e5679947f368c",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/twine/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a659c9fcdfb27de67f1c3e5da0a4a1aedcc3d7f0aa10146955ded9fcea9543b0",
+        "sha256_in_prefix": "a659c9fcdfb27de67f1c3e5da0a4a1aedcc3d7f0aa10146955ded9fcea9543b0",
+        "size_in_bytes": 1557
+      },
+      {
+        "_path": "site-packages/twine/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "afa0951edbc2fe02e42c12bce5585047a5e98a9cd38878f17536a7b1b13ce4aa",
+        "sha256_in_prefix": "afa0951edbc2fe02e42c12bce5585047a5e98a9cd38878f17536a7b1b13ce4aa",
+        "size_in_bytes": 1579
+      },
+      {
+        "_path": "site-packages/twine/auth.py",
+        "path_type": "hardlink",
+        "sha256": "ce6055d95c6d5fc2ad0e22fdbeff9532a4d8248b7ab0abbcdd74c7091bbb894f",
+        "sha256_in_prefix": "ce6055d95c6d5fc2ad0e22fdbeff9532a4d8248b7ab0abbcdd74c7091bbb894f",
+        "size_in_bytes": 4136
+      },
+      {
+        "_path": "site-packages/twine/cli.py",
+        "path_type": "hardlink",
+        "sha256": "0b0bee6e18d60635ee996d79311766eee7d7c55ff9cfeb86ba260e1c8e7d4abe",
+        "sha256_in_prefix": "0b0bee6e18d60635ee996d79311766eee7d7c55ff9cfeb86ba260e1c8e7d4abe",
+        "size_in_bytes": 3812
+      },
+      {
+        "_path": "site-packages/twine/commands/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1afd8221d09885f26bb1d360933759171dcef3b3b33b7f9e23fff15a91d0f386",
+        "sha256_in_prefix": "1afd8221d09885f26bb1d360933759171dcef3b3b33b7f9e23fff15a91d0f386",
+        "size_in_bytes": 3017
+      },
+      {
+        "_path": "site-packages/twine/commands/check.py",
+        "path_type": "hardlink",
+        "sha256": "8ecd32427d95eb2ca9bed0c0d3e10950c965afa164b9f5d94654a61ab9d5e987",
+        "sha256_in_prefix": "8ecd32427d95eb2ca9bed0c0d3e10950c965afa164b9f5d94654a61ab9d5e987",
+        "size_in_bytes": 6047
+      },
+      {
+        "_path": "site-packages/twine/commands/register.py",
+        "path_type": "hardlink",
+        "sha256": "7d02a56ef5104d8d155937929a27687e459bfff045f6ff3432fb9fa86100c540",
+        "sha256_in_prefix": "7d02a56ef5104d8d155937929a27687e459bfff045f6ff3432fb9fa86100c540",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "site-packages/twine/commands/upload.py",
+        "path_type": "hardlink",
+        "sha256": "06300f532be3c42a20ea61426d580f17269bffdb3b20d2b73f31b3c465156bcf",
+        "sha256_in_prefix": "06300f532be3c42a20ea61426d580f17269bffdb3b20d2b73f31b3c465156bcf",
+        "size_in_bytes": 10080
+      },
+      {
+        "_path": "site-packages/twine/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "a79e5dd84b3307d910f2532c9441738a0a440605034c5a431d2fb6c6384692d7",
+        "sha256_in_prefix": "a79e5dd84b3307d910f2532c9441738a0a440605034c5a431d2fb6c6384692d7",
+        "size_in_bytes": 3815
+      },
+      {
+        "_path": "site-packages/twine/package.py",
+        "path_type": "hardlink",
+        "sha256": "68d760804c3af4f082f99f1ab07e9c10dbfc98e6f4d73e62848d70f1d95fc265",
+        "sha256_in_prefix": "68d760804c3af4f082f99f1ab07e9c10dbfc98e6f4d73e62848d70f1d95fc265",
+        "size_in_bytes": 13042
+      },
+      {
+        "_path": "site-packages/twine/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/twine/repository.py",
+        "path_type": "hardlink",
+        "sha256": "bb60c3ab6afe8df885a17dfc1b391bcb6ddd65e62b51ba2ee27cecc1dd302d57",
+        "sha256_in_prefix": "bb60c3ab6afe8df885a17dfc1b391bcb6ddd65e62b51ba2ee27cecc1dd302d57",
+        "size_in_bytes": 8766
+      },
+      {
+        "_path": "site-packages/twine/settings.py",
+        "path_type": "hardlink",
+        "sha256": "63b94ffd55d1077d8d53130c30c0ff22bb0d9edefae1142047a3c6023d6a3c16",
+        "sha256_in_prefix": "63b94ffd55d1077d8d53130c30c0ff22bb0d9edefae1142047a3c6023d6a3c16",
+        "size_in_bytes": 12347
+      },
+      {
+        "_path": "site-packages/twine/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0b0833cd511b9daecb685d421f49a8f29310f139d63559df0c2304495007010a",
+        "sha256_in_prefix": "0b0833cd511b9daecb685d421f49a8f29310f139d63559df0c2304495007010a",
+        "size_in_bytes": 11921
+      },
+      {
+        "_path": "site-packages/twine/wheel.py",
+        "path_type": "hardlink",
+        "sha256": "2620bc46c0126031e05ff68bff9c3af1381c81bfbac9ac1d5226168f15f4b77a",
+        "sha256_in_prefix": "2620bc46c0126031e05ff68bff9c3af1381c81bfbac9ac1d5226168f15f4b77a",
+        "size_in_bytes": 3462
+      },
+      {
+        "_path": "site-packages/twine/wininst.py",
+        "path_type": "hardlink",
+        "sha256": "028ee944e1c71d0183d2b60a3d95ec4f9854f1277c0b7c1599d04d9677bd74b6",
+        "sha256_in_prefix": "028ee944e1c71d0183d2b60a3d95ec4f9854f1277c0b7c1599d04d9677bd74b6",
+        "size_in_bytes": 1751
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/__pycache__/auth.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/__pycache__/cli.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/commands/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/commands/__pycache__/check.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/commands/__pycache__/register.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/commands/__pycache__/upload.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/__pycache__/package.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/__pycache__/repository.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/__pycache__/settings.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/__pycache__/wheel.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/twine/__pycache__/wininst.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/twine",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "147fbb407bcac2120e0dbe80621f9526f906ec1980aa4e334bb56ae285948864",
+  "size": 34322,
+  "subdir": "noarch",
+  "timestamp": 1734147761000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/twine-6.0.1-pyhd8ed1ab_1.conda",
+  "version": "6.0.1"
+}

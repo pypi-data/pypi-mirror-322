@@ -1,0 +1,207 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numba",
+    "numpy",
+    "python >=3.8",
+    "scipy"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/quaternionic-1.0.6-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/quaternionic-1.0.6.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/quaternionic-1.0.6.dist-info/LICENSE",
+    "lib/python3.10/site-packages/quaternionic-1.0.6.dist-info/METADATA",
+    "lib/python3.10/site-packages/quaternionic-1.0.6.dist-info/RECORD",
+    "lib/python3.10/site-packages/quaternionic-1.0.6.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/quaternionic-1.0.6.dist-info/WHEEL",
+    "lib/python3.10/site-packages/quaternionic-1.0.6.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/quaternionic-1.0.6.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/quaternionic/__init__.py",
+    "lib/python3.10/site-packages/quaternionic/algebra.py",
+    "lib/python3.10/site-packages/quaternionic/arrays.py",
+    "lib/python3.10/site-packages/quaternionic/converters.py",
+    "lib/python3.10/site-packages/quaternionic/distance.py",
+    "lib/python3.10/site-packages/quaternionic/interpolation.py",
+    "lib/python3.10/site-packages/quaternionic/properties.py",
+    "lib/python3.10/site-packages/quaternionic/utilities.py",
+    "lib/python3.10/site-packages/quaternionic/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternionic/__pycache__/algebra.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternionic/__pycache__/arrays.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternionic/__pycache__/converters.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternionic/__pycache__/distance.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternionic/__pycache__/interpolation.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternionic/__pycache__/properties.cpython-310.pyc",
+    "lib/python3.10/site-packages/quaternionic/__pycache__/utilities.cpython-310.pyc"
+  ],
+  "fn": "quaternionic-1.0.6-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/quaternionic-1.0.6-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "ab709a01d845eee370d3680ded48ae76",
+  "name": "quaternionic",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/quaternionic-1.0.6-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/quaternionic-1.0.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/quaternionic-1.0.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a6d54e7799bb2c3339645d31df67316fc73635de4d0e6021cba0d7ef1b7fed50",
+        "sha256_in_prefix": "a6d54e7799bb2c3339645d31df67316fc73635de4d0e6021cba0d7ef1b7fed50",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "site-packages/quaternionic-1.0.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "bacd202f7320208ea52501e310df349cd64d87b6f5702c68b44b0778e1baab03",
+        "sha256_in_prefix": "bacd202f7320208ea52501e310df349cd64d87b6f5702c68b44b0778e1baab03",
+        "size_in_bytes": 16398
+      },
+      {
+        "_path": "site-packages/quaternionic-1.0.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "827dba89413ebf31b8b01fc04365be55df3de18ce843148f5543cf8e04b385e4",
+        "sha256_in_prefix": "827dba89413ebf31b8b01fc04365be55df3de18ce843148f5543cf8e04b385e4",
+        "size_in_bytes": 1801
+      },
+      {
+        "_path": "site-packages/quaternionic-1.0.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/quaternionic-1.0.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/quaternionic-1.0.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3815ffad2caffb08f9e34e9308c178259ebfc7e0d67860214c80f52e78e32bc1",
+        "sha256_in_prefix": "3815ffad2caffb08f9e34e9308c178259ebfc7e0d67860214c80f52e78e32bc1",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/quaternionic-1.0.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0553a6c5174e08821ca42d1a6213e11c1e47679d3dbc87b81a16ef56a023be5a",
+        "sha256_in_prefix": "0553a6c5174e08821ca42d1a6213e11c1e47679d3dbc87b81a16ef56a023be5a",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/quaternionic/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5eef6b1b074dc2c51ec35e3f500b0edd57401d054282c0bee0b81056c9e9857c",
+        "sha256_in_prefix": "5eef6b1b074dc2c51ec35e3f500b0edd57401d054282c0bee0b81056c9e9857c",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "site-packages/quaternionic/algebra.py",
+        "path_type": "hardlink",
+        "sha256": "a24886d685c1ad32f8b764c49eee657689bf203b32970018c95b916cc3787bd6",
+        "sha256_in_prefix": "a24886d685c1ad32f8b764c49eee657689bf203b32970018c95b916cc3787bd6",
+        "size_in_bytes": 14642
+      },
+      {
+        "_path": "site-packages/quaternionic/arrays.py",
+        "path_type": "hardlink",
+        "sha256": "79f1be5c66c37ee6283f7e0c31b0ed798ad812bbfc0136826cfc424e9fd22351",
+        "sha256_in_prefix": "79f1be5c66c37ee6283f7e0c31b0ed798ad812bbfc0136826cfc424e9fd22351",
+        "size_in_bytes": 12552
+      },
+      {
+        "_path": "site-packages/quaternionic/converters.py",
+        "path_type": "hardlink",
+        "sha256": "aa19688d7bd9957f99694f7ba1690c467d0ad9bf942f503d97d94341ca461ac4",
+        "sha256_in_prefix": "aa19688d7bd9957f99694f7ba1690c467d0ad9bf942f503d97d94341ca461ac4",
+        "size_in_bytes": 37456
+      },
+      {
+        "_path": "site-packages/quaternionic/distance.py",
+        "path_type": "hardlink",
+        "sha256": "7f8f2dfc8828e58d5a793b51cc2d4b2121cf55f1716989d5b34a74b55de87d36",
+        "sha256_in_prefix": "7f8f2dfc8828e58d5a793b51cc2d4b2121cf55f1716989d5b34a74b55de87d36",
+        "size_in_bytes": 5594
+      },
+      {
+        "_path": "site-packages/quaternionic/interpolation.py",
+        "path_type": "hardlink",
+        "sha256": "d3ccc1165e0e194643eec41e8809acd523404fbee4915437583bca03639a13c9",
+        "sha256_in_prefix": "d3ccc1165e0e194643eec41e8809acd523404fbee4915437583bca03639a13c9",
+        "size_in_bytes": 11157
+      },
+      {
+        "_path": "site-packages/quaternionic/properties.py",
+        "path_type": "hardlink",
+        "sha256": "f48d5a1a2ceda09075a9d0f16c8b62aae07b8d5bd5301a01f436178382e9f2f4",
+        "sha256_in_prefix": "f48d5a1a2ceda09075a9d0f16c8b62aae07b8d5bd5301a01f436178382e9f2f4",
+        "size_in_bytes": 9203
+      },
+      {
+        "_path": "site-packages/quaternionic/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "411f8544f18e8f4fd961482fbc0ecca78c77c7d2d248eed100c52392709d359d",
+        "sha256_in_prefix": "411f8544f18e8f4fd961482fbc0ecca78c77c7d2d248eed100c52392709d359d",
+        "size_in_bytes": 8010
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternionic/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternionic/__pycache__/algebra.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternionic/__pycache__/arrays.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternionic/__pycache__/converters.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternionic/__pycache__/distance.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternionic/__pycache__/interpolation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternionic/__pycache__/properties.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/quaternionic/__pycache__/utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e78cb0144cca0078889084bddab2acc9f920123d4fdcc83d589e435fcf308230",
+  "size": 34468,
+  "subdir": "noarch",
+  "timestamp": 1675808735340,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/quaternionic-1.0.6-pyhd8ed1ab_0.conda",
+  "version": "1.0.6"
+}

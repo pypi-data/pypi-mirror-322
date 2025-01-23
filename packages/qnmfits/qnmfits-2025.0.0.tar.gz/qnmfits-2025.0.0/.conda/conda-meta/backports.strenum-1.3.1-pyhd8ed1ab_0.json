@@ -1,0 +1,133 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.8.6,<3.11"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/backports.strenum-1.3.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/backports/strenum/__init__.py",
+    "lib/python3.10/site-packages/backports/strenum/py.typed",
+    "lib/python3.10/site-packages/backports/strenum/strenum.py",
+    "lib/python3.10/site-packages/backports/strenum/strenum.pyi",
+    "lib/python3.10/site-packages/backports_strenum-1.3.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/backports_strenum-1.3.1.dist-info/LICENSE",
+    "lib/python3.10/site-packages/backports_strenum-1.3.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/backports_strenum-1.3.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/backports_strenum-1.3.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/backports_strenum-1.3.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/backports_strenum-1.3.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/backports/strenum/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/backports/strenum/__pycache__/strenum.cpython-310.pyc"
+  ],
+  "fn": "backports.strenum-1.3.1-pyhd8ed1ab_0.conda",
+  "license": "EPL-2.0",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/backports.strenum-1.3.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "9ac55d17254a661997955ef4707ebe2f",
+  "name": "backports.strenum",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/backports.strenum-1.3.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/backports/strenum/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c067dbe97093b22b75f543ef2e06cbc5b305de9628dd1b99e1075057a34f7423",
+        "sha256_in_prefix": "c067dbe97093b22b75f543ef2e06cbc5b305de9628dd1b99e1075057a34f7423",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "site-packages/backports/strenum/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/backports/strenum/strenum.py",
+        "path_type": "hardlink",
+        "sha256": "1eacd8f34e96ea24b0b922f63291e1409eaa95a3fbb0b2ffc4f7c4a7e20acdc7",
+        "sha256_in_prefix": "1eacd8f34e96ea24b0b922f63291e1409eaa95a3fbb0b2ffc4f7c4a7e20acdc7",
+        "size_in_bytes": 1425
+      },
+      {
+        "_path": "site-packages/backports/strenum/strenum.pyi",
+        "path_type": "hardlink",
+        "sha256": "ac76f676d5153f506751b6d70f180fecf9fa57b6fc84d58d5b696028c26f4a96",
+        "sha256_in_prefix": "ac76f676d5153f506751b6d70f180fecf9fa57b6fc84d58d5b696028c26f4a96",
+        "size_in_bytes": 327
+      },
+      {
+        "_path": "site-packages/backports_strenum-1.3.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/backports_strenum-1.3.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1dceef1677a39befa8bf0285ab2db441ba117520bb2de839547ace006a17750d",
+        "sha256_in_prefix": "1dceef1677a39befa8bf0285ab2db441ba117520bb2de839547ace006a17750d",
+        "size_in_bytes": 13919
+      },
+      {
+        "_path": "site-packages/backports_strenum-1.3.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "00c9808e6b16b66f0800c99a7764ec880cc3e4213aefcc969549aa638dc2ceb1",
+        "sha256_in_prefix": "00c9808e6b16b66f0800c99a7764ec880cc3e4213aefcc969549aa638dc2ceb1",
+        "size_in_bytes": 3716
+      },
+      {
+        "_path": "site-packages/backports_strenum-1.3.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "84d89cc917abe2383450ebb8d740cc582956e6618504cad50657cb7bf8c15a3a",
+        "sha256_in_prefix": "84d89cc917abe2383450ebb8d740cc582956e6618504cad50657cb7bf8c15a3a",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "site-packages/backports_strenum-1.3.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/backports_strenum-1.3.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "sha256_in_prefix": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/backports_strenum-1.3.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e4a72166d0a6db77aa202a219a780d44f1aa15e6dd6086fde4c4f069e4d22e93",
+        "sha256_in_prefix": "e4a72166d0a6db77aa202a219a780d44f1aa15e6dd6086fde4c4f069e4d22e93",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/python3.10/site-packages/backports/strenum/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/backports/strenum/__pycache__/strenum.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "84cd0841f68d7439a46f29e8eb576139d56de9ee823784a76fc5951e86d276a1",
+  "size": 13814,
+  "subdir": "noarch",
+  "timestamp": 1707394022000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/backports.strenum-1.3.1-pyhd8ed1ab_0.conda",
+  "version": "1.3.1"
+}

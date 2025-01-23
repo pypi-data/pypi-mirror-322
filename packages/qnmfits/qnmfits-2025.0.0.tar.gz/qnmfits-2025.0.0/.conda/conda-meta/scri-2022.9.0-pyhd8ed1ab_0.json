@@ -1,0 +1,511 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "h5py >=3",
+    "numba >=0.55",
+    "numpy >=1.20",
+    "python >=3.8",
+    "quaternion >=2022.4",
+    "scipy >=1.0",
+    "spherical_functions >=2022.4",
+    "spinsfast >=2022.4",
+    "sxs >=2022.4.0",
+    "tqdm >=4.63.1"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/scri-2022.9.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/scri-2022.9.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/scri-2022.9.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/scri-2022.9.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/scri-2022.9.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/scri-2022.9.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/scri-2022.9.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/scri-2022.9.0.dist-info/licenses/LICENSE",
+    "lib/python3.10/site-packages/scri/LVC/__init__.py",
+    "lib/python3.10/site-packages/scri/LVC/file_io.py",
+    "lib/python3.10/site-packages/scri/SpEC/__init__.py",
+    "lib/python3.10/site-packages/scri/SpEC/com_motion.py",
+    "lib/python3.10/site-packages/scri/SpEC/file_io/__init__.py",
+    "lib/python3.10/site-packages/scri/SpEC/file_io/corotating_paired_xor.py",
+    "lib/python3.10/site-packages/scri/SpEC/file_io/rotating_paired_xor_multishuffle_bzip2.py",
+    "lib/python3.10/site-packages/scri/SpEC/find_com_in_catalog.py",
+    "lib/python3.10/site-packages/scri/SpEC/remove_avg_com_from_catalog.py",
+    "lib/python3.10/site-packages/scri/SpEC/samples/metadata.txt",
+    "lib/python3.10/site-packages/scri/__init__.py",
+    "lib/python3.10/site-packages/scri/__version__.py",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__init__.py",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/bms_charges.py",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/constraints.py",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/from_initial_values.py",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/map_to_abd_frame.py",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/map_to_superrest_frame.py",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/transformations.py",
+    "lib/python3.10/site-packages/scri/bms_transformations.py",
+    "lib/python3.10/site-packages/scri/extrapolation.py",
+    "lib/python3.10/site-packages/scri/flux.py",
+    "lib/python3.10/site-packages/scri/mode_calculations.py",
+    "lib/python3.10/site-packages/scri/modes_time_series.py",
+    "lib/python3.10/site-packages/scri/plotting.py",
+    "lib/python3.10/site-packages/scri/pn/__init__.py",
+    "lib/python3.10/site-packages/scri/rotations.py",
+    "lib/python3.10/site-packages/scri/sample_waveforms.py",
+    "lib/python3.10/site-packages/scri/utilities.py",
+    "lib/python3.10/site-packages/scri/waveform_base.py",
+    "lib/python3.10/site-packages/scri/waveform_grid.py",
+    "lib/python3.10/site-packages/scri/waveform_modes.py",
+    "lib/python3.10/site-packages/scri/LVC/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/LVC/__pycache__/file_io.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/SpEC/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/SpEC/__pycache__/com_motion.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/SpEC/file_io/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/SpEC/file_io/__pycache__/corotating_paired_xor.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/SpEC/file_io/__pycache__/rotating_paired_xor_multishuffle_bzip2.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/SpEC/__pycache__/find_com_in_catalog.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/SpEC/__pycache__/remove_avg_com_from_catalog.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/__version__.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/bms_charges.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/constraints.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/from_initial_values.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/map_to_abd_frame.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/map_to_superrest_frame.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/transformations.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/bms_transformations.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/extrapolation.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/flux.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/mode_calculations.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/modes_time_series.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/plotting.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/pn/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/rotations.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/sample_waveforms.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/waveform_base.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/waveform_grid.cpython-310.pyc",
+    "lib/python3.10/site-packages/scri/__pycache__/waveform_modes.cpython-310.pyc"
+  ],
+  "fn": "scri-2022.9.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/scri-2022.9.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b84b2225a6e9e7036401851db3e7475c",
+  "name": "scri",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/scri-2022.9.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/scri-2022.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/scri-2022.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4b76750db6ebccbc3a4b919dc9aaa0591a1975367fcac3bd5057b15a7e3dbd93",
+        "sha256_in_prefix": "4b76750db6ebccbc3a4b919dc9aaa0591a1975367fcac3bd5057b15a7e3dbd93",
+        "size_in_bytes": 5879
+      },
+      {
+        "_path": "site-packages/scri-2022.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1408ba49c453adacadb2085c97f9a98684a3945677ab1c361013b13cb5fa3d62",
+        "sha256_in_prefix": "1408ba49c453adacadb2085c97f9a98684a3945677ab1c361013b13cb5fa3d62",
+        "size_in_bytes": 5172
+      },
+      {
+        "_path": "site-packages/scri-2022.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/scri-2022.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
+        "sha256_in_prefix": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/scri-2022.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "176461dd48db2c4a5dc97f835b2de4a28c159ed6c2cb14538bee183bd436c1d0",
+        "sha256_in_prefix": "176461dd48db2c4a5dc97f835b2de4a28c159ed6c2cb14538bee183bd436c1d0",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/scri-2022.9.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "bafe22c210dacf2231d4fc8319e87450afdb31ef0e5db4be24e1c18b63ded821",
+        "sha256_in_prefix": "bafe22c210dacf2231d4fc8319e87450afdb31ef0e5db4be24e1c18b63ded821",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "site-packages/scri/LVC/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "714995fef2815864a01a10398d3d56b86bf1efd4789e79ceb85fe85145c9164d",
+        "sha256_in_prefix": "714995fef2815864a01a10398d3d56b86bf1efd4789e79ceb85fe85145c9164d",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "site-packages/scri/LVC/file_io.py",
+        "path_type": "hardlink",
+        "sha256": "d3f6a60430f6211661edca00fd3155529eeae6eda514bca1628cb19f275a8933",
+        "sha256_in_prefix": "d3f6a60430f6211661edca00fd3155529eeae6eda514bca1628cb19f275a8933",
+        "size_in_bytes": 2099
+      },
+      {
+        "_path": "site-packages/scri/SpEC/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "eacde069712b52a9f1e91a792bc4054c546e07745dfed8a493ccd85bc1dc8096",
+        "sha256_in_prefix": "eacde069712b52a9f1e91a792bc4054c546e07745dfed8a493ccd85bc1dc8096",
+        "size_in_bytes": 359
+      },
+      {
+        "_path": "site-packages/scri/SpEC/com_motion.py",
+        "path_type": "hardlink",
+        "sha256": "810feb5e4328eadb903890cf1870a2c561bcf668decdfc9a919325d4b1dd6709",
+        "sha256_in_prefix": "810feb5e4328eadb903890cf1870a2c561bcf668decdfc9a919325d4b1dd6709",
+        "size_in_bytes": 24782
+      },
+      {
+        "_path": "site-packages/scri/SpEC/file_io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1c2303e9c42287c6d112a3642784add0b6b058937c20ecd98321bd71dd46e4ce",
+        "sha256_in_prefix": "1c2303e9c42287c6d112a3642784add0b6b058937c20ecd98321bd71dd46e4ce",
+        "size_in_bytes": 26136
+      },
+      {
+        "_path": "site-packages/scri/SpEC/file_io/corotating_paired_xor.py",
+        "path_type": "hardlink",
+        "sha256": "9a968df816e221dacb7185ceb8c1d958fa3b2c2d3f736c9693b7956f23e3a4c1",
+        "sha256_in_prefix": "9a968df816e221dacb7185ceb8c1d958fa3b2c2d3f736c9693b7956f23e3a4c1",
+        "size_in_bytes": 10023
+      },
+      {
+        "_path": "site-packages/scri/SpEC/file_io/rotating_paired_xor_multishuffle_bzip2.py",
+        "path_type": "hardlink",
+        "sha256": "9e2c51ba6f88446c32bfdce0e81de196e9238ec8796c72cadf59a46f2e58d9d8",
+        "sha256_in_prefix": "9e2c51ba6f88446c32bfdce0e81de196e9238ec8796c72cadf59a46f2e58d9d8",
+        "size_in_bytes": 2261
+      },
+      {
+        "_path": "site-packages/scri/SpEC/find_com_in_catalog.py",
+        "path_type": "hardlink",
+        "sha256": "78be8b1fcf1b6d5db03f53f220892c73569be1893e51624b6401a8084f12d1aa",
+        "sha256_in_prefix": "78be8b1fcf1b6d5db03f53f220892c73569be1893e51624b6401a8084f12d1aa",
+        "size_in_bytes": 1471
+      },
+      {
+        "_path": "site-packages/scri/SpEC/remove_avg_com_from_catalog.py",
+        "path_type": "hardlink",
+        "sha256": "cbe37969f507608fa74c426c55c848130534cd7709ba69b6fd5c4e1388a80d09",
+        "sha256_in_prefix": "cbe37969f507608fa74c426c55c848130534cd7709ba69b6fd5c4e1388a80d09",
+        "size_in_bytes": 1848
+      },
+      {
+        "_path": "site-packages/scri/SpEC/samples/metadata.txt",
+        "path_type": "hardlink",
+        "sha256": "4dfa9cc2e354a46ae536214ec141f78050a62a88c8058632524c66a988a91b12",
+        "sha256_in_prefix": "4dfa9cc2e354a46ae536214ec141f78050a62a88c8058632524c66a988a91b12",
+        "size_in_bytes": 4866
+      },
+      {
+        "_path": "site-packages/scri/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "df0d9e328afb191fc85c2a1e7f1dea700d01d1f101e6640d9ee76a17e39d59c1",
+        "sha256_in_prefix": "df0d9e328afb191fc85c2a1e7f1dea700d01d1f101e6640d9ee76a17e39d59c1",
+        "size_in_bytes": 7308
+      },
+      {
+        "_path": "site-packages/scri/__version__.py",
+        "path_type": "hardlink",
+        "sha256": "3930ecc9ee96cea3929ae08cde05c9378947359fc04703a9cc02e883793335a3",
+        "sha256_in_prefix": "3930ecc9ee96cea3929ae08cde05c9378947359fc04703a9cc02e883793335a3",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "site-packages/scri/asymptotic_bondi_data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3a646691bce24e6b74ebe4db7c42a157854b3255c00d571ef764fdfc963803d1",
+        "sha256_in_prefix": "3a646691bce24e6b74ebe4db7c42a157854b3255c00d571ef764fdfc963803d1",
+        "size_in_bytes": 7859
+      },
+      {
+        "_path": "site-packages/scri/asymptotic_bondi_data/bms_charges.py",
+        "path_type": "hardlink",
+        "sha256": "9fcd52870e4bb72772622dbd05618312ded165b9f84ff827d0d1859e4cf53a7d",
+        "sha256_in_prefix": "9fcd52870e4bb72772622dbd05618312ded165b9f84ff827d0d1859e4cf53a7d",
+        "size_in_bytes": 10717
+      },
+      {
+        "_path": "site-packages/scri/asymptotic_bondi_data/constraints.py",
+        "path_type": "hardlink",
+        "sha256": "a6fd4f1eba4859bfd3a1986ace3541b34ab7eadc8c5391dfe8351d1d5aeaabd2",
+        "sha256_in_prefix": "a6fd4f1eba4859bfd3a1986ace3541b34ab7eadc8c5391dfe8351d1d5aeaabd2",
+        "size_in_bytes": 8379
+      },
+      {
+        "_path": "site-packages/scri/asymptotic_bondi_data/from_initial_values.py",
+        "path_type": "hardlink",
+        "sha256": "a8198f6d14c73205358096be7a9b018db86fbcd5c23a7a278ca22b2f98ddd36d",
+        "sha256_in_prefix": "a8198f6d14c73205358096be7a9b018db86fbcd5c23a7a278ca22b2f98ddd36d",
+        "size_in_bytes": 7998
+      },
+      {
+        "_path": "site-packages/scri/asymptotic_bondi_data/map_to_abd_frame.py",
+        "path_type": "hardlink",
+        "sha256": "96580c08d373a73537f1a305341df27a7a8f5d8514ad484c639c91586643f073",
+        "sha256_in_prefix": "96580c08d373a73537f1a305341df27a7a8f5d8514ad484c639c91586643f073",
+        "size_in_bytes": 11903
+      },
+      {
+        "_path": "site-packages/scri/asymptotic_bondi_data/map_to_superrest_frame.py",
+        "path_type": "hardlink",
+        "sha256": "65f8ee939c06832f0dea3da61b0cbf285036736ffbddc59285d769608c597be7",
+        "sha256_in_prefix": "65f8ee939c06832f0dea3da61b0cbf285036736ffbddc59285d769608c597be7",
+        "size_in_bytes": 36962
+      },
+      {
+        "_path": "site-packages/scri/asymptotic_bondi_data/transformations.py",
+        "path_type": "hardlink",
+        "sha256": "a2a6dd873fa9e390e436c7debc241181ce7cbca94bae112fb060e105bafa1f33",
+        "sha256_in_prefix": "a2a6dd873fa9e390e436c7debc241181ce7cbca94bae112fb060e105bafa1f33",
+        "size_in_bytes": 22018
+      },
+      {
+        "_path": "site-packages/scri/bms_transformations.py",
+        "path_type": "hardlink",
+        "sha256": "22632982e14bbc6abd9407417ec02d292ee17137705b6334446ba5d97c732ef6",
+        "sha256_in_prefix": "22632982e14bbc6abd9407417ec02d292ee17137705b6334446ba5d97c732ef6",
+        "size_in_bytes": 25519
+      },
+      {
+        "_path": "site-packages/scri/extrapolation.py",
+        "path_type": "hardlink",
+        "sha256": "c34686a969a587d91eb9de81fb01e118f438769c5fdc4c04966dfde5a8615cb8",
+        "sha256_in_prefix": "c34686a969a587d91eb9de81fb01e118f438769c5fdc4c04966dfde5a8615cb8",
+        "size_in_bytes": 58891
+      },
+      {
+        "_path": "site-packages/scri/flux.py",
+        "path_type": "hardlink",
+        "sha256": "35976137f037534228d51079a3bbf1ebbd375118de742637425185ac86346478",
+        "sha256_in_prefix": "35976137f037534228d51079a3bbf1ebbd375118de742637425185ac86346478",
+        "size_in_bytes": 31544
+      },
+      {
+        "_path": "site-packages/scri/mode_calculations.py",
+        "path_type": "hardlink",
+        "sha256": "f318e0f63e3f3510a0a62391f2f7176449f103adc514f58fc6c942303137d499",
+        "sha256_in_prefix": "f318e0f63e3f3510a0a62391f2f7176449f103adc514f58fc6c942303137d499",
+        "size_in_bytes": 21132
+      },
+      {
+        "_path": "site-packages/scri/modes_time_series.py",
+        "path_type": "hardlink",
+        "sha256": "17b81293097047882e29a8a49b32cab5ddcf645cab52fe004393ba822951a4b1",
+        "sha256_in_prefix": "17b81293097047882e29a8a49b32cab5ddcf645cab52fe004393ba822951a4b1",
+        "size_in_bytes": 7928
+      },
+      {
+        "_path": "site-packages/scri/plotting.py",
+        "path_type": "hardlink",
+        "sha256": "d7c9ef62783cdc172f00321a4f5443cad5f832d56ad1b900af3234fd392a32c8",
+        "sha256_in_prefix": "d7c9ef62783cdc172f00321a4f5443cad5f832d56ad1b900af3234fd392a32c8",
+        "size_in_bytes": 5006
+      },
+      {
+        "_path": "site-packages/scri/pn/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/scri/rotations.py",
+        "path_type": "hardlink",
+        "sha256": "4c564a250a416bc724d7ffa53f1ac37e7ccb2cc8138a3255e09c1140ffa34c28",
+        "sha256_in_prefix": "4c564a250a416bc724d7ffa53f1ac37e7ccb2cc8138a3255e09c1140ffa34c28",
+        "size_in_bytes": 16811
+      },
+      {
+        "_path": "site-packages/scri/sample_waveforms.py",
+        "path_type": "hardlink",
+        "sha256": "18b29363be88925c2959b2b36bf0d3411bed38375bffb0572d37e2d14c303008",
+        "sha256_in_prefix": "18b29363be88925c2959b2b36bf0d3411bed38375bffb0572d37e2d14c303008",
+        "size_in_bytes": 31597
+      },
+      {
+        "_path": "site-packages/scri/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "0365dae2465f119815d899122f130a82ba31a5da81c19722cca2b84aa72cb243",
+        "sha256_in_prefix": "0365dae2465f119815d899122f130a82ba31a5da81c19722cca2b84aa72cb243",
+        "size_in_bytes": 15949
+      },
+      {
+        "_path": "site-packages/scri/waveform_base.py",
+        "path_type": "hardlink",
+        "sha256": "53f5c6830903a872a5c97987bd9aa6fc9c7722b82d2d3ca6ea1fcf7d7e0bcb76",
+        "sha256_in_prefix": "53f5c6830903a872a5c97987bd9aa6fc9c7722b82d2d3ca6ea1fcf7d7e0bcb76",
+        "size_in_bytes": 45200
+      },
+      {
+        "_path": "site-packages/scri/waveform_grid.py",
+        "path_type": "hardlink",
+        "sha256": "3ef94d35b6e50d76b27e6d5f84e2a3b2c6351564790b48ef6e6601bed4e92ada",
+        "sha256_in_prefix": "3ef94d35b6e50d76b27e6d5f84e2a3b2c6351564790b48ef6e6601bed4e92ada",
+        "size_in_bytes": 34641
+      },
+      {
+        "_path": "site-packages/scri/waveform_modes.py",
+        "path_type": "hardlink",
+        "sha256": "0f3300025f9750250055d1de4e63725792e7d7b8048531be2e33fa68e3317312",
+        "sha256_in_prefix": "0f3300025f9750250055d1de4e63725792e7d7b8048531be2e33fa68e3317312",
+        "size_in_bytes": 42665
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/LVC/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/LVC/__pycache__/file_io.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/SpEC/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/SpEC/__pycache__/com_motion.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/SpEC/file_io/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/SpEC/file_io/__pycache__/corotating_paired_xor.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/SpEC/file_io/__pycache__/rotating_paired_xor_multishuffle_bzip2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/SpEC/__pycache__/find_com_in_catalog.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/SpEC/__pycache__/remove_avg_com_from_catalog.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/__version__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/bms_charges.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/constraints.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/from_initial_values.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/map_to_abd_frame.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/map_to_superrest_frame.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/asymptotic_bondi_data/__pycache__/transformations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/bms_transformations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/extrapolation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/flux.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/mode_calculations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/modes_time_series.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/plotting.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/pn/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/rotations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/sample_waveforms.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/waveform_base.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/waveform_grid.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scri/__pycache__/waveform_modes.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "scri",
+  "sha256": "8a8122db44d0664d0b3e4e7b11852d94992e972030766732eefdf932e3c4e3e4",
+  "size": 113581,
+  "subdir": "noarch",
+  "timestamp": 1719612683000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/scri-2022.9.0-pyhd8ed1ab_0.conda",
+  "version": "2022.9.0"
+}

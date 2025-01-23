@@ -1,0 +1,51 @@
+{
+  "build": "h0ef69ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "__osx >=11.0"
+  ],
+  "depends": [
+    "__osx >=11.0"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/ripgrep-14.1.1-h0ef69ab_0",
+  "files": [
+    "bin/rg",
+    "share/man/man1/rg.1"
+  ],
+  "fn": "ripgrep-14.1.1-h0ef69ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/ripgrep-14.1.1-h0ef69ab_0",
+    "type": 1
+  },
+  "md5": "a5ac0a2bfc92f3cb9b6cfc9caf9de5c9",
+  "name": "ripgrep",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/ripgrep-14.1.1-h0ef69ab_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/rg",
+        "path_type": "hardlink",
+        "sha256": "c0a635e272f2c56e9b00680ca5266aec5ff713debf7edce01b8c6a9aba8a4204",
+        "sha256_in_prefix": "c0a635e272f2c56e9b00680ca5266aec5ff713debf7edce01b8c6a9aba8a4204",
+        "size_in_bytes": 4050064
+      },
+      {
+        "_path": "share/man/man1/rg.1",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bea65d7f355ac3db84b046e2db3b203d78ac261451bf5dd7a5719fc8102fa73e",
+  "size": 1342761,
+  "subdir": "osx-arm64",
+  "timestamp": 1729868683000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/ripgrep-14.1.1-h0ef69ab_0.conda",
+  "version": "14.1.1"
+}

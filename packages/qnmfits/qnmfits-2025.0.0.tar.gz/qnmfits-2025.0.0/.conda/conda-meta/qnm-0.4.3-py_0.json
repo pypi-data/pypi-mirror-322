@@ -1,0 +1,269 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numba",
+    "numpy",
+    "pathlib2",
+    "python",
+    "scipy",
+    "tqdm"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/qnm-0.4.3-py_0",
+  "files": [
+    "lib/python3.10/site-packages/qnm-0.4.3.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/qnm-0.4.3.dist-info/LICENSE",
+    "lib/python3.10/site-packages/qnm-0.4.3.dist-info/METADATA",
+    "lib/python3.10/site-packages/qnm-0.4.3.dist-info/RECORD",
+    "lib/python3.10/site-packages/qnm-0.4.3.dist-info/WHEEL",
+    "lib/python3.10/site-packages/qnm-0.4.3.dist-info/pbr.json",
+    "lib/python3.10/site-packages/qnm-0.4.3.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/qnm/LICENSE",
+    "lib/python3.10/site-packages/qnm/__init__.py",
+    "lib/python3.10/site-packages/qnm/_version.py",
+    "lib/python3.10/site-packages/qnm/angular.py",
+    "lib/python3.10/site-packages/qnm/cached.py",
+    "lib/python3.10/site-packages/qnm/contfrac.py",
+    "lib/python3.10/site-packages/qnm/nearby.py",
+    "lib/python3.10/site-packages/qnm/radial.py",
+    "lib/python3.10/site-packages/qnm/schwarzschild/__init__.py",
+    "lib/python3.10/site-packages/qnm/schwarzschild/approx.py",
+    "lib/python3.10/site-packages/qnm/schwarzschild/data/Schw_dict.pickle",
+    "lib/python3.10/site-packages/qnm/schwarzschild/overtonesequence.py",
+    "lib/python3.10/site-packages/qnm/schwarzschild/tabulated.py",
+    "lib/python3.10/site-packages/qnm/spinsequence.py",
+    "lib/python3.10/site-packages/qnm/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/qnm/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/qnm/__pycache__/angular.cpython-310.pyc",
+    "lib/python3.10/site-packages/qnm/__pycache__/cached.cpython-310.pyc",
+    "lib/python3.10/site-packages/qnm/__pycache__/contfrac.cpython-310.pyc",
+    "lib/python3.10/site-packages/qnm/__pycache__/nearby.cpython-310.pyc",
+    "lib/python3.10/site-packages/qnm/__pycache__/radial.cpython-310.pyc",
+    "lib/python3.10/site-packages/qnm/schwarzschild/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/qnm/schwarzschild/__pycache__/approx.cpython-310.pyc",
+    "lib/python3.10/site-packages/qnm/schwarzschild/__pycache__/overtonesequence.cpython-310.pyc",
+    "lib/python3.10/site-packages/qnm/schwarzschild/__pycache__/tabulated.cpython-310.pyc",
+    "lib/python3.10/site-packages/qnm/__pycache__/spinsequence.cpython-310.pyc"
+  ],
+  "fn": "qnm-0.4.3-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/qnm-0.4.3-py_0",
+    "type": 1
+  },
+  "md5": "15d7ebb0bb45d854961a01ef805936f9",
+  "name": "qnm",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/qnm-0.4.3-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/qnm-0.4.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/qnm-0.4.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "da080a799bd23a0d461e6a33896e4a40f2e5c033e15882a64a3f76f397d20731",
+        "sha256_in_prefix": "da080a799bd23a0d461e6a33896e4a40f2e5c033e15882a64a3f76f397d20731",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "site-packages/qnm-0.4.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "06e35ccaf6f1ea70757961dbdd57a7ace218dc2fd50cc179793231b4354a58b9",
+        "sha256_in_prefix": "06e35ccaf6f1ea70757961dbdd57a7ace218dc2fd50cc179793231b4354a58b9",
+        "size_in_bytes": 10736
+      },
+      {
+        "_path": "site-packages/qnm-0.4.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8e826c16e0add9aa61a3d0c98cdd0a135f5a1ef0a946a8bf257e31d9590ebf16",
+        "sha256_in_prefix": "8e826c16e0add9aa61a3d0c98cdd0a135f5a1ef0a946a8bf257e31d9590ebf16",
+        "size_in_bytes": 1943
+      },
+      {
+        "_path": "site-packages/qnm-0.4.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "sha256_in_prefix": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/qnm-0.4.3.dist-info/pbr.json",
+        "path_type": "hardlink",
+        "sha256": "54ecd21478c363ddfe04350d0b2de42b54abbada64ffcaccc9e55ed5ff85ddc6",
+        "sha256_in_prefix": "54ecd21478c363ddfe04350d0b2de42b54abbada64ffcaccc9e55ed5ff85ddc6",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "site-packages/qnm-0.4.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f93fc86eb81ce8efe9cdd249057209f559843af5342d790bddf69acb2a4376bd",
+        "sha256_in_prefix": "f93fc86eb81ce8efe9cdd249057209f559843af5342d790bddf69acb2a4376bd",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/qnm/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "da080a799bd23a0d461e6a33896e4a40f2e5c033e15882a64a3f76f397d20731",
+        "sha256_in_prefix": "da080a799bd23a0d461e6a33896e4a40f2e5c033e15882a64a3f76f397d20731",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "site-packages/qnm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "566e180f199703d8392c36d716bda7fdcdd4819f51f6cec8f9332d2e81109a6f",
+        "sha256_in_prefix": "566e180f199703d8392c36d716bda7fdcdd4819f51f6cec8f9332d2e81109a6f",
+        "size_in_bytes": 3542
+      },
+      {
+        "_path": "site-packages/qnm/_version.py",
+        "path_type": "hardlink",
+        "sha256": "372834a6693979af7e48b080144205f7a072171e3e4c916daea60f37e667ea0e",
+        "sha256_in_prefix": "372834a6693979af7e48b080144205f7a072171e3e4c916daea60f37e667ea0e",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/qnm/angular.py",
+        "path_type": "hardlink",
+        "sha256": "6748a40c589d86fd0ae9c991eb82936102a9c428ace9570d8a9df7912d465564",
+        "sha256_in_prefix": "6748a40c589d86fd0ae9c991eb82936102a9c428ace9570d8a9df7912d465564",
+        "size_in_bytes": 8421
+      },
+      {
+        "_path": "site-packages/qnm/cached.py",
+        "path_type": "hardlink",
+        "sha256": "9859cbf75fb93c2fe104759f04db258e8f69ea380485f26141fc308db348ae7a",
+        "sha256_in_prefix": "9859cbf75fb93c2fe104759f04db258e8f69ea380485f26141fc308db348ae7a",
+        "size_in_bytes": 17763
+      },
+      {
+        "_path": "site-packages/qnm/contfrac.py",
+        "path_type": "hardlink",
+        "sha256": "5736ee583ae7b3149f8ab7ac41312e3dd746380ce2dd141c66b93ed071198f86",
+        "sha256_in_prefix": "5736ee583ae7b3149f8ab7ac41312e3dd746380ce2dd141c66b93ed071198f86",
+        "size_in_bytes": 5912
+      },
+      {
+        "_path": "site-packages/qnm/nearby.py",
+        "path_type": "hardlink",
+        "sha256": "b6004c55d53cc6a8063a854b2d80d481d10f6eaf7743bede21cc529a2bf2cb7d",
+        "sha256_in_prefix": "b6004c55d53cc6a8063a854b2d80d481d10f6eaf7743bede21cc529a2bf2cb7d",
+        "size_in_bytes": 7632
+      },
+      {
+        "_path": "site-packages/qnm/radial.py",
+        "path_type": "hardlink",
+        "sha256": "61452c59d1d69f21fd3cef5d00a1ecd07671b845e9fa51471c30a6ac0959643c",
+        "sha256_in_prefix": "61452c59d1d69f21fd3cef5d00a1ecd07671b845e9fa51471c30a6ac0959643c",
+        "size_in_bytes": 12225
+      },
+      {
+        "_path": "site-packages/qnm/schwarzschild/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a2215619cebf8476e94b1a94549537bb743dcf1417eb065a5b11ed310cc86d16",
+        "sha256_in_prefix": "a2215619cebf8476e94b1a94549537bb743dcf1417eb065a5b11ed310cc86d16",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "site-packages/qnm/schwarzschild/approx.py",
+        "path_type": "hardlink",
+        "sha256": "6995a8d00afdbb8b2bfd2a5f1c787b5a8d259b8c70b498c469c82ad7cf278536",
+        "sha256_in_prefix": "6995a8d00afdbb8b2bfd2a5f1c787b5a8d259b8c70b498c469c82ad7cf278536",
+        "size_in_bytes": 3786
+      },
+      {
+        "_path": "site-packages/qnm/schwarzschild/data/Schw_dict.pickle",
+        "path_type": "hardlink",
+        "sha256": "e77761fde9f0dc895ba781fabbdc7d354995c783ce74c9da9dc018ef0fd48755",
+        "sha256_in_prefix": "e77761fde9f0dc895ba781fabbdc7d354995c783ce74c9da9dc018ef0fd48755",
+        "size_in_bytes": 145615
+      },
+      {
+        "_path": "site-packages/qnm/schwarzschild/overtonesequence.py",
+        "path_type": "hardlink",
+        "sha256": "2d459413eb9f242c6985204d167b3079c9ea81e8b5e5e23951ce664b2d079e1f",
+        "sha256_in_prefix": "2d459413eb9f242c6985204d167b3079c9ea81e8b5e5e23951ce664b2d079e1f",
+        "size_in_bytes": 8704
+      },
+      {
+        "_path": "site-packages/qnm/schwarzschild/tabulated.py",
+        "path_type": "hardlink",
+        "sha256": "a4c497b65713ac0b6b398309eea31ab8b8c0bc96082ec80f752a5ba1ffb97dad",
+        "sha256_in_prefix": "a4c497b65713ac0b6b398309eea31ab8b8c0bc96082ec80f752a5ba1ffb97dad",
+        "size_in_bytes": 8195
+      },
+      {
+        "_path": "site-packages/qnm/spinsequence.py",
+        "path_type": "hardlink",
+        "sha256": "b3034a7a48437ab6d882cd362a70f7979166ad272257c3346a1b35c082d78559",
+        "sha256_in_prefix": "b3034a7a48437ab6d882cd362a70f7979166ad272257c3346a1b35c082d78559",
+        "size_in_bytes": 17885
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/__pycache__/_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/__pycache__/angular.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/__pycache__/cached.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/__pycache__/contfrac.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/__pycache__/nearby.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/__pycache__/radial.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/schwarzschild/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/schwarzschild/__pycache__/approx.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/schwarzschild/__pycache__/overtonesequence.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/schwarzschild/__pycache__/tabulated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/qnm/__pycache__/spinsequence.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "qnm",
+  "sha256": "bc2593267ae6317d47cb41c503898a54c8ae5fc973c5d7a3e2bd18775e7716c8",
+  "size": 94369,
+  "subdir": "noarch",
+  "timestamp": 1577112500645,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/qnm-0.4.3-py_0.tar.bz2",
+  "version": "0.4.3"
+}

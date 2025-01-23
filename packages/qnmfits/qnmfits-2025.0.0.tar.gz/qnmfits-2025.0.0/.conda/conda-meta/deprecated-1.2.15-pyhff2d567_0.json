@@ -1,0 +1,139 @@
+{
+  "build": "pyhff2d567_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=2.7",
+    "wrapt <2,>=1.10"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/deprecated-1.2.15-pyhff2d567_0",
+  "files": [
+    "lib/python3.10/site-packages/Deprecated-1.2.15.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/Deprecated-1.2.15.dist-info/LICENSE.rst",
+    "lib/python3.10/site-packages/Deprecated-1.2.15.dist-info/METADATA",
+    "lib/python3.10/site-packages/Deprecated-1.2.15.dist-info/RECORD",
+    "lib/python3.10/site-packages/Deprecated-1.2.15.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/Deprecated-1.2.15.dist-info/WHEEL",
+    "lib/python3.10/site-packages/Deprecated-1.2.15.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/Deprecated-1.2.15.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/deprecated/__init__.py",
+    "lib/python3.10/site-packages/deprecated/classic.py",
+    "lib/python3.10/site-packages/deprecated/sphinx.py",
+    "lib/python3.10/site-packages/deprecated/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/deprecated/__pycache__/classic.cpython-310.pyc",
+    "lib/python3.10/site-packages/deprecated/__pycache__/sphinx.cpython-310.pyc"
+  ],
+  "fn": "deprecated-1.2.15-pyhff2d567_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/deprecated-1.2.15-pyhff2d567_0",
+    "type": 1
+  },
+  "md5": "ca75e235b44ab995655fae392f99595e",
+  "name": "deprecated",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/deprecated-1.2.15-pyhff2d567_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Deprecated-1.2.15.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.15.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "1e83edd15be419b5d5bde372e325e527ff4f9915f548e7c75314b41f6699e83c",
+        "sha256_in_prefix": "1e83edd15be419b5d5bde372e325e527ff4f9915f548e7c75314b41f6699e83c",
+        "size_in_bytes": 1081
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.15.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "da04b40c45cdffc158f5f384a1a035d1bcecdc099de0ae15b18c336c21e7fdc8",
+        "sha256_in_prefix": "da04b40c45cdffc158f5f384a1a035d1bcecdc099de0ae15b18c336c21e7fdc8",
+        "size_in_bytes": 5515
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.15.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "efcae77f13c586131c63d818dd5dadb0def905f9023440787ddf36f5dc36a5bc",
+        "sha256_in_prefix": "efcae77f13c586131c63d818dd5dadb0def905f9023440787ddf36f5dc36a5bc",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.15.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.15.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d153540d6409cdf45a8582379de021cf65156d10adceda4de5d3c7006be61977",
+        "sha256_in_prefix": "d153540d6409cdf45a8582379de021cf65156d10adceda4de5d3c7006be61977",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.15.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "93df1118c70b2a4f8249eede54e80e925693b2ee31d32e5fa12cc85242f437fd",
+        "sha256_in_prefix": "93df1118c70b2a4f8249eede54e80e925693b2ee31d32e5fa12cc85242f437fd",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.15.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9c76ce61ac0a3d0404e65425fada140752414498d4ca7fe6fcc6fc4552744630",
+        "sha256_in_prefix": "9c76ce61ac0a3d0404e65425fada140752414498d4ca7fe6fcc6fc4552744630",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/deprecated/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a884ffb7750f73db87d80112228e9e39e67b9dcbb63c967eb5327e40dd548e5d",
+        "sha256_in_prefix": "a884ffb7750f73db87d80112228e9e39e67b9dcbb63c967eb5327e40dd548e5d",
+        "size_in_bytes": 351
+      },
+      {
+        "_path": "site-packages/deprecated/classic.py",
+        "path_type": "hardlink",
+        "sha256": "ed65ceb7855fd4d86b5339e6f32a634b9d0233201d670ac64f9f0b85bf1f5b5e",
+        "sha256_in_prefix": "ed65ceb7855fd4d86b5339e6f32a634b9d0233201d670ac64f9f0b85bf1f5b5e",
+        "size_in_bytes": 10609
+      },
+      {
+        "_path": "site-packages/deprecated/sphinx.py",
+        "path_type": "hardlink",
+        "sha256": "70e2a75db0f2140c03af93bb1c1129810af1f89faa7e9e7bb1f74afcb69b0f1b",
+        "sha256_in_prefix": "70e2a75db0f2140c03af93bb1c1129810af1f89faa7e9e7bb1f74afcb69b0f1b",
+        "size_in_bytes": 11109
+      },
+      {
+        "_path": "lib/python3.10/site-packages/deprecated/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/deprecated/__pycache__/classic.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/deprecated/__pycache__/sphinx.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "48182a27a8fd855db3a402ed914823802f94c3344c87b0d074facc51411296ee",
+  "size": 14182,
+  "subdir": "noarch",
+  "timestamp": 1731836933000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/deprecated-1.2.15-pyhff2d567_0.conda",
+  "version": "1.2.15"
+}

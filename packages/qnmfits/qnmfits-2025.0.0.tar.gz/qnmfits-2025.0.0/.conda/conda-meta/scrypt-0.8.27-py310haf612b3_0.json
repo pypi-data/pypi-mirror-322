@@ -1,0 +1,222 @@
+{
+  "build": "py310haf612b3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "cffi >=1.7",
+    "openssl >=3.3.2,<4.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/scrypt-0.8.27-py310haf612b3_0",
+  "files": [
+    "lib/python3.10/site-packages/_scrypt.cpython-310-darwin.so",
+    "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/LICENSE",
+    "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/METADATA",
+    "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/RECORD",
+    "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/WHEEL",
+    "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/scrypt/__init__.py",
+    "lib/python3.10/site-packages/scrypt/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/scrypt/__pycache__/scrypt.cpython-310.pyc",
+    "lib/python3.10/site-packages/scrypt/scrypt.py",
+    "lib/python3.10/site-packages/scrypt/tests/__init__.py",
+    "lib/python3.10/site-packages/scrypt/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/scrypt/tests/__pycache__/test_scrypt.cpython-310.pyc",
+    "lib/python3.10/site-packages/scrypt/tests/__pycache__/test_scrypt_c_module.cpython-310.pyc",
+    "lib/python3.10/site-packages/scrypt/tests/__pycache__/test_scrypt_py3x.cpython-310.pyc",
+    "lib/python3.10/site-packages/scrypt/tests/ciphertexts.csv",
+    "lib/python3.10/site-packages/scrypt/tests/hashvectors.csv",
+    "lib/python3.10/site-packages/scrypt/tests/test_scrypt.py",
+    "lib/python3.10/site-packages/scrypt/tests/test_scrypt_c_module.py",
+    "lib/python3.10/site-packages/scrypt/tests/test_scrypt_py3x.py"
+  ],
+  "fn": "scrypt-0.8.27-py310haf612b3_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/scrypt-0.8.27-py310haf612b3_0",
+    "type": 1
+  },
+  "md5": "733687a637b8db254771fed2be03cc37",
+  "name": "scrypt",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/scrypt-0.8.27-py310haf612b3_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/_scrypt.cpython-310-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "229f5049b72bffd6a72234437174b63c8f8593df3b146546fcb28315730f70cf",
+        "sha256_in_prefix": "229f5049b72bffd6a72234437174b63c8f8593df3b146546fcb28315730f70cf",
+        "size_in_bytes": 71824
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b7e4bb923f04b7fd23c04f76d80a825203c52d71a29ac8c9dcb505299fcaf0a0",
+        "sha256_in_prefix": "b7e4bb923f04b7fd23c04f76d80a825203c52d71a29ac8c9dcb505299fcaf0a0",
+        "size_in_bytes": 1370
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8e23cce938ee1d763cc3564c1d75bbb3401a4e63814af1fa11e40be6cdffb76a",
+        "sha256_in_prefix": "8e23cce938ee1d763cc3564c1d75bbb3401a4e63814af1fa11e40be6cdffb76a",
+        "size_in_bytes": 8261
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "62e9c2e31d3ad73f4acf7748ddc6e539866e0260a4315735f1e61c964d6f9329",
+        "sha256_in_prefix": "62e9c2e31d3ad73f4acf7748ddc6e539866e0260a4315735f1e61c964d6f9329",
+        "size_in_bytes": 1746
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d4c3f23ecf7e30b40767290ecde06a21905138118a3d8eabcdf2d8a90794b0bf",
+        "sha256_in_prefix": "d4c3f23ecf7e30b40767290ecde06a21905138118a3d8eabcdf2d8a90794b0bf",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5dc59cffae943c3789ee42c3750a207a6927a14b57dcce98d26845d432e7fa8e",
+        "sha256_in_prefix": "5dc59cffae943c3789ee42c3750a207a6927a14b57dcce98d26845d432e7fa8e",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt-0.8.27.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f4828187effc2425bf35cd91e2e9270488733e37c6a23d58787de36edb413092",
+        "sha256_in_prefix": "f4828187effc2425bf35cd91e2e9270488733e37c6a23d58787de36edb413092",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "994d4c4142e87c315daa5ae9020a32ffa56f93011f6ac9e5851e1f64c5486f08",
+        "sha256_in_prefix": "994d4c4142e87c315daa5ae9020a32ffa56f93011f6ac9e5851e1f64c5486f08",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e5cb494808d84faf96a4fb6541774642ca66c0272a8e321305b292fbb2853b2",
+        "sha256_in_prefix": "8e5cb494808d84faf96a4fb6541774642ca66c0272a8e321305b292fbb2853b2",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/__pycache__/scrypt.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f752780932d96f6b31390831d5512bddd491182eba387bb053f6ccb23c15ce8",
+        "sha256_in_prefix": "9f752780932d96f6b31390831d5512bddd491182eba387bb053f6ccb23c15ce8",
+        "size_in_bytes": 5496
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/scrypt.py",
+        "path_type": "hardlink",
+        "sha256": "d192b1418d5e3079739e81daaa4aa8d1735983c00f2421dcb68b7338a866b003",
+        "sha256_in_prefix": "d192b1418d5e3079739e81daaa4aa8d1735983c00f2421dcb68b7338a866b003",
+        "size_in_bytes": 7076
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "57af543e355970254ce977e88f07a8d907c03dc972214abbf2ea7b5a8781f674",
+        "sha256_in_prefix": "57af543e355970254ce977e88f07a8d907c03dc972214abbf2ea7b5a8781f674",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/tests/__pycache__/test_scrypt.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c07559ca740bbb2f4931d6e82524f03508383954669feb35958bcd5bee95f6b9",
+        "sha256_in_prefix": "c07559ca740bbb2f4931d6e82524f03508383954669feb35958bcd5bee95f6b9",
+        "size_in_bytes": 15264
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/tests/__pycache__/test_scrypt_c_module.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "255d729d997dc134c9a820f7ee86984badb014dd3fc13d4c002aea4830e7e247",
+        "sha256_in_prefix": "255d729d997dc134c9a820f7ee86984badb014dd3fc13d4c002aea4830e7e247",
+        "size_in_bytes": 596
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/tests/__pycache__/test_scrypt_py3x.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "72b2c03b6e222df593c3b2ce8af9c075e792799151f1585d3763db97dbc46d91",
+        "sha256_in_prefix": "72b2c03b6e222df593c3b2ce8af9c075e792799151f1585d3763db97dbc46d91",
+        "size_in_bytes": 2366
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/tests/ciphertexts.csv",
+        "path_type": "hardlink",
+        "sha256": "4cabfcd01090290934737dcbc76034ec00bea15e1ee7014001d83fb013e93dd2",
+        "sha256_in_prefix": "4cabfcd01090290934737dcbc76034ec00bea15e1ee7014001d83fb013e93dd2",
+        "size_in_bytes": 1597
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/tests/hashvectors.csv",
+        "path_type": "hardlink",
+        "sha256": "76dbb79ff7cbed677e26139c3cc5ef705e02bc24683031fa83983a325fe1f600",
+        "sha256_in_prefix": "76dbb79ff7cbed677e26139c3cc5ef705e02bc24683031fa83983a325fe1f600",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/tests/test_scrypt.py",
+        "path_type": "hardlink",
+        "sha256": "16d2b1d83f4b80ab356d3d87961ddb74ca3e1c00f3fcbbe337c8524cf61108ac",
+        "sha256_in_prefix": "16d2b1d83f4b80ab356d3d87961ddb74ca3e1c00f3fcbbe337c8524cf61108ac",
+        "size_in_bytes": 11677
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/tests/test_scrypt_c_module.py",
+        "path_type": "hardlink",
+        "sha256": "eeaf6f88273f073e79620f996751d3ceae1f11189a1c80ac3b3a8b8fd19fdfd0",
+        "sha256_in_prefix": "eeaf6f88273f073e79620f996751d3ceae1f11189a1c80ac3b3a8b8fd19fdfd0",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "lib/python3.10/site-packages/scrypt/tests/test_scrypt_py3x.py",
+        "path_type": "hardlink",
+        "sha256": "ec286078d1d3c93474817c0e595a1a4b63c3d5b2fdb6f7d7545673147b44a98b",
+        "sha256_in_prefix": "ec286078d1d3c93474817c0e595a1a4b63c3d5b2fdb6f7d7545673147b44a98b",
+        "size_in_bytes": 1728
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ea7c55519e9f1c9841d03f6a82dd670b55f179abd5cd77709a6e6cb105da6501",
+  "size": 39142,
+  "subdir": "osx-arm64",
+  "timestamp": 1728694102000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/scrypt-0.8.27-py310haf612b3_0.conda",
+  "version": "0.8.27"
+}

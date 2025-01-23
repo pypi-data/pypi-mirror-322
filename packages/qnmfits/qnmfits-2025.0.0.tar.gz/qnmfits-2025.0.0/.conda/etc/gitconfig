@@ -1,0 +1,4 @@
+[http]
+        sslVerify = true
+        sslCAPath = /Users/eliot/Documents/Research/Ringdown/sxs-collaboration/qnmfits/.conda/ssl/cacert.pem
+        sslCAInfo = /Users/eliot/Documents/Research/Ringdown/sxs-collaboration/qnmfits/.conda/ssl/cacert.pem

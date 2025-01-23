@@ -1,0 +1,170 @@
+{
+  "build": "py310h80987f9_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.15.1",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/cmarkgfm-2022.10.27-py310h80987f9_0",
+  "files": [
+    "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/METADATA",
+    "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/RECORD",
+    "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/WHEEL",
+    "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/cmarkgfm/__init__.py",
+    "lib/python3.10/site-packages/cmarkgfm/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/cmarkgfm/__pycache__/build_cmark.cpython-310.pyc",
+    "lib/python3.10/site-packages/cmarkgfm/__pycache__/cmark.cpython-310.pyc",
+    "lib/python3.10/site-packages/cmarkgfm/_cmark.abi3.so",
+    "lib/python3.10/site-packages/cmarkgfm/build_cmark.py",
+    "lib/python3.10/site-packages/cmarkgfm/cmark.cffi.h",
+    "lib/python3.10/site-packages/cmarkgfm/cmark.py",
+    "lib/python3.10/site-packages/cmarkgfm/cmark_module.h"
+  ],
+  "fn": "cmarkgfm-2022.10.27-py310h80987f9_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/cmarkgfm-2022.10.27-py310h80987f9_0",
+    "type": 1
+  },
+  "md5": "c48f927b77e29a6509384bacfa7e68a3",
+  "name": "cmarkgfm",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/cmarkgfm-2022.10.27-py310h80987f9_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "0daa54568539395add11550b8014c3022d78c02a14c791ca91ad773e349d226b",
+        "sha256_in_prefix": "0daa54568539395add11550b8014c3022d78c02a14c791ca91ad773e349d226b",
+        "size_in_bytes": 1095
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "85af23816a9695a849a60f21fae7f3a46dffd3f9257da802d7c0113d8c3e73c3",
+        "sha256_in_prefix": "85af23816a9695a849a60f21fae7f3a46dffd3f9257da802d7c0113d8c3e73c3",
+        "size_in_bytes": 7443
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "98e899654d66de98b77b335e69cff75f33b166daabfd7008ccb9273decde51b2",
+        "sha256_in_prefix": "98e899654d66de98b77b335e69cff75f33b166daabfd7008ccb9273decde51b2",
+        "size_in_bytes": 1337
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a0c15cf7e2a3bcc2ca8aa338d2401a69fb07264b591a9d1e217fe4d7ded80d19",
+        "sha256_in_prefix": "a0c15cf7e2a3bcc2ca8aa338d2401a69fb07264b591a9d1e217fe4d7ded80d19",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d6612ae4c81ea8b2c79f169c0e69675789a39a8ba7c838f728d34552b721ee8b",
+        "sha256_in_prefix": "d6612ae4c81ea8b2c79f169c0e69675789a39a8ba7c838f728d34552b721ee8b",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm-2022.10.27.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7ea68de12aaf9dcf21d0c6f94720ec79e10d79f9dfa53b5f9eb2ffe221c57517",
+        "sha256_in_prefix": "7ea68de12aaf9dcf21d0c6f94720ec79e10d79f9dfa53b5f9eb2ffe221c57517",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fc06b1d17ec7123395ad4003789c9b066031dd58c8bfaba9a9350cd436ba41c0",
+        "sha256_in_prefix": "fc06b1d17ec7123395ad4003789c9b066031dd58c8bfaba9a9350cd436ba41c0",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b13f2442ea0096a9675ed1d36b09d77300575ccc5ec57d63ac77cb9e716b41e",
+        "sha256_in_prefix": "5b13f2442ea0096a9675ed1d36b09d77300575ccc5ec57d63ac77cb9e716b41e",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm/__pycache__/build_cmark.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "514f727b8df2054f1f3176c0f42b68b566a5f91578f9fd0b93eb291d0d41cd0f",
+        "sha256_in_prefix": "514f727b8df2054f1f3176c0f42b68b566a5f91578f9fd0b93eb291d0d41cd0f",
+        "size_in_bytes": 2488
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm/__pycache__/cmark.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e50bffc1f17718902781af279e93316d81442c120daf34409a3898e2e5ae86aa",
+        "sha256_in_prefix": "e50bffc1f17718902781af279e93316d81442c120daf34409a3898e2e5ae86aa",
+        "size_in_bytes": 6007
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm/_cmark.abi3.so",
+        "path_type": "hardlink",
+        "sha256": "b0b09d9186061cd75d05478b6e86ec2c218a9acaf5ef7341b65baa2329555661",
+        "sha256_in_prefix": "b0b09d9186061cd75d05478b6e86ec2c218a9acaf5ef7341b65baa2329555661",
+        "size_in_bytes": 325728
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm/build_cmark.py",
+        "path_type": "hardlink",
+        "sha256": "395ed569faad4c70bf069f506fa918ae79b2f615fbe9477495fcbe91facff4ab",
+        "sha256_in_prefix": "395ed569faad4c70bf069f506fa918ae79b2f615fbe9477495fcbe91facff4ab",
+        "size_in_bytes": 2697
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm/cmark.cffi.h",
+        "path_type": "hardlink",
+        "sha256": "6dee397f66f743d2e9787a4900b6871fbeb25e801f0c3f3cff795272b7673b40",
+        "sha256_in_prefix": "6dee397f66f743d2e9787a4900b6871fbeb25e801f0c3f3cff795272b7673b40",
+        "size_in_bytes": 2511
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm/cmark.py",
+        "path_type": "hardlink",
+        "sha256": "7394fa64a15636109e6ad99f41cbf163e12761ad62c1dcb6df8d2c3698ab80d0",
+        "sha256_in_prefix": "7394fa64a15636109e6ad99f41cbf163e12761ad62c1dcb6df8d2c3698ab80d0",
+        "size_in_bytes": 6501
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmarkgfm/cmark_module.h",
+        "path_type": "hardlink",
+        "sha256": "bad36cfb4c872f4be7ecb1a38aa5a68d9113e8a6cac0887c1739c42145d33cff",
+        "sha256_in_prefix": "bad36cfb4c872f4be7ecb1a38aa5a68d9113e8a6cac0887c1739c42145d33cff",
+        "size_in_bytes": 280
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d9ba0ee0932a33c53d8d32cda6b3363ad7286a93cdbc36b6a58892bb7d5f63fd",
+  "size": 125880,
+  "subdir": "osx-arm64",
+  "timestamp": 1689941155000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/cmarkgfm-2022.10.27-py310h80987f9_0.conda",
+  "version": "2022.10.27"
+}

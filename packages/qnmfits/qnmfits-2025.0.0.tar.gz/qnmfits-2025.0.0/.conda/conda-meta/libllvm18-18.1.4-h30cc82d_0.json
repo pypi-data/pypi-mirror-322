@@ -1,0 +1,67 @@
+{
+  "build": "h30cc82d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=16",
+    "libxml2 >=2.12.6,<3.0a0",
+    "libzlib >=1.2.13,<2.0.0a0",
+    "zstd >=1.5.5,<1.6.0a0"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/libllvm18-18.1.4-h30cc82d_0",
+  "files": [
+    "lib/libLLVM-18.dylib",
+    "lib/libLLVM.18.1.dylib",
+    "lib/libLTO.18.1.dylib",
+    "lib/libRemarks.18.1.dylib"
+  ],
+  "fn": "libllvm18-18.1.4-h30cc82d_0.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/libllvm18-18.1.4-h30cc82d_0",
+    "type": 1
+  },
+  "md5": "c89d7a7d1d52506cea97daa3f4dffeec",
+  "name": "libllvm18",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/libllvm18-18.1.4-h30cc82d_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libLLVM-18.dylib",
+        "path_type": "softlink",
+        "sha256": "ef974ba16b85af2c377d0b4cdbb4e6571360a0036c42ddcc5818d5be18226813",
+        "size_in_bytes": 120945264
+      },
+      {
+        "_path": "lib/libLLVM.18.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "ef974ba16b85af2c377d0b4cdbb4e6571360a0036c42ddcc5818d5be18226813",
+        "sha256_in_prefix": "ef974ba16b85af2c377d0b4cdbb4e6571360a0036c42ddcc5818d5be18226813",
+        "size_in_bytes": 120945264
+      },
+      {
+        "_path": "lib/libLTO.18.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "b484a285beb14452f9dd538924848d4e28698ac6baf823f89f1a57c536f202d9",
+        "sha256_in_prefix": "b484a285beb14452f9dd538924848d4e28698ac6baf823f89f1a57c536f202d9",
+        "size_in_bytes": 103440
+      },
+      {
+        "_path": "lib/libRemarks.18.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "6cd48e355234f82cbb8d4d30782a79bc9a0b2b021789c6ab8e86759e9b82af43",
+        "sha256_in_prefix": "6cd48e355234f82cbb8d4d30782a79bc9a0b2b021789c6ab8e86759e9b82af43",
+        "size_in_bytes": 17920
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "eeb53ba0e54baad58a9e1c1637a7af92bd29f5864d8831b26aa9804a8d6379fe",
+  "size": 25766312,
+  "subdir": "osx-arm64",
+  "timestamp": 1714416251000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libllvm18-18.1.4-h30cc82d_0.conda",
+  "version": "18.1.4"
+}

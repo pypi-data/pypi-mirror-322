@@ -1,0 +1,279 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "conda-build",
+    "jinja2 >=3.0.2,<4",
+    "python >=3.8",
+    "rattler-build",
+    "ruamel.yaml",
+    "tomli",
+    "typing-extensions >=4.12.2,<5"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/rattler-build-conda-compat-1.2.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/rattler_build_conda_compat-1.2.2.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/rattler_build_conda_compat-1.2.2.dist-info/METADATA",
+    "lib/python3.10/site-packages/rattler_build_conda_compat-1.2.2.dist-info/RECORD",
+    "lib/python3.10/site-packages/rattler_build_conda_compat-1.2.2.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/rattler_build_conda_compat-1.2.2.dist-info/WHEEL",
+    "lib/python3.10/site-packages/rattler_build_conda_compat-1.2.2.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/rattler_build_conda_compat-1.2.2.dist-info/licenses/LICENSE.txt",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/__init__.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/conditional_list.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/__init__.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/filters.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/jinja.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/objects.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/utils.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/lint.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/loader.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/modify_recipe.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/recipe_sources.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/render.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/utils.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/yaml.py",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/conditional_list.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/__pycache__/filters.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/__pycache__/jinja.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/__pycache__/objects.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/lint.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/loader.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/modify_recipe.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/recipe_sources.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/render.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/yaml.cpython-310.pyc"
+  ],
+  "fn": "rattler-build-conda-compat-1.2.2-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/rattler-build-conda-compat-1.2.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "598740e664593f16072b204ad59fccfe",
+  "name": "rattler-build-conda-compat",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/rattler-build-conda-compat-1.2.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/rattler_build_conda_compat-1.2.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat-1.2.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "51ea68e108d74cc9413225089b2d240c46a1abde8e056a4a096dc4040ecde548",
+        "sha256_in_prefix": "51ea68e108d74cc9413225089b2d240c46a1abde8e056a4a096dc4040ecde548",
+        "size_in_bytes": 2383
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat-1.2.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4fa8f52360accc6f75c361af8a1ae3695437546bf518dd60bc0d84207c30c0ce",
+        "sha256_in_prefix": "4fa8f52360accc6f75c361af8a1ae3695437546bf518dd60bc0d84207c30c0ce",
+        "size_in_bytes": 3043
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat-1.2.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat-1.2.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
+        "sha256_in_prefix": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat-1.2.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d72291182cda306ca2e04bbf99067a1092dc13dc70ea1047f1827d66f8b743b3",
+        "sha256_in_prefix": "d72291182cda306ca2e04bbf99067a1092dc13dc70ea1047f1827d66f8b743b3",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat-1.2.2.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "679d42a76b82a6dc20ffd9048ab45fb2e5557a526113aaedc7419e12f3cfab38",
+        "sha256_in_prefix": "679d42a76b82a6dc20ffd9048ab45fb2e5557a526113aaedc7419e12f3cfab38",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/conditional_list.py",
+        "path_type": "hardlink",
+        "sha256": "0c77141429533526d8300f33ec2fea16ff67140ae84a2f6044b6228cd1e0b6ea",
+        "sha256_in_prefix": "0c77141429533526d8300f33ec2fea16ff67140ae84a2f6044b6228cd1e0b6ea",
+        "size_in_bytes": 2162
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/jinja/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/jinja/filters.py",
+        "path_type": "hardlink",
+        "sha256": "8eca850a0b5473b5a9a6efab39a29fba93a259022f6b4c34eb6fd3ec4ada6227",
+        "sha256_in_prefix": "8eca850a0b5473b5a9a6efab39a29fba93a259022f6b4c34eb6fd3ec4ada6227",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/jinja/jinja.py",
+        "path_type": "hardlink",
+        "sha256": "eecc285116af5d08f7aedd37a952fafc6cedb3bfbcaa625d71dbc388addd3d26",
+        "sha256_in_prefix": "eecc285116af5d08f7aedd37a952fafc6cedb3bfbcaa625d71dbc388addd3d26",
+        "size_in_bytes": 4021
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/jinja/objects.py",
+        "path_type": "hardlink",
+        "sha256": "10265db7a144e333aed9ef0ba61de8aab31f9c64a57ef77be89f80a15db3d113",
+        "sha256_in_prefix": "10265db7a144e333aed9ef0ba61de8aab31f9c64a57ef77be89f80a15db3d113",
+        "size_in_bytes": 922
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/jinja/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b5a06fb11a87807d73698e74c321e3f89106e594cdab72635e380eab16755c70",
+        "sha256_in_prefix": "b5a06fb11a87807d73698e74c321e3f89106e594cdab72635e380eab16755c70",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/lint.py",
+        "path_type": "hardlink",
+        "sha256": "94a2c53e636e0e8c49cea322a6a98a9c3a60042c99f42642c83bababd93143da",
+        "sha256_in_prefix": "94a2c53e636e0e8c49cea322a6a98a9c3a60042c99f42642c83bababd93143da",
+        "size_in_bytes": 20430
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/loader.py",
+        "path_type": "hardlink",
+        "sha256": "9fffc7b8f23f2219cd425fc6a9e276cd1a6feefb471c0a906c9c27754f8c4e6e",
+        "sha256_in_prefix": "9fffc7b8f23f2219cd425fc6a9e276cd1a6feefb471c0a906c9c27754f8c4e6e",
+        "size_in_bytes": 3978
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/modify_recipe.py",
+        "path_type": "hardlink",
+        "sha256": "a266a54a32461d1778683e73cd60a86868f10c4b7427455ffeb0e35dc722df08",
+        "sha256_in_prefix": "a266a54a32461d1778683e73cd60a86868f10c4b7427455ffeb0e35dc722df08",
+        "size_in_bytes": 5346
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/recipe_sources.py",
+        "path_type": "hardlink",
+        "sha256": "71210a640de5a51a4d4852a422161e1ee75e5714d62f9c05a15d67f476cabd06",
+        "sha256_in_prefix": "71210a640de5a51a4d4852a422161e1ee75e5714d62f9c05a15d67f476cabd06",
+        "size_in_bytes": 2264
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/render.py",
+        "path_type": "hardlink",
+        "sha256": "cd43d969bc68f6e1bd0afc76c61ec2d209dfc4db7b0093687fef975754d8cdd3",
+        "sha256_in_prefix": "cd43d969bc68f6e1bd0afc76c61ec2d209dfc4db7b0093687fef975754d8cdd3",
+        "size_in_bytes": 12832
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0d7509d8a378d2f1f5c1c2ec07b0dd456ac1e28a5a9eaf0e8eb9feb3e2e20074",
+        "sha256_in_prefix": "0d7509d8a378d2f1f5c1c2ec07b0dd456ac1e28a5a9eaf0e8eb9feb3e2e20074",
+        "size_in_bytes": 6190
+      },
+      {
+        "_path": "site-packages/rattler_build_conda_compat/yaml.py",
+        "path_type": "hardlink",
+        "sha256": "faf992344f0d18b69b6e73fd7f2431eeca9dfc1ab8a26361ba1f5ee201f07766",
+        "sha256_in_prefix": "faf992344f0d18b69b6e73fd7f2431eeca9dfc1ab8a26361ba1f5ee201f07766",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/conditional_list.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/__pycache__/filters.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/__pycache__/jinja.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/__pycache__/objects.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/jinja/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/lint.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/loader.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/modify_recipe.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/recipe_sources.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/render.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/rattler_build_conda_compat/__pycache__/yaml.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7b293962a61ce103d7425b97703a2d5870e0a5307224bbe89460d63f142e9cb9",
+  "size": 34474,
+  "subdir": "noarch",
+  "timestamp": 1728027599000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/rattler-build-conda-compat-1.2.2-pyhd8ed1ab_0.conda",
+  "version": "1.2.2"
+}

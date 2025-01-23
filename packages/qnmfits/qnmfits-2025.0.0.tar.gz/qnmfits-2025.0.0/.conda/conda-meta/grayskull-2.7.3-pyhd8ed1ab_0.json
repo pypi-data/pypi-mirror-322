@@ -1,0 +1,591 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "beautifulsoup4",
+    "colorama",
+    "conda-souschef >=2.2.3",
+    "packaging >=21.3",
+    "pip",
+    "pkginfo",
+    "progressbar2 >=3.53.0",
+    "python >=3.8",
+    "rapidfuzz >=3.0.0",
+    "requests",
+    "ruamel.yaml >=0.16.10",
+    "ruamel.yaml.jinja2",
+    "semver >=3.0.0,<3.1.dev0",
+    "setuptools >=30.3.0",
+    "stdlib-list",
+    "tomli",
+    "tomli-w"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/grayskull-2.7.3-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/grayskull-2.7.3.dist-info/AUTHORS",
+    "lib/python3.10/site-packages/grayskull-2.7.3.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/grayskull-2.7.3.dist-info/LICENSE",
+    "lib/python3.10/site-packages/grayskull-2.7.3.dist-info/METADATA",
+    "lib/python3.10/site-packages/grayskull-2.7.3.dist-info/RECORD",
+    "lib/python3.10/site-packages/grayskull-2.7.3.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/grayskull-2.7.3.dist-info/WHEEL",
+    "lib/python3.10/site-packages/grayskull-2.7.3.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/grayskull-2.7.3.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/grayskull-2.7.3.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/grayskull/__init__.py",
+    "lib/python3.10/site-packages/grayskull/__main__.py",
+    "lib/python3.10/site-packages/grayskull/_version.py",
+    "lib/python3.10/site-packages/grayskull/base/__init__.py",
+    "lib/python3.10/site-packages/grayskull/base/factory.py",
+    "lib/python3.10/site-packages/grayskull/base/github.py",
+    "lib/python3.10/site-packages/grayskull/base/pkg_info.py",
+    "lib/python3.10/site-packages/grayskull/base/track_packages.py",
+    "lib/python3.10/site-packages/grayskull/cli/__init__.py",
+    "lib/python3.10/site-packages/grayskull/cli/parser.py",
+    "lib/python3.10/site-packages/grayskull/cli/stdout.py",
+    "lib/python3.10/site-packages/grayskull/config.py",
+    "lib/python3.10/site-packages/grayskull/license/__init__.py",
+    "lib/python3.10/site-packages/grayskull/license/data/AGPL-3.0",
+    "lib/python3.10/site-packages/grayskull/license/data/Apache-2.0",
+    "lib/python3.10/site-packages/grayskull/license/data/BSD-2-Clause",
+    "lib/python3.10/site-packages/grayskull/license/data/BSD-3-Clause",
+    "lib/python3.10/site-packages/grayskull/license/data/BSD-4-Clause",
+    "lib/python3.10/site-packages/grayskull/license/data/CC0-1.0",
+    "lib/python3.10/site-packages/grayskull/license/data/EPL-2.0",
+    "lib/python3.10/site-packages/grayskull/license/data/GPL-2.0",
+    "lib/python3.10/site-packages/grayskull/license/data/GPL-3.0",
+    "lib/python3.10/site-packages/grayskull/license/data/LGPL-2.1",
+    "lib/python3.10/site-packages/grayskull/license/data/LGPL-3.0",
+    "lib/python3.10/site-packages/grayskull/license/data/MIT",
+    "lib/python3.10/site-packages/grayskull/license/data/MPL-2.0",
+    "lib/python3.10/site-packages/grayskull/license/data/Unlicense",
+    "lib/python3.10/site-packages/grayskull/license/data/__init__.py",
+    "lib/python3.10/site-packages/grayskull/license/discovery.py",
+    "lib/python3.10/site-packages/grayskull/license/licence_cache.json",
+    "lib/python3.10/site-packages/grayskull/main.py",
+    "lib/python3.10/site-packages/grayskull/strategy/__init__.py",
+    "lib/python3.10/site-packages/grayskull/strategy/abstract_strategy.py",
+    "lib/python3.10/site-packages/grayskull/strategy/config.yaml",
+    "lib/python3.10/site-packages/grayskull/strategy/cran.py",
+    "lib/python3.10/site-packages/grayskull/strategy/parse_poetry_version.py",
+    "lib/python3.10/site-packages/grayskull/strategy/py_base.py",
+    "lib/python3.10/site-packages/grayskull/strategy/py_toml.py",
+    "lib/python3.10/site-packages/grayskull/strategy/pypi.py",
+    "lib/python3.10/site-packages/grayskull/utils.py",
+    "lib/python3.10/site-packages/grayskull/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/base/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/base/__pycache__/factory.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/base/__pycache__/github.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/base/__pycache__/pkg_info.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/base/__pycache__/track_packages.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/cli/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/cli/__pycache__/parser.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/cli/__pycache__/stdout.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/__pycache__/config.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/license/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/license/data/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/license/__pycache__/discovery.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/__pycache__/main.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/strategy/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/strategy/__pycache__/abstract_strategy.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/strategy/__pycache__/cran.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/strategy/__pycache__/parse_poetry_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/strategy/__pycache__/py_base.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/strategy/__pycache__/py_toml.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/strategy/__pycache__/pypi.cpython-310.pyc",
+    "lib/python3.10/site-packages/grayskull/__pycache__/utils.cpython-310.pyc",
+    "bin/grayskull",
+    "bin/greyskull",
+    "bin/conda-grayskull",
+    "bin/conda-greyskull"
+  ],
+  "fn": "grayskull-2.7.3-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/grayskull-2.7.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "4c78d39f91a349d89f40a7895b171f5a",
+  "name": "grayskull",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/grayskull-2.7.3-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/grayskull-2.7.3.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "907f2ea0d21a227e73a2fe3e5aeb3d794296ff0403140224d76b1043ba19126e",
+        "sha256_in_prefix": "907f2ea0d21a227e73a2fe3e5aeb3d794296ff0403140224d76b1043ba19126e",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "site-packages/grayskull-2.7.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/grayskull-2.7.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e53fbc4d8c15d7edb38c4f9bfbccac1cf49d33dafbd97a96d5ca6a9c8da9c390",
+        "sha256_in_prefix": "e53fbc4d8c15d7edb38c4f9bfbccac1cf49d33dafbd97a96d5ca6a9c8da9c390",
+        "size_in_bytes": 11355
+      },
+      {
+        "_path": "site-packages/grayskull-2.7.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "64f688e39e0b526b231a3d5c3cb2b4b18c81a95e110f32c7c9570ade402d5bb8",
+        "sha256_in_prefix": "64f688e39e0b526b231a3d5c3cb2b4b18c81a95e110f32c7c9570ade402d5bb8",
+        "size_in_bytes": 6308
+      },
+      {
+        "_path": "site-packages/grayskull-2.7.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "66091db2522064c5061ffb202b7cdae4a250a4c5c7ec96bb6b62a573b088440f",
+        "sha256_in_prefix": "66091db2522064c5061ffb202b7cdae4a250a4c5c7ec96bb6b62a573b088440f",
+        "size_in_bytes": 5985
+      },
+      {
+        "_path": "site-packages/grayskull-2.7.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/grayskull-2.7.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+        "sha256_in_prefix": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/grayskull-2.7.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "609dfebfa1eec8a490457297df06cf979bfd0a4778040ea2ac099d75f02f68c1",
+        "sha256_in_prefix": "609dfebfa1eec8a490457297df06cf979bfd0a4778040ea2ac099d75f02f68c1",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/grayskull-2.7.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "890e8d7ded79f3d8db347129c5eafdea16651a55801f8a2365f47e808d6527da",
+        "sha256_in_prefix": "890e8d7ded79f3d8db347129c5eafdea16651a55801f8a2365f47e808d6527da",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "site-packages/grayskull-2.7.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f63b416dcb87f7ef6ac48c2e0b5cc6a2f2081107d020f916ca36ada314dbd513",
+        "sha256_in_prefix": "f63b416dcb87f7ef6ac48c2e0b5cc6a2f2081107d020f916ca36ada314dbd513",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/grayskull/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8f83281b357300e33cd402010693f3e859dd1490f82dbb00df3a8d4bd591643b",
+        "sha256_in_prefix": "8f83281b357300e33cd402010693f3e859dd1490f82dbb00df3a8d4bd591643b",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "site-packages/grayskull/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "84f37eebd364e7ac90aa7bf0ca7ff8c66308f52097f733cea86a45bdb2d0d53c",
+        "sha256_in_prefix": "84f37eebd364e7ac90aa7bf0ca7ff8c66308f52097f733cea86a45bdb2d0d53c",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "site-packages/grayskull/_version.py",
+        "path_type": "hardlink",
+        "sha256": "a756731a0aaeb8ecc274ebedb0d785018a1725e2bd37681b22f171ca590f6fee",
+        "sha256_in_prefix": "a756731a0aaeb8ecc274ebedb0d785018a1725e2bd37681b22f171ca590f6fee",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "site-packages/grayskull/base/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/grayskull/base/factory.py",
+        "path_type": "hardlink",
+        "sha256": "028c1e009050bf664b967ae789c047268e2ec00926eabaaac3ed380fdac93e78",
+        "sha256_in_prefix": "028c1e009050bf664b967ae789c047268e2ec00926eabaaac3ed380fdac93e78",
+        "size_in_bytes": 2546
+      },
+      {
+        "_path": "site-packages/grayskull/base/github.py",
+        "path_type": "hardlink",
+        "sha256": "8f2586f3c0bbbb7ed2c9837930c17151ad0ff769f1863cb5171c869d758aba41",
+        "sha256_in_prefix": "8f2586f3c0bbbb7ed2c9837930c17151ad0ff769f1863cb5171c869d758aba41",
+        "size_in_bytes": 5236
+      },
+      {
+        "_path": "site-packages/grayskull/base/pkg_info.py",
+        "path_type": "hardlink",
+        "sha256": "316c2d28feeb5b1b57cbb0632979cff5d20411ebb24d73058e3e928f600e4608",
+        "sha256_in_prefix": "316c2d28feeb5b1b57cbb0632979cff5d20411ebb24d73058e3e928f600e4608",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "site-packages/grayskull/base/track_packages.py",
+        "path_type": "hardlink",
+        "sha256": "68bc2f1b78f758a35c044101c638f0d162c4f146f2fa84dcccd883d51e0caa31",
+        "sha256_in_prefix": "68bc2f1b78f758a35c044101c638f0d162c4f146f2fa84dcccd883d51e0caa31",
+        "size_in_bytes": 3262
+      },
+      {
+        "_path": "site-packages/grayskull/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "87b84352263aae231cb52cd34784b7af88998bc8805378e9c11c703103fa0736",
+        "sha256_in_prefix": "87b84352263aae231cb52cd34784b7af88998bc8805378e9c11c703103fa0736",
+        "size_in_bytes": 621
+      },
+      {
+        "_path": "site-packages/grayskull/cli/parser.py",
+        "path_type": "hardlink",
+        "sha256": "bb2fe3a5da063d74e26f3aa01bc43cbb23ef8617707187fb7d5de61149cb218f",
+        "sha256_in_prefix": "bb2fe3a5da063d74e26f3aa01bc43cbb23ef8617707187fb7d5de61149cb218f",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "site-packages/grayskull/cli/stdout.py",
+        "path_type": "hardlink",
+        "sha256": "fef2c701fad178f28b13007ebfc35f307e3fb25935d13d41a422bd77c64abf98",
+        "sha256_in_prefix": "fef2c701fad178f28b13007ebfc35f307e3fb25935d13d41a422bd77c64abf98",
+        "size_in_bytes": 3731
+      },
+      {
+        "_path": "site-packages/grayskull/config.py",
+        "path_type": "hardlink",
+        "sha256": "780939ee1901fe156fdff1b38159566f2fd0e827ec3bd57b469e05632257ec40",
+        "sha256_in_prefix": "780939ee1901fe156fdff1b38159566f2fd0e827ec3bd57b469e05632257ec40",
+        "size_in_bytes": 4205
+      },
+      {
+        "_path": "site-packages/grayskull/license/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/AGPL-3.0",
+        "path_type": "hardlink",
+        "sha256": "a63088c54f6e74c411de0fb25d1e6df9bc474da79db1b1475dc671a491fd39fc",
+        "sha256_in_prefix": "a63088c54f6e74c411de0fb25d1e6df9bc474da79db1b1475dc671a491fd39fc",
+        "size_in_bytes": 34605
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/Apache-2.0",
+        "path_type": "hardlink",
+        "sha256": "d74989333ba84fea01e7c7aeaf3f0df57f3c7188b2a19c9205e7dcfb202aeba6",
+        "sha256_in_prefix": "d74989333ba84fea01e7c7aeaf3f0df57f3c7188b2a19c9205e7dcfb202aeba6",
+        "size_in_bytes": 11397
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/BSD-2-Clause",
+        "path_type": "hardlink",
+        "sha256": "c1841e66ea0436a5f294dfe3b3aba794f044e9071d2d0aafae6cf4aeab3bf5bf",
+        "sha256_in_prefix": "c1841e66ea0436a5f294dfe3b3aba794f044e9071d2d0aafae6cf4aeab3bf5bf",
+        "size_in_bytes": 1324
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/BSD-3-Clause",
+        "path_type": "hardlink",
+        "sha256": "341ca8a23a86e0636c8583cb26c77645e78a0467d9e15cdf06e010a3fe6d454c",
+        "sha256_in_prefix": "341ca8a23a86e0636c8583cb26c77645e78a0467d9e15cdf06e010a3fe6d454c",
+        "size_in_bytes": 1522
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/BSD-4-Clause",
+        "path_type": "hardlink",
+        "sha256": "f5bbc15952cbb43827d2a9fc6ba99a9b77c7ad8892591632b34cfce9978503fe",
+        "sha256_in_prefix": "f5bbc15952cbb43827d2a9fc6ba99a9b77c7ad8892591632b34cfce9978503fe",
+        "size_in_bytes": 1674
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/CC0-1.0",
+        "path_type": "hardlink",
+        "sha256": "a38b5bd45d8eb13077ec436a30c06fedbccb2194b65d9dbf8fe38f86f624ac19",
+        "sha256_in_prefix": "a38b5bd45d8eb13077ec436a30c06fedbccb2194b65d9dbf8fe38f86f624ac19",
+        "size_in_bytes": 7064
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/EPL-2.0",
+        "path_type": "hardlink",
+        "sha256": "e034f56dc950a11035d3c6763909e7daedfca5b35ebb18790a0ebcecc838eb34",
+        "sha256_in_prefix": "e034f56dc950a11035d3c6763909e7daedfca5b35ebb18790a0ebcecc838eb34",
+        "size_in_bytes": 14233
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/GPL-2.0",
+        "path_type": "hardlink",
+        "sha256": "a23c57ac221338fe35df573d3371c5a6375e4d4ba22285bd66ad8d9103981cfd",
+        "sha256_in_prefix": "a23c57ac221338fe35df573d3371c5a6375e4d4ba22285bd66ad8d9103981cfd",
+        "size_in_bytes": 18108
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/GPL-3.0",
+        "path_type": "hardlink",
+        "sha256": "5d3fe83abf46ad1015225f14ea495645acb13973c3334bc5811ad39350c5f6e1",
+        "sha256_in_prefix": "5d3fe83abf46ad1015225f14ea495645acb13973c3334bc5811ad39350c5f6e1",
+        "size_in_bytes": 35231
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/LGPL-2.1",
+        "path_type": "hardlink",
+        "sha256": "626e076989cf244ac48711465d7e3d41409e3a813848371fe329aed576b17d61",
+        "sha256_in_prefix": "626e076989cf244ac48711465d7e3d41409e3a813848371fe329aed576b17d61",
+        "size_in_bytes": 26568
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/LGPL-3.0",
+        "path_type": "hardlink",
+        "sha256": "7af81e956b0fdd87e4bd793e88940b5861539fb6cb9e87c0cf3e4f80f70469e8",
+        "sha256_in_prefix": "7af81e956b0fdd87e4bd793e88940b5861539fb6cb9e87c0cf3e4f80f70469e8",
+        "size_in_bytes": 7670
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/MIT",
+        "path_type": "hardlink",
+        "sha256": "daed2bbaf231ac36c435e2bfc9ebc2b0fd2e5f5c9edc65b0e6969cb20213be56",
+        "sha256_in_prefix": "daed2bbaf231ac36c435e2bfc9ebc2b0fd2e5f5c9edc65b0e6969cb20213be56",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/MPL-2.0",
+        "path_type": "hardlink",
+        "sha256": "20f4ae4d5cbc1fcb1b7c79a663edc4f47e0d9cdee559e24225ceb05903497c08",
+        "sha256_in_prefix": "20f4ae4d5cbc1fcb1b7c79a663edc4f47e0d9cdee559e24225ceb05903497c08",
+        "size_in_bytes": 16765
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/Unlicense",
+        "path_type": "hardlink",
+        "sha256": "7d8c0a5a2976de094047523a7da8bdcb230ec4a60e5206ac293101301ed409ff",
+        "sha256_in_prefix": "7d8c0a5a2976de094047523a7da8bdcb230ec4a60e5206ac293101301ed409ff",
+        "size_in_bytes": 1213
+      },
+      {
+        "_path": "site-packages/grayskull/license/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f7b85296aaa5ed3cf50b63a1fa1b1f2d93b3d6c462b2e09394dc91343aee78d4",
+        "sha256_in_prefix": "f7b85296aaa5ed3cf50b63a1fa1b1f2d93b3d6c462b2e09394dc91343aee78d4",
+        "size_in_bytes": 509
+      },
+      {
+        "_path": "site-packages/grayskull/license/discovery.py",
+        "path_type": "hardlink",
+        "sha256": "cb53fd18cf5c46d6616972ba4dd1b59b079131345aaab82429e216caaf3184cb",
+        "sha256_in_prefix": "cb53fd18cf5c46d6616972ba4dd1b59b079131345aaab82429e216caaf3184cb",
+        "size_in_bytes": 15367
+      },
+      {
+        "_path": "site-packages/grayskull/license/licence_cache.json",
+        "path_type": "hardlink",
+        "sha256": "42f6c4969570efc6a67ad70f2ed65886c1f0311fb01a2f6ea9532968c2ec55c7",
+        "sha256_in_prefix": "42f6c4969570efc6a67ad70f2ed65886c1f0311fb01a2f6ea9532968c2ec55c7",
+        "size_in_bytes": 62729
+      },
+      {
+        "_path": "site-packages/grayskull/main.py",
+        "path_type": "hardlink",
+        "sha256": "5f2849e598d81041ed84d334ec59929652c5392632bac70fd52a5dca96cca99f",
+        "sha256_in_prefix": "5f2849e598d81041ed84d334ec59929652c5392632bac70fd52a5dca96cca99f",
+        "size_in_bytes": 14985
+      },
+      {
+        "_path": "site-packages/grayskull/strategy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/grayskull/strategy/abstract_strategy.py",
+        "path_type": "hardlink",
+        "sha256": "3e71800b0386a663e58d1fc0cd96f5833d34ffc99111ebdb99ec74b33611add8",
+        "sha256_in_prefix": "3e71800b0386a663e58d1fc0cd96f5833d34ffc99111ebdb99ec74b33611add8",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "site-packages/grayskull/strategy/config.yaml",
+        "path_type": "hardlink",
+        "sha256": "58d45964948e7373633ba76017566bb8674744e78d66cdbbb4d43711c92f17df",
+        "sha256_in_prefix": "58d45964948e7373633ba76017566bb8674744e78d66cdbbb4d43711c92f17df",
+        "size_in_bytes": 9140
+      },
+      {
+        "_path": "site-packages/grayskull/strategy/cran.py",
+        "path_type": "hardlink",
+        "sha256": "985fab19a8822fc4cf0a2f0efa61937c586497fd8490ceb259bd51c2010dcdfe",
+        "sha256_in_prefix": "985fab19a8822fc4cf0a2f0efa61937c586497fd8490ceb259bd51c2010dcdfe",
+        "size_in_bytes": 12684
+      },
+      {
+        "_path": "site-packages/grayskull/strategy/parse_poetry_version.py",
+        "path_type": "hardlink",
+        "sha256": "4173439234e9519c50a1556b88ea52b79ed1a38a639b292699646a99d8f1a745",
+        "sha256_in_prefix": "4173439234e9519c50a1556b88ea52b79ed1a38a639b292699646a99d8f1a745",
+        "size_in_bytes": 6437
+      },
+      {
+        "_path": "site-packages/grayskull/strategy/py_base.py",
+        "path_type": "hardlink",
+        "sha256": "450e4898fbd3a5f2a04194594e2a8bb8aa95e2b5c5616d188ba0a402795d7bf4",
+        "sha256_in_prefix": "450e4898fbd3a5f2a04194594e2a8bb8aa95e2b5c5616d188ba0a402795d7bf4",
+        "size_in_bytes": 33537
+      },
+      {
+        "_path": "site-packages/grayskull/strategy/py_toml.py",
+        "path_type": "hardlink",
+        "sha256": "d2e9d07b6a311db25a0e4d2cad6ed295b04b8a6c59d36a3725f77cc7b6446d30",
+        "sha256_in_prefix": "d2e9d07b6a311db25a0e4d2cad6ed295b04b8a6c59d36a3725f77cc7b6446d30",
+        "size_in_bytes": 9716
+      },
+      {
+        "_path": "site-packages/grayskull/strategy/pypi.py",
+        "path_type": "hardlink",
+        "sha256": "7f26aa606e160c508b8488f5175737fd6711275aefbf914c1274749d884c6690",
+        "sha256_in_prefix": "7f26aa606e160c508b8488f5175737fd6711275aefbf914c1274749d884c6690",
+        "size_in_bytes": 26891
+      },
+      {
+        "_path": "site-packages/grayskull/utils.py",
+        "path_type": "hardlink",
+        "sha256": "8f0aae883f9e89fd02d53487bccf2f181fcc65a79888b799b89fe66df4f8e04a",
+        "sha256_in_prefix": "8f0aae883f9e89fd02d53487bccf2f181fcc65a79888b799b89fe66df4f8e04a",
+        "size_in_bytes": 11177
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/__pycache__/_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/base/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/base/__pycache__/factory.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/base/__pycache__/github.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/base/__pycache__/pkg_info.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/base/__pycache__/track_packages.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/cli/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/cli/__pycache__/parser.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/cli/__pycache__/stdout.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/__pycache__/config.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/license/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/license/data/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/license/__pycache__/discovery.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/__pycache__/main.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/strategy/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/strategy/__pycache__/abstract_strategy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/strategy/__pycache__/cran.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/strategy/__pycache__/parse_poetry_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/strategy/__pycache__/py_base.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/strategy/__pycache__/py_toml.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/strategy/__pycache__/pypi.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/grayskull/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/grayskull",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/greyskull",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/conda-grayskull",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/conda-greyskull",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "grayskull",
+  "sha256": "419e1b5d4d346e8c20c08e1981b3f65539e65ccbd03099b30b0161e18fb264ab",
+  "size": 90861,
+  "subdir": "noarch",
+  "timestamp": 1727623981000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/grayskull-2.7.3-pyhd8ed1ab_0.conda",
+  "version": "2.7.3"
+}

@@ -1,0 +1,394 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numba",
+    "numpy",
+    "python >=3.8",
+    "quaternion",
+    "scipy",
+    "spinsfast"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/spherical_functions-2022.4.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/spherical_functions-2022.4.2.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/spherical_functions-2022.4.2.dist-info/LICENSE",
+    "lib/python3.10/site-packages/spherical_functions-2022.4.2.dist-info/METADATA",
+    "lib/python3.10/site-packages/spherical_functions-2022.4.2.dist-info/RECORD",
+    "lib/python3.10/site-packages/spherical_functions-2022.4.2.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/spherical_functions-2022.4.2.dist-info/WHEEL",
+    "lib/python3.10/site-packages/spherical_functions-2022.4.2.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/spherical_functions/SWSH/__init__.py",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_grids/__init__.py",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_grids/algebra.py",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_grids/ufuncs.py",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_grids/utilities.py",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_modes/__init__.py",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_modes/algebra.py",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_modes/derivatives.py",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_modes/ufuncs.py",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_modes/utilities.py",
+    "lib/python3.10/site-packages/spherical_functions/WignerD/WignerDRecursion.py",
+    "lib/python3.10/site-packages/spherical_functions/WignerD/__init__.py",
+    "lib/python3.10/site-packages/spherical_functions/Wigner_coefficients.npy",
+    "lib/python3.10/site-packages/spherical_functions/__init__.py",
+    "lib/python3.10/site-packages/spherical_functions/_generate_coefficients.py",
+    "lib/python3.10/site-packages/spherical_functions/binomial_coefficients.npy",
+    "lib/python3.10/site-packages/spherical_functions/ladder_operator_coefficients.npy",
+    "lib/python3.10/site-packages/spherical_functions/mode_conversions.py",
+    "lib/python3.10/site-packages/spherical_functions/multiplication.py",
+    "lib/python3.10/site-packages/spherical_functions/recursions/__init__.py",
+    "lib/python3.10/site-packages/spherical_functions/recursions/associated_legendre_functions.py",
+    "lib/python3.10/site-packages/spherical_functions/recursions/complex_powers.py",
+    "lib/python3.10/site-packages/spherical_functions/recursions/wigner3j.py",
+    "lib/python3.10/site-packages/spherical_functions/recursions/wignerH.py",
+    "lib/python3.10/site-packages/spherical_functions/SWSH/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_grids/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_grids/__pycache__/algebra.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_grids/__pycache__/ufuncs.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_grids/__pycache__/utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_modes/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_modes/__pycache__/algebra.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_modes/__pycache__/derivatives.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_modes/__pycache__/ufuncs.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/SWSH_modes/__pycache__/utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/WignerD/__pycache__/WignerDRecursion.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/WignerD/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/__pycache__/_generate_coefficients.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/__pycache__/mode_conversions.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/__pycache__/multiplication.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/recursions/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/recursions/__pycache__/associated_legendre_functions.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/recursions/__pycache__/complex_powers.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/recursions/__pycache__/wigner3j.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical_functions/recursions/__pycache__/wignerH.cpython-310.pyc"
+  ],
+  "fn": "spherical_functions-2022.4.2-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/spherical_functions-2022.4.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "9d7fb70d374006c6bb15d85585f2502a",
+  "name": "spherical_functions",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/spherical_functions-2022.4.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/spherical_functions-2022.4.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/spherical_functions-2022.4.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ed935cc403268f6cbefaa33e3bf3d5943c5fbd8699d99274378cca97c144837f",
+        "sha256_in_prefix": "ed935cc403268f6cbefaa33e3bf3d5943c5fbd8699d99274378cca97c144837f",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "site-packages/spherical_functions-2022.4.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4bc2dc2c4395a85e3957f4b8988241f95473588dd9a755e0800fded54ef530c5",
+        "sha256_in_prefix": "4bc2dc2c4395a85e3957f4b8988241f95473588dd9a755e0800fded54ef530c5",
+        "size_in_bytes": 7744
+      },
+      {
+        "_path": "site-packages/spherical_functions-2022.4.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "efb4d76dced801834adb92ad5bf903b06baa1f5a04773bc98e2fb1384f450e02",
+        "sha256_in_prefix": "efb4d76dced801834adb92ad5bf903b06baa1f5a04773bc98e2fb1384f450e02",
+        "size_in_bytes": 4602
+      },
+      {
+        "_path": "site-packages/spherical_functions-2022.4.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/spherical_functions-2022.4.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5867cb19f2d7e37122fd83915d29d3e7887117282edf890ca5c41d9a0984c024",
+        "sha256_in_prefix": "5867cb19f2d7e37122fd83915d29d3e7887117282edf890ca5c41d9a0984c024",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/spherical_functions-2022.4.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3d9a50c3bfb7459d644f18a7fc3832610f113f18f2569da9f85c2023ee65108d",
+        "sha256_in_prefix": "3d9a50c3bfb7459d644f18a7fc3832610f113f18f2569da9f85c2023ee65108d",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/spherical_functions/SWSH/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0ba1ed22f9bbd05bd5f6764bbad8476903c33c4f2deb068bf3638e27a010633c",
+        "sha256_in_prefix": "0ba1ed22f9bbd05bd5f6764bbad8476903c33c4f2deb068bf3638e27a010633c",
+        "size_in_bytes": 13720
+      },
+      {
+        "_path": "site-packages/spherical_functions/SWSH_grids/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5de9d4388846776e871f2d726b4a5c378177f41921237bbe75ba9e6e19fc74d3",
+        "sha256_in_prefix": "5de9d4388846776e871f2d726b4a5c378177f41921237bbe75ba9e6e19fc74d3",
+        "size_in_bytes": 6639
+      },
+      {
+        "_path": "site-packages/spherical_functions/SWSH_grids/algebra.py",
+        "path_type": "hardlink",
+        "sha256": "61c8073c2eeab2a6edb8dfd81fad1b2fb2f608827a32f7f14a1fba79609f9e8c",
+        "sha256_in_prefix": "61c8073c2eeab2a6edb8dfd81fad1b2fb2f608827a32f7f14a1fba79609f9e8c",
+        "size_in_bytes": 6756
+      },
+      {
+        "_path": "site-packages/spherical_functions/SWSH_grids/ufuncs.py",
+        "path_type": "hardlink",
+        "sha256": "7366b0517c90dcbaf634c32db1af92a9116227f9ddc1f28b64e1f6769540199e",
+        "sha256_in_prefix": "7366b0517c90dcbaf634c32db1af92a9116227f9ddc1f28b64e1f6769540199e",
+        "size_in_bytes": 9059
+      },
+      {
+        "_path": "site-packages/spherical_functions/SWSH_grids/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "5229185fa3d94e9de8be3c17c65f766a13cfc92f6624b8c2f37f59f7a892c872",
+        "sha256_in_prefix": "5229185fa3d94e9de8be3c17c65f766a13cfc92f6624b8c2f37f59f7a892c872",
+        "size_in_bytes": 2746
+      },
+      {
+        "_path": "site-packages/spherical_functions/SWSH_modes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4763df577c24299df5bc53bb6308d18f8616a9bc41085ceab2ad61d2804e6750",
+        "sha256_in_prefix": "4763df577c24299df5bc53bb6308d18f8616a9bc41085ceab2ad61d2804e6750",
+        "size_in_bytes": 9513
+      },
+      {
+        "_path": "site-packages/spherical_functions/SWSH_modes/algebra.py",
+        "path_type": "hardlink",
+        "sha256": "ae09ec56b77e2bd72528927619078f75ee4ca74cf2434033f5258ce13da7c478",
+        "sha256_in_prefix": "ae09ec56b77e2bd72528927619078f75ee4ca74cf2434033f5258ce13da7c478",
+        "size_in_bytes": 11783
+      },
+      {
+        "_path": "site-packages/spherical_functions/SWSH_modes/derivatives.py",
+        "path_type": "hardlink",
+        "sha256": "ea62eaec7730e923d78ca1e542c20893152ee07b54b4da7e9fd8eef5b1fbbe60",
+        "sha256_in_prefix": "ea62eaec7730e923d78ca1e542c20893152ee07b54b4da7e9fd8eef5b1fbbe60",
+        "size_in_bytes": 14859
+      },
+      {
+        "_path": "site-packages/spherical_functions/SWSH_modes/ufuncs.py",
+        "path_type": "hardlink",
+        "sha256": "2068e6f16afef536b07d6f072160c81b842875f84c69abe19affca1d504e860c",
+        "sha256_in_prefix": "2068e6f16afef536b07d6f072160c81b842875f84c69abe19affca1d504e860c",
+        "size_in_bytes": 9154
+      },
+      {
+        "_path": "site-packages/spherical_functions/SWSH_modes/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "1692a0a3d2de0bc2d7c653b96fdd769bbe9f309f936083cd00e05b54f05ad451",
+        "sha256_in_prefix": "1692a0a3d2de0bc2d7c653b96fdd769bbe9f309f936083cd00e05b54f05ad451",
+        "size_in_bytes": 5237
+      },
+      {
+        "_path": "site-packages/spherical_functions/WignerD/WignerDRecursion.py",
+        "path_type": "hardlink",
+        "sha256": "93e9c44e0e06d6e4ef01140e70b49bfaa0f8db7dbf5f1fecf15c491dfbe4b1fa",
+        "sha256_in_prefix": "93e9c44e0e06d6e4ef01140e70b49bfaa0f8db7dbf5f1fecf15c491dfbe4b1fa",
+        "size_in_bytes": 17712
+      },
+      {
+        "_path": "site-packages/spherical_functions/WignerD/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3923413c978e9bd25548147ff73482f4fbd0245a9485eba0f929f5e2dcad510a",
+        "sha256_in_prefix": "3923413c978e9bd25548147ff73482f4fbd0245a9485eba0f929f5e2dcad510a",
+        "size_in_bytes": 30163
+      },
+      {
+        "_path": "site-packages/spherical_functions/Wigner_coefficients.npy",
+        "path_type": "hardlink",
+        "sha256": "5cf721e314b4aee4f974446492984cfde97434b8002618c34a62134e2ea0a0e7",
+        "sha256_in_prefix": "5cf721e314b4aee4f974446492984cfde97434b8002618c34a62134e2ea0a0e7",
+        "size_in_bytes": 749400
+      },
+      {
+        "_path": "site-packages/spherical_functions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "60c0e78385cc366a2c5eb84318f1e69b03524c2167cf1046f3b7c6f7b850e4da",
+        "sha256_in_prefix": "60c0e78385cc366a2c5eb84318f1e69b03524c2167cf1046f3b7c6f7b850e4da",
+        "size_in_bytes": 11312
+      },
+      {
+        "_path": "site-packages/spherical_functions/_generate_coefficients.py",
+        "path_type": "hardlink",
+        "sha256": "655d99c00f5d0f70ed3c679e0d76ff7eaff4119ab691361b55ca62e1d3f913e5",
+        "sha256_in_prefix": "655d99c00f5d0f70ed3c679e0d76ff7eaff4119ab691361b55ca62e1d3f913e5",
+        "size_in_bytes": 2537
+      },
+      {
+        "_path": "site-packages/spherical_functions/binomial_coefficients.npy",
+        "path_type": "hardlink",
+        "sha256": "8b0767485af227dd4b693fbb25e31a7f976776e20ae82f2c0e314981fd5e9b7b",
+        "sha256_in_prefix": "8b0767485af227dd4b693fbb25e31a7f976776e20ae82f2c0e314981fd5e9b7b",
+        "size_in_bytes": 17240
+      },
+      {
+        "_path": "site-packages/spherical_functions/ladder_operator_coefficients.npy",
+        "path_type": "hardlink",
+        "sha256": "fb21490d0f40f7437a29935906e7617cbc3c2a0e27d614bc3d100a2db8b9a93f",
+        "sha256_in_prefix": "fb21490d0f40f7437a29935906e7617cbc3c2a0e27d614bc3d100a2db8b9a93f",
+        "size_in_bytes": 17240
+      },
+      {
+        "_path": "site-packages/spherical_functions/mode_conversions.py",
+        "path_type": "hardlink",
+        "sha256": "7514446b5115341296b603b7bb93fc385ad10ba0fa93cf2abea578fc5a49bbdc",
+        "sha256_in_prefix": "7514446b5115341296b603b7bb93fc385ad10ba0fa93cf2abea578fc5a49bbdc",
+        "size_in_bytes": 9583
+      },
+      {
+        "_path": "site-packages/spherical_functions/multiplication.py",
+        "path_type": "hardlink",
+        "sha256": "1ded34b7567a8391ce31f3e0bae506552231222240bc89c1b23fed84f2214075",
+        "sha256_in_prefix": "1ded34b7567a8391ce31f3e0bae506552231222240bc89c1b23fed84f2214075",
+        "size_in_bytes": 4410
+      },
+      {
+        "_path": "site-packages/spherical_functions/recursions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8736305f0e55a042a56c11a3603aa26b17c8f3fc1ae8bae81a41d998f91c9e9b",
+        "sha256_in_prefix": "8736305f0e55a042a56c11a3603aa26b17c8f3fc1ae8bae81a41d998f91c9e9b",
+        "size_in_bytes": 4995
+      },
+      {
+        "_path": "site-packages/spherical_functions/recursions/associated_legendre_functions.py",
+        "path_type": "hardlink",
+        "sha256": "0626f6418038eec0f8857304ba0b0a09a716838ff03cf016d03cfff375be225d",
+        "sha256_in_prefix": "0626f6418038eec0f8857304ba0b0a09a716838ff03cf016d03cfff375be225d",
+        "size_in_bytes": 3328
+      },
+      {
+        "_path": "site-packages/spherical_functions/recursions/complex_powers.py",
+        "path_type": "hardlink",
+        "sha256": "43245d6ec248de31bfb147f67f9dc3738c36f899c15d50650770f97652d5c4a8",
+        "sha256_in_prefix": "43245d6ec248de31bfb147f67f9dc3738c36f899c15d50650770f97652d5c4a8",
+        "size_in_bytes": 2743
+      },
+      {
+        "_path": "site-packages/spherical_functions/recursions/wigner3j.py",
+        "path_type": "hardlink",
+        "sha256": "396c0854dfcf4f82211303fa2fe5bf3942d52eba25b0c6ae07a8c37805531160",
+        "sha256_in_prefix": "396c0854dfcf4f82211303fa2fe5bf3942d52eba25b0c6ae07a8c37805531160",
+        "size_in_bytes": 14029
+      },
+      {
+        "_path": "site-packages/spherical_functions/recursions/wignerH.py",
+        "path_type": "hardlink",
+        "sha256": "196e2d1325822f4dc59b1b2f2aab6d6ae7cd8ad0463d85cb53dfc54c3b0625b3",
+        "sha256_in_prefix": "196e2d1325822f4dc59b1b2f2aab6d6ae7cd8ad0463d85cb53dfc54c3b0625b3",
+        "size_in_bytes": 19158
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/SWSH/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/SWSH_grids/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/SWSH_grids/__pycache__/algebra.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/SWSH_grids/__pycache__/ufuncs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/SWSH_grids/__pycache__/utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/SWSH_modes/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/SWSH_modes/__pycache__/algebra.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/SWSH_modes/__pycache__/derivatives.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/SWSH_modes/__pycache__/ufuncs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/SWSH_modes/__pycache__/utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/WignerD/__pycache__/WignerDRecursion.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/WignerD/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/__pycache__/_generate_coefficients.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/__pycache__/mode_conversions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/__pycache__/multiplication.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/recursions/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/recursions/__pycache__/associated_legendre_functions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/recursions/__pycache__/complex_powers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/recursions/__pycache__/wigner3j.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical_functions/recursions/__pycache__/wignerH.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e4cd950fe6cc8fd1b719c3bad7290bde94e542c78155b3a3d433a22f85ffc1e0",
+  "size": 342730,
+  "subdir": "noarch",
+  "timestamp": 1684825967994,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/spherical_functions-2022.4.2-pyhd8ed1ab_0.conda",
+  "version": "2022.4.2"
+}

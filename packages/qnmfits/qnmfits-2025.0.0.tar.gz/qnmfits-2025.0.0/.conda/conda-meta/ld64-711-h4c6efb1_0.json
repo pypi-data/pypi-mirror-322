@@ -1,0 +1,44 @@
+{
+  "build": "h4c6efb1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "cctools 986.*",
+    "cctools_osx-arm64 986.*"
+  ],
+  "depends": [
+    "ld64_osx-arm64 711 h5e7191b_0",
+    "libllvm18 >=18.1.1,<18.2.0a0"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/ld64-711-h4c6efb1_0",
+  "files": [
+    "bin/ld"
+  ],
+  "fn": "ld64-711-h4c6efb1_0.conda",
+  "license": "APSL-2.0",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/ld64-711-h4c6efb1_0",
+    "type": 1
+  },
+  "md5": "289df626863e8c720c3aa220964378cc",
+  "name": "ld64",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/ld64-711-h4c6efb1_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/ld",
+        "path_type": "softlink",
+        "sha256": "dfa12060dd4a46cf9a7b6bb5aee3aded026fc04e024f36e6f9d5c1934a95558d",
+        "size_in_bytes": 4810160
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "467371e8dbd4fc99f507024c3d10c0ac4a8528286e9507a1f365e26cb90f4df0",
+  "size": 18678,
+  "subdir": "osx-arm64",
+  "timestamp": 1710484665000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/ld64-711-h4c6efb1_0.conda",
+  "version": "711"
+}

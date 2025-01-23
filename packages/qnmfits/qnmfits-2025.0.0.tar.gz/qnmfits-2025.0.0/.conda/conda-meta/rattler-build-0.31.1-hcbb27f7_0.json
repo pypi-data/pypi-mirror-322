@@ -1,0 +1,43 @@
+{
+  "build": "hcbb27f7_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "__osx >=11.0"
+  ],
+  "depends": [
+    "__osx >=11.0"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/rattler-build-0.31.1-hcbb27f7_0",
+  "files": [
+    "bin/rattler-build"
+  ],
+  "fn": "rattler-build-0.31.1-hcbb27f7_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/rattler-build-0.31.1-hcbb27f7_0",
+    "type": 1
+  },
+  "md5": "6320a59f85b496064eed2ab7b99a2a7f",
+  "name": "rattler-build",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/rattler-build-0.31.1-hcbb27f7_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/rattler-build",
+        "path_type": "hardlink",
+        "sha256": "208d2cacf847be004346597a7ffbb5a95caafc591113b4b1265e2b7011445b96",
+        "sha256_in_prefix": "208d2cacf847be004346597a7ffbb5a95caafc591113b4b1265e2b7011445b96",
+        "size_in_bytes": 34570400
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2cd52cdba5c22d325f77db75f0bb91bd575931f25340362f3417cf14347f455a",
+  "size": 9026549,
+  "subdir": "osx-arm64",
+  "timestamp": 1732202049000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/rattler-build-0.31.1-hcbb27f7_0.conda",
+  "version": "0.31.1"
+}

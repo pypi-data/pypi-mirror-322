@@ -1,0 +1,117 @@
+{
+  "build": "py310hbe9552e_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310",
+    "six >=1.13.0"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/pathlib2-2.3.7.post1-py310hbe9552e_3",
+  "files": [
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/LICENSE.rst",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/METADATA",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/RECORD",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/pathlib2/__init__.py",
+    "lib/python3.10/site-packages/pathlib2/__pycache__/__init__.cpython-310.pyc"
+  ],
+  "fn": "pathlib2-2.3.7.post1-py310hbe9552e_3.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/pathlib2-2.3.7.post1-py310hbe9552e_3",
+    "type": 1
+  },
+  "md5": "08240e85bb3052e9285a2a2a3aa24805",
+  "name": "pathlib2",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/pathlib2-2.3.7.post1-py310hbe9552e_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "861f813004a151ac77024ad445794653809ddf8a7572aee7bab18d11df2ba1c6",
+        "sha256_in_prefix": "861f813004a151ac77024ad445794653809ddf8a7572aee7bab18d11df2ba1c6",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9a8145a8e5b600049c527bb816d9997fe09f95ca68e7858b0722e057e7da2df1",
+        "sha256_in_prefix": "9a8145a8e5b600049c527bb816d9997fe09f95ca68e7858b0722e057e7da2df1",
+        "size_in_bytes": 3372
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "62eceacfb27677237241de8a07f92445585d31d0727db592a07c2a3cfe037b0d",
+        "sha256_in_prefix": "62eceacfb27677237241de8a07f92445585d31d0727db592a07c2a3cfe037b0d",
+        "size_in_bytes": 850
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "sha256_in_prefix": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "4ab6c85fcabd0e0f85d7d9578761dd3b7a1e793b78dd595062db2029c20d931c",
+        "sha256_in_prefix": "4ab6c85fcabd0e0f85d7d9578761dd3b7a1e793b78dd595062db2029c20d931c",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b4d3e48ac16218116c3d49c220783adaf485964c7fd4d3bce8877c95b2667c54",
+        "sha256_in_prefix": "b4d3e48ac16218116c3d49c220783adaf485964c7fd4d3bce8877c95b2667c54",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pathlib2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e4d77a41ce5f238da75f49e925523ee4dc27d652a59aa071c874288ffc290903",
+        "sha256_in_prefix": "e4d77a41ce5f238da75f49e925523ee4dc27d652a59aa071c874288ffc290903",
+        "size_in_bytes": 63938
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pathlib2/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "51fea81e16f31e60af9a7fc5eda7a16012ad543b2da711d58ed14e371573f6c1",
+        "sha256_in_prefix": "51fea81e16f31e60af9a7fc5eda7a16012ad543b2da711d58ed14e371573f6c1",
+        "size_in_bytes": 49482
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4b9227f004ae8755a26a8a575303ded478fc3f85176a0fc93d80130906215564",
+  "size": 39665,
+  "subdir": "osx-arm64",
+  "timestamp": 1695464437433,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pathlib2-2.3.7.post1-py310hbe9552e_3.conda",
+  "version": "2.3.7.post1"
+}

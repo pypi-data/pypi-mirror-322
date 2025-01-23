@@ -1,0 +1,377 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numba",
+    "numpy",
+    "python >=3.8",
+    "quaternionic >=1.0",
+    "scipy"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/spherical-1.0.13-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/spherical-1.0.13.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/spherical-1.0.13.dist-info/LICENSE",
+    "lib/python3.10/site-packages/spherical-1.0.13.dist-info/METADATA",
+    "lib/python3.10/site-packages/spherical-1.0.13.dist-info/RECORD",
+    "lib/python3.10/site-packages/spherical-1.0.13.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/spherical-1.0.13.dist-info/WHEEL",
+    "lib/python3.10/site-packages/spherical-1.0.13.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/spherical-1.0.13.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/spherical/__init__.py",
+    "lib/python3.10/site-packages/spherical/grid/__init__.py",
+    "lib/python3.10/site-packages/spherical/grid/algebra.py",
+    "lib/python3.10/site-packages/spherical/grid/ufuncs.py",
+    "lib/python3.10/site-packages/spherical/grid/utilities.py",
+    "lib/python3.10/site-packages/spherical/modes/__init__.py",
+    "lib/python3.10/site-packages/spherical/modes/algebra.py",
+    "lib/python3.10/site-packages/spherical/modes/derivatives.py",
+    "lib/python3.10/site-packages/spherical/modes/rotate.py",
+    "lib/python3.10/site-packages/spherical/modes/ufuncs.py",
+    "lib/python3.10/site-packages/spherical/modes/utilities.py",
+    "lib/python3.10/site-packages/spherical/multiplication.py",
+    "lib/python3.10/site-packages/spherical/recursions/__init__.py",
+    "lib/python3.10/site-packages/spherical/recursions/complex_powers.py",
+    "lib/python3.10/site-packages/spherical/recursions/wigner3j.py",
+    "lib/python3.10/site-packages/spherical/recursions/wignerH.py",
+    "lib/python3.10/site-packages/spherical/utilities/__init__.py",
+    "lib/python3.10/site-packages/spherical/utilities/indexing.py",
+    "lib/python3.10/site-packages/spherical/utilities/mode_conversions.py",
+    "lib/python3.10/site-packages/spherical/utilities/operators.py",
+    "lib/python3.10/site-packages/spherical/wigner.py",
+    "lib/python3.10/site-packages/spherical/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/grid/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/grid/__pycache__/algebra.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/grid/__pycache__/ufuncs.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/grid/__pycache__/utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/modes/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/modes/__pycache__/algebra.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/modes/__pycache__/derivatives.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/modes/__pycache__/rotate.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/modes/__pycache__/ufuncs.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/modes/__pycache__/utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/__pycache__/multiplication.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/recursions/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/recursions/__pycache__/complex_powers.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/recursions/__pycache__/wigner3j.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/recursions/__pycache__/wignerH.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/utilities/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/utilities/__pycache__/indexing.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/utilities/__pycache__/mode_conversions.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/utilities/__pycache__/operators.cpython-310.pyc",
+    "lib/python3.10/site-packages/spherical/__pycache__/wigner.cpython-310.pyc"
+  ],
+  "fn": "spherical-1.0.13-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/spherical-1.0.13-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "4c01324f60568dca1166a3baf31033c9",
+  "name": "spherical",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/spherical-1.0.13-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/spherical-1.0.13.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/spherical-1.0.13.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d19b4cc7b956616e21803d1894dfed22c5cdaf8433e14b262bf6b462cc748f4e",
+        "sha256_in_prefix": "d19b4cc7b956616e21803d1894dfed22c5cdaf8433e14b262bf6b462cc748f4e",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "site-packages/spherical-1.0.13.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ebeb3bd473fb89558ae2cdb7c2146f4a848362c112114f964fcc84e8da06968c",
+        "sha256_in_prefix": "ebeb3bd473fb89558ae2cdb7c2146f4a848362c112114f964fcc84e8da06968c",
+        "size_in_bytes": 6367
+      },
+      {
+        "_path": "site-packages/spherical-1.0.13.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "17462ef393e5dbd9eb37f19bcc2b96f835b6f73f64d783beaa2483dd311679ec",
+        "sha256_in_prefix": "17462ef393e5dbd9eb37f19bcc2b96f835b6f73f64d783beaa2483dd311679ec",
+        "size_in_bytes": 3710
+      },
+      {
+        "_path": "site-packages/spherical-1.0.13.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/spherical-1.0.13.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/spherical-1.0.13.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "55a662f2f840e5762b0b889abebb9c25ee45de8ffd8f148a53897b8788947a1a",
+        "sha256_in_prefix": "55a662f2f840e5762b0b889abebb9c25ee45de8ffd8f148a53897b8788947a1a",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/spherical-1.0.13.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0f51c81bb51ddd3609cf94aff60f5aa04e154132c4f90154fb210a399aed040b",
+        "sha256_in_prefix": "0f51c81bb51ddd3609cf94aff60f5aa04e154132c4f90154fb210a399aed040b",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/spherical/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "41bfdb4b6f2c01e09e4c438cacca72d81bb7521e229b3c4e3e3a80541e669dd3",
+        "sha256_in_prefix": "41bfdb4b6f2c01e09e4c438cacca72d81bb7521e229b3c4e3e3a80541e669dd3",
+        "size_in_bytes": 2164
+      },
+      {
+        "_path": "site-packages/spherical/grid/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "22309a125e6f9d1479a681f724bfd6e0081f8e0e8f2fa10a6c3e3adf7d8cd7d6",
+        "sha256_in_prefix": "22309a125e6f9d1479a681f724bfd6e0081f8e0e8f2fa10a6c3e3adf7d8cd7d6",
+        "size_in_bytes": 6804
+      },
+      {
+        "_path": "site-packages/spherical/grid/algebra.py",
+        "path_type": "hardlink",
+        "sha256": "e3b29092d975e6b57503f4093536490886ddc03a60f20584b0669e2f3b9b40c9",
+        "sha256_in_prefix": "e3b29092d975e6b57503f4093536490886ddc03a60f20584b0669e2f3b9b40c9",
+        "size_in_bytes": 6963
+      },
+      {
+        "_path": "site-packages/spherical/grid/ufuncs.py",
+        "path_type": "hardlink",
+        "sha256": "1f42b012b9bc53897543d0c6057bd0d8dcf14502afc6126cb51a5b1d2befe985",
+        "sha256_in_prefix": "1f42b012b9bc53897543d0c6057bd0d8dcf14502afc6126cb51a5b1d2befe985",
+        "size_in_bytes": 9277
+      },
+      {
+        "_path": "site-packages/spherical/grid/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "dd1421a23e9cda0216c9a64d07962c095ffb897c2026d14712e2136f3c8baed7",
+        "sha256_in_prefix": "dd1421a23e9cda0216c9a64d07962c095ffb897c2026d14712e2136f3c8baed7",
+        "size_in_bytes": 2719
+      },
+      {
+        "_path": "site-packages/spherical/modes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "33156975e835e8613cca8b909fe4e434a4294a84dd55c5e62bf39dff0ac6c423",
+        "sha256_in_prefix": "33156975e835e8613cca8b909fe4e434a4294a84dd55c5e62bf39dff0ac6c423",
+        "size_in_bytes": 10225
+      },
+      {
+        "_path": "site-packages/spherical/modes/algebra.py",
+        "path_type": "hardlink",
+        "sha256": "99ffbac7b379a09c113e536d9e6a3635c656c399680a842a000fa44319b714cc",
+        "sha256_in_prefix": "99ffbac7b379a09c113e536d9e6a3635c656c399680a842a000fa44319b714cc",
+        "size_in_bytes": 12052
+      },
+      {
+        "_path": "site-packages/spherical/modes/derivatives.py",
+        "path_type": "hardlink",
+        "sha256": "8a9f3f671310348164e10cbfaef572d7daf71847e90d156bab38c4927cdf49ba",
+        "sha256_in_prefix": "8a9f3f671310348164e10cbfaef572d7daf71847e90d156bab38c4927cdf49ba",
+        "size_in_bytes": 15793
+      },
+      {
+        "_path": "site-packages/spherical/modes/rotate.py",
+        "path_type": "hardlink",
+        "sha256": "23e3f729d67af0d67afa3d18e2294748a795d50e6894e9a0ff1ce98241b8ad2b",
+        "sha256_in_prefix": "23e3f729d67af0d67afa3d18e2294748a795d50e6894e9a0ff1ce98241b8ad2b",
+        "size_in_bytes": 3075
+      },
+      {
+        "_path": "site-packages/spherical/modes/ufuncs.py",
+        "path_type": "hardlink",
+        "sha256": "0f79254535eaa07349aa3a62324e50a13c3499743797f330133b474143ecb73d",
+        "sha256_in_prefix": "0f79254535eaa07349aa3a62324e50a13c3499743797f330133b474143ecb73d",
+        "size_in_bytes": 9262
+      },
+      {
+        "_path": "site-packages/spherical/modes/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "81a5a69b7b417694655acc85b9dea2b92e527c7a6e4885197dc13f907bda9040",
+        "sha256_in_prefix": "81a5a69b7b417694655acc85b9dea2b92e527c7a6e4885197dc13f907bda9040",
+        "size_in_bytes": 5804
+      },
+      {
+        "_path": "site-packages/spherical/multiplication.py",
+        "path_type": "hardlink",
+        "sha256": "f0459f0fd1ac85db1e9fa5be32b7f2fbde1d8af6a4084c4f67d79f80e9f3dd27",
+        "sha256_in_prefix": "f0459f0fd1ac85db1e9fa5be32b7f2fbde1d8af6a4084c4f67d79f80e9f3dd27",
+        "size_in_bytes": 5403
+      },
+      {
+        "_path": "site-packages/spherical/recursions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f0a7a4e896a4b976a3a21e83e5dcee038494ade78100d07c9902e794f7767e05",
+        "sha256_in_prefix": "f0a7a4e896a4b976a3a21e83e5dcee038494ade78100d07c9902e794f7767e05",
+        "size_in_bytes": 5119
+      },
+      {
+        "_path": "site-packages/spherical/recursions/complex_powers.py",
+        "path_type": "hardlink",
+        "sha256": "6580e96e06f0a387ccb76703928bc8ac02e669ac67d16e8145721d91c3888a89",
+        "sha256_in_prefix": "6580e96e06f0a387ccb76703928bc8ac02e669ac67d16e8145721d91c3888a89",
+        "size_in_bytes": 2873
+      },
+      {
+        "_path": "site-packages/spherical/recursions/wigner3j.py",
+        "path_type": "hardlink",
+        "sha256": "9f26718aa4f09d360180df548c65250cde3910a2b8a4af51ab240d012c210490",
+        "sha256_in_prefix": "9f26718aa4f09d360180df548c65250cde3910a2b8a4af51ab240d012c210490",
+        "size_in_bytes": 14019
+      },
+      {
+        "_path": "site-packages/spherical/recursions/wignerH.py",
+        "path_type": "hardlink",
+        "sha256": "1fd09933526eddaa2535259efb4ed51ccfcfb87b544889e7e892813fd03d2517",
+        "sha256_in_prefix": "1fd09933526eddaa2535259efb4ed51ccfcfb87b544889e7e892813fd03d2517",
+        "size_in_bytes": 11291
+      },
+      {
+        "_path": "site-packages/spherical/utilities/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/spherical/utilities/indexing.py",
+        "path_type": "hardlink",
+        "sha256": "9912a52bb261f2fd78062e603d37ab0776aba55fe7e490f294578e6c1e83746b",
+        "sha256_in_prefix": "9912a52bb261f2fd78062e603d37ab0776aba55fe7e490f294578e6c1e83746b",
+        "size_in_bytes": 15258
+      },
+      {
+        "_path": "site-packages/spherical/utilities/mode_conversions.py",
+        "path_type": "hardlink",
+        "sha256": "11e331014a5d21ab1b114ec1c400dd08c924b7ccc02b5915070d200a71ce8ec8",
+        "sha256_in_prefix": "11e331014a5d21ab1b114ec1c400dd08c924b7ccc02b5915070d200a71ce8ec8",
+        "size_in_bytes": 2321
+      },
+      {
+        "_path": "site-packages/spherical/utilities/operators.py",
+        "path_type": "hardlink",
+        "sha256": "51b13167afd7c984137ccaac04358a292d36af8e26beec6a1aa5b84955003331",
+        "sha256_in_prefix": "51b13167afd7c984137ccaac04358a292d36af8e26beec6a1aa5b84955003331",
+        "size_in_bytes": 7453
+      },
+      {
+        "_path": "site-packages/spherical/wigner.py",
+        "path_type": "hardlink",
+        "sha256": "2bb7a78c8f8419149da0fbf5d978e8a92bcd42ed846fb2326131b0d0412acc22",
+        "sha256_in_prefix": "2bb7a78c8f8419149da0fbf5d978e8a92bcd42ed846fb2326131b0d0412acc22",
+        "size_in_bytes": 41842
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/grid/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/grid/__pycache__/algebra.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/grid/__pycache__/ufuncs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/grid/__pycache__/utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/modes/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/modes/__pycache__/algebra.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/modes/__pycache__/derivatives.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/modes/__pycache__/rotate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/modes/__pycache__/ufuncs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/modes/__pycache__/utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/__pycache__/multiplication.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/recursions/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/recursions/__pycache__/complex_powers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/recursions/__pycache__/wigner3j.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/recursions/__pycache__/wignerH.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/utilities/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/utilities/__pycache__/indexing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/utilities/__pycache__/mode_conversions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/utilities/__pycache__/operators.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spherical/__pycache__/wigner.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "af8a4c1a5c58965af06557cae59874cd33f5903e7421a5d33ace30f8b7deb1c4",
+  "size": 44300,
+  "subdir": "noarch",
+  "timestamp": 1676025509575,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/spherical-1.0.13-pyhd8ed1ab_0.conda",
+  "version": "1.0.13"
+}

@@ -1,0 +1,1165 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "h5py",
+    "inflection",
+    "numba",
+    "numpy",
+    "pandas",
+    "pyjuliacall >=0.9.20",
+    "python >=3.9",
+    "pytz",
+    "quaternionic >=1.0",
+    "requests",
+    "scipy",
+    "spherical >=1.0",
+    "tqdm",
+    "urllib3"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/sxs-2024.0.27-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/sxs-2024.0.27.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/sxs-2024.0.27.dist-info/METADATA",
+    "lib/python3.10/site-packages/sxs-2024.0.27.dist-info/RECORD",
+    "lib/python3.10/site-packages/sxs-2024.0.27.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/sxs-2024.0.27.dist-info/WHEEL",
+    "lib/python3.10/site-packages/sxs-2024.0.27.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/sxs-2024.0.27.dist-info/licenses/LICENSE",
+    "lib/python3.10/site-packages/sxs/__init__.py",
+    "lib/python3.10/site-packages/sxs/__version__.py",
+    "lib/python3.10/site-packages/sxs/caltechdata/__init__.py",
+    "lib/python3.10/site-packages/sxs/caltechdata/catalog.py",
+    "lib/python3.10/site-packages/sxs/caltechdata/login.py",
+    "lib/python3.10/site-packages/sxs/catalog/__init__.py",
+    "lib/python3.10/site-packages/sxs/catalog/catalog.py",
+    "lib/python3.10/site-packages/sxs/catalog/create.py",
+    "lib/python3.10/site-packages/sxs/catalog/description.py",
+    "lib/python3.10/site-packages/sxs/handlers.py",
+    "lib/python3.10/site-packages/sxs/horizons/__init__.py",
+    "lib/python3.10/site-packages/sxs/horizons/spec_horizons_h5.py",
+    "lib/python3.10/site-packages/sxs/horizons/xor_multishuffle_bzip2.py",
+    "lib/python3.10/site-packages/sxs/julia/GWFrames.py",
+    "lib/python3.10/site-packages/sxs/julia/__init__.py",
+    "lib/python3.10/site-packages/sxs/juliapkg.json",
+    "lib/python3.10/site-packages/sxs/metadata/__init__.py",
+    "lib/python3.10/site-packages/sxs/metadata/metadata.py",
+    "lib/python3.10/site-packages/sxs/simulations/__init__.py",
+    "lib/python3.10/site-packages/sxs/simulations/local.py",
+    "lib/python3.10/site-packages/sxs/simulations/simulation.py",
+    "lib/python3.10/site-packages/sxs/simulations/simulations.py",
+    "lib/python3.10/site-packages/sxs/time_series.py",
+    "lib/python3.10/site-packages/sxs/utilities/__init__.py",
+    "lib/python3.10/site-packages/sxs/utilities/bitwise.py",
+    "lib/python3.10/site-packages/sxs/utilities/decimation/__init__.py",
+    "lib/python3.10/site-packages/sxs/utilities/decimation/greedy_spline.py",
+    "lib/python3.10/site-packages/sxs/utilities/decimation/linear_bisection.py",
+    "lib/python3.10/site-packages/sxs/utilities/decimation/peak_greed.py",
+    "lib/python3.10/site-packages/sxs/utilities/decimation/suppression.py",
+    "lib/python3.10/site-packages/sxs/utilities/dicts.py",
+    "lib/python3.10/site-packages/sxs/utilities/downloads.py",
+    "lib/python3.10/site-packages/sxs/utilities/files.py",
+    "lib/python3.10/site-packages/sxs/utilities/formats.py",
+    "lib/python3.10/site-packages/sxs/utilities/inspire.py",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/__init__.py",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/comparisons.py",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/conversion.py",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/dataset.py",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/horizons.py",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/metadata.py",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/waveform_amp_phase.py",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/waveforms.py",
+    "lib/python3.10/site-packages/sxs/utilities/monotonicity.py",
+    "lib/python3.10/site-packages/sxs/utilities/pretty_print.py",
+    "lib/python3.10/site-packages/sxs/utilities/references/__init__.py",
+    "lib/python3.10/site-packages/sxs/utilities/references/ads.py",
+    "lib/python3.10/site-packages/sxs/utilities/references/arxiv.py",
+    "lib/python3.10/site-packages/sxs/utilities/references/fairchild_report.py",
+    "lib/python3.10/site-packages/sxs/utilities/references/inspire.py",
+    "lib/python3.10/site-packages/sxs/utilities/references/journal_abbreviations.py",
+    "lib/python3.10/site-packages/sxs/utilities/references/references.py",
+    "lib/python3.10/site-packages/sxs/utilities/select.py",
+    "lib/python3.10/site-packages/sxs/utilities/smooth_functions.py",
+    "lib/python3.10/site-packages/sxs/utilities/sxs_directories.py",
+    "lib/python3.10/site-packages/sxs/utilities/sxs_identifiers.py",
+    "lib/python3.10/site-packages/sxs/utilities/url.py",
+    "lib/python3.10/site-packages/sxs/waveforms/__init__.py",
+    "lib/python3.10/site-packages/sxs/waveforms/alignment.py",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__init__.py",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/grathena.py",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/lvc.py",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/nrar.py",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/rotating_paired_diff_multishuffle_bzip2.py",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/rotating_paired_xor_multishuffle_bzip2.py",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/spectre_cce_v1.py",
+    "lib/python3.10/site-packages/sxs/waveforms/memory.py",
+    "lib/python3.10/site-packages/sxs/waveforms/mode_utilities.py",
+    "lib/python3.10/site-packages/sxs/waveforms/transformations.py",
+    "lib/python3.10/site-packages/sxs/waveforms/waveform_grid.py",
+    "lib/python3.10/site-packages/sxs/waveforms/waveform_mixin.py",
+    "lib/python3.10/site-packages/sxs/waveforms/waveform_modes.py",
+    "lib/python3.10/site-packages/sxs/waveforms/waveform_signal.py",
+    "lib/python3.10/site-packages/sxs/zenodo/__init__.py",
+    "lib/python3.10/site-packages/sxs/zenodo/api/__init__.py",
+    "lib/python3.10/site-packages/sxs/zenodo/api/deposit.py",
+    "lib/python3.10/site-packages/sxs/zenodo/api/login.py",
+    "lib/python3.10/site-packages/sxs/zenodo/api/records.py",
+    "lib/python3.10/site-packages/sxs/zenodo/catalog.py",
+    "lib/python3.10/site-packages/sxs/zenodo/creators.py",
+    "lib/python3.10/site-packages/sxs/zenodo/simannex.py",
+    "lib/python3.10/site-packages/sxs/zenodo/surrogatemodeling.py",
+    "lib/python3.10/site-packages/sxs/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/__pycache__/__version__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/caltechdata/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/caltechdata/__pycache__/catalog.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/caltechdata/__pycache__/login.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/catalog/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/catalog/__pycache__/catalog.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/catalog/__pycache__/create.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/catalog/__pycache__/description.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/__pycache__/handlers.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/horizons/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/horizons/__pycache__/spec_horizons_h5.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/horizons/__pycache__/xor_multishuffle_bzip2.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/julia/__pycache__/GWFrames.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/julia/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/metadata/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/metadata/__pycache__/metadata.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/simulations/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/simulations/__pycache__/local.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/simulations/__pycache__/simulation.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/simulations/__pycache__/simulations.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/__pycache__/time_series.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/bitwise.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/decimation/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/decimation/__pycache__/greedy_spline.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/decimation/__pycache__/linear_bisection.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/decimation/__pycache__/peak_greed.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/decimation/__pycache__/suppression.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/dicts.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/downloads.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/files.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/formats.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/inspire.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/comparisons.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/conversion.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/dataset.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/horizons.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/metadata.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/waveform_amp_phase.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/waveforms.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/monotonicity.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/pretty_print.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/ads.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/arxiv.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/fairchild_report.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/inspire.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/journal_abbreviations.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/references.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/select.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/smooth_functions.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/sxs_directories.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/sxs_identifiers.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/utilities/__pycache__/url.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/__pycache__/alignment.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/grathena.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/lvc.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/nrar.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/rotating_paired_diff_multishuffle_bzip2.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/rotating_paired_xor_multishuffle_bzip2.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/spectre_cce_v1.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/__pycache__/memory.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/__pycache__/mode_utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/__pycache__/transformations.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/__pycache__/waveform_grid.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/__pycache__/waveform_mixin.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/__pycache__/waveform_modes.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/waveforms/__pycache__/waveform_signal.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/zenodo/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/zenodo/api/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/zenodo/api/__pycache__/deposit.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/zenodo/api/__pycache__/login.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/zenodo/api/__pycache__/records.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/zenodo/__pycache__/catalog.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/zenodo/__pycache__/creators.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/zenodo/__pycache__/simannex.cpython-310.pyc",
+    "lib/python3.10/site-packages/sxs/zenodo/__pycache__/surrogatemodeling.cpython-310.pyc"
+  ],
+  "fn": "sxs-2024.0.27-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/sxs-2024.0.27-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "c7966369c12fd233e44a7764beb661a6",
+  "name": "sxs",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/sxs-2024.0.27-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/sxs-2024.0.27.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/sxs-2024.0.27.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "232e2f48a3cbd519fc328e10af2189e60a240e5a07edd2d4fa3ba02efe9f17db",
+        "sha256_in_prefix": "232e2f48a3cbd519fc328e10af2189e60a240e5a07edd2d4fa3ba02efe9f17db",
+        "size_in_bytes": 9248
+      },
+      {
+        "_path": "site-packages/sxs-2024.0.27.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "625cba93bc8024428f30f0fc12a9ef83ca8e3eeb5ae727138c798a14f15a4d3b",
+        "sha256_in_prefix": "625cba93bc8024428f30f0fc12a9ef83ca8e3eeb5ae727138c798a14f15a4d3b",
+        "size_in_bytes": 12516
+      },
+      {
+        "_path": "site-packages/sxs-2024.0.27.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/sxs-2024.0.27.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/sxs-2024.0.27.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d7f1b6a10a6dc2009209f539a1ff34583ff95ef81bb229aa59fa5ac6212a63b9",
+        "sha256_in_prefix": "d7f1b6a10a6dc2009209f539a1ff34583ff95ef81bb229aa59fa5ac6212a63b9",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/sxs-2024.0.27.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a6d54e7799bb2c3339645d31df67316fc73635de4d0e6021cba0d7ef1b7fed50",
+        "sha256_in_prefix": "a6d54e7799bb2c3339645d31df67316fc73635de4d0e6021cba0d7ef1b7fed50",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "site-packages/sxs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "85bc9db17591f3cb0588a1313c9d4d1d6184bd645b6c906349cd62ad23182a06",
+        "sha256_in_prefix": "85bc9db17591f3cb0588a1313c9d4d1d6184bd645b6c906349cd62ad23182a06",
+        "size_in_bytes": 2623
+      },
+      {
+        "_path": "site-packages/sxs/__version__.py",
+        "path_type": "hardlink",
+        "sha256": "37c33173548df42fe6e04e850fbbcd7cf239e7101b69a46f36124c6b568abd17",
+        "sha256_in_prefix": "37c33173548df42fe6e04e850fbbcd7cf239e7101b69a46f36124c6b568abd17",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "site-packages/sxs/caltechdata/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3e457c8188898ab107a7a89214e8d02396c8ce5fb7f53242085bdacfb566328",
+        "sha256_in_prefix": "b3e457c8188898ab107a7a89214e8d02396c8ce5fb7f53242085bdacfb566328",
+        "size_in_bytes": 14761
+      },
+      {
+        "_path": "site-packages/sxs/caltechdata/catalog.py",
+        "path_type": "hardlink",
+        "sha256": "1369f2b2d09a3192cac5394b81f6dfa4691c91f90bc88ce19f761e108de74187",
+        "sha256_in_prefix": "1369f2b2d09a3192cac5394b81f6dfa4691c91f90bc88ce19f761e108de74187",
+        "size_in_bytes": 4914
+      },
+      {
+        "_path": "site-packages/sxs/caltechdata/login.py",
+        "path_type": "hardlink",
+        "sha256": "25a3726b05cb4aadfb475a9b18cd1fb936df5e66c71e78b113353b9e1c0019e1",
+        "sha256_in_prefix": "25a3726b05cb4aadfb475a9b18cd1fb936df5e66c71e78b113353b9e1c0019e1",
+        "size_in_bytes": 21546
+      },
+      {
+        "_path": "site-packages/sxs/catalog/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f7e5933133c39aaaa41722073ad11b3c0e9eb579b7fd1491acb5af1ed2eb8cb8",
+        "sha256_in_prefix": "f7e5933133c39aaaa41722073ad11b3c0e9eb579b7fd1491acb5af1ed2eb8cb8",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "site-packages/sxs/catalog/catalog.py",
+        "path_type": "hardlink",
+        "sha256": "dec50d4441fe7b2370b630555bd30a8a1fc1ea11e8a0f8ff235398c4ffda75aa",
+        "sha256_in_prefix": "dec50d4441fe7b2370b630555bd30a8a1fc1ea11e8a0f8ff235398c4ffda75aa",
+        "size_in_bytes": 26804
+      },
+      {
+        "_path": "site-packages/sxs/catalog/create.py",
+        "path_type": "hardlink",
+        "sha256": "28bdf31e58dd2c00de2df4c33134a47158c81629bdd9895cfb3884be989f9445",
+        "sha256_in_prefix": "28bdf31e58dd2c00de2df4c33134a47158c81629bdd9895cfb3884be989f9445",
+        "size_in_bytes": 4734
+      },
+      {
+        "_path": "site-packages/sxs/catalog/description.py",
+        "path_type": "hardlink",
+        "sha256": "e1e1cc75ee2818da7af634665c2b1fac8609e162b91d88181605f217986d2c33",
+        "sha256_in_prefix": "e1e1cc75ee2818da7af634665c2b1fac8609e162b91d88181605f217986d2c33",
+        "size_in_bytes": 10830
+      },
+      {
+        "_path": "site-packages/sxs/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "35cd7f6832a6ff00c78367084c8fe58dba94e15456a7043b7dd832ddcd57704f",
+        "sha256_in_prefix": "35cd7f6832a6ff00c78367084c8fe58dba94e15456a7043b7dd832ddcd57704f",
+        "size_in_bytes": 17531
+      },
+      {
+        "_path": "site-packages/sxs/horizons/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7fb65f923f7eafee0839af8b16eaaf0a1c4b0cccfa9cd8808ec8d7086fee5b0d",
+        "sha256_in_prefix": "7fb65f923f7eafee0839af8b16eaaf0a1c4b0cccfa9cd8808ec8d7086fee5b0d",
+        "size_in_bytes": 19194
+      },
+      {
+        "_path": "site-packages/sxs/horizons/spec_horizons_h5.py",
+        "path_type": "hardlink",
+        "sha256": "eb7708197b8211b256ae446edff9a32f6826b2c5ad4386b10539a0ff0a3fd36d",
+        "sha256_in_prefix": "eb7708197b8211b256ae446edff9a32f6826b2c5ad4386b10539a0ff0a3fd36d",
+        "size_in_bytes": 3642
+      },
+      {
+        "_path": "site-packages/sxs/horizons/xor_multishuffle_bzip2.py",
+        "path_type": "hardlink",
+        "sha256": "cb800abb198bba3f0ad6991d848a12cc4346c8cbb8ba1a623eb061f978acbcae",
+        "sha256_in_prefix": "cb800abb198bba3f0ad6991d848a12cc4346c8cbb8ba1a623eb061f978acbcae",
+        "size_in_bytes": 6536
+      },
+      {
+        "_path": "site-packages/sxs/julia/GWFrames.py",
+        "path_type": "hardlink",
+        "sha256": "e3b1fd5207dfee574606e8e25137000d3ddbe0c4b152daa66a3bd202923dd560",
+        "sha256_in_prefix": "e3b1fd5207dfee574606e8e25137000d3ddbe0c4b152daa66a3bd202923dd560",
+        "size_in_bytes": 2892
+      },
+      {
+        "_path": "site-packages/sxs/julia/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b922cfff17d4f86646ec83b9becd13124091e0b1fc68160c17ef39db00d8de42",
+        "sha256_in_prefix": "b922cfff17d4f86646ec83b9becd13124091e0b1fc68160c17ef39db00d8de42",
+        "size_in_bytes": 3490
+      },
+      {
+        "_path": "site-packages/sxs/juliapkg.json",
+        "path_type": "hardlink",
+        "sha256": "862807d540eedf42bf3cdebea3b940cf48f5c6381812208260101cf886b0d48c",
+        "sha256_in_prefix": "862807d540eedf42bf3cdebea3b940cf48f5c6381812208260101cf886b0d48c",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "site-packages/sxs/metadata/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "282bc9f427f55a1219a7ecf6f14cdaaca726500cd5d813afda0a8a8a8ac82e3a",
+        "sha256_in_prefix": "282bc9f427f55a1219a7ecf6f14cdaaca726500cd5d813afda0a8a8a8ac82e3a",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "site-packages/sxs/metadata/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "cba5fb2dcb092a26458c13d3c111c6b6c4f6b877f6b34af4386fc41a30f6ee91",
+        "sha256_in_prefix": "cba5fb2dcb092a26458c13d3c111c6b6c4f6b877f6b34af4386fc41a30f6ee91",
+        "size_in_bytes": 27663
+      },
+      {
+        "_path": "site-packages/sxs/simulations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1ab6729b43c74d42c383f8721662123730dfa952f3fe1428f9d8db81e719b39e",
+        "sha256_in_prefix": "1ab6729b43c74d42c383f8721662123730dfa952f3fe1428f9d8db81e719b39e",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "site-packages/sxs/simulations/local.py",
+        "path_type": "hardlink",
+        "sha256": "084bbc3f3ba6341d7e240d39338b58496fd4655ae574acce0794ff237a455a5b",
+        "sha256_in_prefix": "084bbc3f3ba6341d7e240d39338b58496fd4655ae574acce0794ff237a455a5b",
+        "size_in_bytes": 5789
+      },
+      {
+        "_path": "site-packages/sxs/simulations/simulation.py",
+        "path_type": "hardlink",
+        "sha256": "a52c02f36a1ea1a413b364c1eee24b974a5270de9bf408077664f17ff891281e",
+        "sha256_in_prefix": "a52c02f36a1ea1a413b364c1eee24b974a5270de9bf408077664f17ff891281e",
+        "size_in_bytes": 34161
+      },
+      {
+        "_path": "site-packages/sxs/simulations/simulations.py",
+        "path_type": "hardlink",
+        "sha256": "62db542b759353bf3a3ab1ca316c9af26cae3269a331b6b37c856cec0f053e59",
+        "sha256_in_prefix": "62db542b759353bf3a3ab1ca316c9af26cae3269a331b6b37c856cec0f053e59",
+        "size_in_bytes": 23781
+      },
+      {
+        "_path": "site-packages/sxs/time_series.py",
+        "path_type": "hardlink",
+        "sha256": "38a68b83cb45cabb4a71e7fbf74d2b8be6b40ba03cc0ac40ebc2a8bd95ef1fa2",
+        "sha256_in_prefix": "38a68b83cb45cabb4a71e7fbf74d2b8be6b40ba03cc0ac40ebc2a8bd95ef1fa2",
+        "size_in_bytes": 41081
+      },
+      {
+        "_path": "site-packages/sxs/utilities/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5924ad96a9637e042178cc4719fba87d27392dd980486bcedc534eddfff3693d",
+        "sha256_in_prefix": "5924ad96a9637e042178cc4719fba87d27392dd980486bcedc534eddfff3693d",
+        "size_in_bytes": 4806
+      },
+      {
+        "_path": "site-packages/sxs/utilities/bitwise.py",
+        "path_type": "hardlink",
+        "sha256": "1bd64d620c0341186ae706c37fea761dc52a9043ff2110e24285d6e0ac94d7b9",
+        "sha256_in_prefix": "1bd64d620c0341186ae706c37fea761dc52a9043ff2110e24285d6e0ac94d7b9",
+        "size_in_bytes": 13205
+      },
+      {
+        "_path": "site-packages/sxs/utilities/decimation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "684d69f8d2f07dde672388ba3ce4fb4edb64d2467645416e65fd168e6fb85b5d",
+        "sha256_in_prefix": "684d69f8d2f07dde672388ba3ce4fb4edb64d2467645416e65fd168e6fb85b5d",
+        "size_in_bytes": 1336
+      },
+      {
+        "_path": "site-packages/sxs/utilities/decimation/greedy_spline.py",
+        "path_type": "hardlink",
+        "sha256": "3559f0a0414816472aacd228577b2cb0ec81f81accf06ec8e2574a856ab0410c",
+        "sha256_in_prefix": "3559f0a0414816472aacd228577b2cb0ec81f81accf06ec8e2574a856ab0410c",
+        "size_in_bytes": 4335
+      },
+      {
+        "_path": "site-packages/sxs/utilities/decimation/linear_bisection.py",
+        "path_type": "hardlink",
+        "sha256": "ce8c81471bd390c25aedd160a57ad942ec47e93821e9d0ed94ed09a67cb29e3e",
+        "sha256_in_prefix": "ce8c81471bd390c25aedd160a57ad942ec47e93821e9d0ed94ed09a67cb29e3e",
+        "size_in_bytes": 5357
+      },
+      {
+        "_path": "site-packages/sxs/utilities/decimation/peak_greed.py",
+        "path_type": "hardlink",
+        "sha256": "e061ba1557eaa4a05903b2c66d35d907ec55147437108a78d9b7c043ccc8b5f7",
+        "sha256_in_prefix": "e061ba1557eaa4a05903b2c66d35d907ec55147437108a78d9b7c043ccc8b5f7",
+        "size_in_bytes": 6272
+      },
+      {
+        "_path": "site-packages/sxs/utilities/decimation/suppression.py",
+        "path_type": "hardlink",
+        "sha256": "4781fc4abdb0f0bc94819e9c3ead7d94eee297aab6208cbfa5940a0659af61e8",
+        "sha256_in_prefix": "4781fc4abdb0f0bc94819e9c3ead7d94eee297aab6208cbfa5940a0659af61e8",
+        "size_in_bytes": 1881
+      },
+      {
+        "_path": "site-packages/sxs/utilities/dicts.py",
+        "path_type": "hardlink",
+        "sha256": "082a66deea46ffd4918fd8236b0ba44947da2796ac17e5d11b66aeb045e16328",
+        "sha256_in_prefix": "082a66deea46ffd4918fd8236b0ba44947da2796ac17e5d11b66aeb045e16328",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "site-packages/sxs/utilities/downloads.py",
+        "path_type": "hardlink",
+        "sha256": "88171e59f6a11cac6c954b88de9dbe8d10e8a8684feead80f8b6bd83a5ed3068",
+        "sha256_in_prefix": "88171e59f6a11cac6c954b88de9dbe8d10e8a8684feead80f8b6bd83a5ed3068",
+        "size_in_bytes": 4488
+      },
+      {
+        "_path": "site-packages/sxs/utilities/files.py",
+        "path_type": "hardlink",
+        "sha256": "97b48d3a0d22920a975776e63c9757650310fd73c65d552c20920e8c3569dcc8",
+        "sha256_in_prefix": "97b48d3a0d22920a975776e63c9757650310fd73c65d552c20920e8c3569dcc8",
+        "size_in_bytes": 4517
+      },
+      {
+        "_path": "site-packages/sxs/utilities/formats.py",
+        "path_type": "hardlink",
+        "sha256": "11e90b7128be7e115d90f4fb47d875d1df7fd20647e04a261f9f91550a7eb20f",
+        "sha256_in_prefix": "11e90b7128be7e115d90f4fb47d875d1df7fd20647e04a261f9f91550a7eb20f",
+        "size_in_bytes": 3867
+      },
+      {
+        "_path": "site-packages/sxs/utilities/inspire.py",
+        "path_type": "hardlink",
+        "sha256": "e45e0a2760fda9a100ae5edd96132ff8adc3ca6e52e68408e514f06572a15d1c",
+        "sha256_in_prefix": "e45e0a2760fda9a100ae5edd96132ff8adc3ca6e52e68408e514f06572a15d1c",
+        "size_in_bytes": 5298
+      },
+      {
+        "_path": "site-packages/sxs/utilities/lvcnr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "31f82116d8f53e81996fb7020b0cad8d9647bcc5b9f45e315a6cd8b1384b5a80",
+        "sha256_in_prefix": "31f82116d8f53e81996fb7020b0cad8d9647bcc5b9f45e315a6cd8b1384b5a80",
+        "size_in_bytes": 1395
+      },
+      {
+        "_path": "site-packages/sxs/utilities/lvcnr/comparisons.py",
+        "path_type": "hardlink",
+        "sha256": "f4e105bc42b9eab3e9f429fc97b5f392387e012fa573d6f1692f4f647d4b7d65",
+        "sha256_in_prefix": "f4e105bc42b9eab3e9f429fc97b5f392387e012fa573d6f1692f4f647d4b7d65",
+        "size_in_bytes": 12386
+      },
+      {
+        "_path": "site-packages/sxs/utilities/lvcnr/conversion.py",
+        "path_type": "hardlink",
+        "sha256": "1032ab0477e67566e7e2902a5921e78079577a511a2844e322faaa060315adc1",
+        "sha256_in_prefix": "1032ab0477e67566e7e2902a5921e78079577a511a2844e322faaa060315adc1",
+        "size_in_bytes": 12083
+      },
+      {
+        "_path": "site-packages/sxs/utilities/lvcnr/dataset.py",
+        "path_type": "hardlink",
+        "sha256": "395569dd2a9ed2e79b430fbbf870fac733ff1b0db506c1b2ecee47059eff7ce4",
+        "sha256_in_prefix": "395569dd2a9ed2e79b430fbbf870fac733ff1b0db506c1b2ecee47059eff7ce4",
+        "size_in_bytes": 3732
+      },
+      {
+        "_path": "site-packages/sxs/utilities/lvcnr/horizons.py",
+        "path_type": "hardlink",
+        "sha256": "2d2bc184adf72020419365f48c91a80944b162901c1cfca21cd7d0c41ae83b7e",
+        "sha256_in_prefix": "2d2bc184adf72020419365f48c91a80944b162901c1cfca21cd7d0c41ae83b7e",
+        "size_in_bytes": 10447
+      },
+      {
+        "_path": "site-packages/sxs/utilities/lvcnr/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "8decaed008a0751fa2587ba1744516ce94cebbf5914761b6af4445bcba717681",
+        "sha256_in_prefix": "8decaed008a0751fa2587ba1744516ce94cebbf5914761b6af4445bcba717681",
+        "size_in_bytes": 12385
+      },
+      {
+        "_path": "site-packages/sxs/utilities/lvcnr/waveform_amp_phase.py",
+        "path_type": "hardlink",
+        "sha256": "2b9109ce9a527e10fb55e359a4cffffcbfb3fe70667613612fc5a95b670ece6b",
+        "sha256_in_prefix": "2b9109ce9a527e10fb55e359a4cffffcbfb3fe70667613612fc5a95b670ece6b",
+        "size_in_bytes": 2799
+      },
+      {
+        "_path": "site-packages/sxs/utilities/lvcnr/waveforms.py",
+        "path_type": "hardlink",
+        "sha256": "20472e5bf9af2d08bb0416aab5eb9a9a84c5a0bc66b8c3cafa2cb9b628cd9b14",
+        "sha256_in_prefix": "20472e5bf9af2d08bb0416aab5eb9a9a84c5a0bc66b8c3cafa2cb9b628cd9b14",
+        "size_in_bytes": 2152
+      },
+      {
+        "_path": "site-packages/sxs/utilities/monotonicity.py",
+        "path_type": "hardlink",
+        "sha256": "615c23dd38dec3c764a4927d4d17b2b88483dae9791c97e4109802a222ebbb94",
+        "sha256_in_prefix": "615c23dd38dec3c764a4927d4d17b2b88483dae9791c97e4109802a222ebbb94",
+        "size_in_bytes": 812
+      },
+      {
+        "_path": "site-packages/sxs/utilities/pretty_print.py",
+        "path_type": "hardlink",
+        "sha256": "6431d1deebe4cd0dd6864fde229dc107b01b87bf7a9eacab56c4116baf338067",
+        "sha256_in_prefix": "6431d1deebe4cd0dd6864fde229dc107b01b87bf7a9eacab56c4116baf338067",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "site-packages/sxs/utilities/references/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b54cdc11f55306dbb752f0d515a01e047e92547e10ea4b98177f965006d5f188",
+        "sha256_in_prefix": "b54cdc11f55306dbb752f0d515a01e047e92547e10ea4b98177f965006d5f188",
+        "size_in_bytes": 391
+      },
+      {
+        "_path": "site-packages/sxs/utilities/references/ads.py",
+        "path_type": "hardlink",
+        "sha256": "2e967053b14545f7b305ee29c32cee40b10acea95217798bdc53c54809cd4140",
+        "sha256_in_prefix": "2e967053b14545f7b305ee29c32cee40b10acea95217798bdc53c54809cd4140",
+        "size_in_bytes": 8591
+      },
+      {
+        "_path": "site-packages/sxs/utilities/references/arxiv.py",
+        "path_type": "hardlink",
+        "sha256": "18d71016495f10620d8e4fc209e114912975d7ba8e11aa95591cbf9cc0f1cfc5",
+        "sha256_in_prefix": "18d71016495f10620d8e4fc209e114912975d7ba8e11aa95591cbf9cc0f1cfc5",
+        "size_in_bytes": 4250
+      },
+      {
+        "_path": "site-packages/sxs/utilities/references/fairchild_report.py",
+        "path_type": "hardlink",
+        "sha256": "3149d8403ef325ccf6d3656ddfe8fdb9e5e096d846060082344fcb1d15fd41c9",
+        "sha256_in_prefix": "3149d8403ef325ccf6d3656ddfe8fdb9e5e096d846060082344fcb1d15fd41c9",
+        "size_in_bytes": 1657
+      },
+      {
+        "_path": "site-packages/sxs/utilities/references/inspire.py",
+        "path_type": "hardlink",
+        "sha256": "9038d8f941494fe5534b7c89393f1f4fa2c91bea51ad7f532bc9efdd166aadba",
+        "sha256_in_prefix": "9038d8f941494fe5534b7c89393f1f4fa2c91bea51ad7f532bc9efdd166aadba",
+        "size_in_bytes": 8431
+      },
+      {
+        "_path": "site-packages/sxs/utilities/references/journal_abbreviations.py",
+        "path_type": "hardlink",
+        "sha256": "4ae45772be2bbfd60f6d70f89b3ba34af13b33a292d65c042e29aeca7ee67c21",
+        "sha256_in_prefix": "4ae45772be2bbfd60f6d70f89b3ba34af13b33a292d65c042e29aeca7ee67c21",
+        "size_in_bytes": 31018
+      },
+      {
+        "_path": "site-packages/sxs/utilities/references/references.py",
+        "path_type": "hardlink",
+        "sha256": "dbdacf5192b0dddced5d02d10c4b7584662365a38d15dd2a5fefb1431cce9945",
+        "sha256_in_prefix": "dbdacf5192b0dddced5d02d10c4b7584662365a38d15dd2a5fefb1431cce9945",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "site-packages/sxs/utilities/select.py",
+        "path_type": "hardlink",
+        "sha256": "520a04408be49bc3417bab03e4eda02b483d3dea7ec6f5a8610ddbed1c48f96c",
+        "sha256_in_prefix": "520a04408be49bc3417bab03e4eda02b483d3dea7ec6f5a8610ddbed1c48f96c",
+        "size_in_bytes": 6727
+      },
+      {
+        "_path": "site-packages/sxs/utilities/smooth_functions.py",
+        "path_type": "hardlink",
+        "sha256": "6a9a33ddc0dacb5d28cd88810248f467a06692ccfb86d288f5caff59ad48769d",
+        "sha256_in_prefix": "6a9a33ddc0dacb5d28cd88810248f467a06692ccfb86d288f5caff59ad48769d",
+        "size_in_bytes": 9077
+      },
+      {
+        "_path": "site-packages/sxs/utilities/sxs_directories.py",
+        "path_type": "hardlink",
+        "sha256": "83a4286128aa88ffaaa7deea4986c1f5ddb9950651772873147c05f1f86f95a9",
+        "sha256_in_prefix": "83a4286128aa88ffaaa7deea4986c1f5ddb9950651772873147c05f1f86f95a9",
+        "size_in_bytes": 9736
+      },
+      {
+        "_path": "site-packages/sxs/utilities/sxs_identifiers.py",
+        "path_type": "hardlink",
+        "sha256": "ae09bae4b67c1d04564a824932857a9241fb35bb80e19248853729bc1edf7708",
+        "sha256_in_prefix": "ae09bae4b67c1d04564a824932857a9241fb35bb80e19248853729bc1edf7708",
+        "size_in_bytes": 4092
+      },
+      {
+        "_path": "site-packages/sxs/utilities/url.py",
+        "path_type": "hardlink",
+        "sha256": "747ef756bb63cb800aa9ace878fd8464d7649f38645d02f331a1590abf687236",
+        "sha256_in_prefix": "747ef756bb63cb800aa9ace878fd8464d7649f38645d02f331a1590abf687236",
+        "size_in_bytes": 1904
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "14fbbf305c1fcdc2ec5a1be82e6fc05d12f3e7d7813837ace0c636fed6931397",
+        "sha256_in_prefix": "14fbbf305c1fcdc2ec5a1be82e6fc05d12f3e7d7813837ace0c636fed6931397",
+        "size_in_bytes": 1150
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/alignment.py",
+        "path_type": "hardlink",
+        "sha256": "607b4ec8e501c5d69730882375e1af26a534ccde543940a1ac038465d914e396",
+        "sha256_in_prefix": "607b4ec8e501c5d69730882375e1af26a534ccde543940a1ac038465d914e396",
+        "size_in_bytes": 12418
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/format_handlers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d30b27b8160262c0a4375f4bda2a606bb06d8a0bcfc8172a8b2ff8aabce62e91",
+        "sha256_in_prefix": "d30b27b8160262c0a4375f4bda2a606bb06d8a0bcfc8172a8b2ff8aabce62e91",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/format_handlers/grathena.py",
+        "path_type": "hardlink",
+        "sha256": "e4dac72f72b49911c0a67171e58b0c52e7c32940f503f759bbc98642a39d05e1",
+        "sha256_in_prefix": "e4dac72f72b49911c0a67171e58b0c52e7c32940f503f759bbc98642a39d05e1",
+        "size_in_bytes": 3622
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/format_handlers/lvc.py",
+        "path_type": "hardlink",
+        "sha256": "81d5d8a9af019fc8c2488448b2130fdfdf563bd64cb6436d900422bb3aa11ffd",
+        "sha256_in_prefix": "81d5d8a9af019fc8c2488448b2130fdfdf563bd64cb6436d900422bb3aa11ffd",
+        "size_in_bytes": 7817
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/format_handlers/nrar.py",
+        "path_type": "hardlink",
+        "sha256": "df2715a2a41c580022c55de62a9e7cff05216011ede9078bbf66064afcbe1063",
+        "sha256_in_prefix": "df2715a2a41c580022c55de62a9e7cff05216011ede9078bbf66064afcbe1063",
+        "size_in_bytes": 21538
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/format_handlers/rotating_paired_diff_multishuffle_bzip2.py",
+        "path_type": "hardlink",
+        "sha256": "0b5f7ef55910e5db7d23b18791e16b179ea4fc16c53c75c8317ff19a6063ef0c",
+        "sha256_in_prefix": "0b5f7ef55910e5db7d23b18791e16b179ea4fc16c53c75c8317ff19a6063ef0c",
+        "size_in_bytes": 27477
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/format_handlers/rotating_paired_xor_multishuffle_bzip2.py",
+        "path_type": "hardlink",
+        "sha256": "a451092256fa39040d86feabe3c00b16764c28d663b90639e727560400c20e05",
+        "sha256_in_prefix": "a451092256fa39040d86feabe3c00b16764c28d663b90639e727560400c20e05",
+        "size_in_bytes": 2348
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/format_handlers/spectre_cce_v1.py",
+        "path_type": "hardlink",
+        "sha256": "9e1e7bcdb1bfb9625941584caf3ec7d397e9b239755faa1a8ad6bc69345c5b15",
+        "sha256_in_prefix": "9e1e7bcdb1bfb9625941584caf3ec7d397e9b239755faa1a8ad6bc69345c5b15",
+        "size_in_bytes": 3963
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/memory.py",
+        "path_type": "hardlink",
+        "sha256": "d413a8bf740997dc1ec601adf0703c32a55965f2ca6f291f7f9a515732e220ba",
+        "sha256_in_prefix": "d413a8bf740997dc1ec601adf0703c32a55965f2ca6f291f7f9a515732e220ba",
+        "size_in_bytes": 7763
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/mode_utilities.py",
+        "path_type": "hardlink",
+        "sha256": "831b16fa1ba70a821178156ff48ae418b76c86bd2b9b3b5b1fe251803e83f73d",
+        "sha256_in_prefix": "831b16fa1ba70a821178156ff48ae418b76c86bd2b9b3b5b1fe251803e83f73d",
+        "size_in_bytes": 5253
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/transformations.py",
+        "path_type": "hardlink",
+        "sha256": "4b90bec670a4dae999955b1881c8b2a7b54c19903c348ea677b399a7bdaea495",
+        "sha256_in_prefix": "4b90bec670a4dae999955b1881c8b2a7b54c19903c348ea677b399a7bdaea495",
+        "size_in_bytes": 9124
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/waveform_grid.py",
+        "path_type": "hardlink",
+        "sha256": "68195cb2e763d57a33643ee7e36b21ebe9f3cac28d6a501d1c991543b33a7c4e",
+        "sha256_in_prefix": "68195cb2e763d57a33643ee7e36b21ebe9f3cac28d6a501d1c991543b33a7c4e",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/waveform_mixin.py",
+        "path_type": "hardlink",
+        "sha256": "4b444d7b61e4c27a9d0b21846ab1989a85c3fc3913586a2bb2218620158e6a6f",
+        "sha256_in_prefix": "4b444d7b61e4c27a9d0b21846ab1989a85c3fc3913586a2bb2218620158e6a6f",
+        "size_in_bytes": 1179
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/waveform_modes.py",
+        "path_type": "hardlink",
+        "sha256": "97accfd9a52e6d6ff3aa9f288f36ef47e33b076a1082087ee5982c4cb09f068b",
+        "sha256_in_prefix": "97accfd9a52e6d6ff3aa9f288f36ef47e33b076a1082087ee5982c4cb09f068b",
+        "size_in_bytes": 57133
+      },
+      {
+        "_path": "site-packages/sxs/waveforms/waveform_signal.py",
+        "path_type": "hardlink",
+        "sha256": "3a3aede83483765781d2a9aee94c238cf9d875a5acae39e9040ffc7619ccfeae",
+        "sha256_in_prefix": "3a3aede83483765781d2a9aee94c238cf9d875a5acae39e9040ffc7619ccfeae",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "site-packages/sxs/zenodo/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "28370259bec4ddfad9d15ca528552481e10cadae911b5aba145cb935af14b8b6",
+        "sha256_in_prefix": "28370259bec4ddfad9d15ca528552481e10cadae911b5aba145cb935af14b8b6",
+        "size_in_bytes": 26224
+      },
+      {
+        "_path": "site-packages/sxs/zenodo/api/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "10cfde87843c479134bc87cc872211d486057ce06eeaf0345136ac817f601f2b",
+        "sha256_in_prefix": "10cfde87843c479134bc87cc872211d486057ce06eeaf0345136ac817f601f2b",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "site-packages/sxs/zenodo/api/deposit.py",
+        "path_type": "hardlink",
+        "sha256": "278446bc68e1d1c10eacde1b0595840dc3c084db1ca81d9fccb96f459e474c73",
+        "sha256_in_prefix": "278446bc68e1d1c10eacde1b0595840dc3c084db1ca81d9fccb96f459e474c73",
+        "size_in_bytes": 36948
+      },
+      {
+        "_path": "site-packages/sxs/zenodo/api/login.py",
+        "path_type": "hardlink",
+        "sha256": "633d32b608bcd7fe41a43ce1ad2d163cc5e5bd4daa51a08af329fccf17c46e4a",
+        "sha256_in_prefix": "633d32b608bcd7fe41a43ce1ad2d163cc5e5bd4daa51a08af329fccf17c46e4a",
+        "size_in_bytes": 18007
+      },
+      {
+        "_path": "site-packages/sxs/zenodo/api/records.py",
+        "path_type": "hardlink",
+        "sha256": "9ca921a0767de424f3b4717d6736ae839a7b222502246e049b58be97e5aa1fa5",
+        "sha256_in_prefix": "9ca921a0767de424f3b4717d6736ae839a7b222502246e049b58be97e5aa1fa5",
+        "size_in_bytes": 3689
+      },
+      {
+        "_path": "site-packages/sxs/zenodo/catalog.py",
+        "path_type": "hardlink",
+        "sha256": "de56ee57833b5d8d59df88d44df54dfc11db9bc6e551524f9526508b6117abda",
+        "sha256_in_prefix": "de56ee57833b5d8d59df88d44df54dfc11db9bc6e551524f9526508b6117abda",
+        "size_in_bytes": 28737
+      },
+      {
+        "_path": "site-packages/sxs/zenodo/creators.py",
+        "path_type": "hardlink",
+        "sha256": "cf62a04d42b975a39ecfc3ded891458ec14d7efae243c7894353d889cf6b3046",
+        "sha256_in_prefix": "cf62a04d42b975a39ecfc3ded891458ec14d7efae243c7894353d889cf6b3046",
+        "size_in_bytes": 2573
+      },
+      {
+        "_path": "site-packages/sxs/zenodo/simannex.py",
+        "path_type": "hardlink",
+        "sha256": "b7e8ffc42866343eef5e71aee2b5b25baa5afb9699df58a89193946a86f381a9",
+        "sha256_in_prefix": "b7e8ffc42866343eef5e71aee2b5b25baa5afb9699df58a89193946a86f381a9",
+        "size_in_bytes": 4491
+      },
+      {
+        "_path": "site-packages/sxs/zenodo/surrogatemodeling.py",
+        "path_type": "hardlink",
+        "sha256": "353257ae7c9776b6d7e0ab2860fda86f1572fa56a45ed0fb2ea3840788d0fcc2",
+        "sha256_in_prefix": "353257ae7c9776b6d7e0ab2860fda86f1572fa56a45ed0fb2ea3840788d0fcc2",
+        "size_in_bytes": 8381
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/__pycache__/__version__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/caltechdata/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/caltechdata/__pycache__/catalog.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/caltechdata/__pycache__/login.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/catalog/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/catalog/__pycache__/catalog.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/catalog/__pycache__/create.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/catalog/__pycache__/description.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/__pycache__/handlers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/horizons/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/horizons/__pycache__/spec_horizons_h5.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/horizons/__pycache__/xor_multishuffle_bzip2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/julia/__pycache__/GWFrames.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/julia/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/metadata/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/metadata/__pycache__/metadata.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/simulations/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/simulations/__pycache__/local.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/simulations/__pycache__/simulation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/simulations/__pycache__/simulations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/__pycache__/time_series.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/bitwise.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/decimation/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/decimation/__pycache__/greedy_spline.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/decimation/__pycache__/linear_bisection.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/decimation/__pycache__/peak_greed.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/decimation/__pycache__/suppression.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/dicts.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/downloads.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/files.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/formats.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/inspire.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/comparisons.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/conversion.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/dataset.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/horizons.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/metadata.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/waveform_amp_phase.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/lvcnr/__pycache__/waveforms.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/monotonicity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/pretty_print.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/ads.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/arxiv.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/fairchild_report.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/inspire.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/journal_abbreviations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/references/__pycache__/references.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/select.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/smooth_functions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/sxs_directories.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/sxs_identifiers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/utilities/__pycache__/url.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/__pycache__/alignment.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/grathena.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/lvc.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/nrar.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/rotating_paired_diff_multishuffle_bzip2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/rotating_paired_xor_multishuffle_bzip2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/format_handlers/__pycache__/spectre_cce_v1.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/__pycache__/memory.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/__pycache__/mode_utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/__pycache__/transformations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/__pycache__/waveform_grid.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/__pycache__/waveform_mixin.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/__pycache__/waveform_modes.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/waveforms/__pycache__/waveform_signal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/zenodo/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/zenodo/api/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/zenodo/api/__pycache__/deposit.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/zenodo/api/__pycache__/login.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/zenodo/api/__pycache__/records.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/zenodo/__pycache__/catalog.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/zenodo/__pycache__/creators.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/zenodo/__pycache__/simannex.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sxs/zenodo/__pycache__/surrogatemodeling.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "sxs",
+  "sha256": "4f48967dfd754a9e3fac211341723a2a03c78005e4b5d4fc235ac41fb71853f8",
+  "size": 174021,
+  "subdir": "noarch",
+  "timestamp": 1736796692000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/sxs-2024.0.27-pyhd8ed1ab_0.conda",
+  "version": "2024.0.27"
+}

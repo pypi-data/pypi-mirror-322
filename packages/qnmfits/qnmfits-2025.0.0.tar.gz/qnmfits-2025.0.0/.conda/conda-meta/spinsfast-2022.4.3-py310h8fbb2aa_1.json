@@ -1,0 +1,134 @@
+{
+  "build": "py310h8fbb2aa_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "fftw >=3.3.10,<4.0a0",
+    "numpy >=1.22.4,<2.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/spinsfast-2022.4.3-py310h8fbb2aa_1",
+  "files": [
+    "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/COPYING",
+    "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/LICENSE",
+    "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/METADATA",
+    "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/RECORD",
+    "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/WHEEL",
+    "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/spinsfast/__init__.py",
+    "lib/python3.10/site-packages/spinsfast/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/spinsfast/cextension.cpython-310-darwin.so"
+  ],
+  "fn": "spinsfast-2022.4.3-py310h8fbb2aa_1.conda",
+  "license": "GPL-3.0-only",
+  "license_family": "GPL",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/spinsfast-2022.4.3-py310h8fbb2aa_1",
+    "type": 1
+  },
+  "md5": "139e03bf13c6f905c0f235e0dbf8089c",
+  "name": "spinsfast",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/spinsfast-2022.4.3-py310h8fbb2aa_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "size_in_bytes": 35147
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "12ac5047f2af0522f06798b1589ffc4599bc29c91f954d7874e0320634e777c0",
+        "sha256_in_prefix": "12ac5047f2af0522f06798b1589ffc4599bc29c91f954d7874e0320634e777c0",
+        "size_in_bytes": 35122
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fee6868591f98d67dda16ce429869de4599cf7b8324eeac007af9c45426c40d8",
+        "sha256_in_prefix": "fee6868591f98d67dda16ce429869de4599cf7b8324eeac007af9c45426c40d8",
+        "size_in_bytes": 519
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "40de52feefcfc15a25ced58a2a753304a42aa49223d2f085dab08d24b64e3361",
+        "sha256_in_prefix": "40de52feefcfc15a25ced58a2a753304a42aa49223d2f085dab08d24b64e3361",
+        "size_in_bytes": 1029
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "45e7832edec9a1636ff2e42cf637287e6881397f8cbe8708803f2424f31fafb3",
+        "sha256_in_prefix": "45e7832edec9a1636ff2e42cf637287e6881397f8cbe8708803f2424f31fafb3",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "11c6a3858e7aef0cca7ea537232d6378e79d8a056810bfd624f319504f5bb263",
+        "sha256_in_prefix": "11c6a3858e7aef0cca7ea537232d6378e79d8a056810bfd624f319504f5bb263",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast-2022.4.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d7dc7f1b88de8732d2cc60d1e00d78e4c9c74b890cf3205b4e13d2020261d651",
+        "sha256_in_prefix": "d7dc7f1b88de8732d2cc60d1e00d78e4c9c74b890cf3205b4e13d2020261d651",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "541fd61e0b0aba01be19b16593e97f2dfb0169ba2db8f03479dee30ce0739eef",
+        "sha256_in_prefix": "541fd61e0b0aba01be19b16593e97f2dfb0169ba2db8f03479dee30ce0739eef",
+        "size_in_bytes": 11911
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a8965b283c617ae5ca15504f00961ffde8841854d71f3d44e73f79c3e8e53a5",
+        "sha256_in_prefix": "3a8965b283c617ae5ca15504f00961ffde8841854d71f3d44e73f79c3e8e53a5",
+        "size_in_bytes": 11219
+      },
+      {
+        "_path": "lib/python3.10/site-packages/spinsfast/cextension.cpython-310-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "b1e212d955495b1186290825bce6e2d868511088a80815684e9688cb9b44f1c6",
+        "sha256_in_prefix": "b1e212d955495b1186290825bce6e2d868511088a80815684e9688cb9b44f1c6",
+        "size_in_bytes": 90288
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f558240614bc6e635ec2d85a6237503a197db684c02deb093b78e10cd3708709",
+  "size": 47804,
+  "subdir": "osx-arm64",
+  "timestamp": 1695653113513,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/spinsfast-2022.4.3-py310h8fbb2aa_1.conda",
+  "version": "2022.4.3"
+}

@@ -1,0 +1,35 @@
+{
+  "build": "py310hb6292c7_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.8.0,<3.8.1.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "tornado >=5"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/matplotlib-3.8.0-py310hb6292c7_1",
+  "files": [],
+  "fn": "matplotlib-3.8.0-py310hb6292c7_1.conda",
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/matplotlib-3.8.0-py310hb6292c7_1",
+    "type": 1
+  },
+  "md5": "a4b262395037e6c45f7fe28dd62812bb",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/matplotlib-3.8.0-py310hb6292c7_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "0cc36efb76aaa2798768ef1b16522ff976acf65faef4b0cadcbacf920c4ec8d1",
+  "size": 8560,
+  "subdir": "osx-arm64",
+  "timestamp": 1695329434651,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/matplotlib-3.8.0-py310hb6292c7_1.conda",
+  "version": "3.8.0"
+}

@@ -1,0 +1,154 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/boolean.py-4.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/boolean.py-4.0.dist-info/CHANGELOG.rst",
+    "lib/python3.10/site-packages/boolean.py-4.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/boolean.py-4.0.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/boolean.py-4.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/boolean.py-4.0.dist-info/README.rst",
+    "lib/python3.10/site-packages/boolean.py-4.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/boolean.py-4.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/boolean.py-4.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/boolean.py-4.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/boolean.py-4.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/boolean/__init__.py",
+    "lib/python3.10/site-packages/boolean/boolean.py",
+    "lib/python3.10/site-packages/boolean/test_boolean.py",
+    "lib/python3.10/site-packages/boolean/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/boolean/__pycache__/boolean.cpython-310.pyc",
+    "lib/python3.10/site-packages/boolean/__pycache__/test_boolean.cpython-310.pyc"
+  ],
+  "fn": "boolean.py-4.0-pyhd8ed1ab_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/boolean.py-4.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "46250fe31e1cdc42a316bbd2ec870e24",
+  "name": "boolean.py",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/boolean.py-4.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/boolean.py-4.0.dist-info/CHANGELOG.rst",
+        "path_type": "hardlink",
+        "sha256": "2dea833db77926847d38e927f13727602006860500f4910c4ba53339ab8872da",
+        "sha256_in_prefix": "2dea833db77926847d38e927f13727602006860500f4910c4ba53339ab8872da",
+        "size_in_bytes": 2753
+      },
+      {
+        "_path": "site-packages/boolean.py-4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/boolean.py-4.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "5ea0cdf8cfc824b446cccf597ff6518c3607a659e9804bc75f1261f9c6ac4ada",
+        "sha256_in_prefix": "5ea0cdf8cfc824b446cccf597ff6518c3607a659e9804bc75f1261f9c6ac4ada",
+        "size_in_bytes": 1321
+      },
+      {
+        "_path": "site-packages/boolean.py-4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b61a686c8ab0e2d2af1fd91bfb0d7056655d2faf649749dc092c34c87acba26a",
+        "sha256_in_prefix": "b61a686c8ab0e2d2af1fd91bfb0d7056655d2faf649749dc092c34c87acba26a",
+        "size_in_bytes": 1510
+      },
+      {
+        "_path": "site-packages/boolean.py-4.0.dist-info/README.rst",
+        "path_type": "hardlink",
+        "sha256": "c159099ed4ae91ff7e1ba43e52f7bef5fab963deeae47e4d6a2ec6fd73ea4cbb",
+        "sha256_in_prefix": "c159099ed4ae91ff7e1ba43e52f7bef5fab963deeae47e4d6a2ec6fd73ea4cbb",
+        "size_in_bytes": 2839
+      },
+      {
+        "_path": "site-packages/boolean.py-4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0bf31aab7ed9ae674098c2ca296e49a7662bf43dc280a65a40fb2ffdc91b57a6",
+        "sha256_in_prefix": "0bf31aab7ed9ae674098c2ca296e49a7662bf43dc280a65a40fb2ffdc91b57a6",
+        "size_in_bytes": 1245
+      },
+      {
+        "_path": "site-packages/boolean.py-4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/boolean.py-4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "02d046e925cbdca17fbf43712dfd1e87254e87472895df896c9617346a2b0ba4",
+        "sha256_in_prefix": "02d046e925cbdca17fbf43712dfd1e87254e87472895df896c9617346a2b0ba4",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/boolean.py-4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "518bebbd41dfae81afe247481682d2387e7dd209bcb3ed9ae3dc342aa4a9a8e2",
+        "sha256_in_prefix": "518bebbd41dfae81afe247481682d2387e7dd209bcb3ed9ae3dc342aa4a9a8e2",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/boolean.py-4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2bff330bcbd7987c18cc16c0bca3f0bba9eb9982344c533e903fa0475aa6c471",
+        "sha256_in_prefix": "2bff330bcbd7987c18cc16c0bca3f0bba9eb9982344c533e903fa0475aa6c471",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/boolean/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "328b5c8f083565703e70701cb61ffd75628c9b180d984857d6a5fca8b8fa0157",
+        "sha256_in_prefix": "328b5c8f083565703e70701cb61ffd75628c9b180d984857d6a5fca8b8fa0157",
+        "size_in_bytes": 656
+      },
+      {
+        "_path": "site-packages/boolean/boolean.py",
+        "path_type": "hardlink",
+        "sha256": "46edd9621a3bc0f71cc84adf48d067581c3f01d5005f96dec057ac653abe73de",
+        "sha256_in_prefix": "46edd9621a3bc0f71cc84adf48d067581c3f01d5005f96dec057ac653abe73de",
+        "size_in_bytes": 53687
+      },
+      {
+        "_path": "site-packages/boolean/test_boolean.py",
+        "path_type": "hardlink",
+        "sha256": "dba3f00b0392b6321a06d65e3e8e3a645de33e69bbbb51d06294948294488156",
+        "sha256_in_prefix": "dba3f00b0392b6321a06d65e3e8e3a645de33e69bbbb51d06294948294488156",
+        "size_in_bytes": 46466
+      },
+      {
+        "_path": "lib/python3.10/site-packages/boolean/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/boolean/__pycache__/boolean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/boolean/__pycache__/test_boolean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7b3ee20479c6a169137ed6129e1a83941a51c25c71e5c2470787805595fc664b",
+  "size": 28706,
+  "subdir": "noarch",
+  "timestamp": 1690384476000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/boolean.py-4.0-pyhd8ed1ab_0.conda",
+  "version": "4.0"
+}

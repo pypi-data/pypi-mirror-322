@@ -1,0 +1,1452 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "click >=8.0.6",
+    "hatchling <1.22",
+    "httpx >=0.22.0",
+    "hyperlink >=21.0.0",
+    "keyring >=23.5.0",
+    "pexpect >=4.8",
+    "platformdirs >=2.5.0",
+    "python >=3.8",
+    "rich >=11.2.0",
+    "shellingham >=1.4.0",
+    "tomli-w >=1.0",
+    "tomlkit >=0.10.1",
+    "userpath >=1.7",
+    "virtualenv <20.26.0",
+    "zstandard <1.0"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/hatch-1.9.7-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/hatch-1.9.7.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/hatch-1.9.7.dist-info/METADATA",
+    "lib/python3.10/site-packages/hatch-1.9.7.dist-info/RECORD",
+    "lib/python3.10/site-packages/hatch-1.9.7.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/hatch-1.9.7.dist-info/WHEEL",
+    "lib/python3.10/site-packages/hatch-1.9.7.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/hatch-1.9.7.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/hatch-1.9.7.dist-info/licenses/LICENSE.txt",
+    "lib/python3.10/site-packages/hatch/__init__.py",
+    "lib/python3.10/site-packages/hatch/__main__.py",
+    "lib/python3.10/site-packages/hatch/_version.py",
+    "lib/python3.10/site-packages/hatch/cli/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/application.py",
+    "lib/python3.10/site-packages/hatch/cli/build/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/clean/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/config/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/dep/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/env/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/env/create.py",
+    "lib/python3.10/site-packages/hatch/cli/env/find.py",
+    "lib/python3.10/site-packages/hatch/cli/env/prune.py",
+    "lib/python3.10/site-packages/hatch/cli/env/remove.py",
+    "lib/python3.10/site-packages/hatch/cli/env/run.py",
+    "lib/python3.10/site-packages/hatch/cli/env/show.py",
+    "lib/python3.10/site-packages/hatch/cli/fmt/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/fmt/core.py",
+    "lib/python3.10/site-packages/hatch/cli/new/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/new/migrate.py",
+    "lib/python3.10/site-packages/hatch/cli/project/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/project/metadata.py",
+    "lib/python3.10/site-packages/hatch/cli/publish/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/python/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/python/find.py",
+    "lib/python3.10/site-packages/hatch/cli/python/install.py",
+    "lib/python3.10/site-packages/hatch/cli/python/remove.py",
+    "lib/python3.10/site-packages/hatch/cli/python/show.py",
+    "lib/python3.10/site-packages/hatch/cli/python/update.py",
+    "lib/python3.10/site-packages/hatch/cli/run/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/shell/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/status/__init__.py",
+    "lib/python3.10/site-packages/hatch/cli/terminal.py",
+    "lib/python3.10/site-packages/hatch/cli/version/__init__.py",
+    "lib/python3.10/site-packages/hatch/config/__init__.py",
+    "lib/python3.10/site-packages/hatch/config/constants.py",
+    "lib/python3.10/site-packages/hatch/config/model.py",
+    "lib/python3.10/site-packages/hatch/config/user.py",
+    "lib/python3.10/site-packages/hatch/config/utils.py",
+    "lib/python3.10/site-packages/hatch/env/__init__.py",
+    "lib/python3.10/site-packages/hatch/env/collectors/__init__.py",
+    "lib/python3.10/site-packages/hatch/env/collectors/custom.py",
+    "lib/python3.10/site-packages/hatch/env/collectors/default.py",
+    "lib/python3.10/site-packages/hatch/env/collectors/plugin/__init__.py",
+    "lib/python3.10/site-packages/hatch/env/collectors/plugin/hooks.py",
+    "lib/python3.10/site-packages/hatch/env/collectors/plugin/interface.py",
+    "lib/python3.10/site-packages/hatch/env/context.py",
+    "lib/python3.10/site-packages/hatch/env/internal/__init__.py",
+    "lib/python3.10/site-packages/hatch/env/internal/build.py",
+    "lib/python3.10/site-packages/hatch/env/internal/static_analysis.py",
+    "lib/python3.10/site-packages/hatch/env/plugin/__init__.py",
+    "lib/python3.10/site-packages/hatch/env/plugin/hooks.py",
+    "lib/python3.10/site-packages/hatch/env/plugin/interface.py",
+    "lib/python3.10/site-packages/hatch/env/system.py",
+    "lib/python3.10/site-packages/hatch/env/utils.py",
+    "lib/python3.10/site-packages/hatch/env/virtual.py",
+    "lib/python3.10/site-packages/hatch/errors/__init__.py",
+    "lib/python3.10/site-packages/hatch/index/__init__.py",
+    "lib/python3.10/site-packages/hatch/index/core.py",
+    "lib/python3.10/site-packages/hatch/index/errors.py",
+    "lib/python3.10/site-packages/hatch/index/publish.py",
+    "lib/python3.10/site-packages/hatch/plugin/__init__.py",
+    "lib/python3.10/site-packages/hatch/plugin/constants.py",
+    "lib/python3.10/site-packages/hatch/plugin/manager.py",
+    "lib/python3.10/site-packages/hatch/plugin/specs.py",
+    "lib/python3.10/site-packages/hatch/plugin/utils.py",
+    "lib/python3.10/site-packages/hatch/project/__init__.py",
+    "lib/python3.10/site-packages/hatch/project/config.py",
+    "lib/python3.10/site-packages/hatch/project/core.py",
+    "lib/python3.10/site-packages/hatch/project/env.py",
+    "lib/python3.10/site-packages/hatch/project/utils.py",
+    "lib/python3.10/site-packages/hatch/publish/__init__.py",
+    "lib/python3.10/site-packages/hatch/publish/index.py",
+    "lib/python3.10/site-packages/hatch/publish/plugin/__init__.py",
+    "lib/python3.10/site-packages/hatch/publish/plugin/hooks.py",
+    "lib/python3.10/site-packages/hatch/publish/plugin/interface.py",
+    "lib/python3.10/site-packages/hatch/py.typed",
+    "lib/python3.10/site-packages/hatch/python/__init__.py",
+    "lib/python3.10/site-packages/hatch/python/core.py",
+    "lib/python3.10/site-packages/hatch/python/distributions.py",
+    "lib/python3.10/site-packages/hatch/python/resolve.py",
+    "lib/python3.10/site-packages/hatch/template/__init__.py",
+    "lib/python3.10/site-packages/hatch/template/default.py",
+    "lib/python3.10/site-packages/hatch/template/files_default.py",
+    "lib/python3.10/site-packages/hatch/template/files_feature_ci.py",
+    "lib/python3.10/site-packages/hatch/template/files_feature_cli.py",
+    "lib/python3.10/site-packages/hatch/template/files_feature_tests.py",
+    "lib/python3.10/site-packages/hatch/template/plugin/__init__.py",
+    "lib/python3.10/site-packages/hatch/template/plugin/hooks.py",
+    "lib/python3.10/site-packages/hatch/template/plugin/interface.py",
+    "lib/python3.10/site-packages/hatch/utils/__init__.py",
+    "lib/python3.10/site-packages/hatch/utils/ci.py",
+    "lib/python3.10/site-packages/hatch/utils/dep.py",
+    "lib/python3.10/site-packages/hatch/utils/env.py",
+    "lib/python3.10/site-packages/hatch/utils/fs.py",
+    "lib/python3.10/site-packages/hatch/utils/network.py",
+    "lib/python3.10/site-packages/hatch/utils/platform.py",
+    "lib/python3.10/site-packages/hatch/utils/shells.py",
+    "lib/python3.10/site-packages/hatch/utils/structures.py",
+    "lib/python3.10/site-packages/hatch/utils/toml.py",
+    "lib/python3.10/site-packages/hatch/venv/__init__.py",
+    "lib/python3.10/site-packages/hatch/venv/core.py",
+    "lib/python3.10/site-packages/hatch/venv/utils.py",
+    "lib/python3.10/site-packages/hatch/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/__pycache__/application.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/build/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/clean/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/config/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/dep/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/env/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/env/__pycache__/create.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/env/__pycache__/find.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/env/__pycache__/prune.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/env/__pycache__/remove.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/env/__pycache__/run.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/env/__pycache__/show.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/fmt/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/fmt/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/new/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/new/__pycache__/migrate.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/project/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/project/__pycache__/metadata.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/publish/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/python/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/python/__pycache__/find.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/python/__pycache__/install.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/python/__pycache__/remove.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/python/__pycache__/show.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/python/__pycache__/update.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/run/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/shell/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/status/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/__pycache__/terminal.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/cli/version/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/config/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/config/__pycache__/constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/config/__pycache__/model.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/config/__pycache__/user.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/config/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/collectors/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/collectors/__pycache__/custom.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/collectors/__pycache__/default.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/collectors/plugin/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/collectors/plugin/__pycache__/hooks.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/collectors/plugin/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/__pycache__/context.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/internal/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/internal/__pycache__/build.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/internal/__pycache__/static_analysis.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/plugin/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/plugin/__pycache__/hooks.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/plugin/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/__pycache__/system.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/env/__pycache__/virtual.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/errors/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/index/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/index/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/index/__pycache__/errors.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/index/__pycache__/publish.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/plugin/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/plugin/__pycache__/constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/plugin/__pycache__/manager.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/plugin/__pycache__/specs.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/plugin/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/project/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/project/__pycache__/config.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/project/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/project/__pycache__/env.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/project/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/publish/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/publish/__pycache__/index.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/publish/plugin/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/publish/plugin/__pycache__/hooks.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/publish/plugin/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/python/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/python/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/python/__pycache__/distributions.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/python/__pycache__/resolve.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/template/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/template/__pycache__/default.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/template/__pycache__/files_default.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/template/__pycache__/files_feature_ci.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/template/__pycache__/files_feature_cli.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/template/__pycache__/files_feature_tests.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/template/plugin/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/template/plugin/__pycache__/hooks.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/template/plugin/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/utils/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/utils/__pycache__/ci.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/utils/__pycache__/dep.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/utils/__pycache__/env.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/utils/__pycache__/fs.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/utils/__pycache__/network.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/utils/__pycache__/platform.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/utils/__pycache__/shells.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/utils/__pycache__/structures.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/utils/__pycache__/toml.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/venv/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/venv/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/hatch/venv/__pycache__/utils.cpython-310.pyc",
+    "bin/hatch"
+  ],
+  "fn": "hatch-1.9.7-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/hatch-1.9.7-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "e8a3b5dc579ed96a49b0dd9e0f3bcb77",
+  "name": "hatch",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/hatch-1.9.7-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/hatch-1.9.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/hatch-1.9.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9102c55ae01da73c396ad093dd9d0c05adf53b14ffe60903917b31eef2e2b513",
+        "sha256_in_prefix": "9102c55ae01da73c396ad093dd9d0c05adf53b14ffe60903917b31eef2e2b513",
+        "size_in_bytes": 5180
+      },
+      {
+        "_path": "site-packages/hatch-1.9.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "40d887c2438dda9dd3d0fd2acfa40bf897f62c16b5c87cdcf9e41acb16f118ad",
+        "sha256_in_prefix": "40d887c2438dda9dd3d0fd2acfa40bf897f62c16b5c87cdcf9e41acb16f118ad",
+        "size_in_bytes": 14685
+      },
+      {
+        "_path": "site-packages/hatch-1.9.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch-1.9.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cc431c46bf4aaf4df1d68cc6c20e6ff4d4012a7de49dda7a2d2a1295583e8e15",
+        "sha256_in_prefix": "cc431c46bf4aaf4df1d68cc6c20e6ff4d4012a7de49dda7a2d2a1295583e8e15",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/hatch-1.9.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5a2853b7e95aca2d1ea1effd51d1a023d656e265d065772be467d58f33751dca",
+        "sha256_in_prefix": "5a2853b7e95aca2d1ea1effd51d1a023d656e265d065772be467d58f33751dca",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/hatch-1.9.7.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "6db9ba2a4d2ec4ff3ea8d7db162363f9f3abee9d386a755bfb45b64be4ac623c",
+        "sha256_in_prefix": "6db9ba2a4d2ec4ff3ea8d7db162363f9f3abee9d386a755bfb45b64be4ac623c",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "site-packages/hatch-1.9.7.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "9f4f88aa42884240ae152d6fdd0e0b7e83e2430169c8ce613ae18f6a840f1c57",
+        "sha256_in_prefix": "9f4f88aa42884240ae152d6fdd0e0b7e83e2430169c8ce613ae18f6a840f1c57",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "site-packages/hatch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "d10cd992ce9cfb4bc65b8d58a58c6d9c9a887025c87650488364aa4286f3bc4f",
+        "sha256_in_prefix": "d10cd992ce9cfb4bc65b8d58a58c6d9c9a887025c87650488364aa4286f3bc4f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/hatch/_version.py",
+        "path_type": "hardlink",
+        "sha256": "db5517c93589ede3ff32b02607c4560ec0c13558627222cbbfdfd844f1556580",
+        "sha256_in_prefix": "db5517c93589ede3ff32b02607c4560ec0c13558627222cbbfdfd844f1556580",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "site-packages/hatch/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7a38ed98480174283468a24c5ccbb39dc54f3a188c92acb73e4f5201d2fcdf80",
+        "sha256_in_prefix": "7a38ed98480174283468a24c5ccbb39dc54f3a188c92acb73e4f5201d2fcdf80",
+        "size_in_bytes": 7238
+      },
+      {
+        "_path": "site-packages/hatch/cli/application.py",
+        "path_type": "hardlink",
+        "sha256": "2588fb0be94de4363d5c66e50dea7eb70e9a08c9d160a968d238fb978e240994",
+        "sha256_in_prefix": "2588fb0be94de4363d5c66e50dea7eb70e9a08c9d160a968d238fb978e240994",
+        "size_in_bytes": 13468
+      },
+      {
+        "_path": "site-packages/hatch/cli/build/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "44b03fb5ea79678808e50e1b0be7eb611de68aff41796505187995e82c07b397",
+        "sha256_in_prefix": "44b03fb5ea79678808e50e1b0be7eb611de68aff41796505187995e82c07b397",
+        "size_in_bytes": 4453
+      },
+      {
+        "_path": "site-packages/hatch/cli/clean/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6e43dfb47a5352ed97353173048cb5a9da06881ad0c38e2c132ee0fb7e939410",
+        "sha256_in_prefix": "6e43dfb47a5352ed97353173048cb5a9da06881ad0c38e2c132ee0fb7e939410",
+        "size_in_bytes": 1218
+      },
+      {
+        "_path": "site-packages/hatch/cli/config/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "361b1070f68297253c991813971eb9d1ee892b6728c5b4a8fa9ff763ff021971",
+        "sha256_in_prefix": "361b1070f68297253c991813971eb9d1ee892b6728c5b4a8fa9ff763ff021971",
+        "size_in_bytes": 4875
+      },
+      {
+        "_path": "site-packages/hatch/cli/dep/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "49c406e65db745c1b4688a12b8d3a241393367e5a6cd7d4bdcbd953b663502d1",
+        "sha256_in_prefix": "49c406e65db745c1b4688a12b8d3a241393367e5a6cd7d4bdcbd953b663502d1",
+        "size_in_bytes": 6211
+      },
+      {
+        "_path": "site-packages/hatch/cli/env/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "16bdad3399bd5d8e6525b60a3d5cc1934c3299997189a2c6f3894dddaeec96fd",
+        "sha256_in_prefix": "16bdad3399bd5d8e6525b60a3d5cc1934c3299997189a2c6f3894dddaeec96fd",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "site-packages/hatch/cli/env/create.py",
+        "path_type": "hardlink",
+        "sha256": "ce6255473a59619ebf0f5ced1a2549b3a4fd719c196754b36b56d7b871ba313c",
+        "sha256_in_prefix": "ce6255473a59619ebf0f5ced1a2549b3a4fd719c196754b36b56d7b871ba313c",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "site-packages/hatch/cli/env/find.py",
+        "path_type": "hardlink",
+        "sha256": "fa1937d116b1827b2a3457e5c9875c6ab8a79be0181a71ade6dee115591aad06",
+        "sha256_in_prefix": "fa1937d116b1827b2a3457e5c9875c6ab8a79be0181a71ade6dee115591aad06",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "site-packages/hatch/cli/env/prune.py",
+        "path_type": "hardlink",
+        "sha256": "b38fea44035caa621f18b586d757e077c1b0a810f2f448da84ea98effc5cb025",
+        "sha256_in_prefix": "b38fea44035caa621f18b586d757e077c1b0a810f2f448da84ea98effc5cb025",
+        "size_in_bytes": 1250
+      },
+      {
+        "_path": "site-packages/hatch/cli/env/remove.py",
+        "path_type": "hardlink",
+        "sha256": "098279694b823dfd2f8018f605b9383f7abf69bc094b3e90bae78e18b418fbc0",
+        "sha256_in_prefix": "098279694b823dfd2f8018f605b9383f7abf69bc094b3e90bae78e18b418fbc0",
+        "size_in_bytes": 904
+      },
+      {
+        "_path": "site-packages/hatch/cli/env/run.py",
+        "path_type": "hardlink",
+        "sha256": "d0ebd14ac4d60c1fb85811df50e808658baa87fa990f9d7e9d90c4c91a1fe9a1",
+        "sha256_in_prefix": "d0ebd14ac4d60c1fb85811df50e808658baa87fa990f9d7e9d90c4c91a1fe9a1",
+        "size_in_bytes": 6941
+      },
+      {
+        "_path": "site-packages/hatch/cli/env/show.py",
+        "path_type": "hardlink",
+        "sha256": "d5646e4e940513c500a536b056dabcf5f2861a867fcfe9ed5cb5d564d20e0440",
+        "sha256_in_prefix": "d5646e4e940513c500a536b056dabcf5f2861a867fcfe9ed5cb5d564d20e0440",
+        "size_in_bytes": 6929
+      },
+      {
+        "_path": "site-packages/hatch/cli/fmt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fe9eab135affd90784ba25509197f6067b3fcd344c9b647379797471ce2bc96d",
+        "sha256_in_prefix": "fe9eab135affd90784ba25509197f6067b3fcd344c9b647379797471ce2bc96d",
+        "size_in_bytes": 2702
+      },
+      {
+        "_path": "site-packages/hatch/cli/fmt/core.py",
+        "path_type": "hardlink",
+        "sha256": "bee26541944b606baf94095f17737390ad310c1a3cb52bfc2834540133abc53f",
+        "sha256_in_prefix": "bee26541944b606baf94095f17737390ad310c1a3cb52bfc2834540133abc53f",
+        "size_in_bytes": 14681
+      },
+      {
+        "_path": "site-packages/hatch/cli/new/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f2187b7f2c6f636e55a037f36c3c06e5115dbd2db2efaeb4dd6275240949fc9a",
+        "sha256_in_prefix": "f2187b7f2c6f636e55a037f36c3c06e5115dbd2db2efaeb4dd6275240949fc9a",
+        "size_in_bytes": 6044
+      },
+      {
+        "_path": "site-packages/hatch/cli/new/migrate.py",
+        "path_type": "hardlink",
+        "sha256": "c4eff6cf73f988c2d1f49c8547120c85f84b8e6d2e57c27b489df743715e2f1b",
+        "sha256_in_prefix": "c4eff6cf73f988c2d1f49c8547120c85f84b8e6d2e57c27b489df743715e2f1b",
+        "size_in_bytes": 13804
+      },
+      {
+        "_path": "site-packages/hatch/cli/project/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b5f92d95b75a5db69c366cffb69cd4cdaec2395167f8573edeac989623eb1a9d",
+        "sha256_in_prefix": "b5f92d95b75a5db69c366cffb69cd4cdaec2395167f8573edeac989623eb1a9d",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "site-packages/hatch/cli/project/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "d35bfac4a082aaeee75583adbe58ff88f4033d5e0acc9ccf14915d5958217afd",
+        "sha256_in_prefix": "d35bfac4a082aaeee75583adbe58ff88f4033d5e0acc9ccf14915d5958217afd",
+        "size_in_bytes": 2580
+      },
+      {
+        "_path": "site-packages/hatch/cli/publish/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4a85aa51f178bb9dd0483429c6cc5c6ca42c04cedf34704ffcb83395c3ff57d9",
+        "sha256_in_prefix": "4a85aa51f178bb9dd0483429c6cc5c6ca42c04cedf34704ffcb83395c3ff57d9",
+        "size_in_bytes": 3651
+      },
+      {
+        "_path": "site-packages/hatch/cli/python/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1f17edbc48346bba68b670cba3358e265af352fb04b9d0fe1f9d80b241b82645",
+        "sha256_in_prefix": "1f17edbc48346bba68b670cba3358e265af352fb04b9d0fe1f9d80b241b82645",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "site-packages/hatch/cli/python/find.py",
+        "path_type": "hardlink",
+        "sha256": "50ecee62ea8aaccb640eb1aadffa5103f34f34243308cacab5455586e7d20509",
+        "sha256_in_prefix": "50ecee62ea8aaccb640eb1aadffa5103f34f34243308cacab5455586e7d20509",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "site-packages/hatch/cli/python/install.py",
+        "path_type": "hardlink",
+        "sha256": "b1e7d250396155cef9c5fea6fc0f75dca07eb5ec59c53f69c2c685fa9d91cd71",
+        "sha256_in_prefix": "b1e7d250396155cef9c5fea6fc0f75dca07eb5ec59c53f69c2c685fa9d91cd71",
+        "size_in_bytes": 3582
+      },
+      {
+        "_path": "site-packages/hatch/cli/python/remove.py",
+        "path_type": "hardlink",
+        "sha256": "8e189d191b3794828b19aaa1b4a230d93724978dab3043f2ff437070388e2448",
+        "sha256_in_prefix": "8e189d191b3794828b19aaa1b4a230d93724978dab3043f2ff437070388e2448",
+        "size_in_bytes": 1033
+      },
+      {
+        "_path": "site-packages/hatch/cli/python/show.py",
+        "path_type": "hardlink",
+        "sha256": "ebfc07507258fd50098dbe76ec8e704f66e772d80fa1f738cdc5d5dc4f84fb68",
+        "sha256_in_prefix": "ebfc07507258fd50098dbe76ec8e704f66e772d80fa1f738cdc5d5dc4f84fb68",
+        "size_in_bytes": 1609
+      },
+      {
+        "_path": "site-packages/hatch/cli/python/update.py",
+        "path_type": "hardlink",
+        "sha256": "f5fc46c3ebda5dffabd7330ab3001b59883dade5d04e14a454c574ea86635b2d",
+        "sha256_in_prefix": "f5fc46c3ebda5dffabd7330ab3001b59883dade5d04e14a454c574ea86635b2d",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "site-packages/hatch/cli/run/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "47f5049be7592b824a56be7fad77ea5a7dd625938d81af64d7798d8f37b0f784",
+        "sha256_in_prefix": "47f5049be7592b824a56be7fad77ea5a7dd625938d81af64d7798d8f37b0f784",
+        "size_in_bytes": 2496
+      },
+      {
+        "_path": "site-packages/hatch/cli/shell/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e55eac12d3b682dc5f8660d7ab91e7c493bc8f02edaf373009ef09c82cfe50ef",
+        "sha256_in_prefix": "e55eac12d3b682dc5f8660d7ab91e7c493bc8f02edaf373009ef09c82cfe50ef",
+        "size_in_bytes": 1797
+      },
+      {
+        "_path": "site-packages/hatch/cli/status/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5e4d495ead102bfd866a535b11bc1138266731e0c16b328d475c6ec535d5aa40",
+        "sha256_in_prefix": "5e4d495ead102bfd866a535b11bc1138266731e0c16b328d475c6ec535d5aa40",
+        "size_in_bytes": 1082
+      },
+      {
+        "_path": "site-packages/hatch/cli/terminal.py",
+        "path_type": "hardlink",
+        "sha256": "734be6db44080e33f96e39ed0bb61f604dfe19cca847ef69a4782f59442861e5",
+        "sha256_in_prefix": "734be6db44080e33f96e39ed0bb61f604dfe19cca847ef69a4782f59442861e5",
+        "size_in_bytes": 12346
+      },
+      {
+        "_path": "site-packages/hatch/cli/version/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d805db2599b0fb65e8587b73671ff7e8290eff291ae0283158fd5aa9c48a6093",
+        "sha256_in_prefix": "d805db2599b0fb65e8587b73671ff7e8290eff291ae0283158fd5aa9c48a6093",
+        "size_in_bytes": 2883
+      },
+      {
+        "_path": "site-packages/hatch/config/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/config/constants.py",
+        "path_type": "hardlink",
+        "sha256": "36ad3c4cdc30db96fb14053e2e5519915cc310b7b9d1dea617245ce1ea750c26",
+        "sha256_in_prefix": "36ad3c4cdc30db96fb14053e2e5519915cc310b7b9d1dea617245ce1ea750c26",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "site-packages/hatch/config/model.py",
+        "path_type": "hardlink",
+        "sha256": "dff81c5a8cccf58d6ce953c4a3711245c8260ae46d0472238eaafe6c17cbaf0b",
+        "sha256_in_prefix": "dff81c5a8cccf58d6ce953c4a3711245c8260ae46d0472238eaafe6c17cbaf0b",
+        "size_in_bytes": 25374
+      },
+      {
+        "_path": "site-packages/hatch/config/user.py",
+        "path_type": "hardlink",
+        "sha256": "edb4fdd2f16c920d5e8e592cff952c4211313a358cd594bd64d1ba188664bb12",
+        "sha256_in_prefix": "edb4fdd2f16c920d5e8e592cff952c4211313a358cd594bd64d1ba188664bb12",
+        "size_in_bytes": 1655
+      },
+      {
+        "_path": "site-packages/hatch/config/utils.py",
+        "path_type": "hardlink",
+        "sha256": "32d0049cda9cabb8f9692d28e9e0f4d174f88ee10d710b74c249e586e5bee5c5",
+        "sha256_in_prefix": "32d0049cda9cabb8f9692d28e9e0f4d174f88ee10d710b74c249e586e5bee5c5",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "site-packages/hatch/env/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/env/collectors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/env/collectors/custom.py",
+        "path_type": "hardlink",
+        "sha256": "9356cd756b90c1c1a7c89288826ac4e2001145bb27a20a5db9040483d0f9778d",
+        "sha256_in_prefix": "9356cd756b90c1c1a7c89288826ac4e2001145bb27a20a5db9040483d0f9778d",
+        "size_in_bytes": 1469
+      },
+      {
+        "_path": "site-packages/hatch/env/collectors/default.py",
+        "path_type": "hardlink",
+        "sha256": "a529ca66fc52c6c13c31dd9c1208b4365c9a84f115ab364ed7fdd7cf17a24d8d",
+        "sha256_in_prefix": "a529ca66fc52c6c13c31dd9c1208b4365c9a84f115ab364ed7fdd7cf17a24d8d",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "site-packages/hatch/env/collectors/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/env/collectors/plugin/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "5be79a00b751bc74f3d090e15b4b76465fa471667a193e5ee83f48ffbff972a0",
+        "sha256_in_prefix": "5be79a00b751bc74f3d090e15b4b76465fa471667a193e5ee83f48ffbff972a0",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "site-packages/hatch/env/collectors/plugin/interface.py",
+        "path_type": "hardlink",
+        "sha256": "9331bc68ae9ed7754fdbb173d3632fe10e30e10e9d4eb3f358d8eb5c08815d14",
+        "sha256_in_prefix": "9331bc68ae9ed7754fdbb173d3632fe10e30e10e9d4eb3f358d8eb5c08815d14",
+        "size_in_bytes": 2013
+      },
+      {
+        "_path": "site-packages/hatch/env/context.py",
+        "path_type": "hardlink",
+        "sha256": "41a7a36107242f90c67a1e92faf3b6b7b7d2bb6f0f96bf824614404209f08d89",
+        "sha256_in_prefix": "41a7a36107242f90c67a1e92faf3b6b7b7d2bb6f0f96bf824614404209f08d89",
+        "size_in_bytes": 2798
+      },
+      {
+        "_path": "site-packages/hatch/env/internal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "be3b3e5c44348632d92ff5184bdaf3a38a9fe531fb06dcc4f036d6b9574a2ab1",
+        "sha256_in_prefix": "be3b3e5c44348632d92ff5184bdaf3a38a9fe531fb06dcc4f036d6b9574a2ab1",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "site-packages/hatch/env/internal/build.py",
+        "path_type": "hardlink",
+        "sha256": "ea6ba1759c1936ca1cc5881e318d7e00bccba40785776847c10c69a98885d8d0",
+        "sha256_in_prefix": "ea6ba1759c1936ca1cc5881e318d7e00bccba40785776847c10c69a98885d8d0",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "site-packages/hatch/env/internal/static_analysis.py",
+        "path_type": "hardlink",
+        "sha256": "9daecee8bcb57138ad3ed88fbcbdaff9990de74fc1d0ecc1f7f47863d2568b63",
+        "sha256_in_prefix": "9daecee8bcb57138ad3ed88fbcbdaff9990de74fc1d0ecc1f7f47863d2568b63",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "site-packages/hatch/env/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/env/plugin/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "e1866b9a20634e2dec7a67907262c7ce2731288968e65fbd7509ec175ca64d76",
+        "sha256_in_prefix": "e1866b9a20634e2dec7a67907262c7ce2731288968e65fbd7509ec175ca64d76",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "site-packages/hatch/env/plugin/interface.py",
+        "path_type": "hardlink",
+        "sha256": "0663db085a7c113fe9260b78d8eddcec01bc20300d629c61370a2be6a5ce63c8",
+        "sha256_in_prefix": "0663db085a7c113fe9260b78d8eddcec01bc20300d629c61370a2be6a5ce63c8",
+        "size_in_bytes": 33419
+      },
+      {
+        "_path": "site-packages/hatch/env/system.py",
+        "path_type": "hardlink",
+        "sha256": "e29c1e2cb9acad1ff6f528e8c514ed64f4ed75698e15fe8b3d906f49e2a03db7",
+        "sha256_in_prefix": "e29c1e2cb9acad1ff6f528e8c514ed64f4ed75698e15fe8b3d906f49e2a03db7",
+        "size_in_bytes": 1477
+      },
+      {
+        "_path": "site-packages/hatch/env/utils.py",
+        "path_type": "hardlink",
+        "sha256": "3510a6d6c36b2680a943f41f6a0ea82d132912c766c54465bda85d7320c4f20b",
+        "sha256_in_prefix": "3510a6d6c36b2680a943f41f6a0ea82d132912c766c54465bda85d7320c4f20b",
+        "size_in_bytes": 570
+      },
+      {
+        "_path": "site-packages/hatch/env/virtual.py",
+        "path_type": "hardlink",
+        "sha256": "060ac69a1eb7950322d0954917ae1f04d9e2e8f01e49a22808984217865cc4ad",
+        "sha256_in_prefix": "060ac69a1eb7950322d0954917ae1f04d9e2e8f01e49a22808984217865cc4ad",
+        "size_in_bytes": 15246
+      },
+      {
+        "_path": "site-packages/hatch/errors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "08189821dc4ccc75dd4875c379ca418b3824f4a57c33740c4d86f09909fffb8a",
+        "sha256_in_prefix": "08189821dc4ccc75dd4875c379ca418b3824f4a57c33740c4d86f09909fffb8a",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "site-packages/hatch/index/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/index/core.py",
+        "path_type": "hardlink",
+        "sha256": "596e6419fdaf7b0f4700d0fcd070a3344dbc798da139fa90746f7f0b45be6841",
+        "sha256_in_prefix": "596e6419fdaf7b0f4700d0fcd070a3344dbc798da139fa90746f7f0b45be6841",
+        "size_in_bytes": 2798
+      },
+      {
+        "_path": "site-packages/hatch/index/errors.py",
+        "path_type": "hardlink",
+        "sha256": "d5a161226d840805eddc6779cfa2e0989326c1236c0c8f055a2f734310cfc19d",
+        "sha256_in_prefix": "d5a161226d840805eddc6779cfa2e0989326c1236c0c8f055a2f734310cfc19d",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "site-packages/hatch/index/publish.py",
+        "path_type": "hardlink",
+        "sha256": "6449e256fe3841d67fe1e22ce2faf58604ae0ad28644f07774a9d340fae09107",
+        "sha256_in_prefix": "6449e256fe3841d67fe1e22ce2faf58604ae0ad28644f07774a9d340fae09107",
+        "size_in_bytes": 3378
+      },
+      {
+        "_path": "site-packages/hatch/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/plugin/constants.py",
+        "path_type": "hardlink",
+        "sha256": "29eac46eda174202bc9e40454726025e151b475324af57ef66168f4cb734bdd2",
+        "sha256_in_prefix": "29eac46eda174202bc9e40454726025e151b475324af57ef66168f4cb734bdd2",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "site-packages/hatch/plugin/manager.py",
+        "path_type": "hardlink",
+        "sha256": "99a9db450120f89eb6edbdc6260cfec4aa871e3d4fb7c7f8d32cd4866cf73e54",
+        "sha256_in_prefix": "99a9db450120f89eb6edbdc6260cfec4aa871e3d4fb7c7f8d32cd4866cf73e54",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "site-packages/hatch/plugin/specs.py",
+        "path_type": "hardlink",
+        "sha256": "1d75b2972edf0e6b67df873aff9e9201f575e4ec4e7bef9b925103c248e54e1f",
+        "sha256_in_prefix": "1d75b2972edf0e6b67df873aff9e9201f575e4ec4e7bef9b925103c248e54e1f",
+        "size_in_bytes": 655
+      },
+      {
+        "_path": "site-packages/hatch/plugin/utils.py",
+        "path_type": "hardlink",
+        "sha256": "887109d431ae2a7c6d3ffeb72e620f094e31f3e1a275113e304457fb98386e36",
+        "sha256_in_prefix": "887109d431ae2a7c6d3ffeb72e620f094e31f3e1a275113e304457fb98386e36",
+        "size_in_bytes": 1450
+      },
+      {
+        "_path": "site-packages/hatch/project/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/project/config.py",
+        "path_type": "hardlink",
+        "sha256": "82fec13c4119b532233ec625980db04b20718b9486b54e036da7ae64ba8bdb67",
+        "sha256_in_prefix": "82fec13c4119b532233ec625980db04b20718b9486b54e036da7ae64ba8bdb67",
+        "size_in_bytes": 23381
+      },
+      {
+        "_path": "site-packages/hatch/project/core.py",
+        "path_type": "hardlink",
+        "sha256": "eb3995b75cb6877bf4e892e3fdad97f72443cd55475340b75ea8786aafd942c6",
+        "sha256_in_prefix": "eb3995b75cb6877bf4e892e3fdad97f72443cd55475340b75ea8786aafd942c6",
+        "size_in_bytes": 5411
+      },
+      {
+        "_path": "site-packages/hatch/project/env.py",
+        "path_type": "hardlink",
+        "sha256": "8f9b05920c39423d7482774f63068f47249d0c3f71899f65e3e03cfc3358523e",
+        "sha256_in_prefix": "8f9b05920c39423d7482774f63068f47249d0c3f71899f65e3e03cfc3358523e",
+        "size_in_bytes": 14397
+      },
+      {
+        "_path": "site-packages/hatch/project/utils.py",
+        "path_type": "hardlink",
+        "sha256": "78a6ef42c7f223114349b50e29ecf3fe73fd76cc168126deddbcbd144e73ccc8",
+        "sha256_in_prefix": "78a6ef42c7f223114349b50e29ecf3fe73fd76cc168126deddbcbd144e73ccc8",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "site-packages/hatch/publish/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/publish/index.py",
+        "path_type": "hardlink",
+        "sha256": "9638383fc496bccf7caaaa6c55d2b6c1dba360196e068f1b2740c64e51a6d705",
+        "sha256_in_prefix": "9638383fc496bccf7caaaa6c55d2b6c1dba360196e068f1b2740c64e51a6d705",
+        "size_in_bytes": 7934
+      },
+      {
+        "_path": "site-packages/hatch/publish/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/publish/plugin/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "440d11e1501ec698f3199b5272a1db36e62665ef06bcdb72204d91dc259cf1fa",
+        "sha256_in_prefix": "440d11e1501ec698f3199b5272a1db36e62665ef06bcdb72204d91dc259cf1fa",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "site-packages/hatch/publish/plugin/interface.py",
+        "path_type": "hardlink",
+        "sha256": "5ba6f0d2669623ef8ceefe6e7790564598c6596f194e0b49310f610d0a9f493a",
+        "sha256_in_prefix": "5ba6f0d2669623ef8ceefe6e7790564598c6596f194e0b49310f610d0a9f493a",
+        "size_in_bytes": 3353
+      },
+      {
+        "_path": "site-packages/hatch/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/python/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/python/core.py",
+        "path_type": "hardlink",
+        "sha256": "21b48beb831a9aa8f56bfbe6cddff1422e256c1e3a80549d1e6cf21329d234c1",
+        "sha256_in_prefix": "21b48beb831a9aa8f56bfbe6cddff1422e256c1e3a80549d1e6cf21329d234c1",
+        "size_in_bytes": 4020
+      },
+      {
+        "_path": "site-packages/hatch/python/distributions.py",
+        "path_type": "hardlink",
+        "sha256": "5999e73c860f8060e5cb3356f28e6e3b3df2af37ffe87cc6196b3a224afd0f84",
+        "sha256_in_prefix": "5999e73c860f8060e5cb3356f28e6e3b3df2af37ffe87cc6196b3a224afd0f84",
+        "size_in_bytes": 20659
+      },
+      {
+        "_path": "site-packages/hatch/python/resolve.py",
+        "path_type": "hardlink",
+        "sha256": "1aaa08a913cf1dbab8b660029f3eac591b8d5877fcfd6be428e4dff449e64200",
+        "sha256_in_prefix": "1aaa08a913cf1dbab8b660029f3eac591b8d5877fcfd6be428e4dff449e64200",
+        "size_in_bytes": 6140
+      },
+      {
+        "_path": "site-packages/hatch/template/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "eaae03684a3c71ec648d70ad61bece809d94c3fdd4701e696ae554445207c63e",
+        "sha256_in_prefix": "eaae03684a3c71ec648d70ad61bece809d94c3fdd4701e696ae554445207c63e",
+        "size_in_bytes": 780
+      },
+      {
+        "_path": "site-packages/hatch/template/default.py",
+        "path_type": "hardlink",
+        "sha256": "33081f4f8c00e45f30c7348e44e4bdccd54336c918a58c6518f4b3274ca857a2",
+        "sha256_in_prefix": "33081f4f8c00e45f30c7348e44e4bdccd54336c918a58c6518f4b3274ca857a2",
+        "size_in_bytes": 5224
+      },
+      {
+        "_path": "site-packages/hatch/template/files_default.py",
+        "path_type": "hardlink",
+        "sha256": "f52e23a8bec52cffb23438b3f6379c555d3b528e7058049e65f6a6a68f124929",
+        "sha256_in_prefix": "f52e23a8bec52cffb23438b3f6379c555d3b528e7058049e65f6a6a68f124929",
+        "size_in_bytes": 6354
+      },
+      {
+        "_path": "site-packages/hatch/template/files_feature_ci.py",
+        "path_type": "hardlink",
+        "sha256": "4760ce6d79fd168ae7675e2227a9c146dda85a72a5a1ea03b455b96c77cc6ef8",
+        "sha256_in_prefix": "4760ce6d79fd168ae7675e2227a9c146dda85a72a5a1ea03b455b96c77cc6ef8",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "site-packages/hatch/template/files_feature_cli.py",
+        "path_type": "hardlink",
+        "sha256": "d546952d879e6c8f668715ebdb3a93179e791b00a8ae305f28a77a38deb5c0eb",
+        "sha256_in_prefix": "d546952d879e6c8f668715ebdb3a93179e791b00a8ae305f28a77a38deb5c0eb",
+        "size_in_bytes": 1092
+      },
+      {
+        "_path": "site-packages/hatch/template/files_feature_tests.py",
+        "path_type": "hardlink",
+        "sha256": "4517f1ac6b13edbe795c28a13c5bbfac1ba9b780e6c58756ed42b7077f6fe46e",
+        "sha256_in_prefix": "4517f1ac6b13edbe795c28a13c5bbfac1ba9b780e6c58756ed42b7077f6fe46e",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "site-packages/hatch/template/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/template/plugin/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "6bcd07a774fc31cf4f355ccbe59cedf767a8d93d3bb9a28a07bff399fe5519d8",
+        "sha256_in_prefix": "6bcd07a774fc31cf4f355ccbe59cedf767a8d93d3bb9a28a07bff399fe5519d8",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "site-packages/hatch/template/plugin/interface.py",
+        "path_type": "hardlink",
+        "sha256": "ab5f3146dfba2803af8ebad3baaa6f3f478b11bf35a09d10554ef8dd8d57e892",
+        "sha256_in_prefix": "ab5f3146dfba2803af8ebad3baaa6f3f478b11bf35a09d10554ef8dd8d57e892",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "site-packages/hatch/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/utils/ci.py",
+        "path_type": "hardlink",
+        "sha256": "abaabbbeb82b9e41ee1b1cea79e59a4a7274b072351905ac4e2132a4b22053e5",
+        "sha256_in_prefix": "abaabbbeb82b9e41ee1b1cea79e59a4a7274b072351905ac4e2132a4b22053e5",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "site-packages/hatch/utils/dep.py",
+        "path_type": "hardlink",
+        "sha256": "e411b345b54391109a4b3ce79354f4580dd1f30bdc7795416a634433e8e3ff13",
+        "sha256_in_prefix": "e411b345b54391109a4b3ce79354f4580dd1f30bdc7795416a634433e8e3ff13",
+        "size_in_bytes": 2828
+      },
+      {
+        "_path": "site-packages/hatch/utils/env.py",
+        "path_type": "hardlink",
+        "sha256": "dbf86e43e9a5d7b11e701e4fb10086a97e3c57cfb20506553edd1fb2c84e382d",
+        "sha256_in_prefix": "dbf86e43e9a5d7b11e701e4fb10086a97e3c57cfb20506553edd1fb2c84e382d",
+        "size_in_bytes": 2445
+      },
+      {
+        "_path": "site-packages/hatch/utils/fs.py",
+        "path_type": "hardlink",
+        "sha256": "bd7976a06e2182fe52f310a3f0b63d96dbe2f41433f6f740ff38eee01923b897",
+        "sha256_in_prefix": "bd7976a06e2182fe52f310a3f0b63d96dbe2f41433f6f740ff38eee01923b897",
+        "size_in_bytes": 3602
+      },
+      {
+        "_path": "site-packages/hatch/utils/network.py",
+        "path_type": "hardlink",
+        "sha256": "bd41a2194d663b20acef3c5d06a6772ee9d8927985c531d069e6b45fefd129c7",
+        "sha256_in_prefix": "bd41a2194d663b20acef3c5d06a6772ee9d8927985c531d069e6b45fefd129c7",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "site-packages/hatch/utils/platform.py",
+        "path_type": "hardlink",
+        "sha256": "17e3101341f5db5f8988730a9801afa35aeaccef0a66e0a178efc33adb96b565",
+        "sha256_in_prefix": "17e3101341f5db5f8988730a9801afa35aeaccef0a66e0a178efc33adb96b565",
+        "size_in_bytes": 10719
+      },
+      {
+        "_path": "site-packages/hatch/utils/shells.py",
+        "path_type": "hardlink",
+        "sha256": "d3f884dfa9108122ae0b00a756b3873264b8da69c6ffcbc636d92728cb78e707",
+        "sha256_in_prefix": "d3f884dfa9108122ae0b00a756b3873264b8da69c6ffcbc636d92728cb78e707",
+        "size_in_bytes": 4945
+      },
+      {
+        "_path": "site-packages/hatch/utils/structures.py",
+        "path_type": "hardlink",
+        "sha256": "35b00883d7e98bd69de1ce29d09d588209442ca7a8eb710d23fb2c5657c9d962",
+        "sha256_in_prefix": "35b00883d7e98bd69de1ce29d09d588209442ca7a8eb710d23fb2c5657c9d962",
+        "size_in_bytes": 1257
+      },
+      {
+        "_path": "site-packages/hatch/utils/toml.py",
+        "path_type": "hardlink",
+        "sha256": "6bda294b60438655c66df878657bc69833b4f75824c9c5be8df5890bdbc83e3a",
+        "sha256_in_prefix": "6bda294b60438655c66df878657bc69833b4f75824c9c5be8df5890bdbc83e3a",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "site-packages/hatch/venv/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hatch/venv/core.py",
+        "path_type": "hardlink",
+        "sha256": "c1d4140a737fde30e4b97acf47b3cedcf1746b8b01cb497ac8d91cd49e301e54",
+        "sha256_in_prefix": "c1d4140a737fde30e4b97acf47b3cedcf1746b8b01cb497ac8d91cd49e301e54",
+        "size_in_bytes": 4322
+      },
+      {
+        "_path": "site-packages/hatch/venv/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e8273872d214f8a23783d9c87dbe675c630eb915f2532eea3b6a63b0bbd4352a",
+        "sha256_in_prefix": "e8273872d214f8a23783d9c87dbe675c630eb915f2532eea3b6a63b0bbd4352a",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/__pycache__/_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/__pycache__/application.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/build/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/clean/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/config/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/dep/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/env/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/env/__pycache__/create.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/env/__pycache__/find.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/env/__pycache__/prune.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/env/__pycache__/remove.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/env/__pycache__/run.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/env/__pycache__/show.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/fmt/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/fmt/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/new/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/new/__pycache__/migrate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/project/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/project/__pycache__/metadata.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/publish/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/python/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/python/__pycache__/find.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/python/__pycache__/install.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/python/__pycache__/remove.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/python/__pycache__/show.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/python/__pycache__/update.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/run/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/shell/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/status/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/__pycache__/terminal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/cli/version/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/config/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/config/__pycache__/constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/config/__pycache__/model.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/config/__pycache__/user.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/config/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/collectors/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/collectors/__pycache__/custom.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/collectors/__pycache__/default.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/collectors/plugin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/collectors/plugin/__pycache__/hooks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/collectors/plugin/__pycache__/interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/__pycache__/context.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/internal/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/internal/__pycache__/build.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/internal/__pycache__/static_analysis.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/plugin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/plugin/__pycache__/hooks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/plugin/__pycache__/interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/__pycache__/system.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/env/__pycache__/virtual.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/errors/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/index/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/index/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/index/__pycache__/errors.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/index/__pycache__/publish.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/plugin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/plugin/__pycache__/constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/plugin/__pycache__/manager.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/plugin/__pycache__/specs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/plugin/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/project/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/project/__pycache__/config.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/project/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/project/__pycache__/env.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/project/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/publish/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/publish/__pycache__/index.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/publish/plugin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/publish/plugin/__pycache__/hooks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/publish/plugin/__pycache__/interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/python/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/python/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/python/__pycache__/distributions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/python/__pycache__/resolve.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/template/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/template/__pycache__/default.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/template/__pycache__/files_default.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/template/__pycache__/files_feature_ci.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/template/__pycache__/files_feature_cli.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/template/__pycache__/files_feature_tests.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/template/plugin/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/template/plugin/__pycache__/hooks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/template/plugin/__pycache__/interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/utils/__pycache__/ci.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/utils/__pycache__/dep.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/utils/__pycache__/env.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/utils/__pycache__/fs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/utils/__pycache__/network.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/utils/__pycache__/platform.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/utils/__pycache__/shells.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/utils/__pycache__/structures.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/utils/__pycache__/toml.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/venv/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/venv/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/hatch/venv/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/hatch",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d5e52347f6840eef558312bd5c50b057e51dd28435d828a7ce4d7cf3a9169b7e",
+  "size": 81491,
+  "subdir": "noarch",
+  "timestamp": 1714410078000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/hatch-1.9.7-pyhd8ed1ab_0.conda",
+  "version": "1.9.7"
+}

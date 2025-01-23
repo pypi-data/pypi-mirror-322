@@ -1,0 +1,239 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "hatch",
+    "hatchling",
+    "python >=3.8",
+    "requests",
+    "rich",
+    "typer"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/cirun-0.30-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/cirun-0.30.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/cirun-0.30.dist-info/METADATA",
+    "lib/python3.10/site-packages/cirun-0.30.dist-info/RECORD",
+    "lib/python3.10/site-packages/cirun-0.30.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/cirun-0.30.dist-info/WHEEL",
+    "lib/python3.10/site-packages/cirun-0.30.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/cirun-0.30.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/cirun-0.30.dist-info/licenses/LICENSE.txt",
+    "lib/python3.10/site-packages/cirun/__about__.py",
+    "lib/python3.10/site-packages/cirun/__init__.py",
+    "lib/python3.10/site-packages/cirun/client.py",
+    "lib/python3.10/site-packages/cirun/cloud.py",
+    "lib/python3.10/site-packages/cirun/main.py",
+    "lib/python3.10/site-packages/cirun/repo.py",
+    "lib/python3.10/site-packages/cirun/tests/__init__.py",
+    "lib/python3.10/site-packages/cirun/tests/test_client.py",
+    "lib/python3.10/site-packages/cirun/tests/test_integration.py",
+    "lib/python3.10/site-packages/cirun/utils.py",
+    "lib/python3.10/site-packages/cirun/__pycache__/__about__.cpython-310.pyc",
+    "lib/python3.10/site-packages/cirun/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/cirun/__pycache__/client.cpython-310.pyc",
+    "lib/python3.10/site-packages/cirun/__pycache__/cloud.cpython-310.pyc",
+    "lib/python3.10/site-packages/cirun/__pycache__/main.cpython-310.pyc",
+    "lib/python3.10/site-packages/cirun/__pycache__/repo.cpython-310.pyc",
+    "lib/python3.10/site-packages/cirun/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/cirun/tests/__pycache__/test_client.cpython-310.pyc",
+    "lib/python3.10/site-packages/cirun/tests/__pycache__/test_integration.cpython-310.pyc",
+    "lib/python3.10/site-packages/cirun/__pycache__/utils.cpython-310.pyc",
+    "bin/cirun"
+  ],
+  "fn": "cirun-0.30-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/cirun-0.30-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "1e4a430e1d1f4c009d72334607d032cd",
+  "name": "cirun",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/cirun-0.30-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/cirun-0.30.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/cirun-0.30.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "217081dc169f579ffe418475d693dcbb54baed39a9a2b2ecb652e648c4895650",
+        "sha256_in_prefix": "217081dc169f579ffe418475d693dcbb54baed39a9a2b2ecb652e648c4895650",
+        "size_in_bytes": 5152
+      },
+      {
+        "_path": "site-packages/cirun-0.30.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "055dcb9e1a7d5d32b8986d4db8d7776b084ab1486306aafb721f6523b123d00d",
+        "sha256_in_prefix": "055dcb9e1a7d5d32b8986d4db8d7776b084ab1486306aafb721f6523b123d00d",
+        "size_in_bytes": 1961
+      },
+      {
+        "_path": "site-packages/cirun-0.30.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cirun-0.30.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "sha256_in_prefix": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/cirun-0.30.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "712c3582bac9e25c2ce72ec800455c507cf0132a777741725a0377fdc2340337",
+        "sha256_in_prefix": "712c3582bac9e25c2ce72ec800455c507cf0132a777741725a0377fdc2340337",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/cirun-0.30.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "8c8a5593973ec00b5afcea079873d67c0a00abc349c63889637bdc2d74dfd407",
+        "sha256_in_prefix": "8c8a5593973ec00b5afcea079873d67c0a00abc349c63889637bdc2d74dfd407",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "site-packages/cirun-0.30.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "10f0a8c4f7e24c5bd273f3baba961462db375116c3fc03ea5604984690421c54",
+        "sha256_in_prefix": "10f0a8c4f7e24c5bd273f3baba961462db375116c3fc03ea5604984690421c54",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "site-packages/cirun/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "9b1fc156185ad6085907e652790f6f3ed8cb69bd770c2cf60f4262b7e226f507",
+        "sha256_in_prefix": "9b1fc156185ad6085907e652790f6f3ed8cb69bd770c2cf60f4262b7e226f507",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "site-packages/cirun/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aa9d9538b698eee1d4992da93f4fbba7ddbaea5d152fe3ba9f1d1f735c05fa85",
+        "sha256_in_prefix": "aa9d9538b698eee1d4992da93f4fbba7ddbaea5d152fe3ba9f1d1f735c05fa85",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "site-packages/cirun/client.py",
+        "path_type": "hardlink",
+        "sha256": "bdcaaf17aa4ad38cef5516dcc2837244a7330d7693c05dafe1ba52f6a0f7d87d",
+        "sha256_in_prefix": "bdcaaf17aa4ad38cef5516dcc2837244a7330d7693c05dafe1ba52f6a0f7d87d",
+        "size_in_bytes": 9176
+      },
+      {
+        "_path": "site-packages/cirun/cloud.py",
+        "path_type": "hardlink",
+        "sha256": "12ca151a06c82e46a92791432f8c9de3cd3b13fb64ac0ebeead16b1b6d49a62c",
+        "sha256_in_prefix": "12ca151a06c82e46a92791432f8c9de3cd3b13fb64ac0ebeead16b1b6d49a62c",
+        "size_in_bytes": 3676
+      },
+      {
+        "_path": "site-packages/cirun/main.py",
+        "path_type": "hardlink",
+        "sha256": "3a3373c5447280ae3c0bea6f97a83e0ad9d001154310b2138ee6ab5a0523f6d8",
+        "sha256_in_prefix": "3a3373c5447280ae3c0bea6f97a83e0ad9d001154310b2138ee6ab5a0523f6d8",
+        "size_in_bytes": 780
+      },
+      {
+        "_path": "site-packages/cirun/repo.py",
+        "path_type": "hardlink",
+        "sha256": "2de57725332c6e36d1761bcdb22b4c9155e761d75221ea8341957c5d34d72f96",
+        "sha256_in_prefix": "2de57725332c6e36d1761bcdb22b4c9155e761d75221ea8341957c5d34d72f96",
+        "size_in_bytes": 1606
+      },
+      {
+        "_path": "site-packages/cirun/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cirun/tests/test_client.py",
+        "path_type": "hardlink",
+        "sha256": "27ecb9228d2935c790de61ac8f4155f7a1e6155bb2ab735425246af54c925da3",
+        "sha256_in_prefix": "27ecb9228d2935c790de61ac8f4155f7a1e6155bb2ab735425246af54c925da3",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "site-packages/cirun/tests/test_integration.py",
+        "path_type": "hardlink",
+        "sha256": "df3470a99ed847f39024482a6db9614ec836c05eec44b9fa3ae2e2d3aff33171",
+        "sha256_in_prefix": "df3470a99ed847f39024482a6db9614ec836c05eec44b9fa3ae2e2d3aff33171",
+        "size_in_bytes": 1265
+      },
+      {
+        "_path": "site-packages/cirun/utils.py",
+        "path_type": "hardlink",
+        "sha256": "40530df8fbf83a22d7cdf59449709988691f0ae7ab7508469f2eff57855e58ef",
+        "sha256_in_prefix": "40530df8fbf83a22d7cdf59449709988691f0ae7ab7508469f2eff57855e58ef",
+        "size_in_bytes": 1373
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cirun/__pycache__/__about__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cirun/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cirun/__pycache__/client.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cirun/__pycache__/cloud.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cirun/__pycache__/main.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cirun/__pycache__/repo.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cirun/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cirun/tests/__pycache__/test_client.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cirun/tests/__pycache__/test_integration.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cirun/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/cirun",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "81dff2b53ea88201db0d40be3b45fcc572cb44c7d9da5500ba3d1c89c8f1d5cd",
+  "size": 14923,
+  "subdir": "noarch",
+  "timestamp": 1701031103000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cirun-0.30-pyhd8ed1ab_0.conda",
+  "version": "0.30"
+}

@@ -1,0 +1,221 @@
+{
+  "build": "py310hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "bleach >=2.1.0",
+    "cmarkgfm >=0.8.0",
+    "docutils >=0.13.1",
+    "pygments >=2.5.1",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/readme_renderer-40.0-py310hca03da5_0",
+  "files": [
+    "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/readme_renderer/__about__.py",
+    "lib/python3.10/site-packages/readme_renderer/__init__.py",
+    "lib/python3.10/site-packages/readme_renderer/__main__.py",
+    "lib/python3.10/site-packages/readme_renderer/__pycache__/__about__.cpython-310.pyc",
+    "lib/python3.10/site-packages/readme_renderer/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/readme_renderer/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/readme_renderer/__pycache__/clean.cpython-310.pyc",
+    "lib/python3.10/site-packages/readme_renderer/__pycache__/markdown.cpython-310.pyc",
+    "lib/python3.10/site-packages/readme_renderer/__pycache__/rst.cpython-310.pyc",
+    "lib/python3.10/site-packages/readme_renderer/__pycache__/txt.cpython-310.pyc",
+    "lib/python3.10/site-packages/readme_renderer/clean.py",
+    "lib/python3.10/site-packages/readme_renderer/markdown.py",
+    "lib/python3.10/site-packages/readme_renderer/py.typed",
+    "lib/python3.10/site-packages/readme_renderer/rst.py",
+    "lib/python3.10/site-packages/readme_renderer/txt.py"
+  ],
+  "fn": "readme_renderer-40.0-py310hca03da5_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/readme_renderer-40.0-py310hca03da5_0",
+    "type": 1
+  },
+  "md5": "6aba603efe0665835ef0ba7278c2d193",
+  "name": "readme_renderer",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/readme_renderer-40.0-py310hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d3174ad63e721d4c9dccb8ad4320848992d314369bc46319720b5802c9153fe9",
+        "sha256_in_prefix": "d3174ad63e721d4c9dccb8ad4320848992d314369bc46319720b5802c9153fe9",
+        "size_in_bytes": 9694
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "11169736be4d2ee3d5bc4d547317d86d0d196b5c2350a881c5e5b88b20a6346c",
+        "sha256_in_prefix": "11169736be4d2ee3d5bc4d547317d86d0d196b5c2350a881c5e5b88b20a6346c",
+        "size_in_bytes": 2670
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "18764d53d12fc12472e8b4f860cbf8d47edc660ef6465867dd4f352363d75e23",
+        "sha256_in_prefix": "18764d53d12fc12472e8b4f860cbf8d47edc660ef6465867dd4f352363d75e23",
+        "size_in_bytes": 1759
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d6e691b6fee1fcc393dda6fa3b2098530349e183791c8ab6359a98d5648c62af",
+        "sha256_in_prefix": "d6e691b6fee1fcc393dda6fa3b2098530349e183791c8ab6359a98d5648c62af",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer-40.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0e9fc5a9cf9d8a27ca72e00123f784cfebdfcb85e7d1d306fb69c82fdf4c852c",
+        "sha256_in_prefix": "0e9fc5a9cf9d8a27ca72e00123f784cfebdfcb85e7d1d306fb69c82fdf4c852c",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "9a6325d20d92ae8a705af4ce0770e97b8ef9961e4d5ec8ea43475c948171696f",
+        "sha256_in_prefix": "9a6325d20d92ae8a705af4ce0770e97b8ef9961e4d5ec8ea43475c948171696f",
+        "size_in_bytes": 1119
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ea50215202bb16bf21cedd22ea2969797864b1bf0cf6e12142de178e24d01380",
+        "sha256_in_prefix": "ea50215202bb16bf21cedd22ea2969797864b1bf0cf6e12142de178e24d01380",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "69d46a568b54b4ff5ddc7ad6f9f16cac7a88696250115f7c72a0337ff7de1c05",
+        "sha256_in_prefix": "69d46a568b54b4ff5ddc7ad6f9f16cac7a88696250115f7c72a0337ff7de1c05",
+        "size_in_bytes": 2622
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/__pycache__/__about__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8dccba1d130640ae334bc4c7c7ca001dcec5b82ea4711199cd48d26f0512ea75",
+        "sha256_in_prefix": "8dccba1d130640ae334bc4c7c7ca001dcec5b82ea4711199cd48d26f0512ea75",
+        "size_in_bytes": 602
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "63d22ebd3ee184d0b3c3792572b1cb3ac19ccebc3b5b627c0d30f558d683d8f5",
+        "sha256_in_prefix": "63d22ebd3ee184d0b3c3792572b1cb3ac19ccebc3b5b627c0d30f558d683d8f5",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "53f5a5685151b011d713d7a09d66372f5c0a72da8957850bfea58b2380cc6400",
+        "sha256_in_prefix": "53f5a5685151b011d713d7a09d66372f5c0a72da8957850bfea58b2380cc6400",
+        "size_in_bytes": 2016
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/__pycache__/clean.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "71ae869df796266462217604b0dcd8e9260b9f9ae22a2c25d54c6534cc5a1e2e",
+        "sha256_in_prefix": "71ae869df796266462217604b0dcd8e9260b9f9ae22a2c25d54c6534cc5a1e2e",
+        "size_in_bytes": 3004
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/__pycache__/markdown.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "76909e802ffa0bafeb916b79763dd651b5537782db59177d3707e8168cadf8c7",
+        "sha256_in_prefix": "76909e802ffa0bafeb916b79763dd651b5537782db59177d3707e8168cadf8c7",
+        "size_in_bytes": 2741
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/__pycache__/rst.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c33aa9c04605b9a4e2dc7349789536b6f7de728cf8b8f759815f7c08f13b4b2",
+        "sha256_in_prefix": "9c33aa9c04605b9a4e2dc7349789536b6f7de728cf8b8f759815f7c08f13b4b2",
+        "size_in_bytes": 2191
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/__pycache__/txt.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "21458425da6d2a55c48e860015d432a8b5216826ed3864d0bad4f08040c278f7",
+        "sha256_in_prefix": "21458425da6d2a55c48e860015d432a8b5216826ed3864d0bad4f08040c278f7",
+        "size_in_bytes": 505
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/clean.py",
+        "path_type": "hardlink",
+        "sha256": "d288cc8ab982eb9d63f27dd281a602962dcb049781bb988544ebcb4d75cf36e8",
+        "sha256_in_prefix": "d288cc8ab982eb9d63f27dd281a602962dcb049781bb988544ebcb4d75cf36e8",
+        "size_in_bytes": 4290
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/markdown.py",
+        "path_type": "hardlink",
+        "sha256": "6ba564f837677d8856598a04da11739d43fe1d049cf2a02ba5badc773e43a2bb",
+        "sha256_in_prefix": "6ba564f837677d8856598a04da11739d43fe1d049cf2a02ba5badc773e43a2bb",
+        "size_in_bytes": 3595
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/rst.py",
+        "path_type": "hardlink",
+        "sha256": "6f797b48bacca74f3228a6a81caf72b579981d3f2b6cb97c29348fc1f0afa74e",
+        "sha256_in_prefix": "6f797b48bacca74f3228a6a81caf72b579981d3f2b6cb97c29348fc1f0afa74e",
+        "size_in_bytes": 4460
+      },
+      {
+        "_path": "lib/python3.10/site-packages/readme_renderer/txt.py",
+        "path_type": "hardlink",
+        "sha256": "cf278e1af3d22089bc4837505ee191dfe27113f6ea99af318e145a082f3fb87a",
+        "sha256_in_prefix": "cf278e1af3d22089bc4837505ee191dfe27113f6ea99af318e145a082f3fb87a",
+        "size_in_bytes": 823
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "225b7c1d7baa0e116b0fc9ad226d6c9a0fd9a9c6b70feae54c0305c927666ea4",
+  "size": 23531,
+  "subdir": "osx-arm64",
+  "timestamp": 1690358501000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/readme_renderer-40.0-py310hca03da5_0.conda",
+  "version": "40.0"
+}

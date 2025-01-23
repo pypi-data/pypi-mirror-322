@@ -1,0 +1,190 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "boolean.py >=4.0.0",
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/license-expression-30.3.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/AUTHORS.rst",
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/CHANGELOG.rst",
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/CODE_OF_CONDUCT.rst",
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/NOTICE",
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/apache-2.0.LICENSE",
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/license_expression-30.3.1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/license_expression/__init__.py",
+    "lib/python3.10/site-packages/license_expression/_pyahocorasick.ABOUT",
+    "lib/python3.10/site-packages/license_expression/_pyahocorasick.py",
+    "lib/python3.10/site-packages/license_expression/data/cc-by-4.0.LICENSE",
+    "lib/python3.10/site-packages/license_expression/data/license_key_index.json.ABOUT",
+    "lib/python3.10/site-packages/license_expression/data/scancode-licensedb-index.json",
+    "lib/python3.10/site-packages/license_expression/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/license_expression/__pycache__/_pyahocorasick.cpython-310.pyc"
+  ],
+  "fn": "license-expression-30.3.1-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/license-expression-30.3.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "c72d0d74ff306270e4fbf1d5b3e0878f",
+  "name": "license-expression",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/license-expression-30.3.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "7924a3b7d2014d3b5dd320a0b3aa717594932345e436570d5059bb0870fb8b4f",
+        "sha256_in_prefix": "7924a3b7d2014d3b5dd320a0b3aa717594932345e436570d5059bb0870fb8b4f",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/CHANGELOG.rst",
+        "path_type": "hardlink",
+        "sha256": "f41bb16f9c15e7571fccf669f7a058df3759cbacfe7bec28520ba0c278109377",
+        "sha256_in_prefix": "f41bb16f9c15e7571fccf669f7a058df3759cbacfe7bec28520ba0c278109377",
+        "size_in_bytes": 2632
+      },
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/CODE_OF_CONDUCT.rst",
+        "path_type": "hardlink",
+        "sha256": "c570d3169618dd8ec9a31ad60038a189e52f84697025cfe8c6c6e62c9681bc4e",
+        "sha256_in_prefix": "c570d3169618dd8ec9a31ad60038a189e52f84697025cfe8c6c6e62c9681bc4e",
+        "size_in_bytes": 3422
+      },
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "faabe8ec7633d7218c1d98bc3f4eff87951721a755095713b55de8377e233434",
+        "sha256_in_prefix": "faabe8ec7633d7218c1d98bc3f4eff87951721a755095713b55de8377e233434",
+        "size_in_bytes": 12562
+      },
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "ef97db07e32f6e5d34363461acf5acc7d72db924533bce3d9f3b87046313363c",
+        "sha256_in_prefix": "ef97db07e32f6e5d34363461acf5acc7d72db924533bce3d9f3b87046313363c",
+        "size_in_bytes": 756
+      },
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "541f9fc0893e3f188db9bc23a399b4db30266941919c9334ed965cb17861b8a4",
+        "sha256_in_prefix": "541f9fc0893e3f188db9bc23a399b4db30266941919c9334ed965cb17861b8a4",
+        "size_in_bytes": 1921
+      },
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+        "sha256_in_prefix": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/apache-2.0.LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "sha256_in_prefix": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "85a8be1c8310e54db1a1180a0daf642ef645b9a182b4de799632e8f7e150822c",
+        "sha256_in_prefix": "85a8be1c8310e54db1a1180a0daf642ef645b9a182b4de799632e8f7e150822c",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "site-packages/license_expression-30.3.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7bc49a7d5309e9eea715dfd3c41185428564f010b189ec29c9742d0c6356bdb1",
+        "sha256_in_prefix": "7bc49a7d5309e9eea715dfd3c41185428564f010b189ec29c9742d0c6356bdb1",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "site-packages/license_expression/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "184ea72276e25a81441c556298a6a983a843312e26bb977477692fee57be2e13",
+        "sha256_in_prefix": "184ea72276e25a81441c556298a6a983a843312e26bb977477692fee57be2e13",
+        "size_in_bytes": 62823
+      },
+      {
+        "_path": "site-packages/license_expression/_pyahocorasick.ABOUT",
+        "path_type": "hardlink",
+        "sha256": "75d79cccf1fc302cb4a99bd32aac8bd4fc80926b15d31f0ba994d16cdf844032",
+        "sha256_in_prefix": "75d79cccf1fc302cb4a99bd32aac8bd4fc80926b15d31f0ba994d16cdf844032",
+        "size_in_bytes": 880
+      },
+      {
+        "_path": "site-packages/license_expression/_pyahocorasick.py",
+        "path_type": "hardlink",
+        "sha256": "794d6de4deefa4c6d4ec5675c4eecbc2cc1a2c6e888a68ef41fb9879a88f39fe",
+        "sha256_in_prefix": "794d6de4deefa4c6d4ec5675c4eecbc2cc1a2c6e888a68ef41fb9879a88f39fe",
+        "size_in_bytes": 20731
+      },
+      {
+        "_path": "site-packages/license_expression/data/cc-by-4.0.LICENSE",
+        "path_type": "hardlink",
+        "sha256": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+        "sha256_in_prefix": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+        "size_in_bytes": 18651
+      },
+      {
+        "_path": "site-packages/license_expression/data/license_key_index.json.ABOUT",
+        "path_type": "hardlink",
+        "sha256": "a4cf4425d7337134abac7453d74e8b03c3d50f91e17c54603879a1a68b2b63db",
+        "sha256_in_prefix": "a4cf4425d7337134abac7453d74e8b03c3d50f91e17c54603879a1a68b2b63db",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "site-packages/license_expression/data/scancode-licensedb-index.json",
+        "path_type": "hardlink",
+        "sha256": "e79db9032f97ce5adb9a1b43166c003f73ef307c71f8e2f3f5d9945b34a9d2e5",
+        "sha256_in_prefix": "e79db9032f97ce5adb9a1b43166c003f73ef307c71f8e2f3f5d9945b34a9d2e5",
+        "size_in_bytes": 866178
+      },
+      {
+        "_path": "lib/python3.10/site-packages/license_expression/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/license_expression/__pycache__/_pyahocorasick.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a5e998263e4ba5d9dae3c88efdf7f4af605bb7731da57b1dfed314b62fd06c4f",
+  "size": 97759,
+  "subdir": "noarch",
+  "timestamp": 1728562513000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/license-expression-30.3.1-pyhd8ed1ab_0.conda",
+  "version": "30.3.1"
+}

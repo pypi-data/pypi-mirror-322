@@ -1,0 +1,239 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.8",
+    "ruamel.yaml >=0.15.3",
+    "ruamel.yaml.jinja2"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/conda-souschef-2.2.3-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/conda_souschef-2.2.3.dist-info/AUTHORS",
+    "lib/python3.10/site-packages/conda_souschef-2.2.3.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/conda_souschef-2.2.3.dist-info/LICENSE",
+    "lib/python3.10/site-packages/conda_souschef-2.2.3.dist-info/METADATA",
+    "lib/python3.10/site-packages/conda_souschef-2.2.3.dist-info/RECORD",
+    "lib/python3.10/site-packages/conda_souschef-2.2.3.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/conda_souschef-2.2.3.dist-info/WHEEL",
+    "lib/python3.10/site-packages/conda_souschef-2.2.3.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/conda_souschef-2.2.3.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/souschef/__init__.py",
+    "lib/python3.10/site-packages/souschef/_version.py",
+    "lib/python3.10/site-packages/souschef/comment.py",
+    "lib/python3.10/site-packages/souschef/config.py",
+    "lib/python3.10/site-packages/souschef/ingredient.py",
+    "lib/python3.10/site-packages/souschef/jinja_expression.py",
+    "lib/python3.10/site-packages/souschef/mixins.py",
+    "lib/python3.10/site-packages/souschef/recipe.py",
+    "lib/python3.10/site-packages/souschef/section.py",
+    "lib/python3.10/site-packages/souschef/tools.py",
+    "lib/python3.10/site-packages/souschef/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/souschef/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/souschef/__pycache__/comment.cpython-310.pyc",
+    "lib/python3.10/site-packages/souschef/__pycache__/config.cpython-310.pyc",
+    "lib/python3.10/site-packages/souschef/__pycache__/ingredient.cpython-310.pyc",
+    "lib/python3.10/site-packages/souschef/__pycache__/jinja_expression.cpython-310.pyc",
+    "lib/python3.10/site-packages/souschef/__pycache__/mixins.cpython-310.pyc",
+    "lib/python3.10/site-packages/souschef/__pycache__/recipe.cpython-310.pyc",
+    "lib/python3.10/site-packages/souschef/__pycache__/section.cpython-310.pyc",
+    "lib/python3.10/site-packages/souschef/__pycache__/tools.cpython-310.pyc"
+  ],
+  "fn": "conda-souschef-2.2.3-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/conda-souschef-2.2.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "7f466b88d647486200d7e57dd67bbb99",
+  "name": "conda-souschef",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/conda-souschef-2.2.3-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/conda_souschef-2.2.3.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "2f20995168d44f94038f01d3e1f3120991c0653782a7e218d88cb5d09a764326",
+        "sha256_in_prefix": "2f20995168d44f94038f01d3e1f3120991c0653782a7e218d88cb5d09a764326",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "site-packages/conda_souschef-2.2.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/conda_souschef-2.2.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c53b152b411675691f2c21e315dd5c2819785f5c8f2af4f371b5a494850f9041",
+        "sha256_in_prefix": "c53b152b411675691f2c21e315dd5c2819785f5c8f2af4f371b5a494850f9041",
+        "size_in_bytes": 11354
+      },
+      {
+        "_path": "site-packages/conda_souschef-2.2.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "187ba5fb02040e15c06bc0d265406575a3f673ee8e81d9d73263659b4d1cd9ab",
+        "sha256_in_prefix": "187ba5fb02040e15c06bc0d265406575a3f673ee8e81d9d73263659b4d1cd9ab",
+        "size_in_bytes": 1822
+      },
+      {
+        "_path": "site-packages/conda_souschef-2.2.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d0eea0185fb06e7c3f7d4beaa289b10417f4ff759cfb186ec56e81d4f249aede",
+        "sha256_in_prefix": "d0eea0185fb06e7c3f7d4beaa289b10417f4ff759cfb186ec56e81d4f249aede",
+        "size_in_bytes": 2079
+      },
+      {
+        "_path": "site-packages/conda_souschef-2.2.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/conda_souschef-2.2.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/conda_souschef-2.2.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c1292c9357d9655a4cb97360595916c8097c6a3feef14cdb85df93853f8609b0",
+        "sha256_in_prefix": "c1292c9357d9655a4cb97360595916c8097c6a3feef14cdb85df93853f8609b0",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/conda_souschef-2.2.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "32c32da9bffed63f95d6f24a26ae07ff493b243170743439556b1093aca4fe78",
+        "sha256_in_prefix": "32c32da9bffed63f95d6f24a26ae07ff493b243170743439556b1093aca4fe78",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/souschef/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8f83281b357300e33cd402010693f3e859dd1490f82dbb00df3a8d4bd591643b",
+        "sha256_in_prefix": "8f83281b357300e33cd402010693f3e859dd1490f82dbb00df3a8d4bd591643b",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "site-packages/souschef/_version.py",
+        "path_type": "hardlink",
+        "sha256": "85829fb0c9e9f7d3dbd4fbc5966acf6c9b0bd8c9561f207f5756f809d4317f3f",
+        "sha256_in_prefix": "85829fb0c9e9f7d3dbd4fbc5966acf6c9b0bd8c9561f207f5756f809d4317f3f",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "site-packages/souschef/comment.py",
+        "path_type": "hardlink",
+        "sha256": "904f6c321b9fcb16b543018ff8787685919bcfe04c4c658965013f7da71cec68",
+        "sha256_in_prefix": "904f6c321b9fcb16b543018ff8787685919bcfe04c4c658965013f7da71cec68",
+        "size_in_bytes": 2255
+      },
+      {
+        "_path": "site-packages/souschef/config.py",
+        "path_type": "hardlink",
+        "sha256": "be9f6dabcc843973a5025f0913ca6719c181348ea226f423c54e018e1e84fc9f",
+        "sha256_in_prefix": "be9f6dabcc843973a5025f0913ca6719c181348ea226f423c54e018e1e84fc9f",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "site-packages/souschef/ingredient.py",
+        "path_type": "hardlink",
+        "sha256": "454f11889788b285aaab3eb09c0dd91370c270791fb55af1d31ad05527b5c9e8",
+        "sha256_in_prefix": "454f11889788b285aaab3eb09c0dd91370c270791fb55af1d31ad05527b5c9e8",
+        "size_in_bytes": 3381
+      },
+      {
+        "_path": "site-packages/souschef/jinja_expression.py",
+        "path_type": "hardlink",
+        "sha256": "dab1f5b6f3f76f92d27d0a7b72e40c1d85483571663fce7bcb09b8797472cb8b",
+        "sha256_in_prefix": "dab1f5b6f3f76f92d27d0a7b72e40c1d85483571663fce7bcb09b8797472cb8b",
+        "size_in_bytes": 2336
+      },
+      {
+        "_path": "site-packages/souschef/mixins.py",
+        "path_type": "hardlink",
+        "sha256": "984b45164fab33754321a15ec54a950f3c868644c4d5d74744327461acf9a4f7",
+        "sha256_in_prefix": "984b45164fab33754321a15ec54a950f3c868644c4d5d74744327461acf9a4f7",
+        "size_in_bytes": 11901
+      },
+      {
+        "_path": "site-packages/souschef/recipe.py",
+        "path_type": "hardlink",
+        "sha256": "51d27b69b22409dd88f123a13fcbd72bd5d6b47c33ad97cd1e981f34734c70e2",
+        "sha256_in_prefix": "51d27b69b22409dd88f123a13fcbd72bd5d6b47c33ad97cd1e981f34734c70e2",
+        "size_in_bytes": 2851
+      },
+      {
+        "_path": "site-packages/souschef/section.py",
+        "path_type": "hardlink",
+        "sha256": "4f8942f3c15bc2c8768f5db9e9133990236ca10b29ce70e85f73f047c78d5132",
+        "sha256_in_prefix": "4f8942f3c15bc2c8768f5db9e9133990236ca10b29ce70e85f73f047c78d5132",
+        "size_in_bytes": 2083
+      },
+      {
+        "_path": "site-packages/souschef/tools.py",
+        "path_type": "hardlink",
+        "sha256": "77c767f0273f2fbee426c1e7eadbaedbe2161628a3a700100f6e83c23ea870fb",
+        "sha256_in_prefix": "77c767f0273f2fbee426c1e7eadbaedbe2161628a3a700100f6e83c23ea870fb",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "lib/python3.10/site-packages/souschef/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/souschef/__pycache__/_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/souschef/__pycache__/comment.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/souschef/__pycache__/config.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/souschef/__pycache__/ingredient.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/souschef/__pycache__/jinja_expression.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/souschef/__pycache__/mixins.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/souschef/__pycache__/recipe.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/souschef/__pycache__/section.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/souschef/__pycache__/tools.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9e72fafce567e04554ad117b16b7a573d05e5673705c7699a6cc19a0e9d9fd52",
+  "size": 18155,
+  "subdir": "noarch",
+  "timestamp": 1661977388000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/conda-souschef-2.2.3-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.2.3"
+}

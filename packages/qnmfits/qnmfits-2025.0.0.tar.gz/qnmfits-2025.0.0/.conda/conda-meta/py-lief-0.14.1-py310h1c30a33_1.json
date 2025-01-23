@@ -1,0 +1,205 @@
+{
+  "build": "py310h1c30a33_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=16",
+    "liblief 0.14.1 h3f3aa29_1",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/py-lief-0.14.1-py310h1c30a33_1",
+  "files": [
+    "lib/python3.10/site-packages/lief-0.14.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/lief-0.14.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/lief-0.14.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/lief-0.14.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/lief-0.14.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/lief-0.14.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/lief-0.14.1.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/lief/ART.pyi",
+    "lib/python3.10/site-packages/lief/Android.pyi",
+    "lib/python3.10/site-packages/lief/DEX.pyi",
+    "lib/python3.10/site-packages/lief/ELF.pyi",
+    "lib/python3.10/site-packages/lief/MachO.pyi",
+    "lib/python3.10/site-packages/lief/OAT.pyi",
+    "lib/python3.10/site-packages/lief/PE.pyi",
+    "lib/python3.10/site-packages/lief/VDEX.pyi",
+    "lib/python3.10/site-packages/lief/__init__.py",
+    "lib/python3.10/site-packages/lief/__init__.pyi",
+    "lib/python3.10/site-packages/lief/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/lief/_lief.cpython-310-darwin.so",
+    "lib/python3.10/site-packages/lief/logging.pyi",
+    "lib/python3.10/site-packages/lief/py.typed"
+  ],
+  "fn": "py-lief-0.14.1-py310h1c30a33_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/py-lief-0.14.1-py310h1c30a33_1",
+    "type": 1
+  },
+  "md5": "25455db113c9054c9953e087e2c4e6e1",
+  "name": "py-lief",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/py-lief-0.14.1-py310h1c30a33_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/lief-0.14.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief-0.14.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2d00a9263bc265af09ace09b35a659a40b4233d3b0e94cef68687d9b4afff946",
+        "sha256_in_prefix": "2d00a9263bc265af09ace09b35a659a40b4233d3b0e94cef68687d9b4afff946",
+        "size_in_bytes": 4017
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief-0.14.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "31d06793f411af39531da0b0139d56c667d59c2b12b640184b0f272e309a3b0d",
+        "sha256_in_prefix": "31d06793f411af39531da0b0139d56c667d59c2b12b640184b0f272e309a3b0d",
+        "size_in_bytes": 1563
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief-0.14.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief-0.14.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e0598b36982f7edb3264ae362352827708d7d1a7906424371ab07674f89cdc47",
+        "sha256_in_prefix": "e0598b36982f7edb3264ae362352827708d7d1a7906424371ab07674f89cdc47",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief-0.14.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "598ff8e02ce906bac64fa9bdacb720a26b714e2c3e4804e0bf69ae344cfbf59f",
+        "sha256_in_prefix": "598ff8e02ce906bac64fa9bdacb720a26b714e2c3e4804e0bf69ae344cfbf59f",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief-0.14.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/ART.pyi",
+        "path_type": "hardlink",
+        "sha256": "a24addc6818adeb74a095f9621245002f7f218fac05233cdfc3e11c83faa62f9",
+        "sha256_in_prefix": "a24addc6818adeb74a095f9621245002f7f218fac05233cdfc3e11c83faa62f9",
+        "size_in_bytes": 2376
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/Android.pyi",
+        "path_type": "hardlink",
+        "sha256": "d12cbdbe09e27c915cf152762b20e50f373278735cb74a9c02c32e0f1f5dcd18",
+        "sha256_in_prefix": "d12cbdbe09e27c915cf152762b20e50f373278735cb74a9c02c32e0f1f5dcd18",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/DEX.pyi",
+        "path_type": "hardlink",
+        "sha256": "34b3a91f6c07a3ffca461b03931d279eda6f0083f23cd4cfa3e0648738f3dc7f",
+        "sha256_in_prefix": "34b3a91f6c07a3ffca461b03931d279eda6f0083f23cd4cfa3e0648738f3dc7f",
+        "size_in_bytes": 14056
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/ELF.pyi",
+        "path_type": "hardlink",
+        "sha256": "44b33bbc25578d2d164f8804750c4ada44540b0c1cb9a38a6b2fb236f803faba",
+        "sha256_in_prefix": "44b33bbc25578d2d164f8804750c4ada44540b0c1cb9a38a6b2fb236f803faba",
+        "size_in_bytes": 140697
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/MachO.pyi",
+        "path_type": "hardlink",
+        "sha256": "ffbca2a992f7108f8fdd5efd6b01d4fe557c15149f8d8a1520e053450bed4ed7",
+        "sha256_in_prefix": "ffbca2a992f7108f8fdd5efd6b01d4fe557c15149f8d8a1520e053450bed4ed7",
+        "size_in_bytes": 61463
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/OAT.pyi",
+        "path_type": "hardlink",
+        "sha256": "ae8f04d5753a2618ae9b979cbe8c4ba744cdc507d6befd723a4ccc529838df7b",
+        "sha256_in_prefix": "ae8f04d5753a2618ae9b979cbe8c4ba744cdc507d6befd723a4ccc529838df7b",
+        "size_in_bytes": 9821
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/PE.pyi",
+        "path_type": "hardlink",
+        "sha256": "988fae08ea67c375703da640c9c0bd41a6183676dd539f41f6fe57521a54cc8c",
+        "sha256_in_prefix": "988fae08ea67c375703da640c9c0bd41a6183676dd539f41f6fe57521a54cc8c",
+        "size_in_bytes": 119393
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/VDEX.pyi",
+        "path_type": "hardlink",
+        "sha256": "552b523cba11f9586ce747b5ed80c34a5b3f558524cf3b7ba1728d449b501e1c",
+        "sha256_in_prefix": "552b523cba11f9586ce747b5ed80c34a5b3f558524cf3b7ba1728d449b501e1c",
+        "size_in_bytes": 1538
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fe5dc8775d3ccfa6baf2d41b8adfe205cf68a3a86d294191da07d601cf4d03fb",
+        "sha256_in_prefix": "fe5dc8775d3ccfa6baf2d41b8adfe205cf68a3a86d294191da07d601cf4d03fb",
+        "size_in_bytes": 506
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "23175ea9f5b31bdc29cf463acfe2d339b11d198e6bf1c514e7e75cce1dff3f6f",
+        "sha256_in_prefix": "23175ea9f5b31bdc29cf463acfe2d339b11d198e6bf1c514e7e75cce1dff3f6f",
+        "size_in_bytes": 13291
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a80dcaed8ac5d8299438f6d44c839aa29d7b43e10e07b15d36d10f16a0274469",
+        "sha256_in_prefix": "a80dcaed8ac5d8299438f6d44c839aa29d7b43e10e07b15d36d10f16a0274469",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/_lief.cpython-310-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "45e1991bb8c4f60b4c9f7aaa2e88b2b0817d553c62b9cd04d754bfd7306f8882",
+        "sha256_in_prefix": "45e1991bb8c4f60b4c9f7aaa2e88b2b0817d553c62b9cd04d754bfd7306f8882",
+        "size_in_bytes": 2312176
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/logging.pyi",
+        "path_type": "hardlink",
+        "sha256": "5278bed66145dc18c9d76c870440cc2cb36455c4a58e3c901af3a1d610beb8fb",
+        "sha256_in_prefix": "5278bed66145dc18c9d76c870440cc2cb36455c4a58e3c901af3a1d610beb8fb",
+        "size_in_bytes": 925
+      },
+      {
+        "_path": "lib/python3.10/site-packages/lief/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6a892fe8fee5d7df125e050611432d5607c3a1b5906f1447e5a3f7de5154450a",
+  "size": 537402,
+  "subdir": "osx-arm64",
+  "timestamp": 1711564598000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/py-lief-0.14.1-py310h1c30a33_1.conda",
+  "version": "0.14.1"
+}

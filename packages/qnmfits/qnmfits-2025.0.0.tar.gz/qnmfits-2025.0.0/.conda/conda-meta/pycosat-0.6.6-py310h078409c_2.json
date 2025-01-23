@@ -1,0 +1,132 @@
+{
+  "build": "py310h078409c_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/pycosat-0.6.6-py310h078409c_2",
+  "files": [
+    "lib/python3.10/site-packages/__pycache__/test_pycosat.cpython-310.pyc",
+    "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/AUTHORS.md",
+    "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/LICENSE",
+    "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/METADATA",
+    "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/RECORD",
+    "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/pycosat.cpython-310-darwin.so",
+    "lib/python3.10/site-packages/test_pycosat.py"
+  ],
+  "fn": "pycosat-0.6.6-py310h078409c_2.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/pycosat-0.6.6-py310h078409c_2",
+    "type": 1
+  },
+  "md5": "e57049bd7a6eae59a0c28e42e6347a9c",
+  "name": "pycosat",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/pycosat-0.6.6-py310h078409c_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/__pycache__/test_pycosat.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "40e874c4ceba63abed9cd220655c2b2e079ca45559613904fe489375427be490",
+        "sha256_in_prefix": "40e874c4ceba63abed9cd220655c2b2e079ca45559613904fe489375427be490",
+        "size_in_bytes": 12986
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/AUTHORS.md",
+        "path_type": "hardlink",
+        "sha256": "dcfd08cd98556e3290de96243f007831474328706e58fb2edc0118ebdb28d55e",
+        "sha256_in_prefix": "dcfd08cd98556e3290de96243f007831474328706e58fb2edc0118ebdb28d55e",
+        "size_in_bytes": 303
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "233d9a3b1d9e0d8afb120ee76b98e65c55ede04162fe37c2e803a3d38968021e",
+        "sha256_in_prefix": "233d9a3b1d9e0d8afb120ee76b98e65c55ede04162fe37c2e803a3d38968021e",
+        "size_in_bytes": 1084
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c3df68488a707ae6d6e0ec5c86eba6478b10910b74eb6a28a30fd5a2faf9cc7d",
+        "sha256_in_prefix": "c3df68488a707ae6d6e0ec5c86eba6478b10910b74eb6a28a30fd5a2faf9cc7d",
+        "size_in_bytes": 5361
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ac752cd9a3a9d36f287b2911b1e299c60299485091306b112e6d6e7a7e3c8b66",
+        "sha256_in_prefix": "ac752cd9a3a9d36f287b2911b1e299c60299485091306b112e6d6e7a7e3c8b66",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1d8aa345d962fc79e675162cc0b33dd4a3f5bfe2882d128c457b05192b5b7d0b",
+        "sha256_in_prefix": "1d8aa345d962fc79e675162cc0b33dd4a3f5bfe2882d128c457b05192b5b7d0b",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f1b85d1e5aa5c6fc9a2a28b04d77c497690651b3123cdaddf69cfd7ea16598d2",
+        "sha256_in_prefix": "f1b85d1e5aa5c6fc9a2a28b04d77c497690651b3123cdaddf69cfd7ea16598d2",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pycosat-0.6.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "47df40ce884f9595883a39b54562bd8afea8e1dfd82b39165099c771ccd838d1",
+        "sha256_in_prefix": "47df40ce884f9595883a39b54562bd8afea8e1dfd82b39165099c771ccd838d1",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pycosat.cpython-310-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "0f8a24fca5f139afbf58692943a0f5404d78e879af3dc03bfeace7ced153a4d0",
+        "sha256_in_prefix": "0f8a24fca5f139afbf58692943a0f5404d78e879af3dc03bfeace7ced153a4d0",
+        "size_in_bytes": 125680
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test_pycosat.py",
+        "path_type": "hardlink",
+        "sha256": "8488d76af0cd6f29c893e1e68761f7b974ecd1ca11461a319e9b0736b507e64d",
+        "sha256_in_prefix": "8488d76af0cd6f29c893e1e68761f7b974ecd1ca11461a319e9b0736b507e64d",
+        "size_in_bytes": 8836
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "299b752e2c372a599d74df86c0d872a7c59be4c57616286f87fc1efa4ac5da29",
+  "size": 81582,
+  "subdir": "osx-arm64",
+  "timestamp": 1732588649000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pycosat-0.6.6-py310h078409c_2.conda",
+  "version": "0.6.6"
+}

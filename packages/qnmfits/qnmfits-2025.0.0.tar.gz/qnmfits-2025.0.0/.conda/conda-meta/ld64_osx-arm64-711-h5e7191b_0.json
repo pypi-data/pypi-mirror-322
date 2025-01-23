@@ -1,0 +1,113 @@
+{
+  "build": "h5e7191b_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "ld 711.*",
+    "cctools 986.*",
+    "cctools_osx-arm64 986.*",
+    "clang >=18.1.1,<19.0a0"
+  ],
+  "depends": [
+    "libcxx",
+    "libllvm18 >=18.1.1,<18.2.0a0",
+    "sigtool",
+    "tapi >=1100.0.11,<1101.0a0"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/ld64_osx-arm64-711-h5e7191b_0",
+  "files": [
+    "bin/arm64-apple-darwin20.0.0-ObjectDump",
+    "bin/arm64-apple-darwin20.0.0-dyldinfo",
+    "bin/arm64-apple-darwin20.0.0-ld",
+    "bin/arm64-apple-darwin20.0.0-machocheck",
+    "bin/arm64-apple-darwin20.0.0-unwinddump",
+    "share/man/man1/arm64-apple-darwin20.0.0-dyldinfo.1",
+    "share/man/man1/arm64-apple-darwin20.0.0-ld.1",
+    "share/man/man1/arm64-apple-darwin20.0.0-ld64.1",
+    "share/man/man1/arm64-apple-darwin20.0.0-unwinddump.1"
+  ],
+  "fn": "ld64_osx-arm64-711-h5e7191b_0.conda",
+  "license": "APSL-2.0",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/ld64_osx-arm64-711-h5e7191b_0",
+    "type": 1
+  },
+  "md5": "c751b76ae8112e3d516831063da179cc",
+  "name": "ld64_osx-arm64",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/ld64_osx-arm64-711-h5e7191b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/arm64-apple-darwin20.0.0-ObjectDump",
+        "path_type": "hardlink",
+        "sha256": "1c43ca249fdb6d63333a5163b5b11963c14fef51ee40cf04bd324778a33af10a",
+        "sha256_in_prefix": "1c43ca249fdb6d63333a5163b5b11963c14fef51ee40cf04bd324778a33af10a",
+        "size_in_bytes": 1352816
+      },
+      {
+        "_path": "bin/arm64-apple-darwin20.0.0-dyldinfo",
+        "path_type": "hardlink",
+        "sha256": "e57bd2bf6493c20bbc1004eb5008e711d28683065971dc1c624f4043f7c6efae",
+        "sha256_in_prefix": "e57bd2bf6493c20bbc1004eb5008e711d28683065971dc1c624f4043f7c6efae",
+        "size_in_bytes": 442592
+      },
+      {
+        "_path": "bin/arm64-apple-darwin20.0.0-ld",
+        "path_type": "hardlink",
+        "sha256": "dfa12060dd4a46cf9a7b6bb5aee3aded026fc04e024f36e6f9d5c1934a95558d",
+        "sha256_in_prefix": "dfa12060dd4a46cf9a7b6bb5aee3aded026fc04e024f36e6f9d5c1934a95558d",
+        "size_in_bytes": 4810160
+      },
+      {
+        "_path": "bin/arm64-apple-darwin20.0.0-machocheck",
+        "path_type": "hardlink",
+        "sha256": "3e89e9cbe6d4d693aa253e4c14d091c0332d63b81d71b83543747819c5e7ef8c",
+        "sha256_in_prefix": "3e89e9cbe6d4d693aa253e4c14d091c0332d63b81d71b83543747819c5e7ef8c",
+        "size_in_bytes": 243008
+      },
+      {
+        "_path": "bin/arm64-apple-darwin20.0.0-unwinddump",
+        "path_type": "hardlink",
+        "sha256": "a5eef7b9b6aa925c52fc5e54b4d8813a20d0172d9df8456d2c14ad356d8b0ad6",
+        "sha256_in_prefix": "a5eef7b9b6aa925c52fc5e54b4d8813a20d0172d9df8456d2c14ad356d8b0ad6",
+        "size_in_bytes": 99312
+      },
+      {
+        "_path": "share/man/man1/arm64-apple-darwin20.0.0-dyldinfo.1",
+        "path_type": "hardlink",
+        "sha256": "c9ca8e73dd460f2564597096a083fe1dbe62a4356b7881e22b9e8233519d61af",
+        "sha256_in_prefix": "c9ca8e73dd460f2564597096a083fe1dbe62a4356b7881e22b9e8233519d61af",
+        "size_in_bytes": 1773
+      },
+      {
+        "_path": "share/man/man1/arm64-apple-darwin20.0.0-ld.1",
+        "path_type": "hardlink",
+        "sha256": "0f53dadeeae02ec19d4f7e166206a4e9215ea19c70be3374cdfd3023397a26b5",
+        "sha256_in_prefix": "0f53dadeeae02ec19d4f7e166206a4e9215ea19c70be3374cdfd3023397a26b5",
+        "size_in_bytes": 58204
+      },
+      {
+        "_path": "share/man/man1/arm64-apple-darwin20.0.0-ld64.1",
+        "path_type": "hardlink",
+        "sha256": "5087a7a3829b727a623fde146c812041bb9cd08fe41b28425bbbcde45c05e9d9",
+        "sha256_in_prefix": "5087a7a3829b727a623fde146c812041bb9cd08fe41b28425bbbcde45c05e9d9",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "share/man/man1/arm64-apple-darwin20.0.0-unwinddump.1",
+        "path_type": "hardlink",
+        "sha256": "758829d66a892f6af26ab9cdf14d754df4bdad7dcc40ea51021b9fde9bc90147",
+        "sha256_in_prefix": "758829d66a892f6af26ab9cdf14d754df4bdad7dcc40ea51021b9fde9bc90147",
+        "size_in_bytes": 770
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "82f964dcff2052b327762ca44651407451ad396a1540c664928841c72b7cf3c0",
+  "size": 1064448,
+  "subdir": "osx-arm64",
+  "timestamp": 1710484550000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/ld64_osx-arm64-711-h5e7191b_0.conda",
+  "version": "711"
+}

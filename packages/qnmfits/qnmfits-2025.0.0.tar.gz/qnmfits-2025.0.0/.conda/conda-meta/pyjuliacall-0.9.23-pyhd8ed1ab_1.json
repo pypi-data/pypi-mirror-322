@@ -1,0 +1,176 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pyjuliapkg >=0.1.8,<0.2.dev0",
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/pyjuliacall-0.9.23-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.10/site-packages/juliacall-0.9.23.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/juliacall-0.9.23.dist-info/LICENSE",
+    "lib/python3.10/site-packages/juliacall-0.9.23.dist-info/METADATA",
+    "lib/python3.10/site-packages/juliacall-0.9.23.dist-info/RECORD",
+    "lib/python3.10/site-packages/juliacall-0.9.23.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/juliacall-0.9.23.dist-info/WHEEL",
+    "lib/python3.10/site-packages/juliacall-0.9.23.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/juliacall-0.9.23.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/juliacall/__init__.py",
+    "lib/python3.10/site-packages/juliacall/importer.py",
+    "lib/python3.10/site-packages/juliacall/init.jl",
+    "lib/python3.10/site-packages/juliacall/ipython.py",
+    "lib/python3.10/site-packages/juliacall/juliapkg-dev.json",
+    "lib/python3.10/site-packages/juliacall/juliapkg.json",
+    "lib/python3.10/site-packages/juliacall/matplotlib.py",
+    "lib/python3.10/site-packages/juliacall/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/juliacall/__pycache__/importer.cpython-310.pyc",
+    "lib/python3.10/site-packages/juliacall/__pycache__/ipython.cpython-310.pyc",
+    "lib/python3.10/site-packages/juliacall/__pycache__/matplotlib.cpython-310.pyc"
+  ],
+  "fn": "pyjuliacall-0.9.23-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/pyjuliacall-0.9.23-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "78251ba57ac7885b8ad3da08a3464d75",
+  "name": "pyjuliacall",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/pyjuliacall-0.9.23-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/juliacall-0.9.23.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/juliacall-0.9.23.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "4aa1c62fe73c2224be9c0499d5e0ed0cb728647ccc444a9f7ff66c0193e26157",
+        "sha256_in_prefix": "4aa1c62fe73c2224be9c0499d5e0ed0cb728647ccc444a9f7ff66c0193e26157",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "site-packages/juliacall-0.9.23.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1899af4c1fc44b2788bbcc325fe79249abe52e472f0c87c82baa7adc2a20181c",
+        "sha256_in_prefix": "1899af4c1fc44b2788bbcc325fe79249abe52e472f0c87c82baa7adc2a20181c",
+        "size_in_bytes": 4571
+      },
+      {
+        "_path": "site-packages/juliacall-0.9.23.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d959480330063bcd338feacdfe2be0e6f37df06d41252d5b6ae6f27d62bc4f35",
+        "sha256_in_prefix": "d959480330063bcd338feacdfe2be0e6f37df06d41252d5b6ae6f27d62bc4f35",
+        "size_in_bytes": 1439
+      },
+      {
+        "_path": "site-packages/juliacall-0.9.23.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/juliacall-0.9.23.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/juliacall-0.9.23.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "00eee3479cfa47f2d3159f5d73c785dc098fdcd73231ab287177e9cd450e4e8b",
+        "sha256_in_prefix": "00eee3479cfa47f2d3159f5d73c785dc098fdcd73231ab287177e9cd450e4e8b",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/juliacall-0.9.23.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b68bb776c16391a4971ee918ffb34bea56af8a777da13d47f1f461924545e4cb",
+        "sha256_in_prefix": "b68bb776c16391a4971ee918ffb34bea56af8a777da13d47f1f461924545e4cb",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/juliacall/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "002075673c06bb27d2a1ee959a88f4cd05a49e6c1758b7879347d5390f6aa4a5",
+        "sha256_in_prefix": "002075673c06bb27d2a1ee959a88f4cd05a49e6c1758b7879347d5390f6aa4a5",
+        "size_in_bytes": 10860
+      },
+      {
+        "_path": "site-packages/juliacall/importer.py",
+        "path_type": "hardlink",
+        "sha256": "6216ccdb2bd5c785db9fcc9188fc47c474414c494c38d9ca997adb9277fd950a",
+        "sha256_in_prefix": "6216ccdb2bd5c785db9fcc9188fc47c474414c494c38d9ca997adb9277fd950a",
+        "size_in_bytes": 3280
+      },
+      {
+        "_path": "site-packages/juliacall/init.jl",
+        "path_type": "hardlink",
+        "sha256": "4fae25d914c77ddb6a4197cd6409f5522878792f3892c4d1a9d0f2d7edb83f1e",
+        "sha256_in_prefix": "4fae25d914c77ddb6a4197cd6409f5522878792f3892c4d1a9d0f2d7edb83f1e",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "site-packages/juliacall/ipython.py",
+        "path_type": "hardlink",
+        "sha256": "0863b1fb95d7c2fba502ff733d94c5be17958d845efa394d264c23db64f700f0",
+        "sha256_in_prefix": "0863b1fb95d7c2fba502ff733d94c5be17958d845efa394d264c23db64f700f0",
+        "size_in_bytes": 4018
+      },
+      {
+        "_path": "site-packages/juliacall/juliapkg-dev.json",
+        "path_type": "hardlink",
+        "sha256": "39c0ab64d0cb39ed549ee1d6fd058aaf6c9563bc11bb367f161bddd306525d18",
+        "sha256_in_prefix": "39c0ab64d0cb39ed549ee1d6fd058aaf6c9563bc11bb367f161bddd306525d18",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "site-packages/juliacall/juliapkg.json",
+        "path_type": "hardlink",
+        "sha256": "1a573dc5650c3960b3b90a1fee3cb1a9da1e837130e9200b7e921d100ea65db6",
+        "sha256_in_prefix": "1a573dc5650c3960b3b90a1fee3cb1a9da1e837130e9200b7e921d100ea65db6",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "site-packages/juliacall/matplotlib.py",
+        "path_type": "hardlink",
+        "sha256": "89a72042ee665a6f847a70fdd1e6cb4d238f2f4635e8324ed20b5b41484e5540",
+        "sha256_in_prefix": "89a72042ee665a6f847a70fdd1e6cb4d238f2f4635e8324ed20b5b41484e5540",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "lib/python3.10/site-packages/juliacall/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/juliacall/__pycache__/importer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/juliacall/__pycache__/ipython.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/juliacall/__pycache__/matplotlib.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0db5f843c21c5b2f4dbc8b0d249962035ba6ab38480769ed8ab55d5f2c80cfd1",
+  "size": 17168,
+  "subdir": "noarch",
+  "timestamp": 1734819156000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyjuliacall-0.9.23-pyhd8ed1ab_1.conda",
+  "version": "0.9.23"
+}

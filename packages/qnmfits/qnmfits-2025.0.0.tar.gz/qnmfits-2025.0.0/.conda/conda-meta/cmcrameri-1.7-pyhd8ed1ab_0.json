@@ -1,0 +1,629 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/cmcrameri-1.7-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/cmcrameri-0.0.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/cmcrameri-0.0.0.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/cmcrameri-0.0.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/cmcrameri-0.0.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/cmcrameri-0.0.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/cmcrameri-0.0.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/cmcrameri-0.0.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/cmcrameri-0.0.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/cmcrameri/__init__.py",
+    "lib/python3.10/site-packages/cmcrameri/_version.py",
+    "lib/python3.10/site-packages/cmcrameri/cm.py",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/acton.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/actonS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/bam.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/bamO.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/bamako.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/bamakoS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/batlow.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/batlowK.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/batlowKS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/batlowS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/batlowW.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/batlowWS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/berlin.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/bilbao.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/bilbaoS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/broc.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/brocO.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/buda.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/budaS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/bukavu.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/cork.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/corkO.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/davos.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/davosS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/devon.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/devonS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/fes.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/glasgow.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/glasgowS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/grayC.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/grayCS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/hawaii.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/hawaiiS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/imola.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/imolaS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/lajolla.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/lajollaS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/lapaz.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/lapazS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/lipari.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/lipariS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/lisbon.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/managua.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/navia.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/naviaS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/nuuk.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/nuukS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/oleron.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/oslo.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/osloS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/roma.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/romaO.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/tofino.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/tokyo.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/tokyoS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/turku.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/turkuS.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/vanimo.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/vik.txt",
+    "lib/python3.10/site-packages/cmcrameri/cmaps/vikO.txt",
+    "lib/python3.10/site-packages/cmcrameri/colormaps.png",
+    "lib/python3.10/site-packages/cmcrameri/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/cmcrameri/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/cmcrameri/__pycache__/cm.cpython-310.pyc"
+  ],
+  "fn": "cmcrameri-1.7-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/cmcrameri-1.7-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "f987da3dad69fc8b1a75eeb021f8fcc0",
+  "name": "cmcrameri",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/cmcrameri-1.7-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/cmcrameri-0.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/cmcrameri-0.0.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "f8ccecbeb9687f6b09a2cb13f12521c067ccb111280d1ea632c9500131b83e3b",
+        "sha256_in_prefix": "f8ccecbeb9687f6b09a2cb13f12521c067ccb111280d1ea632c9500131b83e3b",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "site-packages/cmcrameri-0.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3f4281a5694b422016e069a4c48ca6aa3617597c8cf6bfc37bdf5fba6a62b7bf",
+        "sha256_in_prefix": "3f4281a5694b422016e069a4c48ca6aa3617597c8cf6bfc37bdf5fba6a62b7bf",
+        "size_in_bytes": 4691
+      },
+      {
+        "_path": "site-packages/cmcrameri-0.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a10b935b20b63ba1aebef13c24c947a58f09f848d82b004b62b8e8109ffdc39f",
+        "sha256_in_prefix": "a10b935b20b63ba1aebef13c24c947a58f09f848d82b004b62b8e8109ffdc39f",
+        "size_in_bytes": 6156
+      },
+      {
+        "_path": "site-packages/cmcrameri-0.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cmcrameri-0.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/cmcrameri-0.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "08902aa7c7c241c6a51d4d5016da87485386107948e85b23406aad4747412e60",
+        "sha256_in_prefix": "08902aa7c7c241c6a51d4d5016da87485386107948e85b23406aad4747412e60",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/cmcrameri-0.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "65156b87c65bf517056af47f3863b87742562542bae08d5194df5bedbaa7f12e",
+        "sha256_in_prefix": "65156b87c65bf517056af47f3863b87742562542bae08d5194df5bedbaa7f12e",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/cmcrameri/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "28a6abcb0d05c7e43df40a2b09affd80af975a274764f64acb200e35f7621aee",
+        "sha256_in_prefix": "28a6abcb0d05c7e43df40a2b09affd80af975a274764f64acb200e35f7621aee",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "site-packages/cmcrameri/_version.py",
+        "path_type": "hardlink",
+        "sha256": "788ee82a31d05a32449ffbf3f1ff5acc05251ee82edf22c8a6b3d7eecdb28017",
+        "sha256_in_prefix": "788ee82a31d05a32449ffbf3f1ff5acc05251ee82edf22c8a6b3d7eecdb28017",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "site-packages/cmcrameri/cm.py",
+        "path_type": "hardlink",
+        "sha256": "9554b72380651f5de1f4f57925b2aaf471eb3cd544d9dbb0780a2fb29dcfde39",
+        "sha256_in_prefix": "9554b72380651f5de1f4f57925b2aaf471eb3cd544d9dbb0780a2fb29dcfde39",
+        "size_in_bytes": 6021
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/acton.txt",
+        "path_type": "hardlink",
+        "sha256": "068da7de02af4d0607faa08b233c26065a9c582911e437bc686962ebe021ceda",
+        "sha256_in_prefix": "068da7de02af4d0607faa08b233c26065a9c582911e437bc686962ebe021ceda",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/actonS.txt",
+        "path_type": "hardlink",
+        "sha256": "b44987b0980286765542e7092751ee654b0bb6c281c816b7306415219c72caf3",
+        "sha256_in_prefix": "b44987b0980286765542e7092751ee654b0bb6c281c816b7306415219c72caf3",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/bam.txt",
+        "path_type": "hardlink",
+        "sha256": "b45025db37b70695a5256c121965d0169bc10bd67fc921516b4b2c7e129f39e7",
+        "sha256_in_prefix": "b45025db37b70695a5256c121965d0169bc10bd67fc921516b4b2c7e129f39e7",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/bamO.txt",
+        "path_type": "hardlink",
+        "sha256": "5cfe1d75b3aadb0f5bf18aa3198ff19d8665bb25d22f303c63228fa917050bf0",
+        "sha256_in_prefix": "5cfe1d75b3aadb0f5bf18aa3198ff19d8665bb25d22f303c63228fa917050bf0",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/bamako.txt",
+        "path_type": "hardlink",
+        "sha256": "cc83bc14c03778c140d052a9b5b364fac26ffd825e390ba7676c44e2fa2c18ed",
+        "sha256_in_prefix": "cc83bc14c03778c140d052a9b5b364fac26ffd825e390ba7676c44e2fa2c18ed",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/bamakoS.txt",
+        "path_type": "hardlink",
+        "sha256": "ebf3b29729455fc278ebe870314158a3d31b0ed5b16ad257e4643f46c27b9fd0",
+        "sha256_in_prefix": "ebf3b29729455fc278ebe870314158a3d31b0ed5b16ad257e4643f46c27b9fd0",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/batlow.txt",
+        "path_type": "hardlink",
+        "sha256": "918dd393177e126685437f234f4c1f7c8a446437c1c68820f3bc1a8423e91bd1",
+        "sha256_in_prefix": "918dd393177e126685437f234f4c1f7c8a446437c1c68820f3bc1a8423e91bd1",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/batlowK.txt",
+        "path_type": "hardlink",
+        "sha256": "f4805caa79ec4c21a130839c0fe0089136d1bed08f6bc6bd25edf0461632f7e7",
+        "sha256_in_prefix": "f4805caa79ec4c21a130839c0fe0089136d1bed08f6bc6bd25edf0461632f7e7",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/batlowKS.txt",
+        "path_type": "hardlink",
+        "sha256": "cc140878f9eb74921613ab2c36339d89584f1d7d363ad68bad6eafa90f974a2e",
+        "sha256_in_prefix": "cc140878f9eb74921613ab2c36339d89584f1d7d363ad68bad6eafa90f974a2e",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/batlowS.txt",
+        "path_type": "hardlink",
+        "sha256": "b9e21497dfe022b3f332c78661984ce31ad66442a51c1967a04420ed6177100e",
+        "sha256_in_prefix": "b9e21497dfe022b3f332c78661984ce31ad66442a51c1967a04420ed6177100e",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/batlowW.txt",
+        "path_type": "hardlink",
+        "sha256": "029dd91ed9e022ac7e8fbf399d6be70755f6c0a600ee740504951d5ecd970c72",
+        "sha256_in_prefix": "029dd91ed9e022ac7e8fbf399d6be70755f6c0a600ee740504951d5ecd970c72",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/batlowWS.txt",
+        "path_type": "hardlink",
+        "sha256": "cdd77c5f2107461cb55b7e28fa6597334979d48d18c3f894d641a28a21f53c37",
+        "sha256_in_prefix": "cdd77c5f2107461cb55b7e28fa6597334979d48d18c3f894d641a28a21f53c37",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/berlin.txt",
+        "path_type": "hardlink",
+        "sha256": "d66b056833f3f2ffed2889dc1d1143d23fc404e6c3b53299d3f939c61f557410",
+        "sha256_in_prefix": "d66b056833f3f2ffed2889dc1d1143d23fc404e6c3b53299d3f939c61f557410",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/bilbao.txt",
+        "path_type": "hardlink",
+        "sha256": "b641316b9bc2a952abecdf47494ae857d85017fb3715dfba68e6836fc8c6946f",
+        "sha256_in_prefix": "b641316b9bc2a952abecdf47494ae857d85017fb3715dfba68e6836fc8c6946f",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/bilbaoS.txt",
+        "path_type": "hardlink",
+        "sha256": "e2d18e80b9a002da40a60f4bf39e3cbb4bfa0c093a1d220e762d6985817bbfe0",
+        "sha256_in_prefix": "e2d18e80b9a002da40a60f4bf39e3cbb4bfa0c093a1d220e762d6985817bbfe0",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/broc.txt",
+        "path_type": "hardlink",
+        "sha256": "f4404b8badae36fd33af4879e42bb27ce6c7c09496e5b85452ff6ebd2eac9f44",
+        "sha256_in_prefix": "f4404b8badae36fd33af4879e42bb27ce6c7c09496e5b85452ff6ebd2eac9f44",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/brocO.txt",
+        "path_type": "hardlink",
+        "sha256": "aaf2d6394b4e9e5921c7dbfca48e166efb8503e70c6727b73bc686ac4ad75645",
+        "sha256_in_prefix": "aaf2d6394b4e9e5921c7dbfca48e166efb8503e70c6727b73bc686ac4ad75645",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/buda.txt",
+        "path_type": "hardlink",
+        "sha256": "d83c60b09f9a58282db23e34b7177b5704e76d7968c2380ba6e146d3dc913179",
+        "sha256_in_prefix": "d83c60b09f9a58282db23e34b7177b5704e76d7968c2380ba6e146d3dc913179",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/budaS.txt",
+        "path_type": "hardlink",
+        "sha256": "714f01fe56f2e27a11ec1bf8dd41b03fd10101b3613f58c5ccca42ebd1dbf0c9",
+        "sha256_in_prefix": "714f01fe56f2e27a11ec1bf8dd41b03fd10101b3613f58c5ccca42ebd1dbf0c9",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/bukavu.txt",
+        "path_type": "hardlink",
+        "sha256": "ad2bf89f50e0cdca1a2b512cf8eac16f75ccaef91c36f0f9a8984eaee03196c3",
+        "sha256_in_prefix": "ad2bf89f50e0cdca1a2b512cf8eac16f75ccaef91c36f0f9a8984eaee03196c3",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/cork.txt",
+        "path_type": "hardlink",
+        "sha256": "44e22ae0750cb398575980c680110569bdbc2ffd2155bd8999d6452b4c0784e0",
+        "sha256_in_prefix": "44e22ae0750cb398575980c680110569bdbc2ffd2155bd8999d6452b4c0784e0",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/corkO.txt",
+        "path_type": "hardlink",
+        "sha256": "23f53f0dfde0cec24d5307d1315d1acfb70700f24c4acfb6d2497c7a32af7992",
+        "sha256_in_prefix": "23f53f0dfde0cec24d5307d1315d1acfb70700f24c4acfb6d2497c7a32af7992",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/davos.txt",
+        "path_type": "hardlink",
+        "sha256": "0ca57a52e94c12c05aef0abf22f363f9fed0cb831cdde2aed76ee8bb4d950bd9",
+        "sha256_in_prefix": "0ca57a52e94c12c05aef0abf22f363f9fed0cb831cdde2aed76ee8bb4d950bd9",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/davosS.txt",
+        "path_type": "hardlink",
+        "sha256": "66c958c9fc2335d7501f258107780475864f3f3c727cdbcdc8658ce9bfe88d9a",
+        "sha256_in_prefix": "66c958c9fc2335d7501f258107780475864f3f3c727cdbcdc8658ce9bfe88d9a",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/devon.txt",
+        "path_type": "hardlink",
+        "sha256": "b9573d181e49ead6e6daef40641b82b04116e2f9dacb94b4a9fdd3afc2f55dd0",
+        "sha256_in_prefix": "b9573d181e49ead6e6daef40641b82b04116e2f9dacb94b4a9fdd3afc2f55dd0",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/devonS.txt",
+        "path_type": "hardlink",
+        "sha256": "1f4e7afee3d8fbcf015bf2e5805b401552e29ebcf6ec8969333f970e7ec30c0b",
+        "sha256_in_prefix": "1f4e7afee3d8fbcf015bf2e5805b401552e29ebcf6ec8969333f970e7ec30c0b",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/fes.txt",
+        "path_type": "hardlink",
+        "sha256": "5210ecef90ef3691f3a028a9be4b2232210b28ac97fa2a0afa3fb775b550f22d",
+        "sha256_in_prefix": "5210ecef90ef3691f3a028a9be4b2232210b28ac97fa2a0afa3fb775b550f22d",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/glasgow.txt",
+        "path_type": "hardlink",
+        "sha256": "1fd603c787431927b006a99c8590cdaa77a285da004f017dc766b943332246ce",
+        "sha256_in_prefix": "1fd603c787431927b006a99c8590cdaa77a285da004f017dc766b943332246ce",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/glasgowS.txt",
+        "path_type": "hardlink",
+        "sha256": "3edb4ed606dffc534ad00751229cba91d98d37717c0ded17f981c1b97719239f",
+        "sha256_in_prefix": "3edb4ed606dffc534ad00751229cba91d98d37717c0ded17f981c1b97719239f",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/grayC.txt",
+        "path_type": "hardlink",
+        "sha256": "180fdc4094571988ef8bbbc6f27740b94d6b1ebe06c86cea90e961cf5e1ba6e4",
+        "sha256_in_prefix": "180fdc4094571988ef8bbbc6f27740b94d6b1ebe06c86cea90e961cf5e1ba6e4",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/grayCS.txt",
+        "path_type": "hardlink",
+        "sha256": "fa3c1448dcb410432fd35d53dd841640584867825e285c023566415b45c0e0dc",
+        "sha256_in_prefix": "fa3c1448dcb410432fd35d53dd841640584867825e285c023566415b45c0e0dc",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/hawaii.txt",
+        "path_type": "hardlink",
+        "sha256": "e5f14111f1cc67d685ae219048a816cc7ec9ab5da8171dd8d921bedabb791f9b",
+        "sha256_in_prefix": "e5f14111f1cc67d685ae219048a816cc7ec9ab5da8171dd8d921bedabb791f9b",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/hawaiiS.txt",
+        "path_type": "hardlink",
+        "sha256": "1216f2832cac44dfa3b9a7dca083c7c944463d06fc05aa791b6481c24c7fdc8c",
+        "sha256_in_prefix": "1216f2832cac44dfa3b9a7dca083c7c944463d06fc05aa791b6481c24c7fdc8c",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/imola.txt",
+        "path_type": "hardlink",
+        "sha256": "aa0689d10ae651cf0d04c23fddf1788e7a3922a76c415414e92d3f9b160926d5",
+        "sha256_in_prefix": "aa0689d10ae651cf0d04c23fddf1788e7a3922a76c415414e92d3f9b160926d5",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/imolaS.txt",
+        "path_type": "hardlink",
+        "sha256": "26b5c6496e5b15976b99a185a7056238d43a684775e57f094f57b670a92c6f02",
+        "sha256_in_prefix": "26b5c6496e5b15976b99a185a7056238d43a684775e57f094f57b670a92c6f02",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/lajolla.txt",
+        "path_type": "hardlink",
+        "sha256": "7541ff8f5267045b8fc716c53d2fa9153882fe23471c74f8c3692ff57aef1971",
+        "sha256_in_prefix": "7541ff8f5267045b8fc716c53d2fa9153882fe23471c74f8c3692ff57aef1971",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/lajollaS.txt",
+        "path_type": "hardlink",
+        "sha256": "a7db4e2e33f1dfc933d02650524ac9257ec0b72f16fac81a70c80b2d58eb3a21",
+        "sha256_in_prefix": "a7db4e2e33f1dfc933d02650524ac9257ec0b72f16fac81a70c80b2d58eb3a21",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/lapaz.txt",
+        "path_type": "hardlink",
+        "sha256": "e507ceb2527a0384004d7570d4919de74f63d281dde25a7c6cf936ee47444a2c",
+        "sha256_in_prefix": "e507ceb2527a0384004d7570d4919de74f63d281dde25a7c6cf936ee47444a2c",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/lapazS.txt",
+        "path_type": "hardlink",
+        "sha256": "5de91f65c5fc80c9fc76fa76afb91a6ece8c5a9e0c9f05c2e26bee7d03fd7817",
+        "sha256_in_prefix": "5de91f65c5fc80c9fc76fa76afb91a6ece8c5a9e0c9f05c2e26bee7d03fd7817",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/lipari.txt",
+        "path_type": "hardlink",
+        "sha256": "59a26ca79c66da1674f21e4ef83dd6a428c7f1e768327fc4b09e3242b7b81829",
+        "sha256_in_prefix": "59a26ca79c66da1674f21e4ef83dd6a428c7f1e768327fc4b09e3242b7b81829",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/lipariS.txt",
+        "path_type": "hardlink",
+        "sha256": "99d86f5f42b01211c102d1088fea4abf38116701bb98629d19b6afeb446420b9",
+        "sha256_in_prefix": "99d86f5f42b01211c102d1088fea4abf38116701bb98629d19b6afeb446420b9",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/lisbon.txt",
+        "path_type": "hardlink",
+        "sha256": "6d12d616574f381546c2e1921264defc9f01a26d99c35da3f7aafdbc48cb335b",
+        "sha256_in_prefix": "6d12d616574f381546c2e1921264defc9f01a26d99c35da3f7aafdbc48cb335b",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/managua.txt",
+        "path_type": "hardlink",
+        "sha256": "9986430ea0fb3146d25ef5badc3d071f7113002a914e28fe8223cce7cdf868a9",
+        "sha256_in_prefix": "9986430ea0fb3146d25ef5badc3d071f7113002a914e28fe8223cce7cdf868a9",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/navia.txt",
+        "path_type": "hardlink",
+        "sha256": "79c6235b421a120e24694dfac67bbbcbc21a3faed0a8a7c72ad8d3c7c41acbfb",
+        "sha256_in_prefix": "79c6235b421a120e24694dfac67bbbcbc21a3faed0a8a7c72ad8d3c7c41acbfb",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/naviaS.txt",
+        "path_type": "hardlink",
+        "sha256": "9391825fa99eb364e541df846c953b4857b2ae6dd310c749ee0ef2ca5260d9f9",
+        "sha256_in_prefix": "9391825fa99eb364e541df846c953b4857b2ae6dd310c749ee0ef2ca5260d9f9",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/nuuk.txt",
+        "path_type": "hardlink",
+        "sha256": "996ae6012b53c4e50c9a999d47bbae2d95db14501661df1ac59b2854eb6a8511",
+        "sha256_in_prefix": "996ae6012b53c4e50c9a999d47bbae2d95db14501661df1ac59b2854eb6a8511",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/nuukS.txt",
+        "path_type": "hardlink",
+        "sha256": "f6cba3b563eb72fb3d7fefe1a164af4602f4ce8085b02ebe8387c9a4bd905b3e",
+        "sha256_in_prefix": "f6cba3b563eb72fb3d7fefe1a164af4602f4ce8085b02ebe8387c9a4bd905b3e",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/oleron.txt",
+        "path_type": "hardlink",
+        "sha256": "b0e8d37fdb2ddaa4e79380c1eb82ef578365d8258d7dd597d8b58aca9f3b499a",
+        "sha256_in_prefix": "b0e8d37fdb2ddaa4e79380c1eb82ef578365d8258d7dd597d8b58aca9f3b499a",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/oslo.txt",
+        "path_type": "hardlink",
+        "sha256": "4e29e907d1a07e05481ee6856efe4b5266d85f89eea8c82affde764aacaf1f89",
+        "sha256_in_prefix": "4e29e907d1a07e05481ee6856efe4b5266d85f89eea8c82affde764aacaf1f89",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/osloS.txt",
+        "path_type": "hardlink",
+        "sha256": "b7b252a48c4035a7a13960ba811d1d8e7cc80641f28acb0c92581f1b16c3ed70",
+        "sha256_in_prefix": "b7b252a48c4035a7a13960ba811d1d8e7cc80641f28acb0c92581f1b16c3ed70",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/roma.txt",
+        "path_type": "hardlink",
+        "sha256": "3b71680d6ea001c6186569aab00e12baf0a10a5ac2e4b6305c3d8163f630b8c0",
+        "sha256_in_prefix": "3b71680d6ea001c6186569aab00e12baf0a10a5ac2e4b6305c3d8163f630b8c0",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/romaO.txt",
+        "path_type": "hardlink",
+        "sha256": "5946167e7ce80161f7f12c7ceae34730e06c42a31fa0000057b2bd785c04c74a",
+        "sha256_in_prefix": "5946167e7ce80161f7f12c7ceae34730e06c42a31fa0000057b2bd785c04c74a",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/tofino.txt",
+        "path_type": "hardlink",
+        "sha256": "8eed16a2142c2280762b332512651db60bcf954fab624395ae081b64da1746f5",
+        "sha256_in_prefix": "8eed16a2142c2280762b332512651db60bcf954fab624395ae081b64da1746f5",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/tokyo.txt",
+        "path_type": "hardlink",
+        "sha256": "e7ce268dbcd36a9cb53e587f3b31592dedb4ed6c9a4e9b09968f810375738042",
+        "sha256_in_prefix": "e7ce268dbcd36a9cb53e587f3b31592dedb4ed6c9a4e9b09968f810375738042",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/tokyoS.txt",
+        "path_type": "hardlink",
+        "sha256": "9f40d09f431a56f0789fc4e23d4fca65e9519680d50de251f3905cc45beb0ef0",
+        "sha256_in_prefix": "9f40d09f431a56f0789fc4e23d4fca65e9519680d50de251f3905cc45beb0ef0",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/turku.txt",
+        "path_type": "hardlink",
+        "sha256": "49961085d0836dc7a8ca6eb78f005b05db791dc11050f565841cb535324e012d",
+        "sha256_in_prefix": "49961085d0836dc7a8ca6eb78f005b05db791dc11050f565841cb535324e012d",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/turkuS.txt",
+        "path_type": "hardlink",
+        "sha256": "7bdaaa25b27e252355a4aa956a6ad5d0e52e1b92f487727c606275fe1237ec1c",
+        "sha256_in_prefix": "7bdaaa25b27e252355a4aa956a6ad5d0e52e1b92f487727c606275fe1237ec1c",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/vanimo.txt",
+        "path_type": "hardlink",
+        "sha256": "aa0d19f607b442b3532e4575e183560ac620268341ee6c079da04cca4f39819d",
+        "sha256_in_prefix": "aa0d19f607b442b3532e4575e183560ac620268341ee6c079da04cca4f39819d",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/vik.txt",
+        "path_type": "hardlink",
+        "sha256": "60c2abfbffdfd9e7567cfeea1387bfe270eb036efe7262fdd7bf713058bacae2",
+        "sha256_in_prefix": "60c2abfbffdfd9e7567cfeea1387bfe270eb036efe7262fdd7bf713058bacae2",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/cmaps/vikO.txt",
+        "path_type": "hardlink",
+        "sha256": "5847a85ed6fad5ce1b23baa6b1dfc244327e4452200e725d79ce5d6f8c403b93",
+        "sha256_in_prefix": "5847a85ed6fad5ce1b23baa6b1dfc244327e4452200e725d79ce5d6f8c403b93",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/cmcrameri/colormaps.png",
+        "path_type": "hardlink",
+        "sha256": "1fbb42326752a222d45799edcaacfa937e58573bc3555c4fd0978b4bc4463554",
+        "sha256_in_prefix": "1fbb42326752a222d45799edcaacfa937e58573bc3555c4fd0978b4bc4463554",
+        "size_in_bytes": 147292
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmcrameri/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmcrameri/__pycache__/_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cmcrameri/__pycache__/cm.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "cmcrameri",
+  "sha256": "393dbade8ac5f8569a32736bf81a4387e3d4ad83cdb7650e7aa3cf32ba9decaa",
+  "size": 237672,
+  "subdir": "noarch",
+  "timestamp": 1688991455795,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cmcrameri-1.7-pyhd8ed1ab_0.conda",
+  "version": "1.7"
+}

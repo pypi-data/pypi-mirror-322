@@ -1,0 +1,47 @@
+{
+  "build": "h27ca646_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/patch-2.7.6-h27ca646_1002",
+  "files": [
+    "bin/patch",
+    "share/man/man1/patch.1"
+  ],
+  "fn": "patch-2.7.6-h27ca646_1002.tar.bz2",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/patch-2.7.6-h27ca646_1002",
+    "type": 1
+  },
+  "md5": "129d8d6f5a313a5c3e9ed39710d71147",
+  "name": "patch",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/patch-2.7.6-h27ca646_1002.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/patch",
+        "path_type": "hardlink",
+        "sha256": "793e2789c8ac188fb556dcaaec46c628616b6f5ac56f88380071d48565a485fd",
+        "sha256_in_prefix": "793e2789c8ac188fb556dcaaec46c628616b6f5ac56f88380071d48565a485fd",
+        "size_in_bytes": 245904
+      },
+      {
+        "_path": "share/man/man1/patch.1",
+        "path_type": "hardlink",
+        "sha256": "debf3b3def307b644c4e61494afa8ab7691c5fb20ccad484bb31ea5b970892ab",
+        "sha256_in_prefix": "debf3b3def307b644c4e61494afa8ab7691c5fb20ccad484bb31ea5b970892ab",
+        "size_in_bytes": 34708
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "45316f216976a35180e1973840de08013f075bc94a9a57ae9a9e4e52ea2224d4",
+  "size": 130036,
+  "subdir": "osx-arm64",
+  "timestamp": 1612446664000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/patch-2.7.6-h27ca646_1002.tar.bz2",
+  "version": "2.7.6"
+}

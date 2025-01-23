@@ -1,0 +1,212 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "click",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/userpath-1.7.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/userpath-1.7.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/userpath-1.7.0.dist-info/LICENSE-APACHE",
+    "lib/python3.10/site-packages/userpath-1.7.0.dist-info/LICENSE-MIT",
+    "lib/python3.10/site-packages/userpath-1.7.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/userpath-1.7.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/userpath-1.7.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/userpath-1.7.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/userpath-1.7.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/userpath-1.7.0.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/userpath-1.7.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/userpath/__init__.py",
+    "lib/python3.10/site-packages/userpath/__main__.py",
+    "lib/python3.10/site-packages/userpath/cli.py",
+    "lib/python3.10/site-packages/userpath/core.py",
+    "lib/python3.10/site-packages/userpath/interface.py",
+    "lib/python3.10/site-packages/userpath/shells.py",
+    "lib/python3.10/site-packages/userpath/utils.py",
+    "lib/python3.10/site-packages/userpath/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/userpath/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/userpath/__pycache__/cli.cpython-310.pyc",
+    "lib/python3.10/site-packages/userpath/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/userpath/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/userpath/__pycache__/shells.cpython-310.pyc",
+    "lib/python3.10/site-packages/userpath/__pycache__/utils.cpython-310.pyc",
+    "bin/userpath"
+  ],
+  "fn": "userpath-1.7.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/userpath-1.7.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "5bf074c9253a3bf914becfc50757406f",
+  "name": "userpath",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/userpath-1.7.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/userpath-1.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/userpath-1.7.0.dist-info/LICENSE-APACHE",
+        "path_type": "hardlink",
+        "sha256": "cebfb5eab4eff50df87c3c5e7eb11a634d0fa32bb4b6380800f82fae606599ae",
+        "sha256_in_prefix": "cebfb5eab4eff50df87c3c5e7eb11a634d0fa32bb4b6380800f82fae606599ae",
+        "size_in_bytes": 9748
+      },
+      {
+        "_path": "site-packages/userpath-1.7.0.dist-info/LICENSE-MIT",
+        "path_type": "hardlink",
+        "sha256": "ab7b5a3d0cde853c56923c4042932a98099f02b0bd5f0bd80faa6cc3c1526dd5",
+        "sha256_in_prefix": "ab7b5a3d0cde853c56923c4042932a98099f02b0bd5f0bd80faa6cc3c1526dd5",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "site-packages/userpath-1.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "15ef7bd30557d8891c246edcc8f63838e559f1f56701bc38b7a9d5a0da060f7c",
+        "sha256_in_prefix": "15ef7bd30557d8891c246edcc8f63838e559f1f56701bc38b7a9d5a0da060f7c",
+        "size_in_bytes": 7682
+      },
+      {
+        "_path": "site-packages/userpath-1.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4a40f8c7639416d4b9ba0b95eca8cd8059f3e27327e97e0c575e3fdbb095d16a",
+        "sha256_in_prefix": "4a40f8c7639416d4b9ba0b95eca8cd8059f3e27327e97e0c575e3fdbb095d16a",
+        "size_in_bytes": 1799
+      },
+      {
+        "_path": "site-packages/userpath-1.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/userpath-1.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/userpath-1.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8d9de388c69953679269c4dde96c48feb56063d61540949989b65ae4c7c7c00b",
+        "sha256_in_prefix": "8d9de388c69953679269c4dde96c48feb56063d61540949989b65ae4c7c7c00b",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/userpath-1.7.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "a63596d418478819ae7a39383be5e3368cb47f467ccfc065108ba44cdb438ede",
+        "sha256_in_prefix": "a63596d418478819ae7a39383be5e3368cb47f467ccfc065108ba44cdb438ede",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "site-packages/userpath-1.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a94e296f900f1a0f34c7c666a3462772ae4e505617fccdbe01af641516cf02e8",
+        "sha256_in_prefix": "a94e296f900f1a0f34c7c666a3462772ae4e505617fccdbe01af641516cf02e8",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/userpath/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "695b0312ffa6b51e0a274f573c43087d87739b18d75382bd760af3fef6133e5e",
+        "sha256_in_prefix": "695b0312ffa6b51e0a274f573c43087d87739b18d75382bd760af3fef6133e5e",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "site-packages/userpath/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "bd38c4bf9e5267db5210638f176d52acfd2c0209fda2e8dbcaa19efd8fabd21e",
+        "sha256_in_prefix": "bd38c4bf9e5267db5210638f176d52acfd2c0209fda2e8dbcaa19efd8fabd21e",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "site-packages/userpath/cli.py",
+        "path_type": "hardlink",
+        "sha256": "fb33d61602be6bb8ddf0cc55cb84b6d7cbfa5b4203c1e414929a9ede8b00b98c",
+        "sha256_in_prefix": "fb33d61602be6bb8ddf0cc55cb84b6d7cbfa5b4203c1e414929a9ede8b00b98c",
+        "size_in_bytes": 6255
+      },
+      {
+        "_path": "site-packages/userpath/core.py",
+        "path_type": "hardlink",
+        "sha256": "d3bcc18a5c707a81f788a05d7c133048a96f4ddb606dd5211c7b04b8f73ac40d",
+        "sha256_in_prefix": "d3bcc18a5c707a81f788a05d7c133048a96f4ddb606dd5211c7b04b8f73ac40d",
+        "size_in_bytes": 1029
+      },
+      {
+        "_path": "site-packages/userpath/interface.py",
+        "path_type": "hardlink",
+        "sha256": "17a92363d4b89b2fc507d461248cadd11f3d69bedb8caaa29659ec1926197b11",
+        "sha256_in_prefix": "17a92363d4b89b2fc507d461248cadd11f3d69bedb8caaa29659ec1926197b11",
+        "size_in_bytes": 5340
+      },
+      {
+        "_path": "site-packages/userpath/shells.py",
+        "path_type": "hardlink",
+        "sha256": "7b85c65e119940db8566a744f638b6f1f716f2c60ad804a4839567b9b43da87c",
+        "sha256_in_prefix": "7b85c65e119940db8566a744f638b6f1f716f2c60ad804a4839567b9b43da87c",
+        "size_in_bytes": 3700
+      },
+      {
+        "_path": "site-packages/userpath/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0d2e8da64de8d8ce068f25b3c672669c4afd82b40c8d35cc88658c85866ebf91",
+        "sha256_in_prefix": "0d2e8da64de8d8ce068f25b3c672669c4afd82b40c8d35cc88658c85866ebf91",
+        "size_in_bytes": 1749
+      },
+      {
+        "_path": "lib/python3.10/site-packages/userpath/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/userpath/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/userpath/__pycache__/cli.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/userpath/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/userpath/__pycache__/interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/userpath/__pycache__/shells.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/userpath/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/userpath",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c8cbddd625340e1b00b53bafabc764526ee85f7ddb91018424bab0eea057796d",
+  "size": 17423,
+  "subdir": "noarch",
+  "timestamp": 1632758637000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/userpath-1.7.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.7.0"
+}

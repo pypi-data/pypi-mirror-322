@@ -1,0 +1,345 @@
+{
+  "build": "hd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/eliot/miniconda3/pkgs/conda-forge-pinning-2024.11.26.07.33.56-hd8ed1ab_0",
+  "files": [
+    "conda_build_config.yaml",
+    "share/conda-forge/migration_support/packages_to_migrate_together.yaml",
+    "share/conda-forge/migrations/arch_rebuild.txt",
+    "share/conda-forge/migrations/assimp543.yaml",
+    "share/conda-forge/migrations/aws_c_cal081.yaml",
+    "share/conda-forge/migrations/aws_c_http092.yaml",
+    "share/conda-forge/migrations/aws_c_io0153.yaml",
+    "share/conda-forge/migrations/aws_sdk_cpp111449.yaml",
+    "share/conda-forge/migrations/cfitsio441.yaml",
+    "share/conda-forge/migrations/elfutils0192.yaml",
+    "share/conda-forge/migrations/example.exyaml",
+    "share/conda-forge/migrations/flang19.yaml",
+    "share/conda-forge/migrations/fmt11.yaml",
+    "share/conda-forge/migrations/hdf51144.yaml",
+    "share/conda-forge/migrations/icu75.yaml",
+    "share/conda-forge/migrations/libarrow181.yaml",
+    "share/conda-forge/migrations/libass0173.yaml",
+    "share/conda-forge/migrations/libboost186.yaml",
+    "share/conda-forge/migrations/libflint31.yaml",
+    "share/conda-forge/migrations/libgdal310.yaml",
+    "share/conda-forge/migrations/libgrpc167_libprotobuf5282.yaml",
+    "share/conda-forge/migrations/libpq17.yaml",
+    "share/conda-forge/migrations/mkl2024.yaml",
+    "share/conda-forge/migrations/nlopt29.yaml",
+    "share/conda-forge/migrations/numpy2.yaml",
+    "share/conda-forge/migrations/openh264250.yaml",
+    "share/conda-forge/migrations/openmpi5.yaml",
+    "share/conda-forge/migrations/osx_arm64.txt",
+    "share/conda-forge/migrations/petsc322.yaml",
+    "share/conda-forge/migrations/python313.yaml",
+    "share/conda-forge/migrations/python313t.yaml",
+    "share/conda-forge/migrations/pytorch25.yaml",
+    "share/conda-forge/migrations/r-base44_and_m2w64-ucrt.yaml",
+    "share/conda-forge/migrations/ruby31.yaml",
+    "share/conda-forge/migrations/spdlog113.yaml",
+    "share/conda-forge/migrations/spdlog114.yaml",
+    "share/conda-forge/migrations/svt_av1230.yaml",
+    "share/conda-forge/migrations/vtk931.yaml",
+    "share/conda-forge/migrations/win_arm64.txt"
+  ],
+  "fn": "conda-forge-pinning-2024.11.26.07.33.56-hd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/eliot/miniconda3/pkgs/conda-forge-pinning-2024.11.26.07.33.56-hd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "cd4c0ad531c7188f8b0e844b91f83974",
+  "name": "conda-forge-pinning",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/eliot/miniconda3/pkgs/conda-forge-pinning-2024.11.26.07.33.56-hd8ed1ab_0.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "conda_build_config.yaml",
+        "path_type": "hardlink",
+        "sha256": "58e6cdc6624b5ada0d2f0b4193b0769ce8ef957ae3bc2ab69557ffd173b03ac9",
+        "sha256_in_prefix": "58e6cdc6624b5ada0d2f0b4193b0769ce8ef957ae3bc2ab69557ffd173b03ac9",
+        "size_in_bytes": 20752
+      },
+      {
+        "_path": "share/conda-forge/migration_support/packages_to_migrate_together.yaml",
+        "path_type": "hardlink",
+        "sha256": "52144a355700b6600ae5dfa955d44d00b8eae3017a7e530421e1de1b53dc1526",
+        "sha256_in_prefix": "52144a355700b6600ae5dfa955d44d00b8eae3017a7e530421e1de1b53dc1526",
+        "size_in_bytes": 1446
+      },
+      {
+        "_path": "share/conda-forge/migrations/arch_rebuild.txt",
+        "path_type": "hardlink",
+        "sha256": "d3f2f03b2c4eadee248bb6bfbd84b32df3c17f93add5eaae23278f4fc0bfa72f",
+        "sha256_in_prefix": "d3f2f03b2c4eadee248bb6bfbd84b32df3c17f93add5eaae23278f4fc0bfa72f",
+        "size_in_bytes": 11546
+      },
+      {
+        "_path": "share/conda-forge/migrations/assimp543.yaml",
+        "path_type": "hardlink",
+        "sha256": "b5d136018d1b20b8e9555d46113d8ecbabbdc06eaf056341ca26a472816f492d",
+        "sha256_in_prefix": "b5d136018d1b20b8e9555d46113d8ecbabbdc06eaf056341ca26a472816f492d",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "share/conda-forge/migrations/aws_c_cal081.yaml",
+        "path_type": "hardlink",
+        "sha256": "ad1a0eb4fe2440c5ffbb39549a011c02eb15bc79abf8e0ce9f5dcc0bb56385fe",
+        "sha256_in_prefix": "ad1a0eb4fe2440c5ffbb39549a011c02eb15bc79abf8e0ce9f5dcc0bb56385fe",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "share/conda-forge/migrations/aws_c_http092.yaml",
+        "path_type": "hardlink",
+        "sha256": "0fe2bafdf4370ba48b58c44be499741bbbae4bd272f11f1fdbfaa44fc59e6b9d",
+        "sha256_in_prefix": "0fe2bafdf4370ba48b58c44be499741bbbae4bd272f11f1fdbfaa44fc59e6b9d",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "share/conda-forge/migrations/aws_c_io0153.yaml",
+        "path_type": "hardlink",
+        "sha256": "5254d01f8106cc31ca48cb81a4420cda1e8f21dee75f16139359ca9ad1d94623",
+        "sha256_in_prefix": "5254d01f8106cc31ca48cb81a4420cda1e8f21dee75f16139359ca9ad1d94623",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "share/conda-forge/migrations/aws_sdk_cpp111449.yaml",
+        "path_type": "hardlink",
+        "sha256": "9c7c27282c61d5c04c53923fa3edcf5cd965b0cf465f95b55badc281c02b4913",
+        "sha256_in_prefix": "9c7c27282c61d5c04c53923fa3edcf5cd965b0cf465f95b55badc281c02b4913",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "share/conda-forge/migrations/cfitsio441.yaml",
+        "path_type": "hardlink",
+        "sha256": "4ba9b9ae741b0d23d85a852539bb251b70d64c3dcda75b0fb2f7085d90f63e74",
+        "sha256_in_prefix": "4ba9b9ae741b0d23d85a852539bb251b70d64c3dcda75b0fb2f7085d90f63e74",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "share/conda-forge/migrations/elfutils0192.yaml",
+        "path_type": "hardlink",
+        "sha256": "4a86892cb4314ecd713aab9d890ccd3de6744f17bb735617816c32fc1e50c63c",
+        "sha256_in_prefix": "4a86892cb4314ecd713aab9d890ccd3de6744f17bb735617816c32fc1e50c63c",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "share/conda-forge/migrations/example.exyaml",
+        "path_type": "hardlink",
+        "sha256": "be46410d6454e915994b48beff2c9b8d521a30ca6ec08915a539fd3be0a1ce5a",
+        "sha256_in_prefix": "be46410d6454e915994b48beff2c9b8d521a30ca6ec08915a539fd3be0a1ce5a",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "share/conda-forge/migrations/flang19.yaml",
+        "path_type": "hardlink",
+        "sha256": "e18bb4cbea04bb386afea6aa9a7467f0e0246c9084d124c7a21976953c6b63d5",
+        "sha256_in_prefix": "e18bb4cbea04bb386afea6aa9a7467f0e0246c9084d124c7a21976953c6b63d5",
+        "size_in_bytes": 4409
+      },
+      {
+        "_path": "share/conda-forge/migrations/fmt11.yaml",
+        "path_type": "hardlink",
+        "sha256": "a7dbc5cb703a968cc3ec529790dc710d65d97d680df4bf06da7e062295cbf1d8",
+        "sha256_in_prefix": "a7dbc5cb703a968cc3ec529790dc710d65d97d680df4bf06da7e062295cbf1d8",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "share/conda-forge/migrations/hdf51144.yaml",
+        "path_type": "hardlink",
+        "sha256": "d4ad636880db26c32101c7105a046f479a45a126771bfa94f53dc9512e8403c4",
+        "sha256_in_prefix": "d4ad636880db26c32101c7105a046f479a45a126771bfa94f53dc9512e8403c4",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "share/conda-forge/migrations/icu75.yaml",
+        "path_type": "hardlink",
+        "sha256": "e23fb544c9e1ccedd159abb6af5f7b5f005a8393c08a3cb020223a2ac959964a",
+        "sha256_in_prefix": "e23fb544c9e1ccedd159abb6af5f7b5f005a8393c08a3cb020223a2ac959964a",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "share/conda-forge/migrations/libarrow181.yaml",
+        "path_type": "hardlink",
+        "sha256": "56c8ff335296715ca0e192ea4014add5abd36f7bc3cba20cb7c0ea1d7cd3bc41",
+        "sha256_in_prefix": "56c8ff335296715ca0e192ea4014add5abd36f7bc3cba20cb7c0ea1d7cd3bc41",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "share/conda-forge/migrations/libass0173.yaml",
+        "path_type": "hardlink",
+        "sha256": "1e5c01bf8546b3d41998eca9ceece5b4c70b964dddab33e8932fd1bc6fb75333",
+        "sha256_in_prefix": "1e5c01bf8546b3d41998eca9ceece5b4c70b964dddab33e8932fd1bc6fb75333",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "share/conda-forge/migrations/libboost186.yaml",
+        "path_type": "hardlink",
+        "sha256": "615e8517e8ff43e9f7950fd6e815a48b6d26f4f2089ed04ec8a42b2093d86554",
+        "sha256_in_prefix": "615e8517e8ff43e9f7950fd6e815a48b6d26f4f2089ed04ec8a42b2093d86554",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "share/conda-forge/migrations/libflint31.yaml",
+        "path_type": "hardlink",
+        "sha256": "bc4fdcd96c9ae487346f33ba47704bd48a2d3d71c4ffa197824c167779044f97",
+        "sha256_in_prefix": "bc4fdcd96c9ae487346f33ba47704bd48a2d3d71c4ffa197824c167779044f97",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "share/conda-forge/migrations/libgdal310.yaml",
+        "path_type": "hardlink",
+        "sha256": "162e944186151c926ef2bc55aca8bb53558eaaac025ade99febcd0b3be30604a",
+        "sha256_in_prefix": "162e944186151c926ef2bc55aca8bb53558eaaac025ade99febcd0b3be30604a",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "share/conda-forge/migrations/libgrpc167_libprotobuf5282.yaml",
+        "path_type": "hardlink",
+        "sha256": "e320b2132f9b6e644472e107cefa9bd1e2260122f66f05e2a577ce919b9363d9",
+        "sha256_in_prefix": "e320b2132f9b6e644472e107cefa9bd1e2260122f66f05e2a577ce919b9363d9",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "share/conda-forge/migrations/libpq17.yaml",
+        "path_type": "hardlink",
+        "sha256": "1809f73e964966114618cdddce7d35de9ce57f8ced728ad45156949904d2f744",
+        "sha256_in_prefix": "1809f73e964966114618cdddce7d35de9ce57f8ced728ad45156949904d2f744",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "share/conda-forge/migrations/mkl2024.yaml",
+        "path_type": "hardlink",
+        "sha256": "6a0aaca4877223bc1fb2f6765b01cb05bfd9c2e44890d38bed0dbd3c19d0334a",
+        "sha256_in_prefix": "6a0aaca4877223bc1fb2f6765b01cb05bfd9c2e44890d38bed0dbd3c19d0334a",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "share/conda-forge/migrations/nlopt29.yaml",
+        "path_type": "hardlink",
+        "sha256": "14abc9a61c5176da58fdc253c45ff5412d86949ef8ca9a262c23901cbb791cf6",
+        "sha256_in_prefix": "14abc9a61c5176da58fdc253c45ff5412d86949ef8ca9a262c23901cbb791cf6",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "share/conda-forge/migrations/numpy2.yaml",
+        "path_type": "hardlink",
+        "sha256": "daf0fa93274e2f468ee1d00b1c0d93fe8dd29deb2c752b6c28305c8f0efab372",
+        "sha256_in_prefix": "daf0fa93274e2f468ee1d00b1c0d93fe8dd29deb2c752b6c28305c8f0efab372",
+        "size_in_bytes": 2658
+      },
+      {
+        "_path": "share/conda-forge/migrations/openh264250.yaml",
+        "path_type": "hardlink",
+        "sha256": "22a051cd367d5d5bc6d492eaf241af1a2edcd5a3113ed4477fd2e777ddf5fe36",
+        "sha256_in_prefix": "22a051cd367d5d5bc6d492eaf241af1a2edcd5a3113ed4477fd2e777ddf5fe36",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "share/conda-forge/migrations/openmpi5.yaml",
+        "path_type": "hardlink",
+        "sha256": "26201ee898c1dc43a685243025aa17cb9188b0c23bb74e7d08df177591532a3a",
+        "sha256_in_prefix": "26201ee898c1dc43a685243025aa17cb9188b0c23bb74e7d08df177591532a3a",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "share/conda-forge/migrations/osx_arm64.txt",
+        "path_type": "hardlink",
+        "sha256": "ace46893b1125f577dbd2c6dd3727c1a9ab8d07d2c97b8df7931cac414812c53",
+        "sha256_in_prefix": "ace46893b1125f577dbd2c6dd3727c1a9ab8d07d2c97b8df7931cac414812c53",
+        "size_in_bytes": 16633
+      },
+      {
+        "_path": "share/conda-forge/migrations/petsc322.yaml",
+        "path_type": "hardlink",
+        "sha256": "97d899140ccf1967f2d7bfd062392b7882e6138a82a240df9c43798a1c33007c",
+        "sha256_in_prefix": "97d899140ccf1967f2d7bfd062392b7882e6138a82a240df9c43798a1c33007c",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "share/conda-forge/migrations/python313.yaml",
+        "path_type": "hardlink",
+        "sha256": "b9ace78351c36169fcdd98a0f052f91547d9dd4aa3a9e26f44443dfff4c87e26",
+        "sha256_in_prefix": "b9ace78351c36169fcdd98a0f052f91547d9dd4aa3a9e26f44443dfff4c87e26",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "share/conda-forge/migrations/python313t.yaml",
+        "path_type": "hardlink",
+        "sha256": "816f2c512cb0a97d1658526fc775e45497217cf3524161c04b6cb9bcee1f4eb2",
+        "sha256_in_prefix": "816f2c512cb0a97d1658526fc775e45497217cf3524161c04b6cb9bcee1f4eb2",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "share/conda-forge/migrations/pytorch25.yaml",
+        "path_type": "hardlink",
+        "sha256": "a8c93a7b9ee92f28e6a42c3181eff3dd793541242d25a9b2ee85ac0caaf08373",
+        "sha256_in_prefix": "a8c93a7b9ee92f28e6a42c3181eff3dd793541242d25a9b2ee85ac0caaf08373",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "share/conda-forge/migrations/r-base44_and_m2w64-ucrt.yaml",
+        "path_type": "hardlink",
+        "sha256": "52eb6dd3f7507da51476c8c3112757a5fd81c1f3e15de526403f0e429add01c0",
+        "sha256_in_prefix": "52eb6dd3f7507da51476c8c3112757a5fd81c1f3e15de526403f0e429add01c0",
+        "size_in_bytes": 1461
+      },
+      {
+        "_path": "share/conda-forge/migrations/ruby31.yaml",
+        "path_type": "hardlink",
+        "sha256": "d90b1f51830b29c907dd16b57efa27516fb497ef536c163de67abfe20652a140",
+        "sha256_in_prefix": "d90b1f51830b29c907dd16b57efa27516fb497ef536c163de67abfe20652a140",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "share/conda-forge/migrations/spdlog113.yaml",
+        "path_type": "hardlink",
+        "sha256": "41d87154d478e9fb4d05a5089d9bea6301cccc8c2397ce7483d2ce292315b828",
+        "sha256_in_prefix": "41d87154d478e9fb4d05a5089d9bea6301cccc8c2397ce7483d2ce292315b828",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "share/conda-forge/migrations/spdlog114.yaml",
+        "path_type": "hardlink",
+        "sha256": "7e5c88fb780adbe16c8068587cb8a35aa5269be4d7aaf1c54bf6fbc9c90f3ee7",
+        "sha256_in_prefix": "7e5c88fb780adbe16c8068587cb8a35aa5269be4d7aaf1c54bf6fbc9c90f3ee7",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "share/conda-forge/migrations/svt_av1230.yaml",
+        "path_type": "hardlink",
+        "sha256": "fb9818b30c1710816363ba505288eaa9bd88b01c8c93a55b50817c4cd82d0f22",
+        "sha256_in_prefix": "fb9818b30c1710816363ba505288eaa9bd88b01c8c93a55b50817c4cd82d0f22",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "share/conda-forge/migrations/vtk931.yaml",
+        "path_type": "hardlink",
+        "sha256": "45ff68602412b458ea33a7642c180b1b6e3784c0830d37e82a16e9f9b9ca9822",
+        "sha256_in_prefix": "45ff68602412b458ea33a7642c180b1b6e3784c0830d37e82a16e9f9b9ca9822",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "share/conda-forge/migrations/win_arm64.txt",
+        "path_type": "hardlink",
+        "sha256": "a9d287545f284a882f5c61b5a5d86cb60ceefca6e78de9efe817a8f004064ff7",
+        "sha256_in_prefix": "a9d287545f284a882f5c61b5a5d86cb60ceefca6e78de9efe817a8f004064ff7",
+        "size_in_bytes": 45
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "14432758b29a5522af74ae0958d5fff8cb9d455cd2863e1c287b883322d037d9",
+  "size": 52378,
+  "subdir": "noarch",
+  "timestamp": 1732606491000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/conda-forge-pinning-2024.11.26.07.33.56-hd8ed1ab_0.conda",
+  "version": "2024.11.26.07.33.56"
+}
