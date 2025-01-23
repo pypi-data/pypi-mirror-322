@@ -1,0 +1,15 @@
+django_transfiles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_transfiles/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_transfiles/apps.py,sha256=zvNcESS20Mc-kiNFAnDur5dQfE2eKak9jjQ4LHaUXuI,169
+django_transfiles/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+django_transfiles/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_transfiles/utils.py,sha256=o9ReYe19bIGKajrzSGpr0coO4TWpvYiJZaiZQwmHbSw,4794
+django_transfiles/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_transfiles/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_transfiles/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_transfiles/management/commands/translate.py,sha256=Q5YhDBb9BIeSqaLx-EdMPcMyvy-uHu15bbafTOoOV24,906
+django_transfiles/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_transfiles-0.0.1.dist-info/METADATA,sha256=0ishu6dDUJVBRT1c9zgEop3sdCh5C6xp-nMZSzP-lwI,1033
+django_transfiles-0.0.1.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+django_transfiles-0.0.1.dist-info/top_level.txt,sha256=TsacrbKdfkOjj3M7Xz0_1TdeG_bAVCS6WZ4adQYNCQI,18
+django_transfiles-0.0.1.dist-info/RECORD,,
