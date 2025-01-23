@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: lazy_action
+Version: 0.0.8
+Summary: lazy_action make your func lazy
+Home-page: https://github.com/iridesc/lazy_action
+Author: Irid
+Author-email: irid.zzy@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: diskcache
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# lazy_action
