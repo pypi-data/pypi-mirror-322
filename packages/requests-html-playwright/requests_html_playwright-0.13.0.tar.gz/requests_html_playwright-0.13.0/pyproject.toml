@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "requests-html-playwright"
+version = "0.13.0"
+description = "Requests-HTML(with microsoft/playwright-python): HTML Parsing for Humans™"
+authors = ["Asugawara <asgasw@gmail.com>"]
+readme = "README.md"
+packages = [{include = "requests_html_playwright"}]
+homepage = "https://github.com/Asugawara/requests-html-playwright"
+repository = "https://github.com/Asugawara/requests-html-playwright"
+license = "MIT"
+keywords = [
+  "requests-html",
+  "playwright"
+]
+classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: Implementation :: PyPy"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+pyquery = "^2.0.0"
+fake-useragent = "^1.5.0"
+parse = "^1.19.0"
+w3lib = "^2.2.0"
+rfc3986 = "^2.0.0"
+playwright = "^1.49.0"
+beautifulsoup4 = "^4.12.2"
+lxml-html-clean = "^0.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+requests-file = "^2.1.0"
+pytest = "^8.3.4"
+pytest-asyncio = "^0.24.0"
+pytest-playwright = "^0.6.0"
+pytest-cov = "^6.0.0"
+mypy = "^1.14.0"
+black = "^24.10.0"
+lxml-stubs = "^0.5.1"
+types-requests = "^2.32.0.0"
+pre-commit = "^4.0.0"
+isort = "^5.13.2"
+
+[tool.isort]
+profile = "black"
+
+[[tool.mypy.overrides]]
+module = [
+    "fake_useragent.*",
+    "parse.*",
+    "pyquery.*",
+]
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.7.0"]
+build-backend = "poetry.core.masonry.api"
