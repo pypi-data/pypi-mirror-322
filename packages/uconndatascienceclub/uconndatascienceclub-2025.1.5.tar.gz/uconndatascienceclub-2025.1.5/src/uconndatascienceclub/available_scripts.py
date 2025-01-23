@@ -1,0 +1,1 @@
+all_scripts = dict() #nested dictionary; contains dates (key), points to 2nd dictionary (value) containing collection of scripts from that date
