@@ -1,0 +1,2 @@
+[console_scripts]
+setu_kyc = setu_kyc.server:run
