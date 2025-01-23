@@ -1,0 +1,15 @@
+__pycache__
+.VSCodeCounter
+/.asv
+/.vscode/launch.json
+/dist
+/refactor_deprecated
+/test_some_code
+/doc/build
+/videos
+/.coverage
+/.DS_Store
+/env*
+/result.json
+/result2.json
+/test/__test_tempdir__
