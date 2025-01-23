@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c3e98b5-5c67-4ea5-89b4-62792aa9efa7" name="Changes" comment="Add `modified_at` column to documents INSERT query&#10;&#10;This update ensures the `modified_at` column is included when inserting or updating records in the `documents` table. It supports tracking the last modification timestamp for better data management." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2rlqUrRFEE1QX564XgwQ6i1rjN6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gmr/Source/gmr/pgvector-rag&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Integrate Anthropic API.&#10;&#10;This update includes replacing OpenAI with Anthropic Claude for document optimization, adding support for document labels, and implementing conflict-resolution logic for database inserts. Additional changes include schema updates, enhanced chunk handling, and a switch to Anthropic for the embedding and optimization pipeline." />
+    <MESSAGE value="Enhance document search and chunk processing features&#10;&#10;Add `title`, `url`, and `labels` to search results for richer context. Improve logging for chunk processing and handle stale chunk deletion. Simplify chunk generation by removing unnecessary complexity and warnings." />
+    <MESSAGE value="Refactor logging, grouping, and chunk processing logic&#10;&#10;Streamlined grouping by removing redundant fields, enhanced logging with detailed chunk info, and eliminated unnecessary checks in chunk processing. Improved docstring for search method to clarify returned structure." />
+    <MESSAGE value="Add classification field to documents and optimize logging&#10;&#10;Introduced a new &quot;classification&quot; field in the documents table and integrated it into related queries, model, and optimization logic. Updated logging levels for better granularity and added timing for document optimization. Minor adjustments include stricter checks and cleanup of redundant operations." />
+    <MESSAGE value="Add classification field and improve document handling&#10;&#10;Introduce a new `classification` field in the documents schema and update related queries and data models. Enhance logging granularity and optimize document processing with runtime measurement and formatting improvements." />
+    <MESSAGE value="Add `modified_at` column to documents INSERT query&#10;&#10;This update ensures the `modified_at` column is included when inserting or updating records in the `documents` table. It supports tracking the last modification timestamp for better data management." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add `modified_at` column to documents INSERT query&#10;&#10;This update ensures the `modified_at` column is included when inserting or updating records in the `documents` table. It supports tracking the last modification timestamp for better data management." />
+  </component>
+</project>
