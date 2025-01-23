@@ -1,0 +1,185 @@
+Metadata-Version: 2.1
+Name: rhizonet
+Version: 0.0.2
+Summary: Segmentation pipeline for EcoFAB images
+Home-page: https://github.com/lbl-camera/rhizonet
+Author: Zineb Sordo, Daniela Ushizima, Peter Andeer, James Sethian and Trent Northen.
+Author-email: zsordo@lbl.gov
+License: MIT license
+Keywords: rhizonet
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: versioneer
+Requires-Dist: wheel
+Requires-Dist: cachetools==5.3.1
+Requires-Dist: constants==0.6.0
+Requires-Dist: contourpy==1.1.1
+Requires-Dist: einops==0.8.0
+Requires-Dist: gitdb==4.0.10
+Requires-Dist: GitPython==3.1.37
+Requires-Dist: graphviz==0.20.1
+Requires-Dist: imageio==2.31.5
+Requires-Dist: joblib==1.3.2
+Requires-Dist: lightning==2.0.9.post0
+Requires-Dist: lightning-cloud==0.5.39
+Requires-Dist: lightning-utilities==0.9.0
+Requires-Dist: matplotlib
+Requires-Dist: monai==1.3.2
+Requires-Dist: neptune==1.8.1
+Requires-Dist: networkx==3.1
+Requires-Dist: nibabel==5.2.1
+Requires-Dist: numpy
+Requires-Dist: opencv-python==4.8.1.78
+Requires-Dist: pandas
+Requires-Dist: Pillow==9.3.0
+Requires-Dist: pytorch-lightning==2.0.9.post0
+Requires-Dist: scikit-image==0.19.3
+Requires-Dist: scikit-learn==1.3.1
+Requires-Dist: scipy==1.10.0
+Requires-Dist: tensorboard
+Requires-Dist: torch==2.4.1
+Requires-Dist: torchaudio==2.4.1
+Requires-Dist: torchdata==0.8.0
+Requires-Dist: torchmetrics==1.2.0
+Requires-Dist: torchtext==0.18.0
+Requires-Dist: torchvision==0.19.1
+Requires-Dist: torchviz==0.0.2
+Requires-Dist: tqdm==4.66.1
+Requires-Dist: wandb==0.18.3
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: codecov; extra == "tests"
+Requires-Dist: pytest-cov; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Requires-Dist: myst-parser; extra == "docs"
+Requires-Dist: myst-nb; extra == "docs"
+Requires-Dist: sphinx-panels; extra == "docs"
+Requires-Dist: autodocs; extra == "docs"
+
+# RhizoNET
+
+
+
+[![PyPI](https://badgen.net/pypi/v/rhizonet)](https://pypi.org/project/rhizonet/)
+[![License](https://badgen.net/pypi/license/rhizonet)](https://github.com/lbl-camera/rhizonet)
+<!-- [![Build Status](https://github.com/lbl-camera/rhizonet/actions/workflows/rhizonet-CI.yml)](https://github.com/lbl-camera/rhizonet/actions/workflows/rhizonet-CI.yml) -->
+[![Documentation Status](https://readthedocs.org/projects/rhizonet/badge/?version=latest)](https://rhizonet.readthedocs.io/en/latest/)
+[![codecov](https://codecov.io/github/lbl-camera/rhizonet/graph/badge.svg?token=CuKaQXQLkt)](https://codecov.io/github/lbl-camera/rhizonet)
+
+Segmentation pipeline for EcoFAB images
+
+* License: MIT license
+* Documentation: https://rhizonet.readthedocs.io
+
+## Installation
+```commandline
+pip install rhizonet
+```
+
+
+## Features
+
+* Create patches
+* Train
+* Inference
+* Post-processing
+* Evaluate metrics
+
+
+## Copyright Notice 
+
+RhizoNet Copyright (c) 2023, The Regents of the University of California,
+through Lawrence Berkeley National Laboratory (subject to receipt of
+any required approvals from the U.S. Dept. of Energy) and University
+of California, Berkeley. All rights reserved.
+
+If you have questions about your rights to use or distribute this software,
+please contact Berkeley Lab's Intellectual Property Office at
+IPO@lbl.gov.
+
+NOTICE.  This Software was developed under funding from the U.S. Department
+of Energy and the U.S. Government consequently retains certain rights.  As
+such, the U.S. Government has been granted for itself and others acting on
+its behalf a paid-up, nonexclusive, irrevocable, worldwide license in the
+Software to reproduce, distribute copies to the public, prepare derivative 
+works, and perform publicly and display publicly, and to permit others to do so.
+
+
+## License Agreement 
+
+MIT License
+
+Copyright (c) 2025, Zineb Sordo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Credits
+
+Please reference this work:
+ <div class="row">
+      <pre class="col-md-offset-2 col-md-8">
+      @article{Sordo2024-ul,
+                title    = "{RhizoNet} segments plant roots to assess biomass and growth for
+                            enabling self-driving labs",
+                author   = "Sordo, Zineb and Andeer, Peter and Sethian, James and Northen,
+                            Trent and Ushizima, Daniela",
+                abstract = "Flatbed scanners are commonly used for root analysis, but typical
+                            manual segmentation methods are time-consuming and prone to
+                            errors, especially in large-scale, multi-plant studies.
+                            Furthermore, the complex nature of root structures combined with
+                            noisy backgrounds in images complicates automated analysis.
+                            Addressing these challenges, this article introduces RhizoNet, a
+                            deep learning-based workflow to semantically segment plant root
+                            scans. Utilizing a sophisticated Residual U-Net architecture,
+                            RhizoNet enhances prediction accuracy and employs a convex hull
+                            operation for delineation of the primary root component. Its main
+                            objective is to accurately segment root biomass and monitor its
+                            growth over time. RhizoNet processes color scans of plants grown
+                            in a hydroponic system known as EcoFAB, subjected to specific
+                            nutritional treatments. The root detection model using RhizoNet
+                            demonstrates strong generalization in the validation tests of all
+                            experiments despite variable treatments. The main contributions
+                            are the standardization of root segmentation and phenotyping,
+                            systematic and accelerated analysis of thousands of images,
+                            significantly aiding in the precise assessment of root growth
+                            dynamics under varying plant conditions, and offering a path
+                            toward self-driving labs.",
+                journal  = "Scientific Reports",
+                volume   =  14,
+                number   =  1,
+                pages    = "12907",
+                month    =  jun,
+                year     =  2024
+                }
+      </pre>
+    </div>
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter)
+and the [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
+project template.
+
+
+
