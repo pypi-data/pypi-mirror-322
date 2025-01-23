@@ -1,0 +1,17 @@
+executor_plus/__init__.py,sha256=KQbn2wTjVdwnrYKM77aksUz22ids8FjlHsgWH9doZXU,192
+executor_plus/__version__.py,sha256=Aj77VL1d5Mdku7sgCgKQmPuYavPpAHuZuJcy6bygQZE,21
+executor_plus/utils.py,sha256=q9Utu200-Prcmr241XXt37CcklQxJ45qhTNCGnp7dm8,535
+executor_plus/addons/__init__.py,sha256=ymewgiR126fmNsvrEpJCLlzOWWg0_OR4zPWeGuS3_Xk,230
+executor_plus/addons/progress.py,sha256=1kbCT-YCuUDioL91DalbY1RGwj16aiXkrW8vMfQsyGY,3480
+executor_plus/addons/throttle.py,sha256=tesh1TZWcDCQ-J9DbOWsHAUCNb_mQuYZHmHtcASYexg,1226
+executor_plus/addons/worker_id.py,sha256=WiiCQHsRxJLnRaEO3gRIYY-Vx5JMFtcXRHKJ2knOOsY,1266
+executor_plus/futures/__init__.py,sha256=qaCCNjW9LG-gWADF4dXXlDgqjGj8cIz-b8MSAEZL0Cs,1128
+executor_plus/futures/addon.py,sha256=qXI6EGVIGabrYCU8m0YzNzAGL6y8goRXuoJQyvLvWhg,712
+executor_plus/futures/basic_immediate_executor.py,sha256=_X_g797Ae7U_wpo3Qen__i2FAdmqZqCqHngKJqYUMrY,2282
+executor_plus/futures/executors.py,sha256=mwxhLUZozKTR1QSKwNT1ls-FcEeVa0bKOsDl6sXFbXY,7220
+executor_plus/futures/start_all_workers.py,sha256=2_oBldvcYOYa4RRwacPOwaFxkPNbXdvPh4Y0U_lOOQk,965
+executor_plus-1.0.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+executor_plus-1.0.0.dist-info/METADATA,sha256=_mGPzkSy8MUnLNUUDgxQGDC0OXeEPQP39glCgv-Sf1o,6110
+executor_plus-1.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+executor_plus-1.0.0.dist-info/top_level.txt,sha256=9ZCSwaG3P6_YxSswFqVP4W7eIhSLNmEZ5H0qt8MrGUU,14
+executor_plus-1.0.0.dist-info/RECORD,,
