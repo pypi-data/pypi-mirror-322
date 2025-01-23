@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+tf.py
+terraformation.egg-info/PKG-INFO
+terraformation.egg-info/SOURCES.txt
+terraformation.egg-info/dependency_links.txt
+terraformation.egg-info/entry_points.txt
+terraformation.egg-info/top_level.txt
