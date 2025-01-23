@@ -1,0 +1,2 @@
+include otc_backtest/data/*.csv
+include otc_backtest/calendar/China/*.txt
