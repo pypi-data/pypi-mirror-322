@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/reference_spectra/__init__.py
+src/reference_spectra/get_spectra.py
+src/reference_spectra.egg-info/PKG-INFO
+src/reference_spectra.egg-info/SOURCES.txt
+src/reference_spectra.egg-info/dependency_links.txt
+src/reference_spectra.egg-info/requires.txt
+src/reference_spectra.egg-info/top_level.txt
+src/reference_spectra/_spectra/f74113.nc
+src/reference_spectra/_spectra/f76ref.nc
+src/reference_spectra/_spectra/r74113.nc
+src/reference_spectra/_spectra/sc21refw.nc
+tests/test.py
