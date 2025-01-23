@@ -1,0 +1,6 @@
+{
+  "coc.preferences.formatOnSave": true,
+  "[python]": {
+    "coc.preferences.formatOnSave": true
+  }
+}
