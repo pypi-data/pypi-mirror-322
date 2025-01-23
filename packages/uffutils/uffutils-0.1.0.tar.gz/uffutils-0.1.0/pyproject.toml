@@ -1,0 +1,30 @@
+[project]
+name = "uffutils"
+version = "0.1.0"
+description = "A set of commandline tools for manipulating UFF files."
+authors = [
+    { name = "Jan Hein de Jong", email = "janhein.dejong@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["pyuff (>=2.4.6,<3.0.0)", "click (>=8.1.8,<9.0.0)"]
+
+[project.scripts]
+uffutils = 'uffutils.__main__:main'
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+ruff = "^0.9.1"
+mypy = "^1.14.1"
+black = "^24.10.0"
+
+[tool.ruff]
+extend-exclude = ["data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "I"]
+extend-ignore = ["B008"]
