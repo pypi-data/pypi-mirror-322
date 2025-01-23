@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/evaluationary/__init__.py
+src/evalutionary.egg-info/PKG-INFO
+src/evalutionary.egg-info/SOURCES.txt
+src/evalutionary.egg-info/dependency_links.txt
+src/evalutionary.egg-info/top_level.txt
