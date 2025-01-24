@@ -1,0 +1,11 @@
+nvidia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia/nvjpeg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia/nvjpeg/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia/nvjpeg/bin/nvjpeg64_12.dll,sha256=i3g_bZlXwPqY8EI5XzJW0uqjFa-wlF6cNYZ1lQ8CEVw,6171136
+nvidia/nvjpeg/include/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia/nvjpeg/include/nvjpeg.h,sha256=4OpYyYUYf-QL6f9K4k4AEMGYLQm6H7tGhiWTvxqljWc,34986
+nvidia_nvjpeg_cu12-12.3.5.57.dist-info/License.txt,sha256=rW9YU_ugyg0VnQ9Y1JrkmDDC-Mk_epJki5zpCttMbM0,59262
+nvidia_nvjpeg_cu12-12.3.5.57.dist-info/METADATA,sha256=BS5Yj5t-a8sYjQ0obbRPassXsnIs-KvLv5NZABvj02A,1509
+nvidia_nvjpeg_cu12-12.3.5.57.dist-info/WHEEL,sha256=z8gukVdnGwjcwo0VnsfJMrhPu5QJT68VcMWmAgvAufw,97
+nvidia_nvjpeg_cu12-12.3.5.57.dist-info/top_level.txt,sha256=fTkAtiFuL16nUrB9ytDDtpytz2t0B4NvYTnRzwAhO14,7
+nvidia_nvjpeg_cu12-12.3.5.57.dist-info/RECORD,,
