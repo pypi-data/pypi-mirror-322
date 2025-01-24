@@ -1,0 +1,16 @@
+marketplace_handler/__init__.py,sha256=ua1Lp8UXMqdGTb5lV-lTfKt_QqKq3Ou7pggBDDlaKsY,137
+marketplace_handler/config.py,sha256=eNP3SWstX1uRAVkT0GCGz8uaeByD80SMQ2l_u8qtl_8,812
+marketplace_handler/exceptions.py,sha256=OoWPaG25InKioavdfsRMHM3n4kYckKSCuDIjnZ8aFq4,103
+marketplace_handler/logger.py,sha256=0ZjlWW9W3boFK9BOS9MaLrpjGTQs0Q6R82VbBXHf8a8,490
+marketplace_handler/mapping.py,sha256=Ny3aqG1ukyBkuYsT3NN3ai6kIt5io_wFDkkV2vaX44Q,5192
+marketplace_handler/marketplace.py,sha256=cHYH1gk1GjbjJ_I7tBvb3Z-3sC4v4LthDmeVtu5l9Fg,570
+marketplace_handler/ozon.py,sha256=rDKQ1EGfTRXUXaUFVBdj4mbzPTRdTODQz44Bt086HwE,8342
+marketplace_handler/schemas.py,sha256=22mtaOsyS9Wtn9gFf7tKQma2r246FllejcnGLDmLaZA,5774
+marketplace_handler/utils.py,sha256=LEVFmg56hm473NRApF8tY919QyTaArcZQ18NAhdctX4,988
+marketplace_handler/validators.py,sha256=UHsaGzslo00Obh6Qt3X5zYxirI_glCB8-2VMcWYModg,1986
+marketplace_handler/wb.py,sha256=DOrhEGetLycu19YP77TcqH8YiNJU9ad07f4Co5DE2zw,17120
+marketplace_handler/yandex.py,sha256=yO8gGxA_juaUDPuH3u17TW5hn2r4ttaV4qP8HEMKpLE,11193
+marketplace_handler-2.5.25.dist-info/METADATA,sha256=G-piqhUs9FwTwxwT8CUwUZfyOGxi8I7SoQtrF2v0e8o,1555
+marketplace_handler-2.5.25.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+marketplace_handler-2.5.25.dist-info/top_level.txt,sha256=AbiPFtGGyGPQ-h6K0APOzEm_hAMYydLi33Uonws99Lo,20
+marketplace_handler-2.5.25.dist-info/RECORD,,
