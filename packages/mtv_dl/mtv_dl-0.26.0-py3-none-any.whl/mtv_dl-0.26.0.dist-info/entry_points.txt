@@ -1,0 +1,2 @@
+[console_scripts]
+mtv_dl = mtv_dl:app
