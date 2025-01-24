@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+pitest117/__init__.py
+pitest117/example_module.py
+pitest117.egg-info/PKG-INFO
+pitest117.egg-info/SOURCES.txt
+pitest117.egg-info/dependency_links.txt
+pitest117.egg-info/top_level.txt
+pitest117/extension/SetEnvironment.so
