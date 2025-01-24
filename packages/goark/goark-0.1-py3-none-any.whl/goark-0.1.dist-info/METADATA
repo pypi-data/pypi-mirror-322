@@ -1,0 +1,6 @@
+Metadata-Version: 2.2
+Name: goark
+Version: 0.1
+Requires-Dist: requests
+Requires-Dist: langchain-core
+Dynamic: requires-dist
