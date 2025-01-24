@@ -1,0 +1,22 @@
+[project]
+name = "nakdimon-onnx"
+version = "0.1.0"
+description = "Hebrew diacritics with onnxruntime"
+readme = "README.md"
+authors = [
+    { name = "thewh1teagle", email = "61390950+thewh1teagle@users.noreply.github.com" },
+]
+requires-python = ">=3.9,<3.13"
+dependencies = [
+    "onnxruntime>=1.20.1",
+]
+
+[project.urls]
+home = "https://github.com/thewh1teagle/nakdimon-onnx"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["ruff>=0.8.6", "pytest"]
