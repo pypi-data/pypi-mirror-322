@@ -1,0 +1,59 @@
+Metadata-Version: 2.2
+Name: yt-dl-easy
+Version: 0.1.0
+Summary: A simple YouTube video downloader
+Author: Pratim Bhosale
+Author-email: Pratim Bhosale <your.email@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/youtube_downloader
+Project-URL: Bug Tracker, https://github.com/yourusername/youtube_downloader/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: yt-dlp
+Requires-Dist: tqdm
+Dynamic: author
+Dynamic: requires-python
+
+# YouTube Video Downloader
+
+A simple command-line tool to download YouTube videos with progress tracking.
+
+## Installation
+
+```bash
+pip install .
+```
+
+## Usage
+
+After installation, you can use the command `yt-dl` from anywhere in your terminal:
+
+```bash
+# Download video with best quality
+yt-dl "https://www.youtube.com/watch?v=VIDEO_ID"
+
+# Download with specific resolution
+yt-dl "https://www.youtube.com/watch?v=VIDEO_ID" --resolution 720p
+
+# Specify output directory
+yt-dl "https://www.youtube.com/watch?v=VIDEO_ID" --output-dir ~/Downloads/videos
+```
+
+## Features
+
+- Simple command-line interface
+- Progress bar with download status
+- Resolution selection
+- Custom output directory
+- Video information display (title, duration, views)
