@@ -1,0 +1,15 @@
+# input data file for generating daily data using CMIP naming conventions
+variables :
+  name :
+    - "pr"
+pr :
+  atts :
+    long_name : "Precipitation"
+    units : "kg m-2 s-1"
+    cell_methods : "time : mean"
+    cell_measures : "area : area"
+    time_avg_info" : "average_T1,average_T2,average_DT"
+    standard_name : "precipitation_flux"
+    interp_method": "conserve_order1"
+  stats :
+    - [3.116272e-05, 2.2157835e-05]
