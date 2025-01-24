@@ -1,0 +1,14 @@
+tag_creator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tag_creator/__main__.py,sha256=kWgP8xkzV8rOe8o-HPQ9SoSr-Ck-_a0UX6T_b3bfYws,666
+tag_creator/arguments.py,sha256=8iISOmaJzKF2Zlgl0-WIEfOYPtkbRt4m0yPTYYw9dzk,949
+tag_creator/configuration.py,sha256=_YmPbF2dhIYpPKRwa0Cv5leut9NymCLOA5imLgOd3K0,834
+tag_creator/configuration.yml,sha256=JC8w9m8pqNCaBhv2xy80ROJZ-lQAKIDm-Q4b02PwdrQ,309
+tag_creator/logger.py,sha256=8_CLClS1TU0TRlvbJCCpyjcXvLHv1xN1C6FOLk39grI,186
+tag_creator/repository/git.py,sha256=yiWmw3ZGqFg_DTvSRT4q6gieeM-TIX0UV4N9NphI6O0,621
+tag_creator/repository/version.py,sha256=AE6EaTRc-c6RpGnOOCXVZifUZpY5I3hvbcoNTCOlSEo,5177
+tag_creator/utils/shell.py,sha256=O4Z5JoDnpFZYqKeUQvM8quiCBvYuYzBVpXGdXpQW8AU,638
+tag_creator-0.0.3.dist-info/LICENSE,sha256=au1Kq0BkD0IUOeg7l7qH6_2LXg5lk64dAZDp-CaPDnk,1078
+tag_creator-0.0.3.dist-info/METADATA,sha256=jOUrIPgTrQ8D1s727i0DVWhU6jgfXLhA9cQEP6pLXXM,3401
+tag_creator-0.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+tag_creator-0.0.3.dist-info/top_level.txt,sha256=TnyoOvKey5myNNA_sstLBnqGJDPyTGHh9ZzeWJfN6X8,12
+tag_creator-0.0.3.dist-info/RECORD,,

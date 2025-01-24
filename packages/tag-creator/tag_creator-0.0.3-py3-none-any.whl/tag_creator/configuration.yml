@@ -1,0 +1,20 @@
+commit_types:
+  - type:
+      - BREAKING_CHANGE
+      - "BREAKING CHANGE"
+    majority: "major"
+  - type:
+      - feat
+      - build
+      - ci
+      - revert
+    majority: "minor"
+  - type:
+      - fix
+      - docs
+      - refactor
+      - perf
+      - test
+      - chore
+      - style
+    majority: "patch"
