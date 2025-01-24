@@ -1,0 +1,69 @@
+<span class="main_handle pull-left" ></span>
+<button type="button" onclick="$('#toggle_morphology > span').toggle();$('#morphology').toggle();window.location.href='#top';" class="pull-right close" style="margin-left:5px"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+<h3>Analyze Morphology 
+</h3>
+<input id="input_morphology" class="form-control pull-left textfield" type="text"
+      placeholder="select your doculect" onkeyup="showMorphology(event, this.value)" style="width:250px" />
+<input id="morphology_filter" 
+      class="form-control pull-left textfield" 			      
+      type="text"
+      placeholder="filter by morphemes" 
+      onkeyup="if (this.value[this.value.length-1] == ' ') {this.value=(CFG['sampa'].indexOf(WLS['header'][CFG['_segments']]) != -1) ?  sampa2ipa(this.value) : this.value;}" 
+      style="width:150px" />
+
+<button type="button"
+	onclick="showSpinner(function(){showMorphology(false,document.getElementById('input_morphology').value);});"
+  class="btn-primary submit3 titled btn">OK</button>
+<a id="morphology_graph" target="pubWindow" class="btn btn-primary submit3">WORD FAMILY GRAPH</a>
+<button type="button" class="btn-primary titled btn submit3 pull-right"
+	title="show help"
+	onclick="UTIL.show_help('morphology');" 
+	style="margin-left:5px;"><span class="glyphicon glyphicon-question-sign"></span>
+</button> <br><br>
+<span style="background-color: #2d6ca2; color:white; border-radius:5px; border:2px solid #2d6ca2;padding:5px;margin-right:10px;">
+<b title="Select between a manual analysis that takes user-specified morphemes into account and an automatic analysis based on automatically identified colexifications.">ANALYSIS:</b>
+<input 
+      type="radio"
+      id="morphology_style_auto"
+      checked
+      name="morphology_style"
+      onchange="CFG['_morphology_style'] = 'auto';"
+      /> AUTOMATIC 
+<input 
+      type="radio" 
+      name="morphology_style" 
+      id="morphology_style_user"
+      onchange="CFG['_morphology_style'] = 'user';"
+      /> MANUAL</span>
+<span style="background-color: #2d6ca2; color:white; border-radius:5px; border:2px solid #2d6ca2;padding:5px;margin-right:10px;">
+<b title="Select between an interactive view and an editable view in which you can directly modify the data.">VIEW:</b>
+<input 
+      type="radio" 
+      name="morphology_view"
+      id="morphology_view_inspect"
+      checked
+      onchange="CFG['_morphology_view'] = 'inspect';"
+      /> INSPECT
+<input 
+      type="radio" 
+      name="morphology_view" 
+      id = "morphology_view_edit"
+      onchange="CFG['_morphology_view'] = 'edit';"
+      /> EDIT</span>
+<span style="background-color: #2d6ca2; color:white; border-radius:5px; border:2px solid #2d6ca2;padding:5px;margin-right:10px;">
+<b title="Select between full and partial colexification in the display.">MODE:</b>
+<input 
+      type="radio"
+      name="morphology_mode" 
+      onchange="CFG['_morphology_mode'] = 'full';"
+      /> FULL 
+<input 
+      type="radio" 
+      name="morphology_mode"
+      checked
+      onchange="CFG['_morphology_mode'] = 'partial';"
+      /> PARTIAL</span>
+<br><br>
+<div style="max-height:500px;overflow-x:hidden;overflow-y:scroll;display:none;"
+  id="morphology_table"></div>
+<div class="help-message" id="morphology_help" style="display:none;"></div>

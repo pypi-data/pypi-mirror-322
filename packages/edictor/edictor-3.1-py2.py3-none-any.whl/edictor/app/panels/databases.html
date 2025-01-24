@@ -1,0 +1,22 @@
+<span class="main_handle pull-left"></span>
+<button type="button" onclick="$('#toggle_databases > span').toggle(); $('#databases').toggle();window.location.href='#top';" class="pull-right close" style="margin-left:5px"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+
+<h3>Settings for Remote Databases in the EDICTOR</h3>
+<p>The EDICTOR also offers a server-based interface which allows to automatically store data on a
+remote server while editing it. In this panel, you can get quick access to existing databases and 
+just have a look at the data in its current form, or even edit it, provided you have been granted
+the necessary permissions.</p>
+<select id="dbase" class="btn selex btn-primary submit dropdown-toggle">
+    <option style="text-align:left" value="germanic.germanic">Germanic</option>
+    <option style="text-align:left" value="huber1992.huber1992">Huber and Reed (1992)</option>
+    <option style="text-align:left" value="dogon.dogon">Dogon and Friends</option>
+    <option style="text-align:left" value="burmish.burmish">Burmish</option>
+    <option style="text-align:left" value="sinotibetan.sinotibetan">Sino-Tibetan</option>
+    <option style="text-align:left" value="triples.tukano">Tukano</option>
+    <option style="text-align:left" value="triples.tppsr">Tableaux Phonétiques des Patois Suisses Romands</option>
+    <option style="text-align:left" value="mann1998.mann1998">Mann (1998)</option>
+  </select>
+  <button class="btn btn-primary submit3 titled" onclick="UTIL.open_remote_dbase('dbase', 'frame')">GO</button>
+  <br><br>
+  <iframe id="frame" src="" style="width:100%;height:60%;border:0px solid white;"></iframe>
+
