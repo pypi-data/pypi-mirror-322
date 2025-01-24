@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: JsonXL
+Version: 1.0.0
+Summary: A utility to convert JSON files to Excel sheets
+Home-page: UNKNOWN
+Author: Mahesh
+Author-email: maheshyamana123@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: openpyxl
+
+UNKNOWN
+

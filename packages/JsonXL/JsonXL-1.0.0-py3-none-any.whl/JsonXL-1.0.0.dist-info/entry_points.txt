@@ -1,0 +1,3 @@
+[console_scripts]
+jsontoxl = jsontoxl.converter:json_to_excel
+
