@@ -1,0 +1,17 @@
+tamara_payment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamara_payment/forms.py,sha256=n__i_i9BdOw3_ZKphSbFuzU0UHRAM1wapqvzs4kkC04,86
+tamara_payment/urls.py,sha256=NFb_sCxvUAhrM8z8b48V74SaqVWA9qXlsrWLbdH6EI8,172
+tamara_payment/views.py,sha256=NO-inj2gJ7JBHfnk5R4owP4MiHTAvi6jstIbJucRAEo,1101
+tamara_payment/commerce/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamara_payment/commerce/checkout.py,sha256=N3hMymmQV6DP-uoNBaxE_NkWLzO9yPO6eXi0bFVrpfk,4984
+tamara_payment/commerce/conf.py,sha256=e3MryZ-CngEDXGrEzkgF-axwLtN-nLti3k_AweqEmR8,206
+tamara_payment/commerce/dummy.py,sha256=QYIoBfaRNUftWbPycVXO6MIkz_DJiVGoRWeH9GXuDvI,1386
+tamara_payment/templates/tamara_payment.html,sha256=4IzLZIPORGX5zKZb5vegaz27rcYvAU81REvFox5qtqM,398
+tamara_payment/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamara_payment/tests/mixins.py,sha256=SnTwptUKLjZsqlkoXUvRkErJezSF618rP8R0czuFmBY,716
+tamara_payment/tests/test_service.py,sha256=Iw1LFrKbpm-qeKtEEqbIt6SePTHvOcXaTuA5pMFJtik,8735
+tamara_payment/tests/test_views.py,sha256=pNf9hpwknC5GS7wLE-HiwfZBrtgRoitvgHS5ml8ezGE,2894
+tamara_payment-1.0.0.dist-info/METADATA,sha256=shWisO8i_QApxDRNeI-2cwL50Q8VJmwzk5eScP5Gw3U,1378
+tamara_payment-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+tamara_payment-1.0.0.dist-info/top_level.txt,sha256=0Ouf7wNT74XW6E4Cs_waW85FparEvU-Z2gRrBC05Q3k,15
+tamara_payment-1.0.0.dist-info/RECORD,,
