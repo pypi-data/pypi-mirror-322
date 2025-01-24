@@ -1,0 +1,16 @@
+COPYING
+README.md
+pyproject.toml
+setup.cfg
+phylo_match/__init__.py
+phylo_match/gui.py
+phylo_match.egg-info/PKG-INFO
+phylo_match.egg-info/SOURCES.txt
+phylo_match.egg-info/dependency_links.txt
+phylo_match.egg-info/entry_points.txt
+phylo_match.egg-info/requires.txt
+phylo_match.egg-info/top_level.txt
+phylo_match/definitions/__init__.py
+phylo_match/definitions/definitions.py
+phylo_match/match/__init__.py
+phylo_match/match/match.py

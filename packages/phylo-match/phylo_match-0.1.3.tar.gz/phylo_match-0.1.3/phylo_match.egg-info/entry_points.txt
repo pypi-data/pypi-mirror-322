@@ -1,0 +1,2 @@
+[console_scripts]
+phylo-match = phylo_match.gui:main
