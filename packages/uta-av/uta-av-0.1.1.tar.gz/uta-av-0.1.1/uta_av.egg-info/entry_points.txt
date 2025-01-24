@@ -1,0 +1,2 @@
+[console_scripts]
+uta-av = terminal_agent.agent:main
