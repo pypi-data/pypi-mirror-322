@@ -1,0 +1,825 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/Viewer Release 2017 replay file
+# Internal Version: 2016_09_27-23.54.59 126836
+# Run by oyvinpet on Tue Aug 22 14:57:10 2023
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=354.418579101563, 
+    height=180.295135498047)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from viewerModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+o2 = session.openOdb(name='simple_trussjointc.odb')
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       5
+#: Number of Node Sets:          5
+#: Number of Steps:              2
+session.viewports['Viewport: 1'].setValues(displayedObject=o2)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=42.2594, 
+    farPlane=79.4949, width=42.0043, height=19.8056, cameraPosition=(53.0381, 
+    -30.7912, 32.6002), cameraUpVector=(-0.228463, 0.837147, 0.496981), 
+    cameraTarget=(10.5415, -0.185571, 2.14408))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=43.8105, 
+    farPlane=77.9439, width=33.9985, height=16.0308, viewOffsetX=-0.662174, 
+    viewOffsetY=0.144243)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=44.8093, 
+    farPlane=77.4976, width=34.7736, height=16.3963, cameraPosition=(24.2351, 
+    -58.7983, 11.4576), cameraUpVector=(0.2444, 0.533948, 0.809424), 
+    cameraTarget=(10.519, -0.533551, 2.11276), viewOffsetX=-0.677269, 
+    viewOffsetY=0.147531)
+#: 
+#: Element: PART_TRUSS.1001
+#:   Type: B31
+#:   Material: 
+#:   Section: 
+#:   Connect: 1001, 1002
+#:   Results: Integration Point values not available
+#: 
+#: Node: PART_TRUSS.1001
+#:                                         1             2             3        Magnitude
+#: Base coordinates:                  3.39443e+000,  0.00000e+000,  3.21115e+000,      -      
+#: No deformed coordinates for current plot.
+#: 
+#: Node: PART_TRUSS.1002
+#:                                         1             2             3        Magnitude
+#: Base coordinates:                  3.54604e+000,  0.00000e+000,  2.90792e+000,      -      
+#: No deformed coordinates for current plot.
+#: 
+#: Node: PART_TRUSS.1009
+#:                                         1             2             3        Magnitude
+#: Base coordinates:                  4.60733e+000,  0.00000e+000,  7.85340e-001,      -      
+#: No deformed coordinates for current plot.
+#: Specified node 'PART_TRUSS.10010' not found.
+#: 
+#: Node: PART_TRUSS.1010
+#:                                         1             2             3        Magnitude
+#: Base coordinates:                  4.75894e+000,  0.00000e+000,  4.82110e-001,      -      
+#: No deformed coordinates for current plot.
+#: 
+#: Node: PART_TRUSS.1011
+#:                                         1             2             3        Magnitude
+#: Base coordinates:                  4.91056e+000,  0.00000e+000,  1.78890e-001,      -      
+#: No deformed coordinates for current plot.
+#: 
+#: Element: PART_TRUSS.1001
+#:   Type: B31
+#:   Material: 
+#:   Section: 
+#:   Connect: 1001, 1002
+#:   Results: Integration Point values not available
+#: 
+#: Element: PART_TRUSS.1005
+#:   Type: B31
+#:   Material: 
+#:   Section: 
+#:   Connect: 1005, 1006
+#:   Results: Integration Point values not available
+#: 
+#: Element: PART_TRUSS.1007
+#:   Type: B31
+#:   Material: 
+#:   Section: 
+#:   Connect: 1007, 1008
+#:   Results: Integration Point values not available
+#: 
+#: Element: PART_TRUSS.1008
+#:   Type: B31
+#:   Material: 
+#:   Section: 
+#:   Connect: 1008, 1009
+#:   Results: Integration Point values not available
+#: 
+#: Element: PART_TRUSS.1009
+#:   Type: B31
+#:   Material: 
+#:   Section: 
+#:   Connect: 1009, 1010
+#:   Results: Integration Point values not available
+#: 
+#: Element: PART_TRUSS.1010
+#:   Type: B31
+#:   Material: 
+#:   Section: 
+#:   Connect: 1010, 1011
+#:   Results: Integration Point values not available
+#: 
+#: Element: PART_TRUSS.1011
+#:   Type: JOINTC
+#:   Material: 
+#:   Section: 
+#:   Connect: 11, 1001
+#:   Results: Integration Point values not available
+#: Specified element 'PART_TRUSS.1012' not found.
+#: 
+#: Element: PART_TRUSS.1011
+#:   Type: JOINTC
+#:   Material: 
+#:   Section: 
+#:   Connect: 11, 1001
+#:   Results: Integration Point values not available
+#: 
+#: Node: PART_TRUSS.11
+#:                                         1             2             3        Magnitude
+#: Base coordinates:                  2.50000e+000,  0.00000e+000,  5.00000e+000,      -      
+#: No deformed coordinates for current plot.
+#: 
+#: Node: PART_TRUSS.1001
+#:                                         1             2             3        Magnitude
+#: Base coordinates:                  3.39443e+000,  0.00000e+000,  3.21115e+000,      -      
+#: No deformed coordinates for current plot.
+#: 
+#: Nodes for distance: PART_TRUSS.11, PART_TRUSS.1001
+#:                                        1             2             3        Magnitude
+#: Base distance:                     8.94430e-001,  0.00000e+000, -1.78885e+000,  2.00000e+000
+#: No deformed coordinates for current plot.
+#: Warning: The output database 'C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb' disk file has changed.
+#: 
+#: The current plot operation has been canceled, re-open the file to view the results
+session.viewports['Viewport: 1'].view.setValues(nearPlane=46.5438, 
+    farPlane=75.763, width=17.2604, height=8.13855, viewOffsetX=-2.65302, 
+    viewOffsetY=-0.321824)
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       5
+#: Number of Node Sets:          5
+#: Number of Steps:              2
+session.viewports['Viewport: 1'].view.setValues(nearPlane=45.0889, 
+    farPlane=76.0357, width=44.8191, height=21.1328, cameraPosition=(9.63491, 
+    -52.7194, 32.3105), cameraUpVector=(0.124724, 0.753183, 0.645878), 
+    cameraTarget=(10.5415, -0.185755, 2.14229))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=40.7838, 
+    farPlane=79.6607, width=40.5398, height=19.1151, cameraPosition=(-30.7401, 
+    -40.2359, 21.1627), cameraUpVector=(0.476812, 0.387299, 0.789082), 
+    cameraTarget=(10.5576, -0.190737, 2.14674))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=41.3273, 
+    farPlane=79.311, width=41.08, height=19.3698, cameraPosition=(-24.4042, 
+    -47.2162, 17.5215), cameraUpVector=(0.306667, 0.471272, 0.826957), 
+    cameraTarget=(10.5193, -0.148514, 2.16877))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=43.626, 
+    farPlane=77.0123, width=21.7009, height=10.2323, viewOffsetX=-1.70946, 
+    viewOffsetY=-1.03687)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=44.2338, 
+    farPlane=74.7936, width=22.0033, height=10.3749, cameraPosition=(-6.53735, 
+    -52.3312, 25.5258), cameraUpVector=(0.271684, 0.620906, 0.735298), 
+    cameraTarget=(10.8463, 0.65018, 1.82962), viewOffsetX=-1.73328, 
+    viewOffsetY=-1.05132)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=44.4227, 
+    farPlane=74.3561, width=22.0973, height=10.4192, cameraPosition=(-4.06263, 
+    -52.0954, 27.3197), cameraUpVector=(0.339142, 0.628456, 0.700018), 
+    cameraTarget=(10.9022, 0.659672, 1.55768), viewOffsetX=-1.74068, 
+    viewOffsetY=-1.05581)
+import sys
+sys.path.insert(15, r'c:/Users/oyvinpet/abaqus_plugins/ModelViewPlugin')
+import ModelView
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=2, 
+    step=-1, x_in_or_out='In')
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3425.8, 
+    farPlane=3464.25, width=41.3902, height=19.5161, viewOffsetX=-33.301, 
+    viewOffsetY=-87.6169)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+#: Warning: The output database 'C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb' disk file has changed.
+#: 
+#: The current plot operation has been canceled, re-open the file to view the results
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       6
+#: Number of Node Sets:          5
+#: Number of Steps:              2
+session.viewports['Viewport: 1'].view.setValues(nearPlane=41.8217, 
+    farPlane=79.8939, width=41.5693, height=19.6005, cameraPosition=(45.286, 
+    -41.4809, 29.6713), cameraUpVector=(-0.226908, 0.728771, 0.646069), 
+    cameraTarget=(10.5415, -0.185569, 2.14408))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=45.0107, 
+    farPlane=76.2222, width=44.739, height=21.0951, cameraPosition=(6.7528, 
+    -54.2161, 29.421), cameraUpVector=(0.0638444, 0.719428, 0.691626), 
+    cameraTarget=(10.3672, -0.243183, 2.14295))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=48.6313, 
+    farPlane=72.6015, width=9.09367, height=4.2878, viewOffsetX=-5.46941, 
+    viewOffsetY=0.0608963)
+session.odbs['C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb'].close(
+    )
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       5
+#: Number of Node Sets:          5
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=0)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=1)
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=2, 
+    step=-1, x_in_or_out='In')
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3428.47, 
+    farPlane=3462.04, width=18.97, height=8.94461, viewOffsetX=-33.3304, 
+    viewOffsetY=-91.2697)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3430.26, 
+    farPlane=3460.88, width=18.9799, height=8.94929, cameraPosition=(-3173.09, 
+    -1256.37, 415.534), cameraUpVector=(0.463675, -0.0276502, 0.885574), 
+    cameraTarget=(283.298, 48.0645, 57.217), viewOffsetX=-33.3478, 
+    viewOffsetY=-91.3174)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3432.2, 
+    farPlane=3457.77, width=18.9906, height=8.95434, cameraPosition=(-3226.77, 
+    -172.6, 1173.19), cameraUpVector=(0.619217, -0.123662, 0.775421), 
+    cameraTarget=(290.942, -36.9547, -3.19862), viewOffsetX=-33.3666, 
+    viewOffsetY=-91.3689)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=2)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=4)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=5)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3432.55, 
+    farPlane=3457.44, width=18.9925, height=8.95525, viewOffsetX=-30.9862, 
+    viewOffsetY=-91.6114)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3437.03, 
+    farPlane=3450.69, width=19.0173, height=8.96693, cameraPosition=(-581.487, 
+    -1170.44, 3188.04), cameraUpVector=(0.545284, 0.835286, 0.0704505), 
+    cameraTarget=(133.589, 144.815, -208.335), viewOffsetX=-31.0266, 
+    viewOffsetY=-91.7309)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3433.96, 
+    farPlane=3453.31, width=45.1825, height=21.3042, viewOffsetX=-30.7293, 
+    viewOffsetY=-90.0499)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=6)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3432.96, 
+    farPlane=3457.51, width=45.1694, height=21.298, cameraPosition=(-1739.14, 
+    -2910.56, 592.262), cameraUpVector=(0.235774, 0.40668, 0.882622), 
+    cameraTarget=(180.915, 219.714, 52.4392), viewOffsetX=-30.7204, 
+    viewOffsetY=-90.0238)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3429.39, 
+    farPlane=3459.86, width=45.1225, height=21.2759, cameraPosition=(-3233.72, 
+    -1151.67, 165.155), cameraUpVector=(0.447837, -0.205095, 0.870275), 
+    cameraTarget=(284.654, 26.5477, 67.769), viewOffsetX=-30.6885, 
+    viewOffsetY=-89.9303)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=7)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=9)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=11)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=12)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=13)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3425.63, 
+    farPlane=3464.45, width=45.073, height=21.2526, cameraPosition=(-1976.46, 
+    -2063.42, 1918.39), cameraUpVector=(0.353634, 0.727084, 0.588466), 
+    cameraTarget=(206.972, 193.926, -59.8965), viewOffsetX=-30.6548, 
+    viewOffsetY=-89.8316)
+#: Warning: The output database 'C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb' disk file has changed.
+#: 
+#: The current plot operation has been canceled, re-open the file to view the results
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       5
+#: Number of Node Sets:          5
+#: Number of Steps:              1
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=2, 
+    step=-1, x_in_or_out='In')
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3427.87, 
+    farPlane=3462.49, width=23.3212, height=10.9963, viewOffsetX=-31.3495, 
+    viewOffsetY=-90.7976)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=2)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=3)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=4)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=5)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=6)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=7)
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=7)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=8)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=9)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=10)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=9)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=10)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=11)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=12)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=13)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=14)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=15)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=16)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=17)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=18)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=19)
+#: Warning: The output database 'C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb' disk file has changed.
+#: 
+#: The current plot operation has been canceled, re-open the file to view the results
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       5
+#: Number of Node Sets:          5
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].view.setValues(nearPlane=49.0106, 
+    farPlane=71.7446, width=48.7148, height=22.9697, cameraPosition=(22.1868, 
+    -11.329, 60.5431), cameraUpVector=(-0.66073, 0.747214, -0.0714612), 
+    cameraTarget=(10.5415, -0.185575, 2.14408))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=40.8218, 
+    farPlane=79.3204, width=40.5754, height=19.1319, cameraPosition=(-27.7368, 
+    -37.2144, 30.782), cameraUpVector=(0.486477, 0.557413, 0.672779), 
+    cameraTarget=(10.7109, -0.0977373, 2.24507))
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=2, 
+    step=-1, x_in_or_out='In')
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3428.04, 
+    farPlane=3462.33, width=21.4663, height=10.1217, viewOffsetX=-34.6852, 
+    viewOffsetY=-89.8139)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=1)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=2)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=4)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=6)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=7)
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=8)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=9)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=10)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3434.05, 
+    farPlane=3456.24, width=31.171, height=14.6976, viewOffsetX=-32.2468, 
+    viewOffsetY=-89.104)
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    UNDEFORMED, CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    UNDEFORMED, ))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3427.13, 
+    farPlane=3463.35, width=34.3742, height=16.2079, viewOffsetX=-30.2747, 
+    viewOffsetY=-86.9231)
+session.viewports['Viewport: 1'].view.setValues(farPlane=3463.58, 
+    cameraPosition=(-2397.02, -2265.37, 978.752), cameraUpVector=(0.32058, 
+    0.484915, 0.813687), cameraTarget=(229.981, 176.627, 23.7521))
+#: Specified node 'PART_TRUSS.1000' not found.
+#: 
+#: Node: PART_TRUSS.1001
+#:                                         1             2             3        Magnitude
+#: Base coordinates:                  2.63416e+000,  0.00000e+000,  4.73167e+000,      -      
+#: No deformed coordinates for current plot.
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3420.1, 
+    farPlane=3470.37, width=89.4298, height=42.1674, viewOffsetX=-16.0411, 
+    viewOffsetY=-84.603)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3416.44, 
+    farPlane=3464.2, width=89.3341, height=42.1223, cameraPosition=(-2958.54, 
+    -1630.22, 615.741), cameraUpVector=(0.531608, 0.00542772, 0.846973), 
+    cameraTarget=(283.587, 84.1717, 44.7779), viewOffsetX=-16.0239, 
+    viewOffsetY=-84.5125)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3417.02, 
+    farPlane=3465.05, width=89.3492, height=42.1294, cameraPosition=(-2894.78, 
+    -1712.39, 695.534), cameraUpVector=(0.452669, 0.208347, 0.866996), 
+    cameraTarget=(272.815, 109.53, 44.7733), viewOffsetX=-16.0266, 
+    viewOffsetY=-84.5267)
+session.viewports['Viewport: 1'].view.setValues(viewOffsetX=-20.5367, 
+    viewOffsetY=-88.4286)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3422.49, 
+    farPlane=3470.33, width=89.4921, height=42.1968, cameraPosition=(-1681.48, 
+    -2625.62, 1462.64), cameraUpVector=(0.459528, 0.515329, 0.723374), 
+    cameraTarget=(197.042, 209.673, -23.5688), viewOffsetX=-20.5696, 
+    viewOffsetY=-88.5701)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3427.9, 
+    farPlane=3464.92, width=43.5632, height=20.5407, viewOffsetX=-35.5652, 
+    viewOffsetY=-92.0374)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=1)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3430.01, 
+    farPlane=3462.81, width=20.7454, height=9.78174, viewOffsetX=-33.8995, 
+    viewOffsetY=-92.0453)
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    UNDEFORMED, CONTOURS_ON_DEF, ))
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='SF', outputPosition=INTEGRATION_POINT, refinement=(
+    COMPONENT, 'SF1'), )
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+#: 
+#: Element: PART_TRUSS.1007
+#:   Type: B31
+#:   Material: 
+#:   Section: 
+#:   Connect: 1007, 1008
+#:   SF, SF1 (Not averaged): -9.32587e-09
+#: 
+#: Element: PART_TRUSS.1005
+#:   Type: B31
+#:   Material: 
+#:   Section: 
+#:   Connect: 1005, 1006
+#:   SF, SF1 (Not averaged): 0
+#: 
+#: Element: PART_TRUSS.1012
+#:   Type: JOINTC
+#:   Material: 
+#:   Section: 
+#:   Connect: 1011, 2
+#:   SF, SF1 (Not averaged): NoValue
+#: Warning: The output database 'C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb' disk file has changed.
+#: 
+#: The current plot operation has been canceled, re-open the file to view the results
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       6
+#: Number of Node Sets:          5
+#: Number of Steps:              1
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+session.odbs['C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb'].close(
+    )
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       6
+#: Number of Node Sets:          5
+#: Number of Steps:              1
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=2, 
+    step=-1, x_in_or_out='In')
+#* IndexError: Sequence index out of range
+#* File "c:/Users/oyvinpet/abaqus_plugins/ModelViewPlugin\ModelView.py", line 
+#* 52, in ModelViewFunc
+#*     firstframe=this_step.frames[1]
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       5
+#: Number of Node Sets:          5
+#: Number of Steps:              1
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=2, 
+    step=-1, x_in_or_out='In')
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3427.87, 
+    farPlane=3462.49, width=18.8477, height=10.7672, viewOffsetX=-35.3747, 
+    viewOffsetY=-90.3144)
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='S', outputPosition=INTEGRATION_POINT, refinement=(INVARIANT, 
+    'Mises'), )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=2)
+#: 
+#: Element: PART_TRUSS.1011
+#:   Type: JOINTC
+#:   Material: 
+#:   Section: 
+#:   Connect: 11, 1001
+#:   S, Mises (Not averaged): 0
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=4)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=8)
+#: 
+#: Element: PART_TRUSS.1011
+#:   Type: JOINTC
+#:   Material: 
+#:   Section: 
+#:   Connect: 11, 1001
+#:   S, Mises (Not averaged): 0
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=14)
+#: 
+#: Mass properties for Whole model:
+#: 
+#:   The selected elements belong to sections unsupported for Mass/Volume/Area computations.
+#: 
+#: Element: PART_TRUSS.1012
+#:   Type: JOINTC
+#:   Material: 
+#:   Section: 
+#:   Connect: 1011, 2
+#:   S, Mises (Not averaged): 0
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='S', outputPosition=INTEGRATION_POINT, refinement=(COMPONENT, 
+    'S11'), )
+#: 
+#: Element: PART_TRUSS.1012
+#:   Type: JOINTC
+#:   Material: 
+#:   Section: 
+#:   Connect: 1011, 2
+#:   S, S11 (Not averaged): 0
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    UNDEFORMED, CONTOURS_ON_DEF, ))
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=17)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=21)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=3)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=6)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=9)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=11)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=12)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=14)
+session.animationController.setValues(animationType=NONE)
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       5
+#: Number of Node Sets:          5
+#: Number of Steps:              1
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=2, 
+    step=-1, x_in_or_out='In')
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3427.32, 
+    farPlane=3463.05, width=22.6885, height=12.9613, viewOffsetX=-33.0218, 
+    viewOffsetY=-92.0813)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=2)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=4)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=6)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=7)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=8)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=9)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=10)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=9)
+session.animationController.setValues(animationType=NONE)
+session.odbs['C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb'].close(
+    )
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       5
+#: Number of Node Sets:          5
+#: Number of Steps:              1
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=1, 
+    step=-1, x_in_or_out='In')
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3428.87, 
+    farPlane=3461.58, width=12.7517, height=7.28468, viewOffsetX=-34.667, 
+    viewOffsetY=-88.4833)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=1)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=2)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3428.14, 
+    farPlane=3462.27, width=19.7402, height=11.2771, viewOffsetX=-32.9378, 
+    viewOffsetY=-88.8083)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=3)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=4)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=5)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=6)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=7)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=8)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=9)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=10)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(
+    UNDEFORMED, ))
+#: 
+#: Node: PART_TRUSS.1001
+#:                                         1             2             3        Magnitude
+#: Base coordinates:                  2.63416e+000,  0.00000e+000,  4.73167e+000,      -      
+#: No deformed coordinates for current plot.
+#: 
+#: Node: PART_TRUSS.1011
+#:                                         1             2             3        Magnitude
+#: Base coordinates:                  4.91056e+000,  0.00000e+000,  1.78890e-001,      -      
+#: No deformed coordinates for current plot.
+#: 
+#: Nodes for distance: PART_TRUSS.1001, PART_TRUSS.1011
+#:                                        1             2             3        Magnitude
+#: Base distance:                     2.27640e+000,  0.00000e+000, -4.55278e+000,  5.09017e+000
+#: No deformed coordinates for current plot.
+#: Warning: The output database 'C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb' disk file has changed.
+#: 
+#: The current plot operation has been canceled, re-open the file to view the results
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       4
+#: Number of Node Sets:          5
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=1)
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=2, 
+    step=-1, x_in_or_out='In')
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3434.03, 
+    farPlane=3457.76, width=24.184, height=13.8156, viewOffsetX=-30.1041, 
+    viewOffsetY=-89.6861)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=2)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=3)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3427.62, 
+    farPlane=3462.72, width=22.6905, height=12.9624, viewOffsetX=-32.197, 
+    viewOffsetY=-90.5683)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=4)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=5)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=6)
+session.animationController.setValues(animationType=NONE)
+#: Warning: The output database 'C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb' disk file has changed.
+#: 
+#: The current plot operation has been canceled, re-open the file to view the results
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       4
+#: Number of Node Sets:          5
+#: Number of Steps:              1
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=-1, 
+    step=-1, x_in_or_out='In')
+session.viewports['Viewport: 1'].view.setValues(nearPlane=84.5683, 
+    farPlane=147.507, width=50.9396, height=29.1004, viewOffsetX=6.85335, 
+    viewOffsetY=-0.45602)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=1)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=3)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step='STEP_MODAL', 
+    frame=6)
+session.animationController.setValues(animationType=NONE)

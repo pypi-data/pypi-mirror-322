@@ -1,0 +1,29 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/Viewer Release 2017 replay file
+# Internal Version: 2016_09_27-23.54.59 126836
+# Run by oyvinpet on Wed Aug 23 15:25:50 2023
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=329.302307128906, 
+    height=174.246520996094)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from viewerModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+o2 = session.openOdb(name='simple_trussjointc.odb')
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       26
+#: Number of Node Sets:          11
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].setValues(displayedObject=o2)

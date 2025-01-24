@@ -1,0 +1,103 @@
+1
+
+   Abaqus 3DEXPERIENCE R2017x                                  Date 17-May-2024   Time 22:00:30
+   For use by NORGES TEKNISK NATURVITENSKAPELIGE UNIVERSITET under license from Dassault Systemes or its subsidiary.
+
+
+
+                         The Abaqus Software is a product of:
+
+                           Dassault Systemes SIMULIA Corp.
+                           1301 Atwood Avenue, Suite 101W
+                              Johnston, RI 02919, USA
+ 
+
+
+                   The Abaqus Software is available only under license
+                   from Dassault Systemes or its subsidiary and may be
+                   used or reproduced only in accordance with the terms
+                   of such license.
+ 
+                          On machine NTNU08422 
+                          you are authorized to run
+                          Abaqus/Foundation until 30-Sep-2024
+
+                          Your site id is: 100000000001981 
+
+
+ 
+                    For assistance or any other information you may
+                    obtain contact information for your local office
+                    from the world wide web at:
+
+                      http://www.3ds.com/products/simulia/locations/
+
+ 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+                *                                                         * 
+                *                   *****************                     * 
+                *                   *  N O T I C E  *                     * 
+                *                   *****************                     * 
+                *                                                         * 
+                *                                                         * 
+                *               Abaqus 3DEXPERIENCE R2017x                * 
+                *                                                         * 
+                *          BUILD ID: 2016_09_27-23.54.59 126836           * 
+                *                                                         * 
+                *                                                         * 
+                *  Please make sure you are using                         * 
+                *  release 3DEXPERIENCE R2017x manuals                    * 
+                *  plus the notes accompanying this release.              * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *   This program may not be used for commercial purposes  * 
+                *           without payment of a commercial fee.          * 
+                *                                                         * 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+ 
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+ ***ERROR: The following elements in instance PART_TRUSS reference one or more 
+           nodes that do not exist     500000, 501000, 502000, 503000, 504000, 
+           505000, 506000, 507000, 508000, 509000     510000, 510001, 510002, 
+           510003, 510004, 510005, 510006, 510007, 510008, 510009     510010, 
+           510011, 510012, 510013, 510014, 510015, 510016, 510017, 510018, 
+           510019     510020, 510021, 510022, 510023, 510024, 510025, 510026, 
+           510027, 510028, 510029     510030, 510031, 510032, 510033, 510034, 
+           510035,
+ ***NOTE: DUE TO AN INPUT ERROR THE ANALYSIS PRE-PROCESSOR HAS BEEN UNABLE TO 
+          INTERPRET SOME DATA.  SUBSEQUENT ERRORS MAY BE CAUSED BY THIS OMISSION
+
+ ***NOTE: Error message is too long. It has been truncated.
+
+ ***ERROR: ERROR DURING PART, INSTANCE AND ASSEMBLY PROCESSING
+
+
+
+
+
+          THE PROGRAM HAS DISCOVERED     2 FATAL ERRORS
+
+               ** EXECUTION IS TERMINATED **
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   0.0000    
+       SYSTEM TIME (SEC)    =   0.0000    
+       TOTAL CPU TIME (SEC) =   0.0000    
+       WALLCLOCK TIME (SEC) =          0

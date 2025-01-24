@@ -1,0 +1,119 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/Viewer Release 2017 replay file
+# Internal Version: 2016_09_27-23.54.59 126836
+# Run by oyvinpet on Mon Aug 21 20:47:40 2023
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=307.999969482422, 
+    height=173.0)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from viewerModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+o2 = session.openOdb(name='simple_truss.odb')
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/simple_truss.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       3
+#: Number of Node Sets:          4
+#: Number of Steps:              2
+session.viewports['Viewport: 1'].setValues(displayedObject=o2)
+import sys
+sys.path.insert(15, r'c:/Users/oyvinpet/abaqus_plugins/ModelViewPlugin')
+import ModelView
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=-1, 
+    step=-1, x_in_or_out='In')
+session.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(
+    deformationScaling=AUTO)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=86.5984, 
+    farPlane=113.897, width=30.1815, height=9.74546, viewOffsetX=13.1623, 
+    viewOffsetY=-3.81748)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=2 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=3 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=4 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=5 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=6 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=7 )
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=8 )
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.odbs['C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/simple_truss.odb'].close(
+    )
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/simple_truss.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/simple_truss.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       3
+#: Number of Node Sets:          4
+#: Number of Steps:              2
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=-1, 
+    step=-1, x_in_or_out='In')
+session.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(
+    deformationScaling=AUTO)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=177.283, 
+    farPlane=232.65, width=73.245, height=23.6504, viewOffsetX=2.91954, 
+    viewOffsetY=-14.1809)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=2 )
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=3 )
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=4 )
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=183.89, 
+    farPlane=226.563, width=33.9884, height=10.9747, viewOffsetX=-0.30252, 
+    viewOffsetY=-14.5106)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=5 )
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)
+session.animationController.setValues(animationType=NONE)
+session.viewports['Viewport: 1'].odbDisplay.setFrame(step=1, frame=6 )
+session.animationController.setValues(animationType=HARMONIC, viewports=(
+    'Viewport: 1', ))
+session.animationController.play(duration=UNLIMITED)

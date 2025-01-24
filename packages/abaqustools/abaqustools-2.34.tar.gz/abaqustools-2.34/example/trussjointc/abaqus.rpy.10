@@ -1,0 +1,64 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/Viewer Release 2017 replay file
+# Internal Version: 2016_09_27-23.54.59 126836
+# Run by oyvinpet on Fri Aug 25 14:49:49 2023
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=329.302307128906, 
+    height=174.246520996094)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from viewerModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+o2 = session.openOdb(name='simple_trussjointc.odb')
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       26
+#: Number of Node Sets:          11
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].setValues(displayedObject=o2)
+import sys
+sys.path.insert(15, r'c:/Users/oyvinpet/abaqus_plugins/ModelViewPlugin')
+import ModelView
+import ModelView
+ModelView.ModelViewFunc(render_beams='Off', deflection=50, scalefactor=2, 
+    step=-1, x_in_or_out='In')
+#* IndexError: Sequence index out of range
+#* File "c:/Users/oyvinpet/abaqus_plugins/ModelViewPlugin\ModelView.py", line 
+#* 52, in ModelViewFunc
+#*     firstframe=this_step.frames[1]
+#: Warning: The output database 'C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb' disk file has changed.
+#: 
+#: The current plot operation has been canceled, re-open the file to view the results
+session.viewports['Viewport: 1'].view.setValues(nearPlane=3427.75, 
+    farPlane=3462.73, width=23.295, height=11.4113, viewOffsetX=-31.7141, 
+    viewOffsetY=-90.7221)
+o1 = session.openOdb(
+    name='C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb')
+session.viewports['Viewport: 1'].setValues(displayedObject=o1)
+#: Model: C:/Cloud/OD_OWP/Work/Python/Github/abaqustools/example/trussjointc/simple_trussjointc.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       26
+#: Number of Node Sets:          11
+#: Number of Steps:              1
+session.viewports['Viewport: 1'].view.setValues(nearPlane=43.832, 
+    farPlane=76.9077, width=41.9357, height=20.5427, cameraPosition=(-2.16028, 
+    -44.0975, 41.9014), cameraUpVector=(0.337691, 0.804534, 0.488558), 
+    cameraTarget=(10.5415, -0.185568, 2.14408))
+session.viewports['Viewport: 1'].view.setValues(nearPlane=41.1288, 
+    farPlane=79.3004, width=39.3495, height=19.2758, cameraPosition=(-25.0316, 
+    -41.4645, 28.5704), cameraUpVector=(0.357376, 0.624487, 0.694478), 
+    cameraTarget=(10.622, -0.194841, 2.19103))

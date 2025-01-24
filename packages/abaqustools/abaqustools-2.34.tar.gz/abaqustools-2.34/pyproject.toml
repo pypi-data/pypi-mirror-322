@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "abaqustools"
+version = "2.34" # Follow PEP440
+authors = [{ name="O. W. Petersen", email="oyvind.w.petersen@ntnu.no" },]
+description = "Tools for FEM software ABAQUS."
+requires-python = ">=3"
+keywords = ["abaqus", "export","fem","odb"]
+dependencies = ["numpy","scipy","nexusformat","h5py","putools"]
+
+[project.urls]
+repository = "https://github.com/Oyvindwpetersen/abaqustools/"
+
+[tool.setuptools]
+packages = ["odbexport"]
+py-modules = ["abq","kw"]
