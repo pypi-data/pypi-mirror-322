@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+ArcTableToolkit.egg-info/PKG-INFO
+ArcTableToolkit.egg-info/SOURCES.txt
+ArcTableToolkit.egg-info/dependency_links.txt
+ArcTableToolkit.egg-info/requires.txt
+ArcTableToolkit.egg-info/top_level.txt
+BaseProcessor/BaseProcessor.py
+BaseProcessor/__init__.py
+DataCatalog/DataCatalog.py
+DataCatalog/ExtendedDataCatalog.py
+DataCatalog/__init__.py
+TableLoader/TableLoader.py
+TableLoader/__init__.py
