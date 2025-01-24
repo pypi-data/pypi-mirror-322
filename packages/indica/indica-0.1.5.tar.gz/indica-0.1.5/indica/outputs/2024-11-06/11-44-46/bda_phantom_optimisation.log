@@ -1,0 +1,19 @@
+[2024-11-06 11:44:46,922][__main__][INFO] - Beginning BDA phantom optimisation
+[2024-11-06 11:44:46,922][__main__][INFO] - Using a mock equilibrium
+[2024-11-06 11:44:46,928][__main__][INFO] - Initialising plasma
+[2024-11-06 11:44:48,811][__main__][INFO] - Initialising plasma state with PlasmaProfiler
+[2024-11-06 11:44:48,847][__main__][INFO] - Saving plasma phantom attributes
+[2024-11-06 11:44:48,972][__main__][INFO] - Updating Plasma Profiler with profilers used for optimisation
+[2024-11-06 11:44:48,996][__main__][INFO] - Loading transforms from pickle
+[2024-11-06 11:44:49,008][__main__][INFO] - Using phantom data reader
+[2024-11-06 11:44:50,864][__main__][INFO] - Applying error to opt_data
+[2024-11-06 11:44:50,873][__main__][INFO] - Initialising ModelCoordinator
+[2024-11-06 11:44:52,710][__main__][INFO] - initialising PriorManager
+[2024-11-06 11:44:52,733][__main__][INFO] - Initialising BO Optimiser Context
+[2024-11-06 11:44:52,739][__main__][INFO] - Initialising BDA Driver
+[2024-11-06 11:44:52,739][__main__][INFO] - Running BDA Driver
+[2024-11-06 11:44:52,750][root][INFO] - Time: 0.05
+[2024-11-06 11:49:11,500][root][INFO] - kde posterior estimating
+[2024-11-06 11:49:26,697][root][INFO] - Time: 0.06
+[2024-11-06 11:54:11,741][root][INFO] - kde posterior estimating
+[2024-11-06 11:54:34,961][root][WARNING] - Too few points to create valid contours

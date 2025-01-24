@@ -1,0 +1,18 @@
+[2024-11-06 09:55:16,639][__main__][INFO] - Beginning BDA phantom optimisation
+[2024-11-06 09:55:16,639][__main__][INFO] - Using a mock equilibrium
+[2024-11-06 09:55:16,642][__main__][INFO] - Initialising plasma
+[2024-11-06 09:55:18,585][__main__][INFO] - Initialising plasma state with PlasmaProfiler
+[2024-11-06 09:55:18,624][__main__][INFO] - Saving plasma phantom attributes
+[2024-11-06 09:55:18,755][__main__][INFO] - Updating Plasma Profiler with profilers used for optimisation
+[2024-11-06 09:55:18,780][__main__][INFO] - Loading transforms from pickle
+[2024-11-06 09:55:18,797][__main__][INFO] - Using phantom data reader
+[2024-11-06 09:55:20,658][__main__][INFO] - Applying error to opt_data
+[2024-11-06 09:55:20,666][__main__][INFO] - Initialising ModelCoordinator
+[2024-11-06 09:55:22,210][__main__][INFO] - initialising PriorManager
+[2024-11-06 09:55:22,232][__main__][INFO] - Initialising BO Optimiser Context
+[2024-11-06 09:55:22,236][__main__][INFO] - Initialising BDA Driver
+[2024-11-06 09:55:22,237][__main__][INFO] - Running BDA Driver
+[2024-11-06 09:55:22,246][root][INFO] - Time: 0.05
+[2024-11-06 09:58:02,972][root][INFO] - kde posterior estimating
+[2024-11-06 09:58:18,808][root][INFO] - Time: 0.06
+[2024-11-06 10:00:33,306][root][INFO] - kde posterior estimating

@@ -1,0 +1,4 @@
+[2024-11-05 16:31:00,964][__main__][INFO] - Beginning BDA phantom optimisation
+[2024-11-05 16:31:00,964][__main__][INFO] - Using a mock equilibrium
+[2024-11-05 16:31:00,968][__main__][INFO] - Initialising plasma
+[2024-11-05 16:31:02,740][__main__][INFO] - Initialising plasma state with PlasmaProfiler
