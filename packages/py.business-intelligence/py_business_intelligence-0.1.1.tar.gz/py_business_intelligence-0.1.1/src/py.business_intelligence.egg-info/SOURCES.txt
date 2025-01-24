@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/py.business_intelligence.egg-info/PKG-INFO
+src/py.business_intelligence.egg-info/SOURCES.txt
+src/py.business_intelligence.egg-info/dependency_links.txt
+src/py.business_intelligence.egg-info/requires.txt
+src/py.business_intelligence.egg-info/top_level.txt

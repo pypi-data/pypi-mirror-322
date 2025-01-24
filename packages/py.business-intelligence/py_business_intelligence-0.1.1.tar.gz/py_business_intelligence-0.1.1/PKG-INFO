@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: py.business_intelligence
+Version: 0.1.1
+Summary: Paquete orientado al Business Intelligence
+Home-page: https://github.com/AlejandroYegrosSchmidt/py.business_intelligence
+Download-URL: https://github.com/AlejandroYegrosSchmidt/py.business_intelligence/tarball/0.1
+Author: Alejandro Yegros Schmidt
+Author-email: alejandro_aug@hotmail.com
+License: MIT
+Keywords: business intelligence,elasticidad de la demanda,elastic demand
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+
+# <PROYECT_NAME>
+# py.business_intelligence
