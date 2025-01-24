@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/logitfunction/__init__.py
+src/logitfunction/__main__.py
+src/logitfunction.egg-info/PKG-INFO
+src/logitfunction.egg-info/SOURCES.txt
+src/logitfunction.egg-info/dependency_links.txt
+src/logitfunction.egg-info/top_level.txt
+src/logitfunction/core/__init__.py
+src/logitfunction/tests/__init__.py
+src/logitfunction/tests/test_1984.py
