@@ -1,0 +1,44 @@
+#
+# ** DO NOT EDIT and DO NOT CHECK THIS FILE IN **
+#
+# See https://wiki.nvidia.com/engwiki/index.php/Nvconfig
+#
+GUARDWORD { "IG00X" }
+GUARDWORD { "RUBIN" }
+GUARDWORD { "Blackwell-next" }
+GUARDWORD { "Blackwell_next" }
+GUARDWORD { "Blackwell next" }
+GUARDWORD { "T256" falsePositiveFilters=codeSection,dataSection }
+GUARDWORD { "T256" falsePositiveFilters=codeSection,dataSection }
+GUARDWORD { "T264" falsePositiveFilters=codeSection,dataSection }
+GUARDWORD { "GB20Y" }
+GUARDWORD { "GR10X" }
+GUARDWORD { "GR1XX" }
+GUARDWORD { "GB10X-next" }
+GUARDWORD { "GB10X_next" }
+GUARDWORD { "GB10X next" }
+GUARDWORD { "GB10Xnext" }
+GUARDWORD { "GR20X" }
+GUARDWORD { "GR2XX" }
+GUARDWORD { "GB20X-next" }
+GUARDWORD { "GB20X_next" }
+GUARDWORD { "GB20X next" }
+GUARDWORD { "GB20Xnext" }
+GUARDWORD { "IG00X" }
+GUARDWORD { "GA10F" }
+IGNORE { "T264" }
+IGNORE { "t264" }
+GUARDWORD { "GB10C" }
+GUARDWORD { "GB110" falsePositiveFilters=codeSection,dataSection,md5 }
+GUARDWORD { "GB112" falsePositiveFilters=codeSection,dataSection,md5 }
+GUARDWORD { "GB112G" falsePositiveFilters=codeSection,dataSection,md5 }
+GUARDWORD { "GB120" falsePositiveFilters=codeSection,dataSection,md5 }
+GUARDWORD { "GB122" falsePositiveFilters=codeSection,dataSection,md5 }
+GUARDWORD { "GB122G" falsePositiveFilters=codeSection,dataSection,md5 }
+GUARDWORD { "GB202F" }
+GUARDWORD { "GB20B" }
+GUARDWORD { "GB20C" }
+GUARDWORD { "GB20F" }
+GUARDWORD { "GR100" }
+GUARDWORD { "GR102" }
+GUARDWORD { "GR202" }
