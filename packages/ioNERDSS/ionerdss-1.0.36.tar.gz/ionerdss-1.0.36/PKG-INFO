@@ -1,0 +1,37 @@
+Metadata-Version: 2.2
+Name: ioNERDSS
+Version: 1.0.36
+Summary: Package for analysing NERDSS inputs and outputs.
+Home-page: 
+Author: Zixiu (Hugh) Liu
+Author-email: zliu140@jhu.edu
+License: MIT
+Keywords: NERDSS Simulation,Analysis Tools
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires: python (>=3.6)
+License-File: LICENCE
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: tqdm
+Requires-Dist: PyQt6
+Requires-Dist: pyqtgraph
+Requires-Dist: PyOpenGL
+Requires-Dist: biopython
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires
+Dynamic: requires-dist
+Dynamic: summary
+
+A python package for analysing inputs and outputs for NERDSS simulator, including generating input files for Platonic solids and output visualization, etc.
