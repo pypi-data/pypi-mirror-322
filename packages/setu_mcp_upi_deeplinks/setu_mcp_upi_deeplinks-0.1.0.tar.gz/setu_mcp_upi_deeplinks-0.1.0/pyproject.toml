@@ -1,0 +1,42 @@
+[project]
+name = "setu_mcp_upi_deeplinks"
+version = "0.1.0"
+description = "A MCP server for Setu UPI Deeplinks APIs providing payment link generation and management"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+keywords = ["mcp", "setu_mcp_upi_deeplinks", "setu", "upi", "payments", "deeplinks"]
+authors = [
+    { name = "Kaustav Banerjee", email = "kaustav@setu.co" }
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "mcp>=1.2.0",
+    "setu>=2.1.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://setu.co"
+Repository = "https://github.com/SetuHQ/setu-mcps/tree/main/upi-deeplinks"
+Documentation = "https://github.com/SetuHQ/setu-mcps/tree/main/upi-deeplinks"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.envs.default]
+dependencies = [
+    "uv",
+]
+
+[project.scripts]
+setu_mcp_upi_deeplinks = "setu_mcp_upi_deeplinks.server:run"
