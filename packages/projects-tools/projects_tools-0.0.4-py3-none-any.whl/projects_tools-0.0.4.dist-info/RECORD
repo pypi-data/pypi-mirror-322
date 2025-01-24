@@ -1,0 +1,17 @@
+projects_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+projects_tools/commands.py,sha256=4s7UjgJ-ybcVSs6J9qH6t0BwwPjliGFpX4welFqgjJY,8033
+projects_tools/mcp_server_projects_tools.py,sha256=qBXRDwdhCRgtoJo-wWEP5GIpIF6D1w962bkCB8ae97M,10004
+projects_tools/react_tasks.py,sha256=_DeLVldwcdem8PhB1Nt3zzGgMLWlfvwndfkFTlh-c_c,1629
+projects_tools/utils.py,sha256=drSGsNeqQJJ0bu13-tPyRvifMssOlO1dvEAS7Dz8hu8,637
+projects_tools/version.py,sha256=2GWffEF1rjyrveUGdfR8y3cl3JUnX0gJjr8Ryy_u4JQ,21
+projects_tools/vue_tasks.py,sha256=vqLZMu5Yu3K6xpyzhJeyg_rGOS5PCouN0_Y-mh8N0_M,2905
+projects_tools/templates/Makefile.jinja2,sha256=1TGBSECpsJRlL9YIZNF23ZYz_5NNkC5t8MxG3btnfBw,2820
+projects_tools/templates/README.md.jinja2,sha256=xcjLBgQwl833azu3kDFMMRuJhgMPXpRD5GfE6NdccQM,1309
+projects_tools/templates/deploy.sh.jinja2,sha256=rKA7oADBexWk6GMRvNpxhomheccuoS9SxMqNVPz61AM,905
+projects_tools/templates/proxy.py.jinja2,sha256=jVn0dyQZ5YYjn4RvuX3Fijr1ndFryIlhkuGVUd3z5fY,5917
+projects_tools/templates/setup.py.jinja2,sha256=ZmBbCskJX5jpfutPxSEjnuqpvWfketRdRA1HX9yHKtw,1487
+projects_tools-0.0.4.dist-info/METADATA,sha256=Ry597BwNZl-eW7aizJNAWvwaSdidlehkVvtxMyzPlno,3033
+projects_tools-0.0.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+projects_tools-0.0.4.dist-info/entry_points.txt,sha256=xtaixqAjund4GXBX976FMqMmfb-IHS-4jGWBfsm5hv8,57
+projects_tools-0.0.4.dist-info/top_level.txt,sha256=UHQyb447MC6O9YbFFsHX3HvsIsOWVjS9ssSd_f8Lpmk,15
+projects_tools-0.0.4.dist-info/RECORD,,
