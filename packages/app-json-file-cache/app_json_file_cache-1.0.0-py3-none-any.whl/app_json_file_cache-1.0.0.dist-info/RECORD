@@ -1,0 +1,11 @@
+app_json_file_cache/__init__.py,sha256=WPrZR1JFXgo_fF8zhXq6a4Uf-PaNVqNy45vXQV-peZ8,69
+app_json_file_cache/app_cache.py,sha256=jRdy6Zq265GIH3sIlC2DZiVh3P_kSKw3PSYsBsKQ06Y,290
+app_json_file_cache/data_cache.py,sha256=AnKNLb1qmG2l6sSQvwB-Mpr751KNDXw67eE7rLKPdzY,1535
+app_json_file_cache/function_cache.py,sha256=b9rv5X0Ue590yCvkQuRluixfMt6Q4c4R5o5m7MyDd6M,1196
+app_json_file_cache/test_basics.py,sha256=LlDH3QB4u9eXFlUzjL0PDIIrHxBnqftrG20gvbb_P8k,2494
+app_json_file_cache/test_default_function.py,sha256=2c6EYSLKkgFDDJ0GG0Qv9KUbW_EbXzpzR-4ZcE6RDEE,839
+app_json_file_cache-1.0.0.dist-info/LICENSE,sha256=hFiLcEI7eXocC_qtJ8QizQdBHyhlCRctylwAAv39z0Q,1075
+app_json_file_cache-1.0.0.dist-info/METADATA,sha256=jmUsDYAsdvjfzYztYvJZTHgFHGiE6PyKBoitw-5_OS4,2945
+app_json_file_cache-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+app_json_file_cache-1.0.0.dist-info/top_level.txt,sha256=I71_12OTlvQDxpsuUlcKRUleNXqYK57UcO7jlDd1B0k,20
+app_json_file_cache-1.0.0.dist-info/RECORD,,
