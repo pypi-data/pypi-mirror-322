@@ -1,0 +1,5 @@
+[console_scripts]
+hello_world = ncbi_datasets_util.hello_world:cli
+
+[nbdev]
+ncbi_datasets_util = ncbi_datasets_util._modidx:d

@@ -1,0 +1,13 @@
+ncbi_datasets_util/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+ncbi_datasets_util/_modidx.py,sha256=W6lCL144ovDVKpOUP3MxNMyEC9N-kIRypmiGENlUkLw,1722
+ncbi_datasets_util/core.py,sha256=wuCZZcN0ULSeec0iQS0m8VjtHZT1LqfoCPZSuzTWwXA,7835
+ncbi_datasets_util/hello_world.py,sha256=6gYaaYSZoAN-iqrL3xXOrSKJj06633_m4zGm5EkwrM4,1881
+ncbi_datasets_util/some_string.py,sha256=JwmAXKbX_JgY8UGh4FAu5-7ZjezcAEhq4Q2B73pWp2M,923
+ncbi_datasets_util/config/config.default.env,sha256=mQHviCRzzaAaMy_BZpyUjsiFbxFv-4wobI1ErtIE1rQ,1318
+ncbi_datasets_util/config/config.default.yaml,sha256=NkQqdCVVF4rMWXK7p98tqA1oh-0GUm94nImfS00iZpY,433
+ncbi_datasets_util-0.0.1.dist-info/LICENSE,sha256=p6aTb6QIfqyZ2Uux2VjV4F2zthdUSHZOjB4mfwGc7fo,1094
+ncbi_datasets_util-0.0.1.dist-info/METADATA,sha256=CN3YX0J34mVX0dPAdKzDjOH6Sn2Mg3oNzU2w9pR0xmQ,2443
+ncbi_datasets_util-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+ncbi_datasets_util-0.0.1.dist-info/entry_points.txt,sha256=yyq5Cqpo06qEZqakYEbKzFkWnw7RU2PrAkU8LUPAGXs,126
+ncbi_datasets_util-0.0.1.dist-info/top_level.txt,sha256=mxGx6AQlDop2C5sTmMDSM7JMuI4h-dNnR0yGIpHGSZE,42
+ncbi_datasets_util-0.0.1.dist-info/RECORD,,
