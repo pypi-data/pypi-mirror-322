@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: wexample-helpers-yaml
+Version: 0.0.19
+Summary: Helpers for reading yaml files.
+Author-email: weeger <contact@wexample.com>
+License: MIT
+Project-URL: homepage, https://github.com/wexample/python-helpers-yaml
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pip-tools
+Requires-Dist: pydantic
+Requires-Dist: pytest
+Requires-Dist: pyyaml
+Requires-Dist: wexample-helpers==0.0.20
+
+# helpers-yml
+
+Helpers for reading yaml files, based on pyyaml.
