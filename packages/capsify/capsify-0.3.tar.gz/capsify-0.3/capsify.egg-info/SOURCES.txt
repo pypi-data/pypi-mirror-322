@@ -1,0 +1,8 @@
+README.md
+setup.py
+AlphaFonts/__init__.py
+AlphaFonts/capsify.py
+capsify.egg-info/PKG-INFO
+capsify.egg-info/SOURCES.txt
+capsify.egg-info/dependency_links.txt
+capsify.egg-info/top_level.txt
