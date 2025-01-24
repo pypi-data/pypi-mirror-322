@@ -1,0 +1,83 @@
+Metadata-Version: 2.2
+Name: test_cover
+Version: 0.1.0
+Summary: A Test Runner in python, for Human Readable HTML Reports
+Home-page: https://github.com/usalko/test_cover
+Author: usalko
+Author-email: ivict@rambler.ru
+License: APACHE 2.0
+Keywords: test_cover TestRunner Html Reports
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
+Requires-Dist: Jinja2>=2.10.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+
+===============================
+test_cover
+===============================
+
+
+.. image:: https://img.shields.io/pypi/v/test_cover.svg
+        :target: https://pypi.python.org/pypi/test_cover
+
+.. image:: https://img.shields.io/travis/usalko/test_cover.svg
+        :target: https://travis-ci.org/usalko/test_cover
+
+
+
+HtmlTest runner is a unittest test runner that save test results
+in Html files, for human readable presentation of results.
+
+This Package is a fork ``html-testRunner``.
+
+Usage:
+--------------
+
+.. code-block:: python
+
+    import test_cover
+    import unittest
+
+
+    class TestStringMethods(unittest.TestCase):
+
+        def test_upper(self):
+            self.assertEqual('foo'.upper(), 'FOO')
+
+        def test_error(self):
+            """ This test should be marked as error one. """
+            raise ValueError
+
+        def test_fail(self):
+            """ This test should fail. """
+            self.assertEqual(1, 2)
+
+        @unittest.skip("This is a skipped test.")
+        def test_skip(self):
+            """ This test should be skipped. """
+            pass
+
+    if __name__ == '__main__':
+        unittest.main(testRunner=test_cover.HtmlTestRunner(output='example_dir'))
+
+As simple as import the class an initialize it, it only have one request
+parameter that is output, this one is use to place the report in a sub
+direcotry in ``reports`` directory.
+
+Links:
+---------
+
+* `Github <https://github.com/usalko/test_cover>`_
