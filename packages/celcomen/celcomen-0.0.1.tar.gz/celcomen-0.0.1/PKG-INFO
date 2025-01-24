@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: celcomen
+Version: 0.0.1
+Summary: Method for causal disentanglement of inter-cellular and intra-cellular gene regulation in spatial transcriptomics
+Author-email: Stathis Megas <stathismegas@gmail.com>
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torch_geometric
+Requires-Dist: scikit-learn
+Requires-Dist: scanpy
+Requires-Dist: tqdm
