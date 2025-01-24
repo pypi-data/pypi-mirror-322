@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/lzprompt/__init__.py
+src/lzprompt/cli.py
+src/lzprompt.egg-info/PKG-INFO
+src/lzprompt.egg-info/SOURCES.txt
+src/lzprompt.egg-info/dependency_links.txt
+src/lzprompt.egg-info/entry_points.txt
+src/lzprompt.egg-info/requires.txt
+src/lzprompt.egg-info/top_level.txt
+tests/test_cli.py
