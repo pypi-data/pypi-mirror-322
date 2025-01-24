@@ -1,0 +1,23 @@
+------------------------------------------------
+-- Für PostgreSQL
+------------------------------------------------
+
+------------------------------------------------
+-- Tabellen erzeugen
+------------------------------------------------
+
+begin
+
+create temp view ans_gruppe_alle as
+    select
+        id
+    from
+        tbl_person
+    where
+        email != ''
+    ;
+
+insert
+    into tbl_person_gruppe (person_id, gruppe_kurz_bez)
+    select p.id, 'A' from tbl_person as p where p.email != ''
+    ;

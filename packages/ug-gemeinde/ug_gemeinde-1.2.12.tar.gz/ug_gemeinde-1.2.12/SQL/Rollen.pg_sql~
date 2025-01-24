@@ -1,0 +1,115 @@
+------------------------------------------------
+-- Für PostgreSQL
+------------------------------------------------
+
+------------------------------------------------
+-- Rollen erzeugen, Rechte vergeben.
+--    ACHTUNG: Das ist kein gutes Skript, sondern
+--    eine Gedächtnisstütze, in der festgehalten
+--    ist, wie die Rollen erzeugt und die Rechte
+--    vergeben werden.
+------------------------------------------------
+
+----------------------------------------------------
+-- Wir ändern eine Default-Einstellung
+----------------------------------------------------
+  revoke create on schema public from public;
+
+----------------------------------------------------
+-- Gruppen erzeugen
+----------------------------------------------------
+
+  -- Gruppe für die Gemeindebüros aller Gemeinden
+  create role grp_gb
+      with nologin;
+  
+  -- Gruppen für das Gemeindebüro einzelner Gemeinden
+  create role grp_gb_maerchenland   -- Test-Gemeinde zum Spielen
+      with nologin;
+  create role grp_gb_karlsruhe
+      with nologin;
+
+----------------------------------------------------
+-- Rechte der Gruppen
+----------------------------------------------------
+
+  -- Rechte der Gruppe für die Gemeindebüros aller Tagungen
+  grant usage
+      on schema gem_maerchenland, gem_karlsruhe, public
+      to grp_gb;
+  grant create
+      on schema gem_maerchenland, gem_karlsruhe, public
+      to grp_gb;
+  grant all
+      on all sequences
+      in schema gem_maerchenland, gem_karlsruhe, public
+      to grp_gb;
+  grant all
+      on all tables
+      in schema gem_maerchenland, gem_karlsruhe, public
+      to grp_gb;
+  
+  -- Rechte der Gruppe für das Gemeindebüro der jeweiligen Gemeinde
+  -- Gemeinde Märchenland (Test-Gemeinde zum Spielen)
+  grant usage
+      on schema gem_maerchenland, public
+      to grp_gb_maerchenland;
+  grant all
+      on all sequences
+      in schema gem_maerchenland, public
+      to grp_gb_maerchenland;
+  grant all
+      on all tables
+      in schema gem_maerchenland, public
+      to grp_gb_maerchenland;
+  -- Gemeinde Karlsruhe
+  grant usage
+      on schema gem_karlsruhe, public
+      to grp_gb_karlsruhe;
+  grant all
+      on all sequences
+      in schema gem_karlsruhe, public
+      to grp_gb_karlsruhe;
+  grant all
+      on all tables
+      in schema gem_karlsruhe, public
+      to grp_gb_karlsruhe;
+
+----------------------------------------------------
+-- Benutzer (User)
+----------------------------------------------------
+
+  -- Katrin Hefendehl
+  create role k_hefendehl
+      with
+          login
+          password 'NKNYBB49';
+  -- Waltraud Rösch
+  create role w_roesch
+      with
+          login
+          password 'N6Q5rjMK';
+
+----------------------------------------------------
+-- Rechte über Gruppen (= Zugehörigkeit zu Gruppen)
+----------------------------------------------------
+  
+  grant grp_gb
+      to skript, erledigen;
+  
+  grant grp_gb_maerchenland
+      to k_hefendehl, w_roesch;
+
+  grant grp_gb_karlsruhe
+      to k_hefendehl, w_roesch;
+
+----------------------------------------------------
+-- Suchpfade für die User
+----------------------------------------------------
+    
+  alter role k_hefendehl
+      in database cg
+      set search_path to gem_karlsruhe, public;
+  alter role w_roesch
+      in database cg
+      set search_path to gem_karlsruhe, public;

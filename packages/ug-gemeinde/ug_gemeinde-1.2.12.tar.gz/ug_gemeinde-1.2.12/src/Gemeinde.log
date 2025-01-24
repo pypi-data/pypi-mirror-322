@@ -1,0 +1,1082 @@
+2025-01-01 17:12:11,363 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-01 17:13:13,183 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-01 17:13:25,729 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-01 17:13:34,439 INFO Gemeinde logout Line: 211 Verbindung zur DB geschlossen.
+2025-01-01 17:49:04,295 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-01 17:49:07,842 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-01 17:49:14,544 INFO Gemeinde logout Line: 211 Verbindung zur DB geschlossen.
+2025-01-01 17:53:34,342 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-01 17:54:43,540 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-01 19:55:49,293 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-01 19:55:51,931 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-01 21:40:42,077 INFO Gemeinde logout Line: 211 Verbindung zur DB geschlossen.
+2025-01-02 23:00:26,072 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:01:50,286 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:02:24,448 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:22:04,503 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:22:57,123 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:27:52,278 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:32:45,538 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:33:37,589 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:41:09,627 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:46:16,686 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:48:23,964 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:50:00,024 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:55:38,862 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:56:06,784 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:56:42,509 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:57:07,063 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-02 23:57:12,232 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 00:00:39,060 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 00:00:40,895 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 00:00:43,447 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 00:02:18,551 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 00:02:20,306 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 00:02:22,904 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 00:03:26,693 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 00:03:29,931 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 00:03:32,363 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 00:04:36,616 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 00:04:43,272 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 00:04:47,363 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 00:05:17,828 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 00:05:21,288 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 00:05:23,999 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 00:11:45,675 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 00:11:47,733 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 00:11:53,407 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 00:13:19,259 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 00:13:21,187 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 00:13:28,610 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 00:18:28,484 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 00:18:30,911 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 00:18:33,354 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 00:26:04,713 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 00:26:06,891 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 00:26:11,897 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 00:28:06,594 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 00:28:08,735 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 00:28:16,148 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 00:29:15,122 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 11:17:44,574 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 11:18:12,051 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 11:18:43,287 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 11:19:00,188 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 11:19:03,046 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 11:22:06,777 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 11:22:08,503 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 11:22:11,705 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 11:29:09,951 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 11:29:11,926 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 11:29:25,511 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 11:29:28,061 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 11:30:09,379 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 12:10:58,914 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 12:11:27,081 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 12:12:58,533 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 12:13:01,803 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 12:21:46,288 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 12:21:48,366 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 12:22:09,108 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 12:29:04,331 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 12:29:22,837 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 12:29:25,172 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 12:32:07,538 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 12:32:09,654 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 12:32:12,301 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 12:32:45,340 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 21:59:58,869 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 22:00:48,404 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 22:01:27,304 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 22:01:31,976 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 22:15:10,651 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 22:15:15,839 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 22:15:21,190 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 22:18:37,468 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-03 22:18:41,894 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-03 22:18:47,184 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-03 22:21:41,159 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-05 15:34:23,451 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-05 15:34:33,727 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-05 15:39:32,228 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-05 15:39:34,245 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-05 15:39:36,809 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-05 15:41:09,937 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-05 15:41:12,142 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-05 15:41:17,785 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-05 15:48:11,738 INFO Gemeinde logout Line: 214 Verbindung zur DB geschlossen.
+2025-01-05 15:48:14,438 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-05 15:48:17,145 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-05 15:52:37,267 INFO Gemeinde logout Line: 214 Verbindung zur DB geschlossen.
+2025-01-05 15:52:39,764 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-05 15:52:42,324 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-05 15:53:09,555 INFO Gemeinde logout Line: 214 Verbindung zur DB geschlossen.
+2025-01-05 16:01:42,000 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-05 16:01:47,253 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-05 16:02:28,095 INFO Gemeinde logout Line: 214 Verbindung zur DB geschlossen.
+2025-01-05 16:07:04,839 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-05 16:07:07,465 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-05 16:07:30,769 INFO Gemeinde logout Line: 214 Verbindung zur DB geschlossen.
+2025-01-05 16:14:26,086 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-05 16:14:36,460 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-05 16:15:02,204 INFO Gemeinde logout Line: 213 Verbindung zur DB geschlossen.
+2025-01-05 16:15:05,035 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-05 16:15:10,382 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-05 16:15:46,877 INFO Gemeinde logout Line: 213 Verbindung zur DB geschlossen.
+2025-01-05 16:17:58,159 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-05 16:18:00,796 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-05 16:18:40,633 INFO Gemeinde logout Line: 213 Verbindung zur DB geschlossen.
+2025-01-07 21:52:22,505 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-07 21:52:25,554 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-08 09:46:25,261 INFO Gemeinde logout Line: 213 Verbindung zur DB geschlossen.
+2025-01-09 15:00:02,106 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-09 15:00:04,980 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-09 15:01:02,664 INFO Gemeinde logout Line: 213 Verbindung zur DB geschlossen.
+2025-01-09 22:26:42,831 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-09 22:26:50,082 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-09 22:29:35,788 INFO Gemeinde logout Line: 213 Verbindung zur DB geschlossen.
+2025-01-09 22:29:38,142 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-09 22:29:43,081 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-09 22:39:09,961 INFO Gemeinde logout Line: 213 Verbindung zur DB geschlossen.
+2025-01-09 22:39:12,173 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-09 22:43:30,501 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 11:00:57,261 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 11:08:40,513 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 11:15:56,451 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 11:17:03,238 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 12:11:59,975 INFO Gemeinde logout Line: 213 Verbindung zur DB geschlossen.
+2025-01-10 17:24:07,613 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 21:41:28,127 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 21:41:32,541 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 21:45:11,348 INFO Gemeinde logout Line: 213 Verbindung zur DB geschlossen.
+2025-01-10 21:45:46,040 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 21:45:52,235 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 21:48:14,508 INFO Gemeinde logout Line: 218 Verbindung zur DB geschlossen.
+2025-01-10 21:49:39,496 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 21:49:46,782 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 21:49:55,691 INFO Gemeinde logout Line: 212 Verbindung zur DB geschlossen.
+2025-01-10 21:51:32,717 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 21:57:23,199 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 21:57:28,618 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 21:57:43,362 INFO Gemeinde logout Line: 218 Verbindung zur DB geschlossen.
+2025-01-10 21:58:43,108 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 21:58:46,961 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 22:00:45,746 INFO Gemeinde logout Line: 219 Verbindung zur DB geschlossen.
+2025-01-10 22:01:47,056 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 22:01:51,626 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 22:12:26,810 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-10 22:12:29,026 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 22:12:32,096 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 22:16:55,504 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-10 22:16:57,351 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 22:17:00,566 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 22:18:07,873 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-10 22:38:00,148 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 22:38:03,352 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 22:38:23,294 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-10 22:39:26,213 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 22:39:28,804 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 22:39:46,219 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-10 22:39:55,658 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 22:39:58,287 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 22:47:11,770 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-10 23:07:49,943 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 23:14:58,371 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 23:15:01,042 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 23:20:10,233 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-10 23:20:17,439 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 23:20:21,572 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 23:21:02,622 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-10 23:21:04,656 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 23:21:08,420 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 23:21:50,939 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-10 23:23:58,970 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 23:24:03,557 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 23:34:01,185 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-10 23:34:04,174 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 23:34:32,299 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-10 23:34:39,638 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-10 23:35:06,984 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-10 23:54:23,084 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-11 12:37:31,994 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-11 12:37:36,015 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-11 12:38:00,096 INFO Gemeinde logout Line: 220 Verbindung zur DB geschlossen.
+2025-01-11 18:42:47,569 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-11 18:42:50,983 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-11 18:50:57,083 INFO Gemeinde logout Line: 221 Verbindung zur DB geschlossen.
+2025-01-11 18:50:59,407 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-11 18:51:02,175 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-11 18:52:51,751 INFO Gemeinde logout Line: 221 Verbindung zur DB geschlossen.
+2025-01-11 18:52:53,729 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-11 18:52:55,950 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-11 19:19:24,314 INFO Gemeinde logout Line: 221 Verbindung zur DB geschlossen.
+2025-01-11 20:50:52,128 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-11 20:51:05,776 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-11 20:53:01,980 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-11 20:53:09,143 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-11 20:54:54,116 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-11 20:54:56,881 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-11 20:55:00,642 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-11 20:55:19,925 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-11 21:02:45,647 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-15 21:40:26,493 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-15 21:40:31,279 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-15 21:40:42,349 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-21 20:11:17,720 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-21 20:14:09,455 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-21 20:16:17,372 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-21 20:16:20,636 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-21 20:16:36,396 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-21 20:23:11,324 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-21 21:51:04,827 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-21 21:52:35,913 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-21 21:54:49,450 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-21 21:54:50,067 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:54:50,067 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 21:54:50,068 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:19,856 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-21 21:59:20,475 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,476 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 21:59:20,476 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,477 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 21:59:20,506 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,507 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 21:59:20,507 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,508 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 21:59:20,511 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,511 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 21:59:20,511 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,512 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 21:59:20,514 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,514 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 21:59:20,514 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,516 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,516 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 21:59:20,516 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,518 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,518 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 21:59:20,518 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,520 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,520 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 21:59:20,520 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,524 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,525 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 21:59:20,525 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:20,526 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 21:59:20,528 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 21:59:26,196 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-21 21:59:29,210 DEBUG bibModell setSearchPath Line: 949 sql='set search_path to gem_maerchenland, public'
+2025-01-21 21:59:29,342 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044971 (H:MM:SS)
+2025-01-21 21:59:29,429 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043455 (H:MM:SS)
+2025-01-21 21:59:29,517 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044181 (H:MM:SS)
+2025-01-21 21:59:29,562 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043454 (H:MM:SS)
+2025-01-21 21:59:29,605 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042875 (H:MM:SS)
+2025-01-21 21:59:29,651 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044244 (H:MM:SS)
+2025-01-21 21:59:29,696 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043648 (H:MM:SS)
+2025-01-21 21:59:29,696 DEBUG bibForm setValue Line: 777 odict_values(['mi', 'st', 'ta', 'mo'])
+2025-01-21 21:59:29,744 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.047106 (H:MM:SS)
+2025-01-21 22:01:04,552 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-21 22:01:07,159 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-21 22:01:07,782 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,783 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:01:07,783 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,784 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:01:07,813 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,814 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:01:07,814 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,815 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:01:07,818 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,818 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:01:07,818 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,819 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:01:07,821 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,821 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:01:07,821 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,823 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,824 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:01:07,824 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,825 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,825 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:01:07,826 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,827 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,828 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:01:07,828 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,832 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,832 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:01:07,832 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:07,833 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:01:07,836 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:01:11,716 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-21 22:01:14,465 DEBUG bibModell setSearchPath Line: 949 sql='set search_path to gem_maerchenland, public'
+2025-01-21 22:01:14,598 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.045211 (H:MM:SS)
+2025-01-21 22:01:14,684 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043796 (H:MM:SS)
+2025-01-21 22:01:14,769 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.041902 (H:MM:SS)
+2025-01-21 22:01:14,812 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042290 (H:MM:SS)
+2025-01-21 22:01:14,855 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042137 (H:MM:SS)
+2025-01-21 22:01:14,898 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043302 (H:MM:SS)
+2025-01-21 22:01:14,943 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043508 (H:MM:SS)
+2025-01-21 22:01:14,943 DEBUG bibForm setValue Line: 777 odict_values(['mi', 'st', 'ta', 'mo'])
+2025-01-21 22:01:14,989 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.045716 (H:MM:SS)
+2025-01-21 22:02:36,846 DEBUG bibModell getByID Line: 355 ID: 32. SQL: 
+            select id, name, vorname, anrede, von_und_zu, titel, gebdat, zusatz, strasse, plz, ort, land, land_kurz, email, kontaktdaten, bemerkung, bearb_von, bearb_am, bearb_auto
+            from tbl_person
+            where id = %s
+        
+2025-01-21 22:02:36,975 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043257 (H:MM:SS)
+2025-01-21 22:02:36,976 DEBUG bibModell GetterByKey Line: 772 {'id': 637, 'person_id': 32, 'gruppe_kurz_bez': 'GR'}
+2025-01-21 22:02:36,976 DEBUG bibModell GetterByKey Line: 772 {'id': 45, 'person_id': 32, 'gruppe_kurz_bez': 'Mstr'}
+2025-01-21 22:02:36,977 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:36,978 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:02:36,978 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:36,982 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:02:36,983 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:36,984 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:02:36,984 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:36,987 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:02:37,031 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,032 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:02:37,033 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,036 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:02:37,079 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,080 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:02:37,081 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,084 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:02:37,172 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044251 (H:MM:SS)
+2025-01-21 22:02:37,172 DEBUG bibModell GetterByKey Line: 772 {'id': 7, 'person_id': 32, 'versandart': 'bt'}
+2025-01-21 22:02:37,172 DEBUG bibModell GetterByKey Line: 772 {'id': 5, 'person_id': 32, 'versandart': 'lp'}
+2025-01-21 22:02:37,173 DEBUG bibModell GetterByKey Line: 772 {'id': 10, 'person_id': 32, 'versandart': 'sch'}
+2025-01-21 22:02:37,174 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,175 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:02:37,175 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,179 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:02:37,180 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,181 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:02:37,182 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,184 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:02:37,229 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,230 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:02:37,230 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,232 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:02:37,277 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,278 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:02:37,278 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,280 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:02:37,325 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,327 DEBUG bibForm buildNaviWidget Line: 2364 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:02:37,327 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:02:37,329 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:02:37,373 DEBUG bibForm iWasReset Line: 1601 iWasReset aufgerufen
+2025-01-21 22:03:17,139 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-21 22:03:26,479 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-21 22:03:27,105 DEBUG bibForm buildNaviWidget Line: 2355 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,105 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,105 DEBUG bibForm buildNaviWidget Line: 2365 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,105 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,106 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:03:27,136 DEBUG bibForm buildNaviWidget Line: 2355 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,136 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,136 DEBUG bibForm buildNaviWidget Line: 2365 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,136 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,137 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:03:27,140 DEBUG bibForm buildNaviWidget Line: 2355 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,140 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,140 DEBUG bibForm buildNaviWidget Line: 2365 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,140 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,141 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:03:27,143 DEBUG bibForm buildNaviWidget Line: 2355 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,143 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,143 DEBUG bibForm buildNaviWidget Line: 2365 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,143 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,145 DEBUG bibForm buildNaviWidget Line: 2355 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,145 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,146 DEBUG bibForm buildNaviWidget Line: 2365 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,146 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,147 DEBUG bibForm buildNaviWidget Line: 2355 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,147 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,147 DEBUG bibForm buildNaviWidget Line: 2365 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,148 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,149 DEBUG bibForm buildNaviWidget Line: 2355 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,149 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,150 DEBUG bibForm buildNaviWidget Line: 2365 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,150 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,154 DEBUG bibForm buildNaviWidget Line: 2355 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,154 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,154 DEBUG bibForm buildNaviWidget Line: 2365 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:03:27,154 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:03:27,156 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:03:27,158 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:04:17,853 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-21 22:04:20,011 DEBUG bibModell setSearchPath Line: 949 sql='set search_path to gem_maerchenland, public'
+2025-01-21 22:04:20,143 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044589 (H:MM:SS)
+2025-01-21 22:04:20,231 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043882 (H:MM:SS)
+2025-01-21 22:04:20,319 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044223 (H:MM:SS)
+2025-01-21 22:04:20,364 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044160 (H:MM:SS)
+2025-01-21 22:04:20,407 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042666 (H:MM:SS)
+2025-01-21 22:04:20,452 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043460 (H:MM:SS)
+2025-01-21 22:04:20,496 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043421 (H:MM:SS)
+2025-01-21 22:04:20,497 DEBUG bibForm setValue Line: 777 odict_values(['mi', 'st', 'ta', 'mo'])
+2025-01-21 22:04:20,544 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.046700 (H:MM:SS)
+2025-01-21 22:05:13,130 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-21 22:05:19,361 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-21 22:05:19,983 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:05:19,983 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:19,984 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:19,984 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:19,984 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:19,985 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:05:20,017 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:05:20,017 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,017 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,018 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,018 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,019 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:05:20,021 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:05:20,022 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,022 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,022 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,022 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,023 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:05:20,025 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:05:20,025 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,025 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,025 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,025 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,027 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:05:20,027 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,027 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,028 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,028 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,029 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:05:20,029 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,029 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,030 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,030 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,032 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:05:20,032 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,032 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,032 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,032 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,036 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:05:20,036 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,037 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,037 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:05:20,037 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:05:20,039 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:05:20,041 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:08,483 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-21 22:41:09,106 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:41:09,106 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,106 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,106 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,107 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,108 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:41:09,138 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:41:09,138 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,138 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,138 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,138 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,139 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:41:09,142 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:41:09,142 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,142 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,143 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,143 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,144 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:41:09,145 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:41:09,145 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,145 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,146 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,146 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,148 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:41:09,148 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,148 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,148 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,148 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,150 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:41:09,150 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,150 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,150 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,150 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,152 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:41:09,152 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,152 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,153 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,153 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,157 DEBUG bibForm buildNaviWidget Line: 2355 Type von save_clear_small
+2025-01-21 22:41:09,157 DEBUG bibForm buildNaviWidget Line: 2356 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,157 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,157 DEBUG bibForm buildNaviWidget Line: 2366 <class 'PIL.ImageTk.PhotoImage'>
+2025-01-21 22:41:09,157 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:09,159 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:41:09,161 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:41:11,232 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-21 22:41:13,533 DEBUG bibModell setSearchPath Line: 949 sql='set search_path to gem_maerchenland, public'
+2025-01-21 22:41:13,666 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044957 (H:MM:SS)
+2025-01-21 22:41:13,753 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043571 (H:MM:SS)
+2025-01-21 22:41:13,840 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043558 (H:MM:SS)
+2025-01-21 22:41:13,885 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043062 (H:MM:SS)
+2025-01-21 22:41:13,928 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042670 (H:MM:SS)
+2025-01-21 22:41:13,972 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043586 (H:MM:SS)
+2025-01-21 22:41:14,018 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043852 (H:MM:SS)
+2025-01-21 22:41:14,018 DEBUG bibForm setValue Line: 777 odict_values(['mi', 'st', 'ta', 'mo'])
+2025-01-21 22:41:14,065 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.046601 (H:MM:SS)
+2025-01-21 22:41:43,807 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-21 22:57:46,822 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-21 22:57:47,446 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:57:47,447 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:57:47,476 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:57:47,478 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:57:47,480 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:57:47,481 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:57:47,483 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:57:47,485 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:57:47,487 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:57:47,489 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:57:47,493 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:57:47,495 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:57:47,497 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:57:51,033 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-21 22:57:53,139 DEBUG bibModell setSearchPath Line: 949 sql='set search_path to gem_maerchenland, public'
+2025-01-21 22:57:53,272 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.045130 (H:MM:SS)
+2025-01-21 22:57:53,360 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044070 (H:MM:SS)
+2025-01-21 22:57:53,448 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044048 (H:MM:SS)
+2025-01-21 22:57:53,492 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043141 (H:MM:SS)
+2025-01-21 22:57:53,537 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043305 (H:MM:SS)
+2025-01-21 22:57:53,581 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043622 (H:MM:SS)
+2025-01-21 22:57:53,626 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043304 (H:MM:SS)
+2025-01-21 22:57:53,626 DEBUG bibForm setValue Line: 777 odict_values(['mi', 'st', 'ta', 'mo'])
+2025-01-21 22:57:53,673 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.046331 (H:MM:SS)
+2025-01-21 22:58:04,484 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-21 22:58:18,568 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-21 22:58:19,202 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:58:19,204 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:58:19,234 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:58:19,235 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:58:19,238 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:58:19,239 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:58:19,240 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:58:19,242 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:58:19,243 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:58:19,245 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:58:19,249 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:58:19,250 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:58:19,252 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:58:21,805 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-21 22:58:23,755 DEBUG bibModell setSearchPath Line: 949 sql='set search_path to gem_maerchenland, public'
+2025-01-21 22:58:23,888 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.045845 (H:MM:SS)
+2025-01-21 22:58:23,976 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043640 (H:MM:SS)
+2025-01-21 22:58:24,064 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043408 (H:MM:SS)
+2025-01-21 22:58:24,108 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043265 (H:MM:SS)
+2025-01-21 22:58:24,152 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042631 (H:MM:SS)
+2025-01-21 22:58:24,196 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043826 (H:MM:SS)
+2025-01-21 22:58:24,242 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043941 (H:MM:SS)
+2025-01-21 22:58:24,243 DEBUG bibForm setValue Line: 777 odict_values(['mi', 'st', 'ta', 'mo'])
+2025-01-21 22:58:24,291 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.047009 (H:MM:SS)
+2025-01-21 22:59:33,021 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-21 22:59:35,740 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-21 22:59:36,358 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:59:36,359 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:59:36,388 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:59:36,389 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:59:36,392 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:59:36,393 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:59:36,394 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:59:36,396 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:59:36,397 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:59:36,399 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:59:36,402 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:59:36,404 DEBUG bibForm addWidget Line: 1737 Hack für Combobox
+2025-01-21 22:59:36,406 DEBUG bibForm getIcon Line: 253 Embedded Icon wird ausgeliefert
+2025-01-21 22:59:38,223 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-21 22:59:39,914 DEBUG bibModell setSearchPath Line: 949 sql='set search_path to gem_maerchenland, public'
+2025-01-21 22:59:40,046 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044754 (H:MM:SS)
+2025-01-21 22:59:40,133 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043430 (H:MM:SS)
+2025-01-21 22:59:40,221 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043641 (H:MM:SS)
+2025-01-21 22:59:40,267 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043832 (H:MM:SS)
+2025-01-21 22:59:40,310 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042549 (H:MM:SS)
+2025-01-21 22:59:40,355 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044330 (H:MM:SS)
+2025-01-21 22:59:40,400 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043821 (H:MM:SS)
+2025-01-21 22:59:40,401 DEBUG bibForm setValue Line: 777 odict_values(['mi', 'st', 'ta', 'mo'])
+2025-01-21 22:59:40,448 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.046321 (H:MM:SS)
+2025-01-21 22:59:55,021 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-22 09:31:51,456 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-22 09:32:15,333 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-22 09:32:15,860 DEBUG bibForm __init__ Line: 206 theme='iconTheme'
+2025-01-22 09:32:15,860 DEBUG bibForm __init__ Line: 206 theme='icons'
+2025-01-22 09:32:15,975 DEBUG bibForm addWidget Line: 1707 Hack für Combobox
+2025-01-22 09:32:16,004 DEBUG bibForm addWidget Line: 1707 Hack für Combobox
+2025-01-22 09:32:16,008 DEBUG bibForm addWidget Line: 1707 Hack für Combobox
+2025-01-22 09:32:16,018 DEBUG bibForm addWidget Line: 1707 Hack für Combobox
+2025-01-22 09:33:40,095 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-22 09:33:40,763 DEBUG bibForm __init__ Line: 206 theme='breeze'
+2025-01-22 09:33:40,763 DEBUG bibForm __init__ Line: 206 theme='oxygen'
+2025-01-22 09:33:40,881 DEBUG bibForm addWidget Line: 1707 Hack für Combobox
+2025-01-22 09:33:40,911 DEBUG bibForm addWidget Line: 1707 Hack für Combobox
+2025-01-22 09:33:40,914 DEBUG bibForm addWidget Line: 1707 Hack für Combobox
+2025-01-22 09:33:40,925 DEBUG bibForm addWidget Line: 1707 Hack für Combobox
+2025-01-22 09:34:39,210 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-22 09:34:39,871 DEBUG bibForm __init__ Line: 206 theme='breeze'
+2025-01-22 09:35:04,065 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-22 09:35:04,725 DEBUG bibForm __init__ Line: 206 theme='breeze'
+2025-01-22 09:35:04,725 DEBUG bibForm __init__ Line: 208 iconName='amarok_playlist_refresh'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='application-exit'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='application-pdf'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='application-vnd.oasis.opendocument.database'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='application-vnd.stardivision.mail'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='application-x-kexi-connectiondata'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='application-x-smb-server'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='battery-empty'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='battery-empty-charging'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='call-voicemail'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='certificate-server'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='check_constraint'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='checkbox'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='checkmark'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='curve-connector'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='database-index'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='delete'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='delete-comment'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='delete-table-row'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='delete_table'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='deletecell'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='dialog-filters'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='document-save'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='document-save-all'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='document-save-as'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='draw-connector'
+2025-01-22 09:35:04,726 DEBUG bibForm __init__ Line: 208 iconName='draw-eraser'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='draw-eraser-delete-objects'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='dvipdf'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-clear'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-clear-all'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-clear-history'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-clear-list'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-clear-locationbar-ltr'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-clear-locationbar-rtl'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-copy'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-copy-path'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-delete'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-delete-remove'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-delete-shred'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-find'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-find-mail'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-find-project'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-find-replace'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-find-user'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-table-delete-column'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-table-delete-row'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-undo'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='edit-undo-history'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='emblem-checked'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='entry-delete'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='find-location'
+2025-01-22 09:35:04,727 DEBUG bibForm __init__ Line: 208 iconName='folder-database'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='folder-mail'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='folder-network'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='format-connect-node'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='format-disconnect-node'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='geany-save-all'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gnumeric-autofilter'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gnumeric-autofilter-delete'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gnumeric-column-delete'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gnumeric-comment-delete'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gnumeric-link-delete'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gnumeric-link-email'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gnumeric-row-delete'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='go-down-search'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='go-up-search'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='group-delete'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gtk-clear'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gtk-connect'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gtk-disconnect'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gtk-quit'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gtk-undelete-ltr'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='gtk-undelete-rtl'
+2025-01-22 09:35:04,728 DEBUG bibForm __init__ Line: 208 iconName='help-about'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-browser'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-contents'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-contextual'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-ars'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-aud'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-brl'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-cad'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-chf'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-cny'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-eur'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-gbp'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-inr'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-jpy'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-mxn'
+2025-01-22 09:35:04,729 DEBUG bibForm __init__ Line: 208 iconName='help-donate-pln'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='help-donate-rub'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='help-donate-sek'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='help-donate-try'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='help-donate-uah'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='help-donate-usd'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='help-feedback'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='help-hint'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='help-keybord-shortcuts'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='help-latex'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='help-whatsthis'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='insertcellcopy'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='kdeconnect'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='kdeconnect-tray'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='knotes_delete'
+2025-01-22 09:35:04,730 DEBUG bibForm __init__ Line: 208 iconName='kt-check-data'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='layer-delete'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='libreoffice-database'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='libreoffice-oasis-database'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='lines-connector'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-attachment'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-deleted'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-download-later'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-download-now'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-encrypted'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-encrypted-full'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-encrypted-part'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-flag'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-folder-inbox'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-folder-outbox'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-folder-sent'
+2025-01-22 09:35:04,731 DEBUG bibForm __init__ Line: 208 iconName='mail-forward'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-forward-attachment'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-forward-custom'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-forwarded'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-forwarded-replied'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-invitation'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-important'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-junk'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-notjunk'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-read'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-task'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-unread'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-unread-new'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-meeting-request-reply'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-message'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-message-new'
+2025-01-22 09:35:04,732 DEBUG bibForm __init__ Line: 208 iconName='mail-message-new-list'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-queue'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-queued'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-read'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-receive'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-replied'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-reply-all'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-reply-author'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-reply-custom'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-reply-custom-all'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-reply-list'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-reply-sender'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-send'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-sent'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-signature-unknown'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-signed'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-signed-full'
+2025-01-22 09:35:04,733 DEBUG bibForm __init__ Line: 208 iconName='mail-signed-fully'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='mail-signed-part'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='mail-signed-verified'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='mail-tagged'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='mail-task'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='mail-thread-ignored'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='mail-thread-watch'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='mail-unread'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='mail-unread-new'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='message-x-gnu-rmail'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='network-bluetooth'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='network-connect'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='network-disconnect'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='network-modem'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='network-rj11-female'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='network-rj45-female'
+2025-01-22 09:35:04,734 DEBUG bibForm __init__ Line: 208 iconName='network-server'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-server-database'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-vpn'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-wired'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-wired-activated'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-wired-unavailable'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-wireless'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-wireless-connected-00'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-wireless-connected-100'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-wireless-connected-25'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-wireless-connected-50'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-wireless-connected-75'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-wireless-disconnected'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-wireless-hotspot'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='network-workgroup'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='node-delete'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='node-delete-segment'
+2025-01-22 09:35:04,735 DEBUG bibForm __init__ Line: 208 iconName='password-copy'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='pdf-annotations'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='pdflatex'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='pdftex'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='pidgin-tray-email'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='ps2pdf'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='refreshstructure'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='search'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='selection-make-bitmap-copy'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='server-database'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='standard-connector'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='straight-connector'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='system-help'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='system-save-session'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='system-search'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='tag-delete'
+2025-01-22 09:35:04,736 DEBUG bibForm __init__ Line: 208 iconName='text-x-copying'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='tool_eraser'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='tools-check-spelling'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='tools-media-optical-copy'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='tools-media-optical-erase'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='transsearch'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='trash-empty'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='user-group-delete'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='usermenu-delete'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='vcs-branch-delete'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='view-bank-delete'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='view-filter'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='view-financial-account-checking'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='view-financial-account-checking-closed'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='view-financial-account-delete'
+2025-01-22 09:35:04,737 DEBUG bibForm __init__ Line: 208 iconName='view-financial-category-delete'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='view-institution-delete'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='view-pim-mail'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='view-refresh'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='viewpdf'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='wizard_pdftools'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='x-mail-distribution-list'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='x-shape-connection'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='xml-attribute-delete'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='xml-node-delete'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 206 theme='oxygen'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='amarok_playlist_refresh'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='application-exit'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='application-pdf'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='application-vnd.oasis.opendocument.database'
+2025-01-22 09:35:04,738 DEBUG bibForm __init__ Line: 208 iconName='application-vnd.stardivision.mail'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='application-x-kexi-connectiondata'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='application-x-smb-server'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='certificate-server'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='checkbox'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='checkmark'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='dialog-filters'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='document-save'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='document-save-all'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='document-save-as'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='draw-eraser'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='draw-eraser-delete-objects'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='edit-clear'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='edit-clear-history'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='edit-clear-list'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='edit-clear-locationbar-ltr'
+2025-01-22 09:35:04,739 DEBUG bibForm __init__ Line: 208 iconName='edit-clear-locationbar-rtl'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-copy'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-delete'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-delete-shred'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-find'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-find-mail'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-find-project'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-find-replace'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-find-user'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-table-delete-column'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-table-delete-row'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-undo'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='edit-undo-history'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='folder-mail'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='folder-network'
+2025-01-22 09:35:04,740 DEBUG bibForm __init__ Line: 208 iconName='format-connect-node'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='format-disconnect-node'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='geany-save-all'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='go-down-search'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='go-up-search'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='gtk-clear'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='gtk-connect'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='gtk-disconnect'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='gtk-quit'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='gtk-undelete-ltr'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='gtk-undelete-rtl'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='help-about'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='help-browser'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='help-contents'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='help-contextual'
+2025-01-22 09:35:04,741 DEBUG bibForm __init__ Line: 208 iconName='help-donate'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='help-feedback'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='help-hint'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='help-keybord-shortcuts'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='internet-mail'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='kdeconnect'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='kfind'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='kmail'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='knotes_delete'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='kt-check-data'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='libreoffice-database'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='libreoffice-oasis-database'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='mail-attachment'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='mail-encrypted'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='mail-encrypted-full'
+2025-01-22 09:35:04,742 DEBUG bibForm __init__ Line: 208 iconName='mail-encrypted-part'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-flag'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-folder-inbox'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-folder-outbox'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-folder-sent'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-forward'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-forwarded'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-forwarded-replied'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-invitation'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-important'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-junk'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-notjunk'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-read'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-unread'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-mark-unread-new'
+2025-01-22 09:35:04,743 DEBUG bibForm __init__ Line: 208 iconName='mail-meeting-request-reply'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-message'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-message-new'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-message-new-list'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-queue'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-queued'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-read'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-receive'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-replied'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-reply-all'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-reply-custom'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-reply-custom-all'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-reply-list'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-reply-sender'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-send'
+2025-01-22 09:35:04,744 DEBUG bibForm __init__ Line: 208 iconName='mail-sent'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='mail-signature-unknown'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='mail-signed'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='mail-signed-full'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='mail-signed-fully'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='mail-signed-part'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='mail-signed-verified'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='mail-tagged'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='mail-task'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='mail-unread'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='mail-unread-new'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='meeting-observer'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='message-x-gnu-rmail'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='network-connect'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='network-disconnect'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='network-server'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='network-server-database'
+2025-01-22 09:35:04,745 DEBUG bibForm __init__ Line: 208 iconName='network-wired'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='network-wireless'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='network-workgroup'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='node-delete'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='node-delete-segment'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='pdf-annotations'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='preferences-desktop-screensaver'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='preferences-kde-connect'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='preferences-system-network'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='preferences-system-network-sharing'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='search'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='selection-make-bitmap-copy'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='server-database'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='system-help'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='system-search'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='tag-delete'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='text-x-copying'
+2025-01-22 09:35:04,746 DEBUG bibForm __init__ Line: 208 iconName='tools-check-spelling'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='tools-media-optical-copy'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='tools-media-optical-erase'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='trash-empty'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='user-group-delete'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='view-certificate-export-server'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='view-certificate-server-configure'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='view-filter'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='view-pim-mail'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='view-refresh'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='weather-clear'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='weather-clear-night'
+2025-01-22 09:35:04,747 DEBUG bibForm __init__ Line: 208 iconName='x-mail-distribution-list'
+2025-01-22 09:35:04,868 DEBUG bibForm addWidget Line: 1709 Hack für Combobox
+2025-01-22 09:35:04,899 DEBUG bibForm addWidget Line: 1709 Hack für Combobox
+2025-01-22 09:35:04,902 DEBUG bibForm addWidget Line: 1709 Hack für Combobox
+2025-01-22 09:35:04,912 DEBUG bibForm addWidget Line: 1709 Hack für Combobox
+2025-01-23 12:26:01,455 DEBUG bibForm <module> Line: 73 Versuche glbl von __main__ zu importieren
+2025-01-23 12:26:01,762 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-23 12:26:01,810 DEBUG bibForm __init__ Line: 179 ['CONFI_FILE_NAME', 'DB', 'ERLAUBTE_EXTENSIONS', 'FORMATS_DATE', 'FORMATS_DATETIME', 'FORMATS_TIME', 'ICONS_PATH', 'ICON_THEME', 'LOGGING_LEVEL', 'NAME', 'PG_DATABASE', 'PG_HOST', 'PG_PORT', 'PSQL_DATABASE', 'PSQL_HOST', 'PSQL_PASSWORD', 'PSQL_PORT', 'PSQL_USER', 'TKINTER_THEME', 'VERSION', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'aktuelleGemeinde', 'delete', 'gemeinde', 'gemeinden', 'schema', 'setup', 'setvalue']
+2025-01-23 12:26:02,591 DEBUG bibForm addWidget Line: 1719 Hack für Combobox
+2025-01-23 12:26:02,624 DEBUG bibForm addWidget Line: 1719 Hack für Combobox
+2025-01-23 12:26:02,627 DEBUG bibForm addWidget Line: 1719 Hack für Combobox
+2025-01-23 12:26:02,638 DEBUG bibForm addWidget Line: 1719 Hack für Combobox
+2025-01-23 12:29:55,291 DEBUG bibForm <module> Line: 73 Versuche glbl von __main__ zu importieren
+2025-01-23 12:29:55,592 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-23 12:29:56,413 DEBUG bibForm addWidget Line: 1718 Hack für Combobox
+2025-01-23 12:29:56,444 DEBUG bibForm addWidget Line: 1718 Hack für Combobox
+2025-01-23 12:29:56,447 DEBUG bibForm addWidget Line: 1718 Hack für Combobox
+2025-01-23 12:29:56,458 DEBUG bibForm addWidget Line: 1718 Hack für Combobox
+2025-01-23 12:29:58,403 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-23 12:30:00,293 DEBUG bibModell setSearchPath Line: 949 sql='set search_path to gem_maerchenland, public'
+2025-01-23 12:30:00,425 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.045849 (H:MM:SS)
+2025-01-23 12:30:00,512 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043093 (H:MM:SS)
+2025-01-23 12:30:00,599 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042940 (H:MM:SS)
+2025-01-23 12:30:00,644 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043532 (H:MM:SS)
+2025-01-23 12:30:00,687 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042296 (H:MM:SS)
+2025-01-23 12:30:00,731 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043538 (H:MM:SS)
+2025-01-23 12:30:00,776 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043263 (H:MM:SS)
+2025-01-23 12:30:00,777 DEBUG bibForm setValue Line: 758 odict_values(['mi', 'st', 'ta', 'mo'])
+2025-01-23 12:30:00,823 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.046093 (H:MM:SS)
+2025-01-23 12:30:21,735 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-23 18:38:35,220 DEBUG bibForm <module> Line: 73 Versuche glbl von __main__ zu importieren
+2025-01-23 18:38:35,534 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-23 18:38:35,769 WARNING bibForm __init__ Line: 215 Icon kalarm nicht vorhanden.
+2025-01-23 18:38:35,769 WARNING bibForm __init__ Line: 215 Icon emblem-question nicht vorhanden.
+2025-01-23 18:39:50,486 DEBUG bibForm <module> Line: 73 Versuche glbl von __main__ zu importieren
+2025-01-23 18:39:50,797 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-23 18:39:51,019 WARNING bibForm __init__ Line: 215 Icon kalarm nicht vorhanden.
+2025-01-23 18:39:51,019 WARNING bibForm __init__ Line: 215 Icon emblem-question nicht vorhanden.
+2025-01-23 18:39:51,149 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:39:51,182 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:39:51,186 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:39:51,199 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:39:54,755 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-23 18:39:56,769 DEBUG bibModell setSearchPath Line: 949 sql='set search_path to gem_maerchenland, public'
+2025-01-23 18:39:56,901 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044615 (H:MM:SS)
+2025-01-23 18:39:56,988 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043267 (H:MM:SS)
+2025-01-23 18:39:57,076 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044023 (H:MM:SS)
+2025-01-23 18:39:57,122 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043558 (H:MM:SS)
+2025-01-23 18:39:57,165 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042291 (H:MM:SS)
+2025-01-23 18:39:57,209 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043604 (H:MM:SS)
+2025-01-23 18:39:57,254 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043583 (H:MM:SS)
+2025-01-23 18:39:57,255 DEBUG bibForm setValue Line: 788 odict_values(['mi', 'st', 'ta', 'mo'])
+2025-01-23 18:39:57,299 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043238 (H:MM:SS)
+2025-01-23 18:40:48,935 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-23 18:45:03,458 DEBUG bibForm <module> Line: 73 Versuche glbl von __main__ zu importieren
+2025-01-23 18:45:03,770 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-23 18:45:03,994 WARNING bibForm __init__ Line: 215 Icon kalarm nicht vorhanden.
+2025-01-23 18:45:03,994 WARNING bibForm __init__ Line: 215 Icon emblem-question nicht vorhanden.
+2025-01-23 18:45:04,128 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:45:04,160 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:45:04,163 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:45:04,176 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:45:07,173 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-23 18:45:08,986 DEBUG bibModell setSearchPath Line: 949 sql='set search_path to gem_maerchenland, public'
+2025-01-23 18:45:09,118 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043989 (H:MM:SS)
+2025-01-23 18:45:09,204 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043156 (H:MM:SS)
+2025-01-23 18:45:09,291 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043021 (H:MM:SS)
+2025-01-23 18:45:09,334 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042706 (H:MM:SS)
+2025-01-23 18:45:09,377 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042480 (H:MM:SS)
+2025-01-23 18:45:09,421 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043393 (H:MM:SS)
+2025-01-23 18:45:09,465 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042850 (H:MM:SS)
+2025-01-23 18:45:09,466 DEBUG bibForm setValue Line: 788 odict_values(['mi', 'st', 'ta', 'mo'])
+2025-01-23 18:45:09,510 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044162 (H:MM:SS)
+2025-01-23 18:45:12,651 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.
+2025-01-23 18:52:30,048 DEBUG bibForm <module> Line: 73 Versuche glbl von __main__ zu importieren
+2025-01-23 18:52:30,343 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf DEBUG
+2025-01-23 18:52:30,699 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:52:30,729 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:52:30,732 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:52:30,743 DEBUG bibForm addWidget Line: 1748 Hack für Combobox
+2025-01-23 18:52:33,605 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-23 18:52:35,381 DEBUG bibModell setSearchPath Line: 949 sql='set search_path to gem_maerchenland, public'
+2025-01-23 18:52:35,512 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044708 (H:MM:SS)
+2025-01-23 18:52:35,601 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.044517 (H:MM:SS)
+2025-01-23 18:52:35,689 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043639 (H:MM:SS)
+2025-01-23 18:52:35,735 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043699 (H:MM:SS)
+2025-01-23 18:52:35,778 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042109 (H:MM:SS)
+2025-01-23 18:52:35,822 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.043747 (H:MM:SS)
+2025-01-23 18:52:35,866 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.042718 (H:MM:SS)
+2025-01-23 18:52:35,867 DEBUG bibForm setValue Line: 788 odict_values(['mi', 'st', 'ta', 'mo'])
+2025-01-23 18:52:35,913 DEBUG bibModell getAll Line: 572 Modell.getAll brauchte (Zeit) 0:00:00.045900 (H:MM:SS)
+2025-01-23 18:52:44,622 INFO Gemeinde logout Line: 223 Verbindung zur DB geschlossen.

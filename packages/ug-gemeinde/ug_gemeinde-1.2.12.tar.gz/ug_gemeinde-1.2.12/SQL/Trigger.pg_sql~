@@ -1,0 +1,137 @@
+------------------------------------------------
+-- Trigger erzeugen
+------------------------------------------------
+
+--
+-- Land Kurzbezeichnung setzen
+create or replace function set_land_kurz() returns trigger as $$
+    declare
+        land_lang varchar;
+        laender_n integer;
+        land_k varchar;
+    begin
+        land_lang := trim(new.land);
+        -- Gibt es dieses Land schon?
+        select count(*)
+          into laender_n
+          from tbl_laender
+          where lower(trim(land)) = lower(land_lang)
+          limit 1;
+        if laender_n = 0
+        then  -- dieses Land gibt es noch nicht in der Tabelle
+            insert into tbl_laender (land, land_kurz) values (land_lang, '???');
+            new.land_kurz := '???';
+        else  -- dieses Land gibt es bereits in der Tabelle
+            select land_kurz
+                into land_k
+                from tbl_laender
+                where lower(trim(land)) = lower(land_lang)
+                order by prototyp desc
+                limit 1;
+            new.land_kurz := land_k;
+        end if;
+        new.land := land_lang;
+        return new;
+    end;
+    $$ language plpgsql;
+
+drop trigger if exists trg_person_set_land_kurz on tbl_person;
+create trigger         trg_person_set_land_kurz
+    before insert or update
+    on tbl_person
+    for each row
+    execute function set_land_kurz();
+
+drop trigger if exists trg_familie_set_land_kurz on tbl_familie;
+create trigger         trg_familie_set_land_kurz
+    before insert or update
+    on tbl_familie
+    for each row
+    execute function set_land_kurz();
+
+--
+-- Zuletzt bearbeitet von ... am ...
+create or replace function set_bearb() returns trigger as $$
+    begin
+        if current_user = 'skript' then
+            -- Automatische Bearbeitung
+            new.bearb_auto := now();
+        else
+            -- Manuelle Bearbeitung
+            new.bearb_von := current_user;
+            new.bearb_am := now();
+        end if;
+        return new;
+    end;
+    $$ language plpgsql;
+
+drop trigger if exists trg_gruppe_set_bearb on tbl_gruppe;
+create trigger trg_gruppe_set_bearb
+    before insert or update
+    on tbl_gruppe
+    for each row
+    execute function set_bearb();
+
+drop trigger if exists trg_anrede_set_bearb on tbl_anrede;
+create trigger trg_anrede_set_bearb
+    before insert or update
+    on tbl_anrede
+    for each row
+    execute function set_bearb();
+
+drop trigger if exists trg_versandart_set_bearb on tbl_versandart;
+create trigger trg_versandart_set_bearb
+    before insert or update
+    on tbl_versandart
+    for each row
+    execute function set_bearb();
+
+drop trigger if exists trg_person_set_bearb on tbl_person;
+create trigger trg_person_set_bearb
+    before insert or update
+    on tbl_person
+    for each row
+    execute function set_bearb();
+
+drop trigger if exists trg_familie_set_bearb on tbl_familie;
+create trigger trg_familie_set_bearb
+    before insert or update
+    on tbl_familie
+    for each row
+    execute function set_bearb();
+
+drop trigger if exists trg_person_gruppe_set_bearb on tbl_person_gruppe;
+create trigger trg_person_gruppe_set_bearb
+    before insert or update
+    on tbl_person_gruppe
+    for each row
+    execute function set_bearb();
+
+drop trigger if exists trg_familie_gruppe_set_bearb on tbl_familie_gruppe;
+create trigger trg_familie_gruppe_set_bearb
+    before insert or update
+    on tbl_familie_gruppe
+    for each row
+    execute function set_bearb();
+
+drop trigger if exists trg_gruppe_ansprechpartner_set_bearb on tbl_gruppe_ansprechpartner;
+create trigger trg_gruppe_ansprechpartner_set_bearb
+    before insert or update
+    on tbl_gruppe_ansprechpartner
+    for each row
+    execute function set_bearb();
+
+drop trigger if exists trg_person_versandart_set_bearb on tbl_person_versandart;
+create trigger trg_person_versandart_set_bearb
+    before insert or update
+    on tbl_person_versandart
+    for each row
+    execute function set_bearb();
+
+drop trigger if exists trg_familie_versandart_set_bearb on tbl_familie_versandart;
+create trigger trg_familie_versandart_set_bearb
+    before insert or update
+    on tbl_familie_versandart
+    for each row
+    execute function set_bearb();
+
