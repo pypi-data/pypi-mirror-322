@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+llm_the_game/__init__.py
+llm_the_game/game.py
+llm_the_game.egg-info/PKG-INFO
+llm_the_game.egg-info/SOURCES.txt
+llm_the_game.egg-info/dependency_links.txt
+llm_the_game.egg-info/top_level.txt
