@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "stara-cpp"
+version = "0.1.2"
+description = "A* pathfinding algorithm implementation in C++"
+authors = ["Valerius Mattfeld <mail@valerius.me>"]
+readme = "README.md"
+packages = [{ include = "stara_cpp" }]
+include = [
+    { path = "src/*.cpp", format = "sdist" },
+    { path = "include/*.hpp", format = "sdist" },
+    { path = "CMakeLists.txt", format = "sdist" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12.0"
+numpy = "2.1.3"
+
+[project]
+name = "stara-cpp"
+version = "0.1.1"
+description = "A* pathfinding algorithm implementation in C++"
+authors = [{ name = "Valerius Mattfeld", email = "mail@valerius.me" }]
+requires-python = ">=3.12"
+dependencies = ["numpy==2.1.3"]
+readme = "README.md"
+
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[tool.scikit-build]
+cmake.source-dir = "."
+cmake.build-type = "Release"
+wheel.packages = ["stara_cpp"]
+sdist.include = ["src/*.cpp", "include/*.hpp", "CMakeLists.txt"]
