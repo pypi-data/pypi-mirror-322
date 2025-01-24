@@ -1,0 +1,32 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background: fixed;
+}
+
+.custom-base-content {
+  padding: 20px;
+  background-color: red !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.custom-base-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.custom-base-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
