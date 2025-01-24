@@ -1,0 +1,13 @@
+[2024-11-05 16:14:18,986][__main__][INFO] - Beginning BDA phantom optimisation
+[2024-11-05 16:14:18,986][__main__][INFO] - Using a mock equilibrium
+[2024-11-05 16:14:18,991][__main__][INFO] - Initialising plasma
+[2024-11-05 16:14:26,413][__main__][INFO] - Initialising plasma state with PlasmaProfiler
+[2024-11-05 16:14:26,592][__main__][INFO] - Saving plasma phantom attributes
+[2024-11-05 16:14:27,063][__main__][INFO] - Updating Plasma Profiler with profilers used for optimisation
+[2024-11-05 16:14:27,211][__main__][INFO] - Loading transforms from pickle
+[2024-11-05 16:14:27,245][__main__][INFO] - Using phantom data reader
+[2024-11-05 16:14:29,733][__main__][INFO] - Applying error to opt_data
+[2024-11-05 16:14:29,764][__main__][INFO] - Initialising ModelCoordinator
+[2024-11-05 16:14:31,412][__main__][INFO] - initialising PriorManager
+[2024-11-05 16:14:31,449][__main__][INFO] - Initialising Ecmee Optimiser Context
+[2024-11-05 16:14:31,449][__main__][INFO] - Initialising BDA Driver
