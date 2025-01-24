@@ -1,0 +1,72 @@
+[tool.poetry]
+name = "rsna-anonymizer"
+version = "17.3.4"
+description = "RSNA DICOM Anonymizer"
+authors = ["Algorhythm Software <michael@dx.life>"]
+license = "RSNA-MIRC Public License"
+readme = "readme.md"
+homepage = "https://github.com/RSNA/anonymizer"
+packages = [{ include = "anonymizer", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.12.0,<4.0.0"
+numpy = "<2.0.0"
+customtkinter = "*"
+pillow = "*"
+tkhtmlview = "*"
+pydicom = ">=2.4,<2.5"
+pynetdicom = "*"
+ifaddr = "*"
+boto3 = "*"
+openpyxl = "*"
+psutil = "*"
+pylibjpeg = {extras = ["all"], version = "*"}
+opencv-python-headless = "*"
+easyocr = "*"
+cryptography = "*"
+requests = "*"
+requests-oauthlib = "*"
+toml = "^0.10.2"
+
+[tool.poetry.group.dev.dependencies]
+poetry = "^2.0.1"
+ruff = "*"
+black = "*"
+pytest = "*"
+pytest-cov = "^6.0.0"
+python-dotenv = "*"
+
+[tool.poetry.scripts]
+rsna-anonymizer = "anonymizer.anonymizer:main"
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "C90"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 88
+target-version = ['py311', 'py312']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | build
+  | dist
+)/
+'''
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--verbose --show-capture=all --cov=src/anonymizer --cov-report=term-missing"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
