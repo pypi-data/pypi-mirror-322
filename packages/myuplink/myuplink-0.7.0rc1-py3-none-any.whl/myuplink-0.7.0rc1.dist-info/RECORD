@@ -1,0 +1,11 @@
+myuplink/__init__.py,sha256=9EhXxmooXAb67tCXTfI4C2YzMylabTXJBnOe8MPgKNM,456
+myuplink/api.py,sha256=CXpOOKd3oJNfTVm_KzMPA4KsMEtrGxSG3TYv2iCZiK8,6705
+myuplink/auth.py,sha256=btIkfeSsOzLsOWVecw7V081873mbq_Ye3CAeGu_2_1c,738
+myuplink/auth_abstract.py,sha256=fH2WZFKLcd5XRUgd8Idkfibr9ZjdNeFMvuowUNiEW58,1021
+myuplink/models.py,sha256=-svkZkxFW7tSF_F2lBGChLtHPzIKKaEDzICtij9kK28,13581
+myuplink/names.py,sha256=owvLA4RNlBL20Pjz7gUQg_L9ie8TWcIFRNiemPbvhwk,1936
+myuplink/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myuplink-0.7.0rc1.dist-info/METADATA,sha256=C-LH4By4jsWPWCUES7TFCiJA4sRDnb2Sk8Q4MFZuC-0,1026
+myuplink-0.7.0rc1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+myuplink-0.7.0rc1.dist-info/top_level.txt,sha256=0WAX64Mp-zPfyv9nSBIpvzjQ6fGj8CONv4AXkcTx3VM,9
+myuplink-0.7.0rc1.dist-info/RECORD,,
