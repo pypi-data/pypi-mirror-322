@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hyperlpr2
+Version: 2.0.0
+Summary: hyperlpr添加opencv>=4.11与numpy>1.22.0支持
+Home-page: https://gitee.com/zeusees/HyperLPR
+Author: liu
+Author-email: 1003662721@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: opencv-python
+
+基于北京智云视图科技有限公司/HyperLPR修改新版本cv及numpy报错问题
+原始链接:https://gitee.com/zeusees/HyperLPR/blob/master/README.md
+侵权请联系删除
