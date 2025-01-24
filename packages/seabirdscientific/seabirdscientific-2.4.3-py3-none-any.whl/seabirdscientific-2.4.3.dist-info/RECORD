@@ -1,0 +1,15 @@
+seabirdscientific/__init__.py,sha256=PYphD35-KrUbJScJ7Kk70nzS4dN_JRT1Ff32gLdYsY4,95
+seabirdscientific/cal_coefficients.py,sha256=YKtxHSM982-GmnLrqYvz224WYn0xAVW99BdWcBr6qp0,5908
+seabirdscientific/contour.py,sha256=zv-FluQQIZ0Dye4cmez9Ktu190oedcQKhdep8K9AZLk,5205
+seabirdscientific/conversion.py,sha256=1cy8rriaSQubtvNG-l2cAikf-4xkpWUtOd4qsW1g0D4,35614
+seabirdscientific/eos80_processing.py,sha256=TMS9hcVwaubg6hUpkmMppxlhK2lJm5Y-QgLKa9GuaeA,6188
+seabirdscientific/instrument_data.py,sha256=CNhv2L-6tkWwI842djls6zlRInP7zQx9Yq7yvNOawAI,18708
+seabirdscientific/interpret_sbs_variable.py,sha256=q3wIGwRja_X6vBaLgSXf7AMGCpuPU9cL6aDim_gykKY,39573
+seabirdscientific/processing.py,sha256=cAYQ2_tlqOUa0qRA4KuIY-LMYAySC8-hk13Ds5K-Arg,37501
+seabirdscientific/utils.py,sha256=jEuq9Q1Sy61uEOWXm6oLkQ_x9xs03aXLn95uEmlfUqI,2722
+seabirdscientific/visualization.py,sha256=MoG9Qpc7RoIDkedUPWGK2PZr03G_DZMcO90ITg9Gaj4,22308
+seabirdscientific-2.4.3.dist-info/LICENSE,sha256=vUgHzcoBqXuYcu1FxTzuhgEyAuSULxLeFhCWWUpPWRM,1126
+seabirdscientific-2.4.3.dist-info/METADATA,sha256=aWYdl09zeCQK9H5QL7JLppAzY---E1SNjOthP6rqOUU,3778
+seabirdscientific-2.4.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+seabirdscientific-2.4.3.dist-info/top_level.txt,sha256=kWW3Dtc7wQbdEhFhX9K-Cf0G8a7wMJMsKcKqP9U802Q,18
+seabirdscientific-2.4.3.dist-info/RECORD,,
