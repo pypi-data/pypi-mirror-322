@@ -1,0 +1,56 @@
+[project]
+name = "sitemap-markitdown"
+version = "0.1.0"
+description = "A comprehensive toolkit for parsing sitemaps and converting web content to Markdown"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+    "Topic :: Text Processing :: Markup :: Markdown"
+]
+dependencies = [
+    "click>=8.1.8",
+    "lxml>=5.3.0",
+    "markitdown>=0.0.1a3",
+    "tqdm>=4.67.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0"
+]
+llm = [
+    "openai>=1.0.0"
+]
+
+
+[project.urls]
+Homepage = "https://gitlab.com/thomas.pedot1/sitemap-markitdown"
+Issues = "https://gitlab.com/thomas.pedot1/sitemap-markitdown/issues"
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --cov=sitemap_markitdown"
+[project.scripts]
+sitemap-markitdown = "sitemap_markitdown.cli:cli"
+
+[tool.setuptools]
+packages = ["sitemap_markitdown"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
