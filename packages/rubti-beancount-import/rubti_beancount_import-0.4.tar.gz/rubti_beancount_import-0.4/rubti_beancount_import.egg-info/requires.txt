@@ -1,0 +1,11 @@
+beancount<3
+pandas
+openpyxl
+identify
+pyyaml
+
+[dev]
+black
+isort
+pytest
+pre-commit
