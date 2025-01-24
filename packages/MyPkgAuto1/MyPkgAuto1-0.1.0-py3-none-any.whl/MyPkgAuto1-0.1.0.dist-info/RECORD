@@ -1,0 +1,9 @@
+MyPkgAuto1/__init__.py,sha256=298w4nEvuunAkzAE53IEucK6fJb7wrE_x4X1jRzrqz0,35
+MyPkgAuto1/hello.py,sha256=gTz-h2BmlyXwaU_8d0ZfAfllR0ECUXbdYBtCKaqYJFY,111
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hello.py,sha256=D6D2UagifTMTDul2atlHmWorsR1XtWA2j0CocjL_Mbs,338
+MyPkgAuto1-0.1.0.dist-info/LICENSE,sha256=WDPDxSwWG4S_cWlI3zQ2PjbYpi2QKsNMazfKFQWL5aI,7
+MyPkgAuto1-0.1.0.dist-info/METADATA,sha256=-IK-Ar_2ID-5WpfnazFs-cvzmkv-4VlxUte0cWe1IT4,919
+MyPkgAuto1-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+MyPkgAuto1-0.1.0.dist-info/top_level.txt,sha256=vMao-WBPMCTPNHWL0uFMNPy8aP5w3GVuL0o-9HMgU4k,17
+MyPkgAuto1-0.1.0.dist-info/RECORD,,
