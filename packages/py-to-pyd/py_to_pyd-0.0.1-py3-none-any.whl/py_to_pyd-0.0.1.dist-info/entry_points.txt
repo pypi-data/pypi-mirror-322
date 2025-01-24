@@ -1,0 +1,3 @@
+[console_scripts]
+py-to-pyd = PyToPyd.main:main
+pytopyd = PyToPyd.main:main
