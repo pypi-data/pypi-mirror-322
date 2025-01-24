@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/file_attributes/__init__.py
+src/file_attributes/file_attributes.py
+src/file_attributes.egg-info/PKG-INFO
+src/file_attributes.egg-info/SOURCES.txt
+src/file_attributes.egg-info/dependency_links.txt
+src/file_attributes.egg-info/top_level.txt

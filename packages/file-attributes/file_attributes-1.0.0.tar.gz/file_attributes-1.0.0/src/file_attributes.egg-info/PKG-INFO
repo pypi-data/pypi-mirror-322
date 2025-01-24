@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: file_attributes
+Version: 1.0.0
+Summary: A Python package to get file attributes
+Author-email: Xiaoming Zhou <xiaomingzhou958@baidu.com>
+Project-URL: Homepage, https://github.com/xmz958/fileattributes
+Project-URL: Documentation, https://github.com/xmz958/fileattributes
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# File Attributes
+A Python package to retrieve file attributes.
+
+## Overview
+This package provides a simple function to retrieve file attributes such as file name, size, mode, and timestamps.
+
+## Installation
+To install the `file-attributes` package, run the following command:
+```bash
+pip install file-attributes

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "file_attributes"
+version = "1.0.0"
+description = "A Python package to get file attributes"
+authors = [
+    {name = "Xiaoming Zhou", email = "xiaomingzhou958@baidu.com"},
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/xmz958/fileattributes"
+Documentation = "https://github.com/xmz958/fileattributes"
