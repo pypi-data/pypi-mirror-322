@@ -1,0 +1,2 @@
+[console_scripts]
+setu_mcp_upi_deeplinks = setu_mcp_upi_deeplinks.server:run
