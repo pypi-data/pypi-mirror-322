@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: orca-interfaces
+Version: 0.1.0
+Summary: External interfaces for Orca laboratory automation software
+Author-email: Cheshire Labs <support@cheshirelabs.io>
+License: AGPL-3.0-only
+Project-URL: Repository, https://github.com/Cheshire-Labs/orca-interfaces
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+Provides-Extra: dev
+Requires-Dist: types-setuptools>=75.1.0; extra == "dev"
