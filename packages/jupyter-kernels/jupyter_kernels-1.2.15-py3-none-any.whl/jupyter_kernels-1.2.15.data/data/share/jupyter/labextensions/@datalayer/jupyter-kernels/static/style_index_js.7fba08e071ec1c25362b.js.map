@@ -1,0 +1,1 @@
+{"version":3,"file":"style_index_js.7fba08e071ec1c25362b.js","mappings":";;;;;;;;AAAA;AACA;AACA;AACA;AACA;;AAEA","sources":["webpack://@datalayer/jupyter-kernels/./style/index.js"],"sourcesContent":["/*\n * Copyright (c) 2023-2024 Datalayer, Inc.\n *\n * Datalayer License\n */\n\n// import '@datalayer/ui/style/kernels/index.css';\n"],"names":[],"sourceRoot":""}
