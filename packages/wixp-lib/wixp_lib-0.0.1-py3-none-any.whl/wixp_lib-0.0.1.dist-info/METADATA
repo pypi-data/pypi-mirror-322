@@ -1,0 +1,28 @@
+Metadata-Version: 2.2
+Name: wixp_lib
+Version: 0.0.1
+Summary: Created for convenience
+Home-page: https://github.com/DcorpProj/wixp_lib
+Author: Dmitriy Bobkov/WiXP Dev
+Author-email: dimabobkov2016@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+---WiXP Lib
+I dont know what write there, but lib can:
+encode("Text to encode", Char.vocabulary)
+decode("Key what you get in encode", Char.vocabulary)
