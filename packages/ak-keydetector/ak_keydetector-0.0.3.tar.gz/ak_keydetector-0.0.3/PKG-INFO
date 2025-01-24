@@ -1,0 +1,50 @@
+Metadata-Version: 2.2
+Name: ak-keydetector
+Version: 0.0.3
+Summary: ML Based API Key Detector
+Home-page: https://github.com/appknox/ml-key-detector
+Author: Appknox Engineering
+Author-email: engineering@appknox.com
+License: Apache-2.0 license
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib==3.10.0
+Requires-Dist: numpy==1.26.4
+Requires-Dist: plotly==5.13.0
+Requires-Dist: PyYAML>=5.4.1
+Requires-Dist: rstr==3.2.0
+Requires-Dist: scikit-learn==1.6.1
+Requires-Dist: scipy==1.15.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Ak-KeyDetector
+
+This package contains setup files to install [api_key_detector](https://github.com/appknox/api_key_detector) to be used as a pip package.
+
+## Installation
+
+```bash
+pip install ak-keydetector
+```
+
+## Usage
+
+Example imports post installation:
+
+```python
+from api_key_detector import string_classifier
+from api_key_detector.classifier_singleton import classifier
+```
+
+### Detailed Usage
+
+Please refer to the [README](https://github.com/appknox/api_key_detector/blob/appknox/README.md) of the module for detailed usage.
