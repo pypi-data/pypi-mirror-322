@@ -1,0 +1,4 @@
+[console_scripts]
+function-executor=indexify.function_executor.main:main
+indexify-cli=indexify.cli.cli:app
+
