@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: tina-env
+Version: 0.0.1
+Summary: A openAI Gym env for tina
+Description-Content-Type: text/markdown
+Requires-Dist: gym
