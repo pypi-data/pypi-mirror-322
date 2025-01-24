@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+src/mathrix/__init__.py
+src/mathrix.egg-info/PKG-INFO
+src/mathrix.egg-info/SOURCES.txt
+src/mathrix.egg-info/dependency_links.txt
+src/mathrix.egg-info/top_level.txt

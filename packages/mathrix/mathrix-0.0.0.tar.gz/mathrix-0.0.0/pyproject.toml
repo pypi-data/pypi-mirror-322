@@ -1,0 +1,10 @@
+# Reference: https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+[project]
+name = "mathrix"
+version = "0.0.0"
+authors = [
+  {name = "Incircumscriptus", email = "incircumscriptus.code@gmail.com"},
+]
+description = "Coming soon (development in progress)"
+requires-python = ">=3.13"
