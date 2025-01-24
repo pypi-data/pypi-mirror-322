@@ -1,0 +1,7 @@
+loguru
+matplotlib
+numpy
+pydata-sphinx-theme
+pyserial
+PySide6
+scipy
