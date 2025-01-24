@@ -1,0 +1,2 @@
+[console_scripts]
+magika = magika.cli.magika_client:main
