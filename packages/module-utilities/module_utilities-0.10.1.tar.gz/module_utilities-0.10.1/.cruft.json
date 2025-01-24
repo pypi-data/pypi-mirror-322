@@ -1,0 +1,26 @@
+{
+  "template": "https://github.com/usnistgov/cookiecutter-nist-python.git",
+  "commit": "4ccec1ff95bc974fa9b3d89af39aa03dfbf0e444",
+  "checkout": "develop",
+  "context": {
+    "cookiecutter": {
+      "project_name": "module-utilities",
+      "project_slug": "module_utilities",
+      "project_short_description": "Collection of utilities to aid working with python modules.",
+      "full_name": "William P. Krekelberg",
+      "email": "wpk@nist.gov",
+      "github_username": "usnistgov",
+      "pypi_username": "wpk-nist",
+      "conda_channel": "conda-forge",
+      "command_line_interface": "none",
+      "sphinx_use_autodocsumm": true,
+      "sphinx_theme": "sphinx_book_theme",
+      "year": "2023",
+      "__answers": "",
+      "_copy_without_render": [],
+      "_template": "https://github.com/usnistgov/cookiecutter-nist-python.git",
+      "_commit": "4ccec1ff95bc974fa9b3d89af39aa03dfbf0e444"
+    }
+  },
+  "directory": null
+}
