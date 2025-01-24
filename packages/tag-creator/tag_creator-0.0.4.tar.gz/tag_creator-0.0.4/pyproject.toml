@@ -1,0 +1,28 @@
+[project]
+    name = "tag_creator"
+    version = "v0.0.4"
+    authors = [
+        { name="Vladyslav Honcharenko", email="goncharvlad02@gmail.com" }
+    ]
+    maintainers = [
+        { name="Vladyslav Honcharenko", email="goncharvlad02@gmail.com" },
+    ]
+    description = "Project to automatically create release tags based on merged commit message'"
+    readme = "README.md"
+    license = {"file" = "LICENSE"}
+    requires-python = ">=3.11"
+    classifiers = [
+        "Programming Language :: Python :: 3.11",
+    ]
+    dynamic = ["dependencies"]
+[tool.setuptools.packages.find]
+    exclude = ["tests", "tests.*"]
+[tool.setuptools.dynamic]
+    dependencies = {file = ["requirements.txt"]}
+[tool.setuptools]
+    package-data = { "tag_creator" = ["configuration.yml"] }
+[build-system]
+    requires = ["setuptools >= 75.0.0"]
+    build-backend = "setuptools.build_meta"
+[project.urls]
+    Repository = "https://github.com/Oberstmarschall/tag_creator"
