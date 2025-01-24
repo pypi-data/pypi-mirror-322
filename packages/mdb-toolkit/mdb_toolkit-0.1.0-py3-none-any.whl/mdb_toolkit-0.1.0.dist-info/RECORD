@@ -1,0 +1,8 @@
+mdb_toolkit/mdb_toolkit.py,sha256=7Xc5I6u6VFfrl2Asi5GJ5hTLt99iQwWIcmeImCYCzvo,19608
+mdb_toolkit/embeddings/ollama.py,sha256=wvpIA2eouUqZXw-Gj4cLeTDJCpAqlj05UXV53u2ClOY,394
+mdb_toolkit/embeddings/openai.py,sha256=o7NkiADvRGlzZuEN9gYP6EzYGu9v1lOlzOiBVRK4GHs,479
+mdb_toolkit-0.1.0.dist-info/LICENSE,sha256=r5iHDpNBctrdDUZWPACCbPDL9II4BzUNnEoprHHgryA,1068
+mdb_toolkit-0.1.0.dist-info/METADATA,sha256=O8sbJciresVi16O0x7LpbN-RIhj7b4GA4Ddr_xiVEh0,6381
+mdb_toolkit-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+mdb_toolkit-0.1.0.dist-info/top_level.txt,sha256=IT7iRJFeFenr_HO4LuFMlSV7EjfdA5ctbNNWWm1fRyA,12
+mdb_toolkit-0.1.0.dist-info/RECORD,,
