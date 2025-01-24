@@ -1,0 +1,15 @@
+hotspot_socks_proxy-3.4.0.dist-info/METADATA,sha256=nTKC8N16yiobKScLlAWgSXXqEFq_WWGAy5LM2xFSfUM,3953
+hotspot_socks_proxy-3.4.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+hotspot_socks_proxy-3.4.0.dist-info/entry_points.txt,sha256=NVwiCUpmdiSROJuruYE_dwoefZ8B991j9yNbWvmguqQ,82
+hotspot_socks_proxy-3.4.0.dist-info/licenses/LICENSE,sha256=1KTbFe6BBeqNcR6IqRSpodTqUmJjy-ahPdTdQyJJzwU,35141
+hotspot_socks_proxy/.DS_Store,sha256=ECXh3hE64d0-D_pl2Q9nfxHFvLAsCKl0joVU90iA1As,6148
+hotspot_socks_proxy/__init__.py,sha256=AnFCxvA6a3VI24LPz_HeYQPBCZtqq0iK9pxfALZqS1k,62
+hotspot_socks_proxy/cmd/__init__.py,sha256=5wX-D1NS4z7ZoM9Bws3yNBHZ-YzlwvRybZov4Olh5Es,442
+hotspot_socks_proxy/cmd/cli.py,sha256=OVAimVmGHdwWG4y0wkaVRUzfkRkgBpu7N-ZktWBUaus,2205
+hotspot_socks_proxy/cmd/find_wifi.py,sha256=rWVFLc6dzY2XEvxBZO_gbIVr5gb-tBYGcF20q-qvlKc,1703
+hotspot_socks_proxy/cmd/http.py,sha256=uiJiQhkWgQ1pD_CmK50S9OayH2XgB_VMd7Dd0Br8_DU,3684
+hotspot_socks_proxy/cmd/socks.py,sha256=vKJMxjkvjMGTo2ptUIJg0G4JOACt-N55Tl3gX24JRE4,1303
+hotspot_socks_proxy/core/__init__.py,sha256=4tZ9T36xlTjS_vHeJ1vpfENlLXsVb75AJxnAbbLkCs8,30
+hotspot_socks_proxy/core/network.py,sha256=CKqua8MaW7V4DyQYffpZYWgMBkxtk4OQC73pkW-UIm4,2960
+hotspot_socks_proxy/core/proxy.py,sha256=i_iOz4Y7JMv8Z8_7wCyu_FLflO9vVPAiE7GstKHbsKA,12284
+hotspot_socks_proxy-3.4.0.dist-info/RECORD,,
