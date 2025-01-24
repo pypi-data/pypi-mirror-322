@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+wixp_lib.egg-info/PKG-INFO
+wixp_lib.egg-info/SOURCES.txt
+wixp_lib.egg-info/dependency_links.txt
+wixp_lib.egg-info/requires.txt
+wixp_lib.egg-info/top_level.txt
