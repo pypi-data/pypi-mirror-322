@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: nbprg_auth
+Version: 0.0.1
+Author: Saifur Rahman
+Author-email: novbh091@gmail.com
+License: MIT
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: requires-dist
