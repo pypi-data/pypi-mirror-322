@@ -1,0 +1,4 @@
+portableDB
+pydub
+colorama
+opencv-python
