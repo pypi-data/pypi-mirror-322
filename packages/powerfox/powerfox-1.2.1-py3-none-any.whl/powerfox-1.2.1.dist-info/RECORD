@@ -1,0 +1,9 @@
+powerfox/__init__.py,sha256=2FANyDAJZsucqcWTjSS5p5J2UKNMN3nl1SA7M4GXAdY,545
+powerfox/exceptions.py,sha256=WQCqo-dgjYWMPREaH7K3l2LozpcC0CsSGMjM-w5Te60,387
+powerfox/models.py,sha256=Bqv8AS4KgDaMriqnAhqJFLaEUMs5NJMml49z5xt524o,3412
+powerfox/powerfox.py,sha256=FQrEN-I-yCiSlcnzNMloWjCD5w2CTClMvucGhdA3G1o,5343
+powerfox/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+powerfox-1.2.1.dist-info/LICENSE,sha256=_1VhsZ4Vf7NRTznFhx5npO7Uj2B_b1G_w7Uk-qir5dg,1070
+powerfox-1.2.1.dist-info/METADATA,sha256=a8RvKZ3fnfCv4K0mFusq9r9AxEIk4g8cF9TGpJo9i7Y,11760
+powerfox-1.2.1.dist-info/WHEEL,sha256=IYZQI976HJqqOpQU6PHkJ8fb3tMNBFjg-Cn-pwAbaFM,88
+powerfox-1.2.1.dist-info/RECORD,,
