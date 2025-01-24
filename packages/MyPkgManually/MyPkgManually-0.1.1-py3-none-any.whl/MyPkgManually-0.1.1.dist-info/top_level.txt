@@ -1,0 +1,2 @@
+MyPkgManually
+tests
