@@ -1,0 +1,3 @@
+[console_scripts]
+usrv_client = clt
+usrv_server = wsgi_srv
