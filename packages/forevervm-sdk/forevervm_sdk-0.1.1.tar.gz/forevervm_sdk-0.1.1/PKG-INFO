@@ -1,0 +1,4 @@
+Metadata-Version: 2.2
+Name: forevervm-sdk
+Version: 0.1.1
+Requires-Dist: httpx>=0.28.1
