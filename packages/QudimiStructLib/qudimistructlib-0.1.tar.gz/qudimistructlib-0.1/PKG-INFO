@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: QudimiStructLib
+Version: 0.1
+Summary: Data Structures
+Author: Abdulaziz AL-qudimi
+Author-email: eng7mi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: summary
