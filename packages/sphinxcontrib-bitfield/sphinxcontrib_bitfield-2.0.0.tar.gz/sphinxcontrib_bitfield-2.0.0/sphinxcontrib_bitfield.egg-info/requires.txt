@@ -1,0 +1,2 @@
+bit-field>=1.0.0
+Sphinx>=0.6
