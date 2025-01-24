@@ -1,0 +1,16 @@
+# Formatting
+
+# Need to keep black version consistent in
+# requirements-dev.txt
+# linting.yml
+# .pre-commit-config.yaml
+black==23.9.1
+
+flake8
+isort
+
+# Testing
+pytest
+
+# Release
+wheel

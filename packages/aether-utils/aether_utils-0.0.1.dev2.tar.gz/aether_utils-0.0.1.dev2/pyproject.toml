@@ -1,0 +1,32 @@
+[project]
+name = "aether_utils"
+version = "0.0.1.dev2"
+requires-python = ">=3.10"
+authors = [
+    { name="Richard Edgar", email="riedgar@microsoft.com" },
+]
+description = "A Python package for use in Aether Incubation projects."
+readme = "README.md"
+classifiers = [
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Development Status :: 3 - Alpha",
+]
+license = { text = "MIT" }
+license-files = ["LICEN[CS]E*"]
+dependencies = [ "joblib" ]
+
+[tool.black]
+line-length = 88
+target_version = ['py310', 'py311', 'py312']
+preview = true
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

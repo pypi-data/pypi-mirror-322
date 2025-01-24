@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: aether_utils
+Version: 0.0.1.dev2
+Summary: A Python package for use in Aether Incubation projects.
+Author-email: Richard Edgar <riedgar@microsoft.com>
+License: MIT
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Requires-Dist: joblib
+Description-Content-Type: text/markdown
+
+# Introduction 
+Useful things for Aether projects
+
+# Getting Started
+TODO
+
+# Build and Test
+TODO
