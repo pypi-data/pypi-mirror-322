@@ -1,0 +1,10 @@
+skferm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skferm/hello.py,sha256=1zCnG99QGxIf1tjXVd0olE0ccK_GGI6ixZ2KBb4thSA,89
+skferm/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skferm/datasets/synthetic.py,sha256=dCDWHSioAvsQE1-AFuGx4ULoDXYRNdaiZR4Mr27yvrg,871
+skferm/growth_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skferm/growth_models/logistic.py,sha256=aLib8a082j_8gDuWlz8Tn3fP4rO7IV_VwO2g4gFjg3s,456
+scikit_ferm-0.1.0.dist-info/METADATA,sha256=9nuok8nvSZt5p5thGStkzhhxyIc-Xge4_Ex0yVmp0Ek,1179
+scikit_ferm-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+scikit_ferm-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scikit_ferm-0.1.0.dist-info/RECORD,,

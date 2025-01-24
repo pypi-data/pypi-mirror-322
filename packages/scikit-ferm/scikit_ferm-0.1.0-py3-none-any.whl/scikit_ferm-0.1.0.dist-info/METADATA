@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: scikit-ferm
+Version: 0.1.0
+Summary: A scikit-learn compatible package for fermentations.
+Project-URL: Homepage, https://aschwins.github.io/scikit-ferm/
+Project-URL: Issues, https://github.com/Aschwins/scikit-ferm/issues
+Author-email: Aschwin Schilperoort <author@example.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: acidification,fermentation,python,scikit-ferm
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: numpy>=2.2.2
+Provides-Extra: docs
+Requires-Dist: pydata-sphinx-theme>=0.16.1; extra == 'docs'
+Requires-Dist: sphinx>=8.1.3; extra == 'docs'
+Provides-Extra: examples
+Requires-Dist: matplotlib>=3.10.0; extra == 'examples'
+Description-Content-Type: text/markdown
+
+# scikit-ferm
+
+**scikit-ferm** is a Python package designed to generate synthetic fermentation datasets and model microbial growth dynamics. Whether you're studying food fermentation (like yogurt production) or simulating microbial behavior for research and development, scikit-ferm provides flexible tools to create realistic datasets based on established growth models.
