@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+youtube_downloader_pkg/__init__.py
+youtube_downloader_pkg/__main__.py
+youtube_downloader_pkg/downloader.py
+yt_dl_easy.egg-info/PKG-INFO
+yt_dl_easy.egg-info/SOURCES.txt
+yt_dl_easy.egg-info/dependency_links.txt
+yt_dl_easy.egg-info/entry_points.txt
+yt_dl_easy.egg-info/requires.txt
+yt_dl_easy.egg-info/top_level.txt
