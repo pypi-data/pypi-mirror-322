@@ -1,0 +1,9 @@
+modrinth_api_wrapper/__init__.py,sha256=lo4FSxiO6bUZrXclLLZnDzeSTC8l62MlSDBbK6kgXX0,392
+modrinth_api_wrapper/client.py,sha256=GYuyy8KZYpKhV4RJ34Hhtp3M6scwj71m5zP7Bnj8cWc,5667
+modrinth_api_wrapper/expections.py,sha256=nKkVL_9suGFuT3wbvOmEWlbuH_ZvyuMMNcJS_srhxnY,2607
+modrinth_api_wrapper/models.py,sha256=HVGzt8RBpc6V6QdL1imAKH6Dm8uq0F0RrpHVPEDy4tw,3596
+modrinth_api_wrapper/network.py,sha256=Cjm7b5qhqkc_hx04I44osDK7vn0ST6ddO-S94kR-YLk,2081
+modrinth_api_wrapper-1.0.0.dist-info/METADATA,sha256=QEPKeKzeF1MlfoykRsFzzLOP9ylzOXg4RWvrDNMLtpI,5245
+modrinth_api_wrapper-1.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+modrinth_api_wrapper-1.0.0.dist-info/licenses/LICENSE,sha256=BQyNF9a7_bgW9xSbheTYQ_LSAELoIvbp__ETy1wy2f8,1063
+modrinth_api_wrapper-1.0.0.dist-info/RECORD,,
