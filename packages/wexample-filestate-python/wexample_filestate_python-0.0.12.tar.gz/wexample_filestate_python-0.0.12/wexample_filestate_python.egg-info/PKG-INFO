@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: wexample-filestate-python
+Version: 0.0.12
+Summary: Helpers for Python.
+Author-email: weeger <contact@wexample.com>
+License: MIT
+Project-URL: homepage, https://github.com/wexample/python-filestate-python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pip-tools
+Requires-Dist: pydantic
+Requires-Dist: pytest
+Requires-Dist: python-dotenv
+Requires-Dist: wexample-app==0.0.17
+Requires-Dist: wexample-filestate-git==0.0.12
+Requires-Dist: wexample-filestate==0.0.20
