@@ -1,0 +1,2 @@
+[console_scripts]
+pylint_report = pylint_report.pylint_report:main
