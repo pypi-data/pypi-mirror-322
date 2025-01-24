@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: StatyaUKRRF
+Version: 0.1
+Summary: Это простая библиотека, которая предоставляет список статей, наказываемых по законодательству Российской Федерации.
+Author: Puxxalwl
+Author-email: ruslan544mc@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary

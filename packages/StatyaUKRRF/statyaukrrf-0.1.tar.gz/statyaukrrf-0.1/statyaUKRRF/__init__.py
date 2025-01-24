@@ -1,0 +1,1 @@
+from .Statya_lib import statya

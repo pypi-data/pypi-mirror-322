@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+StatyaUKRRF.egg-info/PKG-INFO
+StatyaUKRRF.egg-info/SOURCES.txt
+StatyaUKRRF.egg-info/dependency_links.txt
+StatyaUKRRF.egg-info/top_level.txt
+statyaUKRRF/Statya_lib.py
+statyaUKRRF/__init__.py
+test/test.py
