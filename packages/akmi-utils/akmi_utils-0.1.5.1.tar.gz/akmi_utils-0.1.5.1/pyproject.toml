@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "akmi-utils"
+version = "0.1.5.1"
+description = ""
+authors = ["ekoi <eko.indarto@dans.knaw.nl>"]
+readme = "README.md"
+packages = [{include = "akmi_utils", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+toml = "^0.10.2"
+pyyaml = "^6.0.2"
+fastapi = "^0.115.7"
+uvicorn = "^0.34.0"
+httpx = "^0.28.1"
+prometheus-client = "^0.21.1"
+opentelemetry-distro = "^0.50b0"
+opentelemetry-instrumentation-fastapi = "^0.50b0"
+opentelemetry-instrumentation-logging = "^0.50b0"
+opentelemetry-exporter-otlp = "^1.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
