@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sbai"
+version = "0.1.2"
+authors = [
+    { name="Shayan Bhutto", email="py@shayanbhutto.com" },
+]
+description = "Simplified AI API wrapper for ChatGPT and Google Gemini, enabling easy integration of language models with configurable parameters"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "openai>=1.0",
+    "google-generativeai>=0.3.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+Homepage = "https://github.com/shayanbhutto/sbai"
