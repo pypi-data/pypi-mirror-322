@@ -1,0 +1,4 @@
+[console_scripts]
+oad=geomltoolkits.downloader.oam:main
+osd=geomltoolkits.downloader.osm:main
+
