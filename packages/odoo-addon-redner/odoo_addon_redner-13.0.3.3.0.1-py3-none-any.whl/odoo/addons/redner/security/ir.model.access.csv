@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_redner_template,access_redner_template,model_redner_template,,1,1,1,1
+access_redner_substitution,access_redner_substitution,model_redner_substitution,,1,1,1,1
