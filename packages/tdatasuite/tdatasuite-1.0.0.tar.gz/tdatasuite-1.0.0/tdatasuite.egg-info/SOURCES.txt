@@ -1,0 +1,9 @@
+README.md
+setup.py
+tdatasuite/__init__.py
+tdatasuite/tdatasuite.py
+tdatasuite.egg-info/PKG-INFO
+tdatasuite.egg-info/SOURCES.txt
+tdatasuite.egg-info/dependency_links.txt
+tdatasuite.egg-info/requires.txt
+tdatasuite.egg-info/top_level.txt
