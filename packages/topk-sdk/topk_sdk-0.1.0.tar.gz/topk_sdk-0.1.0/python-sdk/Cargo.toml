@@ -1,0 +1,16 @@
+[package]
+name = "topk-python-sdk"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "topk_sdk"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.23.3", features = ["py-clone"] }
+topk-protos = { path = "../protos" }
+topk-sdk-core = { path = "../rust-core" }
+tonic = { version = "0.12.3" }
+tokio = { version = "1.35", features = ["full"] }
+anyhow = { version = "1.0.77" }
