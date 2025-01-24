@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: xuiniaDB
+Version: 1.4
+Summary: EBANAIA XUETA
+Requires-Dist: portableDB
+Requires-Dist: pydub
+Requires-Dist: colorama
+Requires-Dist: opencv-python
+Dynamic: description
+Dynamic: requires-dist
+Dynamic: summary
+
+YA EE V ROT EBAL LOL
