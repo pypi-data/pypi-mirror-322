@@ -1,0 +1,14 @@
+staticvectors/__init__.py,sha256=APm6jqOL_UYyivQV695lRIlg_2-5aUBw_h_iLpq4uh4,267
+staticvectors/converter.py,sha256=oo3HEgr8nUZ4zzP3WyvuYK4h38AcK2mehlf6qwWqDDI,7215
+staticvectors/database.py,sha256=xJPz7YSr4qlZcPcu51OhBI4W7eM1d-JHVx6Ti5H2SWU,7571
+staticvectors/filesystem.py,sha256=JILIaY8YlciviChWdnaeiYbGk32NVoxusPSm9lFXgRI,4298
+staticvectors/loss.py,sha256=GSKviydHa3mf0vDV3COT3TiPgFo7z2llWNtIRl7qlfM,4936
+staticvectors/model.py,sha256=ztl3Xnjy31MW_KWG3FAwAJxejs791rC2oRtLmocOLm8,7937
+staticvectors/tokenizer.py,sha256=bGdxcZ_QKT-8STZq2BFgd3AnfxwcwplO8vZOPzn95kA,580
+staticvectors/train.py,sha256=xoHNBjUOsMd61ZxVpS1IL6Nn-ZKeBedAmgTRTI5P5Tg,1981
+staticvectors/xhash.py,sha256=r84pSq_U0bgg_m9vuOhz6a3sjQBKIQQWsKIqZdRY-FE,1340
+staticvectors-0.1.0.dist-info/LICENSE,sha256=ZH_do_2ypQw7hIj6iwB4g-Sdunkx4bDcdgh5O2Nw1JA,10754
+staticvectors-0.1.0.dist-info/METADATA,sha256=mQq_DiNIMLuTA_eMgzxD8SyDLz-R80HoZ5kTqjCvS9U,7212
+staticvectors-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+staticvectors-0.1.0.dist-info/top_level.txt,sha256=eaoIrPjQWgcc1YaSfbHTBiXqID750qUEQ7CQbVEsbbA,14
+staticvectors-0.1.0.dist-info/RECORD,,
