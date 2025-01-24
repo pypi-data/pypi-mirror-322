@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: pybaseballstats
+Version: 0.0.2
+Summary: A Python package for scraping baseball data.
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp>=3.11.11
+Requires-Dist: asyncio>=3.4.3
+Requires-Dist: bs4>=0.0.2
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: polars>=1.20.0
+Requires-Dist: pytest>=8.3.4
+Requires-Dist: requests>=2.32.3
+Requires-Dist: ruff>=0.9.3
+Requires-Dist: tqdm>=4.67.1
+
+# pybaseballstats
+
+A Python package for scraping baseball statistics from the web. Inspired by the pybaseball package by James LeDoux.
+
+## Available Sources
+
+1. Baseball Savant
+    - This source provides high quality pitch-by-pitch data for all MLB games since 2015. This data is useful for analyzing pitch movement, pitch usage, and other pitching statistics.
+
+## Installation
+
+pybaseballstats can be installed using pip or any other package manager.:
+Example:
+
+```bash
+pip install pybaseballstats
+```
+
+or:
+
+```bash
+uv add pybaseballstats
+```
+
+## Documentation
+
+Usage documentation can be found at /usage_docs/
+Technical documentation can be found at /technical_docs/
