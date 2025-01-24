@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: PackageFunctions_youneskaidi
+Version: 0.0.1
+Summary: A small example package
+Author-Email: youneselkaidi <youneswork31@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
