@@ -1,0 +1,283 @@
+{
+ "last_update": "2025-01-08T15:24:17.044630+00:00",
+ "prefixes": {
+  "atto": {
+   "url": "http://si-digital-framework.org/SI/prefixes/atto",
+   "symbol": "a"
+  },
+  "centi": {
+   "url": "http://si-digital-framework.org/SI/prefixes/centi",
+   "symbol": "c"
+  },
+  "deca": {
+   "url": "http://si-digital-framework.org/SI/prefixes/deca",
+   "symbol": "da"
+  },
+  "deci": {
+   "url": "http://si-digital-framework.org/SI/prefixes/deci",
+   "symbol": "d"
+  },
+  "exa": {
+   "url": "http://si-digital-framework.org/SI/prefixes/exa",
+   "symbol": "E"
+  },
+  "femto": {
+   "url": "http://si-digital-framework.org/SI/prefixes/femto",
+   "symbol": "f"
+  },
+  "giga": {
+   "url": "http://si-digital-framework.org/SI/prefixes/giga",
+   "symbol": "G"
+  },
+  "hecto": {
+   "url": "http://si-digital-framework.org/SI/prefixes/hecto",
+   "symbol": "h"
+  },
+  "kilo": {
+   "url": "http://si-digital-framework.org/SI/prefixes/kilo",
+   "symbol": "k"
+  },
+  "mega": {
+   "url": "http://si-digital-framework.org/SI/prefixes/mega",
+   "symbol": "M"
+  },
+  "micro": {
+   "url": "http://si-digital-framework.org/SI/prefixes/micro",
+   "symbol": "µ"
+  },
+  "milli": {
+   "url": "http://si-digital-framework.org/SI/prefixes/milli",
+   "symbol": "m"
+  },
+  "nano": {
+   "url": "http://si-digital-framework.org/SI/prefixes/nano",
+   "symbol": "n"
+  },
+  "none": {
+   "url": "http://si-digital-framework.org/SI/prefixes/none",
+   "symbol": ""
+  },
+  "peta": {
+   "url": "http://si-digital-framework.org/SI/prefixes/peta",
+   "symbol": "P"
+  },
+  "pico": {
+   "url": "http://si-digital-framework.org/SI/prefixes/pico",
+   "symbol": "p"
+  },
+  "quecto": {
+   "url": "http://si-digital-framework.org/SI/prefixes/quecto",
+   "symbol": "q"
+  },
+  "quetta": {
+   "url": "http://si-digital-framework.org/SI/prefixes/quetta",
+   "symbol": "Q"
+  },
+  "ronna": {
+   "url": "http://si-digital-framework.org/SI/prefixes/ronna",
+   "symbol": "R"
+  },
+  "ronto": {
+   "url": "http://si-digital-framework.org/SI/prefixes/ronto",
+   "symbol": "r"
+  },
+  "tera": {
+   "url": "http://si-digital-framework.org/SI/prefixes/tera",
+   "symbol": "T"
+  },
+  "yocto": {
+   "url": "http://si-digital-framework.org/SI/prefixes/yocto",
+   "symbol": "y"
+  },
+  "yotta": {
+   "url": "http://si-digital-framework.org/SI/prefixes/yotta",
+   "symbol": "Y"
+  },
+  "zepto": {
+   "url": "http://si-digital-framework.org/SI/prefixes/zepto",
+   "symbol": "z"
+  },
+  "zetta": {
+   "url": "http://si-digital-framework.org/SI/prefixes/zetta",
+   "symbol": "Z"
+  }
+ },
+ "units": {
+  "gram": {
+   "url": "http://si-digital-framework.org/SI/units/gram",
+   "symbol": "g"
+  },
+  "minute": {
+   "url": "http://si-digital-framework.org/SI/units/minute",
+   "symbol": "min"
+  },
+  "tesla": {
+   "url": "http://si-digital-framework.org/SI/units/tesla",
+   "symbol": "T"
+  },
+  "arcminute": {
+   "url": "http://si-digital-framework.org/SI/units/arcminute",
+   "symbol": "′"
+  },
+  "litre": {
+   "url": "http://si-digital-framework.org/SI/units/litre",
+   "symbol": "L"
+  },
+  "farad": {
+   "url": "http://si-digital-framework.org/SI/units/farad",
+   "symbol": "F"
+  },
+  "lumen": {
+   "url": "http://si-digital-framework.org/SI/units/lumen",
+   "symbol": "lm"
+  },
+  "becquerel": {
+   "url": "http://si-digital-framework.org/SI/units/becquerel",
+   "symbol": "Bq"
+  },
+  "coulomb": {
+   "url": "http://si-digital-framework.org/SI/units/coulomb",
+   "symbol": "C"
+  },
+  "joule": {
+   "url": "http://si-digital-framework.org/SI/units/joule",
+   "symbol": "J"
+  },
+  "newton": {
+   "url": "http://si-digital-framework.org/SI/units/newton",
+   "symbol": "N"
+  },
+  "steradian": {
+   "url": "http://si-digital-framework.org/SI/units/steradian",
+   "symbol": "sr"
+  },
+  "degreecelsius": {
+   "url": "http://si-digital-framework.org/SI/units/degreeCelsius",
+   "symbol": "℃"
+  },
+  "metre": {
+   "url": "http://si-digital-framework.org/SI/units/metre",
+   "symbol": "m"
+  },
+  "sievert": {
+   "url": "http://si-digital-framework.org/SI/units/sievert",
+   "symbol": "Sv"
+  },
+  "volt": {
+   "url": "http://si-digital-framework.org/SI/units/volt",
+   "symbol": "V"
+  },
+  "degree": {
+   "url": "http://si-digital-framework.org/SI/units/degree",
+   "symbol": "°"
+  },
+  "hour": {
+   "url": "http://si-digital-framework.org/SI/units/hour",
+   "symbol": "h"
+  },
+  "candela": {
+   "url": "http://si-digital-framework.org/SI/units/candela",
+   "symbol": "cd"
+  },
+  "electronvolt": {
+   "url": "http://si-digital-framework.org/SI/units/electronvolt",
+   "symbol": "eV"
+  },
+  "watt": {
+   "url": "http://si-digital-framework.org/SI/units/watt",
+   "symbol": "W"
+  },
+  "arcsecond": {
+   "url": "http://si-digital-framework.org/SI/units/arcsecond",
+   "symbol": "″"
+  },
+  "tonne": {
+   "url": "http://si-digital-framework.org/SI/units/tonne",
+   "symbol": "t"
+  },
+  "weber": {
+   "url": "http://si-digital-framework.org/SI/units/weber",
+   "symbol": "Wb"
+  },
+  "day": {
+   "url": "http://si-digital-framework.org/SI/units/day",
+   "symbol": "d"
+  },
+  "siemens": {
+   "url": "http://si-digital-framework.org/SI/units/siemens",
+   "symbol": "S"
+  },
+  "pascal": {
+   "url": "http://si-digital-framework.org/SI/units/pascal",
+   "symbol": "Pa"
+  },
+  "hectare": {
+   "url": "http://si-digital-framework.org/SI/units/hectare",
+   "symbol": "ha"
+  },
+  "bel": {
+   "url": "http://si-digital-framework.org/SI/units/bel",
+   "symbol": "B"
+  },
+  "mole": {
+   "url": "http://si-digital-framework.org/SI/units/mole",
+   "symbol": "mol"
+  },
+  "gray": {
+   "url": "http://si-digital-framework.org/SI/units/gray",
+   "symbol": "Gy"
+  },
+  "kelvin": {
+   "url": "http://si-digital-framework.org/SI/units/kelvin",
+   "symbol": "K"
+  },
+  "astronomicalunit": {
+   "url": "http://si-digital-framework.org/SI/units/astronomicalunit",
+   "symbol": "au"
+  },
+  "ohm": {
+   "url": "http://si-digital-framework.org/SI/units/ohm",
+   "symbol": "Ω"
+  },
+  "neper": {
+   "url": "http://si-digital-framework.org/SI/units/neper",
+   "symbol": "Np"
+  },
+  "katal": {
+   "url": "http://si-digital-framework.org/SI/units/katal",
+   "symbol": "kat"
+  },
+  "ampere": {
+   "url": "http://si-digital-framework.org/SI/units/ampere",
+   "symbol": "A"
+  },
+  "second": {
+   "url": "http://si-digital-framework.org/SI/units/second",
+   "symbol": "s"
+  },
+  "kilogram": {
+   "url": "http://si-digital-framework.org/SI/units/kilogram",
+   "symbol": "kg"
+  },
+  "hertz": {
+   "url": "http://si-digital-framework.org/SI/units/hertz",
+   "symbol": "Hz"
+  },
+  "dalton": {
+   "url": "http://si-digital-framework.org/SI/units/dalton",
+   "symbol": "Da"
+  },
+  "henry": {
+   "url": "http://si-digital-framework.org/SI/units/henry",
+   "symbol": "H"
+  },
+  "radian": {
+   "url": "http://si-digital-framework.org/SI/units/radian",
+   "symbol": "rad"
+  },
+  "lux": {
+   "url": "http://si-digital-framework.org/SI/units/lux",
+   "symbol": "lx"
+  }
+ }
+}
