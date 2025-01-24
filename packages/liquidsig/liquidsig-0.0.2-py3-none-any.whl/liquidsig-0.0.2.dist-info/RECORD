@@ -1,0 +1,10 @@
+liquidsig/__init__.py,sha256=g8816-FyqKN0wMH8SYYwElR_ttjZI0IzCD4WAd2uNko,17
+liquidsig/__main__.py,sha256=-MzAx59_5eVQJ3PBELJ-0AmoI4pb70ApbAmKP_IoLSI,17824
+liquidsig/deconvolution.py,sha256=-Qo-yQSSmdsvyXzUejiTJ2pYcLX9y90v3dRCIfn5u_8,22086
+liquidsig/functions.py,sha256=0IhyZLbPRA2AZqS8zlp62tIFY2JSeX36mMsKZFzKr40,992
+liquidsig/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+liquidsig-0.0.2.dist-info/LICENSE,sha256=Vp7rNujDr65egRTmZfAci6VCZ79tSqaNUcNxQf2odT8,579
+liquidsig-0.0.2.dist-info/METADATA,sha256=ZQerVC_J2Wvf_2sYJ0okS3SKN33RU8gzMxgkBvsRHtw,4291
+liquidsig-0.0.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+liquidsig-0.0.2.dist-info/entry_points.txt,sha256=nyJJFUkXlhYZ8L1khxXqY_qaalf8wST7gOWHmGNSFBM,53
+liquidsig-0.0.2.dist-info/RECORD,,
