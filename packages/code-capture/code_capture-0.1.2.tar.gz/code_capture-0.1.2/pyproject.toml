@@ -1,0 +1,7 @@
+[project]
+name = "code-capture"
+version = "0.1.2"
+description = "Capture code blocks while executing them"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["bunch-py3>=2.0.0"]
