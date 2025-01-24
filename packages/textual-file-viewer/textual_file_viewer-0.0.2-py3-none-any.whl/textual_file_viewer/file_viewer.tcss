@@ -1,0 +1,5 @@
+ImageViewer {
+    width: 1fr;
+    height: 1fr;
+    background: $background-lighten-3;
+}
