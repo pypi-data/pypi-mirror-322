@@ -1,0 +1,5 @@
+setup.py
+AITomLib.egg-info/PKG-INFO
+AITomLib.egg-info/SOURCES.txt
+AITomLib.egg-info/dependency_links.txt
+AITomLib.egg-info/top_level.txt

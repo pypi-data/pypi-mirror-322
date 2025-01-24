@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: AITomLib
+Version: 0.0.1
+Summary: AITomLib Python package
+Author: TE23
+Author-email: tomenglish23@gmail.com
+Keywords: python,AITomLib
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+
+AITomLib Python package with a slightly longer description
