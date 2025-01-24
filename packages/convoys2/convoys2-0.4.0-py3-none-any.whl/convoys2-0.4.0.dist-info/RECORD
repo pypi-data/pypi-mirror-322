@@ -1,0 +1,12 @@
+convoys/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+convoys/export.py,sha256=O9tuFuXyuqPZAgWMPwFbQcn6hj_ACsTpVy0AuYExJV8,3898
+convoys/multi.py,sha256=QajoBnG9hfTksGSl70Z573BEeK3QU6jVZplQ_FeatKA,5022
+convoys/plotting.py,sha256=DOlcNrFVglpisS20bGc4IBnSJDUqpRTG_ZGg7aAchr8,4810
+convoys/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+convoys/regression.py,sha256=1r5MFZOefjAFmH1lM7kpgAKdJBdx7LfbgpuMlgLwuMA,20230
+convoys/single.py,sha256=c_L0qiKgzzhfrzrxZniXMabAFns_ayI_VVPaNxdNtGY,4464
+convoys/utils.py,sha256=zXRXkDTajPJUz9JHVqHMwV2Uiik-g0lq-u995WyF1uM,8027
+convoys2-0.4.0.dist-info/METADATA,sha256=O-Q83WcGYRjnHMdzJi3ZAItqGs8ejn1Yu9OXfaN8UP8,1783
+convoys2-0.4.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+convoys2-0.4.0.dist-info/licenses/LICENSE,sha256=XW2UHCS-PrdASMjwV-6kg8XhoHvetEK-NDMxO1GOEPA,1094
+convoys2-0.4.0.dist-info/RECORD,,
