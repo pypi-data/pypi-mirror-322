@@ -1,0 +1,9 @@
+libonvif==3.2.5
+avio==3.2.5
+kankakee==1.0.2
+numpy
+loguru
+opencv-python-headless
+PyQt6-Qt6
+pyqt6
+requests
