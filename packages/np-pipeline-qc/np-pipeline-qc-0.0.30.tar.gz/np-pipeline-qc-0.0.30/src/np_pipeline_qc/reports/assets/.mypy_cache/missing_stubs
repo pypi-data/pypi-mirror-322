@@ -1,0 +1,5 @@
+pandas-stubs
+types-beautifulsoup4
+types-cffi
+types-psycopg2
+types-python-dateutil
