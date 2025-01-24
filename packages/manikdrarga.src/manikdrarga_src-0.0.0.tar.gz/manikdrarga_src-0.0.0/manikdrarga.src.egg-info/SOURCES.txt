@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+manikdrarga.src.egg-info/PKG-INFO
+manikdrarga.src.egg-info/SOURCES.txt
+manikdrarga.src.egg-info/dependency_links.txt
+manikdrarga.src.egg-info/top_level.txt
+manikdrarga/src/__init__.py
+manikdrarga/src/main.py
