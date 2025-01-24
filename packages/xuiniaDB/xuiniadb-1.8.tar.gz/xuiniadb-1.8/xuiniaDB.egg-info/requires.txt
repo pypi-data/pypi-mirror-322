@@ -1,0 +1,3 @@
+portableDB
+colorama
+opencv-python
