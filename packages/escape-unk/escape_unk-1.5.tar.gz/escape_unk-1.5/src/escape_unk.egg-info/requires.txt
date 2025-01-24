@@ -1,0 +1,3 @@
+regex
+sentencepiece<=0.2
+protobuf<6
