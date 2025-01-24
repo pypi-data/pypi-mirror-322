@@ -1,0 +1,65 @@
+{
+  "name": "my-component",
+  "displayName": "My Component",
+  "version": "1.2.3",
+  "meta": {
+    "moduleFormat": "(.*)"
+  },
+  "config": {},
+  "types": {
+    "my-component:index:Subject": {
+      "description": "The subject of a certificate.",
+      "properties": {
+        "cn": {
+          "type": "string",
+          "description": "The common name."
+        }
+      },
+      "type": "object"
+    }
+  },
+  "provider": {
+    "type": "object"
+  },
+  "resources": {
+    "my-component:index:SelfSignedCertificate": {
+      "properties": {
+        "caCertPem": {
+          "type": "string"
+        },
+        "privateKey": {
+          "type": "string",
+          "description": "The private key."
+        },
+        "subject": {
+          "$ref": "#/types/my-component:index:Subject"
+        }
+      },
+      "type": "object",
+      "required": [
+        "caCertPem",
+        "privateKey",
+        "subject"
+      ],
+      "inputProperties": {
+        "algorithm": {
+          "type": "string",
+          "description": "The algorithm to use for the key."
+        },
+        "ecdsaCurve": {
+          "type": "string"
+        },
+        "rsaBits": {
+          "type": "integer"
+        },
+        "subject": {
+          "$ref": "#/types/my-component:index:Subject"
+        }
+      },
+      "requiredInputs": [
+        "subject"
+      ],
+      "isComponent": true
+    }
+  }
+}
