@@ -1,0 +1,96 @@
+[project]
+name = "odoo-addon-redner"
+dynamic = ["version"]
+readme = "README.rst"
+requires-python = "~=3.8"
+license = { file = "LICENSE", name = "GNU Affero General Public License v3" }
+keywords = ["odoo"]
+authors = [{ name = "XCG Consulting" }]
+classifiers = [
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Framework :: Odoo",
+  "Framework :: Odoo :: 13.0",
+  "License :: OSI Approved :: GNU Affero General Public License v3"
+]
+dependencies = [
+  "odoo ==13.0.*",
+  "odoo-addon-converter >=13.0.3.0.1,<13.0.4",
+  "requests_unixsocket"
+]
+
+[project.optional-dependencies]
+doc = ["sphinx", "sphinx-odoo-autodoc", "odoo-scripts"]
+test = []
+
+[project.urls]
+repository = "https://orus.io/xcg/odoo-modules/redner"
+changelog = "https://orus.io/xcg/odoo-modules/redner/-/blob/branch/13.0/NEWS.rst"
+
+[build-system]
+requires = ["hatchling >=1.19", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+exclude = [
+  "/doc/",
+  "/.editorconfig",
+  "/.eslintrc.yml",
+  "/.flake8",
+  "/.gitlab-ci.yml",
+  "/.hgignore",
+  "/.hgtags",
+  "/.prettierrc.yml",
+  "/.yamllint.yaml"
+]
+
+[tool.hatch.build.targets.wheel]
+include = [
+  "*.csv",
+  "/i18n/",
+  "/static/",
+  "README.rst",
+  "*.xml",
+  "*.py",
+  "*.svg",
+  "*.png"
+]
+
+[tool.hatch.build.targets.wheel.sources]
+"" = "odoo/addons/redner"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.black]
+line-length = 79
+target-version = ["py38"]
+required-version = "19.3b0"
+
+[tool.isort]
+py_version = 38
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+combine_as_imports = true
+sections = [
+  "FUTURE",
+  "STDLIB",
+  "SPECIAL_THIRD_PARTY",
+  "ODOO",
+  "ODOO_ADDONS",
+  "LOCALFOLDER",
+  "THIRDPARTY"
+]
+known_odoo = ["odoo"]
+known_odoo_addons = ["odoo.addons"]
+known_special_third_party = [
+  "dateutil",
+  "lxml",
+  "mock",
+  "requests",
+  "minio",
+  "werkzeug"
+]
+default_section = "THIRDPARTY"

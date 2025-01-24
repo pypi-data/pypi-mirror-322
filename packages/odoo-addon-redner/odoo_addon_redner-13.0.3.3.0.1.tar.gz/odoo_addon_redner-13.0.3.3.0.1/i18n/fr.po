@@ -1,0 +1,469 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * redner
+# Vincent Hatakeyama <vincent.hatakeyama@xcg-consulting.fr>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 11:11+0000\n"
+"PO-Revision-Date: 2022-03-04 12:12+0100\n"
+"Last-Translator: Vincent Hatakeyama <vincent.hatakeyama@xcg-consulting.fr>\n"
+"Language-Team: XCG Consulting\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: redner
+#: code:addons/redner/models/redner_template.py:0
+#, python-format
+msgid "%s (copy)"
+msgstr "%s (copie)"
+
+#. module: redner
+#: code:addons/redner/models/ir_actions_report.py:0
+#, python-format
+msgid "(Native)"
+msgstr "(Natif)"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_template__active
+msgid "Active"
+msgstr "Actif"
+
+#. module: redner
+#: model_terms:ir.ui.view,arch_db:redner.redner_template_view_search
+msgid "Archived"
+msgstr "Archivé"
+
+#. module: redner
+#: model:ir.model.fields,help:redner.field_email_template_preview__is_redner_template
+#: model:ir.model.fields,help:redner.field_mail_template__is_redner_template
+msgid ""
+"Check this box if this template is a redner. If it's not checked, it assumes "
+"that the default email template odoo to be used."
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,help:redner.field_redner_template__body
+msgid "Code for the mjml redner template must be added here"
+msgstr "Code for the mjml redner template must be added here"
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_substitution__converter__constant
+msgid "Constant value"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__converter
+msgid "Converter"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_report__create_uid
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__create_uid
+#: model:ir.model.fields,field_description:redner.field_redner_template__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_report__create_date
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__create_date
+#: model:ir.model.fields,field_description:redner.field_redner_template__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__depth
+msgid "Depth"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_report__display_name
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__display_name
+#: model:ir.model.fields,field_description:redner.field_redner_template__display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: redner
+#: model:ir.model,name:redner.model_mail_template
+msgid "Email Templates"
+msgstr "Modèles de courriels"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__value
+msgid "Expression"
+msgstr ""
+
+#. module: redner
+#: code:addons/redner/models/redner_template.py:0
+#, python-format
+msgid "Failed to update render template, %s"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_substitution__converter__field
+msgid "Field"
+msgstr ""
+
+#. module: redner
+#: code:addons/redner/models/ir_actions_report.py:0
+#, python-format
+msgid "Field 'Output Format' is required for Redner report"
+msgstr ""
+
+#. module: redner
+#: model_terms:ir.ui.view,arch_db:redner.redner_report_view
+msgid "Get Substitutions from Rednerd Report"
+msgstr "Obtenir les substitutions à partir du template redner"
+
+#. module: redner
+#: model_terms:ir.ui.view,arch_db:redner.view_email_template_form
+msgid "Get Substitutions from Rednerd Template"
+msgstr "Obtenir les substitutions à partir du template redner"
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_template__produces__text/html
+msgid "HTML"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_report__id
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__id
+#: model:ir.model.fields,field_description:redner.field_redner_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: redner
+#: model:ir.model.fields,help:redner.field_redner_template__active
+msgid ""
+"If unchecked, it will allow you to hide the template without removing it."
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,help:redner.field_ir_actions_report__redner_multi_in_one
+msgid ""
+"If you execute a report on several records, by default Odoo will generate a "
+"ZIP file that contains as many files as selected records. If you enable this "
+"option, Odoo will generate instead a single report for the selected records."
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_substitution__converter__image-data-url
+msgid "Image data url"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_substitution__converter__image-file
+msgid "Image file"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_report__ir_actions_report_id
+msgid "Ir Actions Report"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_template__is_mjml
+msgid "Is MJML"
+msgstr "Est en MJML"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_ir_actions_report__is_redner_native_format
+msgid "Is Redner Native Format"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_email_template_preview__is_redner_template
+#: model:ir.model.fields,field_description:redner.field_mail_template__is_redner_template
+msgid "Is redner template?"
+msgstr "Est un template redner"
+
+#. module: redner
+#: code:addons/redner/models/redner_template.py:0
+#: model:ir.model.fields,field_description:redner.field_redner_template__language
+#, python-format
+msgid "Language"
+msgstr "Language"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_report____last_update
+#: model:ir.model.fields,field_description:redner.field_redner_substitution____last_update
+#: model:ir.model.fields,field_description:redner.field_redner_template____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_report__write_uid
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__write_uid
+#: model:ir.model.fields,field_description:redner.field_redner_template__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_report__write_date
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__write_date
+#: model:ir.model.fields,field_description:redner.field_redner_template__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_template__template_data
+msgid "Libreoffice Template"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_template__locale_id
+msgid "Locale"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_template__produces__text/mjml
+msgid "MJML"
+msgstr "MJML"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_ir_actions_report__redner_multi_in_one
+msgid "Multiple Records in a Single Redner Report"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_template__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_substitution__converter__mail_template
+msgid "Odoo Template"
+msgstr "Modèle"
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_substitution__converter__mail_template+deserialize
+msgid "Odoo Template + Eval"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_template__produces__application/vnd_oasis_opendocument_text
+msgid "OpenDocument Text"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,help:redner.field_redner_template__locale_id
+msgid "Optional translation language (ISO code)."
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_template__produces
+msgid "Produces"
+msgstr ""
+
+#. module: redner
+#: model:ir.ui.menu,name:redner.redner_menu
+#: model_terms:ir.ui.view,arch_db:redner.redner_template_view_search
+msgid "Redner"
+msgstr "Redner"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_template__redner_id
+msgid "Redner ID"
+msgstr "Redner ID"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_ir_actions_report__redner_filetype
+msgid "Redner Output Format"
+msgstr ""
+
+#. module: redner
+#: model:ir.model,name:redner.model_redner_substitution
+msgid "Redner Substitution"
+msgstr "Redner Substitution"
+
+#. module: redner
+#: model:ir.model,name:redner.model_redner_template
+#: model:ir.model.fields,field_description:redner.field_email_template_preview__redner_tmpl_id
+#: model:ir.model.fields,field_description:redner.field_mail_template__redner_tmpl_id
+#: model_terms:ir.ui.view,arch_db:redner.redner_report_view
+msgid "Redner Template"
+msgstr ""
+
+#. module: redner
+#: model:ir.actions.act_window,name:redner.redner_template_action
+msgid "Redner Templates"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_ir_actions_report__redner_tmpl_id
+msgid "Redner template"
+msgstr "Redner template"
+
+#. module: redner
+#: model_terms:ir.ui.view,arch_db:redner.redner_template_view_form
+#: model_terms:ir.ui.view,arch_db:redner.view_email_template_form
+msgid "Rednerd Template"
+msgstr "Rednerd Template"
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_substitution__converter__relation-path
+msgid "Relation Path"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_substitution__converter__relation-to-many
+msgid "Relation to many"
+msgstr ""
+
+#. module: redner
+#: model:ir.model,name:redner.model_ir_actions_report
+msgid "Report Action"
+msgstr ""
+
+#. module: redner
+#: model:ir.model,name:redner.model_redner_report
+msgid "Report Redner"
+msgstr "Redner"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_ir_actions_report__report_type
+msgid "Report Type"
+msgstr ""
+
+#. module: redner
+#: model:ir.actions.server,name:redner.send_to_rednerd_server_action
+msgid "Send to rednerd server"
+msgstr "Envoyer au serveur rednerd"
+
+#. module: redner
+#: model_terms:ir.ui.view,arch_db:redner.redner_template_view_form
+msgid "Settings"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_template__slug
+msgid "Slug"
+msgstr "Slug"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_ir_actions_report__substitution_ids
+msgid "Substitution"
+msgstr "Substitution"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_email_template_preview__redner_substitution_ids
+#: model:ir.model.fields,field_description:redner.field_mail_template__redner_substitution_ids
+#: model_terms:ir.ui.view,arch_db:redner.redner_report_view
+#: model_terms:ir.ui.view,arch_db:redner.view_email_template_form
+msgid "Substitutions"
+msgstr "Substitutions"
+
+#. module: redner
+#: model_terms:ir.ui.view,arch_db:redner.redner_template_view_form
+msgid "Template Body"
+msgstr ""
+
+#. module: redner
+#: model_terms:ir.ui.view,arch_db:redner.redner_template_view_form
+msgid "Template Libreoffice"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_template__body
+msgid "Template remote Id"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,help:redner.field_redner_substitution__keyword
+msgid "Template variable name"
+msgstr "Nom de la variable du template"
+
+#. module: redner
+#: model:ir.ui.menu,name:redner.redner_template_menu
+msgid "Templates"
+msgstr "Modèles"
+
+#. module: redner
+#: code:addons/redner/models/ir_actions_report.py:0
+#, python-format
+msgid ""
+"The output format cannot be different from the extension defined in \"Save "
+"as attachment prefix\"."
+msgstr "Le format de sortie ne peut être différent de l'extension définie dans \"Enregistrer "
+"comme préfixe de pièce jointe\"."
+
+#. module: redner
+#: model:ir.model.fields,help:redner.field_ir_actions_report__report_type
+msgid ""
+"The type of the report that will be rendered, each one having its own "
+"rendering method. HTML means the report will be opened directly in your "
+"browser PDF means the report will be rendered using Wkhtmltopdf and "
+"downloaded by the user."
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,help:redner.field_redner_template__name
+msgid "This is a name of template mjml redner"
+msgstr "This is a name of template mjml redner"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__ir_actions_report_id
+msgid "Use report"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__template_id
+msgid "Use template"
+msgstr "Utiliser un modèle"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_substitution__keyword
+msgid "Variable"
+msgstr "Variable"
+
+#. module: redner
+#: model:ir.model.fields,field_description:redner.field_redner_template__detected_keywords
+msgid "Variables"
+msgstr "Variables"
+
+#. module: redner
+#: code:addons/redner/models/mail_template.py:0
+#: code:addons/redner/models/render_report.py:0
+#, python-format
+msgid ""
+"We received an unexpected error from redner server. Please contact your "
+"administrator"
+msgstr ""
+"We received an unexpected error from redner server. Please contact your "
+"administrator"
+
+#. module: redner
+#: code:addons/redner/models/redner_substitution.py:0
+#, python-format
+msgid "invalid converter type: %s"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_template__language__mustache
+msgid "mustache"
+msgstr "mustache"
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__redner_template__language__od+mustache
+msgid "od+mustache"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields.selection,name:redner.selection__ir_actions_report__report_type__redner
+msgid "redner"
+msgstr ""
+
+#. module: redner
+#: model:ir.model.fields,help:redner.field_redner_template__is_mjml
+msgid "set to false if your template doesn't contain MJML"
+msgstr "set to false if your template doesn't contain MJML"
+
+#. module: redner
+#: model:ir.model.fields,help:redner.field_redner_template__language
+msgid "templating language"
+msgstr "templating language"

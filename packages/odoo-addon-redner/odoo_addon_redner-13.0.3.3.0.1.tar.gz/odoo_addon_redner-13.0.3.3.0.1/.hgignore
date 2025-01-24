@@ -1,0 +1,6 @@
+syntax: glob
+*.pyc
+*~
+*.swp
+pyproject.toml
+.isort.cfg
