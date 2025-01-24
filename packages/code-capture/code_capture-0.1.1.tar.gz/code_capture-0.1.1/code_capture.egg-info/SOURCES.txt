@@ -1,0 +1,8 @@
+README.md
+code_capture.py
+pyproject.toml
+code_capture.egg-info/PKG-INFO
+code_capture.egg-info/SOURCES.txt
+code_capture.egg-info/dependency_links.txt
+code_capture.egg-info/requires.txt
+code_capture.egg-info/top_level.txt
