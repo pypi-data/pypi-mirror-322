@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "flodger"
+version = "1.0.4"
+authors = [
+  { name="Rob Wade", email="rwade@claimsconsortiumgroup.co.uk" },
+]
+description = "A package for function-driven logging."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'loguru',
+    'pandas',
+    'polars'
+]
