@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+pyPRUF/__init__.py
+pyPRUF/fuzzy_logic.py
+pyPRUF/fuzzy_sets.py
+pyPRUF/membership_functions.py
+pyPRUF.egg-info/PKG-INFO
+pyPRUF.egg-info/SOURCES.txt
+pyPRUF.egg-info/dependency_links.txt
+pyPRUF.egg-info/requires.txt
+pyPRUF.egg-info/top_level.txt
