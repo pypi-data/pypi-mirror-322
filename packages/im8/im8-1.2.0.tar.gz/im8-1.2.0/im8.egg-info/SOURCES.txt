@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+im8/__init__.py
+im8/main.py
+im8.egg-info/PKG-INFO
+im8.egg-info/SOURCES.txt
+im8.egg-info/dependency_links.txt
+im8.egg-info/requires.txt
+im8.egg-info/top_level.txt
