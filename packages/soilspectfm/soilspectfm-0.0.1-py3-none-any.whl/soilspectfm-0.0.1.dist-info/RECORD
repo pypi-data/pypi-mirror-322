@@ -1,0 +1,11 @@
+soilspectfm/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+soilspectfm/_modidx.py,sha256=74rjwaluYJvcGgFzeOiVprMn-K8Q-gR0pcEpefxszsI,3238
+soilspectfm/core.py,sha256=HYGbnhCqfJ94vg8-SPqByUHQX73N3PUKRTpmcwXlpz4,4426
+soilspectfm/utils.py,sha256=PANxNfMR2HaRx-RYPucoNGQ6x5mIH9tGW51hhSeKLGg,627
+soilspectfm/visualization.py,sha256=ZV7cmdu8qpm7DFas6fIy1NtqqJIbpoL_aUE8UjgRrUQ,4078
+soilspectfm-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+soilspectfm-0.0.1.dist-info/METADATA,sha256=rEE6SF49OVd9LU8eTBEk6c7Ii3-HjxWlOyEwhUlkjxs,5025
+soilspectfm-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+soilspectfm-0.0.1.dist-info/entry_points.txt,sha256=-ByGy5DFXUs8fucU6B-7GEUS2WuyJNaDn7tjYSGF2Iw,44
+soilspectfm-0.0.1.dist-info/top_level.txt,sha256=x2sBMDYOedXcaImFkkVQFZcqPTa50GVJCSKXT7bquho,12
+soilspectfm-0.0.1.dist-info/RECORD,,
