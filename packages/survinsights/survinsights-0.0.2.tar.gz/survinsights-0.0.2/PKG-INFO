@@ -1,0 +1,49 @@
+Metadata-Version: 2.4
+Name: survinsights
+Version: 0.0.2
+Summary: Interpretation of ML-based survival methods
+Project-URL: Documentation, https://github.com/TeamHeKA/survInterpretability#README
+Project-URL: Issues, https://github.com/TeamHeKA/survInterpretability/issues
+Project-URL: Source, https://github.com/TeamHeKA/survInterpretability
+Author-email: lucas.ducrot@inria.fr, van-tuan.nguyen@inria.fr
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: >=3.9
+Requires-Dist: lifelines
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: shap
+Description-Content-Type: text/markdown
+
+# survInsights
+
+[![PyPI version](https://img.shields.io/pypi/v/survinsights.svg)](https://pypi.org/project/survinsights/)
+[![PyPI Python versions](https://img.shields.io/pypi/pyversions/survinsights.svg)](https://pypi.org/project/survinsights/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://spdx.org/licenses/MIT.html)
+
+_survinsights_ is a framework for interpreting survival models
+
+## Quick description
+
+_survinsights_ is a Python 3 package 
+
+## Notebook tutorial
+
+The Jupyter notebooks in folder "examples" give useful tutorials of how to use the framework
