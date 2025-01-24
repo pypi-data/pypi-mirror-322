@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: councilcount
+Version: 2.0.0
+Summary: The `councilcount` package allows easy access to ACS population data across various geographic boundaries. For the boundaries that are not native to the ACS, such as council districts, an estimate is provided. Visit https://github.com/NewYorkCityCouncil/councilcount-py/tree/main to review available functions.
+Author: Rachel Avram
+Author-email: ravram@council.nyc.gov
+Requires-Python: >=3.9
+Requires-Dist: geojson==3.2.0
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.2.3
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2024.2
+Requires-Dist: six==1.17.0
+Requires-Dist: tzdata==2024.2
