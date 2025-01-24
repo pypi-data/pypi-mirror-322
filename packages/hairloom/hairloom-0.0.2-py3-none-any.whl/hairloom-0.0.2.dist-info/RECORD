@@ -1,0 +1,12 @@
+hairloom/__init__.py,sha256=Sr2A1NJYjflxCGxVwZQ9_8aeyYfm-AckkD-JrU--IRU,572
+hairloom/bundle.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hairloom/cli.py,sha256=VjQQytJ-NyKW8s-3UTLcl37xFsWUyxXbv2JvmrsktP0,4282
+hairloom/collect.py,sha256=QtB6WXhrZw_CF9bzxDYvhOIsp1GMHIV5r1KWHRFgjKo,16960
+hairloom/datatypes.py,sha256=fFIfmTzm5itv-JZARyEfZZ_t7ga70GhpMmmCZAC3V38,20797
+hairloom/utils.py,sha256=8KBT4t49JXgFSzHaKOVD0NRRveZR6yxVHBDUHEahrDI,15159
+hairloom-0.0.2.dist-info/LICENSE,sha256=agw4ECilxCS3nnwGK5zEnW44HtlP4HpuZA7JXoQxBbY,1070
+hairloom-0.0.2.dist-info/METADATA,sha256=P4fAp3o4slUw87ig1Fjy5tcxeylW39PJDG7Fx7UF4t0,10230
+hairloom-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+hairloom-0.0.2.dist-info/entry_points.txt,sha256=W2-wdcEYM4yWVFYsoXvc3PoyZUoJmrJ6h82zjjEJhF8,46
+hairloom-0.0.2.dist-info/top_level.txt,sha256=dPAqDlk6dG3Rj04vx2S5PDLg3eF1MJema3FBKpSW0HU,9
+hairloom-0.0.2.dist-info/RECORD,,
