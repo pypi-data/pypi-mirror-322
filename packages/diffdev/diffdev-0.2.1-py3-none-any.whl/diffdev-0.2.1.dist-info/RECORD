@@ -1,0 +1,15 @@
+diffdev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diffdev/cli.py,sha256=ZX4XD81tS_9wI0MxPTyhwe8a6i_g2THTZu2f2pfP120,16081
+diffdev/clipboard.py,sha256=sUW8zRZLxI06QyB-eaJfzsX9wj7eC4wejTsUCa_rCwM,2411
+diffdev/config.py,sha256=8QMB0oZUaJ73YpubDDZwor24oAiH7-_RUUvMxJLnZ-A,2695
+diffdev/context.py,sha256=cD4W9lnLcQdEtW2mVn4Pc61xNSdo7LMYDyG1ZlMfl3o,4869
+diffdev/file_selector.py,sha256=kDXaIZhXEZ2tamn2qphywKVoDoQlgosiPxF4SytbMnE,15988
+diffdev/gitignore.py,sha256=SA5dh60f57f8Zp1o3BslLkl710TTcfbazRQmSvjyBeg,2513
+diffdev/llm.py,sha256=PPdyzL_HM7g0su0U2KK46PCuVDh7Ys7eOA3jmp9nr4M,12668
+diffdev/patch.py,sha256=GRakaygS9xO7I8qIAC1AsoFH_D4SrNLP097JegYB2mA,8600
+diffdev/tree_utils.py,sha256=fTCm7uSHJAMRepqg8iD7Zd1Dtk1NRHaOD_v5TZHV_dE,6962
+diffdev-0.2.1.dist-info/METADATA,sha256=b8sE4PySkQi73JfypqUiBx1kabeChVZEbehzgx7frSs,5007
+diffdev-0.2.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+diffdev-0.2.1.dist-info/entry_points.txt,sha256=9W2V2KuNDahASqC8g3MO7S3N7wSQq3Gl3BJhruzwFxU,45
+diffdev-0.2.1.dist-info/top_level.txt,sha256=6RRL23qU8KL0Hq8vq-GQLXjJlVp2wgVk26IAH8pxDqk,8
+diffdev-0.2.1.dist-info/RECORD,,
