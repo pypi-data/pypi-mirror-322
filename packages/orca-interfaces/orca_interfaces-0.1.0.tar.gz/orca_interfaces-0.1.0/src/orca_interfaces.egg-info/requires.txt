@@ -1,0 +1,4 @@
+setuptools
+
+[dev]
+types-setuptools>=75.1.0
