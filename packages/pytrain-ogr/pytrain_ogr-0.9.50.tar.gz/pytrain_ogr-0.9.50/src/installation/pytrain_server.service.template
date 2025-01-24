@@ -1,0 +1,14 @@
+[Unit]
+Description=PyTrain Server
+After=multi-user.target
+After=network-online.target
+
+[Service]
+Type=exec
+User=___USER___
+Group=___USER___
+ExecStart=___HOME___/pytrain_server.bash
+Nice=-5
+
+[Install]
+WantedBy=multi-user.target
