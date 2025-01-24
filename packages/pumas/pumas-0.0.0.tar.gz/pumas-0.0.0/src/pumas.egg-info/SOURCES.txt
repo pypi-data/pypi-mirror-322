@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+description.txt
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.py
+src/pumas/__init__.py
+src/pumas.egg-info/PKG-INFO
+src/pumas.egg-info/SOURCES.txt
+src/pumas.egg-info/dependency_links.txt
+src/pumas.egg-info/requires.txt
+src/pumas.egg-info/top_level.txt
+tests/test_general.py
