@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+llm_oracle/__init__.py
+llm_oracle.egg-info/PKG-INFO
+llm_oracle.egg-info/SOURCES.txt
+llm_oracle.egg-info/dependency_links.txt
+llm_oracle.egg-info/top_level.txt
