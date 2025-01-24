@@ -1,0 +1,2 @@
+[console_scripts]
+mattermost-notify = mattermost_notify.cli:main

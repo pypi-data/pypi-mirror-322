@@ -1,0 +1,10 @@
+mattermost_notify/__init__.py,sha256=kF1RHz0b_T8OffFs0w7iD33hEvUDPz5LRbdbGcxPzyI,46
+mattermost_notify/api.py,sha256=NxFbgds-r6Ko7A0c86ulsDGDd-jpe6jM4Kb678NaZOE,3695
+mattermost_notify/cli.py,sha256=ETINwfyKiS8FzFBL0oHIMPe0u9S3Ee1HkoIIGZle84Y,3495
+mattermost_notify/client.py,sha256=w2w5WAMpJWxUxNZghaSxVAH4_LYPaiTOOuc46T66Cs4,9502
+mattermost_notify/config.py,sha256=7huq3tI2Q67sMRjIXaOQgLCApy0o0y_r4Or9WpTGwkg,2387
+notify_mattermost-0.1.1.dist-info/METADATA,sha256=2pc9J6WEqONuC8ILXfEkT8JyGeFoh3cAivW4Tdu4aKk,2596
+notify_mattermost-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+notify_mattermost-0.1.1.dist-info/entry_points.txt,sha256=SYxIJRo6NvI6DVGg89j0yZJqpbM4ykPHu30xE4YWcWg,65
+notify_mattermost-0.1.1.dist-info/top_level.txt,sha256=YLUzcYbao0ae-W16kfcKWXTX0jmtn-qrdqbekJ8RocQ,18
+notify_mattermost-0.1.1.dist-info/RECORD,,
