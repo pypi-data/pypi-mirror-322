@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/funksignal/__init__.py
+src/funksignal/signal.py
+src/funksignal.egg-info/PKG-INFO
+src/funksignal.egg-info/SOURCES.txt
+src/funksignal.egg-info/dependency_links.txt
+src/funksignal.egg-info/top_level.txt
