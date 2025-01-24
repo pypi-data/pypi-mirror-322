@@ -1,0 +1,2 @@
+[console_scripts]
+hapi-pyth = hapi.__main__:main
