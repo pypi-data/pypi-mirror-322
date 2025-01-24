@@ -1,0 +1,12 @@
+vunghixuan/__init__.py,sha256=XJZldrnzPcJ9Okg129nZo82TDpxOm6amb5xAX5rkzyg,38
+vunghixuan/api_and_otp.py,sha256=qmqVzLgnqYW1fFIpuh8PefTChiFXRHG3yhZb8aJwlZ8,568
+vunghixuan/create_gui.py,sha256=CBmDHKrU8XDh5D23NjO9-aR0Z1AXjgaiUFKwJao8kA4,10161
+vunghixuan/create_project.py,sha256=em94tNc1Wj8jL8CCf9MLNqjBMecF78zx6VtmloTHSiI,1917
+vunghixuan/login.py,sha256=f_D1Q8u3HMxMGTc9MX76oGyttSLf0OMKLZDGAV4d5p8,3004
+vunghixuan/main.py,sha256=UXIPv09rCDvozi73EFYdCfbVUSJ0FhNWlPh8bwoGVfw,1089
+vunghixuan/settings.py,sha256=srShsnEDDr_74JPBMRhnITQwgy8uW4RhwUi5zhsvj3I,742
+vunghixuan-0.1.4.dist-info/METADATA,sha256=9r5D_bdRGH8zwqQtIA_SgtyyBXMi2VtAiwVMd9uTiTU,208
+vunghixuan-0.1.4.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+vunghixuan-0.1.4.dist-info/entry_points.txt,sha256=ItPfGjQnpyp6eR1oHdSbpfuf309GxCvEpX64UwBBTAU,52
+vunghixuan-0.1.4.dist-info/top_level.txt,sha256=_Q6TIeNruS-ZEyAlP1gS80DCPggKksv8GoO396v9gr8,11
+vunghixuan-0.1.4.dist-info/RECORD,,
