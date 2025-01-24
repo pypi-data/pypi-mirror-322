@@ -1,0 +1,54 @@
+[project]
+name = "odoo-addon-converter"
+dynamic = ["version"]
+readme = "README.rst"
+requires-python = "~=3.10"
+license = { file = "LICENSE", name = "GNU Affero General Public License v3" }
+keywords = ["odoo"]
+authors = [{ name = "XCG Consulting" }]
+classifiers = [
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Framework :: Odoo",
+  "Framework :: Odoo :: 16.0",
+  "License :: OSI Approved :: GNU Affero General Public License v3"
+]
+dependencies = ["odoo==16.0.*", "fastjsonschema"]
+
+[project.optional-dependencies]
+doc = ["sphinx", "sphinx-odoo-autodoc"]
+test = []
+
+[project.urls]
+repository = "https://orus.io/xcg/odoo-modules/converter"
+changelog = "https://orus.io/xcg/odoo-modules/converter/-/blob/branch/16.0/NEWS.rst"
+
+[build-system]
+requires = ["setuptools >=64.0.0", "wheel", "setuptools_scm[toml] >=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "odoo.addons.converter" = "." }
+
+[tool.setuptools.package-data]
+"*" = ["*"]
+
+[tool.setuptools_scm]
+
+[tool.black]
+target = 3.10
+
+[tool.isort]
+py_version = 310
+profile = "black"
+known_odoo = ['odoo']
+known_odoo_addons = ['odoo.addons']
+sections = [
+  'FUTURE',
+  'STDLIB',
+  'THIRDPARTY',
+  'ODOO',
+  'ODOO_ADDONS',
+  'FIRSTPARTY',
+  'LOCALFOLDER'
+]
