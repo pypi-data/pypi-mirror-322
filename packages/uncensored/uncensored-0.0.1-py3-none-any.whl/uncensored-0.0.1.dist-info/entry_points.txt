@@ -1,0 +1,2 @@
+[console_scripts]
+uncensored = uncensored.cli:main
