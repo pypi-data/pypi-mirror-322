@@ -1,0 +1,70 @@
+name: Publish
+
+env:
+  HUGO_VERSION: 0.140.2
+
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+
+jobs:
+
+  publish:
+    name: Generate and publish docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Modo
+        uses: actions/checkout@v3
+      - name: Setup Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.23.x'
+      - name: Install dependencies
+        run: go get .
+
+      - name: Install magic CLI
+        run: |
+          curl -ssL https://magic.modular.com | bash
+          source /home/runner/.bash_profile
+      - name: Install mojo and dependencies
+        run: |
+          source /home/runner/.bash_profile
+          cd docs/example
+          magic install --locked
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '${{env.HUGO_VERSION}}'
+          extended: true
+
+      - name: Run Modo # includes `mojo doc` and `mojo test`
+        run: |
+          source /home/runner/.bash_profile
+          go run . build docs
+
+      - name: Run hugo
+        run: |
+          hugo -s docs
+
+      - name: Archive Markdown artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: markdown
+          path: docs/content
+      - name: Archive HTML artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: public
+          path: docs/public
+
+      - name: Deploy to GitHub Pages
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: gh-pages
+          build_dir: docs/public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
