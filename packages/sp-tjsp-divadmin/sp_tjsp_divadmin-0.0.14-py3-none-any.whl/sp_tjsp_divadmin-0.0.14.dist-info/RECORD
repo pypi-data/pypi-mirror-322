@@ -1,0 +1,10 @@
+sp_tjsp_divadmin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sp_tjsp_divadmin/my_driver.py,sha256=QbimVTexC-GTZnX7_lYPslHRIkU_22IzCxTnQQtn8zM,1891
+sp_tjsp_divadmin/my_functions.py,sha256=hLDviKDRe7jkJWCY-nDxrmV9xSqyHkiu9_8aL7ZfEHY,3082
+sp_tjsp_divadmin/my_paths.py,sha256=JhFjSuYyV1OnkmWENa3gxeAaiVa3y-EEzPDcqNZ2GLc,992
+sp_tjsp_divadmin/data/output/geo/sp_tjsp_divadmin.7z,sha256=1BQpAccP2JYJ-ubINH3JiEnB9Avubz77Sd4Q9Y7F93Y,5356821
+sp_tjsp_divadmin-0.0.14.dist-info/LICENSE,sha256=THFLai6tr9-b-iC3ulaBB4qrDhOKYoqJgPbBgbIuKfw,1070
+sp_tjsp_divadmin-0.0.14.dist-info/METADATA,sha256=1P0p9JWCBbQOyz325fVIRyRp5NVyKyu5PWdy5m_e0Xk,5851
+sp_tjsp_divadmin-0.0.14.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sp_tjsp_divadmin-0.0.14.dist-info/top_level.txt,sha256=PQ04OBaX_NLlucN2vbjwaPu14YZ62d0xHPM6Aw6k6r4,17
+sp_tjsp_divadmin-0.0.14.dist-info/RECORD,,
