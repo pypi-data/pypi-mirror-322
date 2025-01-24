@@ -1,0 +1,1 @@
+logging_slack_email
