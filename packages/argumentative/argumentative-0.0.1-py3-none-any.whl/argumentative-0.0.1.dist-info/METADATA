@@ -1,0 +1,61 @@
+Metadata-Version: 2.3
+Name: argumentative
+Version: 0.0.1
+Summary: opinionated, simple arg parsing
+Project-URL: Documentation, https://github.com/allura-org/argumentative#readme
+Project-URL: Issues, https://github.com/allura-org/argumentative/issues
+Project-URL: Source, https://github.com/allura-org/argumentative
+Author-email: fizz~ <fizzarolli@riseup.net>
+License: LicenseRef-Hippocratic-3.0-BDS-CL-Eco-Extr-Law-Mil-SV
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: libcst
+Requires-Dist: msgspec
+Description-Content-Type: text/markdown
+
+# 🗣️ argumentative
+simple, opinionated command line parser
+
+## features
+- simple, opinionated
+- automatically generates help and usage messages
+- uses msgspec for structs and type coercion
+- secret fourth feature
+
+## usage
+```bash
+pip install argumentative
+```
+
+```python
+from argumentative import argumentative
+
+@argumentative
+class Args:
+    config: str # path to a config file
+    verbose: bool = False # whether to print verbose output
+
+args = Args.from_args()
+print(args)
+```
+
+```bash
+python basic.py config.json --verbose
+# Args(config='config.json', verbose=True)
+
+python basic.py --help
+# basic.py - example of using argumentative
+#
+# Options:
+# --config <str> - path to a config file
+# --verbose <bool> - whether to print verbose output
+```
+
+## license
+[hippocratic license 3.0](LICENSE.md). (c) allura-org
