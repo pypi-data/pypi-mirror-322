@@ -1,0 +1,7 @@
+setup.py
+A_STT/__init__.py
+A_STT.egg-info/PKG-INFO
+A_STT.egg-info/SOURCES.txt
+A_STT.egg-info/dependency_links.txt
+A_STT.egg-info/requires.txt
+A_STT.egg-info/top_level.txt
