@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: llm-code-dev
+Version: 0.1.0
+Summary: Placeholder package for llm-dev
+Author: Thomas Hughes
+Author-email: irthomasthomas@gmail.com
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
