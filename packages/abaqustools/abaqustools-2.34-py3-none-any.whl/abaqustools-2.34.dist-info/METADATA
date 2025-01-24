@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: abaqustools
+Version: 2.34
+Summary: Tools for FEM software ABAQUS.
+Author-email: "O. W. Petersen" <oyvind.w.petersen@ntnu.no>
+Project-URL: repository, https://github.com/Oyvindwpetersen/abaqustools/
+Keywords: abaqus,export,fem,odb
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: nexusformat
+Requires-Dist: h5py
+Requires-Dist: putools
