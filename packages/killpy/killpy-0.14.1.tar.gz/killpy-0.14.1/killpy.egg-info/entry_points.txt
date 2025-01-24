@@ -1,0 +1,2 @@
+[console_scripts]
+killpy = killpy.__main__:main
