@@ -1,0 +1,11 @@
+snap2txt/.il,sha256=4PnBWpp0c_uy3kMUAMwf7fRGv-dcTvDgu3fHjSZDM_w,134
+snap2txt/.wl,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snap2txt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snap2txt/__main__.py,sha256=ez63_bj2PvyPuWWQE7UtDKlvPGZze8W9R_8CtzA1yRc,94
+snap2txt/saver.py,sha256=Rz6QVD9qdrJ4N6arJLOC6F2A3dIzF8_2-6hdCRF1_Ss,3004
+snap2txt-0.2.0.dist-info/LICENSE,sha256=ci_2dhqxKHmmFNTw54m-rB_fGCvA7X6lQt7DuNsUAI0,1073
+snap2txt-0.2.0.dist-info/METADATA,sha256=H_nZX7Ihw2zb92cJAbAjT5kDhMc9YcJZ9blh13YADzc,2012
+snap2txt-0.2.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+snap2txt-0.2.0.dist-info/entry_points.txt,sha256=5ZFnMDHiN6Yft-NXnvQxZTa0l6E_QObB3HDVnm1iAmE,52
+snap2txt-0.2.0.dist-info/top_level.txt,sha256=0lju_ynjpWoGykmKoCRyn_Gqed67AbUCaEG3lErZnuY,9
+snap2txt-0.2.0.dist-info/RECORD,,
