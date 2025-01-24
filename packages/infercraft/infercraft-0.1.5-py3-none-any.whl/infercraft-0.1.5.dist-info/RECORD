@@ -1,0 +1,14 @@
+infercraft/__init__.py,sha256=Pa13w60PK1hkWlfKxiqFSe9fxIKhc3-y4bjiLb_8Vi0,179
+infercraft/actor_engine.py,sha256=Ht341LWL7hI1edpCJwouPpnaerDrtSSoFl-JI6UixT4,817
+infercraft/engine_proxy.py,sha256=AFbf0fFCEmc66rDB0-0bL0LHxhYWrWJHcW0d9r0GgU8,553
+infercraft/infercraft.py,sha256=0iDnvBt9hrmscW9Of_sw9dJMyyEfmJMQZlEStWGl9YQ,834
+infercraft/model_desc.py,sha256=wY8gXSS-Yw-pnezVmh05QBRMCLtOR8W4AizQikYTwzc,621
+infercraft/platform_factory.py,sha256=15Dd9YxBbvaXfj6HPUNKQO71DOzcyLk_Eg3AdZuItqg,632
+infercraft/platforms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+infercraft/platforms/onnx.py,sha256=YN54-qLYHt69uesH0M9juiQaW96E545j9fH_KOjzg_s,611
+infercraft/platforms/torch.py,sha256=QZjJszRwLeKsnJk-tsjs5VEXdjqUDVBqhQRF5o54YLI,661
+infercraft-0.1.5.dist-info/LICENCE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+infercraft-0.1.5.dist-info/METADATA,sha256=7z4L7KyEA33JA8NJ9uFdtYtKlBI0gwdy13_g2dS6x-g,584
+infercraft-0.1.5.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+infercraft-0.1.5.dist-info/top_level.txt,sha256=AxZiUcL-oSFHm_xrLAQvIVEbJqFatd6tyxdikHo-GnE,11
+infercraft-0.1.5.dist-info/RECORD,,
