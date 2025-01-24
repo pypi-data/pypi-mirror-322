@@ -1,0 +1,3 @@
+[console_scripts]
+ato = atopile.cli.cli:main
+faebryk = faebryk.tools.main:__main__
