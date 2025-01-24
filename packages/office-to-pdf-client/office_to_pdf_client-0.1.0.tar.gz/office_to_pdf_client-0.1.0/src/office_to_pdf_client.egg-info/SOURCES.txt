@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/office_to_pdf_client/__init__.py
+src/office_to_pdf_client/_client.py
+src/office_to_pdf_client/_utils.py
+src/office_to_pdf_client.egg-info/PKG-INFO
+src/office_to_pdf_client.egg-info/SOURCES.txt
+src/office_to_pdf_client.egg-info/dependency_links.txt
+src/office_to_pdf_client.egg-info/requires.txt
+src/office_to_pdf_client.egg-info/top_level.txt
+tests/test_client.py
+tests/test_utils.py
