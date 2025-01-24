@@ -1,0 +1,10 @@
+compudoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compudoc/__main__.py,sha256=_dXOHDUJ85JTkG1otrSNIO9bXflEIkz_ZgEj5PCTYXY,4147
+compudoc/document.py,sha256=4xN19iB-IMPwfCrbfxnx0_g-nWl6FdwPiGdeac83-b0,10816
+compudoc/execution_engines.py,sha256=PwwMGx-0KwSgu9qQ6fR9rg-5BNxED0sNPLh0Hq-dMo4,4379
+compudoc/parsing.py,sha256=O7b_Bf0qsfMppmHLS0Cmd_r2kZh1BbfpN4LpXZEDX64,4112
+compudoc/template_engines.py,sha256=sgfS9KbAWVUwCbEBDnc2bWIaP5QCWlKjv3v-AiP_DWo,935
+compudoc-0.8.0.dist-info/METADATA,sha256=xxorPNdY3gUxFjpIIlLj7jAYilOyK0vrVMO-w9xgPfE,6521
+compudoc-0.8.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+compudoc-0.8.0.dist-info/entry_points.txt,sha256=r-Ssy8gsbLi9oRI1bV75AamyeH3ZhnLPzHnuHMBKkNE,51
+compudoc-0.8.0.dist-info/RECORD,,
