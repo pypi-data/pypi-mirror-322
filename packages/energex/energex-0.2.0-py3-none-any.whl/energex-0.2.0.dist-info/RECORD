@@ -1,0 +1,12 @@
+energex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+energex/data_fetcher.py,sha256=gnKCMcgrbYatCSmKPjU_wqRcYxX6oagXQYFdsvSQUHk,3624
+energex/database.py,sha256=EvZHyNAADMcwbR4aFisenfHFKwUe_PQ714D9A4p51Bo,2281
+energex/main.py,sha256=Qnv2lEipGsv-Cp_yPWaZHQ-BuHidcOhEcufn0QLjoE0,1746
+energex/analysis/futures.py,sha256=iRJPNxTcvQa7-4i6VQ8TfVdh70nzo1f5W6d27_VmwhU,4417
+energex/analysis/quality.py,sha256=HHuQWg8ejdLxtlKABOo2RcClIasHo2S9AXd-b5-1SlM,3945
+energex/analysis/volatility.py,sha256=Vvu_awqBcpBg1aORl0a_-5KNwu-AxGaXay14q4EP_1I,2976
+energex/visualization/charts.py,sha256=aEBcEcDHjYbHuAvEpUMB0SZuIhhIrdKvLJY0YY1K7Bs,7211
+energex-0.2.0.dist-info/METADATA,sha256=PVJPObeQpdgesT6sLKr-S0k7FumrlTFpeoq1apw3BQ0,2576
+energex-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+energex-0.2.0.dist-info/licenses/LICENSE,sha256=acLTwvdU5lbIwaAXBxzqff-HahoEowa50YHa0tuEs-s,1064
+energex-0.2.0.dist-info/RECORD,,
