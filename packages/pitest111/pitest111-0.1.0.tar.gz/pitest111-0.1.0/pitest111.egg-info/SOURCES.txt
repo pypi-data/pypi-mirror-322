@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+pitest111/__init__.py
+pitest111/example_module.py
+pitest111.egg-info/PKG-INFO
+pitest111.egg-info/SOURCES.txt
+pitest111.egg-info/dependency_links.txt
+pitest111.egg-info/top_level.txt
