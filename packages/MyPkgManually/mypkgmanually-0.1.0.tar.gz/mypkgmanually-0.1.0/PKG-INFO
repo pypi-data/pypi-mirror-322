@@ -1,0 +1,35 @@
+Metadata-Version: 2.2
+Name: MyPkgManually
+Version: 0.1.0
+Summary: A simple Python package that says Hello, World!
+Home-page: https://github.com/yourusername/helloworld
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# MyPkgManually
+
+This is a simple Python package that prints "Hello, World!".
+
+## Installation
+
+```bash
+pip install MyPkgManually
+
+## Usage
+
+from MyPkgManually import say_hello
+say_hello()

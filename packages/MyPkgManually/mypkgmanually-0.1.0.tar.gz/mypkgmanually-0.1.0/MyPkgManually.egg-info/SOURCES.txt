@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+MyPkgManually/__init__.py
+MyPkgManually/hello.py
+MyPkgManually.egg-info/PKG-INFO
+MyPkgManually.egg-info/SOURCES.txt
+MyPkgManually.egg-info/dependency_links.txt
+MyPkgManually.egg-info/top_level.txt
+tests/__init__.py
+tests/test_hello.py
