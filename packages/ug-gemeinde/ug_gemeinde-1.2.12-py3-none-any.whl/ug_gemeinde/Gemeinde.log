@@ -1,0 +1,6 @@
+2025-01-01 15:53:57,363 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-01 15:54:55,493 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
+2025-01-01 15:55:08,296 INFO Gemeinde_Def checkLogin Line: 255 Login fehlgeschlagen als ulrich
+2025-01-01 15:55:15,137 INFO Gemeinde_Def checkLogin Line: 253 Login erfolgreich als ulrich
+2025-01-01 15:56:53,791 INFO Gemeinde logout Line: 211 Verbindung zur DB geschlossen.
+2025-01-01 16:18:32,162 DEBUG Gemeinde_Def configuration Line: 199 Setze Logging Level auf INFO
