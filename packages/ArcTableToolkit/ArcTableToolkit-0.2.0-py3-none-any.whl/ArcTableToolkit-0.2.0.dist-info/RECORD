@@ -1,0 +1,11 @@
+BaseProcessor/BaseProcessor.py,sha256=xnYJnfzuyMtqz1jfaTwU8FT7fwYDyMszfeNdUp82ypQ,1264
+BaseProcessor/__init__.py,sha256=GMd0oE_bACwn3kc0tTc4f3aImoioYsLGtNRpE1Sqff0,39
+DataCatalog/DataCatalog.py,sha256=eRqCvMj7Z9WRd8CT7GR32UOfTr6-jwVQNHZ_0rIeSQE,1963
+DataCatalog/ExtendedDataCatalog.py,sha256=Gj9vr7gkV3J7MOD8NpILXyPq8JNbxjY_KfvW9Qg8lV8,1193
+DataCatalog/__init__.py,sha256=bUtNakrMOa0RN88fP9ETD6oA7C6qxkhX_YOJxAqeINM,99
+TableLoader/TableLoader.py,sha256=zXbEHJ9Pdum-f0x00359VV5Of1EBWn00ul-2Ux4AzuU,1488
+TableLoader/__init__.py,sha256=Jtqe7PcKrY6IWh7fTQob15X8MVT8WNahwnSuTFKQ45o,35
+ArcTableToolkit-0.2.0.dist-info/METADATA,sha256=BZtQUf6b9uSNWAzJP2XjMGB8Mpha9v8ILu6xn92lvm4,463
+ArcTableToolkit-0.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ArcTableToolkit-0.2.0.dist-info/top_level.txt,sha256=eIpjDN7A2eaieyF0kvt0jPTH-nDO1zauNrAv47S0wSM,38
+ArcTableToolkit-0.2.0.dist-info/RECORD,,
