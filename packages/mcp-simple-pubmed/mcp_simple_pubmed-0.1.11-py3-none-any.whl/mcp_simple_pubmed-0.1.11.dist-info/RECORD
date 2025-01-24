@@ -1,0 +1,13 @@
+mcp_simple_pubmed/__init__.py,sha256=kSYW8QnYxwbQ5pSOuOPY1x_twFsmBQnO4RrDNCxFtwQ,231
+mcp_simple_pubmed/__main__.py,sha256=rl-wFsVJ8RabojhXHYzdovHDSkLyrqzBGg8MGYHthGY,112
+mcp_simple_pubmed/fulltext_client.py,sha256=Pfgu_TkWKHWk_XKtAsSHTMr2WpC8Tp8ssqWtSNRSWnU,4686
+mcp_simple_pubmed/pubmed_client.py,sha256=G0SWf4D_p_oze993G6wfM-LHQX-TBj7Kdtbapi-eGXo,5953
+mcp_simple_pubmed/pubmed_fetch.py,sha256=gKZ3n0V1PnP-poKguTayXg8_aDB-T06S4g9LOcMrH7E,5134
+mcp_simple_pubmed/pubmed_search.py,sha256=aUWvq31u5poHKeo07BRdlCsBk1DDiM1eAbQ5GLvTLg0,7882
+mcp_simple_pubmed/server.py,sha256=vltRmZGdgtSnK1cQYCjFY_0Bm2kA0FpJa_nVQgL8e-Q,11654
+mcp_simple_pubmed-0.1.11.dist-info/LICENSE,sha256=ls_r8XdgIhAyHU346WnpRVUMfzCAMiC-jJ8YyvBUJZc,1089
+mcp_simple_pubmed-0.1.11.dist-info/METADATA,sha256=I115z7Ace4MNIzk7Cm12xlGCwOyfs1UGEfaykkjtPNY,3541
+mcp_simple_pubmed-0.1.11.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mcp_simple_pubmed-0.1.11.dist-info/entry_points.txt,sha256=cANslfnxHCwMOtkG7So0ptBDZf9BdKzUPGrBQ9b-ZOc,61
+mcp_simple_pubmed-0.1.11.dist-info/top_level.txt,sha256=66jTNyxL5Zca7XJdf78GzNFH1y48JlaFACXMeS2hRe8,18
+mcp_simple_pubmed-0.1.11.dist-info/RECORD,,
