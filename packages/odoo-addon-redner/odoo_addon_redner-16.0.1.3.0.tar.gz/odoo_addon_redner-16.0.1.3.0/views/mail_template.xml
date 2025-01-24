@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- Form view -->
+    <record id="view_email_template_form" model="ir.ui.view">
+        <field name="name">view_email_template_form</field>
+        <field name="model">mail.template</field>
+        <field name="inherit_id" ref="mail.email_template_form" />
+        <field name="arch" type="xml">
+            <field name="model_id" position="after">
+                <field name="is_redner_template" />
+            </field>
+
+            <!-- Hide HTML contents, superseded by the body produced by redner. -->
+            <xpath expr="//field[@name='body_html']" position="attributes">
+                <attribute
+                    name="attrs"
+                ><![CDATA[{'invisible': [('is_redner_template', '=', True)]}]]></attribute>
+            </xpath>
+
+            <!-- Hide the single attachment selector too, not supported with redner. -->
+            <xpath expr="//field[@name='attachment_ids']" position="attributes">
+                <attribute
+                    name="attrs"
+                ><![CDATA[{'invisible': [('is_redner_template', '=', True)]}]]></attribute>
+            </xpath>
+
+            <!-- Add redner fields instead of the above. -->
+            <xpath expr="//field[@name='body_html']" position="before">
+                <group
+                    string="Redner Template"
+                    attrs="{'invisible': [('is_redner_template', '=', False)]}"
+                >
+                    <field
+                        name="redner_tmpl_id"
+                        attrs="{'required': [('is_redner_template', '=', True)]}"
+                    />
+                </group>
+
+                <button
+                    confirm="Keywords will be updated. Continue?"
+                    name="action_get_substitutions"
+                    type="object"
+                    string="Get Substitutions from Redner Template"
+                    attrs="{'invisible': [('is_redner_template', '=', False)]}"
+                />
+
+                <group
+                    string="Substitutions"
+                    attrs="{'invisible': [('is_redner_template', '=', False)]}"
+                >
+                    <field name="redner_substitution_ids" nolabel="1" colspan="2">
+                        <tree editable="top" default_order="keyword asc">
+                            <field name="keyword" />
+                            <field name="converter" />
+                            <field name="value" />
+                        </tree>
+                    </field>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

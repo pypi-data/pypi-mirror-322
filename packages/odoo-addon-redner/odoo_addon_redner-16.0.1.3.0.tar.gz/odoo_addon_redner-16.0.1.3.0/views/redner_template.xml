@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="redner_template_view_search" model="ir.ui.view">
+        <field name="name">redner.template.search</field>
+        <field name="model">redner.template</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" />
+                <filter
+                    string="Archived"
+                    name="inactive"
+                    domain="[('active','=',False)]"
+                />
+            </search>
+        </field>
+    </record>
+
+    <record id="redner_template_view_tree" model="ir.ui.view">
+        <field name="name">redner.template.tree</field>
+        <field name="model">redner.template</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="language" />
+                <field name="detected_keywords" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="redner_template_view_form" model="ir.ui.view">
+        <field name="name">redner.template.form</field>
+        <field name="model">redner.template</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button
+                            name="toggle_active"
+                            type="object"
+                            class="oe_stat_button"
+                            icon="fa-archive"
+                        >
+                            <field
+                                name="active"
+                                widget="boolean_button"
+                                options='{"terminology": "archive"}'
+                            />
+                        </button>
+                    </div>
+
+                    <div>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only" />
+                            <h1>
+                                <field name="name" />
+                            </h1>
+                        </div>
+                        <group>
+                            <field name="language" />
+                        </group>
+                    </div>
+
+                    <notebook>
+                        <page
+                            string="Template Body"
+                            attrs="{'invisible': [('language', '=', 'application/vnd.oasis.opendocument.text|od+mustache')]}"
+                        >
+                            <field
+                                name="body"
+                                widget="ace"
+                                attrs="{'required': [('language', '!=', 'application/vnd.oasis.opendocument.text|od+mustache')]}"
+                            />
+                        </page>
+                        <page
+                            string="Template Libreoffice"
+                            attrs="{'invisible': [('language', '!=', 'application/vnd.oasis.opendocument.text|od+mustache')]}"
+                        >
+                            <group>
+                                <field
+                                    name="template_data"
+                                    filename="name"
+                                    nolabel="1"
+                                />
+                            </group>
+                        </page>
+
+                        <page string="Variables">
+                            <group>
+                                <field name="detected_keywords" />
+                            </group>
+                        </page>
+
+                        <page string="Settings">
+                            <group>
+                                <field name="locale_id" />
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="redner_template_action" model="ir.actions.act_window">
+        <field name="name">Redner Templates</field>
+        <field name="res_model">redner.template</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Set up an action to send multiple templates to the redner server. -->
+    <record id="send_to_rednerd_server_action" model="ir.actions.server">
+        <field name="binding_model_id" ref="model_redner_template" />
+        <field name="code">records.send_to_rednerd_server()</field>
+        <field name="model_id" ref="model_redner_template" />
+        <field name="name">Send to rednerd server</field>
+        <field name="state">code</field>
+        <field name="type">ir.actions.server</field>
+    </record>
+</odoo>
