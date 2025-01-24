@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+QudimiStructLib.egg-info/PKG-INFO
+QudimiStructLib.egg-info/SOURCES.txt
+QudimiStructLib.egg-info/dependency_links.txt
+QudimiStructLib.egg-info/requires.txt
+QudimiStructLib.egg-info/top_level.txt
+code/QudimiStructLib.py
+code/__init__.py
