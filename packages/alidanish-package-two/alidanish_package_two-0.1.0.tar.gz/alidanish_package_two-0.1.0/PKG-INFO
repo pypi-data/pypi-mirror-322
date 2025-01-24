@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: alidanish_package_two
+Version: 0.1.0
+Summary: A simple example package
+Home-page: https://github.com/danish-protonshub/alidanish_package_two
+Author: Danish Ali
+Author-email: danish.ali@protonshub.in
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Package Two
+
+Another simple example package.
+
+
