@@ -1,0 +1,8 @@
+setup.py
+logging_slack_email/__init__.py
+logging_slack_email/logger.py
+pyalert_slackemail.egg-info/PKG-INFO
+pyalert_slackemail.egg-info/SOURCES.txt
+pyalert_slackemail.egg-info/dependency_links.txt
+pyalert_slackemail.egg-info/top_level.txt
+tests/test_logger.py
