@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: CreateWorld
+Version: 0.2.0
+Summary: A simple SDL2-based module to simulate Pygame functionality
+Author: Zhengzheng
+Author-email: snake.666@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: requires-python
+Dynamic: summary
