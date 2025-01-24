@@ -1,0 +1,8 @@
+numpy
+scikit-learn
+matplotlib
+pynwb
+dandi
+h5py
+colorcet
+fsspec
