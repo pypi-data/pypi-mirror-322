@@ -1,0 +1,11 @@
+include:
+  - project: xcg/ci-templates
+    file: /odoo/15.0/gitlab-ci.yaml
+
+variables:
+  CI_TEMPLATE_NO_INSTALL_MODULE: ""
+
+# Pylint does not like that the module is installed in a different path than odoo other addons
+pylint:
+  variables:
+    CI_TEMPLATE_NO_INSTALL_MODULE: "no"

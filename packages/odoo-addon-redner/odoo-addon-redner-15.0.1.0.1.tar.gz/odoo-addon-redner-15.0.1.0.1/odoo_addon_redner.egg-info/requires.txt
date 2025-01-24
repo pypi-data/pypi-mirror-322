@@ -1,0 +1,9 @@
+odoo==15.0.*
+odoo-addon-converter<15.0.4,>=15.0.3.3.0
+requests_unixsocket<2,>=0.3.0
+
+[doc]
+sphinx
+sphinx-odoo-autodoc
+
+[test]
