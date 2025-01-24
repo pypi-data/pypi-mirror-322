@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/PackageFunctions/__init__.py
+src/PackageFunctions/fonctions.py
+src/PackageFunctions.egg-info/PKG-INFO
+src/PackageFunctions.egg-info/SOURCES.txt
+src/PackageFunctions.egg-info/dependency_links.txt
+src/PackageFunctions.egg-info/top_level.txt
