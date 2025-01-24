@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tree-to-script"
+version = "0.1.1"
+authors = [
+    {name = "vanuan", email = "vanuan+tree-to-script@gmail.com"},
+]
+description = "A utility for transforming directory tree structures from text into actionable shell commands or executing them directly"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/vanuan/tree-to-script"
+"Bug Tracker" = "https://github.com/vanuan/tree-to-script/issues"
+"Documentation" = "https://vanuan.github.io/tree-to-script"
+
+[tool.setuptools.package-data]
+"tree_to_script" = ["py.typed"]
+
+[tool.setuptools]
+package-dir = {"" = "."}
+license-files = ["LICENSE.txt"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
