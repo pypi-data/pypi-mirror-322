@@ -1,0 +1,9 @@
+setup.py
+JsonXL.egg-info/PKG-INFO
+JsonXL.egg-info/SOURCES.txt
+JsonXL.egg-info/dependency_links.txt
+JsonXL.egg-info/entry_points.txt
+JsonXL.egg-info/requires.txt
+JsonXL.egg-info/top_level.txt
+jsontoxl/__init__.py
+jsontoxl/converter.py
