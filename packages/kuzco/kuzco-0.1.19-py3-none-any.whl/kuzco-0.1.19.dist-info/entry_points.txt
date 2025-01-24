@@ -1,0 +1,2 @@
+[console_scripts]
+kuzco = kuzco.cli.cli:cli
