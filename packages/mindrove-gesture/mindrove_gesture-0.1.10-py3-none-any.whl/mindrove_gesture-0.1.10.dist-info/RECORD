@@ -1,0 +1,10 @@
+mindrove_gesture/__init__.py,sha256=tRZVipM0sVCv_2P7nV8sV23k04Ar2IKb2mDZWac-ayU,119
+mindrove_gesture/fine_tune.py,sha256=rMAz1B1hHPhexMM5y0oFfvMJAYcyaUQNe7itud7b-aM,3287
+mindrove_gesture/inference.py,sha256=gcnJ8F6rl7sv_LBJS-vtq13Ap-Cpf3qkJpBd0GbzSZw,6245
+mindrove_gesture/record.py,sha256=boqrMOgXNAUYiP6rn3VQx7T8YemMyAB7SKjZbNKGVjk,5008
+mindrove_gesture/utils.py,sha256=7hd2y_7mVutBiG0UtrMHIjyTDVz2K-6rxW9STtQLKbk,6286
+mindrove_gesture-0.1.10.dist-info/METADATA,sha256=ILE0F-xQOEK1JX1Sy_sdsbyXN8_4vMDxRMueWWTWDQg,1394
+mindrove_gesture-0.1.10.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+mindrove_gesture-0.1.10.dist-info/entry_points.txt,sha256=M6ORugQwFkfd17AIZhNPJGdWrswXU-FriVHWr1Q22l8,180
+mindrove_gesture-0.1.10.dist-info/top_level.txt,sha256=A5VVN97i1Y-aophmJl2zT1jUN7sj4nnldKiiQZ1g7N4,17
+mindrove_gesture-0.1.10.dist-info/RECORD,,
