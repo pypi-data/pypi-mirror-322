@@ -1,0 +1,2 @@
+[longplayer]
+longplayer = longplayer:__main__

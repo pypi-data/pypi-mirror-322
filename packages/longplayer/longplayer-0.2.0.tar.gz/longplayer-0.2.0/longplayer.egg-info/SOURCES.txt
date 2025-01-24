@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+longplayer/__init__.py
+longplayer/__main__.py
+longplayer/audio.py
+longplayer/constants.py
+longplayer/longplayer.py
+longplayer/time.py
+longplayer/utils.py
+longplayer.egg-info/PKG-INFO
+longplayer.egg-info/SOURCES.txt
+longplayer.egg-info/dependency_links.txt
+longplayer.egg-info/entry_points.txt
+longplayer.egg-info/requires.txt
+longplayer.egg-info/top_level.txt
+longplayer/audio/20-20.wav
