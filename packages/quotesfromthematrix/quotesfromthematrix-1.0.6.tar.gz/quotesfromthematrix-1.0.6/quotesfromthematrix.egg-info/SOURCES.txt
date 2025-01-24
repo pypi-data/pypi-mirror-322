@@ -1,0 +1,7 @@
+README.md
+setup.py
+quotesfromthematrix/__init__.py
+quotesfromthematrix.egg-info/PKG-INFO
+quotesfromthematrix.egg-info/SOURCES.txt
+quotesfromthematrix.egg-info/dependency_links.txt
+quotesfromthematrix.egg-info/top_level.txt
