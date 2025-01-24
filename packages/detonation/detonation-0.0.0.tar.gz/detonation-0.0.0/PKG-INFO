@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: detonation
+Version: 0.0.0
+Summary: Decouple Torch Network-Aware Training on Interlinked Online Nodes (DeToNATION)
+Project-URL: Homepage, https://github.com/schneiderkamplab/DeToNATION
+Project-URL: Bug Tracker, https://github.com/schneiderkamplab/DeToNATION/issues
+Author: Peter Schneider-Kamp
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# Decoupled Torch Network-Aware Training on Interlinked Online Nodes (DeToNATION)
+
