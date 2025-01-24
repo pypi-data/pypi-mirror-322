@@ -1,0 +1,3 @@
+[console_scripts]
+purl-license-checker=src.cli:main
+
