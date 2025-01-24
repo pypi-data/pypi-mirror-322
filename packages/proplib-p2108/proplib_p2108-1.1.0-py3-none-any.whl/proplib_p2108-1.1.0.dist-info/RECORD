@@ -1,0 +1,11 @@
+ITS/ITU/PSeries/P2108/P2108-1.1-universal.dylib,sha256=vkwiz4jl-YK_gjTs9hY7RVP_M8BZObEBN9p-RZcY4-w,90760
+ITS/ITU/PSeries/P2108/P2108-1.1-x64.dll,sha256=lnws9iKHkUkOkhhiAV_shzKb5ZnEyuYD3pgmiKp50QE,34304
+ITS/ITU/PSeries/P2108/P2108-1.1-x86.dll,sha256=F-uWo2AEzGkPEjsTwCMtPjZiM-27nglsSdxUwC7d2us,31744
+ITS/ITU/PSeries/P2108/P2108-1.1-x86_64.so,sha256=ijFd2SZp8IYSGfxty-lkHIgrYaM7lpLXq_rXRx_g9J8,33848
+ITS/ITU/PSeries/P2108/__init__.py,sha256=RR8sgk0DhOz2s0CGCEZuN9zPzwa9cVjIPZZOyIITfvQ,291
+ITS/ITU/PSeries/P2108/p2108.py,sha256=pNq9lNzfHgycF1Yd3u-bo4nZ0xuHEN4FRR41DuOqYVE,3867
+ITS/ITU/PSeries/P2108/proplib_loader.py,sha256=nQ7VicYfFsH2ZYIjJWr860puzxrEt6eYtdCxSKO_JBk,4331
+proplib_p2108-1.1.0.dist-info/METADATA,sha256=V8qqE7ieSr4-MLbYS8BUGBGc9k2vkZzZL_uBcgRr2Qo,10212
+proplib_p2108-1.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+proplib_p2108-1.1.0.dist-info/licenses/LICENSE.md,sha256=50ZyFEPs0vTcIEO1MRCEnqCsVkVYn2aa8wGNa4FHL2o,2086
+proplib_p2108-1.1.0.dist-info/RECORD,,
