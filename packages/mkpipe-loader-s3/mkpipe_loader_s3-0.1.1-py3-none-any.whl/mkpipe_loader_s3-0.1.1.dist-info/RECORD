@@ -1,0 +1,8 @@
+mkpipe_loader_s3/__init__.py,sha256=QqinGypbx5S03-dlHMnlIYgBXiT-sZ4zgXONU9jlBrM,5415
+mkpipe_loader_s3/upload_to_s3.py,sha256=7XG1csdJyqmIkibsbFvXoI9EwuPRYbP8WOWcSb1VXm0,2119
+mkpipe_loader_s3-0.1.1.dist-info/LICENSE,sha256=6G5XWHq2ng2Te_IpVeOKvDabtRBPwqaImM7vpke0HOE,11348
+mkpipe_loader_s3-0.1.1.dist-info/METADATA,sha256=iqg6k5VMFQ6pdI9pzxKdymsqxA9ZN6WvC9U01J9WAT8,1324
+mkpipe_loader_s3-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mkpipe_loader_s3-0.1.1.dist-info/entry_points.txt,sha256=KuLI6tGVxq94canZUXwVweOc6p_yROzv5C5GPx6bxMg,48
+mkpipe_loader_s3-0.1.1.dist-info/top_level.txt,sha256=pINlHvPWqxQhQ_Z_f_P4q8XLmoamcRXDSuw1lOALpBs,17
+mkpipe_loader_s3-0.1.1.dist-info/RECORD,,
