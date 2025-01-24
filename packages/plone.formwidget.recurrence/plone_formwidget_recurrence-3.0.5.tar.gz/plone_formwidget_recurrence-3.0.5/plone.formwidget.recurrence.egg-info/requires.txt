@@ -1,0 +1,12 @@
+setuptools
+plone.base
+Products.GenericSetup
+python-dateutil
+Zope
+
+[test]
+plone.app.testing
+plone.app.z3cform
+
+[z3cform]
+z3c.form
