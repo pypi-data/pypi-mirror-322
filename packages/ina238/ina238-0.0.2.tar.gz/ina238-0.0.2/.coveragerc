@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2023 GSI Helmholtzzentrum fuer Schwerionenforschung GmbH, Darmstadt, Germany
+#
+# SPDX-License-Identifier: LGPL-3.0-only
+
+[run]
+source =
+    src
+    tests
+branch = True
+
+[report]
+exclude_lines =
+    no cov
+    no qa
+    noqa
+    pragma: no cover
+    if __name__ == .__main__.:
