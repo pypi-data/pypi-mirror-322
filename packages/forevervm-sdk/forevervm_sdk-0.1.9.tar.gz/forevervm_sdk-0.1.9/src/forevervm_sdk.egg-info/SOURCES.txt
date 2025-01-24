@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/repl.py
+src/types.py
+src/forevervm_sdk.egg-info/PKG-INFO
+src/forevervm_sdk.egg-info/SOURCES.txt
+src/forevervm_sdk.egg-info/dependency_links.txt
+src/forevervm_sdk.egg-info/requires.txt
+src/forevervm_sdk.egg-info/top_level.txt
