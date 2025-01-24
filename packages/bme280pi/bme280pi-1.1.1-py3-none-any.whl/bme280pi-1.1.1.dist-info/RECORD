@@ -1,0 +1,15 @@
+bme280pi/__init__.py,sha256=FfvzEOCxLYyD81oIRF_7ffD7CmLNngvPuPQxwq_TEyg,900
+bme280pi/physics.py,sha256=jt9ceUEY7S5QYjkp6vTZD_74oTLUbhjIvl-xwgLhBYc,9808
+bme280pi/raspberry_pi_version.py,sha256=HEZIzoKwdXI1_6R3Thjppanjsuwa5I7uchH5MsFkTCc,2437
+bme280pi/readout.py,sha256=t6an31gQofK2vffw_h8XCuNrwuqS_2tUPKa3J42eHc4,14604
+bme280pi/sensor.py,sha256=3c8PApFEyzX6eEVsL12GgYN7VNi8hCQ4IWo3ksmA_ZQ,9817
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/physics.py,sha256=sqCwlx4KvolUJL0rXIsvrGD0vGeAAYSi4eew2kobvZM,10796
+test/raspberry_pi_version.py,sha256=Dl8YWFJiP5zYy85M6lJe2yxAVH8fJrZQjlfUYLOtFZM,936
+test/readout.py,sha256=Z8ZxTSodN5oGUYLghi_7MDHapXdiaZuL678q7SRwp_w,8530
+test/sensor.py,sha256=sm4NoiTINufV7BVcPQdZd20T_onccRoMKEmZI8SB3Bo,6499
+bme280pi-1.1.1.dist-info/LICENSE,sha256=n9uoVE8GuPhToEBE4YrYpWLW7CD6PDiSbRst1yCtMyc,1080
+bme280pi-1.1.1.dist-info/METADATA,sha256=tBKVbEQc-zoVTc7cnFdnnmEp81gCNzsqTYfe4DTdEyE,6007
+bme280pi-1.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+bme280pi-1.1.1.dist-info/top_level.txt,sha256=I148FNNn1QbCAjWBwwR8FHwPbw-K5CD0dbL2da4NUCM,14
+bme280pi-1.1.1.dist-info/RECORD,,
