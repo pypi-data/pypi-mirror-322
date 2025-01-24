@@ -1,0 +1,2 @@
+include src/ug_gemeinde/Gemeinde.yaml
+include src/ug_gemeinde/Icons.yaml
