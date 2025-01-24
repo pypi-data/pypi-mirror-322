@@ -1,0 +1,32 @@
+Metadata-Version: 2.2
+Name: EzDocxTemplate
+Version: 0.1.0
+Summary: A Python module for easily modifying docx templates
+Author-email: Rarder44 <luca@lpozzi.it>
+License: GPL-3
+Project-URL: Repository, https://github.com/Rarder44/EzDocxTemplate
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-docx
+
+# EzDocxTemplate
+Library that extends the functionality of python-docx
+like https://github.com/elapouya/python-docx-template but mine (and worse)
+
+
+## new functionality
+- Replacement of a placeholder with:
+    - Plain text
+    - A group of elements (even from another document)
+- Table population
+
+
+## TODO
+- make image copying work
+- Adding elements from HTML (convert to DOCX first and then load)
+- Populating smart tables:
+    - Only one/some columns
+    - Filling existing cells

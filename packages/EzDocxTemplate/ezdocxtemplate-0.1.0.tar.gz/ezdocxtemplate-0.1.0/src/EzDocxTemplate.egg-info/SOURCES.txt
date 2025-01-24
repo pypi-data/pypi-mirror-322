@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/EzDocxTemplate/EzDocxTemplate.py
+src/EzDocxTemplate/__init__.py
+src/EzDocxTemplate.egg-info/PKG-INFO
+src/EzDocxTemplate.egg-info/SOURCES.txt
+src/EzDocxTemplate.egg-info/dependency_links.txt
+src/EzDocxTemplate.egg-info/requires.txt
+src/EzDocxTemplate.egg-info/top_level.txt
