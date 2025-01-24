@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: pybaseballstats
+Version: 0.0.1a0
+Summary: A Python package for scraping baseball data.
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp>=3.11.11
+Requires-Dist: asyncio>=3.4.3
+Requires-Dist: bs4>=0.0.2
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: polars>=1.20.0
+Requires-Dist: pytest>=8.3.4
+Requires-Dist: ruff>=0.9.3
+Requires-Dist: tqdm>=4.67.1
+
+# pybaseballstats
+
+A Python package for scraping baseball statistics from the web. Inspired by the pybaseball package by James LeDoux. This package is a work in progress and is not yet ready for use.
+
+## Available Sources
+
+1. Baseball Savant
+
+## Usage
+
+Usage documentation can be found at /usage_docs/
