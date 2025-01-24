@@ -1,0 +1,5 @@
+pyproject.toml
+space_intelligence.egg-info/PKG-INFO
+space_intelligence.egg-info/SOURCES.txt
+space_intelligence.egg-info/dependency_links.txt
+space_intelligence.egg-info/top_level.txt

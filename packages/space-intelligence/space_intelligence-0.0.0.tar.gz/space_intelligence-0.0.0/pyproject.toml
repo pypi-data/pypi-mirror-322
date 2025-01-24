@@ -1,0 +1,7 @@
+[project]
+name = "space-intelligence"
+version = "0.0.0"
+description = "Non-functional placeholder"
+
+[project.urls]
+Homepage = "https://www.space-intelligence.com"
