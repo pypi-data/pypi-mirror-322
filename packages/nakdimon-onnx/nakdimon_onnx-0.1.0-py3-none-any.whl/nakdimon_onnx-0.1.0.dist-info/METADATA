@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: nakdimon-onnx
+Version: 0.1.0
+Summary: Hebrew diacritics with onnxruntime
+Project-URL: home, https://github.com/thewh1teagle/nakdimon-onnx
+Author-email: thewh1teagle <61390950+thewh1teagle@users.noreply.github.com>
+License-File: LICENSE
+Requires-Python: <3.13,>=3.9
+Requires-Dist: onnxruntime>=1.20.1
+Description-Content-Type: text/markdown
+
+# nakdimon-onnx
+
+[`nakdimon`](https://github.com/elazarg/nakdimon) diacritizer with onnxruntime
+
+## Setup
+
+```console
+pip install nakdimon-onnx
+```
+
+You also need [`nakdimon.onnx`](https://github.com/thewh1teagle/nakdimon-onnx/releases/download/v0.1.0/nakdimon.onnx). Please see [examples](examples).
+
+## Examples
+
+See [examples](examples)
+
+## Credits
+
+Thanks for [elazarg](https://github.com/elazarg) for creating [nakdimon](https://github.com/elazarg/nakdimon) model!

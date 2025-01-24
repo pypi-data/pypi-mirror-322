@@ -1,0 +1,8 @@
+nakdimon_onnx/__init__.py,sha256=4GoZpuvlgzMtfCuVr9vGkXk4xUasO0QRM0gqlp0foyw,27
+nakdimon_onnx/config.json,sha256=K_kMvx9mabONgJy31eKexkYEulJhdKAvYo6l2PCKyRU,1564
+nakdimon_onnx/config.py,sha256=dMVPkbiOOyfYGz2PH90E4375PLYWtMrGAimIPHQxQIM,1854
+nakdimon_onnx/model.py,sha256=PwWU1_YPNxMCBbBsgniIFMd_sAr-h8vX7yEyGDuJWLs,3497
+nakdimon_onnx-0.1.0.dist-info/METADATA,sha256=K8wuMyAn5AF1BtSopwcLQxMEcDufFh4l2VvspQx1Bjs,839
+nakdimon_onnx-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+nakdimon_onnx-0.1.0.dist-info/licenses/LICENSE,sha256=IU-T4s8fzOSEBcpqgBSrVUt57nILqfb2Gi6WtjCRjdk,1071
+nakdimon_onnx-0.1.0.dist-info/RECORD,,
