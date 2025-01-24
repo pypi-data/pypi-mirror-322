@@ -1,0 +1,587 @@
+------------------------------------------------
+-- Für PostgreSQL
+------------------------------------------------
+
+------------------------------------------------
+-- Tabellen erzeugen
+------------------------------------------------
+
+------------------------------------------------
+-- Hilfstabellen: Gruppen, Anreden usw.
+------------------------------------------------
+
+drop table if exists tbl_gruppe cascade;
+create table tbl_gruppe (
+    id  serial primary key,
+    kurz_bez
+        varchar(4)
+            unique
+            not null
+            collate "de_DE",
+    bez
+        text
+            not null
+            default ''
+            collate "de_DE",
+    farbe
+        varchar(500)    -- Fremdschlüssel siehe unten
+            not null
+            default 'black'
+            collate "de_DE",
+    bemerkung
+        text
+            not null
+            default ''
+            collate "de_DE",
+    --
+    -- Verwaltung des Datensatzes
+    bearb_von
+        text
+            collate "de_DE",
+            -- Zuletzt bearbeitet von (wird von Trigger gesetzt)
+    bearb_am
+        timestamp,
+            -- Zuletzt bearbeitet am/um (wird von Trigger gesetzt)
+    bearb_auto
+        timestamp
+            -- Zuletzt automatisch bearbeitet am/um (wird von Trigger gesetzt)
+    );
+drop rule if exists rule_kurz_bez_gruppe on tbl_gruppe;
+create rule rule_kurz_bez_gruppe
+    as on delete
+    to tbl_gruppe
+    where kurz_bez in ('M', 'F', 'Mst', 'Pr')
+    do instead nothing;
+    
+drop table if exists tbl_anrede cascade;
+create table tbl_anrede (
+    id  serial primary key,
+    anrede
+        text
+            unique
+            not null
+            collate "de_DE",
+    --
+    -- Verwaltung des Datensatzes
+    bearb_von
+        text
+            collate "de_DE",
+            -- Zuletzt bearbeitet von (wird von Trigger gesetzt)
+    bearb_am
+        timestamp,
+            -- Zuletzt bearbeitet am/um (wird von Trigger gesetzt)
+    bearb_auto
+        timestamp
+            -- Zuletzt automatisch bearbeitet am/um (wird von Trigger gesetzt)
+    );
+
+drop table if exists tbl_versandart cascade;
+create table tbl_versandart (
+    id  serial primary key,
+    kurz_bez
+        varchar(4)
+            unique
+            not null
+            collate "de_DE",
+    bez
+        text
+            not null
+            default ''
+            collate "de_DE",
+    bemerkung
+        text
+            not null
+            default ''
+            collate "de_DE",
+    --
+    -- Verwaltung des Datensatzes
+    bearb_von
+        text
+            collate "de_DE",
+            -- Zuletzt bearbeitet von (wird von Trigger gesetzt)
+    bearb_am
+        timestamp,
+            -- Zuletzt bearbeitet am/um (wird von Trigger gesetzt)
+    bearb_auto
+        timestamp
+            -- Zuletzt automatisch bearbeitet am/um (wird von Trigger gesetzt)    
+    );
+
+
+------------------------------------------------
+-- Haupttabellen (Personen, Familien)
+------------------------------------------------
+
+drop table if exists tbl_person cascade;
+create table tbl_person (
+    id  serial primary key,
+    --
+    -- Identität
+    name
+        text
+            not null
+            default ''
+            collate "de_DE",
+    vorname
+        text
+            not null
+            default ''
+            collate "de_DE",
+    anrede
+        text
+            not null
+            default ''
+            collate "de_DE",
+    von_und_zu    -- von, van, de usw.
+        text
+            not null
+            default ''
+            collate "de_DE",
+    titel         -- Dr., Prof. usw.
+        text
+            not null
+            default ''
+            collate "de_DE",
+    gebdat
+        date,
+    --
+    -- Kontaktdaten
+    zusatz
+        text
+            not null
+            default ''
+            collate "de_DE",
+    strasse
+        text
+            not null
+            default ''
+            collate "de_DE",
+    plz
+        text
+            not null
+            default ''
+            collate "de_DE",
+    ort
+        text
+            not null
+            default ''
+            collate "de_DE",
+    land
+        text
+            not null
+            default 'Deutschland'
+            collate "de_DE",
+    land_kurz
+        varchar(3)
+            not null
+            default ''
+            collate "de_DE",
+    email
+        text
+            not null
+            default ''
+            collate "de_DE",
+    kontaktdaten
+        text
+            not null
+            default ''
+            collate "de_DE",
+    --
+    -- Bemerkung
+    bemerkung
+        text
+            not null
+            default ''
+            collate "de_DE",
+    --
+    -- Verwaltung des Datensatzes
+    bearb_von
+        text
+            collate "de_DE",
+            -- Zuletzt bearbeitet von (wird von Trigger gesetzt)
+    bearb_am
+        timestamp,
+            -- Zuletzt bearbeitet am/um (wird von Trigger gesetzt)
+    bearb_auto
+        timestamp
+            -- Zuletzt automatisch bearbeitet am/um (wird von Trigger gesetzt)
+    );
+
+drop table if exists tbl_familie cascade;
+create table tbl_familie (
+    id  serial primary key,
+    --
+    -- Identität
+    name      -- Sortierung in der Liste, sonst keine Bedeutung
+        text
+            not null
+            default ''
+            collate "de_DE",
+    anschrift -- Erste Zeile in der Adresse (z.B. Müller-Lüdenscheid)
+        text
+            not null
+            default ''
+            collate "de_DE",
+    anrede    -- i.d.R. 'Familie' oder leer
+        text
+            not null
+            default ''
+            collate "de_DE",
+    --
+    -- Kontaktdaten
+    zusatz
+        text
+            not null
+            default ''
+            collate "de_DE",
+    strasse
+        text
+            not null
+            default ''
+            collate "de_DE",
+    plz
+        text
+            not null
+            default ''
+            collate "de_DE",
+    ort
+        text
+            not null
+            default ''
+            collate "de_DE",
+    land
+        text
+            not null
+            default 'Deutschland'
+            collate "de_DE",
+    land_kurz
+        varchar(3)
+            not null
+            default ''
+            collate "de_DE",
+    email
+        text
+            not null
+            default ''
+            collate "de_DE",
+    kontaktdaten
+        text
+            not null
+            default ''
+            collate "de_DE",
+    --
+    -- Bemerkung
+    bemerkung
+        text
+            not null
+            default ''
+            collate "de_DE",
+    --
+    -- Verwaltung des Datensatzes
+    bearb_von
+        text
+            collate "de_DE",
+            -- Zuletzt bearbeitet von (wird von Trigger gesetzt)
+    bearb_am
+        timestamp,
+            -- Zuletzt bearbeitet am/um (wird von Trigger gesetzt)
+    bearb_auto
+        timestamp
+            -- Zuletzt automatisch bearbeitet am/um (wird von Trigger gesetzt)
+    );
+
+--  Tabelle über die Gemeinden selber
+    -- Da diese Tabelle über mehrere Gemeinden verwendet werden soll, wird
+    -- sie in der Regel nicht neu erzeugt.
+    --
+    -- Über diese Tabelle soll in zu erledigenden Jobs iteriert werden,
+    -- d.h. es werden z.B. die Gesamtlisten für alle (!) aktiven (s. column aktiv)
+    -- Gemeinden erzeugt.
+create table if not exists public.tbl_gemeinde (
+    -- Identifizierung
+    id
+        serial
+        primary key,
+    kurz_bez
+        -- Möglichst nur ein Wort, mit dem die Gemeinde umgangssprachlich
+        -- identifiziert wird.
+        varchar(100)
+            unique
+            not null
+            collate "de_DE",
+    -- Einzelheiten zur Gemeinde
+    strasse
+        text
+            not null
+            default ''
+            collate "de_DE",
+    plz
+        text
+            not null
+            default ''
+            collate "de_DE",
+    ort
+        text
+            not null
+            default ''
+            collate "de_DE",
+    land
+        text
+            not null
+            default 'Deutschland'
+            collate "de_DE",
+    land_kurz
+        varchar(3)
+            not null
+            default ''
+            collate "de_DE",
+    email
+        text
+            not null
+            default ''
+            collate "de_DE",
+    -- Weitere Einzelheiten zur Gemeinde, die v.a. die Datenbank, die Auswertungen
+    -- usw. betreffen
+    aktiv
+        -- Über dieses Feld wird gesteuert, ob die regelmäßigen Jobs, die die
+        -- Gemeinde betreffen, ausgeführt werden oder nicht. Dazu gehören z.B.
+        --    - Listen und Statistiken erstellen
+        boolean
+            not null
+            default false,
+    rel_verz    -- Relativer Pfad zur Veröffentlichung der Auswertungen
+                -- 
+                -- Veröffentlicht wird i.d.R. im WEB und in der Cloud
+                --
+                -- I.d.R. das letzte Unterverzeichnis, kann aber dort auch ein Pfad
+                -- sein. Ohne / am Anfang und Ende. Nötigenfalls / in der Mitte.
+                --
+                -- Z.B. rel_verz = 'cg-2022' führt zu
+                -- cloud/oeffentlich/cg-2022/
+                -- oder
+                -- /var/www/http/oeffentlich/cg-2022
+                -- 
+                -- Dieses Verzeichnis muss vorhanden sein.
+        varchar(50)
+            unique
+            not null
+            default ''
+            collate "de_DE",
+    mail_from   -- Für den Versand von Mails aus der GUI, für Versand u.ä.
+                -- Muss ggf. mit smtp_server, smtp_user und smtp_password korrespondieren.
+                -- In aller Regel sollten diese Zugangsdaten gesetzt werden, damit nicht
+                -- Probleme beim Fall-Back dieser Werte entstehen.
+        varchar(500),
+    mail_reply
+        varchar(500),
+    mail_signatur
+        text
+            not null
+            default ''
+            collate "de_DE",
+    smtp_server
+        text
+            not null
+            default ''
+            collate "de_DE",
+    smtp_port
+        text
+            not null
+            default ''
+            collate "de_DE",
+    smtp_user
+        text
+            not null
+            default ''
+            collate "de_DE",
+    smtp_password
+        text
+            not null
+            default ''
+            collate "de_DE",
+    schema      -- Schema dieser Gemeinde innerhalb der DB
+                -- Damit werden die Tabellen in der DB gesucht.
+                -- Für die Gemeinde Karlsruhe könnte das 'gem_karlsruhe' sein,
+                -- s.d. die Tabellen so referenziert werden::
+                -- gem_karlsruhe.tbl_person
+        varchar(50)
+            not null
+            default ''
+            unique,
+            collate "de_DE",
+  --
+  -- Verwaltung des Datensatzes
+  bearb_von
+      text
+          collate "de_DE",
+          -- Zuletzt bearbeitet von (wird von Trigger gesetzt)
+  bearb_am
+      timestamp,
+          -- Zuletzt bearbeitet am/um (wird von Trigger gesetzt)
+  bearb_auto
+      timestamp
+          -- Zuletzt automatisch bearbeitet am/um (wird von Trigger gesetzt)
+);
+
+------------------------------------------------
+-- Beziehungstabellen (n-n-Beziehungen)
+------------------------------------------------
+
+drop table if exists tbl_person_gruppe cascade;
+create table tbl_person_gruppe (
+    id  serial primary key,
+    person_id
+        integer
+            references tbl_person(id)
+                on delete cascade
+                on update cascade,
+    gruppe_kurz_bez
+        varchar(4)
+            references tbl_gruppe(kurz_bez)
+                on delete restrict
+                on update cascade,
+    --
+    -- Verwaltung des Datensatzes
+    bearb_von
+        text
+            collate "de_DE",
+            -- Zuletzt bearbeitet von (wird von Trigger gesetzt)
+    bearb_am
+        timestamp,
+            -- Zuletzt bearbeitet am/um (wird von Trigger gesetzt)
+    bearb_auto
+        timestamp
+            -- Zuletzt automatisch bearbeitet am/um (wird von Trigger gesetzt)
+    );
+
+drop table if exists tbl_familie_gruppe cascade;
+create table tbl_familie_gruppe (
+    id  serial primary key,
+    familie_id
+        integer
+            references tbl_familie(id)
+                on delete cascade
+                on update cascade,
+    gruppe_kurz_bez
+        varchar(4)
+            references tbl_gruppe(kurz_bez)
+                on delete restrict
+                on update cascade,
+    --
+    -- Verwaltung des Datensatzes
+    bearb_von
+        text
+            collate "de_DE",
+            -- Zuletzt bearbeitet von (wird von Trigger gesetzt)
+    bearb_am
+        timestamp,
+            -- Zuletzt bearbeitet am/um (wird von Trigger gesetzt)
+    bearb_auto
+        timestamp
+            -- Zuletzt automatisch bearbeitet am/um (wird von Trigger gesetzt)
+    );
+
+drop table if exists tbl_gruppe_ansprechpartner cascade;
+create table tbl_gruppe_ansprechpartner (
+    id  serial primary key,
+    person_id
+        integer
+            references tbl_person(id)
+                on delete cascade
+                on update cascade,
+    gruppe_kurz_bez
+        varchar(4)
+            references tbl_gruppe(kurz_bez)
+                on delete restrict
+                on update cascade,
+    --
+    -- Verwaltung des Datensatzes
+    bearb_von
+        text
+            collate "de_DE",
+            -- Zuletzt bearbeitet von (wird von Trigger gesetzt)
+    bearb_am
+        timestamp,
+            -- Zuletzt bearbeitet am/um (wird von Trigger gesetzt)
+    bearb_auto
+        timestamp
+            -- Zuletzt automatisch bearbeitet am/um (wird von Trigger gesetzt)
+    );
+
+drop table if exists tbl_person_versandart cascade;
+create table tbl_person_versandart (
+    id  serial primary key,
+    person_id
+        integer
+            references tbl_person(id)
+                on delete cascade
+                on update cascade,
+    versandart
+        varchar(4)
+            references tbl_versandart(kurz_bez)
+                on delete cascade
+                on update cascade,
+    --
+    -- Verwaltung des Datensatzes
+    bearb_von
+        text
+            collate "de_DE",
+            -- Zuletzt bearbeitet von (wird von Trigger gesetzt)
+    bearb_am
+        timestamp,
+            -- Zuletzt bearbeitet am/um (wird von Trigger gesetzt)
+    bearb_auto
+        timestamp
+            -- Zuletzt automatisch bearbeitet am/um (wird von Trigger gesetzt)
+    );
+
+drop table if exists tbl_familie_versandart cascade;
+create table tbl_familie_versandart (
+    id  serial primary key,
+    familie_id
+        integer
+            references tbl_familie(id)
+                on delete cascade
+                on update cascade,
+    versandart
+        varchar(4)
+            references tbl_versandart(kurz_bez)
+                on delete cascade
+                on update cascade,
+    --
+    -- Verwaltung des Datensatzes
+    bearb_von
+        text
+            collate "de_DE",
+            -- Zuletzt bearbeitet von (wird von Trigger gesetzt)
+    bearb_am
+        timestamp,
+            -- Zuletzt bearbeitet am/um (wird von Trigger gesetzt)
+    bearb_auto
+        timestamp
+            -- Zuletzt automatisch bearbeitet am/um (wird von Trigger gesetzt)
+    );
+
+------------------------------------------------
+-- Fremdschlüssel (Foreign keys) erzeugen
+--    Hier werden alle Fremdschlüssel definiert,
+--    bis auf die n-n Beziehungen.
+------------------------------------------------
+
+alter table tbl_gruppe
+    add foreign key (farbe)
+        references public.tbl_farben(farbe)
+            on delete set default
+            on update cascade;
+
+alter table tbl_person
+    add foreign key (anrede)
+        references tbl_anrede(anrede)
+            on delete set default
+            on update cascade;
+
+alter table tbl_familie
+    add foreign key (anrede)
+        references tbl_anrede(anrede)
+            on delete set default
+            on update cascade;

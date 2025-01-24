@@ -1,0 +1,84 @@
+------------------------------------------------
+--
+-- Zusätzliche Indizes
+--
+-- Für PostgreSQL
+------------------------------------------------
+
+-- auf tbl_farben
+drop index if exists idx_gruppe;
+create index idx_gruppe on tbl_gruppe(kurz_bez);
+
+-- Auf tbl_anrede
+drop index if exists idx_anrede;
+create index idx_anrede on tbl_anrede(anrede);
+
+-- auf tbl_versandart
+drop index if exists idx_versandart;
+create index idx_versandart on tbl_versandart(kurz_bez);
+
+-- auf tbl_person
+drop index if exists idx_person_name;
+create index idx_person_name on tbl_person(name, vorname);
+
+drop index if exists idx_person_gebdat;
+create index idx_person_gebdat on tbl_person(gebdat);
+
+-- auf tbl_familie
+drop index if exists idx_familie;
+create index idx_familie on tbl_familie(name);
+
+-- auf tbl_person_gruppe
+drop index if exists idx_person_gruppe_p;
+create index idx_person_gruppe_p on tbl_person_gruppe(person_id);
+
+drop index if exists idx_person_gruppe_g;
+create index idx_person_gruppe_g on tbl_person_gruppe(gruppe_kurz_bez);
+
+drop index if exists idx_person_gruppe_eindeutig;
+create unique index idx_person_gruppe_eindeutig
+    on tbl_person_gruppe(person_id, gruppe_kurz_bez);
+
+-- auf tbl_familie_gruppe
+drop index if exists idx_familie_gruppe_p;
+create index idx_familie_gruppe_p on tbl_familie_gruppe(familie_id);
+
+drop index if exists idx_familie_gruppe_g;
+create index idx_familie_gruppe_g on tbl_familie_gruppe(gruppe_kurz_bez);
+
+drop index if exists idx_familie_gruppe_eindeutig;
+create unique index idx_familie_gruppe_eindeutig
+    on tbl_familie_gruppe(familie_id, gruppe_kurz_bez);
+
+-- auf tbl_gruppe_ansprechpartner
+drop index if exists idx_gruppe_ansprechpartner_p;
+create index idx_gruppe_ansprechpartner_p on tbl_gruppe_ansprechpartner(person_id);
+
+drop index if exists idx_gruppe_ansprechpartner_g;
+create index idx_gruppe_ansprechpartner_g on tbl_gruppe_ansprechpartner(gruppe_kurz_bez);
+
+drop index if exists idx_gruppe_ansprechpartner_eindeutig;
+create unique index idx_gruppe_ansprechpartner_eindeutig
+    on tbl_gruppe_ansprechpartner(person_id, gruppe_kurz_bez);
+
+-- auf tbl_person_versandart
+drop index if exists idx_person_versandart_p;
+create index idx_person_versandart_p on tbl_person_versandart(person_id);
+
+drop index if exists idx_person_versandart_v;
+create index idx_person_versandart_v on tbl_person_versandart(versandart);
+
+drop index if exists idx_person_versandart_eindeutig;
+create unique index idx_person_versandart_eindeutig
+    on tbl_person_versandart(person_id, versandart);
+
+-- auf tbl_familie_versandart
+drop index if exists idx_familie_versandart_p;
+create index idx_familie_versandart_p on tbl_familie_versandart(familie_id);
+
+drop index if exists idx_familie_versandart_v;
+create index idx_familie_versandart_v on tbl_familie_versandart(versandart);
+
+drop index if exists idx_familie_versandart_eindeutig;
+create unique index idx_familie_versandart_eindeutig
+    on tbl_familie_versandart(familie_id, versandart);

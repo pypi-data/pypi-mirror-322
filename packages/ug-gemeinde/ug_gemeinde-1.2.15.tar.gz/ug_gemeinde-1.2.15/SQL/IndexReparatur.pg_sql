@@ -1,0 +1,27 @@
+CREATE OR REPLACE FUNCTION public.reset_sequences_to_max(schema varchar default 'public', dry_run bool default true)
+RETURNS void AS $$
+DECLARE
+    r RECORD;
+    query TEXT;
+BEGIN
+    -- Loop through all tables
+    FOR r IN SELECT t.table_schema, t.table_name, column_name, sequence_name
+             FROM information_schema.tables t
+             JOIN information_schema.columns c ON t.table_name = c.table_name
+             JOIN information_schema.sequences s ON 'nextval('''||s.sequence_name||'''::regclass)' = c.column_default
+             WHERE t.table_schema = schema
+    LOOP
+        -- Construct the dynamic query to set the sequence value
+        query := format('SELECT setval(''%I'', (SELECT MAX(%I) FROM %I.%I));',
+                         r.sequence_name, r.column_name, r.table_schema, r.table_name);
+
+        -- Execute the dynamic query
+        if dry_run then
+            raise notice'Run query: %', query;
+        else
+            EXECUTE query;
+        end if;
+
+    END LOOP;
+END;
+$$ LANGUAGE plpgsql;

@@ -1,0 +1,70 @@
+------------------------------------------------
+-- Test-Daten, mehr oder weniger sinnvoll
+------------------------------------------------
+
+insert into tbl_gruppe (kurz_bez, bez) values
+  ('M',     'Mitglied'),
+  ('F',     'Freund'),
+  ('GR',    'Gemeinderat'),
+  ('VR',    'Verwaltungsrat'),
+  ('Mstr',  'Ministrant'),
+  ('Pr', 'Priester CG');
+
+insert into tbl_anrede (anrede) values
+  (''),
+  ('Herr'),
+  ('Frau'),
+  ('Familie');
+
+insert into tbl_versandart (kurz_bez, bez) values
+    ('p',     'Versand per Post'),
+    ('m',     'Versand per eMail'),
+    ('pm',    'Post für Mitglieder (besonders wichtig)'),
+    ('pf',    'Postfach im Gemeindebüro (Hauspost)');
+
+insert into tbl_person (name, vorname, anrede, von_und_zu, titel, gebdat,
+        strasse, plz, ort, land, email, kontaktdaten,
+        bemerkung)
+    values
+    ('Wittchen', 'Schnee', 'Frau', default, default, default,
+        'Hinterbergen 7', '77777', 'Siebengebirge', default, 'zwerge@hinterbergen.de', default,
+        'Testdaten'),
+    ('Stielzchen', 'Rumpel', 'Herr', default, 'Prof.', default,
+        'Buchengrund 44', '45454', 'Unterholz', 'Schweiz', default, default,
+        'Testdaten'),
+    ('Pastörchen', 'Hannelore', 'Frau', default, 'Dr.', '1980-04-01',
+        'Eppinger Allee 1', '76131', 'Karlsruhe', default, 'pastoerchen@christengemeinschaft.org', 
+        '0721-38 41 07 19\nmobil 0160-833 19 34',
+        'Testdaten');
+
+insert into tbl_familie (name, anschrift, anrede,
+        strasse, plz, ort, land, email, kontaktdaten,
+        bemerkung)
+    values
+    ('Stielzchen', 'Rumpel Stielzchen und Schnee Wittchen', 'Familie',
+        'Hinter dem Mond 24', '98765', 'Himmelszelt', default, default, default,
+        'Testdaten');
+
+insert into tbl_person_gruppe (person_id, gruppe_kurz_bez) values
+    (1, 'F'),
+    (1, 'GR'),
+    (2, 'Mstr'),
+    (3, 'Pr'),
+    (3, 'VR');
+
+insert into tbl_gruppe_ansprechpartner (gruppe_kurz_bez, person_id) values
+    ('Pr', 3),
+    ('GR', 1);
+
+insert into tbl_person_versandart (person_id, versandart) values
+    (1, 'm'),
+    (1, 'pm'),
+    (2, 'p'),
+    (3, 'pf');
+
+insert into tbl_familie_gruppe (familie_id, gruppe_kurz_bez) values
+    (1, 'GR');
+
+insert into tbl_familie_versandart (familie_id, versandart) values
+    (1, 'm'),
+    (1, 'p');
