@@ -1,0 +1,14 @@
+boto3
+PyYAML
+jmespath
+rich
+setuptools
+patool
+pydrive2
+appdirs
+tqdm
+funcy
+fsspec
+
+[dev]
+twine>=4.0.2
