@@ -1,0 +1,7 @@
+pre-commit
+mypy
+pylint
+
+coverage
+setuptools
+wheel
