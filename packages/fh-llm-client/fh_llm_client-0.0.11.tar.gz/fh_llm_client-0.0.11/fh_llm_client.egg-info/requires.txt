@@ -1,0 +1,39 @@
+coredis
+fhaviary>=0.14.0
+limits
+pydantic<2.10.2,>=2.10.1,~=2.0
+tiktoken>=0.4.0
+
+[:python_version < "3.13"]
+litellm
+
+[:python_version <= "3.11"]
+typing-extensions
+
+[:python_version >= "3.13"]
+litellm>=1.49.1
+
+[deepseek]
+litellm>1.59.3
+
+[dev]
+fh-llm-client[deepseek,local]
+fhaviary[xml]
+ipython>=8
+mypy>=1.8
+pre-commit>=3.4
+pylint-pydantic
+pytest-asyncio
+pytest-recording
+pytest-rerunfailures
+pytest-subtests
+pytest-sugar
+pytest-timer[colorama]
+pytest-xdist
+pytest>=8
+python-dotenv
+refurb>=2
+
+[local]
+numpy
+sentence-transformers
