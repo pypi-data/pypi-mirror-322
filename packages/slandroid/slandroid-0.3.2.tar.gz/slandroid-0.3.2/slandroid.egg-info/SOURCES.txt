@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+slandroid/__init__.py
+slandroid/tool.py
+slandroid.egg-info/PKG-INFO
+slandroid.egg-info/SOURCES.txt
+slandroid.egg-info/dependency_links.txt
+slandroid.egg-info/entry_points.txt
+slandroid.egg-info/top_level.txt
