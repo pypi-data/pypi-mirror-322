@@ -1,0 +1,11 @@
+-r requirements.txt
+flake8
+pytest
+pytest-cov
+pytest-socket
+Pillow
+tox
+twine
+wheel
+coverage
+coveralls
