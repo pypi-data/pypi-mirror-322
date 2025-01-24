@@ -1,0 +1,74 @@
+# Makefile for {{ project_name }}
+
+FRONTEND_DIR = ./frontend
+
+help:
+	@echo "Available commands:"
+	@echo "  make reactjs             - Setup React frontend project"
+	@echo "  make vue            - Setup Vue frontend project"
+	@echo "  make help           - Display this help message"
+	@echo "  make release        - Build and package web assets"
+
+create_project:		
+	@echo "Creating ReactJs project with Vite..."
+	npm create -y vite@latest $(FRONTEND_DIR) -- --template react-ts
+	cd $(FRONTEND_DIR) && rm -rf .git
+
+install_dependencies:
+	cd $(FRONTEND_DIR) && npm install
+	cd $(FRONTEND_DIR) && npm install tailwindcss @tailwindcss/vite
+	cd $(FRONTEND_DIR) && npm install axios react-router-dom
+	cd $(FRONTEND_DIR) && npm install --save-dev @types/react-router-dom
+
+init_tailwind:
+	@echo "Modifying vite.config.ts..."
+	@echo "import tailwindcss from '@tailwindcss/vite';" > temp.ts
+	@cat $(FRONTEND_DIR)/vite.config.ts >> temp.ts
+	@mv temp.ts $(FRONTEND_DIR)/vite.config.ts
+	@sed -i.bak 's/react()/react(), tailwindcss()/' $(FRONTEND_DIR)/vite.config.ts
+	@rm -f $(FRONTEND_DIR)/vite.config.ts.bak
+
+configure:
+	@echo '@import "tailwindcss";' | cat - $(FRONTEND_DIR)/src/index.css > temp && mv temp $(FRONTEND_DIR)/src/index.css	
+	
+
+reactjs: create_project install_dependencies init_tailwind configure
+
+create_vue_project:
+	@echo "Creating Vue project with Vite..."
+	npm create -y vite@latest $(FRONTEND_DIR) -- --template vue-ts
+	cd $(FRONTEND_DIR) && rm -rf .git
+
+install_vue_dependencies:
+	cd $(FRONTEND_DIR) && npm install
+	cd $(FRONTEND_DIR) && npm install tailwindcss @tailwindcss/vite
+	cd $(FRONTEND_DIR) && npm install axios vue-router@4
+	cd $(FRONTEND_DIR) && npm install --save-dev @types/vue-router
+
+init_vue_tailwind:
+	@echo "Modifying vite.config.ts..."
+	@echo "import tailwindcss from '@tailwindcss/vite';" > temp.ts
+	@cat $(FRONTEND_DIR)/vite.config.ts >> temp.ts
+	@mv temp.ts $(FRONTEND_DIR)/vite.config.ts
+	@sed -i.bak 's/vue()/vue(), tailwindcss()/' $(FRONTEND_DIR)/vite.config.ts
+	@rm -f $(FRONTEND_DIR)/vite.config.ts.bak
+
+configure_vue_tailwind:
+	@echo "Configuring Tailwind for Vue..."
+	@echo '@import "tailwindcss";' | cat - $(FRONTEND_DIR)/src/style.css > temp && mv temp $(FRONTEND_DIR)/src/style.css	
+
+vue: create_vue_project install_vue_dependencies init_vue_tailwind configure_vue_tailwind
+
+build_static:
+	cd frontend && npm install && npm run build
+	if [ -d frontend/build ]; then \
+		tar -czf web.static.tar.gz -C frontend/build . ; \
+	else \
+		tar -czf web.static.tar.gz -C frontend/dist . ; \
+	fi
+	rm -rf src/{{ python_package_name }}/web && mkdir -p src/{{ python_package_name }}/web	
+	mv web.static.tar.gz src/{{ python_package_name }}/web/	
+	cd src/{{ python_package_name }}/web/ && tar -xzf web.static.tar.gz && rm web.static.tar.gz
+
+release: build_static
+	./deploy.sh && pip install -e .
