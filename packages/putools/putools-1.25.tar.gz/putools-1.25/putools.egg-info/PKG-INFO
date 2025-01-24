@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: putools
+Version: 1.25
+Summary: Package provides python tools and utilities for numeric operations, writing/reading numeric data files, and other stuff.
+Author-email: "O. W. Petersen" <oyvind.w.petersen@ntnu.no>
+Project-URL: repository, https://github.com/Oyvindwpetersen/putools
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: numpy
