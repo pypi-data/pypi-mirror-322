@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: passbolt-py
+Version: 0.0.1
+Summary: Python library for Passbolt
+Home-page: https://github.com/passbolt/lab-passbolt-py
+License: MIT-0
+Project-URL: Documentation, https://github.com/passbolt/lab-passbolt-py/blob/main/README.md
+Project-URL: Source, https://github.com/passbolt/lab-passbolt-py
+Project-URL: Tracker, https://github.com/passbolt/lab-passbolt-py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: httpx==0.26.0
+Requires-Dist: PGPy==0.6.0
+Requires-Dist: python-gnupg==0.5.2
+Provides-Extra: test
+Requires-Dist: pytest>=6.2.2; extra == "test"
+Requires-Dist: pycodestyle; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Provides-Extra: all
+Requires-Dist: pytest>=6.2.2; extra == "all"
+Requires-Dist: pycodestyle; extra == "all"
+Requires-Dist: pytest-cov; extra == "all"
