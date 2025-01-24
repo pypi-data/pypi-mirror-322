@@ -1,0 +1,14 @@
+zeal/__init__.py,sha256=9OlBEF-IRz2sd6lft02xzmRCVOswzIfLke2Po0_U0SA,232
+zeal/apps.py,sha256=gThRINl0n3-Zj2GyAeM3RXFvh01WPk0F8FUt_42MEEI,237
+zeal/constants.py,sha256=A6eYd-55FdCiuKdgJjyXbZv0JDFJwRGJep2RgI1UO_8,738
+zeal/errors.py,sha256=SoWhPpA2F4PGrSic13akh5RMZqmw3byGpe6hmWbzs8I,125
+zeal/listeners.py,sha256=Aq9zXF4imKypXDJF94FRC7zAzi3AShqv_ATFheIMaqw,7211
+zeal/middleware.py,sha256=f7zXEklbxL1o6g7cpqBx7ydgLpYlxmCpEjwWsPbBwNc,627
+zeal/patch.py,sha256=RdIPL1aHxub87vMY01RcbgJCAkOCNSX9dL1SaCcxC1Y,10923
+zeal/signals.py,sha256=z8qV1OYo3pCsqKPeffTL7uC9q5xD5dfJnE7pJASnzN8,65
+zeal/util.py,sha256=pkWBy9e3B8lNWsQVREC89VWLobAFAN8OPcuQHil9PyY,806
+django_zeal-2.0.3.dist-info/LICENSE,sha256=Tg03_3RZ3iV6S6nO-T_PoRfwqPqf6LTCTtj9lcth7yE,1078
+django_zeal-2.0.3.dist-info/METADATA,sha256=rGEz4G1p90ihjP4972y3NQlUaCiFOkBbNlCulkqULfc,8015
+django_zeal-2.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+django_zeal-2.0.3.dist-info/top_level.txt,sha256=KCubq47dMht-yOU2y-Xpgm30CBQ_PzNt2BWBjJTF82c,5
+django_zeal-2.0.3.dist-info/RECORD,,
