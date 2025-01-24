@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: Loanapp
+Version: 1.0.0
+Summary: Loanapp_prediction_model
+Home-page: https://github.com/aicouncil
+Author: Aicouncil
+Author-email: info@aicouncil.in
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+
+
+Loanapp
+├── config/
+│   ├── __init__.py
+│   └── config.py
+├── datasets/
+│   ├── loanTrain.csv
+│   └── test_loan.csv
+├── processing/
+│   ├── __init__.py
+│   ├── data_handling.py
+│   └── preprocessing.py
+├── trained_models/
+│   └── classification.pkl
+├── VERSION
+├── __init__.py
+├── pipeline.py
+├── predict.py
+├── training_pipeline.py
+├── MANIFEST.in
+├── README.md
+├── requirements.txt
+└── setup.py
+
+

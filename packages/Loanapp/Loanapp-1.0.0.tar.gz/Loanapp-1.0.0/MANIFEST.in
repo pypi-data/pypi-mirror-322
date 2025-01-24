@@ -1,0 +1,17 @@
+
+include *.txt
+include *.md
+include *.py
+
+recursive-include ./Loanapp/*
+
+include Loanapp/datasets/*.csv
+include Loanapp/trained_models/*.pkl
+include Loanapp/processing/*.py
+include Loanapp/config/*.py
+include ./tests/*
+include Loanapp/VERSION
+
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
