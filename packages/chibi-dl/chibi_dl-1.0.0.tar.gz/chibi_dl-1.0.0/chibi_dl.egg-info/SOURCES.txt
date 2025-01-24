@@ -1,0 +1,17 @@
+COPYING
+README.rst
+setup.cfg
+setup.py
+chibi_dl/__init__.py
+chibi_dl/config.py
+chibi_dl/main.py
+chibi_dl.egg-info/PKG-INFO
+chibi_dl.egg-info/SOURCES.txt
+chibi_dl.egg-info/dependency_links.txt
+chibi_dl.egg-info/requires.txt
+chibi_dl.egg-info/top_level.txt
+chibi_dl/site/__init__.py
+chibi_dl/site/base/__init__.py
+chibi_dl/site/base/exceptions.py
+chibi_dl/site/base/site.py
+tests/test_site.py
