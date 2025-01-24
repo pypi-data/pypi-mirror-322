@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+fridaDownloader/__init__.py
+fridaDownloader/main.py
+fridaDownloader.egg-info/PKG-INFO
+fridaDownloader.egg-info/SOURCES.txt
+fridaDownloader.egg-info/dependency_links.txt
+fridaDownloader.egg-info/entry_points.txt
+fridaDownloader.egg-info/requires.txt
+fridaDownloader.egg-info/top_level.txt
