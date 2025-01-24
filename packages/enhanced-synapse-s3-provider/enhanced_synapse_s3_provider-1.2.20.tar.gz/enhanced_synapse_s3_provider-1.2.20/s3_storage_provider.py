@@ -1,0 +1,323 @@
+import os
+import threading
+from typing import Dict, Any, Optional
+from twisted.internet import reactor, defer, threads
+from twisted.python.failure import Failure
+from multiprocessing.pool import ThreadPool
+
+import boto3
+import logging
+
+from synapse.logging.context import LoggingContext, make_deferred_yieldable
+from synapse.rest.media.v1._base import Responder
+from synapse.rest.media.v1.storage_provider import StorageProvider
+
+# Try to import current_context from the new location, fall back to the old one
+try:
+    from synapse.logging.context import current_context
+except ImportError:
+    current_context = LoggingContext.current_context
+
+logger = logging.getLogger("synapse.s3")
+
+READ_CHUNK_SIZE = 16 * 1024
+
+class S3StorageProviderBackend(StorageProvider):
+    """Storage provider for S3 storage.
+
+    Args:
+        hs (HomeServer): Homeserver instance
+        config: The config dict from the homeserver config
+    """
+
+    def __init__(self, hs, config):
+        StorageProvider.__init__(self)
+        self.hs = hs
+
+        # Get paths from Synapse config
+        self.media_store_path = hs.config.media.media_store_path
+        try:
+            self.uploads_path = hs.config.media.uploads_path
+        except AttributeError:
+            self.uploads_path = os.path.join(self.media_store_path, "uploads")
+            logger.info("uploads_path not found in config, using: %s", self.uploads_path)
+
+        self.cache_directory = self.media_store_path
+
+        # Initialize storage settings from config
+        self.store_local = config.get("store_local", True)
+        self.store_remote = config.get("store_remote", True)
+        self.store_synchronous = config.get("store_synchronous", True)
+
+        # Get media retention settings
+        media_retention = config.get("media_retention", {})
+        self.local_media_lifetime = media_retention.get("local_media_lifetime")
+        self.remote_media_lifetime = media_retention.get("remote_media_lifetime")
+
+        # S3 configuration
+        s3_config = config.get("config", {})
+        if not s3_config:
+            self.bucket = config.get("bucket")
+            self.api_kwargs = {
+                "region_name": config.get("region_name"),
+                "endpoint_url": config.get("endpoint_url"),
+                "aws_access_key_id": config.get("access_key_id"),
+                "aws_secret_access_key": config.get("secret_access_key"),
+            }
+            self.prefix = config.get("prefix", "")
+            self.extra_args = config.get("extra_args", {})
+        else:
+            self.bucket = s3_config.get("bucket")
+            self.api_kwargs = {
+                "region_name": s3_config.get("region_name"),
+                "endpoint_url": s3_config.get("endpoint_url"),
+                "aws_access_key_id": s3_config.get("access_key_id"),
+                "aws_secret_access_key": s3_config.get("secret_access_key"),
+            }
+            self.prefix = s3_config.get("prefix", "")
+            self.extra_args = s3_config.get("extra_args", {})
+
+        if not self.bucket:
+            raise Exception("S3 bucket must be specified either in config block or at root level")
+        
+        self.api_kwargs = {k: v for k, v in self.api_kwargs.items() if v is not None}
+        
+        if self.prefix and not self.prefix.endswith("/"):
+            self.prefix += "/"
+
+        self._s3_client = None
+        self._s3_client_lock = threading.Lock()
+        self._s3_pool = ThreadPool(1)
+        self._pending_files = {}
+        
+        logger.info("S3 Storage Provider initialized with bucket: %s, store_local: %s", self.bucket, self.store_local)
+        logger.info("Using media_store_path: %s", self.media_store_path)
+        logger.info("Using uploads_path: %s", self.uploads_path)
+
+    def _get_s3_client(self):
+        """Get or create an S3 client."""
+        if self._s3_client is None:
+            with self._s3_client_lock:
+                if self._s3_client is None:
+                    self._s3_client = boto3.client("s3", **self.api_kwargs)
+        return self._s3_client
+
+    def _cleanup_empty_directories(self, path):
+        """Recursively remove empty directories."""
+        directory = os.path.dirname(path)
+        while directory and directory.startswith(self.media_store_path):
+            try:
+                os.rmdir(directory)
+                logger.debug("Removed empty directory: %s", directory)
+            except OSError:
+                break  # Directory not empty or already removed
+            directory = os.path.dirname(directory)
+
+    async def store_file(self, path: str, file_info: Dict[str, Any]) -> None:
+        """Store a file in S3 and handle local storage based on config."""
+        if not self.media_store_path:
+            logger.error("No media_store_path configured")
+            raise Exception("No media_store_path configured")
+
+        local_path = os.path.join(self.media_store_path, path)
+        abs_path = os.path.abspath(local_path)
+        
+        try:
+            logger.info("Processing file %s with store_local=%s", path, self.store_local)
+            
+            # First, ensure the file exists
+            if not os.path.exists(local_path):
+                logger.error("File %s does not exist at %s", path, local_path)
+                raise Exception(f"File {path} does not exist at {local_path}")
+
+            # Upload to S3 first
+            s3_path = self.prefix + path
+            s3_client = self._get_s3_client()
+
+            try:
+                with open(local_path, 'rb') as f:
+                    s3_client.upload_fileobj(
+                        f,
+                        self.bucket,
+                        s3_path,
+                        ExtraArgs=self.extra_args
+                    )
+                logger.info("Successfully uploaded %s to S3 at %s", path, s3_path)
+            except Exception as e:
+                logger.error("Failed to upload %s to S3: %s", path, str(e))
+                raise
+
+            # If store_local is false, delete the local file immediately after successful S3 upload
+            if not self.store_local:
+                try:
+                    os.remove(local_path)
+                    logger.info("Removed local file after S3 upload: %s", local_path)
+                    self._cleanup_empty_directories(local_path)
+                    return
+                except Exception as e:
+                    logger.error("Failed to remove local file %s: %s", local_path, str(e))
+                    raise
+
+            # If we get here, store_local is true
+            # Handle retention if configured
+            is_local = (self.uploads_path and abs_path.startswith(os.path.abspath(self.uploads_path))) or \
+                      any(p.startswith("local") for p in os.path.relpath(abs_path, self.media_store_path).split(os.sep))
+
+            retention_period = self.local_media_lifetime if is_local else self.remote_media_lifetime
+            if retention_period:
+                delete_time = reactor.seconds() + retention_period
+                self._pending_files[abs_path] = (delete_time, is_local)
+                logger.info(
+                    "File %s will be deleted after %s seconds",
+                    local_path,
+                    retention_period
+                )
+            else:
+                logger.info(
+                    "File %s will be kept indefinitely",
+                    local_path
+                )
+                    
+        except Exception as e:
+            logger.error("Failed to process %s: %s", path, str(e))
+            raise
+
+    async def fetch(self, path: str, file_info: Optional[Dict[str, Any]] = None) -> Optional[Responder]:
+        """Fetch the file with the given path from S3.
+        
+        Args:
+            path: The path of the file to fetch
+            file_info: Optional metadata about the file being fetched
+            
+        Returns:
+            Returns a Responder object or None if not found
+        """
+        logger.info("Fetching %s from S3", path)
+        
+        s3_path = self.prefix + path
+        try:
+            s3_client = self._get_s3_client()
+            deferred = defer.Deferred()
+            
+            # Run the S3 download in a thread
+            reactor.callInThread(
+                s3_download_task,
+                s3_client,
+                self.bucket,
+                s3_path,
+                self.extra_args,
+                deferred,
+                current_context(),
+            )
+            
+            responder = await make_deferred_yieldable(deferred)
+            return responder
+            
+        except Exception as e:
+            logger.error("Failed to fetch %s from S3: %s", path, str(e))
+            raise
+
+def s3_download_task(s3_client, bucket, key, extra_args, deferred, parent_logcontext):
+    """Downloads a file from S3 in a separate thread."""
+    with LoggingContext(parent_context=parent_logcontext):
+        logger.info("Fetching %s from S3", key)
+        try:
+            if "SSECustomerKey" in extra_args and "SSECustomerAlgorithm" in extra_args:
+                resp = s3_client.get_object(
+                    Bucket=bucket,
+                    Key=key,
+                    SSECustomerKey=extra_args["SSECustomerKey"],
+                    SSECustomerAlgorithm=extra_args["SSECustomerAlgorithm"],
+                )
+            else:
+                resp = s3_client.get_object(Bucket=bucket, Key=key)
+                
+        except s3_client.exceptions.NoSuchKey:
+            logger.info("Media %s not found in S3", key)
+            reactor.callFromThread(deferred.callback, None)
+            return
+        except Exception as e:
+            logger.error("Error downloading %s from S3: %s", key, str(e))
+            reactor.callFromThread(deferred.errback, Failure())
+            return
+
+        producer = _S3Responder()
+        reactor.callFromThread(deferred.callback, producer)
+        _stream_to_producer(reactor, producer, resp["Body"], timeout=90.0)
+
+class _S3Responder(Responder):
+    """A Responder that streams from S3."""
+    
+    def __init__(self):
+        self.wakeup_event = threading.Event()
+        self.stop_event = threading.Event()
+        self.consumer = None
+        self.deferred = defer.Deferred()
+        
+    def write_to_consumer(self, consumer):
+        """Start streaming the S3 response to the consumer."""
+        self.consumer = consumer
+        consumer.registerProducer(self, True)
+        self.wakeup_event.set()
+        return make_deferred_yieldable(self.deferred)
+        
+    def resumeProducing(self):
+        """Resume producing data to the consumer."""
+        self.wakeup_event.set()
+        
+    def pauseProducing(self):
+        """Pause producing data to the consumer."""
+        self.wakeup_event.clear()
+        
+    def stopProducing(self):
+        """Stop producing data to the consumer."""
+        self.stop_event.set()
+        self.wakeup_event.set()
+        if not self.deferred.called:
+            self.deferred.errback(Exception("Consumer asked to stop producing"))
+            
+    def _write(self, chunk):
+        """Write a chunk of data to the consumer."""
+        if self.consumer and not self.stop_event.is_set():
+            self.consumer.write(chunk)
+            
+    def _error(self, failure):
+        """Signal an error to the consumer."""
+        if self.consumer:
+            self.consumer.unregisterProducer()
+            self.consumer = None
+        if not self.deferred.called:
+            self.deferred.errback(failure)
+            
+    def _finish(self):
+        """Signal completion to the consumer."""
+        if self.consumer:
+            self.consumer.unregisterProducer()
+            self.consumer = None
+        if not self.deferred.called:
+            self.deferred.callback(None)
+
+def _stream_to_producer(reactor, producer, body, timeout=None):
+    """Stream the S3 response body to the producer."""
+    try:
+        while not producer.stop_event.is_set():
+            if not producer.wakeup_event.is_set():
+                ret = producer.wakeup_event.wait(timeout)
+                if not ret:
+                    raise Exception("Timed out waiting to resume")
+                    
+            if producer.stop_event.is_set():
+                return
+                
+            chunk = body.read(READ_CHUNK_SIZE)
+            if not chunk:
+                return
+                
+            reactor.callFromThread(producer._write, chunk)
+            
+    except Exception:
+        reactor.callFromThread(producer._error, Failure())
+    finally:
+        reactor.callFromThread(producer._finish)
+        if body:
+            body.close() 
