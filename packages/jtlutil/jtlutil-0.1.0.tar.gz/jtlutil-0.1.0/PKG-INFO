@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: jtlutil
+Version: 0.1.0
+Summary: Support routines for League infrastructure
+Author-email: Eric Busboom <eric@civicknowledge.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# League Infrastructure Utilities
