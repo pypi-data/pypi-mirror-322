@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: deepmol_models
+Version: 0.0.1
+Summary: DeepMol Case Studies
+Author: DeepMol Team
+License: BSD 2-Clause License
+Keywords: machine-learning,deep-learning,cheminformatics,drug-discovery
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: deepmol[all]==1.1.11
+Requires-Dist: deepmol[all]==1.1.11
+Requires-Dist: scikit-learn==1.2.0
+Requires-Dist: boruta~=0.3
+Requires-Dist: bokehmol
+Requires-Dist: rich
