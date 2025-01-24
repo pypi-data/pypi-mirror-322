@@ -1,0 +1,13 @@
+README.md
+setup.py
+mindrove_gesture/__init__.py
+mindrove_gesture/fine_tune.py
+mindrove_gesture/inference.py
+mindrove_gesture/record.py
+mindrove_gesture/utils.py
+mindrove_gesture.egg-info/PKG-INFO
+mindrove_gesture.egg-info/SOURCES.txt
+mindrove_gesture.egg-info/dependency_links.txt
+mindrove_gesture.egg-info/entry_points.txt
+mindrove_gesture.egg-info/requires.txt
+mindrove_gesture.egg-info/top_level.txt
