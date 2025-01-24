@@ -1,0 +1,6 @@
+click
+cookiecutter
+
+[dev]
+pytest
+black

@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+rbds/__init__.py
+rbds/__main__.py
+rbds/monkey_patch.py
+rbds.egg-info/PKG-INFO
+rbds.egg-info/SOURCES.txt
+rbds.egg-info/dependency_links.txt
+rbds.egg-info/entry_points.txt
+rbds.egg-info/requires.txt
+rbds.egg-info/top_level.txt
+rbds/hook_utils/__init__.py
+rbds/hook_utils/custom_config.py
+rbds/hook_utils/dependencies.py
+tests/test_creation.py
