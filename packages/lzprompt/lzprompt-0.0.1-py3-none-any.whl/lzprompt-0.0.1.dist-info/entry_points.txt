@@ -1,0 +1,3 @@
+[console_scripts]
+lzp = lzprompt.cli:cli
+lzprompt = lzprompt.cli:cli
