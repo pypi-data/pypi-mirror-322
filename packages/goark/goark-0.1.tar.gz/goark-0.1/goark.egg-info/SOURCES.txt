@@ -1,0 +1,11 @@
+README.md
+setup.py
+goark/__init__.py
+goark/main.py
+goark/tools.py
+goark/utilities.py
+goark.egg-info/PKG-INFO
+goark.egg-info/SOURCES.txt
+goark.egg-info/dependency_links.txt
+goark.egg-info/requires.txt
+goark.egg-info/top_level.txt
