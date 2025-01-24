@@ -1,0 +1,17 @@
+uniseg/__init__.py,sha256=OZM2A3ajCX2fvKXQOW23fcIYg7ECJJaQMCugjuS3k24,596
+uniseg/breaking.py,sha256=JTrql6RIFQYrTSFEpl-F4s5lZlBtsvtPQtEm9aj3PDQ,13332
+uniseg/db.py,sha256=sdZ0Oy35gdZK9CHe7kp7kbGfYTsVwzx2KQnHxTiW5PA,376
+uniseg/db_lookups.py,sha256=dvmIxQ21UQAMKK_OlNgXaO2UpyNpljRnlnLQIXpcEr8,164922
+uniseg/derived.py,sha256=IWsXX-oOCHSrKNO51ue31L6GgcpHkr4OXX0M5fIt2ac,7402
+uniseg/emoji.py,sha256=vc7J5NxGgnObt9kk7_kY3HDDdjLbfcBhVpYIEpGreCw,1910
+uniseg/graphemecluster.py,sha256=K-dHzo-8PnsPbxI-vg29F71wDIAbjUGcS8IXgMU5q-I,7485
+uniseg/linebreak.py,sha256=hCM-Hmzb34vzqVD2PlYT-IX0hwvw8VHcGGyVl3PVt2M,17249
+uniseg/sentencebreak.py,sha256=yckmQN1UHWQ2QQU8yyp02K38VClvnCzp1Zp72ZjYJ3U,6497
+uniseg/unicodedata_.py,sha256=5Nx1M7F69HWAYHOrmn5pjPYyegBkerkWHGjyaw1LxYE,3245
+uniseg/wordbreak.py,sha256=6ygYoQvx9agqpjZTudQMqGcZ84xtmhuNKhX7V5WP-zk,7780
+uniseg/wrap.py,sha256=j430uzBOkFGy-DYaJuF6hywFw19Cq4ZSl217nwREhzo,12890
+uniseg-0.10.0.dist-info/LICENSE,sha256=DA3auAqQWwJxQ-e--hF8e6tT9_P2BujSDPGninlHIGI,1087
+uniseg-0.10.0.dist-info/METADATA,sha256=h3oEeXuc9gkfqqLsqY1grscqA107dTfSobXyCed2Vt8,7081
+uniseg-0.10.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+uniseg-0.10.0.dist-info/top_level.txt,sha256=B5xhUdpNzS-NoZAP0ZjpOwfzbmPcqQowkrMeDQA0v-M,7
+uniseg-0.10.0.dist-info/RECORD,,
