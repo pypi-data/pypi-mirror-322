@@ -1,0 +1,11 @@
+libgenrs/__init__.py,sha256=juiuqat8FMYUIfqKM3yMf9SlH-zuPjijdfKP4z_dh98,206
+libgenrs/download.py,sha256=c3BS1TGlulWV16hxOxBSwQoZwuoRd6ClC0HQ8FW9o44,5717
+libgenrs/search.py,sha256=W9oZLGjXhp_wqCGyhoinvuEZSvNqSb8XJttmXkhhjAU,14421
+libgenrs/utils.py,sha256=jFrbRLOHZrgvrhqqe1prh2l9pldDHib0F0kdTzR4ovQ,1066
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/libgen_test.py,sha256=EJRLDtYswwX9OQ6sdRO8IsRDALUQq91cI33H0se5Saw,1768
+libgenrs-0.2.3.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+libgenrs-0.2.3.dist-info/METADATA,sha256=gAb3Whz6MuW3-fl9aHAzUgSx8ae0q7HNRszETI7GA4o,6692
+libgenrs-0.2.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+libgenrs-0.2.3.dist-info/top_level.txt,sha256=WlBEi8Undo0N-ENgsciftuifc8qdpXG6HHYOSNmUDho,15
+libgenrs-0.2.3.dist-info/RECORD,,
