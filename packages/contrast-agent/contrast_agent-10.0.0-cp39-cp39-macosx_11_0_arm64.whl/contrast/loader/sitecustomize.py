@@ -1,0 +1,58 @@
+# Copyright © 2025 Contrast Security, Inc.
+# See https://www.contrastsecurity.com/enduser-terms-0317a for more details.
+
+"""
+The sitecustomize.py file is automatically loaded by Python during interpreter
+initialization. Our runner script ensures that it is on the PYTHONPATH which is
+sufficient to make sure it is loaded.
+
+See https://docs.python.org/3/library/site.html for additional details
+"""
+
+### This is the very first line of code we control in the app's python process ###
+
+import contrast_rewriter
+
+# NOTE: This must be applied prior to importing the agent itself. Do not import any
+# other modules before registering the rewriter.
+contrast_rewriter.register()
+
+from contrast.agent.runner import start_runner  # noqa: E402
+
+start_runner()
+
+### Attempt to import the next sitecustomize.py file ###
+
+import os  # noqa: E402
+import sys  # noqa: E402
+
+
+loader_dir = os.path.dirname(__file__)
+if loader_dir not in sys.path:
+    # loader_dir will always be in sys.path when this sitecustomize is
+    # being called by the Python interpreter site startup machinery.
+    # If it's missing, we're being imported by some other module at
+    # runtime, after the site machinery has already run. In that case,
+    # don't attempt to import the next sitecustomize module because
+    # that's not what an uninstrumented Python process would do.
+    pass
+else:
+    # Unhook this sitecustomize from the import machinery.
+    loader_syspath_index = sys.path.index(loader_dir)
+    del sys.path[loader_syspath_index]
+    this_sitecustomize = sys.modules["sitecustomize"]
+    del sys.modules["sitecustomize"]
+
+    # Attempt to import the next sitecustomize module.
+    try:
+        import sitecustomize  # noqa: F401
+    except ImportError:
+        # Only replace sitecustomize if the import fails. Otherwise,
+        # an instrumented runner might assume its sitecustomize is in
+        # place and raise errors if our sitecustomize were imported
+        # instead.
+        sys.modules["sitecustomize"] = this_sitecustomize
+        sys.path.insert(loader_syspath_index, loader_dir)
+
+    # Only catch the ImportError so that we don't swallow exceptions raised
+    # by a buggy third-party sitecustomize implementation.
