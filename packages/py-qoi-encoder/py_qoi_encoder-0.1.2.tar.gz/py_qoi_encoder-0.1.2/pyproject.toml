@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-qoi-encoder"           
+version = "0.1.2"
+description = "A Python QOI encoder/decoder."
+readme = {file = "README.md", content-type ="text/markdown"}
+authors = [
+  { name="Abdulrahman Alsalman", email="abdulrahmanalsalman13@gmail.com" }
+]
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+  "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Source Code" = "https://github.com/Apeto13/py-qoi"
