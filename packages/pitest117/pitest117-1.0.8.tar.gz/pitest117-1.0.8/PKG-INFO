@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pitest117
+Version: 1.0.8
+Summary: A simple example python package.
+Home-page: https://best-practice-and-impact.github.io/example-package-python/
+Author: David Foster
+Author-email: david.foster@ons.gov.uk
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+License-File: LICENSE

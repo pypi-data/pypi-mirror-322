@@ -1,0 +1,32 @@
+from setuptools import setup, find_packages
+from setuptools.command.install import install
+import os
+
+class PackageInstaller(install):
+    def run(self):
+        install.run(self)
+        self.check_hardware()
+    def check_hardware(self):
+        from pitest117.extension import SetEnvironment
+        SetEnvironment.checkEnv()
+
+setup(
+    name = 'pitest117',
+    version = "1.0.8",
+    author = 'David Foster',
+    author_email = 'david.foster@ons.gov.uk',
+    url = 'https://best-practice-and-impact.github.io/example-package-python/',
+    description = 'A simple example python package.',
+    long_description_content_type = "text/x-rst",  # If this causes a warning, upgrade your setuptools package,
+    license = "MIT license",
+    packages = find_packages(exclude=["test"]),  # Don't include test directory in binary distribution
+    include_package_data=True,
+    cmdclass={
+        'install': PackageInstaller,
+    },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ]  # Update these accordingly
+)
