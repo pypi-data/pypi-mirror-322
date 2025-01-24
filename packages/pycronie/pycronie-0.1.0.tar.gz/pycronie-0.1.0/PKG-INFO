@@ -1,0 +1,52 @@
+Metadata-Version: 2.3
+Name: pycronie
+Version: 0.1.0
+Summary: A project to manage cron jobs.
+License: MIT
+Keywords: cron,scheduler,parser
+Author: Robin Lösch
+Author-email: robin@chilio.net
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Repository, https://github.com/crest42/pycronie
+Description-Content-Type: text/markdown
+
+# pycronie
+
+This is a small python project to schedule python function as cron like jobs, using a decorator syntax.
+
+Currently only async function are executed as part of an asyncio event loop.
+
+## Installing
+
+To install this project use
+
+> pip install pycronie
+
+## Example
+
+To schedule a async function one must import the cron decorator and use it on any async function:
+
+```
+from pycronie import cron
+
+@cron("* * * * *")
+async def cron_function():
+    pass
+```
+
+To run the eventloop use run_cron():
+
+```
+crom pycronie import run_cron
+
+run_cron()
+```
