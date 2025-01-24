@@ -1,0 +1,10 @@
+libttv2fast2furious.cpython-313-darwin.so,sha256=WaEv_1Bz3jdE8wkHmANXkFXc5MU_tFxftC74rLtwI7Y,50760
+ttv2fast2furious/__init__.py,sha256=0THS5GX4Xci0Bh9_GA929MgSpe6CVLVzFdFYxmtlXbw,824
+ttv2fast2furious/companion_limits.py,sha256=oiITiBUOsaYf6zqRD6Mo0PFW3y4bb7n-IUOsbtOLDQ4,5809
+ttv2fast2furious/kepler.py,sha256=F6Q-VFRbATEM2MB58BfqDnVoNDjuxG29N8G3bIT9fZo,1947
+ttv2fast2furious/ttv2fast2furious.py,sha256=q3V0v5QFNLTdMcYrr-HAXFsc2TP9cW6z0KQYDuc2e6Q,32835
+ttv2fast2furious/ttv_basis_functions.py,sha256=-wvBVvau22uj8p-QrSA7Kud1iI24NTPwOcXL4J7gdF0,10556
+ttv2fast2furious-1.1.0.dist-info/METADATA,sha256=EfdtwJfYXzIvEGHi8T1xx6Rx4vcW6alaoR-t6hy5yxQ,956
+ttv2fast2furious-1.1.0.dist-info/WHEEL,sha256=zEwrEM3mH_qOUQ9uk3aZI5DMOaUao9_e1G94mKtHrTY,109
+ttv2fast2furious-1.1.0.dist-info/top_level.txt,sha256=lE-dMOXUf6j0fiIDaRR_2MxozAXXxTHpy312hDHaxOg,37
+ttv2fast2furious-1.1.0.dist-info/RECORD,,
