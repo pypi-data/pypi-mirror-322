@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+libgenrs/__init__.py
+libgenrs/download.py
+libgenrs/search.py
+libgenrs/utils.py
+libgenrs.egg-info/PKG-INFO
+libgenrs.egg-info/SOURCES.txt
+libgenrs.egg-info/dependency_links.txt
+libgenrs.egg-info/not-zip-safe
+libgenrs.egg-info/requires.txt
+libgenrs.egg-info/top_level.txt
+tests/__init__.py
+tests/libgen_test.py
