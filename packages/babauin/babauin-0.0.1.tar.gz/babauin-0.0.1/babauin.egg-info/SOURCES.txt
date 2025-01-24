@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+babauin/__init__.py
+babauin.egg-info/PKG-INFO
+babauin.egg-info/SOURCES.txt
+babauin.egg-info/dependency_links.txt
+babauin.egg-info/top_level.txt
