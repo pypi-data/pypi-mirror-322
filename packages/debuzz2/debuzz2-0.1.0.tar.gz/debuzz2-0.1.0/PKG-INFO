@@ -1,0 +1,24 @@
+Metadata-Version: 2.2
+Name: debuzz2
+Version: 0.1.0
+Summary: Ein Django-basiertes Tool zur Verwaltung von Unternehmenskennzahlen
+Home-page: https://github.com/benutzername/debuzz2
+Author: Dein Name
+Author-email: deine.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pip~=24.3.1
+Requires-Dist: Django~=5.1.4
+Requires-Dist: asgiref~=3.8.1
+Requires-Dist: sqlparse~=0.5.3
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

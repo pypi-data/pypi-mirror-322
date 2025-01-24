@@ -1,0 +1,58 @@
+{% extends 'base.html' %} <!-- Basistemplate wird erweitert -->
+
+{% block title %}Unternehmenskennzahlen Taschenrechner{% endblock %} <!-- Seitentitel für das Template -->
+
+{% block content %} <!-- Block für den Hauptinhalt -->
+<h1><strong>Unternehmenskennzahlen Taschenrechner</strong></h1> <!-- Überschrift der Seite -->
+<p>Berechne wichtige Kennzahlen direkt hier</p> <!-- Einführungstext -->
+<p>(Beim Wechseln der Unternehmenskennzahlen klicken Sie auf "Berechnen", und die Werte werden aktualisiert.)</p> <!-- Hinweistext -->
+<form method="get" class="container"> <!-- Formular mit GET-Methode -->
+    <div class="row mb-3"> <!-- Zeile für die Auswahl der Operation -->
+        <label for="operation" class="col-sm-4 col-form-label">Operation auswählen:</label> <!-- Beschriftung für das Auswahlfeld -->
+        <div class="col-sm-8"> <!-- Spalte für das Auswahlfeld -->
+            <select name="operation" id="operation" class="form-select"> <!-- Dropdown-Menü -->
+                <option value="ROI" {% if operation == 'ROI' %}selected{% endif %}>ROI (Return on Investment)</option> <!-- Option für ROI -->
+                <option value="EBIT" {% if operation == 'EBIT' %}selected{% endif %}>EBIT (Earnings Before Interest and Taxes)</option> <!-- Option für EBIT -->
+                <option value="LCR" {% if operation == 'LCR' %}selected{% endif %}>LCR (Liquidity Coverage Ratio)</option> <!-- Option für LCR -->
+                <option value="Break-Even Point" {% if operation == 'Break-Even Point' %}selected{% endif %}>Break-Even Point</option> <!-- Option für Break-Even Point -->
+                <option value="EPS" {% if operation == 'EPS' %}selected{% endif %}>EPS (Earnings per Share)</option> <!-- Option für EPS -->
+                <option value="EKQ" {% if operation == 'EKQ' %}selected{% endif %}>Eigenkapitalquote</option> <!-- Option für Eigenkapitalquote -->
+                <option value="ROE" {% if operation == 'ROE' %}selected{% endif %}>ROE (Return on Equity)</option> <!-- Option für ROE -->
+                <option value="EVA" {% if operation == 'EVA' %}selected{% endif %}>EVA (Economic Value Added)</option> <!-- Option für EVA -->
+                <option value="OCF" {% if operation == 'OCF' %}selected{% endif %}>OCF (Operating Cash Flow)</option> <!-- Option für OCF -->
+                <option value="FCF" {% if operation == 'FCF' %}selected{% endif %}>FCF (Free Cash Flow)</option> <!-- Option für FCF -->
+                <option value="CM" {% if operation == 'CM' %}selected{% endif %}>CM (Contribution Margin)</option> <!-- Option für CM -->
+            </select>
+        </div>
+    </div>
+
+<div class="row mb-3"> <!-- Zeile für den ersten Eingabewert -->
+    <label for="wert1" class="col-sm-4 col-form-label">{{ labels.wert1 }}:</label> <!-- Beschriftung für Wert 1 -->
+    <div class="col-sm-8"> <!-- Spalte für das Eingabefeld -->
+        <input type="text" name="wert1" id="wert1" class="form-control" value="{{ wert1|default:'' }}"> <!-- Eingabefeld für Wert 1 -->
+    </div>
+</div>
+
+<div class="row mb-3"> <!-- Zeile für den zweiten Eingabewert -->
+    <label for="wert2" class="col-sm-4 col-form-label">{{ labels.wert2 }}:</label> <!-- Beschriftung für Wert 2 -->
+    <div class="col-sm-8"> <!-- Spalte für das Eingabefeld -->
+        <input type="text" name="wert2" id="wert2" class="form-control" value="{{ wert2|default:'' }}"> <!-- Eingabefeld für Wert 2 -->
+    </div>
+</div>
+
+<div class="row mb-3" {% if labels.wert3 == "Wert 3" %}style="display: none;"{% endif %}> <!-- Zeile für den dritten Eingabewert, standardmäßig versteckt -->
+    <label for="wert3" class="col-sm-4 col-form-label">{{ labels.wert3 }}:</label> <!-- Beschriftung für Wert 3 -->
+    <div class="col-sm-8"> <!-- Spalte für das Eingabefeld -->
+        <input type="text" name="wert3" id="wert3" class="form-control" value="{{ wert3|default:'' }}"> <!-- Eingabefeld für Wert 3 -->
+    </div>
+</div>
+
+    <div class="row mb-3"> <!-- Zeile für den Berechnen-Button -->
+        <button type="submit" class="btn btn-primary">Berechnen</button> <!-- Button zum Absenden des Formulars -->
+    </div>
+</form>
+
+{% if ergebnis is not None %} <!-- Block zur Anzeige des Ergebnisses -->
+    <h2 class="mt-4">📊 Ergebnis: {{ ergebnis }}</h2> <!-- Ergebnis wird angezeigt -->
+{% endif %}
+{% endblock %}

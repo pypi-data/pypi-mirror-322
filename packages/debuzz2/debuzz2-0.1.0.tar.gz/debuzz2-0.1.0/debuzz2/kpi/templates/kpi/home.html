@@ -1,0 +1,15 @@
+{% extends 'base.html' %} <!-- Das Template erweitert die Basisvorlage -->
+
+{% block title %}🏠 Home – debuzz{% endblock %} <!-- Titel der Seite -->
+
+{% block content %} <!-- Block für den Hauptinhalt der Seite -->
+<h1>Willkommen bei debuzz</h1> <!-- Überschrift der Seite -->
+<p>Erkunde verschiedene Unternehmenskennzahlen und ihre Bedeutung für den Geschäftserfolg.</p> <!-- Einführungstext -->
+<a href="{% url 'kategorisierte_kennzahlen' %}" class="btn">📊 Zu den Kategorien</a> <!-- Link zu den Kategorien mit Button-Style -->
+{% endblock %} <!-- Ende des Inhaltsblocks -->
+
+{% block footer %} <!-- Block für den Footer -->
+<footer>
+    &copy; 2025 debuzz2 – Unternehmenskennzahlen. <!-- Copyright-Hinweis -->
+</footer>
+{% endblock %} <!-- Ende des Footerblocks -->

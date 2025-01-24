@@ -1,0 +1,23 @@
+{% extends 'base.html' %} <!-- Das Template erweitert die Basisvorlage -->
+
+{% block title %}Kategorisierte Unternehmenskennzahlen{% endblock %} <!-- Titel der Seite -->
+
+{% block content %} <!-- Block für den Hauptinhalt der Seite -->
+<h1>📊 Kategorisierte Unternehmenskennzahlen</h1> <!-- Überschrift der Seite -->
+{% for kategorie, kennzahlen_liste in kennzahlen_kategorisiert.items %} <!-- Schleife über alle Kategorien -->
+    <h2>{{ kategorie }}</h2> <!-- Kategorieüberschrift -->
+    <ul> <!-- Liste der Kennzahlen -->
+        {% for kennzahl in kennzahlen_liste %} <!-- Schleife über alle Kennzahlen in der Kategorie -->
+            <li>
+                <strong>Name:</strong> {{ kennzahl.name }}<br> <!-- Name der Kennzahl -->
+                <strong>Kürzel:</strong>
+                <a href="{% url 'taschenrechner' %}?operation={{ kennzahl.kuerzel }}">{{ kennzahl.kuerzel }}</a> <!-- Link zum Taschenrechner mit der Kennzahl -->
+                <strong>Definition:</strong> <em>{{ kennzahl.definition }}</em><br> <!-- Definition der Kennzahl -->
+                {% if kennzahl.berechnungsformel %} <!-- Überprüft, ob eine Formel vorhanden ist -->
+                    <strong>Formel:</strong> {{ kennzahl.berechnungsformel }} <!-- Zeigt die Berechnungsformel an -->
+                {% endif %}
+            </li>
+        {% endfor %} <!-- Ende der Schleife für Kennzahlen -->
+    </ul>
+{% endfor %} <!-- Ende der Schleife für Kategorien -->
+{% endblock %} <!-- Ende des Inhaltsblocks -->

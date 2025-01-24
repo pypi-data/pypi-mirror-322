@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8"> <!-- Zeichencodierung auf UTF-8 setzen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsives Design unterstützen -->
+    <title>{% block title %}debuzz2 - Unternehmenskennzahlen{% endblock %}</title> <!-- Seitentitel, kann durch Block überschrieben werden -->
+    <style>
+        /* Allgemeine Styles */
+        body, html {
+            margin: 0; /* Entfernt Standard-Margins */
+            padding: 0; /* Entfernt Standard-Paddings */
+            height: 100%; /* Höhe auf gesamte Fensterhöhe setzen */
+        }
+
+        /* Flexbox-Layout für die gesamte Seite */
+        .wrapper {
+            display: flex; /* Flexbox aktivieren */
+            flex-direction: column; /* Elemente in Spalten anordnen */
+            min-height: 100vh; /* Mindestens die Höhe des Viewports nutzen */
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #4CAF50; /* Grüner Hintergrund */
+            color: white; /* Weißer Text */
+            padding: 10px 20px; /* Innenabstände */
+            display: flex; /* Flexbox für die Navbar */
+            justify-content: space-between; /* Platz zwischen Logo und Menüelementen */
+            align-items: center; /* Zentriert die Elemente vertikal */
+        }
+
+        nav .logo {
+            font-size: 1.5em; /* Schriftgröße des Logos */
+            font-weight: bold; /* Fettschrift für das Logo */
+        }
+
+        nav .menu {
+            display: flex; /* Flexbox für das Menü */
+            gap: 15px; /* Abstand zwischen den Menüelementen */
+        }
+
+        nav .menu a {
+            color: white; /* Weiße Links */
+            text-decoration: none; /* Keine Unterstreichung */
+            font-weight: 500; /* Mittlere Schriftstärke */
+        }
+
+        nav .menu a:hover {
+            text-decoration: underline; /* Unterstreichung bei Hover */
+        }
+
+        /* Hauptinhalt */
+        .container {
+            flex: 1; /* Nimmt den verbleibenden Platz ein */
+            margin: 30px auto; /* Zentriert den Container horizontal */
+            padding: 20px; /* Innenabstand */
+            max-width: 1000px; /* Maximale Breite des Containers */
+            background-color: white; /* Weißer Hintergrund */
+            border-radius: 8px; /* Abgerundete Ecken */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatteneffekt */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center; /* Zentrierter Text */
+            padding: 10px 0; /* Innenabstände oben und unten */
+            background-color: #4CAF50; /* Grüner Hintergrund */
+            color: white; /* Weißer Text */
+            margin-top: auto; /* Footer bleibt unten */
+        }
+
+        /* Zusätzliche Styles für das Formular */
+        form {
+            display: flex; /* Flexbox für das Formular */
+            flex-direction: column; /* Elemente in Spalten anordnen */
+            align-items: flex-start; /* Links ausrichten */
+            gap: 10px; /* Abstand zwischen den Formularzeilen */
+        }
+
+        .form-row {
+            display: flex; /* Flexbox für Formularzeilen */
+            justify-content: space-between; /* Abstand zwischen Label und Input */
+            align-items: center; /* Vertikale Zentrierung */
+            width: 100%; /* Breite auf 100% setzen */
+        }
+
+        label {
+            flex: 1; /* Labels nehmen denselben Platz ein */
+            text-align: right; /* Text rechtsbündig */
+            margin-right: 10px; /* Abstand zwischen Label und Input */
+        }
+
+        input,
+        select {
+            flex: 2; /* Inputs sind größer als Labels */
+            padding: 5px; /* Innenabstand */
+            border: 1px solid #ccc; /* Rahmenfarbe */
+            border-radius: 5px; /* Abgerundete Ecken */
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">📊 debuzz</div> <!-- Logo mit Icon -->
+        <div class="menu">
+            <a href="{% url 'home' %}">🏠 Home</a> <!-- Link zur Startseite -->
+            <a href="{% url 'kategorisierte_kennzahlen' %}">📋 Kategorien</a> <!-- Link zu den Kategorien -->
+            <a href="{% url 'taschenrechner' %}">🧮 Taschenrechner</a> <!-- Link zum Taschenrechner -->
+        </div>
+    </nav>
+
+    <!-- Hauptinhalt -->
+    <div class="container">
+        {% block content %} <!-- Platzhalter für Seiteninhalt -->
+        {% endblock %}
+    </div>
+
+    <!-- Footer -->
+    {% block footer %} <!-- Platzhalter für den Footer -->
+    <footer>
+        &copy; 2025 debuzz2 – Unternehmenskennzahlen. <!-- Copyright-Hinweis -->
+    </footer>
+    {% endblock %}
+</div>
+</body>
+</html>
+

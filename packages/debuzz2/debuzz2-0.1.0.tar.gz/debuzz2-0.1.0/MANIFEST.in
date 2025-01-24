@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include requirements.txt
+include data.json
+recursive-include debuzz2 *.html
+recursive-include debuzz2 *.py
