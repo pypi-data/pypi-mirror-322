@@ -1,0 +1,8 @@
+odoo==15.0.*
+fastjsonschema
+
+[doc]
+sphinx
+sphinx-odoo-autodoc
+
+[test]
