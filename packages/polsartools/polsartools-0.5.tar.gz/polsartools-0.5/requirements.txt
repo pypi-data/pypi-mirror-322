@@ -1,0 +1,7 @@
+numpy
+gdal
+scipy
+functools
+click
+simplekml
+tqdm
