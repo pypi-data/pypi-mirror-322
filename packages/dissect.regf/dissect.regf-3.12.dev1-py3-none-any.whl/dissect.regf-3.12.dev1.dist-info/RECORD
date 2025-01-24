@@ -1,0 +1,10 @@
+dissect/regf/__init__.py,sha256=PHyO0AcKllkz5znzu_3zm1fLr2uDYU1XurOSK4q_wnU,270
+dissect/regf/c_regf.py,sha256=JQFYsDJC3wJQ0tHDDjpaX6ACXbbkQJ21wwMSGvQq2hA,3118
+dissect/regf/exceptions.py,sha256=44iwqsNcxHZn_kg0jfe5PG4s2CGNzBJx4-VE_-ysVTw,135
+dissect/regf/regf.py,sha256=vND9SZ5KE5zGEl4U1n2E7w60cVxWoYATBxt6hVVL3QY,18397
+dissect.regf-3.12.dev1.dist-info/COPYRIGHT,sha256=y2wlkanE1KOWhvD69yQwaiiWmsxt9zPocNBoCSmIVO0,299
+dissect.regf-3.12.dev1.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+dissect.regf-3.12.dev1.dist-info/METADATA,sha256=JTWg7FZa1Plp25UAwtYtg9K2LwuL2a3ChTy1fhON7Vc,3318
+dissect.regf-3.12.dev1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dissect.regf-3.12.dev1.dist-info/top_level.txt,sha256=Mn-CQzEYsAbkxrUI0TnplHuXnGVKzxpDw_po_sXpvv4,8
+dissect.regf-3.12.dev1.dist-info/RECORD,,
