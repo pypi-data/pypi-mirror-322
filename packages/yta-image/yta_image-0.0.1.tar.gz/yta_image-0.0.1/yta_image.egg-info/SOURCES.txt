@@ -1,0 +1,7 @@
+README.md
+setup.py
+yta_image.egg-info/PKG-INFO
+yta_image.egg-info/SOURCES.txt
+yta_image.egg-info/dependency_links.txt
+yta_image.egg-info/requires.txt
+yta_image.egg-info/top_level.txt
