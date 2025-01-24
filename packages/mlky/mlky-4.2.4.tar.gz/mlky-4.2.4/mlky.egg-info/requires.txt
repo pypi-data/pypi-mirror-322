@@ -1,0 +1,8 @@
+click
+PyYAML
+
+[docs]
+mkdocs
+mkapi
+mkdocstrings[python]
+pytkdocs[numpy-style]
