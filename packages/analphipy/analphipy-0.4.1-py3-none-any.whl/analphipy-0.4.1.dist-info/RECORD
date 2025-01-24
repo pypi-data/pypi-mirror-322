@@ -1,0 +1,15 @@
+analphipy/__init__.py,sha256=vJjY2ePLfzddkofB6_aePB-5QKzLuKROCVcCuubwz2U,863
+analphipy/_attrs_utils.py,sha256=SXG42Ti1xIsTUP152kgQ_NH7j9IvRSKNAUl4B8XpyS0,1119
+analphipy/_docstrings.py,sha256=T_YVlVqpkRY_Ar8FEFurra2YYU9KO3jPuTCvO930MOk,2684
+analphipy/_typing.py,sha256=ycuhHjsTDxsNKQF5DH8DcAmkfy6tMB9JorWmHiPzg54,1653
+analphipy/_typing_compat.py,sha256=h5RvdRgJq8caQex5VcFLtpYeFahab8kKZZsGPokThAk,401
+analphipy/base_potential.py,sha256=CoJVNen0KBtbkKKZPkpTUOc6EgTqZikCdoqDisn7FkU,14159
+analphipy/measures.py,sha256=toS1ZawC7sHhgFVMdvaPrSdjyTtVNVRSWLtXuk79bWc,14220
+analphipy/norofrenkel.py,sha256=C8gvsNDTJ7TWuwK6EpPBqymHUleJSZBoVx_REoYLOW4,16884
+analphipy/potential.py,sha256=CVLWHgjEfe8DnWZ0VnZ5EOiibvR6wrewn0zAOmwuxEU,16564
+analphipy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+analphipy/utils.py,sha256=U8OcTrVlg9whVP429ARJmPQ0fZ2adO1tXNE3Eeoi51w,6543
+analphipy-0.4.1.dist-info/METADATA,sha256=-mHobQDtFkhyMlhnpUBFMi-YHJeKo2RDrR40q-lyGno,7692
+analphipy-0.4.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+analphipy-0.4.1.dist-info/licenses/LICENSE,sha256=j_sUyRmuUbF_c9KR7g_uTdRv-cBn65wjYQpmusAzyT0,1645
+analphipy-0.4.1.dist-info/RECORD,,
