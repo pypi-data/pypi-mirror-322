@@ -1,0 +1,128 @@
+body.login {
+  background-color: #1a1f36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+#content-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 900px;
+  height: 600px;
+  margin: 0px 20%;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#login-form {
+  border-radius: 8px;
+  background-color: #fff;
+  width:45%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-main > div:first-child {
+  padding: 40px;
+  width: 60%;
+}
+
+#content-main h1 {
+  font-size: 2rem;
+  color: #d81a5e;
+  margin-bottom: 10px;
+}
+
+#content-main p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+#content-main .form-row {
+  margin-bottom: 20px;
+}
+
+#content-main .form-row label {
+  display: block;
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+#content-main .form-row input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #d6bbbb;
+  background-color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#content-main .form-row input:focus {
+  border-color: #d81a5e;
+  outline: none;
+  box-shadow: 0 0 3px rgba(216, 26, 94, 0.3);
+}
+
+#content-main .submit-row input[type="submit"] {
+  background-color: #d81a5e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#content-main .submit-row input[type="submit"]:hover {
+  background-color: #bf164e;
+}
+
+#content-main .password-reset-link {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+#content-main .password-reset-link a {
+  color: #d81a5e;
+  text-decoration: none;
+}
+
+#content-main .password-reset-link a:hover {
+  text-decoration: underline;
+}
+
+#content-main > div:last-child {
+  width: 40%;
+  background-color: #d81a5e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 20px;
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+}
+
+.titleADMIN{
+    font-family:monospace ;
+    font-size: xx-large !important;
+    margin-bottom: 20px !important;
+}
