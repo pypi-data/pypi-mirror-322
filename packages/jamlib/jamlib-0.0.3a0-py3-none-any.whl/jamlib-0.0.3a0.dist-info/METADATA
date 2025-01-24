@@ -1,0 +1,37 @@
+Metadata-Version: 2.3
+Name: jamlib
+Version: 0.0.3a0
+Summary: Simple and univirsal library for authorization
+License: MIT
+Author: Makridenko Adrian
+Author-email: adrianmakridenko@duck.com
+Requires-Python: >=3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pydantic (>=2.10.5,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.7.1,<3.0.0)
+Project-URL: Homepage, https://github.com/lyaguxafrog/jam
+Project-URL: Issues, https://github.com/lyaguxafrog/jam/issues
+Project-URL: Repository, https://github.com/lyaguxafrog/jam
+Description-Content-Type: text/markdown
+
+# jam
+
+![Static Badge](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
+![tests](https://github.com/lyaguxafrog/jam/actions/workflows/run-tests.yml/badge.svg) ![License](https://img.shields.io/badge/Licese-MIT-grey?link=https%3A%2F%2Fgithub.com%2Flyaguxafrog%2Fjam%2Fblob%2Frelease%2FLICENSE.md)
+
+
+> [!CAUTION]
+> In active development! Cannot be used in real projects!
+> 
+
+
+## Features
+- [ ] JWT Making
+- [ ] Another crypt alghorutms
+- [ ] White/Black lists
+- [ ] Session Maker
+- [ ] Integration with Django, FastAPI, Strawberry
+- [ ] OAuth2
+
