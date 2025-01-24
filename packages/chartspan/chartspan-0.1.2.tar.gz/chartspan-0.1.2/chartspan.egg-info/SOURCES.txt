@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+chartspan/__init__.py
+chartspan/chartspan.py
+chartspan.egg-info/PKG-INFO
+chartspan.egg-info/SOURCES.txt
+chartspan.egg-info/dependency_links.txt
+chartspan.egg-info/requires.txt
+chartspan.egg-info/top_level.txt
+tests/__init__.py
+tests/test_chartspan.py
