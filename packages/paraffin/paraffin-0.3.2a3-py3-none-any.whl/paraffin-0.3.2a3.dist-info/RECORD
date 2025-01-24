@@ -1,0 +1,16 @@
+paraffin/.gitignore,sha256=WoW6fN0KHDGEl-aeIN8JvHP5mOhIsGSxcwKPNhhq7V8,8
+paraffin/__init__.py,sha256=6mvLrVs2FFKNqDxMbguzYdA2MryL3iIBa_uDkCA9LKI,80
+paraffin/cli.py,sha256=Jef0GfsOrAwjI0xS4fXEPjBzHIJulY0aX9CLBuc_Rt8,2756
+paraffin/db.py,sha256=78j2I4OmOGYlrNlGUQP3CEjh5F2fjcmXqzTQz5wKhqs,6201
+paraffin/static/assets/index-BsNpA6jL.js,sha256=6-sWngybWDs3tfYNH653u0Hz7ug3iMCIyc9rlT97D7M,554806
+paraffin/static/assets/index-C59RqWut.css,sha256=2A7tWQxmuu3UvgKKM-Ri7QgojJPQ04VFDwY79CPlOSo,247027
+paraffin/static/index.html,sha256=RZ0XelV2b3ZYXI0SDQsc5KCdfaAOy6-ogtUT50aruJ4,464
+paraffin/static/vite.svg,sha256=__cChi4Uw84Bm4HYbgegc0dkysIspdu-hULUpoLkgrI,1498
+paraffin/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paraffin/ui/app.py,sha256=_qO3IlTKW45sweRx8aHr4Cut2nqBdl_0Z7ymcV4kumw,716
+paraffin/utils.py,sha256=Fpxw6Q08yXHVBEwsjWZM208vH6WMNkJ68ousa-o4xFo,3478
+paraffin-0.3.2a3.dist-info/LICENSE,sha256=FKf4VPZYbuyRVMVSrl6HO48bnw6ih8Uur5y-h_MJAcA,13576
+paraffin-0.3.2a3.dist-info/METADATA,sha256=whr0Zv6gWhWKtKnYe5h1-FSrL7Kh7eq2h7_ZLICkisM,4311
+paraffin-0.3.2a3.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+paraffin-0.3.2a3.dist-info/entry_points.txt,sha256=UuCbRtmXlTQRB_2SJTDtXtmPhkbUbJ06cVGAVdPDt4I,45
+paraffin-0.3.2a3.dist-info/RECORD,,
