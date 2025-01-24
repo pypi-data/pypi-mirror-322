@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: html_lib_proxy
+Version: 0.8
+Summary: test
+Author: tenc123
+Author-email: myz50w@gmail.com
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary
