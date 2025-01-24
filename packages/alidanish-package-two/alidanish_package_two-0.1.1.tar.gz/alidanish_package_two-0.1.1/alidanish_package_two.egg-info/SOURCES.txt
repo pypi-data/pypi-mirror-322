@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+alidanish_package_two/__init__.py
+alidanish_package_two/utils.py
+alidanish_package_two.egg-info/PKG-INFO
+alidanish_package_two.egg-info/SOURCES.txt
+alidanish_package_two.egg-info/dependency_links.txt
+alidanish_package_two.egg-info/top_level.txt
