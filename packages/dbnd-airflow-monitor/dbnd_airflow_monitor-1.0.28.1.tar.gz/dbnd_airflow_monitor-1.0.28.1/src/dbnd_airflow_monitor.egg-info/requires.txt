@@ -1,0 +1,8 @@
+dbnd==1.0.28.1
+dbnd-monitor==1.0.28.1
+setuptools
+
+[tests]
+pytest
+mock
+sh
