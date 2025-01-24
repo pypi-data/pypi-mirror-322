@@ -1,0 +1,37 @@
+Metadata-Version: 2.2
+Name: Topsis-Vansh-102203021
+Version: 0.1.0
+Summary: A Python package to implement the Topsis method.
+Author: Vansh
+Author-email: vansh@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
+
+# Topsis-FirstName-RollNumber
+
+**A Python package for implementing the TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) decision-making method.**
+
+## 📌 Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Functionality](#functionality)
+4. [Examples](#examples)
+5. [Requirements](#requirements)
+6. [License](#license)
+
+## 🛠️ Installation
+
+To install the package from **PyPI**, you can simply use pip. Open your terminal and run the following command:
+
+```bash
+pip install Topsis-FirstName-RollNumber
