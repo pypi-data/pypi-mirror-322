@@ -1,0 +1,15 @@
+nvidia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia/cufft/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia/cufft/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia/cufft/bin/cufft64_11.dll,sha256=YZ_LAFyKGP-tR4_2i3qc0VT6Fw6DXc6dQf9PwMBpIRM,276121088
+nvidia/cufft/bin/cufftw64_11.dll,sha256=3XeLwYwgUMk3J5ZWzbvdKjdiPqW_OMCevPZFF3G3--M,163328
+nvidia/cufft/include/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia/cufft/include/cudalibxt.h,sha256=oWgDIGMOdgyygiO-hvcgF4sbl3fx1TY4Zlqx7rsnRZE,4202
+nvidia/cufft/include/cufft.h,sha256=Ze6GLN6ni-f92lJaK7unQvrkgELyTWszfFj9jsENpbk,13504
+nvidia/cufft/include/cufftXt.h,sha256=Qg60zsp-YDxKSDtoHXCFlRjn4qhp-vCcaWMSvcMc2qc,13223
+nvidia/cufft/include/cufftw.h,sha256=ZK_MaHkKTkalslVurWUC9myiOtReqI7ls2hltM9NM1o,20516
+nvidia_cufft_cu12-11.3.3.41.dist-info/License.txt,sha256=rW9YU_ugyg0VnQ9Y1JrkmDDC-Mk_epJki5zpCttMbM0,59262
+nvidia_cufft_cu12-11.3.3.41.dist-info/METADATA,sha256=UXOO9Z5xleR8o-WuE4URz3ccbPL9FkOlwkub6SjiM9g,1543
+nvidia_cufft_cu12-11.3.3.41.dist-info/WHEEL,sha256=z8gukVdnGwjcwo0VnsfJMrhPu5QJT68VcMWmAgvAufw,97
+nvidia_cufft_cu12-11.3.3.41.dist-info/top_level.txt,sha256=fTkAtiFuL16nUrB9ytDDtpytz2t0B4NvYTnRzwAhO14,7
+nvidia_cufft_cu12-11.3.3.41.dist-info/RECORD,,
