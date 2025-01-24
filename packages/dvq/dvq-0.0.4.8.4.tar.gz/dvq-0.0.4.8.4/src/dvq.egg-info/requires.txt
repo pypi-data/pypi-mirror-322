@@ -1,0 +1,10 @@
+numpy
+matplotlib
+persim
+ripser
+Cython
+tqdm
+sourmash
+
+[test]
+pytest
