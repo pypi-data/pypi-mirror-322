@@ -1,0 +1,6 @@
+protobuf~=5.29.1
+
+[dev]
+build~=1.2.2
+setuptools-git-versioning<3,>=2.0
+setuptools~=75.6.0
