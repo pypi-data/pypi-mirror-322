@@ -1,0 +1,9 @@
+metacontroller_api/__init__.py,sha256=3H9zlXzK-3tThvqdLvMnfcf_7ElhC1bc3gwcyEko1lQ,746
+metacontroller_api/controllers.py,sha256=PEX-DPhiRsEmDN1jmeE9FGJs5aJkVPUFVpM1TDPrLeU,1154
+metacontroller_api/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metacontroller_api/types.py,sha256=tHDRWBMDXDvh6Y12X2P9FXJGNopFZ_dJaTuQL3cluJE,8359
+metacontroller_api/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metacontroller_api/contrib/flask.py,sha256=QO12S6HkDxX7Y_f9u0edmK-BU29Du5itMORXHQ3hMq0,3393
+metacontroller_api-0.1.1.dist-info/METADATA,sha256=K_aZ73wsWyIVkGa7smoq5TpaEM-LQOrY71YeiCfnfVk,1166
+metacontroller_api-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+metacontroller_api-0.1.1.dist-info/RECORD,,

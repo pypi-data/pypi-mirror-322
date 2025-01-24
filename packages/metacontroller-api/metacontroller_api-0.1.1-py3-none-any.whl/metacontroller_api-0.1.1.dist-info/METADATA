@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: metacontroller-api
+Version: 0.1.1
+Summary: Convenient package for implement Kubernetes controllers using Metacontroller.
+Author-email: Niklas Rosenstein <rosensteinniklas@gmail.com>
+Requires-Python: >=3.13
+Requires-Dist: flask>=3.1.0
+Requires-Dist: loguru>=0.7.3
+Description-Content-Type: text/markdown
+
+# python-metacontroller-api
+
+[Metacontroller]: https://github.com/metacontroller/metacontroller/
+
+API for implementing Kubernetes controllers via [Metacontroller].
+
+## Example
+
+```python
+from metacontroller_api import DecoratorController, DecoratorSyncRequest, DecoratorSyncResponse, Factories
+from metacontroller_api.contrib.flask import MetacontrollerBlueprint
+from flask import Flask
+
+class MyController(DecoratorController):
+
+    def sync(self, request: DecoratorSyncRequest) -> DecoratorSyncResponse:
+        # ...
+        return {
+            "labels": {},
+            "annotations": {},
+            "status": {},
+            "attachments": [
+                # ...
+            ],
+            "resyncAfterSeconds": 0,
+        }
+
+app = Flask(__name__)
+app.register_blueprint(MetacontrollerBlueprint(MyController()))
+app.run()
+```
