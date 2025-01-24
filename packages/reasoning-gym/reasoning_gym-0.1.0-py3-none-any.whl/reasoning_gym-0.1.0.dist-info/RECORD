@@ -1,0 +1,12 @@
+reasoning_gym/__init__.py,sha256=mVbsmFEMWvdTOgP-a981xxqW4ejNZDmwoS2NgzVAMPc,237
+reasoning_gym/arithmetic/__init__.py,sha256=NXdiS5TfPUUVWCYSQfhwID_dCh4MqBNzJL1bRPSAWHM,229
+reasoning_gym/arithmetic/basic_arithmetic.py,sha256=IK1V0hu_7hB5VtQAv7L0LZtdZQxOhNKuk6twlze8qFM,7918
+reasoning_gym/arithmetic/chain_sum.py,sha256=kr0AY849oTajI3TRfuowfzcRKn-Cx59siU_vm3fJ8Mg,5292
+reasoning_gym/cognition/__init__.py,sha256=UhkIs6q6bY4FS9KIB2LpaH86L5z7xFdp8oazgcaJNJ4,285
+reasoning_gym/cognition/sequences.py,sha256=XZcs29jBz0x04qBSY_9sg2_NUbvGLVcXNXYEXYvQpU0,8152
+reasoning_gym/logic/__init__.py,sha256=sMY5_LwChbRhYzfISXDtJZay3dVPYKs4M_jYHQKmqM8,338
+reasoning_gym/logic/propositional_logic.py,sha256=LAU-HcGmctdALWCRYGe39fPjYgc_Y9puVeJ3_T3hjv0,8601
+reasoning_gym-0.1.0.dist-info/METADATA,sha256=yxYvQXmb77DbvLNgRCYsDr3Kojo20pG2QHPhRNyGGGk,5743
+reasoning_gym-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+reasoning_gym-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+reasoning_gym-0.1.0.dist-info/RECORD,,
