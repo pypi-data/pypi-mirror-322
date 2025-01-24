@@ -1,0 +1,9 @@
+long2short/__init__.py,sha256=zdS8XZOmnowZfvCiXbI6PfbhVFjwWQOMh1IbyLTeqfc,350
+long2short/chunker.py,sha256=kFG9gL3nuLm1ChT9253xMJleiV-lt6Ej-LNfAwgmhoE,4011
+long2short/long2short.py,sha256=OCuPIc_eW6D6xqipm_9S1VBxz7FhsTSojbbSA0rtHmc,3702
+long2short/models.py,sha256=SHDWDYDA2PWv-TbCjpaEJZdN_QzII8ZE639obP8mQeo,1757
+long2short/tokenizer.py,sha256=R2nFwKZkfXzp2PEk0wlmBADjat5jdsjgltu8Bv_hbOw,677
+long2short-0.1.4.dist-info/METADATA,sha256=Y8zkT8wtyCyDqScW6bz34d2QyN6yqaoHblPqV5lxjH8,6372
+long2short-0.1.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+long2short-0.1.4.dist-info/top_level.txt,sha256=HLmSH46tx7-XpH0eI0OQ451_fEgNQBOg1XszGtkwzec,11
+long2short-0.1.4.dist-info/RECORD,,
