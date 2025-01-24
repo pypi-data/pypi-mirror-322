@@ -1,0 +1,25 @@
+Metadata-Version: 2.2
+Name: sbai
+Version: 0.1.0
+Summary: A short description of the SBAI package
+Author-email: Shayan Bhutto <py@shayanbhutto.com>
+Project-URL: Homepage, https://github.com/shayanbhutto/sbai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai>=1.0
+Requires-Dist: google-generativeai>=0.3.0
+
+# SBAI
+
+A Python package for [describe what your package does].
+
+## Installation
+
+```bash
+pip install sbai
+
+## Usage
